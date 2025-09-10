@@ -9,18 +9,29 @@ Proposed functions:
 * Outside temperature
 
 Front panel would have a display, a couple of buttons/knobs
-and a USB plug for power from the stereo plus software updates.
+and a USB plug for power from the stereo plus software updates
+using Arduino boot loader.
 
 ## Resources
 
+See [https://github.com/eshazen/town_ident](https://github.com/eshazen/town_ident)
+for a preliminary version based on ATMega328.
+
+### Processor
+
+The Arduino MKR Zero seems a good bet, with SAMD21 processor and uSD card on-board.
+Ordered one from Amazon.
+
 ### Display
 
-Best bet for display seems to be common 3.12" OLED (256x64).
-Legit supplier is DigiKey (NHD-3.12-25664UCY2-ND) for $38.
-Link to
-[Datasheet](https://newhavendisplay.com/content/specs/NHD-3.12-25664UCY2.pdf).
+Ordered this 3.12" OLED with 16-pin connector from Amazon:  [https://a.co/d/5zJTbLo](https://a.co/d/5zJTbLo)
+Asked ChatGPT for a pinout and it came up with [this](https://chatgpt.com/share/68c1a13d-e6dc-8000-bd67-d93712c7cb28).
 
-PCB is 3.5 x 1.75 in (approx)
+Also see [ER-OLEDM028-1_Interfacing.pdf](../Docs/ER-OLEDM028-1_Interfacing.pdf).
+
+Link to
+[Datasheet](https://newhavendisplay.com/content/specs/NHD-3.12-25664UCY2.pdf) for DigiKey version.
+
 
 Library candidates:
 
