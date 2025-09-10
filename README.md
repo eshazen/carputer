@@ -27,7 +27,7 @@ Ordered one from Amazon.
 Ordered this 3.12" OLED with 16-pin connector from Amazon:  [https://a.co/d/5zJTbLo](https://a.co/d/5zJTbLo)
 Asked ChatGPT for a pinout and it came up with [this](https://chatgpt.com/share/68c1a13d-e6dc-8000-bd67-d93712c7cb28).
 
-Also see [ER-OLEDM028-1_Interfacing.pdf](../Docs/ER-OLEDM028-1_Interfacing.pdf).
+Also see [ER-OLEDM028-1_Interfacing.pdf](Docs/ER-OLEDM028-1_Interfacing.pdf).
 
 Link to
 [Datasheet](https://newhavendisplay.com/content/specs/NHD-3.12-25664UCY2.pdf) for DigiKey version.
