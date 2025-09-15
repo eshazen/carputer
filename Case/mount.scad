@@ -108,7 +108,8 @@ cut1_dx = 15;
 cut2_x = 129;
 cut2_dx = 15;
 
-din_cut = 15;
+// din_cut = 15;
+din_cut = 10;
 
 
 // frame with DIN openings
