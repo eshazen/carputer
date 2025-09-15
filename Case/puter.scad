@@ -36,6 +36,7 @@ module box() {
 	  // cavity
 	  translate( [body_thk, body_thk, body_thk])
 	       cube( [body_w-2*body_thk, body_h-2*body_thk, body_d]);
+	  echo("Cavity", body_w-2*body_thk, body_h-2*body_thk, body_d);
      }
 }
 
@@ -50,11 +51,16 @@ module panel() {
 // oled();
 
 // box();
-translate( [0, 0, 5]) {
-     difference() {
-	  panel();
-	  oled_holes();
-     }
-}
+//translate( [0, 0, 5]) {
+//     difference() {
+//       	  panel();
+//	  oled_holes();
+//     }
+//}
 
-translate( [0, 0, 3]) oled();
+
+translate( [-161, 70, 10])
+  import("control-panel.stl");
+translate( [-12, 0, 13]) oled();
+
+import("Unnamed-MKRZero_V5.0.stl");
