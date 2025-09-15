@@ -3,4 +3,5 @@
   (lib (name "my_footprints")(type "KiCad")(uri "${KIPRJMOD}/my_footprints")(options "")(descr ""))
   (lib (name "my_cherry")(type "KiCad")(uri "${KIPRJMOD}/my_cherry.pretty")(options "")(descr ""))
   (lib (name "my_mtg_hole")(type "KiCad")(uri "${KIPRJMOD}/my_mtg_hole.pretty")(options "")(descr ""))
+  (lib (name "PCM_arduino-library")(type "KiCad")(uri "/home/hazen/work/arduino-kicad-library/footprints/arduino-library.pretty")(options "")(descr ""))
 )
