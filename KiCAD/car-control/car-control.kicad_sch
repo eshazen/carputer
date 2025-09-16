@@ -7213,7 +7213,7 @@
 		(lib_id "Mechanical:Housing")
 		(at 43.18 187.96 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
