@@ -226,6 +226,44 @@
 			)
 		)
 	)
+	(dimension
+		(type orthogonal)
+		(layer "User.2")
+		(uuid "9904cdb3-93af-47cf-ab4a-1009b5c326cc")
+		(pts
+			(xy 0 0) (xy 100.457 0)
+		)
+		(height -2.3)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "100.457"
+			(at 50.2285 -3.45 0)
+			(layer "User.2")
+			(uuid "9904cdb3-93af-47cf-ab4a-1009b5c326cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
 	(pad "1" thru_hole rect
 		(at 4.572 7.366)
 		(size 1.7 1.7)
@@ -387,15 +425,15 @@
 		(uuid "94e75332-0082-4061-8ceb-3dbe7c1e870d")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x08_P2.54mm_Vertical.step"
+	(model "${KIPRJMOD}/3D/oled.wrl"
 		(offset
-			(xyz 0 0 0)
+			(xyz 49.5 -16.5 1)
 		)
 		(scale
-			(xyz 1 1 1)
+			(xyz 0.3937 0.3937 0.3937)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

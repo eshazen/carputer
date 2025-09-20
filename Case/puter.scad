@@ -40,27 +40,27 @@ module box() {
      }
 }
 
-//
+
 // front panel, centered
-//
+
 module panel() {
-     translate( [-panel_w/2, -panel_h/2, 0])
-	  color("brown") cube( [panel_w, panel_h, body_thk]);
+     translate( [-panel_w/2, -panel_h/2, 10])
+	  % cube( [panel_w, panel_h, body_thk]);
 }
 
-// oled();
-
-// box();
-//translate( [0, 0, 5]) {
-//     difference() {
-//       	  panel();
-//	  oled_holes();
-//     }
-//}
+box();
+translate( [0, 0, 5]) {
+     difference() {
+       	  panel();
+     }
+}
 
 
-translate( [-161, 70, 10])
-  import("control-panel.stl");
-translate( [-12, 0, 13]) oled();
+translate( [-161, 70, 10]) color("green") import("car-control.stl");
+translate( [-13.5, 0.1, 13])
+ oled();
 
-import("Unnamed-MKRZero_V5.0.stl");
+// translate( [-15.3, -4,0])
+// rotate([0,0,180])
+//  color("red")import("Unnamed-MKRZero_V5.0.stl");
+

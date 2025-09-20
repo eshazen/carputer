@@ -1,5 +1,5 @@
 // OLED display dims
-opcb_w = 3.955*mm;
+opcb_w = 100;
 opcb_h = 1.316*mm;
 opcb_t = 1;
 
