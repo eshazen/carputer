@@ -11,7 +11,8 @@ include <oled.scad>
 //
 // case body
 //
-body_w = 182;
+// body_w = 182;
+body_w = 172;
 body_h = 52;
 body_d = 5*mm;
 // body_d = 10;     /* fast print */
@@ -36,7 +37,8 @@ module box() {
 	  // cavity
 	  translate( [body_thk, body_thk, body_thk])
 	       cube( [body_w-2*body_thk, body_h-2*body_thk, body_d]);
-	  echo("Cavity", body_w-2*body_thk, body_h-2*body_thk, body_d);
+	  echo("Cavity (mm)", body_w-2*body_thk, body_h-2*body_thk, body_d);
+	  echo("Cavity (in)", (body_w-2*body_thk)/mm, (body_h-2*body_thk)/mm, body_d/mm);
      }
 }
 
