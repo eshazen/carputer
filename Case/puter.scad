@@ -11,8 +11,6 @@ include <oled.scad>
 //
 // case body
 //
-// body_w = 182;
-
 body_spc = 0.05*mm;
 
 body_w = 6.875*mm-body_spc;
@@ -25,6 +23,22 @@ body_lip = 2.0;
 
 panel_w = body_w + 2*body_lip;
 panel_h = body_h + 2*body_lip;
+
+// PCB mounting holes
+pcb_hole_dx = 6.25*mm;
+pcb_hole_dy = 1.5*mm;
+pcb_hole_dia = 0.098*mm;	/* 4-40 tap drill */
+pcb_standoff_dia = 0.25*mm;
+pcb_standoff_down = 0.25*mm;
+
+module standoff_at( x, y, dia, hole, hgt) {
+  translate( [x, y, 0])
+  difference() {
+    cylinder( d=dia, h=hgt);
+    translate( [0, 0, -e])
+      cylinder( d=hole, h=hgt+2*e);
+  }
+}
 
 // draw box with lip, centered
 module box() {
@@ -48,6 +62,12 @@ module box() {
 	  echo("Cavity (mm)", body_w-2*body_thk, body_h-2*body_thk, body_d);
 	  echo("Cavity (in)", (body_w-2*body_thk)/mm, (body_h-2*body_thk)/mm, body_d/mm);
      }
+     translate( [0, 0, -body_d+body_thk-e]) {
+       standoff_at( -pcb_hole_dx/2, -pcb_hole_dy/2, pcb_standoff_dia, pcb_hole_dia, body_d-pcb_standoff_down); 
+       standoff_at( -pcb_hole_dx/2, pcb_hole_dy/2, pcb_standoff_dia, pcb_hole_dia, body_d-pcb_standoff_down);
+       standoff_at( pcb_hole_dx/2, -pcb_hole_dy/2, pcb_standoff_dia, pcb_hole_dia, body_d-pcb_standoff_down); 
+       standoff_at( pcb_hole_dx/2, pcb_hole_dy/2, pcb_standoff_dia, pcb_hole_dia, body_d-pcb_standoff_down);
+    }
 }
 
 
