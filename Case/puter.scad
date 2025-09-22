@@ -31,12 +31,22 @@ pcb_hole_dia = 0.098*mm;	/* 4-40 tap drill */
 pcb_standoff_dia = 0.25*mm;
 pcb_standoff_down = 0.25*mm;
 
-module standoff_at( x, y, dia, hole, hgt) {
-  translate( [x, y, 0])
-  difference() {
-    cylinder( d=dia, h=hgt);
-    translate( [0, 0, -e])
-      cylinder( d=hole, h=hgt+2*e);
+pcb_so_supp_wid = 3;
+pcb_so_supp_len = pcb_hole_dia/2+6;
+
+module standoff_at( x, y, dia, hole, hgt, rot) {
+    translate( [x, y, 0]) {
+      rotate( [0, 0, rot]) {
+      difference() {
+	union() {
+	  cylinder( d=dia, h=hgt);
+	  translate( [-pcb_so_supp_wid/2, -pcb_so_supp_len, 0])
+	    cube( [pcb_so_supp_wid, pcb_so_supp_len, hgt]);
+	}
+	translate( [0, 0, -e])
+	  cylinder( d=hole, h=hgt+2*e);
+      }
+    }
   }
 }
 
@@ -63,10 +73,10 @@ module box() {
 	  echo("Cavity (in)", (body_w-2*body_thk)/mm, (body_h-2*body_thk)/mm, body_d/mm);
      }
      translate( [0, 0, -body_d+body_thk-e]) {
-       standoff_at( -pcb_hole_dx/2, -pcb_hole_dy/2, pcb_standoff_dia, pcb_hole_dia, body_d-pcb_standoff_down); 
-       standoff_at( -pcb_hole_dx/2, pcb_hole_dy/2, pcb_standoff_dia, pcb_hole_dia, body_d-pcb_standoff_down);
-       standoff_at( pcb_hole_dx/2, -pcb_hole_dy/2, pcb_standoff_dia, pcb_hole_dia, body_d-pcb_standoff_down); 
-       standoff_at( pcb_hole_dx/2, pcb_hole_dy/2, pcb_standoff_dia, pcb_hole_dia, body_d-pcb_standoff_down);
+       standoff_at( -pcb_hole_dx/2, -pcb_hole_dy/2, pcb_standoff_dia, pcb_hole_dia, body_d-pcb_standoff_down, 270); 
+       standoff_at( -pcb_hole_dx/2, pcb_hole_dy/2, pcb_standoff_dia, pcb_hole_dia, body_d-pcb_standoff_down, 270);
+       standoff_at( pcb_hole_dx/2, -pcb_hole_dy/2, pcb_standoff_dia, pcb_hole_dia, body_d-pcb_standoff_down, 90); 
+       standoff_at( pcb_hole_dx/2, pcb_hole_dy/2, pcb_standoff_dia, pcb_hole_dia, body_d-pcb_standoff_down, 90);
     }
 }
 
@@ -89,7 +99,7 @@ box();
 // }
 // 
 // 
-// translate( [-body_w+0.65*mm, 70, 10]) {
-//       color("green") import("car-control.stl");
-//       translate( [147.5, -69.7, 3]) oled();
-// }
+translate( [-body_w+0.62*mm, 71.8, 10]) {
+      color("green") import("car-control.stl");
+      translate( [147.5, -69.9, 3]) oled();
+}
