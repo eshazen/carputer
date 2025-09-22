@@ -12,9 +12,12 @@ include <oled.scad>
 // case body
 //
 // body_w = 182;
-body_w = 172;
-body_h = 52;
-body_d = 5*mm;
+
+body_spc = 0.05*mm;
+
+body_w = 6.875*mm-body_spc;
+body_h = 2.125*mm-body_spc;
+body_d = 2.5*mm;
 // body_d = 10;     /* fast print */
 
 body_thk = 1.6;
@@ -37,6 +40,11 @@ module box() {
 	  // cavity
 	  translate( [body_thk, body_thk, body_thk])
 	       cube( [body_w-2*body_thk, body_h-2*body_thk, body_d]);
+	  // wiring hole
+	  translate( [4*body_w/5, body_h/2, -e])
+	       cylinder( d=0.375*mm, h=10);
+
+
 	  echo("Cavity (mm)", body_w-2*body_thk, body_h-2*body_thk, body_d);
 	  echo("Cavity (in)", (body_w-2*body_thk)/mm, (body_h-2*body_thk)/mm, body_d/mm);
      }
@@ -47,22 +55,21 @@ module box() {
 
 module panel() {
      translate( [-panel_w/2, -panel_h/2, 10])
-	  % cube( [panel_w, panel_h, body_thk]);
+	  cube( [panel_w, panel_h, body_thk]);
 }
 
 box();
-translate( [0, 0, 5]) {
-     difference() {
-       	  panel();
-     }
-}
 
-
-translate( [-161, 70, 10]) color("green") import("car-control.stl");
-translate( [-13.5, 0.1, 13])
- oled();
-
-// translate( [-15.3, -4,0])
-// rotate([0,0,180])
-//  color("red")import("Unnamed-MKRZero_V5.0.stl");
-
+// translate( [0, 0, 5]) {
+//      difference() {
+//        	  color("brown") panel();
+// 	  translate( [-body_w+0.65*mm, 70, 0])
+// 	       translate( [147.5, -69.7, 0]) oled_holes();
+//      }
+// }
+// 
+// 
+// translate( [-body_w+0.65*mm, 70, 10]) {
+//       color("green") import("car-control.stl");
+//       translate( [147.5, -69.7, 3]) oled();
+// }

@@ -43,7 +43,7 @@ module oled_holes() {
 	  hole_at( opcb_w-dx, opcb_h-dy, ohol_dia);
 
 	  translate( [(opcb_w-odpy_w)/2-spc, (opcb_h-odpy_h)/2-spc, -e])
-	  cube( [odpy_w+2*spc, odpy_h+2*spc, 10]);
+	  cube( [odpy_w+2*spc, odpy_h+2*spc, 20]);
      }
      
 }

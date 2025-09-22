@@ -70,6 +70,14 @@ module din_open( wid, hgt) {
      }
 }
 
+module test_open2() {
+     translate( [0, -din_c2c/2, 0]) {
+	  din_open( din_w, din_h);
+	  translate( [0, din_c2c, 0]) din_open( din_w2, din_h);
+     }
+}
+
+
 // Two openings centered
 module din_open2() {
      translate( [0, -din_c2c/2, 0]) {
@@ -142,7 +150,7 @@ module brackets() {
 module side_cut() {
      translate( [overall_w/2+7, -din_c2c+frame_thk-5, din_d-side_cut_d]) {
 	  rotate( [0, 0, 90]) {
-	       cube( [din_h+5, 9.4, side_cut_d+e]);
+	       cube( [din_h+5, 14.4, side_cut_d+e]);
 	  }
      }
 }
