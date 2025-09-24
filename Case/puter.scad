@@ -55,9 +55,9 @@ module box() {
      translate( [-body_w/2, -body_h/2, -body_d])
      difference() {
 	  union() {
-	       // lip
-	       translate( [-body_lip, -body_lip, body_d-body_thk])
-		    cube( [body_w+2*body_lip, body_h+2*body_lip, body_thk]);
+//	       // lip
+//	       translate( [-body_lip, -body_lip, body_d-body_thk])
+//		    cube( [body_w+2*body_lip, body_h+2*body_lip, body_thk]);
 	       // box body
 	       cube( [body_w, body_h, body_d]);
 	  }
@@ -83,10 +83,10 @@ module box() {
 
 // front panel, centered
 
-module panel() {
-     translate( [-panel_w/2, -panel_h/2, 10])
-	  cube( [panel_w, panel_h, body_thk]);
-}
+// module panel() {
+//      translate( [-panel_w/2, -panel_h/2, 10])
+// 	  cube( [panel_w, panel_h, body_thk]);
+// }
 
 box();
 
@@ -99,7 +99,7 @@ box();
 // }
 // 
 // 
-translate( [-body_w+0.62*mm, 71.8, 10]) {
-      color("green") import("car-control.stl");
-      translate( [147.5, -69.9, 3]) oled();
-}
+// translate( [-body_w+0.62*mm, 71.8, 10]) {
+//       color("green") import("car-control.stl");
+//       translate( [147.5, -69.9, 3]) oled();
+// }
