@@ -26,11 +26,12 @@
 //
 // define our pins
 //
-const int OLED_DC_PIN = 15;	/* data/control */
-const int OLED_nRST_PIN = 16;	/* reset */
-const int OLED_nCS_PIN = 17;	/* chip select */
+const int OLED_DC_PIN = 5;	/* data/control */
+const int OLED_nRST_PIN = 6;	/* reset */
+const int OLED_nCS_PIN = 4;	/* chip select */
 
-#define OUR_SPI_SETTINGS SPISettings(10000000,MSBFIRST,SPI_MODE3)
+// #define OUR_SPI_SETTINGS SPISettings(10000000,MSBFIRST,SPI_MODE3)
+#define OUR_SPI_SETTINGS SPISettings(4000000,MSBFIRST,SPI_MODE0)
 
 //====================== Initialize Hardware ======================//
 void SSD1322_HW_Init() {
@@ -40,7 +41,7 @@ void SSD1322_HW_Init() {
 
   digitalWrite( OLED_DC_PIN, LOW);
   digitalWrite( OLED_nRST_PIN, HIGH);
-  digitalWrite( OLED_nCS_PIN, LOW);
+  digitalWrite( OLED_nCS_PIN, HIGH);
 
   SPI.begin();
 }
