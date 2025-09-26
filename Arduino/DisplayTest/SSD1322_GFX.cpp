@@ -13,6 +13,9 @@
  ****************************************************************************************
  */
 
+// rotate image right-side up
+#define ROTATE_180
+
 //====================== Includes ====================//
 #include "SSD1322_API.h"
 #include "SSD1322_GFX.h"
@@ -85,6 +88,10 @@ void fill_buffer(uint8_t *frame_buffer, uint8_t brightness)
  */
 void draw_pixel(uint8_t *frame_buffer, uint16_t x, uint16_t y, uint8_t brightness)
 {
+#ifdef ROTATE_180
+  y = _buffer_height-y;
+  x = _buffer_width-x;
+#endif
 	if(x > (_buffer_width-1) || y > (_buffer_height-1))
 		return;
 
