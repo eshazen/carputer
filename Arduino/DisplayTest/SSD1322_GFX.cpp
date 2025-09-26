@@ -22,8 +22,8 @@
 
 const GFXfont *gfx_font = NULL;     //pointer to Adafruit font that is currently selected
 
-uint16_t _buffer_height = 64;       //buffer dimensions used to determine if pixel is within array bounds
-uint16_t _buffer_width = 256;      //by default buffer size is equal to OLED size
+uint16_t _buffer_height = OLED_HEIGHT;       //buffer dimensions used to determine if pixel is within array bounds
+uint16_t _buffer_width = OLED_WIDTH;      //by default buffer size is equal to OLED size
 
 //====================== set buffer size ========================//
 /**
@@ -684,5 +684,6 @@ void draw_text(uint8_t *frame_buffer, const char* text, uint16_t x, uint16_t y, 
 void send_buffer_to_OLED(uint8_t *frame_buffer, uint16_t start_x, uint16_t start_y)
 {
 	SSD1322_API_set_window(0, 63, 0, 127);
-	SSD1322_API_send_buffer(frame_buffer + (start_y * OLED_WIDTH / 2) + start_x, 8192);
+	//	SSD1322_API_send_buffer(frame_buffer + (start_y * OLED_WIDTH / 2) + start_x, 8192);
+	SSD1322_API_send_buffer(frame_buffer + (start_y * OLED_WIDTH / 2) + start_x, OLED_WIDTH*OLED_HEIGHT);	
 }

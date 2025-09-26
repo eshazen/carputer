@@ -32,49 +32,21 @@ Also see [ER-OLEDM028-1_Interfacing.pdf](Docs/ER-OLEDM028-1_Interfacing.pdf).
 Link to
 [Datasheet](https://newhavendisplay.com/content/specs/NHD-3.12-25664UCY2.pdf) for DigiKey version.
 
-Random Arduino forum info:
+Beeped out from ours
 
-Pinout for this display reverse-engineered from forums:
-
-| Function  | Pin |   | Pin | Function  |
-|-----------|-----|---|-----|-----------|
-| VCC       | 1   |   | 2   | GND       |
-| GND?      | 3   |   | 4   | nRST      |
-| nCS       | 5   |   | 6   | DC        |
-| R/W       | 7   |   | 8   | E/RD      |
-| SCLK (D0) | 9   |   | 10  | SDIN (D1) |
-| D2        | 11  |   | 12  | D3        |
-| D4?       | 13  |   | 14  | D5?       |
-| D6?       | 15  |   | 16  | D7?       |
-
-ChatGPT Version, totally different
-
-| Function | Pin |   | Pin | Function |
-|----------|-----|---|-----|----------|
-| GND      | 1   |   | 2   | VCC      |
-| NC       | 3   |   | 4   | DC       |
-| (D2)     | 5   |   | 6   | (D3)     |
-| SCLK     | 7   |   | 8   | SDIN     |
-| (D6/D7)  | 9   |   | 10  | (D7)     |
-| (test)   | 11  |   | 12  | (VDDIO)  |
-| (VDD)    | 13  |   | 14  | E/RD     |
-| nCS      | 15  |   | 16  | nRST     |
+| Function   | Pin |   | Pin | Function   |
+|------------|-----|---|-----|------------|
+| GND        | 1   |   | 2   | ?VCC       |
+| ?          | 3   |   | 4   | D0 (SCLK?) |
+| D1 (SDIN?) | 5   |   | 6   | D2         |
+| D3         | 7   |   | 8   | D4         |
+| D5         | 9   |   | 10  | D6         |
+| D7         | 11  |   | 12  | E/RD       |
+| R/W        | 13  |   | 14  | DC         |
+| RES        | 15  |   | 16  | CS         |
+|            |     |   |     |            |
 
 See https://www.hicenda.com/product/312-inch-oled-module-01.html
-
-This looks similar to ours but the layout is different.
-They print the pinout on the silkscreen.
-
-| Function | Pin |   | Pin | Function |
-|----------|-----|---|-----|----------|
-| GND      | 1   |   | 2   | VDD      |
-| NC       | 3   |   | 4   | D0       |
-| D1       | 5   |   | 6   | D2       |
-| D3       | 7   |   | 8   | D4       |
-| D5       | 9   |   | 10  | D6       |
-| D7       | 11  |   | 12  | RD       |
-| R/W      | 13  |   | 14  | DC       |
-| RES      | 15  |   | 16  | CS       |
 
 Finally, referring to a datasheet: https://docs.rs-online.com/6267/0900766b8162af09.pdf
 for the display itself with 30 pin flex, we can wring out the pinout with a meter.
