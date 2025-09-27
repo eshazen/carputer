@@ -1,0 +1,612 @@
+Statefp    : 44
+Placefp    : 49960
+Placens    : 01220064
+Geoid      : 4449960
+Geoidfq    : 1600000US4449960
+Name       : Newport
+Namelsad   : Newport city
+Lsad       : 25
+Classfp    : C5
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 19828477
+Awater     : 9630691
+Intptlat   : +41.4766815
+Intptlon   : -071.3196274
+
+Statefp    : 44
+Placefp    : 19180
+Placens    : 01220069
+Geoid      : 4419180
+Geoidfq    : 1600000US4419180
+Name       : Cranston
+Namelsad   : Cranston city
+Lsad       : 25
+Classfp    : C5
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 73413567
+Awater     : 4331474
+Intptlat   : +41.7697341
+Intptlon   : -071.4850489
+
+Statefp    : 44
+Placefp    : 74300
+Placens    : 01220058
+Geoid      : 4474300
+Geoidfq    : 1600000US4474300
+Name       : Warwick
+Namelsad   : Warwick city
+Lsad       : 25
+Classfp    : C5
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 90651869
+Awater     : 38201407
+Intptlat   : +41.7030847
+Intptlon   : -071.4203098
+
+Statefp    : 44
+Placefp    : 14140
+Placens    : 01220067
+Geoid      : 4414140
+Geoidfq    : 1600000US4414140
+Name       : Central Falls
+Namelsad   : Central Falls city
+Lsad       : 25
+Classfp    : C5
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 3092443
+Awater     : 208466
+Intptlat   : +41.8900642
+Intptlon   : -071.3934808
+
+Statefp    : 44
+Placefp    : 54640
+Placens    : 01219816
+Geoid      : 4454640
+Geoidfq    : 1600000US4454640
+Name       : Pawtucket
+Namelsad   : Pawtucket city
+Lsad       : 25
+Classfp    : C5
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 22447898
+Awater     : 770317
+Intptlat   : +41.8748244
+Intptlon   : -071.3733235
+
+Statefp    : 44
+Placefp    : 22960
+Placens    : 01220071
+Geoid      : 4422960
+Geoidfq    : 1600000US4422960
+Name       : East Providence
+Namelsad   : East Providence city
+Lsad       : 25
+Classfp    : C5
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 34406029
+Awater     : 8602869
+Intptlat   : +41.8004329
+Intptlon   : -071.3592577
+
+Statefp    : 44
+Placefp    : 59000
+Placens    : 01220076
+Geoid      : 4459000
+Geoidfq    : 1600000US4459000
+Name       : Providence
+Namelsad   : Providence city
+Lsad       : 25
+Classfp    : C5
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 47670951
+Awater     : 5643961
+Intptlat   : +41.8230558
+Intptlon   : -071.4187841
+
+Statefp    : 44
+Placefp    : 80780
+Placens    : 01220079
+Geoid      : 4480780
+Geoidfq    : 1600000US4480780
+Name       : Woonsocket
+Namelsad   : Woonsocket city
+Lsad       : 25
+Classfp    : C5
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 20061557
+Awater     : 483938
+Intptlat   : +42.0017078
+Intptlon   : -071.4999468
+
+Statefp    : 44
+Placefp    : 03520
+Placens    : 02378100
+Geoid      : 4403520
+Geoidfq    : 1600000US4403520
+Name       : Ashaway
+Namelsad   : Ashaway CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6148840
+Awater     : 108207
+Intptlat   : +41.4280195
+Intptlon   : -071.7862139
+
+Statefp    : 44
+Placefp    : 08020
+Placens    : 02378102
+Geoid      : 4408020
+Geoidfq    : 1600000US4408020
+Name       : Bradford
+Namelsad   : Bradford CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4706844
+Awater     : 39515
+Intptlat   : +41.3889965
+Intptlon   : -071.7644155
+
+Statefp    : 44
+Placefp    : 12340
+Placens    : 02631328
+Geoid      : 4412340
+Geoidfq    : 1600000US4412340
+Name       : Carolina
+Namelsad   : Carolina CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6374410
+Awater     : 53734
+Intptlat   : +41.4594215
+Intptlon   : -071.6542233
+
+Statefp    : 44
+Placefp    : 14320
+Placens    : 02631329
+Geoid      : 4414320
+Geoidfq    : 1600000US4414320
+Name       : Charlestown
+Namelsad   : Charlestown CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5861532
+Awater     : 1489579
+Intptlat   : +41.3780690
+Intptlon   : -071.6265635
+
+Statefp    : 44
+Placefp    : 14860
+Placens    : 02631330
+Geoid      : 4414860
+Geoidfq    : 1600000US4414860
+Name       : Chepachet
+Namelsad   : Chepachet CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 14265495
+Awater     : 306019
+Intptlat   : +41.9108447
+Intptlon   : -071.6620875
+
+Statefp    : 44
+Placefp    : 15940
+Placens    : 02631331
+Geoid      : 4415940
+Geoidfq    : 1600000US4415940
+Name       : Clayville
+Namelsad   : Clayville CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4465397
+Awater     : 49693
+Intptlat   : +41.7691651
+Intptlon   : -071.6921057
+
+Statefp    : 44
+Placefp    : 20260
+Placens    : 02378104
+Geoid      : 4420260
+Geoidfq    : 1600000US4420260
+Name       : Cumberland Hill
+Namelsad   : Cumberland Hill CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 8238052
+Awater     : 515431
+Intptlat   : +41.9749598
+Intptlon   : -071.4600296
+
+Statefp    : 44
+Placefp    : 27640
+Placens    : 02631333
+Geoid      : 4427640
+Geoidfq    : 1600000US4427640
+Name       : Foster Center
+Namelsad   : Foster Center CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5614385
+Awater     : 37467
+Intptlat   : +41.7899611
+Intptlon   : -071.7315888
+
+Statefp    : 44
+Placefp    : 31240
+Placens    : 02631334
+Geoid      : 4431240
+Geoidfq    : 1600000US4431240
+Name       : Greene
+Namelsad   : Greene CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 15732648
+Awater     : 44570
+Intptlat   : +41.7047266
+Intptlon   : -071.7280667
+
+Statefp    : 44
+Placefp    : 31600
+Placens    : 02378105
+Geoid      : 4431600
+Geoidfq    : 1600000US4431600
+Name       : Greenville
+Namelsad   : Greenville CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 14395778
+Awater     : 1483563
+Intptlat   : +41.8799332
+Intptlon   : -071.5524151
+
+Statefp    : 44
+Placefp    : 33040
+Placens    : 02629815
+Geoid      : 4433040
+Geoidfq    : 1600000US4433040
+Name       : Harmony
+Namelsad   : Harmony CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 7623135
+Awater     : 60016
+Intptlat   : +41.8993664
+Intptlon   : -071.6091310
+
+Statefp    : 44
+Placefp    : 33400
+Placens    : 02378106
+Geoid      : 4433400
+Geoidfq    : 1600000US4433400
+Name       : Harrisville
+Namelsad   : Harrisville CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2103497
+Awater     : 111893
+Intptlat   : +41.9674961
+Intptlon   : -071.6771239
+
+Statefp    : 44
+Placefp    : 34660
+Placens    : 02378107
+Geoid      : 4434660
+Geoidfq    : 1600000US4434660
+Name       : Hope Valley
+Namelsad   : Hope Valley CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 8602919
+Awater     : 527609
+Intptlat   : +41.5140548
+Intptlon   : -071.7205597
+
+Statefp    : 44
+Placefp    : 35200
+Placens    : 02631335
+Geoid      : 4435200
+Geoidfq    : 1600000US4435200
+Name       : Hopkinton
+Namelsad   : Hopkinton CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 8552003
+Awater     : 13185
+Intptlat   : +41.4669447
+Intptlon   : -071.7810875
+
+Statefp    : 44
+Placefp    : 38980
+Placens    : 02378108
+Geoid      : 4438980
+Geoidfq    : 1600000US4438980
+Name       : Kingston
+Namelsad   : Kingston CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4031319
+Awater     : 17479
+Intptlat   : +41.4731787
+Intptlon   : -071.5241236
+
+Statefp    : 44
+Placefp    : 45010
+Placens    : 02378109
+Geoid      : 4445010
+Geoidfq    : 1600000US4445010
+Name       : Melville
+Namelsad   : Melville CDP
+Lsad       : 57
+Classfp    : M2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5433585
+Awater     : 7852820
+Intptlat   : +41.5595490
+Intptlon   : -071.3019333
+
+Statefp    : 44
+Placefp    : 46000
+Placens    : 02631337
+Geoid      : 4446000
+Geoidfq    : 1600000US4446000
+Name       : Misquamicut
+Namelsad   : Misquamicut CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3037352
+Awater     : 193344
+Intptlat   : +41.3200869
+Intptlon   : -071.8270672
+
+Statefp    : 44
+Placefp    : 48700
+Placens    : 02378110
+Geoid      : 4448700
+Geoidfq    : 1600000US4448700
+Name       : Narragansett Pier
+Namelsad   : Narragansett Pier CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 9237826
+Awater     : 1352033
+Intptlat   : +41.4269942
+Intptlon   : -071.4665251
+
+Statefp    : 44
+Placefp    : 50140
+Placens    : 02378111
+Geoid      : 4450140
+Geoidfq    : 1600000US4450140
+Name       : Newport East
+Namelsad   : Newport East CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 14901338
+Awater     : 526815
+Intptlat   : +41.5158918
+Intptlon   : -071.2865528
+
+Statefp    : 44
+Placefp    : 54460
+Placens    : 02378113
+Geoid      : 4454460
+Geoidfq    : 1600000US4454460
+Name       : Pascoag
+Namelsad   : Pascoag CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 13134866
+Awater     : 1270220
+Intptlat   : +41.9537524
+Intptlon   : -071.7043807
+
+Statefp    : 44
+Placefp    : 60260
+Placens    : 02631339
+Geoid      : 4460260
+Geoidfq    : 1600000US4460260
+Name       : Quonochontaug
+Namelsad   : Quonochontaug CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3480361
+Awater     : 520422
+Intptlat   : +41.3450824
+Intptlon   : -071.7046587
+
+Statefp    : 44
+Placefp    : 70700
+Placens    : 02378114
+Geoid      : 4470700
+Geoidfq    : 1600000US4470700
+Name       : Tiverton
+Namelsad   : Tiverton CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 10824865
+Awater     : 6327790
+Intptlat   : +41.6540154
+Intptlon   : -071.2003909
+
+Statefp    : 44
+Placefp    : 72500
+Placens    : 02378115
+Geoid      : 4472500
+Geoidfq    : 1600000US4472500
+Name       : Valley Falls
+Namelsad   : Valley Falls CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 9189162
+Awater     : 322855
+Intptlat   : +41.9234997
+Intptlon   : -071.3904977
+
+Statefp    : 44
+Placefp    : 73132
+Placens    : 02378116
+Geoid      : 4473132
+Geoidfq    : 1600000US4473132
+Name       : Wakefield-Peace Dale
+Namelsad   : Wakefield-Peace Dale CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 12769240
+Awater     : 689659
+Intptlat   : +41.4460961
+Intptlon   : -071.5003182
+
+Statefp    : 44
+Placefp    : 75200
+Placens    : 02631341
+Geoid      : 4475200
+Geoidfq    : 1600000US4475200
+Name       : Watch Hill
+Namelsad   : Watch Hill CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2076242
+Awater     : 37519
+Intptlat   : +41.3153811
+Intptlon   : -071.8468095
+
+Statefp    : 44
+Placefp    : 75920
+Placens    : 02631342
+Geoid      : 4475920
+Geoidfq    : 1600000US4475920
+Name       : Weekapaug
+Namelsad   : Weekapaug CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3011187
+Awater     : 93017
+Intptlat   : +41.3374238
+Intptlon   : -071.7619214
+
+Statefp    : 44
+Placefp    : 76820
+Placens    : 02378117
+Geoid      : 4476820
+Geoidfq    : 1600000US4476820
+Name       : Westerly
+Namelsad   : Westerly CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 41010350
+Awater     : 1779827
+Intptlat   : +41.3733005
+Intptlon   : -071.8067829
+
+Statefp    : 44
+Placefp    : 80960
+Placens    : 02629816
+Geoid      : 4480960
+Geoidfq    : 1600000US4480960
+Name       : Wyoming
+Namelsad   : Wyoming CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2233184
+Awater     : 115607
+Intptlat   : +41.5134720
+Intptlon   : -071.6890880
+

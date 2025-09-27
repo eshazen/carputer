@@ -1,0 +1,3655 @@
+Statefp    : 09
+Placefp    : 47515
+Placens    : 02378282
+Geoid      : 0947515
+Geoidfq    : 1600000US0947515
+Name       : Milford city (balance)
+Namelsad   : Milford city (balance)
+Lsad       : 00
+Classfp    : C8
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : F
+Aland      : 56732906
+Awater     : 8352605
+Intptlat   : +41.2236444
+Intptlon   : -073.0645564
+
+Statefp    : 09
+Placefp    : 52000
+Placens    : 02378285
+Geoid      : 0952000
+Geoidfq    : 1600000US0952000
+Name       : New Haven
+Namelsad   : New Haven city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 48407080
+Awater     : 3738290
+Intptlat   : +41.3108088
+Intptlon   : -072.9249530
+
+Statefp    : 09
+Placefp    : 80000
+Placens    : 02378294
+Geoid      : 0980000
+Geoidfq    : 1600000US0980000
+Name       : Waterbury
+Namelsad   : Waterbury city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 73961203
+Awater     : 1093581
+Intptlat   : +41.5585001
+Intptlon   : -073.0366845
+
+Statefp    : 09
+Placefp    : 27810
+Placens    : 02378274
+Geoid      : 0927810
+Geoidfq    : 1600000US0927810
+Name       : Fenwick
+Namelsad   : Fenwick borough
+Lsad       : 21
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1010140
+Awater     : 0
+Intptlat   : +41.2710697
+Intptlon   : -072.3545853
+
+Statefp    : 09
+Placefp    : 73700
+Placens    : 02378292
+Geoid      : 0973700
+Geoidfq    : 1600000US0973700
+Name       : Stonington
+Namelsad   : Stonington borough
+Lsad       : 21
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 883234
+Awater     : 1044461
+Intptlat   : +41.3347652
+Intptlon   : -071.8994587
+
+Statefp    : 09
+Placefp    : 34460
+Placens    : 02378276
+Geoid      : 0934460
+Geoidfq    : 1600000US0934460
+Name       : Groton Long Point
+Namelsad   : Groton Long Point borough
+Lsad       : 21
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1106552
+Awater     : 42056
+Intptlat   : +41.3141859
+Intptlon   : -072.0101545
+
+Statefp    : 09
+Placefp    : 73000
+Placens    : 02378291
+Geoid      : 0973000
+Geoidfq    : 1600000US0973000
+Name       : Stamford
+Namelsad   : Stamford city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 97458033
+Awater     : 37296269
+Intptlat   : +41.0796114
+Intptlon   : -073.5460803
+
+Statefp    : 09
+Placefp    : 37000
+Placens    : 02378277
+Geoid      : 0937000
+Geoidfq    : 1600000US0937000
+Name       : Hartford
+Namelsad   : Hartford city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 45093709
+Awater     : 1751553
+Intptlat   : +41.7659331
+Intptlon   : -072.6815789
+
+Statefp    : 09
+Placefp    : 39940
+Placens    : 02378278
+Geoid      : 0939940
+Geoidfq    : 1600000US0939940
+Name       : Jewett City
+Namelsad   : Jewett City borough
+Lsad       : 21
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1825130
+Awater     : 98500
+Intptlat   : +41.6072025
+Intptlon   : -071.9797914
+
+Statefp    : 09
+Placefp    : 56200
+Placens    : 02378289
+Geoid      : 0956200
+Geoidfq    : 1600000US0956200
+Name       : Norwich
+Namelsad   : Norwich city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 72684687
+Awater     : 3479330
+Intptlat   : +41.5480059
+Intptlon   : -072.0894538
+
+Statefp    : 09
+Placefp    : 52280
+Placens    : 02378286
+Geoid      : 0952280
+Geoidfq    : 1600000US0952280
+Name       : New London
+Namelsad   : New London city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 14521395
+Awater     : 12907225
+Intptlat   : +41.3329572
+Intptlon   : -072.0961765
+
+Statefp    : 09
+Placefp    : 49880
+Placens    : 02378283
+Geoid      : 0949880
+Geoidfq    : 1600000US0949880
+Name       : Naugatuck
+Namelsad   : Naugatuck borough
+Lsad       : 21
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 42435044
+Awater     : 246553
+Intptlat   : +41.4877849
+Intptlon   : -073.0515508
+
+Statefp    : 09
+Placefp    : 47290
+Placens    : 02378281
+Geoid      : 0947290
+Geoidfq    : 1600000US0947290
+Name       : Middletown
+Namelsad   : Middletown city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 106235855
+Awater     : 3488224
+Intptlat   : +41.5486107
+Intptlon   : -072.6567838
+
+Statefp    : 09
+Placefp    : 18780
+Placens    : 02378272
+Geoid      : 0918780
+Geoidfq    : 1600000US0918780
+Name       : Danielson
+Namelsad   : Danielson borough
+Lsad       : 21
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2832681
+Awater     : 169737
+Intptlat   : +41.8071078
+Intptlon   : -071.8843637
+
+Statefp    : 09
+Placefp    : 08420
+Placens    : 02378270
+Geoid      : 0908420
+Geoidfq    : 1600000US0908420
+Name       : Bristol
+Namelsad   : Bristol city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 68373842
+Awater     : 1041015
+Intptlat   : +41.6815776
+Intptlon   : -072.9407487
+
+Statefp    : 09
+Placefp    : 50370
+Placens    : 02378284
+Geoid      : 0950370
+Geoidfq    : 1600000US0950370
+Name       : New Britain
+Namelsad   : New Britain city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 34694285
+Awater     : 187384
+Intptlat   : +41.6765545
+Intptlon   : -072.7861613
+
+Statefp    : 09
+Placefp    : 02690
+Placens    : 02378268
+Geoid      : 0902690
+Geoidfq    : 1600000US0902690
+Name       : Bantam
+Namelsad   : Bantam borough
+Lsad       : 21
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2616809
+Awater     : 0
+Intptlat   : +41.7247452
+Intptlon   : -073.2422628
+
+Statefp    : 09
+Placefp    : 43300
+Placens    : 02378279
+Geoid      : 0943300
+Geoidfq    : 1600000US0943300
+Name       : Litchfield
+Namelsad   : Litchfield borough
+Lsad       : 21
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 3555134
+Awater     : 0
+Intptlat   : +41.7457036
+Intptlon   : -073.1892384
+
+Statefp    : 09
+Placefp    : 76500
+Placens    : 02378293
+Geoid      : 0976500
+Geoidfq    : 1600000US0976500
+Name       : Torrington
+Namelsad   : Torrington city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 102982071
+Awater     : 1441410
+Intptlat   : +41.8340717
+Intptlon   : -073.1314085
+
+Statefp    : 09
+Placefp    : 08000
+Placens    : 02378269
+Geoid      : 0908000
+Geoidfq    : 1600000US0908000
+Name       : Bridgeport
+Namelsad   : Bridgeport city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 41606640
+Awater     : 8705768
+Intptlat   : +41.1873933
+Intptlon   : -073.1957567
+
+Statefp    : 09
+Placefp    : 18430
+Placens    : 02378271
+Geoid      : 0918430
+Geoidfq    : 1600000US0918430
+Name       : Danbury
+Namelsad   : Danbury city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 108894404
+Awater     : 5768007
+Intptlat   : +41.3987408
+Intptlon   : -073.4781032
+
+Statefp    : 09
+Placefp    : 52910
+Placens    : 02378287
+Geoid      : 0952910
+Geoidfq    : 1600000US0952910
+Name       : Newtown
+Namelsad   : Newtown borough
+Lsad       : 21
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 5967206
+Awater     : 0
+Intptlat   : +41.4118973
+Intptlon   : -073.3119498
+
+Statefp    : 09
+Placefp    : 55990
+Placens    : 02378288
+Geoid      : 0955990
+Geoidfq    : 1600000US0955990
+Name       : Norwalk
+Namelsad   : Norwalk city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 59286315
+Awater     : 34917477
+Intptlat   : +41.0927388
+Intptlon   : -073.4197955
+
+Statefp    : 09
+Placefp    : 68100
+Placens    : 02378290
+Geoid      : 0968100
+Geoidfq    : 1600000US0968100
+Name       : Shelton
+Namelsad   : Shelton city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 79334981
+Awater     : 3292855
+Intptlat   : +41.3045774
+Intptlon   : -073.1392153
+
+Statefp    : 09
+Placefp    : 82800
+Placens    : 02378295
+Geoid      : 0982800
+Geoidfq    : 1600000US0982800
+Name       : West Haven
+Namelsad   : West Haven city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 27842628
+Awater     : 431797
+Intptlat   : +41.2721212
+Intptlon   : -072.9674973
+
+Statefp    : 09
+Placefp    : 88050
+Placens    : 02378296
+Geoid      : 0988050
+Geoidfq    : 1600000US0988050
+Name       : Woodmont
+Namelsad   : Woodmont borough
+Lsad       : 21
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 711135
+Awater     : 1864071
+Intptlat   : +41.2215534
+Intptlon   : -072.9950707
+
+Statefp    : 09
+Placefp    : 34180
+Placens    : 02378275
+Geoid      : 0934180
+Geoidfq    : 1600000US0934180
+Name       : Groton
+Namelsad   : Groton city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 7985936
+Awater     : 9524722
+Intptlat   : +41.3250543
+Intptlon   : -072.0668616
+
+Statefp    : 09
+Placefp    : 01150
+Placens    : 02378267
+Geoid      : 0901150
+Geoidfq    : 1600000US0901150
+Name       : Ansonia
+Namelsad   : Ansonia city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 15588608
+Awater     : 435200
+Intptlat   : +41.3442494
+Intptlon   : -073.0698254
+
+Statefp    : 09
+Placefp    : 19480
+Placens    : 02378273
+Geoid      : 0919480
+Geoidfq    : 1600000US0919480
+Name       : Derby
+Namelsad   : Derby city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 13094126
+Awater     : 906368
+Intptlat   : +41.3261239
+Intptlon   : -073.0825739
+
+Statefp    : 09
+Placefp    : 46450
+Placens    : 02378280
+Geoid      : 0946450
+Geoidfq    : 1600000US0946450
+Name       : Meriden
+Namelsad   : Meriden city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 61466624
+Awater     : 940444
+Intptlat   : +41.5367771
+Intptlon   : -072.7945433
+
+Statefp    : 09
+Placefp    : 02480
+Placens    : 02805928
+Geoid      : 0902480
+Geoidfq    : 1600000US0902480
+Name       : Ball Pond
+Namelsad   : Ball Pond CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2920347
+Awater     : 331056
+Intptlat   : +41.4616515
+Intptlon   : -073.5268464
+
+Statefp    : 09
+Placefp    : 02550
+Placens    : 02631548
+Geoid      : 0902550
+Geoidfq    : 1600000US0902550
+Name       : Baltic
+Namelsad   : Baltic CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3224162
+Awater     : 174816
+Intptlat   : +41.6097028
+Intptlon   : -072.0818963
+
+Statefp    : 09
+Placefp    : 04790
+Placens    : 02378335
+Geoid      : 0904790
+Geoidfq    : 1600000US0904790
+Name       : Bethel
+Namelsad   : Bethel CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 15963321
+Awater     : 84543
+Intptlat   : +41.3602926
+Intptlon   : -073.4139421
+
+Statefp    : 09
+Placefp    : 04945
+Placens    : 02378336
+Geoid      : 0904945
+Geoidfq    : 1600000US0904945
+Name       : Bethlehem Village
+Namelsad   : Bethlehem Village CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 20171506
+Awater     : 689195
+Intptlat   : +41.6439607
+Intptlon   : -073.2027923
+
+Statefp    : 09
+Placefp    : 04965
+Placens    : 02805929
+Geoid      : 0904965
+Geoidfq    : 1600000US0904965
+Name       : Bigelow Corners
+Namelsad   : Bigelow Corners CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1734967
+Awater     : 3793
+Intptlat   : +41.4650110
+Intptlon   : -073.5081980
+
+Statefp    : 09
+Placefp    : 06050
+Placens    : 02378337
+Geoid      : 0906050
+Geoidfq    : 1600000US0906050
+Name       : Blue Hills
+Namelsad   : Blue Hills CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3019491
+Awater     : 0
+Intptlat   : +41.8133725
+Intptlon   : -072.6954422
+
+Statefp    : 09
+Placefp    : 06155
+Placens    : 02805930
+Geoid      : 0906155
+Geoidfq    : 1600000US0906155
+Name       : Bogus Hill
+Namelsad   : Bogus Hill CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 263137
+Awater     : 192278
+Intptlat   : +41.5080876
+Intptlon   : -073.4629835
+
+Statefp    : 09
+Placefp    : 06680
+Placens    : 02812663
+Geoid      : 0906680
+Geoidfq    : 1600000US0906680
+Name       : Botsford
+Namelsad   : Botsford CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2104384
+Awater     : 0
+Intptlat   : +41.3587758
+Intptlon   : -073.2671595
+
+Statefp    : 09
+Placefp    : 07100
+Placens    : 02805932
+Geoid      : 0907100
+Geoidfq    : 1600000US0907100
+Name       : Branchville
+Namelsad   : Branchville CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 520056
+Awater     : 0
+Intptlat   : +41.2678404
+Intptlon   : -073.4433694
+
+Statefp    : 09
+Placefp    : 07345
+Placens    : 02378338
+Geoid      : 0907345
+Geoidfq    : 1600000US0907345
+Name       : Branford Center
+Namelsad   : Branford Center CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4836169
+Awater     : 532784
+Intptlat   : +41.2776537
+Intptlon   : -072.8160952
+
+Statefp    : 09
+Placefp    : 08140
+Placens    : 02805976
+Geoid      : 0908140
+Geoidfq    : 1600000US0908140
+Name       : Bridgewater
+Namelsad   : Bridgewater CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 703278
+Awater     : 0
+Intptlat   : +41.5347813
+Intptlon   : -073.3645823
+
+Statefp    : 09
+Placefp    : 08770
+Placens    : 02378339
+Geoid      : 0908770
+Geoidfq    : 1600000US0908770
+Name       : Broad Brook
+Namelsad   : Broad Brook CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 15346248
+Awater     : 89041
+Intptlat   : +41.9111527
+Intptlon   : -072.5411268
+
+Statefp    : 09
+Placefp    : 09050
+Placens    : 02805933
+Geoid      : 0909050
+Geoidfq    : 1600000US0909050
+Name       : Brookfield Center
+Namelsad   : Brookfield Center CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1317561
+Awater     : 0
+Intptlat   : +41.4623620
+Intptlon   : -073.3875281
+
+Statefp    : 09
+Placefp    : 09120
+Placens    : 02631560
+Geoid      : 0909120
+Geoidfq    : 1600000US0909120
+Name       : Brooklyn
+Namelsad   : Brooklyn CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2988999
+Awater     : 0
+Intptlat   : +41.7897457
+Intptlon   : -071.9547755
+
+Statefp    : 09
+Placefp    : 10660
+Placens    : 02631559
+Geoid      : 0910660
+Geoidfq    : 1600000US0910660
+Name       : Byram
+Namelsad   : Byram CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2049053
+Awater     : 162293
+Intptlat   : +41.0010957
+Intptlon   : -073.6541199
+
+Statefp    : 09
+Placefp    : 10870
+Placens    : 02378340
+Geoid      : 0910870
+Geoidfq    : 1600000US0910870
+Name       : Canaan
+Namelsad   : Canaan CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4520786
+Awater     : 1090
+Intptlat   : +42.0401097
+Intptlon   : -073.3328833
+
+Statefp    : 09
+Placefp    : 11360
+Placens    : 02805934
+Geoid      : 0911360
+Geoidfq    : 1600000US0911360
+Name       : Candlewood Isle
+Namelsad   : Candlewood Isle CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1014097
+Awater     : 2064905
+Intptlat   : +41.4885313
+Intptlon   : -073.4532840
+
+Statefp    : 09
+Placefp    : 11430
+Placens    : 02805936
+Geoid      : 0911430
+Geoidfq    : 1600000US0911430
+Name       : Candlewood Knolls
+Namelsad   : Candlewood Knolls CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 391934
+Awater     : 0
+Intptlat   : +41.4790553
+Intptlon   : -073.4636134
+
+Statefp    : 09
+Placefp    : 11500
+Placens    : 02805937
+Geoid      : 0911500
+Geoidfq    : 1600000US0911500
+Name       : Candlewood Lake Club
+Namelsad   : Candlewood Lake Club CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 798194
+Awater     : 240222
+Intptlat   : +41.4931430
+Intptlon   : -073.4367929
+
+Statefp    : 09
+Placefp    : 11640
+Placens    : 02805938
+Geoid      : 0911640
+Geoidfq    : 1600000US0911640
+Name       : Candlewood Orchards
+Namelsad   : Candlewood Orchards CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 747777
+Awater     : 0
+Intptlat   : +41.4716145
+Intptlon   : -073.4373000
+
+Statefp    : 09
+Placefp    : 11780
+Placens    : 02805939
+Geoid      : 0911780
+Geoidfq    : 1600000US0911780
+Name       : Candlewood Shores
+Namelsad   : Candlewood Shores CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 599390
+Awater     : 161843
+Intptlat   : +41.4800538
+Intptlon   : -073.4380453
+
+Statefp    : 09
+Placefp    : 11990
+Placens    : 02631221
+Geoid      : 0911990
+Geoidfq    : 1600000US0911990
+Name       : Cannondale
+Namelsad   : Cannondale CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 861786
+Awater     : 0
+Intptlat   : +41.2161575
+Intptlon   : -073.4252642
+
+Statefp    : 09
+Placefp    : 12370
+Placens    : 02378341
+Geoid      : 0912370
+Geoidfq    : 1600000US0912370
+Name       : Canton Valley
+Namelsad   : Canton Valley CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4559100
+Awater     : 0
+Intptlat   : +41.8315574
+Intptlon   : -072.8977433
+
+Statefp    : 09
+Placefp    : 14200
+Placens    : 02378345
+Geoid      : 0914200
+Geoidfq    : 1600000US0914200
+Name       : Cheshire Village
+Namelsad   : Cheshire Village CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 10364591
+Awater     : 0
+Intptlat   : +41.5040898
+Intptlon   : -072.8968699
+
+Statefp    : 09
+Placefp    : 14370
+Placens    : 02378346
+Geoid      : 0914370
+Geoidfq    : 1600000US0914370
+Name       : Chester Center
+Namelsad   : Chester Center CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6930020
+Awater     : 72966
+Intptlat   : +41.4030118
+Intptlon   : -072.4569493
+
+Statefp    : 09
+Placefp    : 14615
+Placens    : 02805978
+Geoid      : 0914615
+Geoidfq    : 1600000US0914615
+Name       : Chimney Point
+Namelsad   : Chimney Point CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 163742
+Awater     : 129681
+Intptlat   : +41.5015023
+Intptlon   : -073.4414264
+
+Statefp    : 09
+Placefp    : 15420
+Placens    : 02378347
+Geoid      : 0915420
+Geoidfq    : 1600000US0915420
+Name       : Clinton
+Namelsad   : Clinton CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6196883
+Awater     : 731010
+Intptlat   : +41.2764048
+Intptlon   : -072.5289998
+
+Statefp    : 09
+Placefp    : 15840
+Placens    : 02378348
+Geoid      : 0915840
+Geoidfq    : 1600000US0915840
+Name       : Colchester
+Namelsad   : Colchester CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 11575808
+Awater     : 0
+Intptlat   : +41.5775917
+Intptlon   : -072.3327415
+
+Statefp    : 09
+Placefp    : 16085
+Placens    : 02805087
+Geoid      : 0916085
+Geoidfq    : 1600000US0916085
+Name       : Coleytown
+Namelsad   : Coleytown CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 9572825
+Awater     : 18946
+Intptlat   : +41.1769044
+Intptlon   : -073.3433582
+
+Statefp    : 09
+Placefp    : 16120
+Placens    : 02378349
+Geoid      : 0916120
+Geoidfq    : 1600000US0916120
+Name       : Collinsville
+Namelsad   : Collinsville CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 8116492
+Awater     : 1084480
+Intptlat   : +41.8222453
+Intptlon   : -072.9244875
+
+Statefp    : 09
+Placefp    : 16525
+Placens    : 02805088
+Geoid      : 0916525
+Geoidfq    : 1600000US0916525
+Name       : Compo
+Namelsad   : Compo CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4382087
+Awater     : 0
+Intptlat   : +41.1227580
+Intptlon   : -073.3515279
+
+Statefp    : 09
+Placefp    : 16960
+Placens    : 02377810
+Geoid      : 0916960
+Geoidfq    : 1600000US0916960
+Name       : Conning Towers-Nautilus Park
+Namelsad   : Conning Towers-Nautilus Park CDP
+Lsad       : 57
+Classfp    : M2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 13465761
+Awater     : 1642410
+Intptlat   : +41.3892387
+Intptlon   : -072.0637844
+
+Statefp    : 09
+Placefp    : 17170
+Placens    : 02805980
+Geoid      : 0917170
+Geoidfq    : 1600000US0917170
+Name       : Cornwall
+Namelsad   : Cornwall CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1461701
+Awater     : 0
+Intptlat   : +41.8443222
+Intptlon   : -073.3326721
+
+Statefp    : 09
+Placefp    : 17310
+Placens    : 02805981
+Geoid      : 0917310
+Geoidfq    : 1600000US0917310
+Name       : Cornwall Bridge
+Namelsad   : Cornwall Bridge CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5316877
+Awater     : 192862
+Intptlat   : +41.8061802
+Intptlon   : -073.3843876
+
+Statefp    : 09
+Placefp    : 17520
+Placens    : 02631561
+Geoid      : 0917520
+Geoidfq    : 1600000US0917520
+Name       : Cos Cob
+Namelsad   : Cos Cob CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5574143
+Awater     : 308563
+Intptlat   : +41.0485944
+Intptlon   : -073.5919008
+
+Statefp    : 09
+Placefp    : 17835
+Placens    : 02377811
+Geoid      : 0917835
+Geoidfq    : 1600000US0917835
+Name       : Coventry Lake
+Namelsad   : Coventry Lake CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 9259019
+Awater     : 1535762
+Intptlat   : +41.7791729
+Intptlon   : -072.3340208
+
+Statefp    : 09
+Placefp    : 18220
+Placens    : 02377812
+Geoid      : 0918220
+Geoidfq    : 1600000US0918220
+Name       : Crystal Lake
+Namelsad   : Crystal Lake CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 23101101
+Awater     : 713507
+Intptlat   : +41.9330487
+Intptlon   : -072.3812917
+
+Statefp    : 09
+Placefp    : 18675
+Placens    : 02805070
+Geoid      : 0918675
+Geoidfq    : 1600000US0918675
+Name       : Daniels Farm
+Namelsad   : Daniels Farm CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 12632259
+Awater     : 7898
+Intptlat   : +41.2769028
+Intptlon   : -073.2122628
+
+Statefp    : 09
+Placefp    : 18936
+Placens    : 02805053
+Geoid      : 0918936
+Geoidfq    : 1600000US0918936
+Name       : Darien Downtown
+Namelsad   : Darien Downtown CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2040824
+Awater     : 38566
+Intptlat   : +41.0767381
+Intptlon   : -073.4696689
+
+Statefp    : 09
+Placefp    : 18990
+Placens    : 02805988
+Geoid      : 0918990
+Geoidfq    : 1600000US0918990
+Name       : Dayville
+Namelsad   : Dayville CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2414802
+Awater     : 0
+Intptlat   : +41.8442229
+Intptlon   : -071.8823910
+
+Statefp    : 09
+Placefp    : 19200
+Placens    : 02377814
+Geoid      : 0919200
+Geoidfq    : 1600000US0919200
+Name       : Deep River Center
+Namelsad   : Deep River Center CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 9832155
+Awater     : 384569
+Intptlat   : +41.3788596
+Intptlon   : -072.4404928
+
+Statefp    : 09
+Placefp    : 20250
+Placens    : 02805940
+Geoid      : 0920250
+Geoidfq    : 1600000US0920250
+Name       : Dodgingtown
+Namelsad   : Dodgingtown CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1114602
+Awater     : 0
+Intptlat   : +41.3797650
+Intptlon   : -073.3523692
+
+Statefp    : 09
+Placefp    : 20740
+Placens    : 02377815
+Geoid      : 0920740
+Geoidfq    : 1600000US0920740
+Name       : Durham
+Namelsad   : Durham CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 21363906
+Awater     : 6291
+Intptlat   : +41.4689218
+Intptlon   : -072.6845254
+
+Statefp    : 09
+Placefp    : 21160
+Placens    : 02377816
+Geoid      : 0921160
+Geoidfq    : 1600000US0921160
+Name       : East Brooklyn
+Namelsad   : East Brooklyn CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6580702
+Awater     : 75657
+Intptlat   : +41.7920881
+Intptlon   : -071.9063836
+
+Statefp    : 09
+Placefp    : 22420
+Placens    : 02377817
+Geoid      : 0922420
+Geoidfq    : 1600000US0922420
+Name       : East Hampton
+Namelsad   : East Hampton CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 10489546
+Awater     : 51320
+Intptlat   : +41.5738332
+Intptlon   : -072.4849408
+
+Statefp    : 09
+Placefp    : 22700
+Placens    : 02377818
+Geoid      : 0922700
+Geoidfq    : 1600000US0922700
+Name       : East Hartford
+Namelsad   : East Hartford CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : Y
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 46638315
+Awater     : 1904155
+Intptlat   : +41.7606953
+Intptlon   : -072.6076462
+
+Statefp    : 09
+Placefp    : 22980
+Placens    : 02377819
+Geoid      : 0922980
+Geoidfq    : 1600000US0922980
+Name       : East Haven
+Namelsad   : East Haven CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 31847387
+Awater     : 3115993
+Intptlat   : +41.2934528
+Intptlon   : -072.8589937
+
+Statefp    : 09
+Placefp    : 24520
+Placens    : 02805941
+Geoid      : 0924520
+Geoidfq    : 1600000US0924520
+Name       : East Village
+Namelsad   : East Village CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 16853994
+Awater     : 396062
+Intptlat   : +41.3604403
+Intptlon   : -073.1865336
+
+Statefp    : 09
+Placefp    : 26370
+Placens    : 02377820
+Geoid      : 0926370
+Geoidfq    : 1600000US0926370
+Name       : Essex Village
+Namelsad   : Essex Village CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 9948831
+Awater     : 3418887
+Intptlat   : +41.3566478
+Intptlon   : -072.3935378
+
+Statefp    : 09
+Placefp    : 26698
+Placens    : 02805942
+Geoid      : 0926698
+Geoidfq    : 1600000US0926698
+Name       : Fairfield University
+Namelsad   : Fairfield University CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 873555
+Awater     : 0
+Intptlat   : +41.1589526
+Intptlon   : -073.2570565
+
+Statefp    : 09
+Placefp    : 27390
+Placens    : 02631562
+Geoid      : 0927390
+Geoidfq    : 1600000US0927390
+Name       : Falls Village
+Namelsad   : Falls Village CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4131666
+Awater     : 0
+Intptlat   : +41.9576270
+Intptlon   : -073.3562081
+
+Statefp    : 09
+Placefp    : 30190
+Placens    : 02631563
+Geoid      : 0930190
+Geoidfq    : 1600000US0930190
+Name       : Gales Ferry
+Namelsad   : Gales Ferry CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2498854
+Awater     : 910577
+Intptlat   : +41.4217219
+Intptlon   : -072.0845012
+
+Statefp    : 09
+Placefp    : 30470
+Placens    : 02805982
+Geoid      : 0930470
+Geoidfq    : 1600000US0930470
+Name       : Gaylordsville
+Namelsad   : Gaylordsville CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4115720
+Awater     : 157164
+Intptlat   : +41.6417234
+Intptlon   : -073.4809597
+
+Statefp    : 09
+Placefp    : 30540
+Placens    : 02377821
+Geoid      : 0930540
+Geoidfq    : 1600000US0930540
+Name       : Georgetown
+Namelsad   : Georgetown CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 7430806
+Awater     : 61801
+Intptlat   : +41.2419850
+Intptlon   : -073.4356728
+
+Statefp    : 09
+Placefp    : 31270
+Placens    : 02377822
+Geoid      : 0931270
+Geoidfq    : 1600000US0931270
+Name       : Glastonbury Center
+Namelsad   : Glastonbury Center CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 12828905
+Awater     : 245666
+Intptlat   : +41.7006719
+Intptlon   : -072.5994160
+
+Statefp    : 09
+Placefp    : 31520
+Placens    : 02631564
+Geoid      : 0931520
+Geoidfq    : 1600000US0931520
+Name       : Glenville
+Namelsad   : Glenville CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1942795
+Awater     : 1210
+Intptlat   : +41.0352212
+Intptlon   : -073.6641564
+
+Statefp    : 09
+Placefp    : 33480
+Placens    : 02805089
+Geoid      : 0933480
+Geoidfq    : 1600000US0933480
+Name       : Greens Farms
+Namelsad   : Greens Farms CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 9850391
+Awater     : 1664542
+Intptlat   : +41.1240963
+Intptlon   : -073.3226846
+
+Statefp    : 09
+Placefp    : 33690
+Placens    : 02631566
+Geoid      : 0933690
+Geoidfq    : 1600000US0933690
+Name       : Greenwich
+Namelsad   : Greenwich CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 12540942
+Awater     : 839236
+Intptlat   : +41.0277731
+Intptlon   : -073.6269311
+
+Statefp    : 09
+Placefp    : 35020
+Placens    : 02377823
+Geoid      : 0935020
+Geoidfq    : 1600000US0935020
+Name       : Guilford Center
+Namelsad   : Guilford Center CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5649118
+Awater     : 12120
+Intptlat   : +41.2805120
+Intptlon   : -072.6762159
+
+Statefp    : 09
+Placefp    : 37490
+Placens    : 02805943
+Geoid      : 0937490
+Geoidfq    : 1600000US0937490
+Name       : Hawleyville
+Namelsad   : Hawleyville CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1208821
+Awater     : 0
+Intptlat   : +41.4289120
+Intptlon   : -073.3504433
+
+Statefp    : 09
+Placefp    : 37770
+Placens    : 02377824
+Geoid      : 0937770
+Geoidfq    : 1600000US0937770
+Name       : Hazardville
+Namelsad   : Hazardville CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 14690525
+Awater     : 7780
+Intptlat   : +41.9908892
+Intptlon   : -072.5320439
+
+Statefp    : 09
+Placefp    : 37930
+Placens    : 02377825
+Geoid      : 0937930
+Geoidfq    : 1600000US0937930
+Name       : Heritage Village
+Namelsad   : Heritage Village CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6784230
+Awater     : 42338
+Intptlat   : +41.4859171
+Intptlon   : -073.2332936
+
+Statefp    : 09
+Placefp    : 38050
+Placens    : 02377826
+Geoid      : 0938050
+Geoidfq    : 1600000US0938050
+Name       : Higganum
+Namelsad   : Higganum CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 16072108
+Awater     : 806397
+Intptlat   : +41.4907026
+Intptlon   : -072.5577678
+
+Statefp    : 09
+Placefp    : 39695
+Placens    : 02805944
+Geoid      : 0939695
+Geoidfq    : 1600000US0939695
+Name       : Indian Field
+Namelsad   : Indian Field CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2323945
+Awater     : 2797927
+Intptlat   : +41.0198413
+Intptlon   : -073.6080294
+
+Statefp    : 09
+Placefp    : 39747
+Placens    : 02805946
+Geoid      : 0939747
+Geoidfq    : 1600000US0939747
+Name       : Inglenook
+Namelsad   : Inglenook CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1144125
+Awater     : 0
+Intptlat   : +41.5230660
+Intptlon   : -073.4735388
+
+Statefp    : 09
+Placefp    : 40077
+Placens    : 02805948
+Geoid      : 0940077
+Geoidfq    : 1600000US0940077
+Name       : Kellogg Point
+Namelsad   : Kellogg Point CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 116296
+Awater     : 0
+Intptlat   : +41.4681903
+Intptlon   : -073.4598895
+
+Statefp    : 09
+Placefp    : 40150
+Placens    : 02377827
+Geoid      : 0940150
+Geoidfq    : 1600000US0940150
+Name       : Kensington
+Namelsad   : Kensington CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 15525685
+Awater     : 426093
+Intptlat   : +41.6256185
+Intptlon   : -072.7687219
+
+Statefp    : 09
+Placefp    : 40920
+Placens    : 02805950
+Geoid      : 0940920
+Geoidfq    : 1600000US0940920
+Name       : Knollcrest
+Namelsad   : Knollcrest CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 435525
+Awater     : 0
+Intptlat   : +41.5011914
+Intptlon   : -073.4668754
+
+Statefp    : 09
+Placefp    : 41226
+Placens    : 02805989
+Geoid      : 0941226
+Geoidfq    : 1600000US0941226
+Name       : Lake Bungee
+Namelsad   : Lake Bungee CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 952394
+Awater     : 450916
+Intptlat   : +41.9565259
+Intptlon   : -072.0690301
+
+Statefp    : 09
+Placefp    : 41238
+Placens    : 02805991
+Geoid      : 0941238
+Geoidfq    : 1600000US0941238
+Name       : Lake Chaffee
+Namelsad   : Lake Chaffee CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 340918
+Awater     : 211451
+Intptlat   : +41.9379546
+Intptlon   : -072.1969592
+
+Statefp    : 09
+Placefp    : 41410
+Placens    : 02377828
+Geoid      : 0941410
+Geoidfq    : 1600000US0941410
+Name       : Lake Pocotopaug
+Namelsad   : Lake Pocotopaug CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 14222304
+Awater     : 2076424
+Intptlat   : +41.6019985
+Intptlon   : -072.5017678
+
+Statefp    : 09
+Placefp    : 41585
+Placens    : 02805951
+Geoid      : 0941585
+Geoidfq    : 1600000US0941585
+Name       : Lakes East
+Namelsad   : Lakes East CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2349220
+Awater     : 246892
+Intptlat   : +41.3306747
+Intptlon   : -073.4925386
+
+Statefp    : 09
+Placefp    : 41714
+Placens    : 02805953
+Geoid      : 0941714
+Geoidfq    : 1600000US0941714
+Name       : Lakeside Woods
+Namelsad   : Lakeside Woods CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1506323
+Awater     : 0
+Intptlat   : +41.5548078
+Intptlon   : -073.4840173
+
+Statefp    : 09
+Placefp    : 41736
+Placens    : 02805952
+Geoid      : 0941736
+Geoidfq    : 1600000US0941736
+Name       : Lakes West
+Namelsad   : Lakes West CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3472275
+Awater     : 55133
+Intptlat   : +41.3363183
+Intptlon   : -073.5119397
+
+Statefp    : 09
+Placefp    : 41830
+Placens    : 02631567
+Geoid      : 0941830
+Geoidfq    : 1600000US0941830
+Name       : Lakeville
+Namelsad   : Lakeville CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 9913332
+Awater     : 1444650
+Intptlat   : +41.9621492
+Intptlon   : -073.4432973
+
+Statefp    : 09
+Placefp    : 43580
+Placens    : 02805071
+Geoid      : 0943580
+Geoidfq    : 1600000US0943580
+Name       : Long Hill
+Namelsad   : Long Hill CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 8378895
+Awater     : 0
+Intptlat   : +41.2665946
+Intptlon   : -073.2283620
+
+Statefp    : 09
+Placefp    : 43790
+Placens    : 02377829
+Geoid      : 0943790
+Geoidfq    : 1600000US0943790
+Name       : Long Hill
+Namelsad   : Long Hill CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3983624
+Awater     : 117096
+Intptlat   : +41.3496141
+Intptlon   : -072.0505288
+
+Statefp    : 09
+Placefp    : 44000
+Placens    : 02805067
+Geoid      : 0944000
+Geoidfq    : 1600000US0944000
+Name       : Lordship
+Namelsad   : Lordship CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2168190
+Awater     : 1636258
+Intptlat   : +41.1530227
+Intptlon   : -073.1142292
+
+Statefp    : 09
+Placefp    : 44630
+Placens    : 02377830
+Geoid      : 0944630
+Geoidfq    : 1600000US0944630
+Name       : Madison Center
+Namelsad   : Madison Center CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5284540
+Awater     : 30995
+Intptlat   : +41.2802228
+Intptlon   : -072.6022719
+
+Statefp    : 09
+Placefp    : 44660
+Placens    : 02805954
+Geoid      : 0944660
+Geoidfq    : 1600000US0944660
+Name       : Mamanasco Lake
+Namelsad   : Mamanasco Lake CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1060461
+Awater     : 348410
+Intptlat   : +41.3181717
+Intptlon   : -073.5298028
+
+Statefp    : 09
+Placefp    : 44690
+Placens    : 02378342
+Geoid      : 0944690
+Geoidfq    : 1600000US0944690
+Name       : Manchester
+Namelsad   : Manchester CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 23919417
+Awater     : 97274
+Intptlat   : +41.7796298
+Intptlon   : -072.5201565
+
+Statefp    : 09
+Placefp    : 45120
+Placens    : 02377831
+Geoid      : 0945120
+Geoidfq    : 1600000US0945120
+Name       : Mansfield Center
+Namelsad   : Mansfield Center CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 8141061
+Awater     : 892377
+Intptlat   : +41.7670901
+Intptlon   : -072.1868579
+
+Statefp    : 09
+Placefp    : 45995
+Placens    : 02633319
+Geoid      : 0945995
+Geoidfq    : 1600000US0945995
+Name       : Mashantucket
+Namelsad   : Mashantucket CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6645906
+Awater     : 0
+Intptlat   : +41.4644434
+Intptlon   : -071.9748017
+
+Statefp    : 09
+Placefp    : 46240
+Placens    : 02805993
+Geoid      : 0946240
+Geoidfq    : 1600000US0946240
+Name       : Mechanicsville
+Namelsad   : Mechanicsville CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2163544
+Awater     : 0
+Intptlat   : +41.9506350
+Intptlon   : -071.8854430
+
+Statefp    : 09
+Placefp    : 47990
+Placens    : 02805956
+Geoid      : 0947990
+Geoidfq    : 1600000US0947990
+Name       : Mill Plain
+Namelsad   : Mill Plain CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1289576
+Awater     : 18575
+Intptlat   : +41.1546919
+Intptlon   : -073.2682834
+
+Statefp    : 09
+Placefp    : 49110
+Placens    : 02377832
+Geoid      : 0949110
+Geoidfq    : 1600000US0949110
+Name       : Moodus
+Namelsad   : Moodus CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 8721103
+Awater     : 52838
+Intptlat   : +41.5018921
+Intptlon   : -072.4355364
+
+Statefp    : 09
+Placefp    : 49180
+Placens    : 02377833
+Geoid      : 0949180
+Geoidfq    : 1600000US0949180
+Name       : Moosup
+Namelsad   : Moosup CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6310690
+Awater     : 95083
+Intptlat   : +41.7169922
+Intptlon   : -071.8752232
+
+Statefp    : 09
+Placefp    : 49720
+Placens    : 02805957
+Geoid      : 0949720
+Geoidfq    : 1600000US0949720
+Name       : Murray
+Namelsad   : Murray CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3824002
+Awater     : 0
+Intptlat   : +41.1974067
+Intptlon   : -073.2895254
+
+Statefp    : 09
+Placefp    : 49810
+Placens    : 02377834
+Geoid      : 0949810
+Geoidfq    : 1600000US0949810
+Name       : Mystic
+Namelsad   : Mystic CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 9451699
+Awater     : 1120351
+Intptlat   : +41.3559755
+Intptlon   : -071.9558817
+
+Statefp    : 09
+Placefp    : 50576
+Placens    : 02805958
+Geoid      : 0950576
+Geoidfq    : 1600000US0950576
+Name       : New Canaan
+Namelsad   : New Canaan CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4012339
+Awater     : 14142
+Intptlat   : +41.1417027
+Intptlon   : -073.4901412
+
+Statefp    : 09
+Placefp    : 51420
+Placens    : 02377835
+Geoid      : 0951420
+Geoidfq    : 1600000US0951420
+Name       : New Hartford Center
+Namelsad   : New Hartford Center CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 8254861
+Awater     : 533394
+Intptlat   : +41.8808903
+Intptlon   : -072.9728275
+
+Statefp    : 09
+Placefp    : 52210
+Placens    : 02377836
+Geoid      : 0952210
+Geoidfq    : 1600000US0952210
+Name       : Newington
+Namelsad   : Newington CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 34034098
+Awater     : 0
+Intptlat   : +41.6869933
+Intptlon   : -072.7308386
+
+Statefp    : 09
+Placefp    : 52560
+Placens    : 02377837
+Geoid      : 0952560
+Geoidfq    : 1600000US0952560
+Name       : New Milford
+Namelsad   : New Milford CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 10531417
+Awater     : 269627
+Intptlat   : +41.5802951
+Intptlon   : -073.4039343
+
+Statefp    : 09
+Placefp    : 52770
+Placens    : 02377838
+Geoid      : 0952770
+Geoidfq    : 1600000US0952770
+Name       : New Preston
+Namelsad   : New Preston CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 18956400
+Awater     : 1311316
+Intptlat   : +41.6913073
+Intptlon   : -073.3344033
+
+Statefp    : 09
+Placefp    : 53120
+Placens    : 02377839
+Geoid      : 0953120
+Geoidfq    : 1600000US0953120
+Name       : Niantic
+Namelsad   : Niantic CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3902681
+Awater     : 5332277
+Intptlat   : +41.3167676
+Intptlon   : -072.1998654
+
+Statefp    : 09
+Placefp    : 53260
+Placens    : 02377840
+Geoid      : 0953260
+Geoidfq    : 1600000US0953260
+Name       : Noank
+Namelsad   : Noank CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3949193
+Awater     : 1798054
+Intptlat   : +41.3375021
+Intptlon   : -071.9975570
+
+Statefp    : 09
+Placefp    : 53400
+Placens    : 02631569
+Geoid      : 0953400
+Geoidfq    : 1600000US0953400
+Name       : Norfolk
+Namelsad   : Norfolk CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2979380
+Awater     : 0
+Intptlat   : +41.9917064
+Intptlon   : -073.1940408
+
+Statefp    : 09
+Placefp    : 53540
+Placens    : 02805054
+Geoid      : 0953540
+Geoidfq    : 1600000US0953540
+Name       : Noroton
+Namelsad   : Noroton CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4675429
+Awater     : 1320160
+Intptlat   : +41.0583563
+Intptlon   : -073.4905255
+
+Statefp    : 09
+Placefp    : 53610
+Placens    : 02805055
+Geoid      : 0953610
+Geoidfq    : 1600000US0953610
+Name       : Noroton Heights
+Namelsad   : Noroton Heights CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2268537
+Awater     : 0
+Intptlat   : +41.0740912
+Intptlon   : -073.4972213
+
+Statefp    : 09
+Placefp    : 54450
+Placens    : 02805986
+Geoid      : 0954450
+Geoidfq    : 1600000US0954450
+Name       : Northford
+Namelsad   : Northford CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 20681505
+Awater     : 29229
+Intptlat   : +41.3958045
+Intptlon   : -072.7831812
+
+Statefp    : 09
+Placefp    : 54660
+Placens    : 02377841
+Geoid      : 0954660
+Geoidfq    : 1600000US0954660
+Name       : North Granby
+Namelsad   : North Granby CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 21605083
+Awater     : 2582
+Intptlat   : +42.0159893
+Intptlon   : -072.8431768
+
+Statefp    : 09
+Placefp    : 54730
+Placens    : 02377842
+Geoid      : 0954730
+Geoidfq    : 1600000US0954730
+Name       : North Grosvenor Dale
+Namelsad   : North Grosvenor Dale CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5868155
+Awater     : 0
+Intptlat   : +41.9862353
+Intptlon   : -071.9033363
+
+Statefp    : 09
+Placefp    : 54940
+Placens    : 02377843
+Geoid      : 0954940
+Geoidfq    : 1600000US0954940
+Name       : North Haven
+Namelsad   : North Haven CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 53875575
+Awater     : 714453
+Intptlat   : +41.3814653
+Intptlon   : -072.8563709
+
+Statefp    : 09
+Placefp    : 55725
+Placens    : 02377844
+Geoid      : 0955725
+Geoidfq    : 1600000US0955725
+Name       : Northwest Harwinton
+Namelsad   : Northwest Harwinton CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 22529025
+Awater     : 284978
+Intptlat   : +41.7764463
+Intptlon   : -073.0794873
+
+Statefp    : 09
+Placefp    : 56690
+Placens    : 02377845
+Geoid      : 0956690
+Geoidfq    : 1600000US0956690
+Name       : Oakville
+Namelsad   : Oakville CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 10298522
+Awater     : 90151
+Intptlat   : +41.5889718
+Intptlon   : -073.0904747
+
+Statefp    : 09
+Placefp    : 56900
+Placens    : 02631571
+Geoid      : 0956900
+Geoidfq    : 1600000US0956900
+Name       : Old Greenwich
+Namelsad   : Old Greenwich CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5167965
+Awater     : 3841129
+Intptlat   : +41.0201195
+Intptlon   : -073.5676753
+
+Statefp    : 09
+Placefp    : 56935
+Placens    : 02805090
+Geoid      : 0956935
+Geoidfq    : 1600000US0956935
+Name       : Old Hill
+Namelsad   : Old Hill CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5590617
+Awater     : 91839
+Intptlat   : +41.1499364
+Intptlon   : -073.3793777
+
+Statefp    : 09
+Placefp    : 57180
+Placens    : 02377846
+Geoid      : 0957180
+Geoidfq    : 1600000US0957180
+Name       : Old Mystic
+Namelsad   : Old Mystic CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 11110129
+Awater     : 246207
+Intptlat   : +41.3836320
+Intptlon   : -071.9862463
+
+Statefp    : 09
+Placefp    : 57390
+Placens    : 02377847
+Geoid      : 0957390
+Geoidfq    : 1600000US0957390
+Name       : Old Saybrook Center
+Namelsad   : Old Saybrook Center CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5108193
+Awater     : 2345664
+Intptlat   : +41.2866319
+Intptlon   : -072.3581786
+
+Statefp    : 09
+Placefp    : 57670
+Placens    : 02377848
+Geoid      : 0957670
+Geoidfq    : 1600000US0957670
+Name       : Orange
+Namelsad   : Orange CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 44498763
+Awater     : 616353
+Intptlat   : +41.2849513
+Intptlon   : -073.0246368
+
+Statefp    : 09
+Placefp    : 57880
+Placens    : 02805068
+Geoid      : 0957880
+Geoidfq    : 1600000US0957880
+Name       : Oronoque
+Namelsad   : Oronoque CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5837341
+Awater     : 139514
+Intptlat   : +41.2591638
+Intptlon   : -073.1106385
+
+Statefp    : 09
+Placefp    : 58520
+Placens    : 02377849
+Geoid      : 0958520
+Geoidfq    : 1600000US0958520
+Name       : Oxoboxo River
+Namelsad   : Oxoboxo River CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 11021069
+Awater     : 571671
+Intptlat   : +41.4448594
+Intptlon   : -072.1268640
+
+Statefp    : 09
+Placefp    : 59140
+Placens    : 02377850
+Geoid      : 0959140
+Geoidfq    : 1600000US0959140
+Name       : Pawcatuck
+Namelsad   : Pawcatuck CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 8837168
+Awater     : 34723
+Intptlat   : +41.3738896
+Intptlon   : -071.8564215
+
+Statefp    : 09
+Placefp    : 59210
+Placens    : 02631572
+Geoid      : 0959210
+Geoidfq    : 1600000US0959210
+Name       : Pemberwick
+Namelsad   : Pemberwick CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1751616
+Awater     : 37206
+Intptlat   : +41.0181885
+Intptlon   : -073.6562030
+
+Statefp    : 09
+Placefp    : 60090
+Placens    : 02377851
+Geoid      : 0960090
+Geoidfq    : 1600000US0960090
+Name       : Plainfield Village
+Namelsad   : Plainfield Village CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4419508
+Awater     : 51679
+Intptlat   : +41.6751835
+Intptlon   : -071.9247071
+
+Statefp    : 09
+Placefp    : 60260
+Placens    : 02631573
+Geoid      : 0960260
+Geoidfq    : 1600000US0960260
+Name       : Plantsville
+Namelsad   : Plantsville CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2576126
+Awater     : 0
+Intptlat   : +41.5831609
+Intptlon   : -072.8918497
+
+Statefp    : 09
+Placefp    : 60365
+Placens    : 02805959
+Geoid      : 0960365
+Geoidfq    : 1600000US0960365
+Name       : Plattsville
+Namelsad   : Plattsville CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2578150
+Awater     : 0
+Intptlat   : +41.2259359
+Intptlon   : -073.2590962
+
+Statefp    : 09
+Placefp    : 60540
+Placens    : 02805983
+Geoid      : 0960540
+Geoidfq    : 1600000US0960540
+Name       : Pleasant Valley
+Namelsad   : Pleasant Valley CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1318605
+Awater     : 0
+Intptlat   : +41.9083269
+Intptlon   : -072.9923110
+
+Statefp    : 09
+Placefp    : 61555
+Placens    : 02805091
+Geoid      : 0961555
+Geoidfq    : 1600000US0961555
+Name       : Poplar Plains
+Namelsad   : Poplar Plains CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2767172
+Awater     : 13103
+Intptlat   : +41.1688721
+Intptlon   : -073.3782384
+
+Statefp    : 09
+Placefp    : 61730
+Placens    : 02377852
+Geoid      : 0961730
+Geoidfq    : 1600000US0961730
+Name       : Poquonock Bridge
+Namelsad   : Poquonock Bridge CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3476182
+Awater     : 185512
+Intptlat   : +41.3364258
+Intptlon   : -072.0122678
+
+Statefp    : 09
+Placefp    : 61870
+Placens    : 02377853
+Geoid      : 0961870
+Geoidfq    : 1600000US0961870
+Name       : Portland
+Namelsad   : Portland CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 15527163
+Awater     : 1630990
+Intptlat   : +41.5774628
+Intptlon   : -072.6197883
+
+Statefp    : 09
+Placefp    : 62640
+Placens    : 02377854
+Geoid      : 0962640
+Geoidfq    : 1600000US0962640
+Name       : Putnam
+Namelsad   : Putnam CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : Y
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 10095383
+Awater     : 125521
+Intptlat   : +41.9167525
+Intptlon   : -071.9107034
+
+Statefp    : 09
+Placefp    : 63165
+Placens    : 02805994
+Geoid      : 0963165
+Geoidfq    : 1600000US0963165
+Name       : Quasset Lake
+Namelsad   : Quasset Lake CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 843070
+Awater     : 356869
+Intptlat   : +41.9222980
+Intptlon   : -071.9813788
+
+Statefp    : 09
+Placefp    : 63270
+Placens    : 02377855
+Geoid      : 0963270
+Geoidfq    : 1600000US0963270
+Name       : Quinebaug
+Namelsad   : Quinebaug CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 11249298
+Awater     : 494746
+Intptlat   : +42.0114758
+Intptlon   : -071.9260662
+
+Statefp    : 09
+Placefp    : 63313
+Placens    : 02805987
+Geoid      : 0963313
+Geoidfq    : 1600000US0963313
+Name       : Quinnipiac University
+Namelsad   : Quinnipiac University CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 998185
+Awater     : 0
+Intptlat   : +41.4201015
+Intptlon   : -072.8936143
+
+Statefp    : 09
+Placefp    : 63620
+Placens    : 02805960
+Geoid      : 0963620
+Geoidfq    : 1600000US0963620
+Name       : Redding Center
+Namelsad   : Redding Center CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1784533
+Awater     : 0
+Intptlat   : +41.3066628
+Intptlon   : -073.3830241
+
+Statefp    : 09
+Placefp    : 63830
+Placens    : 02805961
+Geoid      : 0963830
+Geoidfq    : 1600000US0963830
+Name       : Ridgebury
+Namelsad   : Ridgebury CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 14203973
+Awater     : 24398
+Intptlat   : +41.3567646
+Intptlon   : -073.5358931
+
+Statefp    : 09
+Placefp    : 63900
+Placens    : 02377856
+Geoid      : 0963900
+Geoidfq    : 1600000US0963900
+Name       : Ridgefield
+Namelsad   : Ridgefield CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 16202958
+Awater     : 17751
+Intptlat   : +41.2696880
+Intptlon   : -073.4926106
+
+Statefp    : 09
+Placefp    : 64530
+Placens    : 02631574
+Geoid      : 0964530
+Geoidfq    : 1600000US0964530
+Name       : Riverside
+Namelsad   : Riverside CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6271394
+Awater     : 2087763
+Intptlat   : +41.0300928
+Intptlon   : -073.5837192
+
+Statefp    : 09
+Placefp    : 64880
+Placens    : 02805984
+Geoid      : 0964880
+Geoidfq    : 1600000US0964880
+Name       : Riverton
+Namelsad   : Riverton CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1250003
+Awater     : 0
+Intptlat   : +41.9631414
+Intptlon   : -073.0165584
+
+Statefp    : 09
+Placefp    : 65160
+Placens    : 02805962
+Geoid      : 0965160
+Geoidfq    : 1600000US0965160
+Name       : Rock Ridge
+Namelsad   : Rock Ridge CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2357755
+Awater     : 0
+Intptlat   : +41.0344199
+Intptlon   : -073.6483956
+
+Statefp    : 09
+Placefp    : 65230
+Placens    : 02377857
+Geoid      : 0965230
+Geoidfq    : 1600000US0965230
+Name       : Rockville
+Namelsad   : Rockville CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4762039
+Awater     : 142113
+Intptlat   : +41.8665194
+Intptlon   : -072.4512702
+
+Statefp    : 09
+Placefp    : 65685
+Placens    : 02805963
+Geoid      : 0965685
+Geoidfq    : 1600000US0965685
+Name       : Route 7 Gateway
+Namelsad   : Route 7 Gateway CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1756026
+Awater     : 97381
+Intptlat   : +41.3187636
+Intptlon   : -073.4753816
+
+Statefp    : 09
+Placefp    : 66086
+Placens    : 02805964
+Geoid      : 0966086
+Geoidfq    : 1600000US0966086
+Name       : Sacred Heart University
+Namelsad   : Sacred Heart University CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 307930
+Awater     : 0
+Intptlat   : +41.2214800
+Intptlon   : -073.2442003
+
+Statefp    : 09
+Placefp    : 66113
+Placens    : 02805965
+Geoid      : 0966113
+Geoidfq    : 1600000US0966113
+Name       : Sail Harbor
+Namelsad   : Sail Harbor CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1211055
+Awater     : 414850
+Intptlat   : +41.5241900
+Intptlon   : -073.4642175
+
+Statefp    : 09
+Placefp    : 66455
+Placens    : 02377858
+Geoid      : 0966455
+Geoidfq    : 1600000US0966455
+Name       : Salmon Brook
+Namelsad   : Salmon Brook CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 8516183
+Awater     : 0
+Intptlat   : +41.9574865
+Intptlon   : -072.7918962
+
+Statefp    : 09
+Placefp    : 66700
+Placens    : 02805967
+Geoid      : 0966700
+Geoidfq    : 1600000US0966700
+Name       : Sandy Hook
+Namelsad   : Sandy Hook CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 41601896
+Awater     : 1756145
+Intptlat   : +41.4090005
+Intptlon   : -073.2426304
+
+Statefp    : 09
+Placefp    : 66770
+Placens    : 02805092
+Geoid      : 0966770
+Geoidfq    : 1600000US0966770
+Name       : Saugatuck
+Namelsad   : Saugatuck CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4812351
+Awater     : 3595764
+Intptlat   : +41.1121307
+Intptlon   : -073.3687714
+
+Statefp    : 09
+Placefp    : 67050
+Placens    : 02377859
+Geoid      : 0967050
+Geoidfq    : 1600000US0967050
+Name       : Saybrook Manor
+Namelsad   : Saybrook Manor CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2001442
+Awater     : 513261
+Intptlat   : +41.2834296
+Intptlon   : -072.4066047
+
+Statefp    : 09
+Placefp    : 67890
+Placens    : 02631575
+Geoid      : 0967890
+Geoidfq    : 1600000US0967890
+Name       : Sharon
+Namelsad   : Sharon CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 7750528
+Awater     : 51370
+Intptlat   : +41.8790257
+Intptlon   : -073.4616297
+
+Statefp    : 09
+Placefp    : 68240
+Placens    : 02805968
+Geoid      : 0968240
+Geoidfq    : 1600000US0968240
+Name       : Sherman
+Namelsad   : Sherman CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 904821
+Awater     : 31166
+Intptlat   : +41.5721076
+Intptlon   : -073.4950642
+
+Statefp    : 09
+Placefp    : 68450
+Placens    : 02377860
+Geoid      : 0968450
+Geoidfq    : 1600000US0968450
+Name       : Sherwood Manor
+Namelsad   : Sherwood Manor CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 9751460
+Awater     : 15826
+Intptlat   : +42.0111665
+Intptlon   : -072.5673776
+
+Statefp    : 09
+Placefp    : 69010
+Placens    : 02377861
+Geoid      : 0969010
+Geoidfq    : 1600000US0969010
+Name       : Simsbury Center
+Namelsad   : Simsbury Center CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 11814639
+Awater     : 12213
+Intptlat   : +41.8805989
+Intptlon   : -072.8067365
+
+Statefp    : 09
+Placefp    : 69150
+Placens    : 02378343
+Geoid      : 0969150
+Geoidfq    : 1600000US0969150
+Name       : Somers
+Namelsad   : Somers CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6335310
+Awater     : 0
+Intptlat   : +41.9916848
+Intptlon   : -072.4451226
+
+Statefp    : 09
+Placefp    : 69990
+Placens    : 02377862
+Geoid      : 0969990
+Geoidfq    : 1600000US0969990
+Name       : South Coventry
+Namelsad   : South Coventry CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 8412374
+Awater     : 10743
+Intptlat   : +41.7567524
+Intptlon   : -072.3017314
+
+Statefp    : 09
+Placefp    : 71040
+Placens    : 02631576
+Geoid      : 0971040
+Geoidfq    : 1600000US0971040
+Name       : Southport
+Namelsad   : Southport CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2245759
+Awater     : 345878
+Intptlat   : +41.1349397
+Intptlon   : -073.2871253
+
+Statefp    : 09
+Placefp    : 71215
+Placens    : 02805969
+Geoid      : 0971215
+Geoidfq    : 1600000US0971215
+Name       : South Wilton
+Namelsad   : South Wilton CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2900851
+Awater     : 70223
+Intptlat   : +41.1722949
+Intptlon   : -073.4169657
+
+Statefp    : 09
+Placefp    : 71250
+Placens    : 02377863
+Geoid      : 0971250
+Geoidfq    : 1600000US0971250
+Name       : South Windham
+Namelsad   : South Windham CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 8071367
+Awater     : 70997
+Intptlat   : +41.6841888
+Intptlon   : -072.1824736
+
+Statefp    : 09
+Placefp    : 71460
+Placens    : 02377864
+Geoid      : 0971460
+Geoidfq    : 1600000US0971460
+Name       : Southwood Acres
+Namelsad   : Southwood Acres CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 13759770
+Awater     : 0
+Intptlat   : +41.9581971
+Intptlon   : -072.5726398
+
+Statefp    : 09
+Placefp    : 71530
+Placens    : 02377865
+Geoid      : 0971530
+Geoidfq    : 1600000US0971530
+Name       : South Woodstock
+Namelsad   : South Woodstock CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 12592546
+Awater     : 66464
+Intptlat   : +41.9295852
+Intptlon   : -071.9556453
+
+Statefp    : 09
+Placefp    : 72300
+Placens    : 02377866
+Geoid      : 0972300
+Geoidfq    : 1600000US0972300
+Name       : Stafford Springs
+Namelsad   : Stafford Springs CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 16511185
+Awater     : 92825
+Intptlat   : +41.9678557
+Intptlon   : -072.3063812
+
+Statefp    : 09
+Placefp    : 73175
+Placens    : 02805093
+Geoid      : 0973175
+Geoidfq    : 1600000US0973175
+Name       : Staples
+Namelsad   : Staples CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 11263899
+Awater     : 13383
+Intptlat   : +41.1553690
+Intptlon   : -073.3256267
+
+Statefp    : 09
+Placefp    : 73280
+Placens    : 02805970
+Geoid      : 0973280
+Geoidfq    : 1600000US0973280
+Name       : Stepney
+Namelsad   : Stepney CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 17400030
+Awater     : 26341
+Intptlat   : +41.3243559
+Intptlon   : -073.2683914
+
+Statefp    : 09
+Placefp    : 73980
+Placens    : 02377867
+Geoid      : 0973980
+Geoidfq    : 1600000US0973980
+Name       : Storrs
+Namelsad   : Storrs CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 19305018
+Awater     : 111252
+Intptlat   : +41.8089384
+Intptlon   : -072.2516171
+
+Statefp    : 09
+Placefp    : 74303
+Placens    : 02805059
+Geoid      : 0974303
+Geoidfq    : 1600000US0974303
+Name       : Stratford Downtown
+Namelsad   : Stratford Downtown CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1617880
+Awater     : 0
+Intptlat   : +41.1988489
+Intptlon   : -073.1276696
+
+Statefp    : 09
+Placefp    : 74655
+Placens    : 02377869
+Geoid      : 0974655
+Geoidfq    : 1600000US0974655
+Name       : Suffield Depot
+Namelsad   : Suffield Depot CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5546667
+Awater     : 4167
+Intptlat   : +41.9852119
+Intptlon   : -072.6392499
+
+Statefp    : 09
+Placefp    : 75065
+Placens    : 02813335
+Geoid      : 0975065
+Geoidfq    : 1600000US0975065
+Name       : Taylor Corners
+Namelsad   : Taylor Corners CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1292897
+Awater     : 0
+Intptlat   : +41.4464133
+Intptlon   : -073.5286873
+
+Statefp    : 09
+Placefp    : 75100
+Placens    : 02377870
+Geoid      : 0975100
+Geoidfq    : 1600000US0975100
+Name       : Tariffville
+Namelsad   : Tariffville CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1669268
+Awater     : 134754
+Intptlat   : +41.9075590
+Intptlon   : -072.7681799
+
+Statefp    : 09
+Placefp    : 75116
+Placens    : 02805072
+Geoid      : 0975116
+Geoidfq    : 1600000US0975116
+Name       : Tashua
+Namelsad   : Tashua CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 9486791
+Awater     : 345128
+Intptlat   : +41.2750193
+Intptlon   : -073.2544450
+
+Statefp    : 09
+Placefp    : 75200
+Placens    : 02377871
+Geoid      : 0975200
+Geoidfq    : 1600000US0975200
+Name       : Terramuggus
+Namelsad   : Terramuggus CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2977025
+Awater     : 328952
+Intptlat   : +41.6335684
+Intptlon   : -072.4718241
+
+Statefp    : 09
+Placefp    : 75240
+Placens    : 02377872
+Geoid      : 0975240
+Geoidfq    : 1600000US0975240
+Name       : Terryville
+Namelsad   : Terryville CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 7149750
+Awater     : 68915
+Intptlat   : +41.6778377
+Intptlon   : -073.0079328
+
+Statefp    : 09
+Placefp    : 75660
+Placens    : 02631577
+Geoid      : 0975660
+Geoidfq    : 1600000US0975660
+Name       : Thomaston
+Namelsad   : Thomaston CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3105589
+Awater     : 17409
+Intptlat   : +41.6768551
+Intptlon   : -073.0830082
+
+Statefp    : 09
+Placefp    : 75940
+Placens    : 02377873
+Geoid      : 0975940
+Geoidfq    : 1600000US0975940
+Name       : Thompsonville
+Namelsad   : Thompsonville CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5271406
+Awater     : 787133
+Intptlat   : +41.9921403
+Intptlon   : -072.5965222
+
+Statefp    : 09
+Placefp    : 76150
+Placens    : 02805056
+Geoid      : 0976150
+Geoidfq    : 1600000US0976150
+Name       : Tokeneke
+Namelsad   : Tokeneke CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6061328
+Awater     : 4250624
+Intptlat   : +41.0534622
+Intptlon   : -073.4625642
+
+Statefp    : 09
+Placefp    : 76400
+Placens    : 02805972
+Geoid      : 0976400
+Geoidfq    : 1600000US0976400
+Name       : Topstone
+Namelsad   : Topstone CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 479427
+Awater     : 0
+Intptlat   : +41.2963081
+Intptlon   : -073.4465704
+
+Statefp    : 09
+Placefp    : 77278
+Placens    : 02805069
+Geoid      : 0977278
+Geoidfq    : 1600000US0977278
+Name       : Trumbull Center
+Namelsad   : Trumbull Center CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 14771293
+Awater     : 270528
+Intptlat   : +41.2423968
+Intptlon   : -073.1834830
+
+Statefp    : 09
+Placefp    : 78880
+Placens    : 02377875
+Geoid      : 0978880
+Geoidfq    : 1600000US0978880
+Name       : Wallingford Center
+Namelsad   : Wallingford Center CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 18798942
+Awater     : 310304
+Intptlat   : +41.4499170
+Intptlon   : -072.8183339
+
+Statefp    : 09
+Placefp    : 80210
+Placens    : 02378344
+Geoid      : 0980210
+Geoidfq    : 1600000US0980210
+Name       : Waterford
+Namelsad   : Waterford CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4889174
+Awater     : 12210
+Intptlat   : +41.3462735
+Intptlon   : -072.1293424
+
+Statefp    : 09
+Placefp    : 80420
+Placens    : 02631578
+Geoid      : 0980420
+Geoidfq    : 1600000US0980420
+Name       : Watertown
+Namelsad   : Watertown CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6116275
+Awater     : 12817
+Intptlat   : +41.6011548
+Intptlon   : -073.1214680
+
+Statefp    : 09
+Placefp    : 80630
+Placens    : 02377876
+Geoid      : 0980630
+Geoidfq    : 1600000US0980630
+Name       : Wauregan
+Namelsad   : Wauregan CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4244956
+Awater     : 53747
+Intptlat   : +41.7504738
+Intptlon   : -071.9148620
+
+Statefp    : 09
+Placefp    : 80770
+Placens    : 02377877
+Geoid      : 0980770
+Geoidfq    : 1600000US0980770
+Name       : Weatogue
+Namelsad   : Weatogue CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 7760836
+Awater     : 51635
+Intptlat   : +41.8472408
+Intptlon   : -072.8297687
+
+Statefp    : 09
+Placefp    : 81750
+Placens    : 02377878
+Geoid      : 0981750
+Geoidfq    : 1600000US0981750
+Name       : Westbrook Center
+Namelsad   : Westbrook Center CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4370966
+Awater     : 1061884
+Intptlat   : +41.2814042
+Intptlon   : -072.4423465
+
+Statefp    : 09
+Placefp    : 82030
+Placens    : 02805985
+Geoid      : 0982030
+Geoidfq    : 1600000US0982030
+Name       : West Cornwall
+Namelsad   : West Cornwall CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4055198
+Awater     : 0
+Intptlat   : +41.8642052
+Intptlon   : -073.3607882
+
+Statefp    : 09
+Placefp    : 82660
+Placens    : 02377879
+Geoid      : 0982660
+Geoidfq    : 1600000US0982660
+Name       : West Hartford
+Namelsad   : West Hartford CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : Y
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 56479088
+Awater     : 1096521
+Intptlat   : +41.7665678
+Intptlon   : -072.7549436
+
+Statefp    : 09
+Placefp    : 83045
+Placens    : 02805973
+Geoid      : 0983045
+Geoidfq    : 1600000US0983045
+Name       : West Mountain
+Namelsad   : West Mountain CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5512924
+Awater     : 135471
+Intptlat   : +41.3000774
+Intptlon   : -073.5423149
+
+Statefp    : 09
+Placefp    : 83360
+Placens    : 02805975
+Geoid      : 0983360
+Geoidfq    : 1600000US0983360
+Name       : Weston
+Namelsad   : Weston CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3881832
+Awater     : 0
+Intptlat   : +41.2032361
+Intptlon   : -073.3787805
+
+Statefp    : 09
+Placefp    : 83586
+Placens    : 02805094
+Geoid      : 0983586
+Geoidfq    : 1600000US0983586
+Name       : Westport Village
+Namelsad   : Westport Village CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3297122
+Awater     : 255493
+Intptlat   : +41.1433514
+Intptlon   : -073.3602532
+
+Statefp    : 09
+Placefp    : 83990
+Placens    : 02377881
+Geoid      : 0983990
+Geoidfq    : 1600000US0983990
+Name       : West Simsbury
+Namelsad   : West Simsbury CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 11996673
+Awater     : 0
+Intptlat   : +41.8757305
+Intptlon   : -072.8450713
+
+Statefp    : 09
+Placefp    : 84970
+Placens    : 02377882
+Geoid      : 0984970
+Geoidfq    : 1600000US0984970
+Name       : Wethersfield
+Namelsad   : Wethersfield CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 31862532
+Awater     : 2071398
+Intptlat   : +41.7024816
+Intptlon   : -072.6693001
+
+Statefp    : 09
+Placefp    : 85810
+Placens    : 02377883
+Geoid      : 0985810
+Geoidfq    : 1600000US0985810
+Name       : Willimantic
+Namelsad   : Willimantic CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : Y
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 14041036
+Awater     : 343768
+Intptlat   : +41.7165575
+Intptlon   : -072.2117331
+
+Statefp    : 09
+Placefp    : 86380
+Placens    : 02631222
+Geoid      : 0986380
+Geoidfq    : 1600000US0986380
+Name       : Wilton Center
+Namelsad   : Wilton Center CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2594056
+Awater     : 0
+Intptlat   : +41.1912793
+Intptlon   : -073.4261632
+
+Statefp    : 09
+Placefp    : 87140
+Placens    : 02377884
+Geoid      : 0987140
+Geoidfq    : 1600000US0987140
+Name       : Windsor Locks
+Namelsad   : Windsor Locks CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 23371632
+Awater     : 884319
+Intptlat   : +41.9277901
+Intptlon   : -072.6516158
+
+Statefp    : 09
+Placefp    : 87350
+Placens    : 02377885
+Geoid      : 0987350
+Geoidfq    : 1600000US0987350
+Name       : Winsted
+Namelsad   : Winsted CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 12641400
+Awater     : 463589
+Intptlat   : +41.9258483
+Intptlon   : -073.0675434
+
+Statefp    : 09
+Placefp    : 87455
+Placens    : 02805996
+Geoid      : 0987455
+Geoidfq    : 1600000US0987455
+Name       : Witches Woods
+Namelsad   : Witches Woods CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 237296
+Awater     : 284673
+Intptlat   : +41.9464064
+Intptlon   : -072.0742333
+
+Statefp    : 09
+Placefp    : 87980
+Placens    : 02377886
+Geoid      : 0987980
+Geoidfq    : 1600000US0987980
+Name       : Woodbury Center
+Namelsad   : Woodbury Center CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5238370
+Awater     : 0
+Intptlat   : +41.5438698
+Intptlon   : -073.2048565
+
