@@ -1,0 +1,17 @@
+Statefp    : 11
+Placefp    : 50000
+Placens    : 02390665
+Geoid      : 1150000
+Geoidfq    : 1600000US1150000
+Name       : Washington
+Namelsad   : Washington city
+Lsad       : 25
+Classfp    : C5
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : N
+Aland      : 158316184
+Awater     : 18709787
+Intptlat   : +38.9042474
+Intptlon   : -077.0165167
+

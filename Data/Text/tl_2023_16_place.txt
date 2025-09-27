@@ -1,0 +1,4012 @@
+Statefp    : 16
+Placefp    : 01000
+Placens    : 02409677
+Geoid      : 1601000
+Geoidfq    : 1600000US1601000
+Name       : Albion
+Namelsad   : Albion city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1220574
+Awater     : 0
+Intptlat   : +42.4098076
+Intptlon   : -113.5804379
+
+Statefp    : 16
+Placefp    : 20980
+Placens    : 02410308
+Geoid      : 1620980
+Geoidfq    : 1600000US1620980
+Name       : Declo
+Namelsad   : Declo city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 716839
+Awater     : 0
+Intptlat   : +42.5195992
+Intptlon   : -113.6287318
+
+Statefp    : 16
+Placefp    : 58330
+Placens    : 02411295
+Geoid      : 1658330
+Geoidfq    : 1600000US1658330
+Name       : Oakley
+Namelsad   : Oakley city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 11973102
+Awater     : 4001
+Intptlat   : +42.2420603
+Intptlon   : -113.8830582
+
+Statefp    : 16
+Placefp    : 52030
+Placens    : 02411075
+Geoid      : 1652030
+Geoidfq    : 1600000US1652030
+Name       : Menan
+Namelsad   : Menan city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2673003
+Awater     : 0
+Intptlat   : +43.7217913
+Intptlon   : -111.9923527
+
+Statefp    : 16
+Placefp    : 55450
+Placens    : 02411190
+Geoid      : 1655450
+Geoidfq    : 1600000US1655450
+Name       : Mud Lake
+Namelsad   : Mud Lake city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 368820
+Awater     : 0
+Intptlat   : +43.8428551
+Intptlon   : -112.4795039
+
+Statefp    : 16
+Placefp    : 67780
+Placens    : 02410948
+Geoid      : 1667780
+Geoidfq    : 1600000US1667780
+Name       : Rigby
+Namelsad   : Rigby city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 6263403
+Awater     : 28994
+Intptlat   : +43.6735868
+Intptlon   : -111.9135254
+
+Statefp    : 16
+Placefp    : 13150
+Placens    : 02409402
+Geoid      : 1613150
+Geoidfq    : 1600000US1613150
+Name       : Cascade
+Namelsad   : Cascade city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 10680740
+Awater     : 1494662
+Intptlat   : +44.5087608
+Intptlon   : -116.0436271
+
+Statefp    : 16
+Placefp    : 18820
+Placens    : 02410248
+Geoid      : 1618820
+Geoidfq    : 1600000US1618820
+Name       : Council
+Namelsad   : Council city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2731934
+Awater     : 66747
+Intptlat   : +44.7331948
+Intptlon   : -116.4368375
+
+Statefp    : 16
+Placefp    : 11710
+Placens    : 02409950
+Geoid      : 1611710
+Geoidfq    : 1600000US1611710
+Name       : Butte City
+Namelsad   : Butte City city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 438672
+Awater     : 0
+Intptlat   : +43.6069878
+Intptlon   : -113.2407389
+
+Statefp    : 16
+Placefp    : 25570
+Placens    : 02410437
+Geoid      : 1625570
+Geoidfq    : 1600000US1625570
+Name       : Emmett
+Namelsad   : Emmett city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 6866126
+Awater     : 50399
+Intptlat   : +43.8692283
+Intptlon   : -116.4913356
+
+Statefp    : 16
+Placefp    : 87040
+Placens    : 02412240
+Geoid      : 1687040
+Geoidfq    : 1600000US1687040
+Name       : Weston
+Namelsad   : Weston city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 4921354
+Awater     : 13308
+Intptlat   : +42.0362085
+Intptlon   : -111.9777986
+
+Statefp    : 16
+Placefp    : 04420
+Placens    : 02409780
+Geoid      : 1604420
+Geoidfq    : 1600000US1604420
+Name       : Bancroft
+Namelsad   : Bancroft city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1576811
+Awater     : 0
+Intptlat   : +42.7202407
+Intptlon   : -111.8830101
+
+Statefp    : 16
+Placefp    : 13780
+Placens    : 02409432
+Geoid      : 1613780
+Geoidfq    : 1600000US1613780
+Name       : Challis
+Namelsad   : Challis city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 5109726
+Awater     : 65070
+Intptlat   : +44.5057779
+Intptlon   : -114.2283215
+
+Statefp    : 16
+Placefp    : 49240
+Placens    : 02410905
+Geoid      : 1649240
+Geoidfq    : 1600000US1649240
+Name       : Mackay
+Namelsad   : Mackay city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2243188
+Awater     : 0
+Intptlat   : +43.9119960
+Intptlon   : -113.6127280
+
+Statefp    : 16
+Placefp    : 76780
+Placens    : 02411968
+Geoid      : 1676780
+Geoidfq    : 1600000US1676780
+Name       : Stanley
+Namelsad   : Stanley city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1405322
+Awater     : 13586
+Intptlat   : +44.2117755
+Intptlon   : -114.9340743
+
+Statefp    : 16
+Placefp    : 40600
+Placens    : 02410121
+Geoid      : 1640600
+Geoidfq    : 1600000US1640600
+Name       : Island Park
+Namelsad   : Island Park city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 15752543
+Awater     : 275940
+Intptlat   : +44.5341912
+Intptlon   : -111.3377884
+
+Statefp    : 16
+Placefp    : 71020
+Placens    : 02411755
+Geoid      : 1671020
+Geoidfq    : 1600000US1671020
+Name       : St. Anthony
+Namelsad   : St. Anthony city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 4985900
+Awater     : 105151
+Intptlat   : +43.9661373
+Intptlon   : -111.6845091
+
+Statefp    : 16
+Placefp    : 26290
+Placens    : 02410475
+Geoid      : 1626290
+Geoidfq    : 1600000US1626290
+Name       : Fairfield
+Namelsad   : Fairfield city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2269152
+Awater     : 2708
+Intptlat   : +43.3480452
+Intptlon   : -114.8008259
+
+Statefp    : 16
+Placefp    : 08830
+Placens    : 02409876
+Geoid      : 1608830
+Geoidfq    : 1600000US1608830
+Name       : Boise City
+Namelsad   : Boise City city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 218991695
+Awater     : 2564228
+Intptlat   : +43.6002293
+Intptlon   : -116.2316555
+
+Statefp    : 16
+Placefp    : 54550
+Placens    : 02411172
+Geoid      : 1654550
+Geoidfq    : 1600000US1654550
+Name       : Moscow
+Namelsad   : Moscow city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 17894797
+Awater     : 7334
+Intptlat   : +46.7306091
+Intptlon   : -116.9989090
+
+Statefp    : 16
+Placefp    : 58060
+Placens    : 02411282
+Geoid      : 1658060
+Geoidfq    : 1600000US1658060
+Name       : Notus
+Namelsad   : Notus city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 962485
+Awater     : 34614
+Intptlat   : +43.7268626
+Intptlon   : -116.8004323
+
+Statefp    : 16
+Placefp    : 54730
+Placens    : 02411185
+Geoid      : 1654730
+Geoidfq    : 1600000US1654730
+Name       : Mountain Home
+Namelsad   : Mountain Home city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 18244802
+Awater     : 750096
+Intptlat   : +43.1318333
+Intptlon   : -115.6967161
+
+Statefp    : 16
+Placefp    : 60040
+Placens    : 02411346
+Geoid      : 1660040
+Geoidfq    : 1600000US1660040
+Name       : Oxford
+Namelsad   : Oxford city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 677032
+Awater     : 0
+Intptlat   : +42.2598312
+Intptlon   : -112.0178695
+
+Statefp    : 16
+Placefp    : 09730
+Placens    : 02409886
+Geoid      : 1609730
+Geoidfq    : 1600000US1609730
+Name       : Bovill
+Namelsad   : Bovill city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 412486
+Awater     : 0
+Intptlat   : +46.8586789
+Intptlon   : -116.3935511
+
+Statefp    : 16
+Placefp    : 58870
+Placens    : 02411322
+Geoid      : 1658870
+Geoidfq    : 1600000US1658870
+Name       : Onaway
+Namelsad   : Onaway city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 387778
+Awater     : 0
+Intptlat   : +46.9282112
+Intptlon   : -116.8896210
+
+Statefp    : 16
+Placefp    : 29620
+Placens    : 02410567
+Geoid      : 1629620
+Geoidfq    : 1600000US1629620
+Name       : Garden City
+Namelsad   : Garden City city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 10569978
+Awater     : 504041
+Intptlat   : +43.6682968
+Intptlon   : -116.2943893
+
+Statefp    : 16
+Placefp    : 67960
+Placens    : 02410958
+Geoid      : 1667960
+Geoidfq    : 1600000US1667960
+Name       : Ririe
+Namelsad   : Ririe city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1347702
+Awater     : 36540
+Intptlat   : +43.6324935
+Intptlon   : -111.7717170
+
+Statefp    : 16
+Placefp    : 19900
+Placens    : 02410274
+Geoid      : 1619900
+Geoidfq    : 1600000US1619900
+Name       : Culdesac
+Namelsad   : Culdesac city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 576822
+Awater     : 0
+Intptlat   : +46.3748955
+Intptlon   : -116.6700973
+
+Statefp    : 16
+Placefp    : 45370
+Placens    : 02411624
+Geoid      : 1645370
+Geoidfq    : 1600000US1645370
+Name       : Lapwai
+Namelsad   : Lapwai city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1958486
+Awater     : 25087
+Intptlat   : +46.4037149
+Intptlon   : -116.8042234
+
+Statefp    : 16
+Placefp    : 61840
+Placens    : 02411396
+Geoid      : 1661840
+Geoidfq    : 1600000US1661840
+Name       : Peck
+Namelsad   : Peck city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 654528
+Awater     : 0
+Intptlat   : +46.4746956
+Intptlon   : -116.4261958
+
+Statefp    : 16
+Placefp    : 46540
+Placens    : 02410825
+Geoid      : 1646540
+Geoidfq    : 1600000US1646540
+Name       : Lewiston
+Namelsad   : Lewiston city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 45243623
+Awater     : 2083972
+Intptlat   : +46.3931296
+Intptlon   : -116.9934717
+
+Statefp    : 16
+Placefp    : 12520
+Placens    : 02409968
+Geoid      : 1612520
+Geoidfq    : 1600000US1612520
+Name       : Cambridge
+Namelsad   : Cambridge city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1253215
+Awater     : 37223
+Intptlat   : +44.5717475
+Intptlon   : -116.6781013
+
+Statefp    : 16
+Placefp    : 52750
+Placens    : 02411098
+Geoid      : 1652750
+Geoidfq    : 1600000US1652750
+Name       : Midvale
+Namelsad   : Midvale city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 6655263
+Awater     : 182126
+Intptlat   : +44.4622548
+Intptlon   : -116.7406519
+
+Statefp    : 16
+Placefp    : 86140
+Placens    : 02412206
+Geoid      : 1686140
+Geoidfq    : 1600000US1686140
+Name       : Weiser
+Namelsad   : Weiser city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 7722837
+Awater     : 27916
+Intptlat   : +44.2546803
+Intptlon   : -116.9688590
+
+Statefp    : 16
+Placefp    : 01900
+Placens    : 02409696
+Geoid      : 1601900
+Geoidfq    : 1600000US1601900
+Name       : American Falls
+Namelsad   : American Falls city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 4179331
+Awater     : 0
+Intptlat   : +42.7828465
+Intptlon   : -112.8542111
+
+Statefp    : 16
+Placefp    : 69130
+Placens    : 02410979
+Geoid      : 1669130
+Geoidfq    : 1600000US1669130
+Name       : Rockland
+Namelsad   : Rockland city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 752702
+Awater     : 0
+Intptlat   : +42.5732761
+Intptlon   : -112.8745068
+
+Statefp    : 16
+Placefp    : 32500
+Placens    : 02410626
+Geoid      : 1632500
+Geoidfq    : 1600000US1632500
+Name       : Grace
+Namelsad   : Grace city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2581942
+Awater     : 640
+Intptlat   : +42.5751821
+Intptlon   : -111.7297712
+
+Statefp    : 16
+Placefp    : 75195
+Placens    : 02411921
+Geoid      : 1675195
+Geoidfq    : 1600000US1675195
+Name       : Soda Springs
+Namelsad   : Soda Springs city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 11466703
+Awater     : 117919
+Intptlat   : +42.6578736
+Intptlon   : -111.5860805
+
+Statefp    : 16
+Placefp    : 68500
+Placens    : 02410971
+Geoid      : 1668500
+Geoidfq    : 1600000US1668500
+Name       : Roberts
+Namelsad   : Roberts city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 812208
+Awater     : 24789
+Intptlat   : +43.7204878
+Intptlon   : -112.1288682
+
+Statefp    : 16
+Placefp    : 46720
+Placens    : 02410828
+Geoid      : 1646720
+Geoidfq    : 1600000US1646720
+Name       : Lewisville
+Namelsad   : Lewisville city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1719314
+Awater     : 0
+Intptlat   : +43.6957336
+Intptlon   : -112.0138976
+
+Statefp    : 16
+Placefp    : 37360
+Placens    : 02410753
+Geoid      : 1637360
+Geoidfq    : 1600000US1637360
+Name       : Heyburn
+Namelsad   : Heyburn city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 6764353
+Awater     : 114306
+Intptlat   : +42.5599818
+Intptlon   : -113.7620669
+
+Statefp    : 16
+Placefp    : 70660
+Placens    : 02411016
+Geoid      : 1670660
+Geoidfq    : 1600000US1670660
+Name       : Rupert
+Namelsad   : Rupert city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 5332064
+Awater     : 0
+Intptlat   : +42.6189355
+Intptlon   : -113.6739675
+
+Statefp    : 16
+Placefp    : 67150
+Placens    : 02410928
+Geoid      : 1667150
+Geoidfq    : 1600000US1667150
+Name       : Reubens
+Namelsad   : Reubens city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 438140
+Awater     : 0
+Intptlat   : +46.3229229
+Intptlon   : -116.5428610
+
+Statefp    : 16
+Placefp    : 87850
+Placens    : 02412279
+Geoid      : 1687850
+Geoidfq    : 1600000US1687850
+Name       : Winchester
+Namelsad   : Winchester city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 456612
+Awater     : 0
+Intptlat   : +46.2408122
+Intptlon   : -116.6241366
+
+Statefp    : 16
+Placefp    : 32140
+Placens    : 02410619
+Geoid      : 1632140
+Geoidfq    : 1600000US1632140
+Name       : Gooding
+Namelsad   : Gooding city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 3933475
+Awater     : 32983
+Intptlat   : +42.9370476
+Intptlon   : -114.7131878
+
+Statefp    : 16
+Placefp    : 34300
+Placens    : 02410680
+Geoid      : 1634300
+Geoidfq    : 1600000US1634300
+Name       : Hagerman
+Namelsad   : Hagerman city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1523273
+Awater     : 61409
+Intptlat   : +42.8160155
+Intptlon   : -114.8976811
+
+Statefp    : 16
+Placefp    : 86320
+Placens    : 02412213
+Geoid      : 1686320
+Geoidfq    : 1600000US1686320
+Name       : Wendell
+Namelsad   : Wendell city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 3642573
+Awater     : 5498
+Intptlat   : +42.7746796
+Intptlon   : -114.7029599
+
+Statefp    : 16
+Placefp    : 10810
+Placens    : 02409935
+Geoid      : 1610810
+Geoidfq    : 1600000US1610810
+Name       : Buhl
+Namelsad   : Buhl city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 4865488
+Awater     : 0
+Intptlat   : +42.5983624
+Intptlon   : -114.7595359
+
+Statefp    : 16
+Placefp    : 27730
+Placens    : 02410503
+Geoid      : 1627730
+Geoidfq    : 1600000US1627730
+Name       : Filer
+Namelsad   : Filer city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 3803759
+Awater     : 0
+Intptlat   : +42.5650853
+Intptlon   : -114.6060958
+
+Statefp    : 16
+Placefp    : 34930
+Placens    : 02410697
+Geoid      : 1634930
+Geoidfq    : 1600000US1634930
+Name       : Hansen
+Namelsad   : Hansen city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 903900
+Awater     : 0
+Intptlat   : +42.5313650
+Intptlon   : -114.3011771
+
+Statefp    : 16
+Placefp    : 38080
+Placens    : 02410779
+Geoid      : 1638080
+Geoidfq    : 1600000US1638080
+Name       : Hollister
+Namelsad   : Hollister city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2773563
+Awater     : 0
+Intptlat   : +42.3529109
+Intptlon   : -114.5838460
+
+Statefp    : 16
+Placefp    : 43570
+Placens    : 02411543
+Geoid      : 1643570
+Geoidfq    : 1600000US1643570
+Name       : Kimberly
+Namelsad   : Kimberly city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 5266305
+Awater     : 0
+Intptlat   : +42.5348943
+Intptlon   : -114.3706890
+
+Statefp    : 16
+Placefp    : 42400
+Placens    : 02410163
+Geoid      : 1642400
+Geoidfq    : 1600000US1642400
+Name       : Kamiah
+Namelsad   : Kamiah city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2843465
+Awater     : 221685
+Intptlat   : +46.2267959
+Intptlon   : -116.0283028
+
+Statefp    : 16
+Placefp    : 19270
+Placens    : 02410256
+Geoid      : 1619270
+Geoidfq    : 1600000US1619270
+Name       : Craigmont
+Namelsad   : Craigmont city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2013527
+Awater     : 1732
+Intptlat   : +46.2417397
+Intptlon   : -116.4713442
+
+Statefp    : 16
+Placefp    : 57250
+Placens    : 02411252
+Geoid      : 1657250
+Geoidfq    : 1600000US1657250
+Name       : Nezperce
+Namelsad   : Nezperce city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1693715
+Awater     : 27578
+Intptlat   : +46.2365950
+Intptlon   : -116.2397640
+
+Statefp    : 16
+Placefp    : 48790
+Placens    : 02411058
+Geoid      : 1648790
+Geoidfq    : 1600000US1648790
+Name       : McCall
+Namelsad   : McCall city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 23475160
+Awater     : 2228104
+Intptlat   : +44.9084085
+Intptlon   : -116.1124908
+
+Statefp    : 16
+Placefp    : 40510
+Placens    : 02410118
+Geoid      : 1640510
+Geoidfq    : 1600000US1640510
+Name       : Irwin
+Namelsad   : Irwin city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 6770233
+Awater     : 1926
+Intptlat   : +43.4033593
+Intptlon   : -111.2795127
+
+Statefp    : 16
+Placefp    : 79120
+Placens    : 02412020
+Geoid      : 1679120
+Geoidfq    : 1600000US1679120
+Name       : Swan Valley
+Namelsad   : Swan Valley city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 30058840
+Awater     : 302803
+Intptlat   : +43.4425750
+Intptlon   : -111.3245438
+
+Statefp    : 16
+Placefp    : 27550
+Placens    : 02410496
+Geoid      : 1627550
+Geoidfq    : 1600000US1627550
+Name       : Fernan Lake Village
+Namelsad   : Fernan Lake Village city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 197627
+Awater     : 2689
+Intptlat   : +47.6722913
+Intptlon   : -116.7475554
+
+Statefp    : 16
+Placefp    : 39070
+Placens    : 02410802
+Geoid      : 1639070
+Geoidfq    : 1600000US1639070
+Name       : Huetter
+Namelsad   : Huetter city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 117471
+Awater     : 0
+Intptlat   : +47.7035439
+Intptlon   : -116.8508384
+
+Statefp    : 16
+Placefp    : 03700
+Placens    : 02409748
+Geoid      : 1603700
+Geoidfq    : 1600000US1603700
+Name       : Athol
+Namelsad   : Athol city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2939792
+Awater     : 0
+Intptlat   : +47.9470417
+Intptlon   : -116.7077573
+
+Statefp    : 16
+Placefp    : 20350
+Placens    : 02410289
+Geoid      : 1620350
+Geoidfq    : 1600000US1620350
+Name       : Dalton Gardens
+Namelsad   : Dalton Gardens city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 6168854
+Awater     : 13365
+Intptlat   : +47.7334122
+Intptlon   : -116.7678730
+
+Statefp    : 16
+Placefp    : 36370
+Placens    : 02410721
+Geoid      : 1636370
+Geoidfq    : 1600000US1636370
+Name       : Hayden
+Namelsad   : Hayden city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 27270982
+Awater     : 39037
+Intptlat   : +47.7684541
+Intptlon   : -116.8012388
+
+Statefp    : 16
+Placefp    : 64810
+Placens    : 02411475
+Geoid      : 1664810
+Geoidfq    : 1600000US1664810
+Name       : Post Falls
+Namelsad   : Post Falls city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 48033697
+Awater     : 70897
+Intptlat   : +47.7255594
+Intptlon   : -116.9441665
+
+Statefp    : 16
+Placefp    : 66340
+Placens    : 02411521
+Geoid      : 1666340
+Geoidfq    : 1600000US1666340
+Name       : Rathdrum
+Namelsad   : Rathdrum city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 18011197
+Awater     : 0
+Intptlat   : +47.7940362
+Intptlon   : -116.8929269
+
+Statefp    : 16
+Placefp    : 77050
+Placens    : 02411974
+Geoid      : 1677050
+Geoidfq    : 1600000US1677050
+Name       : State Line
+Namelsad   : State Line city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 285215
+Awater     : 0
+Intptlat   : +47.7053414
+Intptlon   : -117.0366292
+
+Statefp    : 16
+Placefp    : 88480
+Placens    : 02412309
+Geoid      : 1688480
+Geoidfq    : 1600000US1688480
+Name       : Worley
+Namelsad   : Worley city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 502488
+Awater     : 0
+Intptlat   : +47.4005329
+Intptlon   : -116.9192542
+
+Statefp    : 16
+Placefp    : 45910
+Placens    : 02411640
+Geoid      : 1645910
+Geoidfq    : 1600000US1645910
+Name       : Leadore
+Namelsad   : Leadore city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 799276
+Awater     : 0
+Intptlat   : +44.6800463
+Intptlon   : -113.3592204
+
+Statefp    : 16
+Placefp    : 25120
+Placens    : 02410427
+Geoid      : 1625120
+Geoidfq    : 1600000US1625120
+Name       : Elk River
+Namelsad   : Elk River city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 375603
+Awater     : 0
+Intptlat   : +46.7830056
+Intptlon   : -116.1811050
+
+Statefp    : 16
+Placefp    : 59320
+Placens    : 02411336
+Geoid      : 1659320
+Geoidfq    : 1600000US1659320
+Name       : Orofino
+Namelsad   : Orofino city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 6393757
+Awater     : 379166
+Intptlat   : +46.4849427
+Intptlon   : -116.2530273
+
+Statefp    : 16
+Placefp    : 84790
+Placens    : 02412169
+Geoid      : 1684790
+Geoidfq    : 1600000US1684790
+Name       : Wallace
+Namelsad   : Wallace city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2352704
+Awater     : 0
+Intptlat   : +47.4735785
+Intptlon   : -115.9225415
+
+Statefp    : 16
+Placefp    : 27460
+Placens    : 02410495
+Geoid      : 1627460
+Geoidfq    : 1600000US1627460
+Name       : Ferdinand
+Namelsad   : Ferdinand city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 452353
+Awater     : 0
+Intptlat   : +46.1519154
+Intptlon   : -116.3900085
+
+Statefp    : 16
+Placefp    : 43030
+Placens    : 02411539
+Geoid      : 1643030
+Geoidfq    : 1600000US1643030
+Name       : Ketchum
+Namelsad   : Ketchum city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 8302013
+Awater     : 120101
+Intptlat   : +43.6877176
+Intptlon   : -114.3800688
+
+Statefp    : 16
+Placefp    : 18640
+Placens    : 02410243
+Geoid      : 1618640
+Geoidfq    : 1600000US1618640
+Name       : Cottonwood
+Namelsad   : Cottonwood city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2173677
+Awater     : 0
+Intptlat   : +46.0510446
+Intptlon   : -116.3497513
+
+Statefp    : 16
+Placefp    : 32950
+Placens    : 02410641
+Geoid      : 1632950
+Geoidfq    : 1600000US1632950
+Name       : Grangeville
+Namelsad   : Grangeville city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 3901409
+Awater     : 429
+Intptlat   : +45.9258258
+Intptlon   : -116.1219164
+
+Statefp    : 16
+Placefp    : 61300
+Placens    : 02411390
+Geoid      : 1661300
+Geoidfq    : 1600000US1661300
+Name       : Payette
+Namelsad   : Payette city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 10595354
+Awater     : 100528
+Intptlat   : +44.0800933
+Intptlon   : -116.9268524
+
+Statefp    : 16
+Placefp    : 21790
+Placens    : 02410338
+Geoid      : 1621790
+Geoidfq    : 1600000US1621790
+Name       : Dietrich
+Namelsad   : Dietrich city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 837956
+Awater     : 0
+Intptlat   : +42.9127962
+Intptlon   : -114.2662887
+
+Statefp    : 16
+Placefp    : 67600
+Placens    : 02410934
+Geoid      : 1667600
+Geoidfq    : 1600000US1667600
+Name       : Richfield
+Namelsad   : Richfield city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1699770
+Awater     : 4796
+Intptlat   : +43.0516403
+Intptlon   : -114.1559418
+
+Statefp    : 16
+Placefp    : 73900
+Placens    : 02411894
+Geoid      : 1673900
+Geoidfq    : 1600000US1673900
+Name       : Shoshone
+Namelsad   : Shoshone city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 3039082
+Awater     : 61058
+Intptlat   : +42.9361855
+Intptlon   : -114.4047471
+
+Statefp    : 16
+Placefp    : 52660
+Placens    : 02411095
+Geoid      : 1652660
+Geoidfq    : 1600000US1652660
+Name       : Middleton
+Namelsad   : Middleton city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 15836105
+Awater     : 109771
+Intptlat   : +43.7115929
+Intptlon   : -116.6150080
+
+Statefp    : 16
+Placefp    : 60940
+Placens    : 02411377
+Geoid      : 1660940
+Geoidfq    : 1600000US1660940
+Name       : Parma
+Namelsad   : Parma city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2799189
+Awater     : 54712
+Intptlat   : +43.7862836
+Intptlon   : -116.9424914
+
+Statefp    : 16
+Placefp    : 06220
+Placens    : 02409819
+Geoid      : 1606220
+Geoidfq    : 1600000US1606220
+Name       : Bellevue
+Namelsad   : Bellevue city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 3852904
+Awater     : 105578
+Intptlat   : +43.4689771
+Intptlon   : -114.2550782
+
+Statefp    : 16
+Placefp    : 34390
+Placens    : 02410681
+Geoid      : 1634390
+Geoidfq    : 1600000US1634390
+Name       : Hailey
+Namelsad   : Hailey city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 10182913
+Awater     : 6761
+Intptlat   : +43.5126736
+Intptlon   : -114.2994991
+
+Statefp    : 16
+Placefp    : 78850
+Placens    : 02412003
+Geoid      : 1678850
+Geoidfq    : 1600000US1678850
+Name       : Sun Valley
+Namelsad   : Sun Valley city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 24772813
+Awater     : 30618
+Intptlat   : +43.6838517
+Intptlon   : -114.3342027
+
+Statefp    : 16
+Placefp    : 12790
+Placens    : 02409982
+Geoid      : 1612790
+Geoidfq    : 1600000US1612790
+Name       : Carey
+Namelsad   : Carey city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 8935782
+Awater     : 8704
+Intptlat   : +43.3120113
+Intptlon   : -113.9410079
+
+Statefp    : 16
+Placefp    : 71650
+Placens    : 02411770
+Geoid      : 1671650
+Geoidfq    : 1600000US1671650
+Name       : Salmon
+Namelsad   : Salmon city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 6497424
+Awater     : 91169
+Intptlat   : +45.1743859
+Intptlon   : -113.8947636
+
+Statefp    : 16
+Placefp    : 03610
+Placens    : 02409741
+Geoid      : 1603610
+Geoidfq    : 1600000US1603610
+Name       : Ashton
+Namelsad   : Ashton city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1651672
+Awater     : 0
+Intptlat   : +44.0733321
+Intptlon   : -111.4483115
+
+Statefp    : 16
+Placefp    : 56800
+Placens    : 02411245
+Geoid      : 1656800
+Geoidfq    : 1600000US1656800
+Name       : Newdale
+Namelsad   : Newdale city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 476247
+Awater     : 0
+Intptlat   : +43.8863850
+Intptlon   : -111.6038880
+
+Statefp    : 16
+Placefp    : 60760
+Placens    : 02411373
+Geoid      : 1660760
+Geoidfq    : 1600000US1660760
+Name       : Parker
+Namelsad   : Parker city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 899339
+Awater     : 4481
+Intptlat   : +43.9584049
+Intptlon   : -111.7592056
+
+Statefp    : 16
+Placefp    : 80380
+Placens    : 02412052
+Geoid      : 1680380
+Geoidfq    : 1600000US1680380
+Name       : Teton
+Namelsad   : Teton city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1785679
+Awater     : 3066
+Intptlat   : +43.8877732
+Intptlon   : -111.6722538
+
+Statefp    : 16
+Placefp    : 85420
+Placens    : 02412181
+Geoid      : 1685420
+Geoidfq    : 1600000US1685420
+Name       : Warm River
+Namelsad   : Warm River city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1722407
+Awater     : 33264
+Intptlat   : +44.1209579
+Intptlon   : -111.3209947
+
+Statefp    : 16
+Placefp    : 42580
+Placens    : 02410173
+Geoid      : 1642580
+Geoidfq    : 1600000US1642580
+Name       : Kellogg
+Namelsad   : Kellogg city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 10292737
+Awater     : 94335
+Intptlat   : +47.5349602
+Intptlon   : -116.1326778
+
+Statefp    : 16
+Placefp    : 55630
+Placens    : 02411194
+Geoid      : 1655630
+Geoidfq    : 1600000US1655630
+Name       : Mullan
+Namelsad   : Mullan city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2142949
+Awater     : 0
+Intptlat   : +47.4687585
+Intptlon   : -115.7963509
+
+Statefp    : 16
+Placefp    : 59590
+Placens    : 02411340
+Geoid      : 1659590
+Geoidfq    : 1600000US1659590
+Name       : Osburn
+Namelsad   : Osburn city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 3411279
+Awater     : 51731
+Intptlat   : +47.5057306
+Intptlon   : -116.0007091
+
+Statefp    : 16
+Placefp    : 63100
+Placens    : 02411424
+Geoid      : 1663100
+Geoidfq    : 1600000US1663100
+Name       : Pinehurst
+Namelsad   : Pinehurst city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2579331
+Awater     : 4425
+Intptlat   : +47.5363140
+Intptlon   : -116.2317455
+
+Statefp    : 16
+Placefp    : 75070
+Placens    : 02411909
+Geoid      : 1675070
+Geoidfq    : 1600000US1675070
+Name       : Smelterville
+Namelsad   : Smelterville city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 791422
+Awater     : 276
+Intptlat   : +47.5424231
+Intptlon   : -116.1774476
+
+Statefp    : 16
+Placefp    : 85240
+Placens    : 02412180
+Geoid      : 1685240
+Geoidfq    : 1600000US1685240
+Name       : Wardner
+Namelsad   : Wardner city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2257924
+Awater     : 0
+Intptlat   : +47.5189714
+Intptlon   : -116.1356740
+
+Statefp    : 16
+Placefp    : 32770
+Placens    : 02410635
+Geoid      : 1632770
+Geoidfq    : 1600000US1632770
+Name       : Grand View
+Namelsad   : Grand View city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1488577
+Awater     : 69153
+Intptlat   : +42.9851235
+Intptlon   : -116.0936802
+
+Statefp    : 16
+Placefp    : 38170
+Placens    : 02410782
+Geoid      : 1638170
+Geoidfq    : 1600000US1638170
+Name       : Homedale
+Namelsad   : Homedale city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 3657151
+Awater     : 28014
+Intptlat   : +43.6159369
+Intptlon   : -116.9390289
+
+Statefp    : 16
+Placefp    : 00280
+Placens    : 02409658
+Geoid      : 1600280
+Geoidfq    : 1600000US1600280
+Name       : Acequia
+Namelsad   : Acequia city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1382355
+Awater     : 28756
+Intptlat   : +42.6683428
+Intptlon   : -113.5972812
+
+Statefp    : 16
+Placefp    : 53110
+Placens    : 02411121
+Geoid      : 1653110
+Geoidfq    : 1600000US1653110
+Name       : Minidoka
+Namelsad   : Minidoka city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 272047
+Awater     : 0
+Intptlat   : +42.7539701
+Intptlon   : -113.4899549
+
+Statefp    : 16
+Placefp    : 61210
+Placens    : 02411386
+Geoid      : 1661210
+Geoidfq    : 1600000US1661210
+Name       : Paul
+Namelsad   : Paul city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1921949
+Awater     : 72545
+Intptlat   : +42.6042692
+Intptlon   : -113.7847902
+
+Statefp    : 16
+Placefp    : 11260
+Placens    : 02409944
+Geoid      : 1611260
+Geoidfq    : 1600000US1611260
+Name       : Burley
+Namelsad   : Burley city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 17511312
+Awater     : 853634
+Intptlat   : +42.5374387
+Intptlon   : -113.7912879
+
+Statefp    : 16
+Placefp    : 56890
+Placens    : 02411234
+Geoid      : 1656890
+Geoidfq    : 1600000US1656890
+Name       : New Meadows
+Namelsad   : New Meadows city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1513625
+Awater     : 25972
+Intptlat   : +44.9713347
+Intptlon   : -116.2851951
+
+Statefp    : 16
+Placefp    : 54100
+Placens    : 02411154
+Geoid      : 1654100
+Geoidfq    : 1600000US1654100
+Name       : Moore
+Namelsad   : Moore city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 735534
+Awater     : 0
+Intptlat   : +43.7344096
+Intptlon   : -113.3673402
+
+Statefp    : 16
+Placefp    : 87670
+Placens    : 02412263
+Geoid      : 1687670
+Geoidfq    : 1600000US1687670
+Name       : Wilder
+Namelsad   : Wilder city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1887631
+Awater     : 29649
+Intptlat   : +43.6783876
+Intptlon   : -116.9075848
+
+Statefp    : 16
+Placefp    : 16120
+Placens    : 02409483
+Geoid      : 1616120
+Geoidfq    : 1600000US1616120
+Name       : Clifton
+Namelsad   : Clifton city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 5954328
+Awater     : 0
+Intptlat   : +42.1872862
+Intptlon   : -112.0045959
+
+Statefp    : 16
+Placefp    : 20710
+Placens    : 02410298
+Geoid      : 1620710
+Geoidfq    : 1600000US1620710
+Name       : Dayton
+Namelsad   : Dayton city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 17285713
+Awater     : 106560
+Intptlat   : +42.1112464
+Intptlon   : -111.9846148
+
+Statefp    : 16
+Placefp    : 65260
+Placens    : 02411490
+Geoid      : 1665260
+Geoidfq    : 1600000US1665260
+Name       : Preston
+Namelsad   : Preston city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 17685414
+Awater     : 13233
+Intptlat   : +42.0994142
+Intptlon   : -111.8807376
+
+Statefp    : 16
+Placefp    : 24310
+Placens    : 02410397
+Geoid      : 1624310
+Geoidfq    : 1600000US1624310
+Name       : Eden
+Namelsad   : Eden city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 807844
+Awater     : 0
+Intptlat   : +42.6053086
+Intptlon   : -114.2090867
+
+Statefp    : 16
+Placefp    : 36730
+Placens    : 02410725
+Geoid      : 1636730
+Geoidfq    : 1600000US1636730
+Name       : Hazelton
+Namelsad   : Hazelton city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1043107
+Awater     : 27522
+Intptlat   : +42.5949530
+Intptlon   : -114.1366109
+
+Statefp    : 16
+Placefp    : 34570
+Placens    : 02410692
+Geoid      : 1634570
+Geoidfq    : 1600000US1634570
+Name       : Hamer
+Namelsad   : Hamer city
+Lsad       : 25
+Classfp    : C9
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : I
+Aland      : 494900
+Awater     : 0
+Intptlat   : +43.9267398
+Intptlon   : -112.2062204
+
+Statefp    : 16
+Placefp    : 03160
+Placens    : 02409725
+Geoid      : 1603160
+Geoidfq    : 1600000US1603160
+Name       : Arco
+Namelsad   : Arco city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2767142
+Awater     : 32808
+Intptlat   : +43.6318933
+Intptlon   : -113.3010328
+
+Statefp    : 16
+Placefp    : 36460
+Placens    : 02410722
+Geoid      : 1636460
+Geoidfq    : 1600000US1636460
+Name       : Hayden Lake
+Namelsad   : Hayden Lake city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1582674
+Awater     : 449680
+Intptlat   : +47.7644596
+Intptlon   : -116.7560966
+
+Statefp    : 16
+Placefp    : 50230
+Placens    : 02410915
+Geoid      : 1650230
+Geoidfq    : 1600000US1650230
+Name       : Malta
+Namelsad   : Malta city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 3573091
+Awater     : 4501
+Intptlat   : +42.3075322
+Intptlon   : -113.3697368
+
+Statefp    : 16
+Placefp    : 55270
+Placens    : 02411189
+Geoid      : 1655270
+Geoidfq    : 1600000US1655270
+Name       : Moyie Springs
+Namelsad   : Moyie Springs city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 4014777
+Awater     : 0
+Intptlat   : +48.7249010
+Intptlon   : -116.1956071
+
+Statefp    : 16
+Placefp    : 09370
+Placens    : 02409879
+Geoid      : 1609370
+Geoidfq    : 1600000US1609370
+Name       : Bonners Ferry
+Namelsad   : Bonners Ferry city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 5930074
+Awater     : 370152
+Intptlat   : +48.6935790
+Intptlon   : -116.3170185
+
+Statefp    : 16
+Placefp    : 08560
+Placens    : 02409866
+Geoid      : 1608560
+Geoidfq    : 1600000US1608560
+Name       : Bloomington
+Namelsad   : Bloomington city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2466216
+Awater     : 1178
+Intptlat   : +42.1909898
+Intptlon   : -111.4027556
+
+Statefp    : 16
+Placefp    : 30340
+Placens    : 02410583
+Geoid      : 1630340
+Geoidfq    : 1600000US1630340
+Name       : Georgetown
+Namelsad   : Georgetown city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1761926
+Awater     : 0
+Intptlat   : +42.4790830
+Intptlon   : -111.3634973
+
+Statefp    : 16
+Placefp    : 31690
+Placens    : 02410603
+Geoid      : 1631690
+Geoidfq    : 1600000US1631690
+Name       : Glenns Ferry
+Namelsad   : Glenns Ferry city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 5381941
+Awater     : 65512
+Intptlat   : +42.9499085
+Intptlon   : -115.3081851
+
+Statefp    : 16
+Placefp    : 86050
+Placens    : 02412204
+Geoid      : 1686050
+Geoidfq    : 1600000US1686050
+Name       : Weippe
+Namelsad   : Weippe city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1033633
+Awater     : 6771
+Intptlat   : +46.3782498
+Intptlon   : -115.9388443
+
+Statefp    : 16
+Placefp    : 56980
+Placens    : 02411235
+Geoid      : 1656980
+Geoidfq    : 1600000US1656980
+Name       : New Plymouth
+Namelsad   : New Plymouth city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1780846
+Awater     : 0
+Intptlat   : +43.9704171
+Intptlon   : -116.8187807
+
+Statefp    : 16
+Placefp    : 28990
+Placens    : 02410554
+Geoid      : 1628990
+Geoidfq    : 1600000US1628990
+Name       : Fruitland
+Namelsad   : Fruitland city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 6218525
+Awater     : 13505
+Intptlat   : +44.0191228
+Intptlon   : -116.9210249
+
+Statefp    : 16
+Placefp    : 44110
+Placens    : 02411556
+Geoid      : 1644110
+Geoidfq    : 1600000US1644110
+Name       : Kooskia
+Namelsad   : Kooskia city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1592600
+Awater     : 146233
+Intptlat   : +46.1416866
+Intptlon   : -115.9736463
+
+Statefp    : 16
+Placefp    : 22780
+Placens    : 02410359
+Geoid      : 1622780
+Geoidfq    : 1600000US1622780
+Name       : Drummond
+Namelsad   : Drummond city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 249877
+Awater     : 0
+Intptlat   : +43.9995900
+Intptlon   : -111.3433580
+
+Statefp    : 16
+Placefp    : 67870
+Placens    : 02410949
+Geoid      : 1667870
+Geoidfq    : 1600000US1667870
+Name       : Riggins
+Namelsad   : Riggins city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1029902
+Awater     : 123855
+Intptlat   : +45.4205912
+Intptlon   : -116.3176356
+
+Statefp    : 16
+Placefp    : 77500
+Placens    : 02411985
+Geoid      : 1677500
+Geoidfq    : 1600000US1677500
+Name       : Stites
+Namelsad   : Stites city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 241671
+Awater     : 19526
+Intptlat   : +46.0925203
+Intptlon   : -115.9759848
+
+Statefp    : 16
+Placefp    : 87310
+Placens    : 02412252
+Geoid      : 1687310
+Geoidfq    : 1600000US1687310
+Name       : White Bird
+Namelsad   : White Bird city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 167662
+Awater     : 0
+Intptlat   : +45.7626799
+Intptlon   : -116.3003506
+
+Statefp    : 16
+Placefp    : 53920
+Placens    : 02411150
+Geoid      : 1653920
+Geoidfq    : 1600000US1653920
+Name       : Montpelier
+Namelsad   : Montpelier city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 6004312
+Awater     : 0
+Intptlat   : +42.3259919
+Intptlon   : -111.2988263
+
+Statefp    : 16
+Placefp    : 60580
+Placens    : 02411370
+Geoid      : 1660580
+Geoidfq    : 1600000US1660580
+Name       : Paris
+Namelsad   : Paris city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 9032947
+Awater     : 74428
+Intptlat   : +42.2279785
+Intptlon   : -111.4024236
+
+Statefp    : 16
+Placefp    : 71110
+Placens    : 02411756
+Geoid      : 1671110
+Geoidfq    : 1600000US1671110
+Name       : St. Charles
+Namelsad   : St. Charles city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1899405
+Awater     : 0
+Intptlat   : +42.1118260
+Intptlon   : -111.3903160
+
+Statefp    : 16
+Placefp    : 63910
+Placens    : 02411445
+Geoid      : 1663910
+Geoidfq    : 1600000US1663910
+Name       : Plummer
+Namelsad   : Plummer city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 3267668
+Awater     : 0
+Intptlat   : +47.3301354
+Intptlon   : -116.8849086
+
+Statefp    : 16
+Placefp    : 80200
+Placens    : 02412049
+Geoid      : 1680200
+Geoidfq    : 1600000US1680200
+Name       : Tensed
+Namelsad   : Tensed city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 485590
+Awater     : 0
+Intptlat   : +47.1596116
+Intptlon   : -116.9237950
+
+Statefp    : 16
+Placefp    : 50140
+Placens    : 02410911
+Geoid      : 1650140
+Geoidfq    : 1600000US1650140
+Name       : Malad City
+Namelsad   : Malad City city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 4375082
+Awater     : 0
+Intptlat   : +42.1899090
+Intptlon   : -112.2496883
+
+Statefp    : 16
+Placefp    : 55900
+Placens    : 02411200
+Geoid      : 1655900
+Geoidfq    : 1600000US1655900
+Name       : Murtaugh
+Namelsad   : Murtaugh city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 582292
+Awater     : 9559
+Intptlat   : +42.4916852
+Intptlon   : -114.1623115
+
+Statefp    : 16
+Placefp    : 52120
+Placens    : 02411083
+Geoid      : 1652120
+Geoidfq    : 1600000US1652120
+Name       : Meridian
+Namelsad   : Meridian city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 95464782
+Awater     : 178119
+Intptlat   : +43.6114900
+Intptlon   : -116.4006622
+
+Statefp    : 16
+Placefp    : 50950
+Placens    : 02411042
+Geoid      : 1650950
+Geoidfq    : 1600000US1650950
+Name       : Marsing
+Namelsad   : Marsing city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1762751
+Awater     : 25328
+Intptlat   : +43.5463599
+Intptlon   : -116.8104220
+
+Statefp    : 16
+Placefp    : 22690
+Placens    : 02410356
+Geoid      : 1622690
+Geoidfq    : 1600000US1622690
+Name       : Driggs
+Namelsad   : Driggs city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 9054449
+Awater     : 0
+Intptlat   : +43.7302382
+Intptlon   : -111.1040382
+
+Statefp    : 16
+Placefp    : 80470
+Placens    : 02412053
+Geoid      : 1680470
+Geoidfq    : 1600000US1680470
+Name       : Tetonia
+Namelsad   : Tetonia city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1475854
+Awater     : 0
+Intptlat   : +43.8145780
+Intptlon   : -111.1586640
+
+Statefp    : 16
+Placefp    : 22600
+Placens    : 02410353
+Geoid      : 1622600
+Geoidfq    : 1600000US1622600
+Name       : Downey
+Namelsad   : Downey city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2522798
+Awater     : 0
+Intptlat   : +42.4288516
+Intptlon   : -112.1233391
+
+Statefp    : 16
+Placefp    : 40330
+Placens    : 02410108
+Geoid      : 1640330
+Geoidfq    : 1600000US1640330
+Name       : Inkom
+Namelsad   : Inkom city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2475882
+Awater     : 27767
+Intptlat   : +42.7965480
+Intptlon   : -112.2546253
+
+Statefp    : 16
+Placefp    : 45820
+Placens    : 02411635
+Geoid      : 1645820
+Geoidfq    : 1600000US1645820
+Name       : Lava Hot Springs
+Namelsad   : Lava Hot Springs city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1782049
+Awater     : 66339
+Intptlat   : +42.6201065
+Intptlon   : -112.0099021
+
+Statefp    : 16
+Placefp    : 48880
+Placens    : 02411060
+Geoid      : 1648880
+Geoidfq    : 1600000US1648880
+Name       : McCammon
+Namelsad   : McCammon city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 5768939
+Awater     : 66025
+Intptlat   : +42.6482362
+Intptlon   : -112.1893942
+
+Statefp    : 16
+Placefp    : 64450
+Placens    : 02411457
+Geoid      : 1664450
+Geoidfq    : 1600000US1664450
+Name       : Ponderay
+Namelsad   : Ponderay city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 7599780
+Awater     : 1338496
+Intptlat   : +48.3047800
+Intptlon   : -116.5366450
+
+Statefp    : 16
+Placefp    : 65530
+Placens    : 02411492
+Geoid      : 1665530
+Geoidfq    : 1600000US1665530
+Name       : Priest River
+Namelsad   : Priest River city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 5802383
+Awater     : 319146
+Intptlat   : +48.1843191
+Intptlon   : -116.9054275
+
+Statefp    : 16
+Placefp    : 72100
+Placens    : 02411808
+Geoid      : 1672100
+Geoidfq    : 1600000US1672100
+Name       : Sandpoint
+Namelsad   : Sandpoint city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 11077917
+Awater     : 725528
+Intptlat   : +48.2816941
+Intptlon   : -116.5600131
+
+Statefp    : 16
+Placefp    : 76870
+Placens    : 02411972
+Geoid      : 1676870
+Geoidfq    : 1600000US1676870
+Name       : Star
+Namelsad   : Star city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 25187150
+Awater     : 160488
+Intptlat   : +43.7000150
+Intptlon   : -116.4897607
+
+Statefp    : 16
+Placefp    : 44290
+Placens    : 02411563
+Geoid      : 1644290
+Geoidfq    : 1600000US1644290
+Name       : Kuna
+Namelsad   : Kuna city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 66500189
+Awater     : 377339
+Intptlat   : +43.5248401
+Intptlon   : -116.4036390
+
+Statefp    : 16
+Placefp    : 62740
+Placens    : 02411420
+Geoid      : 1662740
+Geoidfq    : 1600000US1662740
+Name       : Pierce
+Namelsad   : Pierce city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2136356
+Awater     : 1242
+Intptlat   : +46.4953352
+Intptlon   : -115.8032916
+
+Statefp    : 16
+Placefp    : 03340
+Placens    : 02409729
+Geoid      : 1603340
+Geoidfq    : 1600000US1603340
+Name       : Arimo
+Namelsad   : Arimo city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1163961
+Awater     : 0
+Intptlat   : +42.5603522
+Intptlon   : -112.1729353
+
+Statefp    : 16
+Placefp    : 08470
+Placens    : 02409864
+Geoid      : 1608470
+Geoidfq    : 1600000US1608470
+Name       : Bliss
+Namelsad   : Bliss city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1912127
+Awater     : 1216
+Intptlat   : +42.9242840
+Intptlon   : -114.9475164
+
+Statefp    : 16
+Placefp    : 14950
+Placens    : 02409468
+Geoid      : 1614950
+Geoidfq    : 1600000US1614950
+Name       : Clark Fork
+Namelsad   : Clark Fork city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2551055
+Awater     : 817
+Intptlat   : +48.1480190
+Intptlon   : -116.1729884
+
+Statefp    : 16
+Placefp    : 07840
+Placens    : 02409857
+Geoid      : 1607840
+Geoidfq    : 1600000US1607840
+Name       : Blackfoot
+Namelsad   : Blackfoot city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 15918433
+Awater     : 738593
+Intptlat   : +43.1945954
+Intptlon   : -112.3468108
+
+Statefp    : 16
+Placefp    : 00100
+Placens    : 02409654
+Geoid      : 1600100
+Geoidfq    : 1600000US1600100
+Name       : Aberdeen
+Namelsad   : Aberdeen city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2666800
+Awater     : 0
+Intptlat   : +42.9440982
+Intptlon   : -112.8383809
+
+Statefp    : 16
+Placefp    : 05230
+Placens    : 02409794
+Geoid      : 1605230
+Geoidfq    : 1600000US1605230
+Name       : Basalt
+Namelsad   : Basalt city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 758058
+Awater     : 0
+Intptlat   : +43.3144432
+Intptlon   : -112.1650436
+
+Statefp    : 16
+Placefp    : 22330
+Placens    : 02410346
+Geoid      : 1622330
+Geoidfq    : 1600000US1622330
+Name       : Donnelly
+Namelsad   : Donnelly city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1848208
+Awater     : 8784
+Intptlat   : +44.7333724
+Intptlon   : -116.0868416
+
+Statefp    : 16
+Placefp    : 27910
+Placens    : 02410508
+Geoid      : 1627910
+Geoidfq    : 1600000US1627910
+Name       : Firth
+Namelsad   : Firth city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1484415
+Awater     : 0
+Intptlat   : +43.3057876
+Intptlon   : -112.1834537
+
+Statefp    : 16
+Placefp    : 73450
+Placens    : 02411881
+Geoid      : 1673450
+Geoidfq    : 1600000US1673450
+Name       : Shelley
+Namelsad   : Shelley city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 4677035
+Awater     : 0
+Intptlat   : +43.3795369
+Intptlon   : -112.1260981
+
+Statefp    : 16
+Placefp    : 13240
+Placens    : 02409410
+Geoid      : 1613240
+Geoidfq    : 1600000US1613240
+Name       : Castleford
+Namelsad   : Castleford city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 247954
+Awater     : 0
+Intptlat   : +42.5205687
+Intptlon   : -114.8718056
+
+Statefp    : 16
+Placefp    : 39700
+Placens    : 02410091
+Geoid      : 1639700
+Geoidfq    : 1600000US1639700
+Name       : Idaho Falls
+Namelsad   : Idaho Falls city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 68808029
+Awater     : 1455825
+Intptlat   : +43.4888512
+Intptlon   : -112.0362973
+
+Statefp    : 16
+Placefp    : 40420
+Placens    : 02410109
+Geoid      : 1640420
+Geoidfq    : 1600000US1640420
+Name       : Iona
+Namelsad   : Iona city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 3261930
+Awater     : 0
+Intptlat   : +43.5275834
+Intptlon   : -111.9313913
+
+Statefp    : 16
+Placefp    : 83350
+Placens    : 02412123
+Geoid      : 1683350
+Geoidfq    : 1600000US1683350
+Name       : Ucon
+Namelsad   : Ucon city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2361226
+Awater     : 0
+Intptlat   : +43.5928572
+Intptlon   : -111.9599626
+
+Statefp    : 16
+Placefp    : 01990
+Placens    : 02409701
+Geoid      : 1601990
+Geoidfq    : 1600000US1601990
+Name       : Ammon
+Namelsad   : Ammon city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 20863192
+Awater     : 34134
+Intptlat   : +43.4716810
+Intptlon   : -111.9603360
+
+Statefp    : 16
+Placefp    : 82810
+Placens    : 02412120
+Geoid      : 1682810
+Geoidfq    : 1600000US1682810
+Name       : Twin Falls
+Namelsad   : Twin Falls city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 50749076
+Awater     : 299989
+Intptlat   : +42.5646743
+Intptlon   : -114.4606077
+
+Statefp    : 16
+Placefp    : 16750
+Placens    : 02410187
+Geoid      : 1616750
+Geoidfq    : 1600000US1616750
+Name       : Coeur d'Alene
+Namelsad   : Coeur d'Alene city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 41738759
+Awater     : 1978397
+Intptlat   : +47.7034979
+Intptlon   : -116.7938613
+
+Statefp    : 16
+Placefp    : 35200
+Placens    : 02410708
+Geoid      : 1635200
+Geoidfq    : 1600000US1635200
+Name       : Harrison
+Namelsad   : Harrison city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 9231198
+Awater     : 2176062
+Intptlat   : +47.4694713
+Intptlon   : -116.8085858
+
+Statefp    : 16
+Placefp    : 35830
+Placens    : 02410714
+Geoid      : 1635830
+Geoidfq    : 1600000US1635830
+Name       : Hauser
+Namelsad   : Hauser city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 3139018
+Awater     : 0
+Intptlat   : +47.7649649
+Intptlon   : -117.0141035
+
+Statefp    : 16
+Placefp    : 76060
+Placens    : 02411953
+Geoid      : 1676060
+Geoidfq    : 1600000US1676060
+Name       : Spirit Lake
+Namelsad   : Spirit Lake city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 6361203
+Awater     : 0
+Intptlat   : +47.9657987
+Intptlon   : -116.8698314
+
+Statefp    : 16
+Placefp    : 19720
+Placens    : 02410268
+Geoid      : 1619720
+Geoidfq    : 1600000US1619720
+Name       : Crouch
+Namelsad   : Crouch city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1282852
+Awater     : 51778
+Intptlat   : +44.1153616
+Intptlon   : -115.9758126
+
+Statefp    : 16
+Placefp    : 38620
+Placens    : 02410795
+Geoid      : 1638620
+Geoidfq    : 1600000US1638620
+Name       : Horseshoe Bend
+Namelsad   : Horseshoe Bend city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2814172
+Awater     : 37098
+Intptlat   : +43.9160850
+Intptlon   : -116.1992362
+
+Statefp    : 16
+Placefp    : 39610
+Placens    : 02410090
+Geoid      : 1639610
+Geoidfq    : 1600000US1639610
+Name       : Idaho City
+Namelsad   : Idaho City city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1722444
+Awater     : 4828
+Intptlat   : +43.8278443
+Intptlon   : -115.8304744
+
+Statefp    : 16
+Placefp    : 22510
+Placens    : 02410351
+Geoid      : 1622510
+Geoidfq    : 1600000US1622510
+Name       : Dover
+Namelsad   : Dover city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 8152629
+Awater     : 111472
+Intptlat   : +48.2591564
+Intptlon   : -116.6098431
+
+Statefp    : 16
+Placefp    : 23680
+Placens    : 02410387
+Geoid      : 1623680
+Geoidfq    : 1600000US1623680
+Name       : East Hope
+Namelsad   : East Hope city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1199857
+Awater     : 38992
+Intptlat   : +48.2408949
+Intptlon   : -116.2894100
+
+Statefp    : 16
+Placefp    : 38440
+Placens    : 02410791
+Geoid      : 1638440
+Geoidfq    : 1600000US1638440
+Name       : Hope
+Namelsad   : Hope city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2531472
+Awater     : 33706
+Intptlat   : +48.2503764
+Intptlon   : -116.3045761
+
+Statefp    : 16
+Placefp    : 44200
+Placens    : 02411557
+Geoid      : 1644200
+Geoidfq    : 1600000US1644200
+Name       : Kootenai
+Namelsad   : Kootenai city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1434362
+Awater     : 0
+Intptlat   : +48.3118308
+Intptlon   : -116.5171275
+
+Statefp    : 16
+Placefp    : 58600
+Placens    : 02411314
+Geoid      : 1658600
+Geoidfq    : 1600000US1658600
+Name       : Oldtown
+Namelsad   : Oldtown city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2128699
+Awater     : 17978
+Intptlat   : +48.1824884
+Intptlon   : -117.0180050
+
+Statefp    : 16
+Placefp    : 82360
+Placens    : 02412099
+Geoid      : 1682360
+Geoidfq    : 1600000US1682360
+Name       : Troy
+Namelsad   : Troy city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2049120
+Awater     : 0
+Intptlat   : +46.7379805
+Intptlon   : -116.7731535
+
+Statefp    : 16
+Placefp    : 20890
+Placens    : 02410306
+Geoid      : 1620890
+Geoidfq    : 1600000US1620890
+Name       : Deary
+Namelsad   : Deary city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1702940
+Awater     : 2715
+Intptlat   : +46.8005864
+Intptlon   : -116.5573681
+
+Statefp    : 16
+Placefp    : 30160
+Placens    : 02410580
+Geoid      : 1630160
+Geoidfq    : 1600000US1630160
+Name       : Genesee
+Namelsad   : Genesee city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1589880
+Awater     : 0
+Intptlat   : +46.5516080
+Intptlon   : -116.9283889
+
+Statefp    : 16
+Placefp    : 42130
+Placens    : 02410155
+Geoid      : 1642130
+Geoidfq    : 1600000US1642130
+Name       : Juliaetta
+Namelsad   : Juliaetta city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1807350
+Awater     : 30555
+Intptlat   : +46.5747366
+Intptlon   : -116.7080797
+
+Statefp    : 16
+Placefp    : 42760
+Placens    : 02410179
+Geoid      : 1642760
+Geoidfq    : 1600000US1642760
+Name       : Kendrick
+Namelsad   : Kendrick city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 932350
+Awater     : 45861
+Intptlat   : +46.6141830
+Intptlon   : -116.6612720
+
+Statefp    : 16
+Placefp    : 64900
+Placens    : 02411478
+Geoid      : 1664900
+Geoidfq    : 1600000US1664900
+Name       : Potlatch
+Namelsad   : Potlatch city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1204301
+Awater     : 2619
+Intptlat   : +46.9230117
+Intptlon   : -116.8983266
+
+Statefp    : 16
+Placefp    : 71470
+Placens    : 02411762
+Geoid      : 1671470
+Geoidfq    : 1600000US1671470
+Name       : St. Maries
+Namelsad   : St. Maries city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 3075341
+Awater     : 0
+Intptlat   : +47.3145893
+Intptlon   : -116.5722348
+
+Statefp    : 16
+Placefp    : 12250
+Placens    : 02409956
+Geoid      : 1612250
+Geoidfq    : 1600000US1612250
+Name       : Caldwell
+Namelsad   : Caldwell city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 60902313
+Awater     : 209363
+Intptlat   : +43.6458804
+Intptlon   : -116.6593359
+
+Statefp    : 16
+Placefp    : 33490
+Placens    : 02410659
+Geoid      : 1633490
+Geoidfq    : 1600000US1633490
+Name       : Greenleaf
+Namelsad   : Greenleaf city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1994939
+Awater     : 2003
+Intptlat   : +43.6726069
+Intptlon   : -116.8214433
+
+Statefp    : 16
+Placefp    : 51850
+Placens    : 02411072
+Geoid      : 1651850
+Geoidfq    : 1600000US1651850
+Name       : Melba
+Namelsad   : Melba city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1184195
+Awater     : 17753
+Intptlat   : +43.3736333
+Intptlon   : -116.5319331
+
+Statefp    : 16
+Placefp    : 56260
+Placens    : 02411208
+Geoid      : 1656260
+Geoidfq    : 1600000US1656260
+Name       : Nampa
+Namelsad   : Nampa city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 90061261
+Awater     : 390834
+Intptlat   : +43.5855410
+Intptlon   : -116.5656313
+
+Statefp    : 16
+Placefp    : 78040
+Placens    : 02411993
+Geoid      : 1678040
+Geoidfq    : 1600000US1678040
+Name       : Sugar City
+Namelsad   : Sugar City city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 5139058
+Awater     : 24766
+Intptlat   : +43.8758197
+Intptlon   : -111.7510322
+
+Statefp    : 16
+Placefp    : 67420
+Placens    : 02410929
+Geoid      : 1667420
+Geoidfq    : 1600000US1667420
+Name       : Rexburg
+Namelsad   : Rexburg city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 26189686
+Awater     : 242988
+Intptlat   : +43.8228934
+Intptlon   : -111.7909875
+
+Statefp    : 16
+Placefp    : 28810
+Placens    : 02410539
+Geoid      : 1628810
+Geoidfq    : 1600000US1628810
+Name       : Franklin
+Namelsad   : Franklin city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 3372429
+Awater     : 67222
+Intptlat   : +42.0095030
+Intptlon   : -111.8021833
+
+Statefp    : 16
+Placefp    : 22960
+Placens    : 02410364
+Geoid      : 1622960
+Geoidfq    : 1600000US1622960
+Name       : Dubois
+Namelsad   : Dubois city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 7064975
+Awater     : 9714
+Intptlat   : +44.1711611
+Intptlon   : -112.2282777
+
+Statefp    : 16
+Placefp    : 75970
+Placens    : 02411951
+Geoid      : 1675970
+Geoidfq    : 1600000US1675970
+Name       : Spencer
+Namelsad   : Spencer city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2956494
+Awater     : 0
+Intptlat   : +44.3677693
+Intptlon   : -112.1842795
+
+Statefp    : 16
+Placefp    : 63550
+Placens    : 02411434
+Geoid      : 1663550
+Geoidfq    : 1600000US1663550
+Name       : Placerville
+Namelsad   : Placerville city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2588994
+Awater     : 0
+Intptlat   : +43.9427375
+Intptlon   : -115.9459855
+
+Statefp    : 16
+Placefp    : 15490
+Placens    : 02409475
+Geoid      : 1615490
+Geoidfq    : 1600000US1615490
+Name       : Clayton
+Namelsad   : Clayton city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 166574
+Awater     : 0
+Intptlat   : +44.2592023
+Intptlon   : -114.3831076
+
+Statefp    : 16
+Placefp    : 47890
+Placens    : 02410881
+Geoid      : 1647890
+Geoidfq    : 1600000US1647890
+Name       : Lost River
+Namelsad   : Lost River city
+Lsad       : 25
+Classfp    : C9
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : I
+Aland      : 21542871
+Awater     : 18618
+Intptlat   : +43.6882618
+Intptlon   : -113.6352825
+
+Statefp    : 16
+Placefp    : 14680
+Placens    : 02409460
+Geoid      : 1614680
+Geoidfq    : 1600000US1614680
+Name       : Chubbuck
+Namelsad   : Chubbuck city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 16081588
+Awater     : 24238
+Intptlat   : +42.9261822
+Intptlon   : -112.4625374
+
+Statefp    : 16
+Placefp    : 64090
+Placens    : 02411447
+Geoid      : 1664090
+Geoidfq    : 1600000US1664090
+Name       : Pocatello
+Namelsad   : Pocatello city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 86947384
+Awater     : 413249
+Intptlat   : +42.8727475
+Intptlon   : -112.4638364
+
+Statefp    : 16
+Placefp    : 41320
+Placens    : 02410140
+Geoid      : 1641320
+Geoidfq    : 1600000US1641320
+Name       : Jerome
+Namelsad   : Jerome city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 14656457
+Awater     : 2037
+Intptlat   : +42.7180948
+Intptlon   : -114.5157915
+
+Statefp    : 16
+Placefp    : 84250
+Placens    : 02412154
+Geoid      : 1684250
+Geoidfq    : 1600000US1684250
+Name       : Victor
+Namelsad   : Victor city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 6851114
+Awater     : 0
+Intptlat   : +43.6015500
+Intptlon   : -111.1108224
+
+Statefp    : 16
+Placefp    : 23410
+Placens    : 02410378
+Geoid      : 1623410
+Geoidfq    : 1600000US1623410
+Name       : Eagle
+Namelsad   : Eagle city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 84076524
+Awater     : 1314695
+Intptlat   : +43.6934234
+Intptlon   : -116.3459894
+
+Statefp    : 16
+Placefp    : 02935
+Placens    : 02407754
+Geoid      : 1602935
+Geoidfq    : 1600000US1602935
+Name       : Arbon Valley
+Namelsad   : Arbon Valley CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 87759037
+Awater     : 175771
+Intptlat   : +42.8876302
+Intptlon   : -112.5893865
+
+Statefp    : 16
+Placefp    : 04105
+Placens    : 02806607
+Geoid      : 1604105
+Geoidfq    : 1600000US1604105
+Name       : Avimor
+Namelsad   : Avimor CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3528133
+Awater     : 150
+Intptlat   : +43.7761810
+Intptlon   : -116.2571076
+
+Statefp    : 16
+Placefp    : 54820
+Placens    : 02408880
+Geoid      : 1654820
+Geoidfq    : 1600000US1654820
+Name       : Mountain Home AFB
+Namelsad   : Mountain Home AFB CDP
+Lsad       : 57
+Classfp    : M2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 25833164
+Awater     : 92328
+Intptlat   : +43.0491862
+Intptlon   : -115.8658595
+
+Statefp    : 16
+Placefp    : 74440
+Placens    : 02806612
+Geoid      : 1674440
+Geoidfq    : 1600000US1674440
+Name       : Silverton
+Namelsad   : Silverton CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1176778
+Awater     : 0
+Intptlat   : +47.4956809
+Intptlon   : -115.9605135
+
+Statefp    : 16
+Placefp    : 84430
+Placens    : 02804065
+Geoid      : 1684430
+Geoidfq    : 1600000US1684430
+Name       : Viola
+Namelsad   : Viola CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2613731
+Awater     : 0
+Intptlat   : +46.8388854
+Intptlon   : -117.0188448
+
+Statefp    : 16
+Placefp    : 04600
+Placens    : 02585566
+Geoid      : 1604600
+Geoidfq    : 1600000US1604600
+Name       : Banks
+Namelsad   : Banks CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5720844
+Awater     : 104036
+Intptlat   : +44.0722484
+Intptlon   : -116.1316836
+
+Statefp    : 16
+Placefp    : 29710
+Placens    : 02585571
+Geoid      : 1629710
+Geoidfq    : 1600000US1629710
+Name       : Garden Valley
+Namelsad   : Garden Valley CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 18973433
+Awater     : 606903
+Intptlat   : +44.0834042
+Intptlon   : -115.9584639
+
+Statefp    : 16
+Placefp    : 55720
+Placens    : 02585580
+Geoid      : 1655720
+Geoidfq    : 1600000US1655720
+Name       : Murphy
+Namelsad   : Murphy CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 10354913
+Awater     : 0
+Intptlat   : +43.2121377
+Intptlon   : -116.5485013
+
+Statefp    : 16
+Placefp    : 06670
+Placens    : 02585567
+Geoid      : 1606670
+Geoidfq    : 1600000US1606670
+Name       : Bennington
+Namelsad   : Bennington CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 16832079
+Awater     : 132910
+Intptlat   : +42.3822593
+Intptlon   : -111.3209801
+
+Statefp    : 16
+Placefp    : 47080
+Placens    : 02585575
+Geoid      : 1647080
+Geoidfq    : 1600000US1647080
+Name       : Lincoln
+Namelsad   : Lincoln CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4027572
+Awater     : 0
+Intptlat   : +43.5182453
+Intptlon   : -111.9692003
+
+Statefp    : 16
+Placefp    : 68860
+Placens    : 02585591
+Geoid      : 1668860
+Geoidfq    : 1600000US1668860
+Name       : Rockford
+Namelsad   : Rockford CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2875431
+Awater     : 0
+Intptlat   : +43.1892350
+Intptlon   : -112.5306179
+
+Statefp    : 16
+Placefp    : 08290
+Placens    : 02585568
+Geoid      : 1608290
+Geoidfq    : 1600000US1608290
+Name       : Blanchard
+Namelsad   : Blanchard CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3844285
+Awater     : 120419
+Intptlat   : +48.0109837
+Intptlon   : -116.9951554
+
+Statefp    : 16
+Placefp    : 88660
+Placens    : 02585596
+Geoid      : 1688660
+Geoidfq    : 1600000US1688660
+Name       : Yellow Pine
+Namelsad   : Yellow Pine CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2548804
+Awater     : 28216
+Intptlat   : +44.9607160
+Intptlon   : -115.4854341
+
+Statefp    : 16
+Placefp    : 10450
+Placens    : 02806611
+Geoid      : 1610450
+Geoidfq    : 1600000US1610450
+Name       : Bruneau
+Namelsad   : Bruneau CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4160660
+Awater     : 93398
+Intptlat   : +42.8727921
+Intptlon   : -115.7952385
+
+Statefp    : 16
+Placefp    : 17830
+Placens    : 02585569
+Geoid      : 1617830
+Geoidfq    : 1600000US1617830
+Name       : Conkling Park
+Namelsad   : Conkling Park CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2705972
+Awater     : 0
+Intptlat   : +47.3998147
+Intptlon   : -116.7703092
+
+Statefp    : 16
+Placefp    : 60880
+Placens    : 02611709
+Geoid      : 1660880
+Geoidfq    : 1600000US1660880
+Name       : Parkline
+Namelsad   : Parkline CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1280403
+Awater     : 0
+Intptlat   : +47.3384825
+Intptlon   : -116.6939795
+
+Statefp    : 16
+Placefp    : 68950
+Placens    : 02585592
+Geoid      : 1668950
+Geoidfq    : 1600000US1668950
+Name       : Rockford Bay
+Namelsad   : Rockford Bay CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 9778278
+Awater     : 0
+Intptlat   : +47.5086370
+Intptlon   : -116.8865365
+
+Statefp    : 16
+Placefp    : 79300
+Placens    : 02585594
+Geoid      : 1679300
+Geoidfq    : 1600000US1679300
+Name       : Sweetwater
+Namelsad   : Sweetwater CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3086851
+Awater     : 0
+Intptlat   : +46.3676382
+Intptlon   : -116.7974800
+
+Statefp    : 16
+Placefp    : 18010
+Placens    : 02804061
+Geoid      : 1618010
+Geoidfq    : 1600000US1618010
+Name       : Coolin
+Namelsad   : Coolin CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1316625
+Awater     : 0
+Intptlat   : +48.4760194
+Intptlon   : -116.8439853
+
+Statefp    : 16
+Placefp    : 44560
+Placens    : 02804062
+Geoid      : 1644560
+Geoidfq    : 1600000US1644560
+Name       : Laclede
+Namelsad   : Laclede CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2953051
+Awater     : 1746131
+Intptlat   : +48.1671287
+Intptlon   : -116.7515647
+
+Statefp    : 16
+Placefp    : 21520
+Placens    : 02583435
+Geoid      : 1621520
+Geoidfq    : 1600000US1621520
+Name       : De Smet
+Namelsad   : De Smet CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2477808
+Awater     : 0
+Intptlat   : +47.1410205
+Intptlon   : -116.9113657
+
+Statefp    : 16
+Placefp    : 25030
+Placens    : 02585570
+Geoid      : 1625030
+Geoidfq    : 1600000US1625030
+Name       : Elk City
+Namelsad   : Elk City CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6491360
+Awater     : 9577
+Intptlat   : +45.8209032
+Intptlon   : -115.4411461
+
+Statefp    : 16
+Placefp    : 65620
+Placens    : 02585582
+Geoid      : 1665620
+Geoidfq    : 1600000US1665620
+Name       : Princeton
+Namelsad   : Princeton CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1652833
+Awater     : 8638
+Intptlat   : +46.9171977
+Intptlon   : -116.8260804
+
+Statefp    : 16
+Placefp    : 75160
+Placens    : 02585593
+Geoid      : 1675160
+Geoidfq    : 1600000US1675160
+Name       : Smiths Ferry
+Namelsad   : Smiths Ferry CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4788768
+Awater     : 414372
+Intptlat   : +44.2991586
+Intptlon   : -116.0783788
+
+Statefp    : 16
+Placefp    : 27640
+Placens    : 02806609
+Geoid      : 1627640
+Geoidfq    : 1600000US1627640
+Name       : Fernwood
+Namelsad   : Fernwood CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3346303
+Awater     : 0
+Intptlat   : +47.1150965
+Intptlon   : -116.3864855
+
+Statefp    : 16
+Placefp    : 28360
+Placens    : 02408239
+Geoid      : 1628360
+Geoidfq    : 1600000US1628360
+Name       : Fort Hall
+Namelsad   : Fort Hall CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 90977631
+Awater     : 104450
+Intptlat   : +43.0145465
+Intptlon   : -112.4578701
+
+Statefp    : 16
+Placefp    : 29440
+Placens    : 02806610
+Geoid      : 1629440
+Geoidfq    : 1600000US1629440
+Name       : Gannett
+Namelsad   : Gannett CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6787881
+Awater     : 7836
+Intptlat   : +43.3520971
+Intptlon   : -114.1676895
+
+Statefp    : 16
+Placefp    : 34030
+Placens    : 02585572
+Geoid      : 1634030
+Geoidfq    : 1600000US1634030
+Name       : Groveland
+Namelsad   : Groveland CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5947956
+Awater     : 0
+Intptlat   : +43.2234826
+Intptlon   : -112.3754703
+
+Statefp    : 16
+Placefp    : 54370
+Placens    : 02585577
+Geoid      : 1654370
+Geoidfq    : 1600000US1654370
+Name       : Moreland
+Namelsad   : Moreland CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6312403
+Awater     : 0
+Intptlat   : +43.2194802
+Intptlon   : -112.4377715
+
+Statefp    : 16
+Placefp    : 68230
+Placens    : 02585584
+Geoid      : 1668230
+Geoidfq    : 1600000US1668230
+Name       : Riverside
+Namelsad   : Riverside CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5556240
+Awater     : 0
+Intptlat   : +43.1965538
+Intptlon   : -112.4356252
+
+Statefp    : 16
+Placefp    : 34750
+Placens    : 02804063
+Geoid      : 1634750
+Geoidfq    : 1600000US1634750
+Name       : Hammett
+Namelsad   : Hammett CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3044216
+Awater     : 0
+Intptlat   : +42.9441143
+Intptlon   : -115.4655214
+
+Statefp    : 16
+Placefp    : 37500
+Placens    : 02585573
+Geoid      : 1637500
+Geoidfq    : 1600000US1637500
+Name       : Hidden Springs
+Namelsad   : Hidden Springs CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6821609
+Awater     : 30726
+Intptlat   : +43.7165408
+Intptlon   : -116.2594151
+
+Statefp    : 16
+Placefp    : 68545
+Placens    : 02585586
+Geoid      : 1668545
+Geoidfq    : 1600000US1668545
+Name       : Robie Creek
+Namelsad   : Robie Creek CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 77929052
+Awater     : 160426
+Intptlat   : +43.6676292
+Intptlon   : -116.0151740
+
+Statefp    : 16
+Placefp    : 46450
+Placens    : 02804064
+Geoid      : 1646450
+Geoidfq    : 1600000US1646450
+Name       : Letha
+Namelsad   : Letha CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1170144
+Awater     : 54572
+Intptlat   : +43.8928289
+Intptlon   : -116.6470257
+
+Statefp    : 16
+Placefp    : 48250
+Placens    : 02585576
+Geoid      : 1648250
+Geoidfq    : 1600000US1648250
+Name       : Lowman
+Namelsad   : Lowman CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5251910
+Awater     : 102224
+Intptlat   : +44.0719777
+Intptlon   : -115.6183003
+
+Statefp    : 16
+Placefp    : 83170
+Placens    : 02585595
+Geoid      : 1683170
+Geoidfq    : 1600000US1683170
+Name       : Tyhee
+Namelsad   : Tyhee CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 7435054
+Awater     : 15432
+Intptlat   : +42.9540012
+Intptlon   : -112.4561987
+

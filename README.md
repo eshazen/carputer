@@ -12,6 +12,8 @@ Front panel would have a display, a couple of buttons/knobs
 and a USB plug for power from the stereo plus software updates
 using Arduino boot loader.
 
+See (Data/README.md)[Data/README.md] for data details and ideas.
+
 ## Resources
 
 See [https://github.com/eshazen/town_ident](https://github.com/eshazen/town_ident)

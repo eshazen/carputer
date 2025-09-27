@@ -1,0 +1,8959 @@
+Statefp    : 35
+Placefp    : 77880
+Placens    : 02413593
+Geoid      : 3577880
+Geoidfq    : 1600000US3577880
+Name       : Tijeras
+Namelsad   : Tijeras village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2932151
+Awater     : 14804
+Intptlat   : +35.0861715
+Intptlon   : -106.3776286
+
+Statefp    : 35
+Placefp    : 31820
+Placens    : 02413557
+Geoid      : 3531820
+Geoidfq    : 1600000US3531820
+Name       : Hatch
+Namelsad   : Hatch village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 7782618
+Awater     : 155588
+Intptlat   : +32.6731189
+Intptlon   : -107.1619929
+
+Statefp    : 35
+Placefp    : 07880
+Placens    : 02409865
+Geoid      : 3507880
+Geoidfq    : 1600000US3507880
+Name       : Bloomfield
+Namelsad   : Bloomfield city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 48039012
+Awater     : 113697
+Intptlat   : +36.7433056
+Intptlon   : -107.9739366
+
+Statefp    : 35
+Placefp    : 30770
+Placens    : 02413556
+Geoid      : 3530770
+Geoidfq    : 1600000US3530770
+Name       : Grenville
+Namelsad   : Grenville village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 980950
+Awater     : 0
+Intptlat   : +36.5905330
+Intptlon   : -103.6145733
+
+Statefp    : 35
+Placefp    : 50160
+Placens    : 02411165
+Geoid      : 3550160
+Geoidfq    : 1600000US3550160
+Name       : Moriarty
+Namelsad   : Moriarty city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 17960774
+Awater     : 0
+Intptlat   : +35.0033677
+Intptlon   : -106.0444271
+
+Statefp    : 35
+Placefp    : 39940
+Placens    : 02411631
+Geoid      : 3539940
+Geoidfq    : 1600000US3539940
+Name       : Las Vegas
+Namelsad   : Las Vegas city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 22330761
+Awater     : 5491
+Intptlat   : +35.6048183
+Intptlon   : -105.2170234
+
+Statefp    : 35
+Placefp    : 36230
+Placens    : 02783911
+Geoid      : 3536230
+Geoidfq    : 1600000US3536230
+Name       : Kirtland
+Namelsad   : Kirtland town
+Lsad       : 43
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 4459638
+Awater     : 111135
+Intptlat   : +36.7588749
+Intptlon   : -108.3674564
+
+Statefp    : 35
+Placefp    : 43370
+Placens    : 02413567
+Geoid      : 3543370
+Geoidfq    : 1600000US3543370
+Name       : Los Lunas
+Namelsad   : Los Lunas village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 52733794
+Awater     : 7880
+Intptlat   : +34.8008699
+Intptlon   : -106.7886906
+
+Statefp    : 35
+Placefp    : 06270
+Placens    : 02409799
+Geoid      : 3506270
+Geoidfq    : 1600000US3506270
+Name       : Bayard
+Namelsad   : Bayard city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2462297
+Awater     : 9506
+Intptlat   : +32.7581818
+Intptlon   : -108.1338103
+
+Statefp    : 35
+Placefp    : 73260
+Placens    : 02413285
+Geoid      : 3573260
+Geoidfq    : 1600000US3573260
+Name       : Silver City
+Namelsad   : Silver City town
+Lsad       : 43
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 26208184
+Awater     : 51261
+Intptlat   : +32.7785811
+Intptlon   : -108.2694089
+
+Statefp    : 35
+Placefp    : 08580
+Placens    : 02413534
+Geoid      : 3508580
+Geoidfq    : 1600000US3508580
+Name       : Bosque Farms
+Namelsad   : Bosque Farms village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 10191576
+Awater     : 426
+Intptlat   : +34.8535770
+Intptlon   : -106.7010491
+
+Statefp    : 35
+Placefp    : 70270
+Placens    : 02413590
+Geoid      : 3570270
+Geoidfq    : 1600000US3570270
+Name       : Santa Clara
+Namelsad   : Santa Clara village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 5154323
+Awater     : 38905
+Intptlat   : +32.7799591
+Intptlon   : -108.1493173
+
+Statefp    : 35
+Placefp    : 59260
+Placens    : 02411469
+Geoid      : 3559260
+Geoidfq    : 1600000US3559260
+Name       : Portales
+Namelsad   : Portales city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 20786636
+Awater     : 1953
+Intptlat   : +34.1772890
+Intptlon   : -103.3550835
+
+Statefp    : 35
+Placefp    : 62200
+Placens    : 02412537
+Geoid      : 3562200
+Geoidfq    : 1600000US3562200
+Name       : Red River
+Namelsad   : Red River town
+Lsad       : 43
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2629437
+Awater     : 10107
+Intptlat   : +36.7097678
+Intptlon   : -105.4184953
+
+Statefp    : 35
+Placefp    : 76480
+Placens    : 02413591
+Geoid      : 3576480
+Geoidfq    : 1600000US3576480
+Name       : Taos Ski Valley
+Namelsad   : Taos Ski Valley village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 7386689
+Awater     : 0
+Intptlat   : +36.5900418
+Intptlon   : -105.4369288
+
+Statefp    : 35
+Placefp    : 46310
+Placens    : 02413570
+Geoid      : 3546310
+Geoidfq    : 1600000US3546310
+Name       : Magdalena
+Namelsad   : Magdalena village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 16118836
+Awater     : 0
+Intptlat   : +34.1095290
+Intptlon   : -107.2318302
+
+Statefp    : 35
+Placefp    : 73540
+Placens    : 02411919
+Geoid      : 3573540
+Geoidfq    : 1600000US3573540
+Name       : Socorro
+Namelsad   : Socorro city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 37434634
+Awater     : 25853
+Intptlat   : +34.0545352
+Intptlon   : -106.9061995
+
+Statefp    : 35
+Placefp    : 17960
+Placens    : 02413544
+Geoid      : 3517960
+Geoidfq    : 1600000US3517960
+Name       : Corrales
+Namelsad   : Corrales village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 27944405
+Awater     : 425397
+Intptlat   : +35.2395747
+Intptlon   : -106.6270605
+
+Statefp    : 35
+Placefp    : 25450
+Placens    : 02410462
+Geoid      : 3525450
+Geoidfq    : 1600000US3525450
+Name       : Eunice
+Namelsad   : Eunice city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 10604241
+Awater     : 22016
+Intptlat   : +32.4361466
+Intptlon   : -103.1490431
+
+Statefp    : 35
+Placefp    : 44490
+Placens    : 02410888
+Geoid      : 3544490
+Geoidfq    : 1600000US3544490
+Name       : Lovington
+Namelsad   : Lovington city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 29031826
+Awater     : 67125
+Intptlat   : +32.9444663
+Intptlon   : -103.3492252
+
+Statefp    : 35
+Placefp    : 76620
+Placens    : 02413367
+Geoid      : 3576620
+Geoidfq    : 1600000US3576620
+Name       : Tatum
+Namelsad   : Tatum town
+Lsad       : 43
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 4105507
+Awater     : 19293
+Intptlat   : +33.2553943
+Intptlon   : -103.3108219
+
+Statefp    : 35
+Placefp    : 05220
+Placens    : 02409736
+Geoid      : 3505220
+Geoidfq    : 1600000US3505220
+Name       : Artesia
+Namelsad   : Artesia city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 29346011
+Awater     : 88425
+Intptlat   : +32.8521728
+Intptlon   : -104.4245699
+
+Statefp    : 35
+Placefp    : 26570
+Placens    : 02413551
+Geoid      : 3526570
+Geoidfq    : 1600000US3526570
+Name       : Floyd
+Namelsad   : Floyd village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 7975934
+Awater     : 2693
+Intptlat   : +34.2285981
+Intptlon   : -103.5760590
+
+Statefp    : 35
+Placefp    : 39380
+Placens    : 02411629
+Geoid      : 3539380
+Geoidfq    : 1600000US3539380
+Name       : Las Cruces
+Namelsad   : Las Cruces city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 199256107
+Awater     : 250841
+Intptlat   : +32.3264441
+Intptlon   : -106.7896951
+
+Statefp    : 35
+Placefp    : 75640
+Placens    : 02412006
+Geoid      : 3575640
+Geoidfq    : 1600000US3575640
+Name       : Sunland Park
+Namelsad   : Sunland Park city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 38163117
+Awater     : 708957
+Intptlat   : +31.8235591
+Intptlon   : -106.6002644
+
+Statefp    : 35
+Placefp    : 65070
+Placens    : 02413584
+Geoid      : 3565070
+Geoidfq    : 1600000US3565070
+Name       : Roy
+Namelsad   : Roy village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 5294091
+Awater     : 0
+Intptlat   : +35.9450947
+Intptlon   : -104.1962882
+
+Statefp    : 35
+Placefp    : 37840
+Placens    : 02412862
+Geoid      : 3537840
+Geoidfq    : 1600000US3537840
+Name       : Lake Arthur
+Namelsad   : Lake Arthur town
+Lsad       : 43
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1378287
+Awater     : 0
+Intptlat   : +32.9993899
+Intptlon   : -104.3636954
+
+Statefp    : 35
+Placefp    : 28460
+Placens    : 02410562
+Geoid      : 3528460
+Geoidfq    : 1600000US3528460
+Name       : Gallup
+Namelsad   : Gallup city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 52292295
+Awater     : 8907
+Intptlat   : +35.5137527
+Intptlon   : -108.7437327
+
+Statefp    : 35
+Placefp    : 56180
+Placens    : 02424937
+Geoid      : 3556180
+Geoidfq    : 1600000US3556180
+Name       : Peralta
+Namelsad   : Peralta town
+Lsad       : 43
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 11507815
+Awater     : 0
+Intptlat   : +34.8283397
+Intptlon   : -106.6859634
+
+Statefp    : 35
+Placefp    : 62060
+Placens    : 02411522
+Geoid      : 3562060
+Geoidfq    : 1600000US3562060
+Name       : Raton
+Namelsad   : Raton city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 20618342
+Awater     : 0
+Intptlat   : +36.8849663
+Intptlon   : -104.4395719
+
+Statefp    : 35
+Placefp    : 62620
+Placens    : 02413582
+Geoid      : 3562620
+Geoidfq    : 1600000US3562620
+Name       : Reserve
+Namelsad   : Reserve village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1442942
+Awater     : 0
+Intptlat   : +33.7089801
+Intptlon   : -108.7613839
+
+Statefp    : 35
+Placefp    : 22380
+Placens    : 02412467
+Geoid      : 3522380
+Geoidfq    : 1600000US3522380
+Name       : Edgewood
+Namelsad   : Edgewood town
+Lsad       : 43
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 147100294
+Awater     : 46522
+Intptlat   : +35.1313187
+Intptlon   : -106.2201610
+
+Statefp    : 35
+Placefp    : 35040
+Placens    : 02410131
+Geoid      : 3535040
+Geoidfq    : 1600000US3535040
+Name       : Jal
+Namelsad   : Jal city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 12491798
+Awater     : 0
+Intptlat   : +32.1148384
+Intptlon   : -103.1899961
+
+Statefp    : 35
+Placefp    : 43930
+Placens    : 02413568
+Geoid      : 3543930
+Geoidfq    : 1600000US3543930
+Name       : Los Ranchos de Albuquerque
+Namelsad   : Los Ranchos de Albuquerque village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 11530189
+Awater     : 1387
+Intptlat   : +35.1619524
+Intptlon   : -106.6457368
+
+Statefp    : 35
+Placefp    : 03820
+Placens    : 02678944
+Geoid      : 3503820
+Geoidfq    : 1600000US3503820
+Name       : Anthony
+Namelsad   : Anthony city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 6989392
+Awater     : 0
+Intptlat   : +32.0131480
+Intptlon   : -106.5983964
+
+Statefp    : 35
+Placefp    : 12150
+Placens    : 02409985
+Geoid      : 3512150
+Geoidfq    : 1600000US3512150
+Name       : Carlsbad
+Namelsad   : Carlsbad city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 81977407
+Awater     : 716447
+Intptlat   : +32.4007904
+Intptlon   : -104.2410124
+
+Statefp    : 35
+Placefp    : 85300
+Placens    : 02413602
+Geoid      : 3585300
+Geoidfq    : 1600000US3585300
+Name       : Williamsburg
+Namelsad   : Williamsburg village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1258600
+Awater     : 60324
+Intptlat   : +33.1159302
+Intptlon   : -107.2944625
+
+Statefp    : 35
+Placefp    : 50370
+Placens    : 02413025
+Geoid      : 3550370
+Geoidfq    : 1600000US3550370
+Name       : Mountainair
+Namelsad   : Mountainair town
+Lsad       : 43
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 4093856
+Awater     : 0
+Intptlat   : +34.5211897
+Intptlon   : -106.2393243
+
+Statefp    : 35
+Placefp    : 48060
+Placens    : 02412988
+Geoid      : 3548060
+Geoidfq    : 1600000US3548060
+Name       : Mesilla
+Namelsad   : Mesilla town
+Lsad       : 43
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 14707890
+Awater     : 0
+Intptlat   : +32.2693073
+Intptlon   : -106.8091079
+
+Statefp    : 35
+Placefp    : 05780
+Placens    : 02409767
+Geoid      : 3505780
+Geoidfq    : 1600000US3505780
+Name       : Aztec
+Namelsad   : Aztec city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 44191553
+Awater     : 220740
+Intptlat   : +36.8158979
+Intptlon   : -107.9703118
+
+Statefp    : 35
+Placefp    : 15440
+Placens    : 02413540
+Geoid      : 3515440
+Geoidfq    : 1600000US3515440
+Name       : Cimarron
+Namelsad   : Cimarron village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 5483845
+Awater     : 0
+Intptlat   : +36.5083019
+Intptlon   : -104.9103535
+
+Statefp    : 35
+Placefp    : 25170
+Placens    : 02410456
+Geoid      : 3525170
+Geoidfq    : 1600000US3525170
+Name       : Española
+Namelsad   : Española city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 21295392
+Awater     : 314818
+Intptlat   : +36.0039594
+Intptlon   : -106.0701309
+
+Statefp    : 35
+Placefp    : 70500
+Placens    : 02411821
+Geoid      : 3570500
+Geoidfq    : 1600000US3570500
+Name       : Santa Fe
+Namelsad   : Santa Fe city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 135282312
+Awater     : 289025
+Intptlat   : +35.6619812
+Intptlon   : -105.9818147
+
+Statefp    : 35
+Placefp    : 63145
+Placens    : 02771703
+Geoid      : 3563145
+Geoidfq    : 1600000US3563145
+Name       : Rio Communities
+Namelsad   : Rio Communities city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 19926912
+Awater     : 23474
+Intptlat   : +34.6451573
+Intptlon   : -106.7157786
+
+Statefp    : 35
+Placefp    : 33850
+Placens    : 02412784
+Geoid      : 3533850
+Geoidfq    : 1600000US3533850
+Name       : Hurley
+Namelsad   : Hurley town
+Lsad       : 43
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2642252
+Awater     : 9586
+Intptlat   : +32.6985458
+Intptlon   : -108.1311117
+
+Statefp    : 35
+Placefp    : 22720
+Placens    : 02410420
+Geoid      : 3522720
+Geoidfq    : 1600000US3522720
+Name       : Elephant Butte
+Namelsad   : Elephant Butte city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 10823167
+Awater     : 28208
+Intptlat   : +33.1824372
+Intptlon   : -107.2215560
+
+Statefp    : 35
+Placefp    : 79840
+Placens    : 02412102
+Geoid      : 3579840
+Geoidfq    : 1600000US3579840
+Name       : Truth or Consequences
+Namelsad   : Truth or Consequences city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 72509394
+Awater     : 299644
+Intptlat   : +33.2376400
+Intptlon   : -107.2762368
+
+Statefp    : 35
+Placefp    : 24610
+Placens    : 02413549
+Geoid      : 3524610
+Geoidfq    : 1600000US3524610
+Name       : Encino
+Namelsad   : Encino village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 5158492
+Awater     : 0
+Intptlat   : +34.6518283
+Intptlon   : -105.4585773
+
+Statefp    : 35
+Placefp    : 06480
+Placens    : 02409814
+Geoid      : 3506480
+Geoidfq    : 1600000US3506480
+Name       : Belen
+Namelsad   : Belen city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 49237979
+Awater     : 60482
+Intptlat   : +34.7665719
+Intptlon   : -106.8085116
+
+Statefp    : 35
+Placefp    : 25800
+Placens    : 02410487
+Geoid      : 3525800
+Geoidfq    : 1600000US3525800
+Name       : Farmington
+Namelsad   : Farmington city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 89252675
+Awater     : 1258140
+Intptlat   : +36.7538325
+Intptlon   : -108.1805302
+
+Statefp    : 35
+Placefp    : 20270
+Placens    : 02410321
+Geoid      : 3520270
+Geoidfq    : 1600000US3520270
+Name       : Deming
+Namelsad   : Deming city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 43292067
+Awater     : 0
+Intptlat   : +32.2630758
+Intptlon   : -107.7524902
+
+Statefp    : 35
+Placefp    : 79910
+Placens    : 02412105
+Geoid      : 3579910
+Geoidfq    : 1600000US3579910
+Name       : Tucumcari
+Namelsad   : Tucumcari city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 24624147
+Awater     : 1150
+Intptlat   : +35.1702911
+Intptlon   : -103.7050456
+
+Statefp    : 35
+Placefp    : 42180
+Placens    : 02410872
+Geoid      : 3542180
+Geoidfq    : 1600000US3542180
+Name       : Lordsburg
+Namelsad   : Lordsburg city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 21820451
+Awater     : 0
+Intptlat   : +32.3437768
+Intptlon   : -108.7021199
+
+Statefp    : 35
+Placefp    : 83200
+Placens    : 02413597
+Geoid      : 3583200
+Geoidfq    : 1600000US3583200
+Name       : Virden
+Namelsad   : Virden village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 547656
+Awater     : 0
+Intptlat   : +32.6888718
+Intptlon   : -109.0013334
+
+Statefp    : 35
+Placefp    : 60870
+Placens    : 02413580
+Geoid      : 3560870
+Geoidfq    : 1600000US3560870
+Name       : Questa
+Namelsad   : Questa village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 18328590
+Awater     : 1327820
+Intptlat   : +36.7123791
+Intptlon   : -105.5992035
+
+Statefp    : 35
+Placefp    : 13970
+Placens    : 02413539
+Geoid      : 3513970
+Geoidfq    : 1600000US3513970
+Name       : Chama
+Namelsad   : Chama village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 7460780
+Awater     : 83019
+Intptlat   : +36.8901265
+Intptlon   : -106.5841632
+
+Statefp    : 35
+Placefp    : 25380
+Placens    : 02412601
+Geoid      : 3525380
+Geoidfq    : 1600000US3525380
+Name       : Estancia
+Namelsad   : Estancia town
+Lsad       : 43
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 15975580
+Awater     : 124032
+Intptlat   : +34.7642732
+Intptlon   : -106.0385581
+
+Statefp    : 35
+Placefp    : 32520
+Placens    : 02410771
+Geoid      : 3532520
+Geoidfq    : 1600000US3532520
+Name       : Hobbs
+Namelsad   : Hobbs city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 68385355
+Awater     : 85026
+Intptlat   : +32.7290880
+Intptlon   : -103.1608281
+
+Statefp    : 35
+Placefp    : 83340
+Placens    : 02413599
+Geoid      : 3583340
+Geoidfq    : 1600000US3583340
+Name       : Wagon Mound
+Namelsad   : Wagon Mound village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2620157
+Awater     : 0
+Intptlat   : +36.0047218
+Intptlon   : -104.7091915
+
+Statefp    : 35
+Placefp    : 70670
+Placens    : 02411828
+Geoid      : 3570670
+Geoidfq    : 1600000US3570670
+Name       : Santa Rosa
+Namelsad   : Santa Rosa city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 12946925
+Awater     : 64499
+Intptlat   : +34.9360514
+Intptlon   : -104.6750210
+
+Statefp    : 35
+Placefp    : 82570
+Placens    : 02413424
+Geoid      : 3582570
+Geoidfq    : 1600000US3582570
+Name       : Vaughn
+Namelsad   : Vaughn town
+Lsad       : 43
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 14500262
+Awater     : 0
+Intptlat   : +34.6072056
+Intptlon   : -105.2125943
+
+Statefp    : 35
+Placefp    : 33710
+Placens    : 02413560
+Geoid      : 3533710
+Geoidfq    : 1600000US3533710
+Name       : House
+Namelsad   : House village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2367068
+Awater     : 0
+Intptlat   : +34.6494505
+Intptlon   : -103.9037504
+
+Statefp    : 35
+Placefp    : 74800
+Placens    : 02413321
+Geoid      : 3574800
+Geoidfq    : 1600000US3574800
+Name       : Springer
+Namelsad   : Springer town
+Lsad       : 43
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 5708590
+Awater     : 131871
+Intptlat   : +36.3654112
+Intptlon   : -104.6002182
+
+Statefp    : 35
+Placefp    : 47080
+Placens    : 02413571
+Geoid      : 3547080
+Geoidfq    : 1600000US3547080
+Name       : Maxwell
+Namelsad   : Maxwell village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1228823
+Awater     : 0
+Intptlat   : +36.5410884
+Intptlon   : -104.5430468
+
+Statefp    : 35
+Placefp    : 47570
+Placens    : 02413572
+Geoid      : 3547570
+Geoidfq    : 1600000US3547570
+Name       : Melrose
+Namelsad   : Melrose village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 4377482
+Awater     : 1672
+Intptlat   : +34.4294778
+Intptlon   : -103.6293649
+
+Statefp    : 35
+Placefp    : 77250
+Placens    : 02412057
+Geoid      : 3577250
+Geoidfq    : 1600000US3577250
+Name       : Texico
+Namelsad   : Texico city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2141996
+Awater     : 1708
+Intptlat   : +34.3892116
+Intptlon   : -103.0506821
+
+Statefp    : 35
+Placefp    : 12850
+Placens    : 02413538
+Geoid      : 3512850
+Geoidfq    : 1600000US3512850
+Name       : Causey
+Namelsad   : Causey village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 9699998
+Awater     : 7830
+Intptlat   : +33.8666633
+Intptlon   : -103.1252264
+
+Statefp    : 35
+Placefp    : 21180
+Placens    : 02413547
+Geoid      : 3521180
+Geoidfq    : 1600000US3521180
+Name       : Dora
+Namelsad   : Dora village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 6717228
+Awater     : 26973
+Intptlat   : +33.9258663
+Intptlon   : -103.3385496
+
+Statefp    : 35
+Placefp    : 23000
+Placens    : 02412473
+Geoid      : 3523000
+Geoidfq    : 1600000US3523000
+Name       : Elida
+Namelsad   : Elida town
+Lsad       : 43
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2648271
+Awater     : 0
+Intptlat   : +33.9469043
+Intptlon   : -103.6531175
+
+Statefp    : 35
+Placefp    : 33290
+Placens    : 02413559
+Geoid      : 3533290
+Geoidfq    : 1600000US3533290
+Name       : Hope
+Namelsad   : Hope village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 3168766
+Awater     : 2000
+Intptlat   : +32.8173720
+Intptlon   : -104.7369328
+
+Statefp    : 35
+Placefp    : 30490
+Placens    : 02410646
+Geoid      : 3530490
+Geoidfq    : 1600000US3530490
+Name       : Grants
+Namelsad   : Grants city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 38482050
+Awater     : 35
+Intptlat   : +35.1541872
+Intptlon   : -107.8322747
+
+Statefp    : 35
+Placefp    : 11800
+Placens    : 02413537
+Geoid      : 3511800
+Geoidfq    : 1600000US3511800
+Name       : Capitan
+Namelsad   : Capitan village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 8441582
+Awater     : 0
+Intptlat   : +33.5392481
+Intptlon   : -105.5982424
+
+Statefp    : 35
+Placefp    : 17680
+Placens    : 02413543
+Geoid      : 3517680
+Geoidfq    : 1600000US3517680
+Name       : Corona
+Namelsad   : Corona village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2657375
+Awater     : 0
+Intptlat   : +34.2501059
+Intptlon   : -105.5969792
+
+Statefp    : 35
+Placefp    : 65210
+Placens    : 02413585
+Geoid      : 3565210
+Geoidfq    : 1600000US3565210
+Name       : Ruidoso
+Namelsad   : Ruidoso village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 41782777
+Awater     : 48910
+Intptlat   : +33.3495494
+Intptlon   : -105.6688089
+
+Statefp    : 35
+Placefp    : 01780
+Placens    : 02409672
+Geoid      : 3501780
+Geoidfq    : 1600000US3501780
+Name       : Alamogordo
+Namelsad   : Alamogordo city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 55871415
+Awater     : 29904
+Intptlat   : +32.8836188
+Intptlon   : -105.9636068
+
+Statefp    : 35
+Placefp    : 76200
+Placens    : 02413366
+Geoid      : 3576200
+Geoidfq    : 1600000US3576200
+Name       : Taos
+Namelsad   : Taos town
+Lsad       : 43
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 15639836
+Awater     : 0
+Intptlat   : +36.3871271
+Intptlon   : -105.5804091
+
+Statefp    : 35
+Placefp    : 03400
+Placens    : 02413529
+Geoid      : 3503400
+Geoidfq    : 1600000US3503400
+Name       : Angel Fire
+Namelsad   : Angel Fire village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 74605232
+Awater     : 100097
+Intptlat   : +36.3779706
+Intptlon   : -105.2588387
+
+Statefp    : 35
+Placefp    : 22020
+Placens    : 02413548
+Geoid      : 3522020
+Geoidfq    : 1600000US3522020
+Name       : Eagle Nest
+Namelsad   : Eagle Nest village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 11613457
+Awater     : 2229974
+Intptlat   : +36.5469869
+Intptlon   : -105.2607012
+
+Statefp    : 35
+Placefp    : 63460
+Placens    : 02410954
+Geoid      : 3563460
+Geoidfq    : 1600000US3563460
+Name       : Rio Rancho
+Namelsad   : Rio Rancho city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 267704985
+Awater     : 674339
+Intptlat   : +35.2850704
+Intptlon   : -106.6988665
+
+Statefp    : 35
+Placefp    : 02000
+Placens    : 02409678
+Geoid      : 3502000
+Geoidfq    : 1600000US3502000
+Name       : Albuquerque
+Namelsad   : Albuquerque city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 485017609
+Awater     : 4358221
+Intptlat   : +35.1047797
+Intptlon   : -106.6468093
+
+Statefp    : 35
+Placefp    : 06970
+Placens    : 02411678
+Geoid      : 3506970
+Geoidfq    : 1600000US3506970
+Name       : Bernalillo
+Namelsad   : Bernalillo town
+Lsad       : 43
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 13619322
+Awater     : 98862
+Intptlat   : +35.3123626
+Intptlon   : -106.5541045
+
+Statefp    : 35
+Placefp    : 19150
+Placens    : 02413545
+Geoid      : 3519150
+Geoidfq    : 1600000US3519150
+Name       : Cuba
+Namelsad   : Cuba village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 8454918
+Awater     : 0
+Intptlat   : +36.0145830
+Intptlon   : -106.9680109
+
+Statefp    : 35
+Placefp    : 35320
+Placens    : 02413562
+Geoid      : 3535320
+Geoidfq    : 1600000US3535320
+Name       : Jemez Springs
+Namelsad   : Jemez Springs village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 12434740
+Awater     : 0
+Intptlat   : +35.7730987
+Intptlon   : -106.6910255
+
+Statefp    : 35
+Placefp    : 71020
+Placens    : 02413589
+Geoid      : 3571020
+Geoidfq    : 1600000US3571020
+Name       : San Ysidro
+Namelsad   : San Ysidro village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 6056222
+Awater     : 0
+Intptlat   : +35.5605525
+Intptlon   : -106.7735032
+
+Statefp    : 35
+Placefp    : 48620
+Placens    : 02413573
+Geoid      : 3548620
+Geoidfq    : 1600000US3548620
+Name       : Milan
+Namelsad   : Milan village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 11421628
+Awater     : 12293
+Intptlat   : +35.1967817
+Intptlon   : -107.8923712
+
+Statefp    : 35
+Placefp    : 50300
+Placens    : 02413574
+Geoid      : 3550300
+Geoidfq    : 1600000US3550300
+Name       : Mosquero
+Namelsad   : Mosquero village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2584212
+Awater     : 0
+Intptlat   : +35.7743104
+Intptlon   : -103.9544133
+
+Statefp    : 35
+Placefp    : 55620
+Placens    : 02413576
+Geoid      : 3555620
+Geoidfq    : 1600000US3555620
+Name       : Pecos
+Namelsad   : Pecos village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 4597772
+Awater     : 0
+Intptlat   : +35.5757063
+Intptlon   : -105.6784066
+
+Statefp    : 35
+Placefp    : 27340
+Placens    : 02413553
+Geoid      : 3527340
+Geoidfq    : 1600000US3527340
+Name       : Fort Sumner
+Namelsad   : Fort Sumner village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 8584626
+Awater     : 80168
+Intptlat   : +34.4869436
+Intptlon   : -104.2176680
+
+Statefp    : 35
+Placefp    : 16420
+Placens    : 02409489
+Geoid      : 3516420
+Geoidfq    : 1600000US3516420
+Name       : Clovis
+Namelsad   : Clovis city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 61187437
+Awater     : 432501
+Intptlat   : +34.4385688
+Intptlon   : -103.1941935
+
+Statefp    : 35
+Placefp    : 30210
+Placens    : 02413554
+Geoid      : 3530210
+Geoidfq    : 1600000US3530210
+Name       : Grady
+Namelsad   : Grady village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 689638
+Awater     : 263
+Intptlat   : +34.8219983
+Intptlon   : -103.3152671
+
+Statefp    : 35
+Placefp    : 16280
+Placens    : 02413541
+Geoid      : 3516280
+Geoidfq    : 1600000US3516280
+Name       : Cloudcroft
+Namelsad   : Cloudcroft village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 4237355
+Awater     : 3669
+Intptlat   : +32.9521898
+Intptlon   : -105.7324355
+
+Statefp    : 35
+Placefp    : 79980
+Placens    : 02413595
+Geoid      : 3579980
+Geoidfq    : 1600000US3579980
+Name       : Tularosa
+Namelsad   : Tularosa village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 7301290
+Awater     : 3188
+Intptlat   : +33.0750009
+Intptlon   : -106.0172995
+
+Statefp    : 35
+Placefp    : 17050
+Placens    : 02413542
+Geoid      : 3517050
+Geoidfq    : 1600000US3517050
+Name       : Columbus
+Namelsad   : Columbus village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 12085299
+Awater     : 0
+Intptlat   : +31.8274182
+Intptlon   : -107.6422938
+
+Statefp    : 35
+Placefp    : 85160
+Placens    : 02413601
+Geoid      : 3585160
+Geoidfq    : 1600000US3585160
+Name       : Willard
+Namelsad   : Willard village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2388928
+Awater     : 0
+Intptlat   : +34.5948792
+Intptlon   : -106.0322892
+
+Statefp    : 35
+Placefp    : 42040
+Placens    : 02413566
+Geoid      : 3542040
+Geoidfq    : 1600000US3542040
+Name       : Logan
+Namelsad   : Logan village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 27442318
+Awater     : 1841977
+Intptlat   : +35.3554817
+Intptlon   : -103.4530205
+
+Statefp    : 35
+Placefp    : 68150
+Placens    : 02413587
+Geoid      : 3568150
+Geoidfq    : 1600000US3568150
+Name       : San Jon
+Namelsad   : San Jon village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 7583595
+Awater     : 0
+Intptlat   : +35.1112991
+Intptlon   : -103.3362988
+
+Statefp    : 35
+Placefp    : 12500
+Placens    : 02413174
+Geoid      : 3512500
+Geoidfq    : 1600000US3512500
+Name       : Carrizozo
+Namelsad   : Carrizozo town
+Lsad       : 43
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 21655909
+Awater     : 0
+Intptlat   : +33.6433410
+Intptlon   : -105.8411315
+
+Statefp    : 35
+Placefp    : 65280
+Placens    : 02411014
+Geoid      : 3565280
+Geoidfq    : 1600000US3565280
+Name       : Ruidoso Downs
+Namelsad   : Ruidoso Downs city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 9815134
+Awater     : 0
+Intptlat   : +33.3311812
+Intptlon   : -105.5967722
+
+Statefp    : 35
+Placefp    : 64930
+Placens    : 02411003
+Geoid      : 3564930
+Geoidfq    : 1600000US3564930
+Name       : Roswell
+Namelsad   : Roswell city
+Lsad       : 25
+Classfp    : C1
+Pcicbsa    : Y
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 76964808
+Awater     : 155853
+Intptlat   : +33.3734421
+Intptlon   : -104.5293929
+
+Statefp    : 35
+Placefp    : 20620
+Placens    : 02412426
+Geoid      : 3520620
+Geoidfq    : 1600000US3520620
+Name       : Dexter
+Namelsad   : Dexter town
+Lsad       : 43
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1889189
+Awater     : 164893
+Intptlat   : +33.1948269
+Intptlon   : -104.3688983
+
+Statefp    : 35
+Placefp    : 31330
+Placens    : 02412718
+Geoid      : 3531330
+Geoidfq    : 1600000US3531330
+Name       : Hagerman
+Namelsad   : Hagerman town
+Lsad       : 43
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 3511922
+Awater     : 2060
+Intptlat   : +33.1158316
+Intptlon   : -104.3319251
+
+Statefp    : 35
+Placefp    : 15720
+Placens    : 02413209
+Geoid      : 3515720
+Geoidfq    : 1600000US3515720
+Name       : Clayton
+Namelsad   : Clayton town
+Lsad       : 43
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 20222613
+Awater     : 65289
+Intptlat   : +36.4460334
+Intptlon   : -103.1488630
+
+Statefp    : 35
+Placefp    : 26780
+Placens    : 02413552
+Geoid      : 3526780
+Geoidfq    : 1600000US3526780
+Name       : Folsom
+Namelsad   : Folsom village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1687088
+Awater     : 0
+Intptlat   : +36.8477700
+Intptlon   : -103.9176101
+
+Statefp    : 35
+Placefp    : 20480
+Placens    : 02413546
+Geoid      : 3520480
+Geoidfq    : 1600000US3520480
+Name       : Des Moines
+Namelsad   : Des Moines village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2253673
+Awater     : 0
+Intptlat   : +36.7612653
+Intptlon   : -103.8340737
+
+Statefp    : 35
+Placefp    : 44420
+Placens    : 02413569
+Geoid      : 3544420
+Geoidfq    : 1600000US3544420
+Name       : Loving
+Namelsad   : Loving village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 3124258
+Awater     : 2170
+Intptlat   : +32.2862350
+Intptlon   : -104.0977557
+
+Statefp    : 35
+Placefp    : 00240
+Placens    : 02584042
+Geoid      : 3500240
+Geoidfq    : 1600000US3500240
+Name       : Abeytas
+Namelsad   : Abeytas CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3193254
+Awater     : 0
+Intptlat   : +34.4652018
+Intptlon   : -106.8137551
+
+Statefp    : 35
+Placefp    : 01640
+Placens    : 02584045
+Geoid      : 3501640
+Geoidfq    : 1600000US3501640
+Name       : Alamillo
+Namelsad   : Alamillo CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3109193
+Awater     : 0
+Intptlat   : +34.2518831
+Intptlon   : -106.9157995
+
+Statefp    : 35
+Placefp    : 01710
+Placens    : 02407708
+Geoid      : 3501710
+Geoidfq    : 1600000US3501710
+Name       : Alamo
+Namelsad   : Alamo CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 101460323
+Awater     : 0
+Intptlat   : +34.4183998
+Intptlon   : -107.5124847
+
+Statefp    : 35
+Placefp    : 03680
+Placens    : 02806747
+Geoid      : 3503680
+Geoidfq    : 1600000US3503680
+Name       : Angustura
+Namelsad   : Angustura CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 12355988
+Awater     : 204877
+Intptlat   : +36.7127923
+Intptlon   : -107.9172482
+
+Statefp    : 35
+Placefp    : 08493
+Placens    : 02806712
+Geoid      : 3508493
+Geoidfq    : 1600000US3508493
+Name       : Borrego Pass
+Namelsad   : Borrego Pass CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 34255729
+Awater     : 0
+Intptlat   : +35.5664436
+Intptlon   : -108.0164836
+
+Statefp    : 35
+Placefp    : 10750
+Placens    : 02407952
+Geoid      : 3510750
+Geoidfq    : 1600000US3510750
+Name       : Cannon AFB
+Namelsad   : Cannon AFB CDP
+Lsad       : 57
+Classfp    : M2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 15185828
+Awater     : 67511
+Intptlat   : +34.3821366
+Intptlon   : -103.3169436
+
+Statefp    : 35
+Placefp    : 11256
+Placens    : 02806757
+Geoid      : 3511256
+Geoidfq    : 1600000US3511256
+Name       : Cañoncito
+Namelsad   : Cañoncito CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 25668021
+Awater     : 4571
+Intptlat   : +35.5352382
+Intptlon   : -105.8388754
+
+Statefp    : 35
+Placefp    : 12833
+Placens    : 02806702
+Geoid      : 3512833
+Geoidfq    : 1600000US3512833
+Name       : Casas Adobes
+Namelsad   : Casas Adobes CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2401744
+Awater     : 1494
+Intptlat   : +32.8094252
+Intptlon   : -107.9389799
+
+Statefp    : 35
+Placefp    : 12844
+Placens    : 02806713
+Geoid      : 3512844
+Geoidfq    : 1600000US3512844
+Name       : Catalpa Canyon
+Namelsad   : Catalpa Canyon CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 18233852
+Awater     : 0
+Intptlat   : +35.4942105
+Intptlon   : -108.7205683
+
+Statefp    : 35
+Placefp    : 13540
+Placens    : 02806749
+Geoid      : 3513540
+Geoidfq    : 1600000US3513540
+Name       : Center Point
+Namelsad   : Center Point CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 23808932
+Awater     : 1022699
+Intptlat   : +36.8709967
+Intptlon   : -107.9553898
+
+Statefp    : 35
+Placefp    : 15860
+Placens    : 02584078
+Geoid      : 3515860
+Geoidfq    : 1600000US3515860
+Name       : Cliff
+Namelsad   : Cliff CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 26554072
+Awater     : 0
+Intptlat   : +32.9659569
+Intptlon   : -108.6175941
+
+Statefp    : 35
+Placefp    : 16490
+Placens    : 02584079
+Geoid      : 3516490
+Geoidfq    : 1600000US3516490
+Name       : Cobre
+Namelsad   : Cobre CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 173769
+Awater     : 0
+Intptlat   : +32.7804198
+Intptlon   : -108.1106104
+
+Statefp    : 35
+Placefp    : 17260
+Placens    : 02629107
+Geoid      : 3517260
+Geoidfq    : 1600000US3517260
+Name       : Conchas Dam
+Namelsad   : Conchas Dam CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 21561773
+Awater     : 4585713
+Intptlat   : +35.3548267
+Intptlon   : -104.1953608
+
+Statefp    : 35
+Placefp    : 18905
+Placens    : 02806751
+Geoid      : 3518905
+Geoidfq    : 1600000US3518905
+Name       : Crouch Mesa
+Namelsad   : Crouch Mesa CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 53545475
+Awater     : 0
+Intptlat   : +36.7480398
+Intptlon   : -108.0852776
+
+Statefp    : 35
+Placefp    : 21110
+Placens    : 02408681
+Geoid      : 3521110
+Geoidfq    : 1600000US3521110
+Name       : Doña Ana
+Namelsad   : Doña Ana CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1654126
+Awater     : 0
+Intptlat   : +32.3939408
+Intptlon   : -106.8177140
+
+Statefp    : 35
+Placefp    : 00310
+Placens    : 02584043
+Geoid      : 3500310
+Geoidfq    : 1600000US3500310
+Name       : Abiquiu
+Namelsad   : Abiquiu CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2469968
+Awater     : 0
+Intptlat   : +36.2017258
+Intptlon   : -106.3238516
+
+Statefp    : 35
+Placefp    : 10610
+Placens    : 02584063
+Geoid      : 3510610
+Geoidfq    : 1600000US3510610
+Name       : Canjilon
+Namelsad   : Canjilon CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 8309483
+Awater     : 2930
+Intptlat   : +36.4836782
+Intptlon   : -106.4240198
+
+Statefp    : 35
+Placefp    : 13340
+Placens    : 02584070
+Geoid      : 3513340
+Geoidfq    : 1600000US3513340
+Name       : Cedar Hill
+Namelsad   : Cedar Hill CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 24346514
+Awater     : 773371
+Intptlat   : +36.9460365
+Intptlon   : -107.8834739
+
+Statefp    : 35
+Placefp    : 20830
+Placens    : 02584088
+Geoid      : 3520830
+Geoidfq    : 1600000US3520830
+Name       : Dixon
+Namelsad   : Dixon CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 29872156
+Awater     : 191644
+Intptlat   : +36.1795914
+Intptlon   : -105.8910387
+
+Statefp    : 35
+Placefp    : 00765
+Placens    : 02407695
+Geoid      : 3500765
+Geoidfq    : 1600000US3500765
+Name       : Acomita Lake
+Namelsad   : Acomita Lake CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 10141619
+Awater     : 310329
+Intptlat   : +35.0688815
+Intptlon   : -107.6145639
+
+Statefp    : 35
+Placefp    : 00940
+Placens    : 02584044
+Geoid      : 3500940
+Geoidfq    : 1600000US3500940
+Name       : Adelino
+Namelsad   : Adelino CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 7729029
+Awater     : 0
+Intptlat   : +34.7063896
+Intptlon   : -106.7318234
+
+Statefp    : 35
+Placefp    : 01220
+Placens    : 02407699
+Geoid      : 3501220
+Geoidfq    : 1600000US3501220
+Name       : Agua Fria
+Namelsad   : Agua Fria CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6277979
+Awater     : 0
+Intptlat   : +35.6615575
+Intptlon   : -106.0147884
+
+Statefp    : 35
+Placefp    : 10470
+Placens    : 02407951
+Geoid      : 3510470
+Geoidfq    : 1600000US3510470
+Name       : Cañada de los Alamos
+Namelsad   : Cañada de los Alamos CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 9529177
+Awater     : 0
+Intptlat   : +35.5926551
+Intptlon   : -105.8597539
+
+Statefp    : 35
+Placefp    : 13270
+Placens    : 02407999
+Geoid      : 3513270
+Geoidfq    : 1600000US3513270
+Name       : Cedar Grove
+Namelsad   : Cedar Grove CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 33062954
+Awater     : 29125
+Intptlat   : +35.1772012
+Intptlon   : -106.1669143
+
+Statefp    : 35
+Placefp    : 14950
+Placens    : 02408026
+Geoid      : 3514950
+Geoidfq    : 1600000US3514950
+Name       : Chimayo
+Namelsad   : Chimayo CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 20036659
+Awater     : 17406
+Intptlat   : +35.9985899
+Intptlon   : -105.9450350
+
+Statefp    : 35
+Placefp    : 15300
+Placens    : 02407617
+Geoid      : 3515300
+Geoidfq    : 1600000US3515300
+Name       : Chupadero
+Namelsad   : Chupadero CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4678122
+Awater     : 0
+Intptlat   : +35.8144003
+Intptlon   : -105.9197427
+
+Statefp    : 35
+Placefp    : 19110
+Placens    : 02408630
+Geoid      : 3519110
+Geoidfq    : 1600000US3519110
+Name       : Cuartelez
+Namelsad   : Cuartelez CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3541096
+Awater     : 0
+Intptlat   : +35.9928367
+Intptlon   : -106.0196817
+
+Statefp    : 35
+Placefp    : 02070
+Placens    : 02407711
+Geoid      : 3502070
+Geoidfq    : 1600000US3502070
+Name       : Alcalde
+Namelsad   : Alcalde CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1336788
+Awater     : 0
+Intptlat   : +36.0853929
+Intptlon   : -106.0575161
+
+Statefp    : 35
+Placefp    : 02210
+Placens    : 02407718
+Geoid      : 3502210
+Geoidfq    : 1600000US3502210
+Name       : Algodones
+Namelsad   : Algodones CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 18925545
+Awater     : 276137
+Intptlat   : +35.3707105
+Intptlon   : -106.4888780
+
+Statefp    : 35
+Placefp    : 02560
+Placens    : 02806685
+Geoid      : 3502560
+Geoidfq    : 1600000US3502560
+Name       : Alma
+Namelsad   : Alma CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 8427369
+Awater     : 12831
+Intptlat   : +33.3845075
+Intptlon   : -108.8944015
+
+Statefp    : 35
+Placefp    : 03750
+Placens    : 02584046
+Geoid      : 3503750
+Geoidfq    : 1600000US3503750
+Name       : Animas
+Namelsad   : Animas CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 40567668
+Awater     : 0
+Intptlat   : +31.9448626
+Intptlon   : -108.8064590
+
+Statefp    : 35
+Placefp    : 18310
+Placens    : 02584082
+Geoid      : 3518310
+Geoidfq    : 1600000US3518310
+Name       : Cotton City
+Namelsad   : Cotton City CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 66870110
+Awater     : 0
+Intptlat   : +32.1105188
+Intptlon   : -108.8801300
+
+Statefp    : 35
+Placefp    : 03890
+Placens    : 02584047
+Geoid      : 3503890
+Geoidfq    : 1600000US3503890
+Name       : Anton Chico
+Namelsad   : Anton Chico CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4625600
+Awater     : 0
+Intptlat   : +35.1948695
+Intptlon   : -105.1438967
+
+Statefp    : 35
+Placefp    : 03970
+Placens    : 02585647
+Geoid      : 3503970
+Geoidfq    : 1600000US3503970
+Name       : Anzac Village
+Namelsad   : Anzac Village CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2526205
+Awater     : 0
+Intptlat   : +35.0624015
+Intptlon   : -107.7413803
+
+Statefp    : 35
+Placefp    : 04030
+Placens    : 02584048
+Geoid      : 3504030
+Geoidfq    : 1600000US3504030
+Name       : Apache Creek
+Namelsad   : Apache Creek CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 21243164
+Awater     : 41569
+Intptlat   : +33.8603369
+Intptlon   : -108.6150442
+
+Statefp    : 35
+Placefp    : 04660
+Placens    : 02584051
+Geoid      : 3504660
+Geoidfq    : 1600000US3504660
+Name       : Arenas Valley
+Namelsad   : Arenas Valley CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 10532368
+Awater     : 1254
+Intptlat   : +32.7756471
+Intptlon   : -108.2031364
+
+Statefp    : 35
+Placefp    : 04450
+Placens    : 02584050
+Geoid      : 3504450
+Geoidfq    : 1600000US3504450
+Name       : Aragon
+Namelsad   : Aragon CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 21896719
+Awater     : 6595
+Intptlat   : +33.8897295
+Intptlon   : -108.5202115
+
+Statefp    : 35
+Placefp    : 19010
+Placens    : 02584084
+Geoid      : 3519010
+Geoidfq    : 1600000US3519010
+Name       : Cruzville
+Namelsad   : Cruzville CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6612381
+Awater     : 1356
+Intptlat   : +33.8109900
+Intptlon   : -108.6676897
+
+Statefp    : 35
+Placefp    : 19920
+Placens    : 02584087
+Geoid      : 3519920
+Geoidfq    : 1600000US3519920
+Name       : Datil
+Namelsad   : Datil CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4843575
+Awater     : 7541
+Intptlat   : +34.1388711
+Intptlon   : -107.8413291
+
+Statefp    : 35
+Placefp    : 04870
+Placens    : 02584052
+Geoid      : 3504870
+Geoidfq    : 1600000US3504870
+Name       : Arrey
+Namelsad   : Arrey CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2045417
+Awater     : 0
+Intptlat   : +32.8471756
+Intptlon   : -107.3203470
+
+Statefp    : 35
+Placefp    : 05002
+Placens    : 02812758
+Geoid      : 3505002
+Geoidfq    : 1600000US3505002
+Name       : Arroyo Hondo
+Namelsad   : Arroyo Hondo CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 8217775
+Awater     : 0
+Intptlat   : +35.6102936
+Intptlon   : -105.9449913
+
+Statefp    : 35
+Placefp    : 06220
+Placens    : 02806682
+Geoid      : 3506220
+Geoidfq    : 1600000US3506220
+Name       : Barton
+Namelsad   : Barton CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 23716015
+Awater     : 0
+Intptlat   : +35.0652829
+Intptlon   : -106.2568586
+
+Statefp    : 35
+Placefp    : 05010
+Placens    : 02629103
+Geoid      : 3505010
+Geoidfq    : 1600000US3505010
+Name       : Arroyo Hondo
+Namelsad   : Arroyo Hondo CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4267607
+Awater     : 0
+Intptlat   : +36.5345989
+Intptlon   : -105.6666021
+
+Statefp    : 35
+Placefp    : 05150
+Placens    : 02629104
+Geoid      : 3505150
+Geoidfq    : 1600000US3505150
+Name       : Arroyo Seco
+Namelsad   : Arroyo Seco CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 17678685
+Awater     : 0
+Intptlat   : +36.5215155
+Intptlon   : -105.5861076
+
+Statefp    : 35
+Placefp    : 18240
+Placens    : 02629108
+Geoid      : 3518240
+Geoidfq    : 1600000US3518240
+Name       : Costilla
+Namelsad   : Costilla CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 7836197
+Awater     : 0
+Intptlat   : +36.9784720
+Intptlon   : -105.5352678
+
+Statefp    : 35
+Placefp    : 05430
+Placens    : 02584053
+Geoid      : 3505430
+Geoidfq    : 1600000US3505430
+Name       : Atoka
+Namelsad   : Atoka CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 17509605
+Awater     : 78323
+Intptlat   : +32.7779764
+Intptlon   : -104.3936770
+
+Statefp    : 35
+Placefp    : 06340
+Placens    : 02813403
+Geoid      : 3506340
+Geoidfq    : 1600000US3506340
+Name       : Becenti
+Namelsad   : Becenti CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2429203
+Awater     : 0
+Intptlat   : +35.8122778
+Intptlon   : -108.1708554
+
+Statefp    : 35
+Placefp    : 06425
+Placens    : 02407820
+Geoid      : 3506425
+Geoidfq    : 1600000US3506425
+Name       : Beclabito
+Namelsad   : Beclabito CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 19496353
+Awater     : 0
+Intptlat   : +36.8334700
+Intptlon   : -109.0038214
+
+Statefp    : 35
+Placefp    : 19080
+Placens    : 02407690
+Geoid      : 3519080
+Geoidfq    : 1600000US3519080
+Name       : Crystal
+Namelsad   : Crystal CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 11783563
+Awater     : 51263
+Intptlat   : +36.0300095
+Intptlon   : -108.9892149
+
+Statefp    : 35
+Placefp    : 06760
+Placens    : 02584054
+Geoid      : 3506760
+Geoidfq    : 1600000US3506760
+Name       : Bent
+Namelsad   : Bent CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 15891179
+Awater     : 7120
+Intptlat   : +33.1425467
+Intptlon   : -105.8723700
+
+Statefp    : 35
+Placefp    : 06830
+Placens    : 02584055
+Geoid      : 3506830
+Geoidfq    : 1600000US3506830
+Name       : Berino
+Namelsad   : Berino CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2433929
+Awater     : 0
+Intptlat   : +32.0690219
+Intptlon   : -106.6220648
+
+Statefp    : 35
+Placefp    : 07145
+Placens    : 02584056
+Geoid      : 3507145
+Geoidfq    : 1600000US3507145
+Name       : Bibo
+Namelsad   : Bibo CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 10857483
+Awater     : 15597
+Intptlat   : +35.1725461
+Intptlon   : -107.4069776
+
+Statefp    : 35
+Placefp    : 07492
+Placens    : 02806707
+Geoid      : 3507492
+Geoidfq    : 1600000US3507492
+Name       : Black Hat
+Namelsad   : Black Hat CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2697648
+Awater     : 0
+Intptlat   : +35.6310513
+Intptlon   : -108.9640783
+
+Statefp    : 35
+Placefp    : 07670
+Placens    : 02407858
+Geoid      : 3507670
+Geoidfq    : 1600000US3507670
+Name       : Black Rock
+Namelsad   : Black Rock CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4522113
+Awater     : 140787
+Intptlat   : +35.0809201
+Intptlon   : -108.7982141
+
+Statefp    : 35
+Placefp    : 09035
+Placens    : 02407905
+Geoid      : 3509035
+Geoidfq    : 1600000US3509035
+Name       : Brimhall Nizhoni
+Namelsad   : Brimhall Nizhoni CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 42238013
+Awater     : 4
+Intptlat   : +35.7917108
+Intptlon   : -108.6296804
+
+Statefp    : 35
+Placefp    : 15370
+Placens    : 02407618
+Geoid      : 3515370
+Geoidfq    : 1600000US3515370
+Name       : Church Rock
+Namelsad   : Church Rock CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 47502866
+Awater     : 0
+Intptlat   : +35.5692032
+Intptlon   : -108.5730424
+
+Statefp    : 35
+Placefp    : 18940
+Placens    : 02407689
+Geoid      : 3518940
+Geoidfq    : 1600000US3518940
+Name       : Crownpoint
+Namelsad   : Crownpoint CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 174839463
+Awater     : 8933
+Intptlat   : +35.7343284
+Intptlon   : -108.1554147
+
+Statefp    : 35
+Placefp    : 07810
+Placens    : 02584057
+Geoid      : 3507810
+Geoidfq    : 1600000US3507810
+Name       : Blanco
+Namelsad   : Blanco CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 15915251
+Awater     : 886523
+Intptlat   : +36.7617799
+Intptlon   : -107.7702450
+
+Statefp    : 35
+Placefp    : 08180
+Placens    : 02806710
+Geoid      : 3508180
+Geoidfq    : 1600000US3508180
+Name       : Bluewater
+Namelsad   : Bluewater CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 30463017
+Awater     : 0
+Intptlat   : +35.3243061
+Intptlon   : -108.2059906
+
+Statefp    : 35
+Placefp    : 18770
+Placens    : 02806715
+Geoid      : 3518770
+Geoidfq    : 1600000US3518770
+Name       : Crestview
+Namelsad   : Crestview CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3372333
+Awater     : 0
+Intptlat   : +35.4877840
+Intptlon   : -108.8573955
+
+Statefp    : 35
+Placefp    : 08190
+Placens    : 02584059
+Geoid      : 3508190
+Geoidfq    : 1600000US3508190
+Name       : Bluewater Village
+Namelsad   : Bluewater Village CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 9184274
+Awater     : 32056
+Intptlat   : +35.2466978
+Intptlon   : -107.9694680
+
+Statefp    : 35
+Placefp    : 08440
+Placens    : 02407874
+Geoid      : 3508440
+Geoidfq    : 1600000US3508440
+Name       : Boles Acres
+Namelsad   : Boles Acres CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 31701157
+Awater     : 2345
+Intptlat   : +32.8200162
+Intptlon   : -105.9776797
+
+Statefp    : 35
+Placefp    : 08860
+Placens    : 02584060
+Geoid      : 3508860
+Geoidfq    : 1600000US3508860
+Name       : Brazos
+Namelsad   : Brazos CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 562433
+Awater     : 0
+Intptlat   : +36.7527606
+Intptlon   : -106.5598794
+
+Statefp    : 35
+Placefp    : 09202
+Placens    : 02806688
+Geoid      : 3509202
+Geoidfq    : 1600000US3509202
+Name       : Broadview
+Namelsad   : Broadview CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 9724251
+Awater     : 0
+Intptlat   : +35.2257173
+Intptlon   : -107.8760661
+
+Statefp    : 35
+Placefp    : 09630
+Placens    : 02584061
+Geoid      : 3509630
+Geoidfq    : 1600000US3509630
+Name       : Buckhorn
+Namelsad   : Buckhorn CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 12006777
+Awater     : 0
+Intptlat   : +33.0314797
+Intptlon   : -108.6943901
+
+Statefp    : 35
+Placefp    : 09980
+Placens    : 02806697
+Geoid      : 3509980
+Geoidfq    : 1600000US3509980
+Name       : Butterfield Park
+Namelsad   : Butterfield Park CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1164933
+Awater     : 0
+Intptlat   : +32.4052278
+Intptlon   : -106.6456629
+
+Statefp    : 35
+Placefp    : 10050
+Placens    : 02584062
+Geoid      : 3510050
+Geoidfq    : 1600000US3510050
+Name       : Caballo
+Namelsad   : Caballo CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2539646
+Awater     : 0
+Intptlat   : +32.9806274
+Intptlon   : -107.3074786
+
+Statefp    : 35
+Placefp    : 10592
+Placens    : 02806689
+Geoid      : 3510592
+Geoidfq    : 1600000US3510592
+Name       : Candy Kitchen
+Namelsad   : Candy Kitchen CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 13667232
+Awater     : 19980
+Intptlat   : +34.9093011
+Intptlon   : -108.4964520
+
+Statefp    : 35
+Placefp    : 10770
+Placens    : 02584064
+Geoid      : 3510770
+Geoidfq    : 1600000US3510770
+Name       : Cañon
+Namelsad   : Cañon CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 41727445
+Awater     : 0
+Intptlat   : +35.6717589
+Intptlon   : -106.7526816
+
+Statefp    : 35
+Placefp    : 11310
+Placens    : 02584065
+Geoid      : 3511310
+Geoidfq    : 1600000US3511310
+Name       : Cañones
+Namelsad   : Cañones CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 10717868
+Awater     : 2973
+Intptlat   : +36.1764340
+Intptlon   : -106.4193552
+
+Statefp    : 35
+Placefp    : 11520
+Placens    : 02584066
+Geoid      : 3511520
+Geoidfq    : 1600000US3511520
+Name       : Canova
+Namelsad   : Canova CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2189051
+Awater     : 50468
+Intptlat   : +36.1678388
+Intptlon   : -105.9888017
+
+Statefp    : 35
+Placefp    : 14180
+Placens    : 02584073
+Geoid      : 3514180
+Geoidfq    : 1600000US3514180
+Name       : Chamita
+Namelsad   : Chamita CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 9973623
+Awater     : 136930
+Intptlat   : +36.0692634
+Intptlon   : -106.0937543
+
+Statefp    : 35
+Placefp    : 14810
+Placens    : 02584076
+Geoid      : 3514810
+Geoidfq    : 1600000US3514810
+Name       : Chili
+Namelsad   : Chili CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 8503293
+Awater     : 88028
+Intptlat   : +36.1050099
+Intptlon   : -106.1527137
+
+Statefp    : 35
+Placefp    : 17610
+Placens    : 02584081
+Geoid      : 3517610
+Geoidfq    : 1600000US3517610
+Name       : Cordova
+Namelsad   : Cordova CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4308133
+Awater     : 0
+Intptlat   : +36.0127687
+Intptlon   : -105.8566476
+
+Statefp    : 35
+Placefp    : 12010
+Placens    : 02584068
+Geoid      : 3512010
+Geoidfq    : 1600000US3512010
+Name       : Capulin
+Namelsad   : Capulin CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3843348
+Awater     : 677
+Intptlat   : +36.7464982
+Intptlon   : -104.0021300
+
+Statefp    : 35
+Placefp    : 12430
+Placens    : 02407968
+Geoid      : 3512430
+Geoidfq    : 1600000US3512430
+Name       : Carnuel
+Namelsad   : Carnuel CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 13773316
+Awater     : 78220
+Intptlat   : +35.0611720
+Intptlon   : -106.4571723
+
+Statefp    : 35
+Placefp    : 13200
+Placens    : 02407997
+Geoid      : 3513200
+Geoidfq    : 1600000US3513200
+Name       : Cedar Crest
+Namelsad   : Cedar Crest CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 8093957
+Awater     : 2859
+Intptlat   : +35.1147243
+Intptlon   : -106.3800825
+
+Statefp    : 35
+Placefp    : 12786
+Placens    : 02407977
+Geoid      : 3512786
+Geoidfq    : 1600000US3512786
+Name       : Casa Colorada
+Namelsad   : Casa Colorada CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 14293899
+Awater     : 17618
+Intptlat   : +34.5509323
+Intptlon   : -106.7398705
+
+Statefp    : 35
+Placefp    : 13450
+Placens    : 02584071
+Geoid      : 3513450
+Geoidfq    : 1600000US3513450
+Name       : Cedro
+Namelsad   : Cedro CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 13965343
+Awater     : 0
+Intptlat   : +35.0180551
+Intptlon   : -106.3508296
+
+Statefp    : 35
+Placefp    : 14040
+Placens    : 02584072
+Geoid      : 3514040
+Geoidfq    : 1600000US3514040
+Name       : Chamberino
+Namelsad   : Chamberino CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 7920469
+Awater     : 0
+Intptlat   : +32.0363663
+Intptlon   : -106.6776252
+
+Statefp    : 35
+Placefp    : 14110
+Placens    : 02408009
+Geoid      : 3514110
+Geoidfq    : 1600000US3514110
+Name       : Chamisal
+Namelsad   : Chamisal CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4249268
+Awater     : 0
+Intptlat   : +36.1725424
+Intptlon   : -105.7459635
+
+Statefp    : 35
+Placefp    : 14200
+Placens    : 02584074
+Geoid      : 3514200
+Geoidfq    : 1600000US3514200
+Name       : Chamizal
+Namelsad   : Chamizal CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1144858
+Awater     : 0
+Intptlat   : +34.2182625
+Intptlon   : -106.9151083
+
+Statefp    : 35
+Placefp    : 14250
+Placens    : 02408012
+Geoid      : 3514250
+Geoidfq    : 1600000US3514250
+Name       : Chaparral
+Namelsad   : Chaparral CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 152975373
+Awater     : 0
+Intptlat   : +32.0442539
+Intptlon   : -106.4061003
+
+Statefp    : 35
+Placefp    : 14670
+Placens    : 02584075
+Geoid      : 3514670
+Geoidfq    : 1600000US3514670
+Name       : Chical
+Namelsad   : Chical CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2099990
+Awater     : 0
+Intptlat   : +34.8657862
+Intptlon   : -106.6670911
+
+Statefp    : 35
+Placefp    : 14880
+Placens    : 02408025
+Geoid      : 3514880
+Geoidfq    : 1600000US3514880
+Name       : Chilili
+Namelsad   : Chilili CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2570719
+Awater     : 0
+Intptlat   : +34.8973741
+Intptlon   : -106.2331332
+
+Statefp    : 35
+Placefp    : 15560
+Placens    : 02584077
+Geoid      : 3515560
+Geoidfq    : 1600000US3515560
+Name       : City of the Sun
+Namelsad   : City of the Sun CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 655730
+Awater     : 0
+Intptlat   : +31.8466387
+Intptlon   : -107.6503899
+
+Statefp    : 35
+Placefp    : 16560
+Placens    : 02407644
+Geoid      : 3516560
+Geoidfq    : 1600000US3516560
+Name       : Cochiti
+Namelsad   : Cochiti CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2017627
+Awater     : 0
+Intptlat   : +35.6103542
+Intptlon   : -106.3501434
+
+Statefp    : 35
+Placefp    : 16585
+Placens    : 02584080
+Geoid      : 3516585
+Geoidfq    : 1600000US3516585
+Name       : Cochiti Lake
+Namelsad   : Cochiti Lake CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3219982
+Awater     : 0
+Intptlat   : +35.6478347
+Intptlon   : -106.3425372
+
+Statefp    : 35
+Placefp    : 17295
+Placens    : 02806758
+Geoid      : 3517295
+Geoidfq    : 1600000US3517295
+Name       : Conejo
+Namelsad   : Conejo CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4932380
+Awater     : 0
+Intptlat   : +35.6287100
+Intptlon   : -105.9423344
+
+Statefp    : 35
+Placefp    : 17330
+Placens    : 02806714
+Geoid      : 3517330
+Geoidfq    : 1600000US3517330
+Name       : Continental Divide
+Namelsad   : Continental Divide CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6306775
+Awater     : 0
+Intptlat   : +35.4329041
+Intptlon   : -108.3358203
+
+Statefp    : 35
+Placefp    : 18660
+Placens    : 02584083
+Geoid      : 3518660
+Geoidfq    : 1600000US3518660
+Name       : Coyote
+Namelsad   : Coyote CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 10758713
+Awater     : 8648
+Intptlat   : +36.1508986
+Intptlon   : -106.6075880
+
+Statefp    : 35
+Placefp    : 19220
+Placens    : 02584085
+Geoid      : 3519220
+Geoidfq    : 1600000US3519220
+Name       : Cubero
+Namelsad   : Cubero CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 24781938
+Awater     : 0
+Intptlat   : +35.0904541
+Intptlon   : -107.5260999
+
+Statefp    : 35
+Placefp    : 19500
+Placens    : 02408633
+Geoid      : 3519500
+Geoidfq    : 1600000US3519500
+Name       : Cundiyo
+Namelsad   : Cundiyo CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2448861
+Awater     : 0
+Intptlat   : +35.9608379
+Intptlon   : -105.9008562
+
+Statefp    : 35
+Placefp    : 19640
+Placens    : 02408638
+Geoid      : 3519640
+Geoidfq    : 1600000US3519640
+Name       : Cuyamungue
+Namelsad   : Cuyamungue CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3020709
+Awater     : 0
+Intptlat   : +35.8647840
+Intptlon   : -106.0096229
+
+Statefp    : 35
+Placefp    : 19645
+Placens    : 02584086
+Geoid      : 3519645
+Geoidfq    : 1600000US3519645
+Name       : Cuyamungue Grant
+Namelsad   : Cuyamungue Grant CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6603401
+Awater     : 0
+Intptlat   : +35.8464233
+Intptlon   : -105.9948724
+
+Statefp    : 35
+Placefp    : 20015
+Placens    : 02806785
+Geoid      : 3520015
+Geoidfq    : 1600000US3520015
+Name       : Deer Canyon
+Namelsad   : Deer Canyon CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 20708079
+Awater     : 0
+Intptlat   : +34.4235675
+Intptlon   : -106.2840413
+
+Statefp    : 35
+Placefp    : 22230
+Placens    : 02629109
+Geoid      : 3522230
+Geoidfq    : 1600000US3522230
+Name       : East Pecos
+Namelsad   : East Pecos CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 9318849
+Awater     : 0
+Intptlat   : +35.5765516
+Intptlon   : -105.6499634
+
+Statefp    : 35
+Placefp    : 22389
+Placens    : 02584091
+Geoid      : 3522389
+Geoidfq    : 1600000US3522389
+Name       : Edith Enclave
+Namelsad   : Edith Enclave CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3919752
+Awater     : 118769
+Intptlat   : +35.2111806
+Intptlon   : -106.5858792
+
+Statefp    : 35
+Placefp    : 22580
+Placens    : 02584092
+Geoid      : 3522580
+Geoidfq    : 1600000US3522580
+Name       : El Cerro
+Namelsad   : El Cerro CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 10997182
+Awater     : 1910
+Intptlat   : +34.7804654
+Intptlon   : -106.6957099
+
+Statefp    : 35
+Placefp    : 22582
+Placens    : 02652546
+Geoid      : 3522582
+Geoidfq    : 1600000US3522582
+Name       : El Cerro Mission
+Namelsad   : El Cerro Mission CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 15236974
+Awater     : 0
+Intptlat   : +34.7687343
+Intptlon   : -106.6446801
+
+Statefp    : 35
+Placefp    : 22625
+Placens    : 02408070
+Geoid      : 3522625
+Geoidfq    : 1600000US3522625
+Name       : Eldorado at Santa Fe
+Namelsad   : Eldorado at Santa Fe CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 53823100
+Awater     : 0
+Intptlat   : +35.5272448
+Intptlon   : -105.9339702
+
+Statefp    : 35
+Placefp    : 22650
+Placens    : 02584093
+Geoid      : 3522650
+Geoidfq    : 1600000US3522650
+Name       : El Duende
+Namelsad   : El Duende CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3803660
+Awater     : 38195
+Intptlat   : +36.0684377
+Intptlon   : -106.1301358
+
+Statefp    : 35
+Placefp    : 23840
+Placens    : 02408059
+Geoid      : 3523840
+Geoidfq    : 1600000US3523840
+Name       : El Rancho
+Namelsad   : El Rancho CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5436435
+Awater     : 0
+Intptlat   : +35.8927612
+Intptlon   : -106.0856325
+
+Statefp    : 35
+Placefp    : 24120
+Placens    : 02584094
+Geoid      : 3524120
+Geoidfq    : 1600000US3524120
+Name       : El Rito
+Namelsad   : El Rito CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 10641998
+Awater     : 2887
+Intptlat   : +36.3325890
+Intptlon   : -106.1741470
+
+Statefp    : 35
+Placefp    : 24453
+Placens    : 02806759
+Geoid      : 3524453
+Geoidfq    : 1600000US3524453
+Name       : Encantado
+Namelsad   : Encantado CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6950837
+Awater     : 0
+Intptlat   : +35.7933675
+Intptlon   : -105.9111329
+
+Statefp    : 35
+Placefp    : 24960
+Placens    : 02584095
+Geoid      : 3524960
+Geoidfq    : 1600000US3524960
+Name       : Ensenada
+Namelsad   : Ensenada CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3775228
+Awater     : 0
+Intptlat   : +36.7309251
+Intptlon   : -106.5368132
+
+Statefp    : 35
+Placefp    : 26360
+Placens    : 02408216
+Geoid      : 3526360
+Geoidfq    : 1600000US3526360
+Name       : Flora Vista
+Namelsad   : Flora Vista CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 12826614
+Awater     : 241807
+Intptlat   : +36.8030587
+Intptlon   : -108.0901936
+
+Statefp    : 35
+Placefp    : 27760
+Placens    : 02813405
+Geoid      : 3527760
+Geoidfq    : 1600000US3527760
+Name       : Fruitland
+Namelsad   : Fruitland CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5070197
+Awater     : 180344
+Intptlat   : +36.7434772
+Intptlon   : -108.3949378
+
+Statefp    : 35
+Placefp    : 28530
+Placens    : 02806717
+Geoid      : 3528530
+Geoidfq    : 1600000US3528530
+Name       : Gamerco
+Namelsad   : Gamerco CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2478765
+Awater     : 0
+Intptlat   : +35.5699925
+Intptlon   : -108.7641206
+
+Statefp    : 35
+Placefp    : 29160
+Placens    : 02584102
+Geoid      : 3529160
+Geoidfq    : 1600000US3529160
+Name       : Gila
+Namelsad   : Gila CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 24247547
+Awater     : 82370
+Intptlat   : +32.9413442
+Intptlon   : -108.5705329
+
+Statefp    : 35
+Placefp    : 29790
+Placens    : 02584104
+Geoid      : 3529790
+Geoidfq    : 1600000US3529790
+Name       : Glenwood
+Namelsad   : Glenwood CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3990085
+Awater     : 17789
+Intptlat   : +33.3176408
+Intptlon   : -108.8751630
+
+Statefp    : 35
+Placefp    : 30000
+Placens    : 02584105
+Geoid      : 3530000
+Geoidfq    : 1600000US3530000
+Name       : Golden
+Namelsad   : Golden CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 17420325
+Awater     : 0
+Intptlat   : +35.2636805
+Intptlon   : -106.2229842
+
+Statefp    : 35
+Placefp    : 32100
+Placens    : 02584109
+Geoid      : 3532100
+Geoidfq    : 1600000US3532100
+Name       : Hernandez
+Namelsad   : Hernandez CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4391615
+Awater     : 9424
+Intptlat   : +36.0568567
+Intptlon   : -106.1177987
+
+Statefp    : 35
+Placefp    : 32148
+Placens    : 02584110
+Geoid      : 3532148
+Geoidfq    : 1600000US3532148
+Name       : Highland Meadows
+Namelsad   : Highland Meadows CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 17935947
+Awater     : 4859
+Intptlat   : +34.9385687
+Intptlon   : -107.1664955
+
+Statefp    : 35
+Placefp    : 32380
+Placens    : 02584112
+Geoid      : 3532380
+Geoidfq    : 1600000US3532380
+Name       : Hillsboro
+Namelsad   : Hillsboro CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5526541
+Awater     : 0
+Intptlat   : +32.9218302
+Intptlon   : -107.5771743
+
+Statefp    : 35
+Placefp    : 32940
+Placens    : 02408395
+Geoid      : 3532940
+Geoidfq    : 1600000US3532940
+Name       : Holloman AFB
+Namelsad   : Holloman AFB CDP
+Lsad       : 57
+Classfp    : M2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 32512886
+Awater     : 415218
+Intptlat   : +32.8459794
+Intptlon   : -106.0959264
+
+Statefp    : 35
+Placefp    : 33920
+Placens    : 02806760
+Geoid      : 3533920
+Geoidfq    : 1600000US3533920
+Name       : Hyde Park
+Namelsad   : Hyde Park CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5497578
+Awater     : 0
+Intptlat   : +35.7112398
+Intptlon   : -105.8865984
+
+Statefp    : 35
+Placefp    : 35110
+Placens    : 02408439
+Geoid      : 3535110
+Geoidfq    : 1600000US3535110
+Name       : Jarales
+Namelsad   : Jarales CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 22584465
+Awater     : 3296
+Intptlat   : +34.6154800
+Intptlon   : -106.7605802
+
+Statefp    : 35
+Placefp    : 35250
+Placens    : 02408443
+Geoid      : 3535250
+Geoidfq    : 1600000US3535250
+Name       : Jemez Pueblo
+Namelsad   : Jemez Pueblo CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5295150
+Awater     : 13020
+Intptlat   : +35.6066021
+Intptlon   : -106.7321550
+
+Statefp    : 35
+Placefp    : 36090
+Placens    : 02584118
+Geoid      : 3536090
+Geoidfq    : 1600000US3536090
+Name       : Kingston
+Namelsad   : Kingston CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 515573
+Awater     : 0
+Intptlat   : +32.9173350
+Intptlon   : -107.7095551
+
+Statefp    : 35
+Placefp    : 36300
+Placens    : 02813406
+Geoid      : 3536300
+Geoidfq    : 1600000US3536300
+Name       : Kirtland AFB
+Namelsad   : Kirtland AFB CDP
+Lsad       : 57
+Classfp    : M2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 14109797
+Awater     : 28245
+Intptlat   : +35.0477503
+Intptlon   : -106.5610245
+
+Statefp    : 35
+Placefp    : 36567
+Placens    : 02806753
+Geoid      : 3536567
+Geoidfq    : 1600000US3536567
+Name       : La Boca
+Namelsad   : La Boca CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1442370
+Awater     : 0
+Intptlat   : +36.9944669
+Intptlon   : -107.6064452
+
+Statefp    : 35
+Placefp    : 36880
+Placens    : 02584123
+Geoid      : 3536880
+Geoidfq    : 1600000US3536880
+Name       : La Cueva
+Namelsad   : La Cueva CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4262144
+Awater     : 0
+Intptlat   : +35.8694466
+Intptlon   : -106.6485068
+
+Statefp    : 35
+Placefp    : 37420
+Placens    : 02407964
+Geoid      : 3537420
+Geoidfq    : 1600000US3537420
+Name       : La Huerta
+Namelsad   : La Huerta CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3927327
+Awater     : 0
+Intptlat   : +32.4488445
+Intptlon   : -104.2224327
+
+Statefp    : 35
+Placefp    : 37490
+Placens    : 02408505
+Geoid      : 3537490
+Geoidfq    : 1600000US3537490
+Name       : La Jara
+Namelsad   : La Jara CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 36913780
+Awater     : 0
+Intptlat   : +36.1054992
+Intptlon   : -106.9419119
+
+Statefp    : 35
+Placefp    : 37700
+Placens    : 02584125
+Geoid      : 3537700
+Geoidfq    : 1600000US3537700
+Name       : La Joya
+Namelsad   : La Joya CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2428053
+Awater     : 0
+Intptlat   : +34.3449515
+Intptlon   : -106.8466551
+
+Statefp    : 35
+Placefp    : 37910
+Placens    : 02584128
+Geoid      : 3537910
+Geoidfq    : 1600000US3537910
+Name       : Lake Valley
+Namelsad   : Lake Valley CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 21618793
+Awater     : 0
+Intptlat   : +36.0900547
+Intptlon   : -108.1641549
+
+Statefp    : 35
+Placefp    : 38330
+Placens    : 02408506
+Geoid      : 3538330
+Geoidfq    : 1600000US3538330
+Name       : La Luz
+Namelsad   : La Luz CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 27672389
+Awater     : 66523
+Intptlat   : +32.9716329
+Intptlon   : -105.9396584
+
+Statefp    : 35
+Placefp    : 38470
+Placens    : 02584129
+Geoid      : 3538470
+Geoidfq    : 1600000US3538470
+Name       : La Madera
+Namelsad   : La Madera CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 11496837
+Awater     : 713
+Intptlat   : +36.3766821
+Intptlon   : -106.0431726
+
+Statefp    : 35
+Placefp    : 38680
+Placens    : 02584130
+Geoid      : 3538680
+Geoidfq    : 1600000US3538680
+Name       : La Mesa
+Namelsad   : La Mesa CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6147219
+Awater     : 0
+Intptlat   : +32.1244330
+Intptlon   : -106.7090098
+
+Statefp    : 35
+Placefp    : 38820
+Placens    : 02584131
+Geoid      : 3538820
+Geoidfq    : 1600000US3538820
+Name       : La Mesilla
+Namelsad   : La Mesilla CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 11534907
+Awater     : 93938
+Intptlat   : +35.9418811
+Intptlon   : -106.0640541
+
+Statefp    : 35
+Placefp    : 39030
+Placens    : 02584132
+Geoid      : 3539030
+Geoidfq    : 1600000US3539030
+Name       : La Plata
+Namelsad   : La Plata CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 57400046
+Awater     : 12344
+Intptlat   : +36.8964044
+Intptlon   : -108.2007946
+
+Statefp    : 35
+Placefp    : 39332
+Placens    : 02806765
+Geoid      : 3539332
+Geoidfq    : 1600000US3539332
+Name       : Las Campanas
+Namelsad   : Las Campanas CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 27025127
+Awater     : 0
+Intptlat   : +35.7158492
+Intptlon   : -106.0581275
+
+Statefp    : 35
+Placefp    : 40074
+Placens    : 02806763
+Geoid      : 3540074
+Geoidfq    : 1600000US3540074
+Name       : La Tierra
+Namelsad   : La Tierra CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 25405112
+Awater     : 0
+Intptlat   : +35.7473369
+Intptlon   : -106.0308709
+
+Statefp    : 35
+Placefp    : 40220
+Placens    : 02584137
+Geoid      : 3540220
+Geoidfq    : 1600000US3540220
+Name       : La Union
+Namelsad   : La Union CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 10728945
+Awater     : 0
+Intptlat   : +31.9507539
+Intptlon   : -106.6621430
+
+Statefp    : 35
+Placefp    : 40525
+Placens    : 02584139
+Geoid      : 3540525
+Geoidfq    : 1600000US3540525
+Name       : Lee Acres
+Namelsad   : Lee Acres CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 26735765
+Awater     : 420634
+Intptlat   : +36.7047786
+Intptlon   : -108.0615220
+
+Statefp    : 35
+Placefp    : 41130
+Placens    : 02806741
+Geoid      : 3541130
+Geoidfq    : 1600000US3541130
+Name       : Lindrith
+Namelsad   : Lindrith CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 9428215
+Awater     : 15214
+Intptlat   : +36.3154525
+Intptlon   : -107.0391903
+
+Statefp    : 35
+Placefp    : 41420
+Placens    : 02584141
+Geoid      : 3541420
+Geoidfq    : 1600000US3541420
+Name       : Livingston Wheeler
+Namelsad   : Livingston Wheeler CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4279496
+Awater     : 283
+Intptlat   : +32.3916972
+Intptlon   : -104.2028160
+
+Statefp    : 35
+Placefp    : 41620
+Placens    : 02584142
+Geoid      : 3541620
+Geoidfq    : 1600000US3541620
+Name       : Llano del Medio
+Namelsad   : Llano del Medio CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4951365
+Awater     : 0
+Intptlat   : +35.1880809
+Intptlon   : -105.1163264
+
+Statefp    : 35
+Placefp    : 42740
+Placens    : 02408136
+Geoid      : 3542740
+Geoidfq    : 1600000US3542740
+Name       : Los Chaves
+Namelsad   : Los Chaves CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 29618683
+Awater     : 0
+Intptlat   : +34.7335060
+Intptlon   : -106.7610876
+
+Statefp    : 35
+Placefp    : 43510
+Placens    : 02584145
+Geoid      : 3543510
+Geoidfq    : 1600000US3543510
+Name       : Los Ojos
+Namelsad   : Los Ojos CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3605076
+Awater     : 23893
+Intptlat   : +36.7385481
+Intptlon   : -106.5616572
+
+Statefp    : 35
+Placefp    : 45190
+Placens    : 02584147
+Geoid      : 3545190
+Geoidfq    : 1600000US3545190
+Name       : Luis Lopez
+Namelsad   : Luis Lopez CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1394304
+Awater     : 0
+Intptlat   : +33.9904669
+Intptlon   : -106.8877683
+
+Statefp    : 35
+Placefp    : 45260
+Placens    : 02584148
+Geoid      : 3545260
+Geoidfq    : 1600000US3545260
+Name       : Lumberton
+Namelsad   : Lumberton CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1239061
+Awater     : 0
+Intptlat   : +36.9327706
+Intptlon   : -106.9353659
+
+Statefp    : 35
+Placefp    : 45330
+Placens    : 02584149
+Geoid      : 3545330
+Geoidfq    : 1600000US3545330
+Name       : Luna
+Namelsad   : Luna CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 14398757
+Awater     : 19109
+Intptlat   : +33.8175499
+Intptlon   : -108.9412493
+
+Statefp    : 35
+Placefp    : 45365
+Placens    : 02806742
+Geoid      : 3545365
+Geoidfq    : 1600000US3545365
+Name       : Lybrook
+Namelsad   : Lybrook CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 10052164
+Awater     : 13701
+Intptlat   : +36.2240905
+Intptlon   : -107.5578579
+
+Statefp    : 35
+Placefp    : 46170
+Placens    : 02584151
+Geoid      : 3546170
+Geoidfq    : 1600000US3546170
+Name       : Madrone
+Namelsad   : Madrone CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 7970705
+Awater     : 0
+Intptlat   : +34.5792141
+Intptlon   : -106.7284783
+
+Statefp    : 35
+Placefp    : 46380
+Placens    : 02584152
+Geoid      : 3546380
+Geoidfq    : 1600000US3546380
+Name       : Malaga
+Namelsad   : Malaga CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 7695853
+Awater     : 3138
+Intptlat   : +32.2209102
+Intptlon   : -104.0659720
+
+Statefp    : 35
+Placefp    : 47150
+Placens    : 02584153
+Geoid      : 3547150
+Geoidfq    : 1600000US3547150
+Name       : Mayhill
+Namelsad   : Mayhill CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 24599002
+Awater     : 35403
+Intptlat   : +32.8902155
+Intptlon   : -105.5044370
+
+Statefp    : 35
+Placefp    : 47220
+Placens    : 02408807
+Geoid      : 3547220
+Geoidfq    : 1600000US3547220
+Name       : Meadow Lake
+Namelsad   : Meadow Lake CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 29891956
+Awater     : 58732
+Intptlat   : +34.8031374
+Intptlon   : -106.5703578
+
+Statefp    : 35
+Placefp    : 47920
+Placens    : 02408821
+Geoid      : 3547920
+Geoidfq    : 1600000US3547920
+Name       : Mescalero
+Namelsad   : Mescalero CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 46328416
+Awater     : 31400
+Intptlat   : +33.1345611
+Intptlon   : -105.7999344
+
+Statefp    : 35
+Placefp    : 48425
+Placens    : 02584154
+Geoid      : 3548425
+Geoidfq    : 1600000US3548425
+Name       : Middle Frisco
+Namelsad   : Middle Frisco CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1412773
+Awater     : 142267
+Intptlat   : +33.6951122
+Intptlon   : -108.7644992
+
+Statefp    : 35
+Placefp    : 48435
+Placens    : 02584241
+Geoid      : 3548435
+Geoidfq    : 1600000US3548435
+Name       : Middle Mesa
+Namelsad   : Middle Mesa CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 17374446
+Awater     : 10024
+Intptlat   : +36.9799995
+Intptlon   : -107.5072812
+
+Statefp    : 35
+Placefp    : 48480
+Placens    : 02629119
+Geoid      : 3548480
+Geoidfq    : 1600000US3548480
+Name       : Midway
+Namelsad   : Midway CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6436361
+Awater     : 7177
+Intptlat   : +33.2972630
+Intptlon   : -104.4511592
+
+Statefp    : 35
+Placefp    : 48830
+Placens    : 02584155
+Geoid      : 3548830
+Geoidfq    : 1600000US3548830
+Name       : Mimbres
+Namelsad   : Mimbres CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 9029843
+Awater     : 84053
+Intptlat   : +32.8392247
+Intptlon   : -107.9601936
+
+Statefp    : 35
+Placefp    : 49180
+Placens    : 02806686
+Geoid      : 3549180
+Geoidfq    : 1600000US3549180
+Name       : Mogollon
+Namelsad   : Mogollon CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4639639
+Awater     : 3367
+Intptlat   : +33.4069326
+Intptlon   : -108.7996386
+
+Statefp    : 35
+Placefp    : 49515
+Placens    : 02630011
+Geoid      : 3549515
+Geoidfq    : 1600000US3549515
+Name       : Monterey Park
+Namelsad   : Monterey Park CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6849748
+Awater     : 0
+Intptlat   : +34.7510741
+Intptlon   : -106.6530645
+
+Statefp    : 35
+Placefp    : 49950
+Placens    : 02629120
+Geoid      : 3549950
+Geoidfq    : 1600000US3549950
+Name       : Monument
+Namelsad   : Monument CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 13667824
+Awater     : 0
+Intptlat   : +32.6242493
+Intptlon   : -103.2776403
+
+Statefp    : 35
+Placefp    : 50020
+Placens    : 02584156
+Geoid      : 3550020
+Geoidfq    : 1600000US3550020
+Name       : Moquino
+Namelsad   : Moquino CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1812628
+Awater     : 0
+Intptlat   : +35.1698525
+Intptlon   : -107.3638771
+
+Statefp    : 35
+Placefp    : 50512
+Placens    : 02805104
+Geoid      : 3550512
+Geoidfq    : 1600000US3550512
+Name       : Mountain View
+Namelsad   : Mountain View CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5368651
+Awater     : 0
+Intptlat   : +35.0045797
+Intptlon   : -108.3978886
+
+Statefp    : 35
+Placefp    : 50515
+Placens    : 02584158
+Geoid      : 3550515
+Geoidfq    : 1600000US3550515
+Name       : Mountain View
+Namelsad   : Mountain View CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 769533
+Awater     : 0
+Intptlat   : +32.2288083
+Intptlon   : -107.7462019
+
+Statefp    : 35
+Placefp    : 50720
+Placens    : 02584159
+Geoid      : 3550720
+Geoidfq    : 1600000US3550720
+Name       : Nadine
+Namelsad   : Nadine CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 29507661
+Awater     : 14218
+Intptlat   : +32.6105308
+Intptlon   : -103.1032290
+
+Statefp    : 35
+Placefp    : 50790
+Placens    : 02408898
+Geoid      : 3550790
+Geoidfq    : 1600000US3550790
+Name       : Nageezi
+Namelsad   : Nageezi CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 36513211
+Awater     : 8664
+Intptlat   : +36.2462515
+Intptlon   : -107.7511666
+
+Statefp    : 35
+Placefp    : 50860
+Placens    : 02408899
+Geoid      : 3550860
+Geoidfq    : 1600000US3550860
+Name       : Nakaibito
+Namelsad   : Nakaibito CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 18124677
+Awater     : 0
+Intptlat   : +35.7826275
+Intptlon   : -108.8039075
+
+Statefp    : 35
+Placefp    : 50930
+Placens    : 02584160
+Geoid      : 3550930
+Geoidfq    : 1600000US3550930
+Name       : Nambe
+Namelsad   : Nambe CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 22518850
+Awater     : 0
+Intptlat   : +35.8984162
+Intptlon   : -105.9666764
+
+Statefp    : 35
+Placefp    : 51035
+Placens    : 02408900
+Geoid      : 3551035
+Geoidfq    : 1600000US3551035
+Name       : Napi Headquarters
+Namelsad   : Napi Headquarters CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 11526975
+Awater     : 0
+Intptlat   : +36.6504870
+Intptlon   : -108.2145030
+
+Statefp    : 35
+Placefp    : 51280
+Placens    : 02408902
+Geoid      : 3551280
+Geoidfq    : 1600000US3551280
+Name       : Naschitti
+Namelsad   : Naschitti CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6489498
+Awater     : 31090
+Intptlat   : +36.0625629
+Intptlon   : -108.6800013
+
+Statefp    : 35
+Placefp    : 51840
+Placens    : 02584163
+Geoid      : 3551840
+Geoidfq    : 1600000US3551840
+Name       : Newkirk
+Namelsad   : Newkirk CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2818424
+Awater     : 0
+Intptlat   : +35.0635167
+Intptlon   : -104.2714962
+
+Statefp    : 35
+Placefp    : 52680
+Placens    : 02584167
+Geoid      : 3552680
+Geoidfq    : 1600000US3552680
+Name       : North San Ysidro
+Namelsad   : North San Ysidro CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5952804
+Awater     : 0
+Intptlat   : +35.4746423
+Intptlon   : -105.5660444
+
+Statefp    : 35
+Placefp    : 52750
+Placens    : 02408952
+Geoid      : 3552750
+Geoidfq    : 1600000US3552750
+Name       : North Valley
+Namelsad   : North Valley CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 17991216
+Awater     : 73774
+Intptlat   : +35.1731157
+Intptlon   : -106.6227878
+
+Statefp    : 35
+Placefp    : 53010
+Placens    : 02584168
+Geoid      : 3553010
+Geoidfq    : 1600000US3553010
+Name       : Oasis
+Namelsad   : Oasis CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5412127
+Awater     : 0
+Intptlat   : +32.9277009
+Intptlon   : -107.3164173
+
+Statefp    : 35
+Placefp    : 53150
+Placens    : 02408978
+Geoid      : 3553150
+Geoidfq    : 1600000US3553150
+Name       : Ohkay Owingeh
+Namelsad   : Ohkay Owingeh CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 9942002
+Awater     : 15505
+Intptlat   : +36.0453051
+Intptlon   : -106.0459378
+
+Statefp    : 35
+Placefp    : 53485
+Placens    : 02408981
+Geoid      : 3553485
+Geoidfq    : 1600000US3553485
+Name       : Ojo Amarillo
+Namelsad   : Ojo Amarillo CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5088107
+Awater     : 0
+Intptlat   : +36.6941377
+Intptlon   : -108.3703603
+
+Statefp    : 35
+Placefp    : 53620
+Placens    : 02806726
+Geoid      : 3553620
+Geoidfq    : 1600000US3553620
+Name       : Ojo Encino
+Namelsad   : Ojo Encino CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1688363
+Awater     : 0
+Intptlat   : +35.9525336
+Intptlon   : -107.3444987
+
+Statefp    : 35
+Placefp    : 54097
+Placens    : 02806706
+Geoid      : 3554097
+Geoidfq    : 1600000US3554097
+Name       : Old Town
+Namelsad   : Old Town CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 32996320
+Awater     : 0
+Intptlat   : +32.5123941
+Intptlon   : -107.9231622
+
+Statefp    : 35
+Placefp    : 55595
+Placens    : 02584174
+Geoid      : 3555595
+Geoidfq    : 1600000US3555595
+Name       : Peak Place
+Namelsad   : Peak Place CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3383077
+Awater     : 0
+Intptlat   : +35.7911722
+Intptlon   : -105.9432038
+
+Statefp    : 35
+Placefp    : 56950
+Placens    : 02584176
+Geoid      : 3556950
+Geoidfq    : 1600000US3556950
+Name       : Pie Town
+Namelsad   : Pie Town CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 148322252
+Awater     : 97217
+Intptlat   : +34.3403831
+Intptlon   : -108.1765991
+
+Statefp    : 35
+Placefp    : 57160
+Placens    : 02806727
+Geoid      : 3557160
+Geoidfq    : 1600000US3557160
+Name       : Pinedale
+Namelsad   : Pinedale CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 26701655
+Awater     : 16425
+Intptlat   : +35.6071434
+Intptlon   : -108.4257028
+
+Statefp    : 35
+Placefp    : 58070
+Placens    : 02409080
+Geoid      : 3558070
+Geoidfq    : 1600000US3558070
+Name       : Placitas
+Namelsad   : Placitas CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 76250281
+Awater     : 0
+Intptlat   : +35.3225933
+Intptlon   : -106.4429182
+
+Statefp    : 35
+Placefp    : 58420
+Placens    : 02584182
+Geoid      : 3558420
+Geoidfq    : 1600000US3558420
+Name       : Pleasanton
+Namelsad   : Pleasanton CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3944077
+Awater     : 142004
+Intptlat   : +33.2797932
+Intptlon   : -108.8808733
+
+Statefp    : 35
+Placefp    : 58910
+Placens    : 02584183
+Geoid      : 3558910
+Geoidfq    : 1600000US3558910
+Name       : Polvadera
+Namelsad   : Polvadera CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2510634
+Awater     : 0
+Intptlat   : +34.2020389
+Intptlon   : -106.9172018
+
+Statefp    : 35
+Placefp    : 59540
+Placens    : 02806729
+Geoid      : 3559540
+Geoidfq    : 1600000US3559540
+Name       : Prewitt
+Namelsad   : Prewitt CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 35802801
+Awater     : 0
+Intptlat   : +35.3682555
+Intptlon   : -108.0748577
+
+Statefp    : 35
+Placefp    : 59840
+Placens    : 02584187
+Geoid      : 3559840
+Geoidfq    : 1600000US3559840
+Name       : Pueblo
+Namelsad   : Pueblo CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4710924
+Awater     : 0
+Intptlat   : +35.3272498
+Intptlon   : -105.4353523
+
+Statefp    : 35
+Placefp    : 59950
+Placens    : 02409107
+Geoid      : 3559950
+Geoidfq    : 1600000US3559950
+Name       : Pueblo of Sandia Village
+Namelsad   : Pueblo of Sandia Village CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2936877
+Awater     : 0
+Intptlat   : +35.2537376
+Intptlon   : -106.5705751
+
+Statefp    : 35
+Placefp    : 60205
+Placens    : 02584189
+Geoid      : 3560205
+Geoidfq    : 1600000US3560205
+Name       : Pulpotio Bareas
+Namelsad   : Pulpotio Bareas CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1336703
+Awater     : 0
+Intptlat   : +32.2178900
+Intptlon   : -107.7728157
+
+Statefp    : 35
+Placefp    : 60730
+Placens    : 02584190
+Geoid      : 3560730
+Geoidfq    : 1600000US3560730
+Name       : Quemado
+Namelsad   : Quemado CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4635533
+Awater     : 28307
+Intptlat   : +34.3406333
+Intptlon   : -108.5061478
+
+Statefp    : 35
+Placefp    : 61010
+Placens    : 02409120
+Geoid      : 3561010
+Geoidfq    : 1600000US3561010
+Name       : Radium Springs
+Namelsad   : Radium Springs CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 15451866
+Awater     : 0
+Intptlat   : +32.4782315
+Intptlon   : -106.9030735
+
+Statefp    : 35
+Placefp    : 21390
+Placens    : 02408695
+Geoid      : 3521390
+Geoidfq    : 1600000US3521390
+Name       : Dulce
+Namelsad   : Dulce CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 33219674
+Awater     : 384235
+Intptlat   : +36.9537725
+Intptlon   : -107.0002840
+
+Statefp    : 35
+Placefp    : 21810
+Placens    : 02584090
+Geoid      : 3521810
+Geoidfq    : 1600000US3521810
+Name       : Duran
+Namelsad   : Duran CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 12151571
+Awater     : 0
+Intptlat   : +34.4636214
+Intptlon   : -105.3807149
+
+Statefp    : 35
+Placefp    : 34430
+Placens    : 02584089
+Geoid      : 3534430
+Geoidfq    : 1600000US3534430
+Name       : Indian Hills
+Namelsad   : Indian Hills CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 14792646
+Awater     : 0
+Intptlat   : +34.9831784
+Intptlon   : -106.1397641
+
+Statefp    : 35
+Placefp    : 46770
+Placens    : 02584177
+Geoid      : 3546770
+Geoidfq    : 1600000US3546770
+Name       : Manzano Springs
+Namelsad   : Manzano Springs CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5904410
+Awater     : 0
+Intptlat   : +34.9613576
+Intptlon   : -106.2326454
+
+Statefp    : 35
+Placefp    : 59820
+Placens    : 02584186
+Geoid      : 3559820
+Geoidfq    : 1600000US3559820
+Name       : Pueblitos
+Namelsad   : Pueblitos CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5507752
+Awater     : 7250
+Intptlat   : +34.6120789
+Intptlon   : -106.7810008
+
+Statefp    : 35
+Placefp    : 23497
+Placens    : 02813404
+Geoid      : 3523497
+Geoidfq    : 1600000US3523497
+Name       : El Morro Valley
+Namelsad   : El Morro Valley CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 25725419
+Awater     : 0
+Intptlat   : +35.0361042
+Intptlon   : -108.3226068
+
+Statefp    : 35
+Placefp    : 24347
+Placens    : 02408063
+Geoid      : 3524347
+Geoidfq    : 1600000US3524347
+Name       : El Valle de Arroyo Seco
+Namelsad   : El Valle de Arroyo Seco CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 13288288
+Awater     : 0
+Intptlat   : +35.9526189
+Intptlon   : -106.0259567
+
+Statefp    : 35
+Placefp    : 27970
+Placens    : 02408272
+Geoid      : 3527970
+Geoidfq    : 1600000US3527970
+Name       : Galisteo
+Namelsad   : Galisteo CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 8734023
+Awater     : 0
+Intptlat   : +35.3983876
+Intptlon   : -105.9571826
+
+Statefp    : 35
+Placefp    : 29860
+Placens    : 02408302
+Geoid      : 3529860
+Geoidfq    : 1600000US3529860
+Name       : Glorieta
+Namelsad   : Glorieta CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 19811152
+Awater     : 0
+Intptlat   : +35.5839593
+Intptlon   : -105.7628760
+
+Statefp    : 35
+Placefp    : 24540
+Placens    : 02408082
+Geoid      : 3524540
+Geoidfq    : 1600000US3524540
+Name       : Encinal
+Namelsad   : Encinal CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 7680353
+Awater     : 0
+Intptlat   : +35.1111989
+Intptlon   : -107.4651313
+
+Statefp    : 35
+Placefp    : 37070
+Placens    : 02408523
+Geoid      : 3537070
+Geoidfq    : 1600000US3537070
+Name       : Laguna
+Namelsad   : Laguna CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 24741438
+Awater     : 6500
+Intptlat   : +35.0473774
+Intptlon   : -107.4017386
+
+Statefp    : 35
+Placefp    : 48200
+Placens    : 02408822
+Geoid      : 3548200
+Geoidfq    : 1600000US3548200
+Name       : Mesita
+Namelsad   : Mesita CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 19350835
+Awater     : 35521
+Intptlat   : +35.0058019
+Intptlon   : -107.3163028
+
+Statefp    : 35
+Placefp    : 25100
+Placens    : 02584096
+Geoid      : 3525100
+Geoidfq    : 1600000US3525100
+Name       : Escondida
+Namelsad   : Escondida CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 347686
+Awater     : 0
+Intptlat   : +34.1013139
+Intptlon   : -106.8974074
+
+Statefp    : 35
+Placefp    : 40570
+Placens    : 02584140
+Geoid      : 3540570
+Geoidfq    : 1600000US3540570
+Name       : Lemitar
+Namelsad   : Lemitar CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3552037
+Awater     : 0
+Intptlat   : +34.1550336
+Intptlon   : -106.9122413
+
+Statefp    : 35
+Placefp    : 25135
+Placens    : 02584097
+Geoid      : 3525135
+Geoidfq    : 1600000US3525135
+Name       : Escudilla Bonita
+Namelsad   : Escudilla Bonita CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 31491058
+Awater     : 90256
+Intptlat   : +34.1100670
+Intptlon   : -109.0227704
+
+Statefp    : 35
+Placefp    : 34900
+Placens    : 02584115
+Geoid      : 3534900
+Geoidfq    : 1600000US3534900
+Name       : Jacona
+Namelsad   : Jacona CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2193796
+Awater     : 0
+Intptlat   : +35.8887062
+Intptlon   : -106.0386281
+
+Statefp    : 35
+Placefp    : 25590
+Placens    : 02584098
+Geoid      : 3525590
+Geoidfq    : 1600000US3525590
+Name       : Fairacres
+Namelsad   : Fairacres CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5459341
+Awater     : 0
+Intptlat   : +32.3047236
+Intptlon   : -106.8366429
+
+Statefp    : 35
+Placefp    : 54430
+Placens    : 02584169
+Geoid      : 3554430
+Geoidfq    : 1600000US3554430
+Name       : Organ
+Namelsad   : Organ CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2234430
+Awater     : 0
+Intptlat   : +32.4250817
+Intptlon   : -106.6024067
+
+Statefp    : 35
+Placefp    : 25870
+Placens    : 02584099
+Geoid      : 3525870
+Geoidfq    : 1600000US3525870
+Name       : Faywood
+Namelsad   : Faywood CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1361516
+Awater     : 579
+Intptlat   : +32.6246125
+Intptlon   : -107.8752756
+
+Statefp    : 35
+Placefp    : 31540
+Placens    : 02584107
+Geoid      : 3531540
+Geoidfq    : 1600000US3531540
+Name       : Hanover
+Namelsad   : Hanover CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3619208
+Awater     : 0
+Intptlat   : +32.8148270
+Intptlon   : -108.0896906
+
+Statefp    : 35
+Placefp    : 26010
+Placens    : 02584100
+Geoid      : 3526010
+Geoidfq    : 1600000US3526010
+Name       : Fence Lake
+Namelsad   : Fence Lake CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 7771520
+Awater     : 0
+Intptlat   : +34.6533752
+Intptlon   : -108.6737799
+
+Statefp    : 35
+Placefp    : 27410
+Placens    : 02806716
+Geoid      : 3527410
+Geoidfq    : 1600000US3527410
+Name       : Fort Wingate
+Namelsad   : Fort Wingate CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5219158
+Awater     : 0
+Intptlat   : +35.4708459
+Intptlon   : -108.5438605
+
+Statefp    : 35
+Placefp    : 57175
+Placens    : 02806728
+Geoid      : 3557175
+Geoidfq    : 1600000US3557175
+Name       : Pinehaven
+Namelsad   : Pinehaven CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 18040164
+Awater     : 0
+Intptlat   : +35.3356937
+Intptlon   : -108.6709391
+
+Statefp    : 35
+Placefp    : 28180
+Placens    : 02584067
+Geoid      : 3528180
+Geoidfq    : 1600000US3528180
+Name       : Gallina
+Namelsad   : Gallina CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 16303890
+Awater     : 13842
+Intptlat   : +36.2348560
+Intptlon   : -106.8278800
+
+Statefp    : 35
+Placefp    : 28670
+Placens    : 02584101
+Geoid      : 3528670
+Geoidfq    : 1600000US3528670
+Name       : Garfield
+Namelsad   : Garfield CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2013522
+Awater     : 0
+Intptlat   : +32.7568106
+Intptlon   : -107.2664549
+
+Statefp    : 35
+Placefp    : 57990
+Placens    : 02584180
+Geoid      : 3557990
+Geoidfq    : 1600000US3557990
+Name       : Placitas
+Namelsad   : Placitas CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 343197
+Awater     : 0
+Intptlat   : +32.6655236
+Intptlon   : -107.1698203
+
+Statefp    : 35
+Placefp    : 29230
+Placens    : 02806703
+Geoid      : 3529230
+Geoidfq    : 1600000US3529230
+Name       : Gila Hot Springs
+Namelsad   : Gila Hot Springs CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4273656
+Awater     : 0
+Intptlat   : +33.1902225
+Intptlon   : -108.2045194
+
+Statefp    : 35
+Placefp    : 29540
+Placens    : 02584103
+Geoid      : 3529540
+Geoidfq    : 1600000US3529540
+Name       : Glen Acres
+Namelsad   : Glen Acres CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2558154
+Awater     : 0
+Intptlat   : +32.3750437
+Intptlon   : -108.7162677
+
+Statefp    : 35
+Placefp    : 58210
+Placens    : 02584181
+Geoid      : 3558210
+Geoidfq    : 1600000US3558210
+Name       : Playas
+Namelsad   : Playas CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4827605
+Awater     : 0
+Intptlat   : +31.9125848
+Intptlon   : -108.5363153
+
+Statefp    : 35
+Placefp    : 30035
+Placens    : 02806691
+Geoid      : 3530035
+Geoidfq    : 1600000US3530035
+Name       : Golden Acres
+Namelsad   : Golden Acres CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2373743
+Awater     : 0
+Intptlat   : +35.2112155
+Intptlon   : -107.9183432
+
+Statefp    : 35
+Placefp    : 31190
+Placens    : 02584106
+Geoid      : 3531190
+Geoidfq    : 1600000US3531190
+Name       : Hachita
+Namelsad   : Hachita CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1147874
+Awater     : 0
+Intptlat   : +31.9153275
+Intptlon   : -108.3252071
+
+Statefp    : 35
+Placefp    : 37860
+Placens    : 02584126
+Geoid      : 3537860
+Geoidfq    : 1600000US3537860
+Name       : Lake Roberts
+Namelsad   : Lake Roberts CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 733762
+Awater     : 0
+Intptlat   : +33.0313510
+Intptlon   : -108.1688321
+
+Statefp    : 35
+Placefp    : 37862
+Placens    : 02584127
+Geoid      : 3537862
+Geoidfq    : 1600000US3537862
+Name       : Lake Roberts Heights
+Namelsad   : Lake Roberts Heights CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1975515
+Awater     : 0
+Intptlat   : +33.0270776
+Intptlon   : -108.1381476
+
+Statefp    : 35
+Placefp    : 57510
+Placens    : 02584179
+Geoid      : 3557510
+Geoidfq    : 1600000US3557510
+Name       : Pinos Altos
+Namelsad   : Pinos Altos CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1959023
+Awater     : 0
+Intptlat   : +32.8664695
+Intptlon   : -108.2220272
+
+Statefp    : 35
+Placefp    : 31680
+Placens    : 02584108
+Geoid      : 3531680
+Geoidfq    : 1600000US3531680
+Name       : Happy Valley
+Namelsad   : Happy Valley CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5555469
+Awater     : 6918
+Intptlat   : +32.4279385
+Intptlon   : -104.2898463
+
+Statefp    : 35
+Placefp    : 41970
+Placens    : 02584143
+Geoid      : 3541970
+Geoidfq    : 1600000US3541970
+Name       : Loco Hills
+Namelsad   : Loco Hills CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2221008
+Awater     : 0
+Intptlat   : +32.8196688
+Intptlon   : -103.9783531
+
+Statefp    : 35
+Placefp    : 50195
+Placens    : 02584157
+Geoid      : 3550195
+Geoidfq    : 1600000US3550195
+Name       : Morningside
+Namelsad   : Morningside CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 243052
+Awater     : 0
+Intptlat   : +32.8610023
+Intptlon   : -104.3970718
+
+Statefp    : 35
+Placefp    : 31925
+Placens    : 02806718
+Geoid      : 3531925
+Geoidfq    : 1600000US3531925
+Name       : Haystack
+Namelsad   : Haystack CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 11038365
+Awater     : 17507
+Intptlat   : +35.3545026
+Intptlon   : -107.9389425
+
+Statefp    : 35
+Placefp    : 34830
+Placens    : 02806721
+Geoid      : 3534830
+Geoidfq    : 1600000US3534830
+Name       : Iyanbito
+Namelsad   : Iyanbito CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 24708432
+Awater     : 0
+Intptlat   : +35.5159819
+Intptlon   : -108.4877104
+
+Statefp    : 35
+Placefp    : 32160
+Placens    : 02584111
+Geoid      : 3532160
+Geoidfq    : 1600000US3532160
+Name       : High Rolls
+Namelsad   : High Rolls CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 39920404
+Awater     : 16083
+Intptlat   : +32.9337408
+Intptlon   : -105.8026588
+
+Statefp    : 35
+Placefp    : 54500
+Placens    : 02584170
+Geoid      : 3554500
+Geoidfq    : 1600000US3554500
+Name       : Orogrande
+Namelsad   : Orogrande CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 14707985
+Awater     : 1227
+Intptlat   : +32.3892935
+Intptlon   : -106.1085070
+
+Statefp    : 35
+Placefp    : 57440
+Placens    : 02584178
+Geoid      : 3557440
+Geoidfq    : 1600000US3557440
+Name       : Pinon
+Namelsad   : Pinon CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 13365741
+Awater     : 9682
+Intptlat   : +32.6195298
+Intptlon   : -105.3769193
+
+Statefp    : 35
+Placefp    : 33122
+Placens    : 02806720
+Geoid      : 3533122
+Geoidfq    : 1600000US3533122
+Name       : Homer C Jones
+Namelsad   : Homer C Jones CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 645527
+Awater     : 0
+Intptlat   : +35.3077962
+Intptlon   : -108.0965968
+
+Statefp    : 35
+Placefp    : 33130
+Placens    : 02584113
+Geoid      : 3533130
+Geoidfq    : 1600000US3533130
+Name       : Homestead
+Namelsad   : Homestead CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3033263
+Awater     : 3199
+Intptlat   : +34.1455374
+Intptlon   : -107.8781670
+
+Statefp    : 35
+Placefp    : 33640
+Placens    : 02584114
+Geoid      : 3533640
+Geoidfq    : 1600000US3533640
+Name       : Hot Springs Landing
+Namelsad   : Hot Springs Landing CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1167108
+Awater     : 0
+Intptlat   : +33.2046672
+Intptlon   : -107.2099578
+
+Statefp    : 35
+Placefp    : 39520
+Placens    : 02584135
+Geoid      : 3539520
+Geoidfq    : 1600000US3539520
+Name       : Las Palomas
+Namelsad   : Las Palomas CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4151820
+Awater     : 0
+Intptlat   : +33.0589143
+Intptlon   : -107.2982452
+
+Statefp    : 35
+Placefp    : 34620
+Placens    : 01852627
+Geoid      : 3534620
+Geoidfq    : 1600000US3534620
+Name       : Isleta
+Namelsad   : Isleta CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1892478
+Awater     : 0
+Intptlat   : +34.9042733
+Intptlon   : -106.6990151
+
+Statefp    : 35
+Placefp    : 54675
+Placens    : 02806684
+Geoid      : 3554675
+Geoidfq    : 1600000US3554675
+Name       : Paa-Ko
+Namelsad   : Paa-Ko CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 15031865
+Awater     : 0
+Intptlat   : +35.1998209
+Intptlon   : -106.3337464
+
+Statefp    : 35
+Placefp    : 34925
+Placens    : 02408435
+Geoid      : 3534925
+Geoidfq    : 1600000US3534925
+Name       : Jaconita
+Namelsad   : Jaconita CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1745261
+Awater     : 0
+Intptlat   : +35.8856306
+Intptlon   : -106.0611105
+
+Statefp    : 35
+Placefp    : 36720
+Placens    : 02408502
+Geoid      : 3536720
+Geoidfq    : 1600000US3536720
+Name       : La Cienega
+Namelsad   : La Cienega CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 30200620
+Awater     : 0
+Intptlat   : +35.5794378
+Intptlon   : -106.1130749
+
+Statefp    : 35
+Placefp    : 35070
+Placens    : 02806723
+Geoid      : 3535070
+Geoidfq    : 1600000US3535070
+Name       : Jamestown
+Namelsad   : Jamestown CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 7067533
+Awater     : 0
+Intptlat   : +35.4692955
+Intptlon   : -108.4395553
+
+Statefp    : 35
+Placefp    : 35595
+Placens    : 02584117
+Geoid      : 3535595
+Geoidfq    : 1600000US3535595
+Name       : Keeler Farm
+Namelsad   : Keeler Farm CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 29501729
+Awater     : 0
+Intptlat   : +32.3160655
+Intptlon   : -107.7602261
+
+Statefp    : 35
+Placefp    : 37407
+Placens    : 02584124
+Geoid      : 3537407
+Geoidfq    : 1600000US3537407
+Name       : La Hacienda
+Namelsad   : La Hacienda CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3504022
+Awater     : 0
+Intptlat   : +32.2059922
+Intptlon   : -107.7250672
+
+Statefp    : 35
+Placefp    : 52190
+Placens    : 02584164
+Geoid      : 3552190
+Geoidfq    : 1600000US3552190
+Name       : Nogal
+Namelsad   : Nogal CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 19711273
+Awater     : 0
+Intptlat   : +33.5382235
+Intptlon   : -105.7118739
+
+Statefp    : 35
+Placefp    : 36555
+Placens    : 02806761
+Geoid      : 3536555
+Geoidfq    : 1600000US3536555
+Name       : La Bajada
+Namelsad   : La Bajada CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 448490
+Awater     : 0
+Intptlat   : +35.5565242
+Intptlon   : -106.2436090
+
+Statefp    : 35
+Placefp    : 36930
+Placens    : 02812760
+Geoid      : 3536930
+Geoidfq    : 1600000US3536930
+Name       : La Cueva
+Namelsad   : La Cueva CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 19888489
+Awater     : 0
+Intptlat   : +35.5776216
+Intptlon   : -105.7338845
+
+Statefp    : 35
+Placefp    : 37875
+Placens    : 02408553
+Geoid      : 3537875
+Geoidfq    : 1600000US3537875
+Name       : Lake Sumner
+Namelsad   : Lake Sumner CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 161284628
+Awater     : 16199850
+Intptlat   : +34.6236100
+Intptlon   : -104.4021899
+
+Statefp    : 35
+Placefp    : 38540
+Placens    : 02812757
+Geoid      : 3538540
+Geoidfq    : 1600000US3538540
+Name       : La Madera
+Namelsad   : La Madera CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 33914725
+Awater     : 0
+Intptlat   : +35.2345361
+Intptlon   : -106.3340118
+
+Statefp    : 35
+Placefp    : 38890
+Placens    : 02408569
+Geoid      : 3538890
+Geoidfq    : 1600000US3538890
+Name       : Lamy
+Namelsad   : Lamy CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6709352
+Awater     : 0
+Intptlat   : +35.4854757
+Intptlon   : -105.8862931
+
+Statefp    : 35
+Placefp    : 39170
+Placens    : 02408513
+Geoid      : 3539170
+Geoidfq    : 1600000US3539170
+Name       : La Puebla
+Namelsad   : La Puebla CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 7348577
+Awater     : 0
+Intptlat   : +35.9881771
+Intptlon   : -106.0005660
+
+Statefp    : 35
+Placefp    : 42600
+Placens    : 02408135
+Geoid      : 3542600
+Geoidfq    : 1600000US3542600
+Name       : Los Cerrillos
+Namelsad   : Los Cerrillos CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 8715333
+Awater     : 0
+Intptlat   : +35.4272012
+Intptlon   : -106.1211722
+
+Statefp    : 35
+Placefp    : 46100
+Placens    : 02408159
+Geoid      : 3546100
+Geoidfq    : 1600000US3546100
+Name       : Madrid
+Namelsad   : Madrid CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3600975
+Awater     : 0
+Intptlat   : +35.4032595
+Intptlon   : -106.1537878
+
+Statefp    : 35
+Placefp    : 58630
+Placens    : 02409085
+Geoid      : 3558630
+Geoidfq    : 1600000US3558630
+Name       : Pojoaque
+Namelsad   : Pojoaque CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 11313346
+Awater     : 0
+Intptlat   : +35.8961980
+Intptlon   : -106.0104717
+
+Statefp    : 35
+Placefp    : 39430
+Placens    : 02584133
+Geoid      : 3539430
+Geoidfq    : 1600000US3539430
+Name       : Las Maravillas
+Namelsad   : Las Maravillas CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2614744
+Awater     : 4485
+Intptlat   : +34.7348627
+Intptlon   : -106.6649948
+
+Statefp    : 35
+Placefp    : 39450
+Placens    : 02584134
+Geoid      : 3539450
+Geoidfq    : 1600000US3539450
+Name       : Las Nutrias
+Namelsad   : Las Nutrias CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2501719
+Awater     : 0
+Intptlat   : +34.4698414
+Intptlon   : -106.7708106
+
+Statefp    : 35
+Placefp    : 39792
+Placens    : 02584058
+Geoid      : 3539792
+Geoidfq    : 1600000US3539792
+Name       : Las Tusas
+Namelsad   : Las Tusas CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3278900
+Awater     : 2953
+Intptlat   : +35.2731305
+Intptlon   : -108.1263778
+
+Statefp    : 35
+Placefp    : 41953
+Placens    : 02806693
+Geoid      : 3541953
+Geoidfq    : 1600000US3541953
+Name       : Lobo Canyon
+Namelsad   : Lobo Canyon CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 11137646
+Awater     : 0
+Intptlat   : +35.2237781
+Intptlon   : -107.7209767
+
+Statefp    : 35
+Placefp    : 50615
+Placens    : 02806694
+Geoid      : 3550615
+Geoidfq    : 1600000US3550615
+Name       : Mount Taylor
+Namelsad   : Mount Taylor CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4940477
+Awater     : 0
+Intptlat   : +35.1241467
+Intptlon   : -107.8074686
+
+Statefp    : 35
+Placefp    : 40360
+Placens    : 02584138
+Geoid      : 3540360
+Geoidfq    : 1600000US3540360
+Name       : La Villita
+Namelsad   : La Villita CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3515477
+Awater     : 55228
+Intptlat   : +36.1012306
+Intptlon   : -106.0554883
+
+Statefp    : 35
+Placefp    : 43300
+Placens    : 02584144
+Geoid      : 3543300
+Geoidfq    : 1600000US3543300
+Name       : Los Luceros
+Namelsad   : Los Luceros CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4246006
+Awater     : 66085
+Intptlat   : +36.1144110
+Intptlon   : -106.0371897
+
+Statefp    : 35
+Placefp    : 45400
+Placens    : 02584150
+Geoid      : 3545400
+Geoidfq    : 1600000US3545400
+Name       : Lyden
+Namelsad   : Lyden CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5807914
+Awater     : 0
+Intptlat   : +36.1536687
+Intptlon   : -106.0146609
+
+Statefp    : 35
+Placefp    : 41340
+Placens    : 02806704
+Geoid      : 3541340
+Geoidfq    : 1600000US3541340
+Name       : Little Walnut Village
+Namelsad   : Little Walnut Village CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 15178271
+Awater     : 26082
+Intptlat   : +32.8256255
+Intptlon   : -108.2867195
+
+Statefp    : 35
+Placefp    : 42320
+Placens    : 02408132
+Geoid      : 3542320
+Geoidfq    : 1600000US3542320
+Name       : Los Alamos
+Namelsad   : Los Alamos CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : Y
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 28769273
+Awater     : 4022
+Intptlat   : +35.8939590
+Intptlon   : -106.2900253
+
+Statefp    : 35
+Placefp    : 44595
+Placens    : 02584146
+Geoid      : 3544595
+Geoidfq    : 1600000US3544595
+Name       : Lower Frisco
+Namelsad   : Lower Frisco CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2611690
+Awater     : 5857
+Intptlat   : +33.6530352
+Intptlon   : -108.7875580
+
+Statefp    : 35
+Placefp    : 45690
+Placens    : 02585648
+Geoid      : 3545690
+Geoidfq    : 1600000US3545690
+Name       : McCartys Village
+Namelsad   : McCartys Village CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 8307169
+Awater     : 0
+Intptlat   : +35.0613411
+Intptlon   : -107.6634521
+
+Statefp    : 35
+Placefp    : 45890
+Placens    : 02806724
+Geoid      : 3545890
+Geoidfq    : 1600000US3545890
+Name       : McGaffey
+Namelsad   : McGaffey CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2639813
+Awater     : 46202
+Intptlat   : +35.3701109
+Intptlon   : -108.5164746
+
+Statefp    : 35
+Placefp    : 60327
+Placens    : 02806730
+Geoid      : 3560327
+Geoidfq    : 1600000US3560327
+Name       : Purty Rock
+Namelsad   : Purty Rock CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3020947
+Awater     : 0
+Intptlat   : +35.4902511
+Intptlon   : -108.8953241
+
+Statefp    : 35
+Placefp    : 46030
+Placens    : 02629118
+Geoid      : 3546030
+Geoidfq    : 1600000US3546030
+Name       : McIntosh
+Namelsad   : McIntosh CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 60316548
+Awater     : 0
+Intptlat   : +34.8819255
+Intptlon   : -106.0559464
+
+Statefp    : 35
+Placefp    : 50090
+Placens    : 02629121
+Geoid      : 3550090
+Geoidfq    : 1600000US3550090
+Name       : Mora
+Namelsad   : Mora CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 20809825
+Awater     : 0
+Intptlat   : +35.9634786
+Intptlon   : -105.3312791
+
+Statefp    : 35
+Placefp    : 52500
+Placens    : 02630706
+Geoid      : 3552500
+Geoidfq    : 1600000US3552500
+Name       : North Hobbs
+Namelsad   : North Hobbs CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 67445145
+Awater     : 101564
+Intptlat   : +32.7732597
+Intptlon   : -103.1233997
+
+Statefp    : 35
+Placefp    : 46660
+Placens    : 02813407
+Geoid      : 3546660
+Geoidfq    : 1600000US3546660
+Name       : Manuelito
+Namelsad   : Manuelito CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 21147101
+Awater     : 0
+Intptlat   : +35.4387417
+Intptlon   : -108.9945815
+
+Statefp    : 35
+Placefp    : 46730
+Placens    : 02408170
+Geoid      : 3546730
+Geoidfq    : 1600000US3546730
+Name       : Manzano
+Namelsad   : Manzano CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4375803
+Awater     : 0
+Intptlat   : +34.6436935
+Intptlon   : -106.3670539
+
+Statefp    : 35
+Placefp    : 47360
+Placens    : 02806743
+Geoid      : 3547360
+Geoidfq    : 1600000US3547360
+Name       : Medanales
+Namelsad   : Medanales CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 8188935
+Awater     : 0
+Intptlat   : +36.1765246
+Intptlon   : -106.1777432
+
+Statefp    : 35
+Placefp    : 48270
+Placens    : 02408823
+Geoid      : 3548270
+Geoidfq    : 1600000US3548270
+Name       : Mesquite
+Namelsad   : Mesquite CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2120870
+Awater     : 0
+Intptlat   : +32.1669935
+Intptlon   : -106.6884961
+
+Statefp    : 35
+Placefp    : 51140
+Placens    : 02584161
+Geoid      : 3551140
+Geoidfq    : 1600000US3551140
+Name       : Nara Visa
+Namelsad   : Nara Visa CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 18268343
+Awater     : 0
+Intptlat   : +35.6068649
+Intptlon   : -103.1042937
+
+Statefp    : 35
+Placefp    : 51420
+Placens    : 02408904
+Geoid      : 3551420
+Geoidfq    : 1600000US3551420
+Name       : Navajo
+Namelsad   : Navajo CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5834915
+Awater     : 0
+Intptlat   : +35.9024315
+Intptlon   : -109.0320827
+
+Statefp    : 35
+Placefp    : 60000
+Placens    : 02409108
+Geoid      : 3560000
+Geoidfq    : 1600000US3560000
+Name       : Pueblo Pintado
+Namelsad   : Pueblo Pintado CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 80293862
+Awater     : 0
+Intptlat   : +35.9613507
+Intptlon   : -107.6223546
+
+Statefp    : 35
+Placefp    : 51490
+Placens    : 02584162
+Geoid      : 3551490
+Geoidfq    : 1600000US3551490
+Name       : Navajo Dam
+Namelsad   : Navajo Dam CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 31256442
+Awater     : 3692542
+Intptlat   : +36.8729215
+Intptlon   : -107.6232163
+
+Statefp    : 35
+Placefp    : 51715
+Placens    : 02408912
+Geoid      : 3551715
+Geoidfq    : 1600000US3551715
+Name       : Nenahnezad
+Namelsad   : Nenahnezad CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 9081330
+Awater     : 145420
+Intptlat   : +36.7307827
+Intptlon   : -108.4344616
+
+Statefp    : 35
+Placefp    : 51770
+Placens    : 02408922
+Geoid      : 3551770
+Geoidfq    : 1600000US3551770
+Name       : Newcomb
+Namelsad   : Newcomb CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 25068149
+Awater     : 0
+Intptlat   : +36.2851841
+Intptlon   : -108.7116079
+
+Statefp    : 35
+Placefp    : 52300
+Placens    : 02408932
+Geoid      : 3552300
+Geoidfq    : 1600000US3552300
+Name       : North Acomita Village
+Namelsad   : North Acomita Village CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 10026083
+Awater     : 0
+Intptlat   : +35.0672993
+Intptlon   : -107.5648396
+
+Statefp    : 35
+Placefp    : 55340
+Placens    : 02409025
+Geoid      : 3555340
+Geoidfq    : 1600000US3555340
+Name       : Paraje
+Namelsad   : Paraje CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 14440881
+Awater     : 0
+Intptlat   : +35.0443793
+Intptlon   : -107.4681939
+
+Statefp    : 35
+Placefp    : 52540
+Placens    : 02584165
+Geoid      : 3552540
+Geoidfq    : 1600000US3552540
+Name       : North Hurley
+Namelsad   : North Hurley CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3954577
+Awater     : 0
+Intptlat   : +32.7198377
+Intptlon   : -108.1284998
+
+Statefp    : 35
+Placefp    : 52560
+Placens    : 02584166
+Geoid      : 3552560
+Geoidfq    : 1600000US3552560
+Name       : North Light Plant
+Namelsad   : North Light Plant CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5599230
+Awater     : 0
+Intptlat   : +36.8669817
+Intptlon   : -108.0331435
+
+Statefp    : 35
+Placefp    : 53590
+Placens    : 02806783
+Geoid      : 3553590
+Geoidfq    : 1600000US3553590
+Name       : Ojo Caliente
+Namelsad   : Ojo Caliente CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6854350
+Awater     : 0
+Intptlat   : +36.3146622
+Intptlon   : -106.0374056
+
+Statefp    : 35
+Placefp    : 53730
+Placens    : 02806744
+Geoid      : 3553730
+Geoidfq    : 1600000US3553730
+Name       : Ojo Sarco
+Namelsad   : Ojo Sarco CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 8830131
+Awater     : 0
+Intptlat   : +36.1249200
+Intptlon   : -105.7844592
+
+Statefp    : 35
+Placefp    : 54710
+Placens    : 02409015
+Geoid      : 3554710
+Geoidfq    : 1600000US3554710
+Name       : Paguate
+Namelsad   : Paguate CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 12611224
+Awater     : 7913
+Intptlat   : +35.1564015
+Intptlon   : -107.4006789
+
+Statefp    : 35
+Placefp    : 54940
+Placens    : 02584171
+Geoid      : 3554940
+Geoidfq    : 1600000US3554940
+Name       : Pajarito Mesa
+Namelsad   : Pajarito Mesa CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 55090551
+Awater     : 1390
+Intptlat   : +34.9796338
+Intptlon   : -106.7805008
+
+Statefp    : 35
+Placefp    : 59120
+Placens    : 02584184
+Geoid      : 3559120
+Geoidfq    : 1600000US3559120
+Name       : Ponderosa Pine
+Namelsad   : Ponderosa Pine CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 20907418
+Awater     : 6049
+Intptlat   : +34.9708966
+Intptlon   : -106.3396162
+
+Statefp    : 35
+Placefp    : 55270
+Placens    : 02584172
+Geoid      : 3555270
+Geoidfq    : 1600000US3555270
+Name       : Paradise Hills
+Namelsad   : Paradise Hills CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2648725
+Awater     : 0
+Intptlat   : +35.1981437
+Intptlon   : -106.7023968
+
+Statefp    : 35
+Placefp    : 55550
+Placens    : 02584173
+Geoid      : 3555550
+Geoidfq    : 1600000US3555550
+Name       : Pastura
+Namelsad   : Pastura CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 898960
+Awater     : 0
+Intptlat   : +34.7851041
+Intptlon   : -104.9420984
+
+Statefp    : 35
+Placefp    : 60170
+Placens    : 02584188
+Geoid      : 3560170
+Geoidfq    : 1600000US3560170
+Name       : Puerto de Luna
+Namelsad   : Puerto de Luna CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 36752644
+Awater     : 0
+Intptlat   : +34.8297132
+Intptlon   : -104.6221728
+
+Statefp    : 35
+Placefp    : 55605
+Placens    : 02584175
+Geoid      : 3555605
+Geoidfq    : 1600000US3555605
+Name       : Pecan Park
+Namelsad   : Pecan Park CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 278312
+Awater     : 0
+Intptlat   : +32.2704172
+Intptlon   : -107.6739897
+
+Statefp    : 35
+Placefp    : 55830
+Placens    : 02409050
+Geoid      : 3555830
+Geoidfq    : 1600000US3555830
+Name       : Peña Blanca
+Namelsad   : Peña Blanca CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 17836469
+Awater     : 0
+Intptlat   : +35.5709192
+Intptlon   : -106.3319546
+
+Statefp    : 35
+Placefp    : 58980
+Placens    : 02409087
+Geoid      : 3558980
+Geoidfq    : 1600000US3558980
+Name       : Ponderosa
+Namelsad   : Ponderosa CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 23638397
+Awater     : 0
+Intptlat   : +35.6554927
+Intptlon   : -106.6544594
+
+Statefp    : 35
+Placefp    : 55900
+Placens    : 02409051
+Geoid      : 3555900
+Geoidfq    : 1600000US3555900
+Name       : Peñasco
+Namelsad   : Peñasco CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3150002
+Awater     : 0
+Intptlat   : +36.1703196
+Intptlon   : -105.6907204
+
+Statefp    : 35
+Placefp    : 56810
+Placens    : 02409063
+Geoid      : 3556810
+Geoidfq    : 1600000US3556810
+Name       : Picuris Pueblo
+Namelsad   : Picuris Pueblo CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1182911
+Awater     : 7083
+Intptlat   : +36.2001456
+Intptlon   : -105.7235037
+
+Statefp    : 35
+Placefp    : 56748
+Placens    : 02806699
+Geoid      : 3556748
+Geoidfq    : 1600000US3556748
+Name       : Picacho Hills
+Namelsad   : Picacho Hills CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 8394233
+Awater     : 0
+Intptlat   : +32.3158045
+Intptlon   : -106.8784969
+
+Statefp    : 35
+Placefp    : 57190
+Placens    : 02409071
+Geoid      : 3557190
+Geoidfq    : 1600000US3557190
+Name       : Pinehill
+Namelsad   : Pinehill CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 9154551
+Awater     : 0
+Intptlat   : +34.8921657
+Intptlon   : -108.4223572
+
+Statefp    : 35
+Placefp    : 59750
+Placens    : 02584185
+Geoid      : 3559750
+Geoidfq    : 1600000US3559750
+Name       : Pueblito
+Namelsad   : Pueblito CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1576997
+Awater     : 0
+Intptlat   : +36.0727159
+Intptlon   : -106.0811068
+
+Statefp    : 35
+Placefp    : 60310
+Placens    : 02806786
+Geoid      : 3560310
+Geoidfq    : 1600000US3560310
+Name       : Punta de Agua
+Namelsad   : Punta de Agua CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3577108
+Awater     : 0
+Intptlat   : +34.6015839
+Intptlon   : -106.2922383
+
+Statefp    : 35
+Placefp    : 61220
+Placens    : 02409127
+Geoid      : 3561220
+Geoidfq    : 1600000US3561220
+Name       : Ramah
+Namelsad   : Ramah CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 31771813
+Awater     : 0
+Intptlat   : +35.1263536
+Intptlon   : -108.5062919
+
+Statefp    : 35
+Placefp    : 61675
+Placens    : 02584191
+Geoid      : 3561675
+Geoidfq    : 1600000US3561675
+Name       : Rancho Grande
+Namelsad   : Rancho Grande CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1095410
+Awater     : 32708
+Intptlat   : +33.6820011
+Intptlon   : -108.8581577
+
+Statefp    : 35
+Placefp    : 61710
+Placens    : 02409140
+Geoid      : 3561710
+Geoidfq    : 1600000US3561710
+Name       : Ranchos de Taos
+Namelsad   : Ranchos de Taos CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 9135502
+Awater     : 0
+Intptlat   : +36.3619348
+Intptlon   : -105.6015828
+
+Statefp    : 35
+Placefp    : 62295
+Placens    : 02806732
+Geoid      : 3562295
+Geoidfq    : 1600000US3562295
+Name       : Red Rock Ranch
+Namelsad   : Red Rock Ranch CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 12361486
+Awater     : 0
+Intptlat   : +35.4241692
+Intptlon   : -108.0262717
+
+Statefp    : 35
+Placefp    : 62340
+Placens    : 02409159
+Geoid      : 3562340
+Geoidfq    : 1600000US3562340
+Name       : Regina
+Namelsad   : Regina CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 18827723
+Awater     : 107722
+Intptlat   : +36.1948741
+Intptlon   : -106.9459467
+
+Statefp    : 35
+Placefp    : 62900
+Placens    : 02409169
+Geoid      : 3562900
+Geoidfq    : 1600000US3562900
+Name       : Rincon
+Namelsad   : Rincon CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2731493
+Awater     : 0
+Intptlat   : +32.6725342
+Intptlon   : -107.0758309
+
+Statefp    : 35
+Placefp    : 63250
+Placens    : 02409176
+Geoid      : 3563250
+Geoidfq    : 1600000US3563250
+Name       : Rio Lucio
+Namelsad   : Rio Lucio CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2723486
+Awater     : 0
+Intptlat   : +36.1921773
+Intptlon   : -105.7200334
+
+Statefp    : 35
+Placefp    : 63530
+Placens    : 02812756
+Geoid      : 3563530
+Geoidfq    : 1600000US3563530
+Name       : Rio Rancho Estates
+Namelsad   : Rio Rancho Estates CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 177032990
+Awater     : 0
+Intptlat   : +35.3003686
+Intptlon   : -106.7984992
+
+Statefp    : 35
+Placefp    : 63660
+Placens    : 02584193
+Geoid      : 3563660
+Geoidfq    : 1600000US3563660
+Name       : Rivers
+Namelsad   : Rivers CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5805695
+Awater     : 1649
+Intptlat   : +33.6746008
+Intptlon   : -108.7794533
+
+Statefp    : 35
+Placefp    : 64370
+Placens    : 02584194
+Geoid      : 3564370
+Geoidfq    : 1600000US3564370
+Name       : Rodeo
+Namelsad   : Rodeo CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 21219905
+Awater     : 0
+Intptlat   : +31.8396544
+Intptlon   : -109.0266443
+
+Statefp    : 35
+Placefp    : 64440
+Placens    : 02584195
+Geoid      : 3564440
+Geoidfq    : 1600000US3564440
+Name       : Rodey
+Namelsad   : Rodey CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1447401
+Awater     : 0
+Intptlat   : +32.6537764
+Intptlon   : -107.1357419
+
+Statefp    : 35
+Placefp    : 64900
+Placens    : 02584196
+Geoid      : 3564900
+Geoidfq    : 1600000US3564900
+Name       : Rosedale
+Namelsad   : Rosedale CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4575057
+Awater     : 1180
+Intptlat   : +32.7646630
+Intptlon   : -108.2434764
+
+Statefp    : 35
+Placefp    : 65000
+Placens    : 02629123
+Geoid      : 3565000
+Geoidfq    : 1600000US3565000
+Name       : Rowe
+Namelsad   : Rowe CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 15829959
+Awater     : 0
+Intptlat   : +35.4922108
+Intptlon   : -105.6715115
+
+Statefp    : 35
+Placefp    : 65560
+Placens    : 02584197
+Geoid      : 3565560
+Geoidfq    : 1600000US3565560
+Name       : Sacramento
+Namelsad   : Sacramento CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 16958254
+Awater     : 3782
+Intptlat   : +32.7844860
+Intptlon   : -105.5651013
+
+Statefp    : 35
+Placefp    : 65595
+Placens    : 02806733
+Geoid      : 3565595
+Geoidfq    : 1600000US3565595
+Name       : Sagar
+Namelsad   : Sagar CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4840718
+Awater     : 0
+Intptlat   : +35.2474178
+Intptlon   : -108.7670565
+
+Statefp    : 35
+Placefp    : 65840
+Placens    : 02409235
+Geoid      : 3565840
+Geoidfq    : 1600000US3565840
+Name       : Salem
+Namelsad   : Salem CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3388800
+Awater     : 0
+Intptlat   : +32.7120904
+Intptlon   : -107.2056212
+
+Statefp    : 35
+Placefp    : 65910
+Placens    : 02584198
+Geoid      : 3565910
+Geoidfq    : 1600000US3565910
+Name       : San Acacia
+Namelsad   : San Acacia CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1807332
+Awater     : 0
+Intptlat   : +34.2549373
+Intptlon   : -106.9022817
+
+Statefp    : 35
+Placefp    : 66120
+Placens    : 02584199
+Geoid      : 3566120
+Geoidfq    : 1600000US3566120
+Name       : San Antonio
+Namelsad   : San Antonio CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1171426
+Awater     : 0
+Intptlat   : +33.9161647
+Intptlon   : -106.8700220
+
+Statefp    : 35
+Placefp    : 66400
+Placens    : 02584201
+Geoid      : 3566400
+Geoidfq    : 1600000US3566400
+Name       : San Antonito
+Namelsad   : San Antonito CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4480189
+Awater     : 0
+Intptlat   : +33.8918056
+Intptlon   : -106.8799457
+
+Statefp    : 35
+Placefp    : 66540
+Placens    : 02629124
+Geoid      : 3566540
+Geoidfq    : 1600000US3566540
+Name       : San Cristobal
+Namelsad   : San Cristobal CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 17834705
+Awater     : 0
+Intptlat   : +36.6101266
+Intptlon   : -105.6318010
+
+Statefp    : 35
+Placefp    : 67450
+Placens    : 02409254
+Geoid      : 3567450
+Geoidfq    : 1600000US3567450
+Name       : San Felipe Pueblo
+Namelsad   : San Felipe Pueblo CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 31035392
+Awater     : 728419
+Intptlat   : +35.4383271
+Intptlon   : -106.4132096
+
+Statefp    : 35
+Placefp    : 67520
+Placens    : 02584205
+Geoid      : 3567520
+Geoidfq    : 1600000US3567520
+Name       : San Fidel
+Namelsad   : San Fidel CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 10898241
+Awater     : 0
+Intptlat   : +35.1025659
+Intptlon   : -107.5975328
+
+Statefp    : 35
+Placefp    : 68430
+Placens    : 02584206
+Geoid      : 3568430
+Geoidfq    : 1600000US3568430
+Name       : San Jose
+Namelsad   : San Jose CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4686161
+Awater     : 0
+Intptlat   : +36.0367265
+Intptlon   : -106.1004422
+
+Statefp    : 35
+Placefp    : 68920
+Placens    : 02584207
+Geoid      : 3568920
+Geoidfq    : 1600000US3568920
+Name       : San Lorenzo
+Namelsad   : San Lorenzo CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4523781
+Awater     : 6426
+Intptlat   : +32.8053519
+Intptlon   : -107.9202066
+
+Statefp    : 35
+Placefp    : 69060
+Placens    : 02584208
+Geoid      : 3569060
+Geoidfq    : 1600000US3569060
+Name       : San Luis
+Namelsad   : San Luis CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 21454201
+Awater     : 0
+Intptlat   : +35.7009130
+Intptlon   : -107.0430803
+
+Statefp    : 35
+Placefp    : 69270
+Placens    : 02584209
+Geoid      : 3569270
+Geoidfq    : 1600000US3569270
+Name       : San Mateo
+Namelsad   : San Mateo CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 7185221
+Awater     : 6047
+Intptlat   : +35.3380612
+Intptlon   : -107.6460909
+
+Statefp    : 35
+Placefp    : 69620
+Placens    : 02409274
+Geoid      : 3569620
+Geoidfq    : 1600000US3569620
+Name       : Sanostee
+Namelsad   : Sanostee CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 11746112
+Awater     : 6688
+Intptlat   : +36.4304807
+Intptlon   : -108.8629571
+
+Statefp    : 35
+Placefp    : 69825
+Placens    : 02584212
+Geoid      : 3569825
+Geoidfq    : 1600000US3569825
+Name       : San Pedro
+Namelsad   : San Pedro CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 25289474
+Awater     : 0
+Intptlat   : +35.2279908
+Intptlon   : -106.1847138
+
+Statefp    : 35
+Placefp    : 69875
+Placens    : 02584213
+Geoid      : 3569875
+Geoidfq    : 1600000US3569875
+Name       : San Rafael
+Namelsad   : San Rafael CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 40931601
+Awater     : 2436
+Intptlat   : +35.0981630
+Intptlon   : -107.9049206
+
+Statefp    : 35
+Placefp    : 70250
+Placens    : 02409275
+Geoid      : 3570250
+Geoidfq    : 1600000US3570250
+Name       : Santa Ana Pueblo
+Namelsad   : Santa Ana Pueblo CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 19154915
+Awater     : 360462
+Intptlat   : +35.3522872
+Intptlon   : -106.5153781
+
+Statefp    : 35
+Placefp    : 70390
+Placens    : 02409276
+Geoid      : 3570390
+Geoidfq    : 1600000US3570390
+Name       : Santa Clara Pueblo
+Namelsad   : Santa Clara Pueblo CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5230880
+Awater     : 48313
+Intptlat   : +35.9707660
+Intptlon   : -106.1020807
+
+Statefp    : 35
+Placefp    : 70460
+Placens    : 02409277
+Geoid      : 3570460
+Geoidfq    : 1600000US3570460
+Name       : Santa Cruz
+Namelsad   : Santa Cruz CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1607207
+Awater     : 0
+Intptlat   : +35.9939685
+Intptlon   : -106.0358209
+
+Statefp    : 35
+Placefp    : 70700
+Placens    : 02409282
+Geoid      : 3570700
+Geoidfq    : 1600000US3570700
+Name       : Santa Teresa
+Namelsad   : Santa Teresa CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 22921781
+Awater     : 0
+Intptlat   : +31.8713597
+Intptlon   : -106.6734242
+
+Statefp    : 35
+Placefp    : 70810
+Placens    : 02409286
+Geoid      : 3570810
+Geoidfq    : 1600000US3570810
+Name       : Santo Domingo Pueblo
+Namelsad   : Santo Domingo Pueblo CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5278847
+Awater     : 36583
+Intptlat   : +35.5224433
+Intptlon   : -106.3675601
+
+Statefp    : 35
+Placefp    : 71015
+Placens    : 02584214
+Geoid      : 3571015
+Geoidfq    : 1600000US3571015
+Name       : San Ysidro
+Namelsad   : San Ysidro CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6850696
+Awater     : 0
+Intptlat   : +32.3567524
+Intptlon   : -106.8128916
+
+Statefp    : 35
+Placefp    : 71145
+Placens    : 02584215
+Geoid      : 3571145
+Geoidfq    : 1600000US3571145
+Name       : Sausal
+Namelsad   : Sausal CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5825230
+Awater     : 0
+Intptlat   : +34.6803203
+Intptlon   : -106.7589124
+
+Statefp    : 35
+Placefp    : 71440
+Placens    : 02409294
+Geoid      : 3571440
+Geoidfq    : 1600000US3571440
+Name       : Seama
+Namelsad   : Seama CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 16800765
+Awater     : 13117
+Intptlat   : +35.0508083
+Intptlon   : -107.5396280
+
+Statefp    : 35
+Placefp    : 71510
+Placens    : 02584216
+Geoid      : 3571510
+Geoidfq    : 1600000US3571510
+Name       : Seboyeta
+Namelsad   : Seboyeta CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6920269
+Awater     : 1047
+Intptlat   : +35.1989083
+Intptlon   : -107.3826728
+
+Statefp    : 35
+Placefp    : 71790
+Placens    : 02584218
+Geoid      : 3571790
+Geoidfq    : 1600000US3571790
+Name       : Sena
+Namelsad   : Sena CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5506463
+Awater     : 0
+Intptlat   : +35.3036054
+Intptlon   : -105.3913135
+
+Statefp    : 35
+Placefp    : 72140
+Placens    : 02806767
+Geoid      : 3572140
+Geoidfq    : 1600000US3572140
+Name       : Seton Village
+Namelsad   : Seton Village CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 397011
+Awater     : 0
+Intptlat   : +35.5998137
+Intptlon   : -105.9335159
+
+Statefp    : 35
+Placefp    : 73680
+Placens    : 02584219
+Geoid      : 3573680
+Geoidfq    : 1600000US3573680
+Name       : Soham
+Namelsad   : Soham CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4006430
+Awater     : 0
+Intptlat   : +35.4168656
+Intptlon   : -105.4984967
+
+Statefp    : 35
+Placefp    : 73890
+Placens    : 02408754
+Geoid      : 3573890
+Geoidfq    : 1600000US3573890
+Name       : Sombrillo
+Namelsad   : Sombrillo CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2453558
+Awater     : 0
+Intptlat   : +35.9801911
+Intptlon   : -106.0352446
+
+Statefp    : 35
+Placefp    : 74275
+Placens    : 02813408
+Geoid      : 3574275
+Geoidfq    : 1600000US3574275
+Name       : South River
+Namelsad   : South River CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 22099578
+Awater     : 602916
+Intptlat   : +36.7859424
+Intptlon   : -108.0576780
+
+Statefp    : 35
+Placefp    : 74520
+Placens    : 02408776
+Geoid      : 3574520
+Geoidfq    : 1600000US3574520
+Name       : South Valley
+Namelsad   : South Valley CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 75159579
+Awater     : 3309098
+Intptlat   : +35.0086228
+Intptlon   : -106.6822177
+
+Statefp    : 35
+Placefp    : 75010
+Placens    : 02806768
+Geoid      : 3575010
+Geoidfq    : 1600000US3575010
+Name       : Stanley
+Namelsad   : Stanley CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 15990358
+Awater     : 0
+Intptlat   : +35.1541568
+Intptlon   : -105.9762865
+
+Statefp    : 35
+Placefp    : 75465
+Placens    : 02806696
+Geoid      : 3575465
+Geoidfq    : 1600000US3575465
+Name       : Stoneridge
+Namelsad   : Stoneridge CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2068055
+Awater     : 0
+Intptlat   : +35.3018699
+Intptlon   : -108.1034297
+
+Statefp    : 35
+Placefp    : 75605
+Placens    : 02806734
+Geoid      : 3575605
+Geoidfq    : 1600000US3575605
+Name       : Sundance
+Namelsad   : Sundance CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 9000048
+Awater     : 0
+Intptlat   : +35.5105389
+Intptlon   : -108.6396938
+
+Statefp    : 35
+Placefp    : 75710
+Placens    : 02584221
+Geoid      : 3575710
+Geoidfq    : 1600000US3575710
+Name       : Sunshine
+Namelsad   : Sunshine CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 45674647
+Awater     : 0
+Intptlat   : +32.1343928
+Intptlon   : -107.7837976
+
+Statefp    : 35
+Placefp    : 76060
+Placens    : 02410052
+Geoid      : 3576060
+Geoidfq    : 1600000US3576060
+Name       : Tajique
+Namelsad   : Tajique CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 7002818
+Awater     : 0
+Intptlat   : +34.7600384
+Intptlon   : -106.3010189
+
+Statefp    : 35
+Placefp    : 76130
+Placens    : 02629127
+Geoid      : 3576130
+Geoidfq    : 1600000US3576130
+Name       : Talpa
+Namelsad   : Talpa CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3394730
+Awater     : 18582
+Intptlat   : +36.3401474
+Intptlon   : -105.5922001
+
+Statefp    : 35
+Placefp    : 76165
+Placens    : 02806772
+Geoid      : 3576165
+Geoidfq    : 1600000US3576165
+Name       : Tano Road
+Namelsad   : Tano Road CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 29899904
+Awater     : 0
+Intptlat   : +35.7373862
+Intptlon   : -105.9818975
+
+Statefp    : 35
+Placefp    : 76410
+Placens    : 02410058
+Geoid      : 3576410
+Geoidfq    : 1600000US3576410
+Name       : Taos Pueblo
+Namelsad   : Taos Pueblo CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 40404135
+Awater     : 0
+Intptlat   : +36.4656750
+Intptlon   : -105.5634489
+
+Statefp    : 35
+Placefp    : 76760
+Placens    : 02584222
+Geoid      : 3576760
+Geoidfq    : 1600000US3576760
+Name       : Tecolote
+Namelsad   : Tecolote CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 14569014
+Awater     : 0
+Intptlat   : +35.4604194
+Intptlon   : -105.2842091
+
+Statefp    : 35
+Placefp    : 76830
+Placens    : 02584223
+Geoid      : 3576830
+Geoidfq    : 1600000US3576830
+Name       : Tecolotito
+Namelsad   : Tecolotito CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1861146
+Awater     : 0
+Intptlat   : +35.2307018
+Intptlon   : -105.1630429
+
+Statefp    : 35
+Placefp    : 77040
+Placens    : 02410071
+Geoid      : 3577040
+Geoidfq    : 1600000US3577040
+Name       : Tesuque
+Namelsad   : Tesuque CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 14653793
+Awater     : 0
+Intptlat   : +35.7486473
+Intptlon   : -105.9209217
+
+Statefp    : 35
+Placefp    : 77100
+Placens    : 02584224
+Geoid      : 3577100
+Geoidfq    : 1600000US3577100
+Name       : Tesuque Pueblo
+Namelsad   : Tesuque Pueblo CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5693499
+Awater     : 0
+Intptlat   : +35.8090344
+Intptlon   : -105.9751776
+
+Statefp    : 35
+Placefp    : 77670
+Placens    : 02584225
+Geoid      : 3577670
+Geoidfq    : 1600000US3577670
+Name       : Tierra Amarilla
+Namelsad   : Tierra Amarilla CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6962959
+Awater     : 14558
+Intptlat   : +36.7059010
+Intptlon   : -106.5651323
+
+Statefp    : 35
+Placefp    : 77930
+Placens    : 02806736
+Geoid      : 3577930
+Geoidfq    : 1600000US3577930
+Name       : Timberlake
+Namelsad   : Timberlake CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 30548003
+Awater     : 0
+Intptlat   : +35.2012215
+Intptlon   : -108.4842543
+
+Statefp    : 35
+Placefp    : 77950
+Placens    : 02409323
+Geoid      : 3577950
+Geoidfq    : 1600000US3577950
+Name       : Timberon
+Namelsad   : Timberon CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 52550978
+Awater     : 56923
+Intptlat   : +32.6363058
+Intptlon   : -105.6952492
+
+Statefp    : 35
+Placefp    : 79070
+Placens    : 02409338
+Geoid      : 3579070
+Geoidfq    : 1600000US3579070
+Name       : Torreon
+Namelsad   : Torreon CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 35954080
+Awater     : 0
+Intptlat   : +35.7931529
+Intptlon   : -107.2124020
+
+Statefp    : 35
+Placefp    : 79140
+Placens    : 02409339
+Geoid      : 3579140
+Geoidfq    : 1600000US3579140
+Name       : Torreon
+Namelsad   : Torreon CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 21451166
+Awater     : 0
+Intptlat   : +34.7241964
+Intptlon   : -106.3007817
+
+Statefp    : 35
+Placefp    : 79210
+Placens    : 02806700
+Geoid      : 3579210
+Geoidfq    : 1600000US3579210
+Name       : Tortugas
+Namelsad   : Tortugas CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 514726
+Awater     : 0
+Intptlat   : +32.2697142
+Intptlon   : -106.7545684
+
+Statefp    : 35
+Placefp    : 79264
+Placens    : 02806755
+Geoid      : 3579264
+Geoidfq    : 1600000US3579264
+Name       : Totah Vista
+Namelsad   : Totah Vista CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1482644
+Awater     : 22302
+Intptlat   : +36.7106846
+Intptlon   : -108.2062995
+
+Statefp    : 35
+Placefp    : 79500
+Placens    : 02806776
+Geoid      : 3579500
+Geoidfq    : 1600000US3579500
+Name       : Tres Arroyos
+Namelsad   : Tres Arroyos CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 23913114
+Awater     : 0
+Intptlat   : +35.6798223
+Intptlon   : -106.0398601
+
+Statefp    : 35
+Placefp    : 79680
+Placens    : 02584226
+Geoid      : 3579680
+Geoidfq    : 1600000US3579680
+Name       : Trout Valley
+Namelsad   : Trout Valley CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 472110
+Awater     : 0
+Intptlat   : +33.0362243
+Intptlon   : -108.1892614
+
+Statefp    : 35
+Placefp    : 79700
+Placens    : 02584227
+Geoid      : 3579700
+Geoidfq    : 1600000US3579700
+Name       : Truchas
+Namelsad   : Truchas CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 17947134
+Awater     : 14097
+Intptlat   : +36.0366915
+Intptlon   : -105.8125460
+
+Statefp    : 35
+Placefp    : 80120
+Placens    : 02806756
+Geoid      : 3580120
+Geoidfq    : 1600000US3580120
+Name       : Turley
+Namelsad   : Turley CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 11985805
+Awater     : 512990
+Intptlat   : +36.7366611
+Intptlon   : -107.7921470
+
+Statefp    : 35
+Placefp    : 80470
+Placens    : 02584228
+Geoid      : 3580470
+Geoidfq    : 1600000US3580470
+Name       : Twin Forks
+Namelsad   : Twin Forks CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 10692928
+Awater     : 2658
+Intptlat   : +32.9385135
+Intptlon   : -105.6463947
+
+Statefp    : 35
+Placefp    : 80820
+Placens    : 02584229
+Geoid      : 3580820
+Geoidfq    : 1600000US3580820
+Name       : Tyrone
+Namelsad   : Tyrone CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 868741
+Awater     : 0
+Intptlat   : +32.7099315
+Intptlon   : -108.3027384
+
+Statefp    : 35
+Placefp    : 81030
+Placens    : 02409380
+Geoid      : 3581030
+Geoidfq    : 1600000US3581030
+Name       : University Park
+Namelsad   : University Park CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3974432
+Awater     : 0
+Intptlat   : +32.2767382
+Intptlon   : -106.7461913
+
+Statefp    : 35
+Placefp    : 81520
+Placens    : 02409385
+Geoid      : 3581520
+Geoidfq    : 1600000US3581520
+Name       : Vadito
+Namelsad   : Vadito CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2232251
+Awater     : 0
+Intptlat   : +36.1929240
+Intptlon   : -105.6753276
+
+Statefp    : 35
+Placefp    : 81590
+Placens    : 02409386
+Geoid      : 3581590
+Geoidfq    : 1600000US3581590
+Name       : Vado
+Namelsad   : Vado CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 7713209
+Awater     : 0
+Intptlat   : +32.1278814
+Intptlon   : -106.6570726
+
+Statefp    : 35
+Placefp    : 81775
+Placens    : 02812759
+Geoid      : 3581775
+Geoidfq    : 1600000US3581775
+Name       : Valencia
+Namelsad   : Valencia CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4013549
+Awater     : 0
+Intptlat   : +35.5780146
+Intptlon   : -105.7908139
+
+Statefp    : 35
+Placefp    : 82332
+Placens    : 02806778
+Geoid      : 3582332
+Geoidfq    : 1600000US3582332
+Name       : Valle Vista
+Namelsad   : Valle Vista CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 694557
+Awater     : 0
+Intptlat   : +35.5839592
+Intptlon   : -106.0584487
+
+Statefp    : 35
+Placefp    : 62270
+Placens    : 02806705
+Geoid      : 3562270
+Geoidfq    : 1600000US3562270
+Name       : Redrock
+Namelsad   : Redrock CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1554731
+Awater     : 0
+Intptlat   : +32.6885658
+Intptlon   : -108.7406305
+
+Statefp    : 35
+Placefp    : 62760
+Placens    : 02584192
+Geoid      : 3562760
+Geoidfq    : 1600000US3562760
+Name       : Ribera
+Namelsad   : Ribera CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6518076
+Awater     : 0
+Intptlat   : +35.3699596
+Intptlon   : -105.4440923
+
+Statefp    : 35
+Placefp    : 66960
+Placens    : 02584204
+Geoid      : 3566960
+Geoidfq    : 1600000US3566960
+Name       : Sandia Park
+Namelsad   : Sandia Park CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1877457
+Awater     : 0
+Intptlat   : +35.1647705
+Intptlon   : -106.3657444
+
+Statefp    : 35
+Placefp    : 71700
+Placens    : 02584217
+Geoid      : 3571700
+Geoidfq    : 1600000US3571700
+Name       : Sedillo
+Namelsad   : Sedillo CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 7111661
+Awater     : 692
+Intptlat   : +35.0870008
+Intptlon   : -106.2878079
+
+Statefp    : 35
+Placefp    : 63110
+Placens    : 02409170
+Geoid      : 3563110
+Geoidfq    : 1600000US3563110
+Name       : Rio Chiquito
+Namelsad   : Rio Chiquito CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2784619
+Awater     : 0
+Intptlat   : +35.9948543
+Intptlon   : -105.9069351
+
+Statefp    : 35
+Placefp    : 70505
+Placens    : 02806766
+Geoid      : 3570505
+Geoidfq    : 1600000US3570505
+Name       : Santa Fe Foothills
+Namelsad   : Santa Fe Foothills CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 21440985
+Awater     : 0
+Intptlat   : +35.6279646
+Intptlon   : -105.8980629
+
+Statefp    : 35
+Placefp    : 75650
+Placens    : 02806770
+Geoid      : 3575650
+Geoidfq    : 1600000US3575650
+Name       : Sunlit Hills
+Namelsad   : Sunlit Hills CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 9715988
+Awater     : 0
+Intptlat   : +35.5957087
+Intptlon   : -105.9209920
+
+Statefp    : 35
+Placefp    : 77635
+Placens    : 02806774
+Geoid      : 3577635
+Geoidfq    : 1600000US3577635
+Name       : Thunder Mountain
+Namelsad   : Thunder Mountain CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 11449636
+Awater     : 9138
+Intptlat   : +35.1016604
+Intptlon   : -106.2235595
+
+Statefp    : 35
+Placefp    : 63168
+Placens    : 02409174
+Geoid      : 3563168
+Geoidfq    : 1600000US3563168
+Name       : Rio en Medio
+Namelsad   : Rio en Medio CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1717967
+Awater     : 0
+Intptlat   : +35.8222100
+Intptlon   : -105.9009070
+
+Statefp    : 35
+Placefp    : 68010
+Placens    : 02409256
+Geoid      : 3568010
+Geoidfq    : 1600000US3568010
+Name       : San Ildefonso Pueblo
+Namelsad   : San Ildefonso Pueblo CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 11439266
+Awater     : 503899
+Intptlat   : +35.8883151
+Intptlon   : -106.1291954
+
+Statefp    : 35
+Placefp    : 64230
+Placens    : 02409194
+Geoid      : 3564230
+Geoidfq    : 1600000US3564230
+Name       : Rock Springs
+Namelsad   : Rock Springs CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 32600212
+Awater     : 0
+Intptlat   : +35.6187872
+Intptlon   : -108.8345398
+
+Statefp    : 35
+Placefp    : 77530
+Placens    : 02410078
+Geoid      : 3577530
+Geoidfq    : 1600000US3577530
+Name       : Thoreau
+Namelsad   : Thoreau CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 102231256
+Awater     : 4891
+Intptlat   : +35.4234546
+Intptlon   : -108.2001028
+
+Statefp    : 35
+Placefp    : 78440
+Placens    : 02409328
+Geoid      : 3578440
+Geoidfq    : 1600000US3578440
+Name       : Tohatchi
+Namelsad   : Tohatchi CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 16752625
+Awater     : 334171
+Intptlat   : +35.8434307
+Intptlon   : -108.7515725
+
+Statefp    : 35
+Placefp    : 79885
+Placens    : 02409353
+Geoid      : 3579885
+Geoidfq    : 1600000US3579885
+Name       : Tse Bonito
+Namelsad   : Tse Bonito CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 17670645
+Awater     : 0
+Intptlat   : +35.6465876
+Intptlon   : -109.0070466
+
+Statefp    : 35
+Placefp    : 80540
+Placens    : 02409374
+Geoid      : 3580540
+Geoidfq    : 1600000US3580540
+Name       : Twin Lakes
+Namelsad   : Twin Lakes CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 23356958
+Awater     : 0
+Intptlat   : +35.6833517
+Intptlon   : -108.7709052
+
+Statefp    : 35
+Placefp    : 66330
+Placens    : 02584200
+Geoid      : 3566330
+Geoidfq    : 1600000US3566330
+Name       : San Antonito
+Namelsad   : San Antonito CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6330987
+Awater     : 0
+Intptlat   : +35.1575183
+Intptlon   : -106.3475120
+
+Statefp    : 35
+Placefp    : 66765
+Placens    : 02584202
+Geoid      : 3566765
+Geoidfq    : 1600000US3566765
+Name       : Sandia Heights
+Namelsad   : Sandia Heights CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4779172
+Awater     : 0
+Intptlat   : +35.1742985
+Intptlon   : -106.4884006
+
+Statefp    : 35
+Placefp    : 66890
+Placens    : 02584203
+Geoid      : 3566890
+Geoidfq    : 1600000US3566890
+Name       : Sandia Knolls
+Namelsad   : Sandia Knolls CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 7258628
+Awater     : 0
+Intptlat   : +35.1604340
+Intptlon   : -106.2987515
+
+Statefp    : 35
+Placefp    : 68500
+Placens    : 02629125
+Geoid      : 3568500
+Geoidfq    : 1600000US3568500
+Name       : San Jose
+Namelsad   : San Jose CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 686937
+Awater     : 0
+Intptlat   : +35.3955530
+Intptlon   : -105.4758865
+
+Statefp    : 35
+Placefp    : 81450
+Placens    : 02629128
+Geoid      : 3581450
+Geoidfq    : 1600000US3581450
+Name       : Ute Park
+Namelsad   : Ute Park CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 8794151
+Awater     : 0
+Intptlat   : +36.5466884
+Intptlon   : -105.1038007
+
+Statefp    : 35
+Placefp    : 69410
+Placens    : 02584210
+Geoid      : 3569410
+Geoidfq    : 1600000US3569410
+Name       : San Miguel
+Namelsad   : San Miguel CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5932482
+Awater     : 0
+Intptlat   : +32.1534647
+Intptlon   : -106.7268413
+
+Statefp    : 35
+Placefp    : 69645
+Placens    : 02584211
+Geoid      : 3569645
+Geoidfq    : 1600000US3569645
+Name       : San Pablo
+Namelsad   : San Pablo CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3150923
+Awater     : 0
+Intptlat   : +32.2506568
+Intptlon   : -106.7625989
+
+Statefp    : 35
+Placefp    : 72600
+Placens    : 02408723
+Geoid      : 3572600
+Geoidfq    : 1600000US3572600
+Name       : Sheep Springs
+Namelsad   : Sheep Springs CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 13275528
+Awater     : 0
+Intptlat   : +36.1592131
+Intptlon   : -108.6905258
+
+Statefp    : 35
+Placefp    : 72770
+Placens    : 02408729
+Geoid      : 3572770
+Geoidfq    : 1600000US3572770
+Name       : Shiprock
+Namelsad   : Shiprock CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 34993304
+Awater     : 503084
+Intptlat   : +36.7907438
+Intptlon   : -108.6960527
+
+Statefp    : 35
+Placefp    : 81177
+Placens    : 02409381
+Geoid      : 3581177
+Geoidfq    : 1600000US3581177
+Name       : Upper Fruitland
+Namelsad   : Upper Fruitland CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 19822121
+Awater     : 474231
+Intptlat   : +36.7200336
+Intptlon   : -108.3214835
+
+Statefp    : 35
+Placefp    : 73440
+Placens    : 02408745
+Geoid      : 3573440
+Geoidfq    : 1600000US3573440
+Name       : Skyline-Ganipa
+Namelsad   : Skyline-Ganipa CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 20218049
+Awater     : 0
+Intptlat   : +35.0361204
+Intptlon   : -107.6161758
+
+Statefp    : 35
+Placefp    : 73925
+Placens    : 02585650
+Geoid      : 3573925
+Geoidfq    : 1600000US3573925
+Name       : South Acomita Village
+Namelsad   : South Acomita Village CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3023504
+Awater     : 0
+Intptlat   : +35.0533103
+Intptlon   : -107.5722542
+
+Statefp    : 35
+Placefp    : 74660
+Placens    : 02584220
+Geoid      : 3574660
+Geoidfq    : 1600000US3574660
+Name       : Spencerville
+Namelsad   : Spencerville CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 13609538
+Awater     : 132305
+Intptlat   : +36.8295703
+Intptlon   : -108.0616316
+
+Statefp    : 35
+Placefp    : 78650
+Placens    : 02633186
+Geoid      : 3578650
+Geoidfq    : 1600000US3578650
+Name       : Tome
+Namelsad   : Tome CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 14306632
+Awater     : 0
+Intptlat   : +34.7389852
+Intptlon   : -106.7251537
+
+Statefp    : 35
+Placefp    : 81800
+Placens    : 02409390
+Geoid      : 3581800
+Geoidfq    : 1600000US3581800
+Name       : Valencia
+Namelsad   : Valencia CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5137955
+Awater     : 0
+Intptlat   : +34.8052974
+Intptlon   : -106.6869116
+
+Statefp    : 35
+Placefp    : 82430
+Placens    : 02806739
+Geoid      : 3582430
+Geoidfq    : 1600000US3582430
+Name       : Vanderwagen
+Namelsad   : Vanderwagen CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5159246
+Awater     : 16608
+Intptlat   : +35.2745502
+Intptlon   : -108.7444470
+
+Statefp    : 35
+Placefp    : 82640
+Placens    : 02584230
+Geoid      : 3582640
+Geoidfq    : 1600000US3582640
+Name       : Veguita
+Namelsad   : Veguita CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2166237
+Awater     : 0
+Intptlat   : +34.5146862
+Intptlon   : -106.7679148
+
+Statefp    : 35
+Placefp    : 82710
+Placens    : 02584231
+Geoid      : 3582710
+Geoidfq    : 1600000US3582710
+Name       : Velarde
+Namelsad   : Velarde CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6613324
+Awater     : 66546
+Intptlat   : +36.1592925
+Intptlon   : -105.9587558
+
+Statefp    : 35
+Placefp    : 82800
+Placens    : 02584232
+Geoid      : 3582800
+Geoidfq    : 1600000US3582800
+Name       : Ventura
+Namelsad   : Ventura CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 14141862
+Awater     : 0
+Intptlat   : +32.2437695
+Intptlon   : -107.6831982
+
+Statefp    : 35
+Placefp    : 83130
+Placens    : 02584233
+Geoid      : 3583130
+Geoidfq    : 1600000US3583130
+Name       : Villanueva
+Namelsad   : Villanueva CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 18793541
+Awater     : 0
+Intptlat   : +35.2659226
+Intptlon   : -105.3602082
+
+Statefp    : 35
+Placefp    : 83760
+Placens    : 02584234
+Geoid      : 3583760
+Geoidfq    : 1600000US3583760
+Name       : Waterflow
+Namelsad   : Waterflow CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 21005009
+Awater     : 380314
+Intptlat   : +36.7554250
+Intptlon   : -108.4694562
+
+Statefp    : 35
+Placefp    : 83830
+Placens    : 02629129
+Geoid      : 3583830
+Geoidfq    : 1600000US3583830
+Name       : Watrous
+Namelsad   : Watrous CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1474571
+Awater     : 9759
+Intptlat   : +35.7891509
+Intptlon   : -104.9825148
+
+Statefp    : 35
+Placefp    : 83970
+Placens    : 02584235
+Geoid      : 3583970
+Geoidfq    : 1600000US3583970
+Name       : Weed
+Namelsad   : Weed CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 23236828
+Awater     : 10791
+Intptlat   : +32.7968551
+Intptlon   : -105.5308512
+
+Statefp    : 35
+Placefp    : 84200
+Placens    : 02584236
+Geoid      : 3584200
+Geoidfq    : 1600000US3584200
+Name       : West Hammond
+Namelsad   : West Hammond CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 23583638
+Awater     : 201846
+Intptlat   : +36.6819836
+Intptlon   : -108.0437840
+
+Statefp    : 35
+Placefp    : 84505
+Placens    : 02806738
+Geoid      : 3584505
+Geoidfq    : 1600000US3584505
+Name       : White Cliffs
+Namelsad   : White Cliffs CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1110341
+Awater     : 0
+Intptlat   : +35.5490226
+Intptlon   : -108.6643185
+
+Statefp    : 35
+Placefp    : 84740
+Placens    : 02409584
+Geoid      : 3584740
+Geoidfq    : 1600000US3584740
+Name       : White Rock
+Namelsad   : White Rock CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 18301476
+Awater     : 107762
+Intptlat   : +35.8086450
+Intptlon   : -106.2081205
+
+Statefp    : 35
+Placefp    : 84845
+Placens    : 02409585
+Geoid      : 3584845
+Geoidfq    : 1600000US3584845
+Name       : White Sands
+Namelsad   : White Sands CDP
+Lsad       : 57
+Classfp    : M2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 10941332
+Awater     : 0
+Intptlat   : +32.3804404
+Intptlon   : -106.4791130
+
+Statefp    : 35
+Placefp    : 84950
+Placens    : 02584237
+Geoid      : 3584950
+Geoidfq    : 1600000US3584950
+Name       : Whites City
+Namelsad   : Whites City CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1123770
+Awater     : 0
+Intptlat   : +32.1766453
+Intptlon   : -104.3737974
+
+Statefp    : 35
+Placefp    : 85230
+Placens    : 02806740
+Geoid      : 3585230
+Geoidfq    : 1600000US3585230
+Name       : Williams Acres
+Namelsad   : Williams Acres CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2088845
+Awater     : 0
+Intptlat   : +35.4969381
+Intptlon   : -108.8699800
+
+Statefp    : 35
+Placefp    : 85485
+Placens    : 02584239
+Geoid      : 3585485
+Geoidfq    : 1600000US3585485
+Name       : Windmill
+Namelsad   : Windmill CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3743932
+Awater     : 0
+Intptlat   : +31.9768713
+Intptlon   : -108.6315040
+
+Statefp    : 35
+Placefp    : 85720
+Placens    : 02584240
+Geoid      : 3585720
+Geoidfq    : 1600000US3585720
+Name       : Winston
+Namelsad   : Winston CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1085117
+Awater     : 0
+Intptlat   : +33.3461116
+Intptlon   : -107.6487426
+
+Statefp    : 35
+Placefp    : 85860
+Placens    : 02409634
+Geoid      : 3585860
+Geoidfq    : 1600000US3585860
+Name       : Yah-ta-hey
+Namelsad   : Yah-ta-hey CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 8896805
+Awater     : 0
+Intptlat   : +35.6291027
+Intptlon   : -108.7926673
+
+Statefp    : 35
+Placefp    : 86210
+Placens    : 02584242
+Geoid      : 3586210
+Geoidfq    : 1600000US3586210
+Name       : Youngsville
+Namelsad   : Youngsville CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2302880
+Awater     : 3727
+Intptlat   : +36.1949851
+Intptlon   : -106.5669306
+
+Statefp    : 35
+Placefp    : 86420
+Placens    : 02409646
+Geoid      : 3586420
+Geoidfq    : 1600000US3586420
+Name       : Zia Pueblo
+Namelsad   : Zia Pueblo CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 70006148
+Awater     : 115707
+Intptlat   : +35.5299920
+Intptlon   : -106.7169611
+
+Statefp    : 35
+Placefp    : 86595
+Placens    : 02409649
+Geoid      : 3586595
+Geoidfq    : 1600000US3586595
+Name       : Zuni Pueblo
+Namelsad   : Zuni Pueblo CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 32693527
+Awater     : 0
+Intptlat   : +35.0693508
+Intptlon   : -108.8558324
+
+Statefp    : 35
+Placefp    : 84975
+Placens    : 02584238
+Geoid      : 3584975
+Geoidfq    : 1600000US3584975
+Name       : White Signal
+Namelsad   : White Signal CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 16660574
+Awater     : 23219
+Intptlat   : +32.5677486
+Intptlon   : -108.3490207
+

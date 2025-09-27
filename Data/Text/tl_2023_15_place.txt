@@ -1,0 +1,2771 @@
+Statefp    : 15
+Placefp    : 00400
+Placens    : 02413991
+Geoid      : 1500400
+Geoidfq    : 1600000US1500400
+Name       : Ahuimanu
+Namelsad   : Ahuimanu CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6978696
+Awater     : 0
+Intptlat   : +21.4378905
+Intptlon   : -157.8403300
+
+Statefp    : 15
+Placefp    : 00550
+Placens    : 02413992
+Geoid      : 1500550
+Geoidfq    : 1600000US1500550
+Name       : Aiea
+Namelsad   : Aiea CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4301904
+Awater     : 276211
+Intptlat   : +21.3852618
+Intptlon   : -157.9247497
+
+Statefp    : 15
+Placefp    : 01085
+Placens    : 02413993
+Geoid      : 1501085
+Geoidfq    : 1600000US1501085
+Name       : Ainaloa
+Namelsad   : Ainaloa CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5127803
+Awater     : 0
+Intptlat   : +19.5214768
+Intptlon   : -154.9943779
+
+Statefp    : 15
+Placefp    : 02200
+Placens    : 02413994
+Geoid      : 1502200
+Geoidfq    : 1600000US1502200
+Name       : Anahola
+Namelsad   : Anahola CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 9542956
+Awater     : 1001467
+Intptlat   : +22.1464017
+Intptlon   : -159.3145923
+
+Statefp    : 15
+Placefp    : 02832
+Placens    : 02806891
+Geoid      : 1502832
+Geoidfq    : 1600000US1502832
+Name       : Black Sands
+Namelsad   : Black Sands CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1398601
+Awater     : 0
+Intptlat   : +19.4135600
+Intptlon   : -154.9588029
+
+Statefp    : 15
+Placefp    : 03850
+Placens    : 02414004
+Geoid      : 1503850
+Geoidfq    : 1600000US1503850
+Name       : Captain Cook
+Namelsad   : Captain Cook CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 33296950
+Awater     : 0
+Intptlat   : +19.4995451
+Intptlon   : -155.8936799
+
+Statefp    : 15
+Placefp    : 05900
+Placens    : 02629944
+Geoid      : 1505900
+Geoidfq    : 1600000US1505900
+Name       : Discovery Harbour
+Namelsad   : Discovery Harbour CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 9218127
+Awater     : 0
+Intptlat   : +19.0415042
+Intptlon   : -155.6254122
+
+Statefp    : 15
+Placefp    : 06290
+Placens    : 02583416
+Geoid      : 1506290
+Geoidfq    : 1600000US1506290
+Name       : East Honolulu
+Namelsad   : East Honolulu CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 59584823
+Awater     : 29650906
+Intptlat   : +21.2884461
+Intptlon   : -157.7179003
+
+Statefp    : 15
+Placefp    : 06300
+Placens    : 02806909
+Geoid      : 1506300
+Geoidfq    : 1600000US1506300
+Name       : East Kapolei
+Namelsad   : East Kapolei CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 9444856
+Awater     : 0
+Intptlat   : +21.3632835
+Intptlon   : -158.0409485
+
+Statefp    : 15
+Placefp    : 06325
+Placens    : 02414012
+Geoid      : 1506325
+Geoidfq    : 1600000US1506325
+Name       : Eden Roc
+Namelsad   : Eden Roc CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 16566855
+Awater     : 0
+Intptlat   : +19.4917490
+Intptlon   : -155.0957842
+
+Statefp    : 15
+Placefp    : 07000
+Placens    : 02414013
+Geoid      : 1507000
+Geoidfq    : 1600000US1507000
+Name       : Eleele
+Namelsad   : Eleele CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1991286
+Awater     : 819141
+Intptlat   : +21.9060437
+Intptlon   : -159.5827656
+
+Statefp    : 15
+Placefp    : 07450
+Placens    : 02414014
+Geoid      : 1507450
+Geoidfq    : 1600000US1507450
+Name       : Ewa Beach
+Namelsad   : Ewa Beach CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3085328
+Awater     : 1145762
+Intptlat   : +21.3127403
+Intptlon   : -158.0061138
+
+Statefp    : 15
+Placefp    : 07470
+Placens    : 02414015
+Geoid      : 1507470
+Geoidfq    : 1600000US1507470
+Name       : Ewa Gentry
+Namelsad   : Ewa Gentry CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5513935
+Awater     : 0
+Intptlat   : +21.3344200
+Intptlon   : -158.0262124
+
+Statefp    : 15
+Placefp    : 07485
+Placens    : 02414016
+Geoid      : 1507485
+Geoidfq    : 1600000US1507485
+Name       : Ewa Villages
+Namelsad   : Ewa Villages CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2920561
+Awater     : 0
+Intptlat   : +21.3417340
+Intptlon   : -158.0389289
+
+Statefp    : 15
+Placefp    : 07542
+Placens    : 02414017
+Geoid      : 1507542
+Geoidfq    : 1600000US1507542
+Name       : Fern Acres
+Namelsad   : Fern Acres CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 17631687
+Awater     : 0
+Intptlat   : +19.5082232
+Intptlon   : -155.0785436
+
+Statefp    : 15
+Placefp    : 07675
+Placens    : 02414018
+Geoid      : 1507675
+Geoidfq    : 1600000US1507675
+Name       : Fern Forest
+Namelsad   : Fern Forest CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 32305848
+Awater     : 0
+Intptlat   : +19.4647187
+Intptlon   : -155.1323804
+
+Statefp    : 15
+Placefp    : 08950
+Placens    : 02583417
+Geoid      : 1508950
+Geoidfq    : 1600000US1508950
+Name       : Haena
+Namelsad   : Haena CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3762287
+Awater     : 0
+Intptlat   : +22.2185034
+Intptlon   : -159.5610904
+
+Statefp    : 15
+Placefp    : 09260
+Placens    : 02414025
+Geoid      : 1509260
+Geoidfq    : 1600000US1509260
+Name       : Haiku-Pauwela
+Namelsad   : Haiku-Pauwela CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 40869131
+Awater     : 8774209
+Intptlat   : +20.9208738
+Intptlon   : -156.3018730
+
+Statefp    : 15
+Placefp    : 09700
+Placens    : 02414026
+Geoid      : 1509700
+Geoidfq    : 1600000US1509700
+Name       : Halaula
+Namelsad   : Halaula CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 11329410
+Awater     : 832894
+Intptlat   : +20.2170897
+Intptlon   : -155.7765382
+
+Statefp    : 15
+Placefp    : 10000
+Placens    : 02414027
+Geoid      : 1510000
+Geoidfq    : 1600000US1510000
+Name       : Halawa
+Namelsad   : Halawa CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6186925
+Awater     : 0
+Intptlat   : +21.3753179
+Intptlon   : -157.9184907
+
+Statefp    : 15
+Placefp    : 10750
+Placens    : 02414028
+Geoid      : 1510750
+Geoidfq    : 1600000US1510750
+Name       : Haleiwa
+Namelsad   : Haleiwa CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 7972987
+Awater     : 5436120
+Intptlat   : +21.6023836
+Intptlon   : -158.0956398
+
+Statefp    : 15
+Placefp    : 10900
+Placens    : 02414029
+Geoid      : 1510900
+Geoidfq    : 1600000US1510900
+Name       : Haliimaile
+Namelsad   : Haliimaile CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 8934011
+Awater     : 68247
+Intptlat   : +20.8629134
+Intptlon   : -156.3285420
+
+Statefp    : 15
+Placefp    : 11350
+Placens    : 02414030
+Geoid      : 1511350
+Geoidfq    : 1600000US1511350
+Name       : Hana
+Namelsad   : Hana CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 27344357
+Awater     : 2959534
+Intptlat   : +20.7739747
+Intptlon   : -156.0142581
+
+Statefp    : 15
+Placefp    : 11500
+Placens    : 02414031
+Geoid      : 1511500
+Geoidfq    : 1600000US1511500
+Name       : Hanalei
+Namelsad   : Hanalei CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1753961
+Awater     : 102077
+Intptlat   : +22.2038470
+Intptlon   : -159.4977379
+
+Statefp    : 15
+Placefp    : 11650
+Placens    : 02414032
+Geoid      : 1511650
+Geoidfq    : 1600000US1511650
+Name       : Hanamaulu
+Namelsad   : Hanamaulu CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3294026
+Awater     : 459252
+Intptlat   : +21.9969253
+Intptlon   : -159.3471104
+
+Statefp    : 15
+Placefp    : 11800
+Placens    : 02414033
+Geoid      : 1511800
+Geoidfq    : 1600000US1511800
+Name       : Hanapepe
+Namelsad   : Hanapepe CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2419510
+Awater     : 248990
+Intptlat   : +21.9133106
+Intptlon   : -159.5881645
+
+Statefp    : 15
+Placefp    : 12400
+Placens    : 02414034
+Geoid      : 1512400
+Geoidfq    : 1600000US1512400
+Name       : Hauula
+Namelsad   : Hauula CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2998462
+Awater     : 1997390
+Intptlat   : +21.6120482
+Intptlon   : -157.9108862
+
+Statefp    : 15
+Placefp    : 12450
+Placens    : 02414035
+Geoid      : 1512450
+Geoidfq    : 1600000US1512450
+Name       : Hawaiian Acres
+Namelsad   : Hawaiian Acres CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 50326852
+Awater     : 0
+Intptlat   : +19.5324583
+Intptlon   : -155.0497058
+
+Statefp    : 15
+Placefp    : 12500
+Placens    : 02414036
+Geoid      : 1512500
+Geoidfq    : 1600000US1512500
+Name       : Hawaiian Beaches
+Namelsad   : Hawaiian Beaches CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 39422539
+Awater     : 0
+Intptlat   : +19.5446484
+Intptlon   : -154.9289340
+
+Statefp    : 15
+Placefp    : 12530
+Placens    : 02414037
+Geoid      : 1512530
+Geoidfq    : 1600000US1512530
+Name       : Hawaiian Ocean View
+Namelsad   : Hawaiian Ocean View CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 94018840
+Awater     : 0
+Intptlat   : +19.0959082
+Intptlon   : -155.7749612
+
+Statefp    : 15
+Placefp    : 12600
+Placens    : 02414038
+Geoid      : 1512600
+Geoidfq    : 1600000US1512600
+Name       : Hawaiian Paradise Park
+Namelsad   : Hawaiian Paradise Park CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 39628222
+Awater     : 962961
+Intptlat   : +19.5872809
+Intptlon   : -154.9730692
+
+Statefp    : 15
+Placefp    : 13600
+Placens    : 02414039
+Geoid      : 1513600
+Geoidfq    : 1600000US1513600
+Name       : Hawi
+Namelsad   : Hawi CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 20981661
+Awater     : 22012
+Intptlat   : +20.2274059
+Intptlon   : -155.8395969
+
+Statefp    : 15
+Placefp    : 13900
+Placens    : 02414040
+Geoid      : 1513900
+Geoidfq    : 1600000US1513900
+Name       : Heeia
+Namelsad   : Heeia CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 8290194
+Awater     : 653000
+Intptlat   : +21.4202218
+Intptlon   : -157.8188848
+
+Statefp    : 15
+Placefp    : 13970
+Placens    : 02804359
+Geoid      : 1513970
+Geoidfq    : 1600000US1513970
+Name       : Helemano
+Namelsad   : Helemano CDP
+Lsad       : 57
+Classfp    : M2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1204608
+Awater     : 0
+Intptlat   : +21.5361123
+Intptlon   : -158.0194801
+
+Statefp    : 15
+Placefp    : 14200
+Placens    : 02414041
+Geoid      : 1514200
+Geoidfq    : 1600000US1514200
+Name       : Hickam Housing
+Namelsad   : Hickam Housing CDP
+Lsad       : 57
+Classfp    : M2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 11936067
+Awater     : 768282
+Intptlat   : +21.3309609
+Intptlon   : -157.9543555
+
+Statefp    : 15
+Placefp    : 14650
+Placens    : 02414042
+Geoid      : 1514650
+Geoidfq    : 1600000US1514650
+Name       : Hilo
+Namelsad   : Hilo CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : Y
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 138837951
+Awater     : 15577541
+Intptlat   : +19.6887478
+Intptlon   : -155.0828924
+
+Statefp    : 15
+Placefp    : 15700
+Placens    : 02414043
+Geoid      : 1515700
+Geoidfq    : 1600000US1515700
+Name       : Holualoa
+Namelsad   : Holualoa CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 90917565
+Awater     : 17386
+Intptlat   : +19.6685679
+Intptlon   : -155.9187231
+
+Statefp    : 15
+Placefp    : 16000
+Placens    : 02414044
+Geoid      : 1516000
+Geoidfq    : 1600000US1516000
+Name       : Honalo
+Namelsad   : Honalo CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 70378168
+Awater     : 0
+Intptlat   : +19.5810191
+Intptlon   : -155.8984432
+
+Statefp    : 15
+Placefp    : 16160
+Placens    : 02414045
+Geoid      : 1516160
+Geoidfq    : 1600000US1516160
+Name       : Honaunau-Napoopoo
+Namelsad   : Honaunau-Napoopoo CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 98432501
+Awater     : 10056241
+Intptlat   : +19.4725115
+Intptlon   : -155.8414887
+
+Statefp    : 15
+Placefp    : 16450
+Placens    : 02414046
+Geoid      : 1516450
+Geoidfq    : 1600000US1516450
+Name       : Honokaa
+Namelsad   : Honokaa CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5454701
+Awater     : 0
+Intptlat   : +20.0775750
+Intptlon   : -155.4643891
+
+Statefp    : 15
+Placefp    : 17450
+Placens    : 02414048
+Geoid      : 1517450
+Geoidfq    : 1600000US1517450
+Name       : Honomu
+Namelsad   : Honomu CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1182596
+Awater     : 74805
+Intptlat   : +19.8701004
+Intptlon   : -155.1099303
+
+Statefp    : 15
+Placefp    : 19100
+Placens    : 02414050
+Geoid      : 1519100
+Geoidfq    : 1600000US1519100
+Name       : Iroquois Point
+Namelsad   : Iroquois Point CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2105276
+Awater     : 859135
+Intptlat   : +21.3206842
+Intptlon   : -157.9774292
+
+Statefp    : 15
+Placefp    : 19550
+Placens    : 02414051
+Geoid      : 1519550
+Geoidfq    : 1600000US1519550
+Name       : Kaaawa
+Namelsad   : Kaaawa CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2064509
+Awater     : 1360104
+Intptlat   : +21.5431489
+Intptlon   : -157.8504811
+
+Statefp    : 15
+Placefp    : 20000
+Placens    : 02414052
+Geoid      : 1520000
+Geoidfq    : 1600000US1520000
+Name       : Kaanapali
+Namelsad   : Kaanapali CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 12958742
+Awater     : 3450173
+Intptlat   : +20.9304679
+Intptlon   : -156.6864457
+
+Statefp    : 15
+Placefp    : 21200
+Placens    : 02414054
+Geoid      : 1521200
+Geoidfq    : 1600000US1521200
+Name       : Kahaluu
+Namelsad   : Kahaluu CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 9016541
+Awater     : 2703532
+Intptlat   : +21.4563629
+Intptlon   : -157.8421377
+
+Statefp    : 15
+Placefp    : 21230
+Placens    : 02414055
+Geoid      : 1521230
+Geoidfq    : 1600000US1521230
+Name       : Kahaluu-Keauhou
+Namelsad   : Kahaluu-Keauhou CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 20735205
+Awater     : 5891192
+Intptlat   : +19.5730807
+Intptlon   : -155.9572770
+
+Statefp    : 15
+Placefp    : 22250
+Placens    : 02414056
+Geoid      : 1522250
+Geoidfq    : 1600000US1522250
+Name       : Kahuku
+Namelsad   : Kahuku CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2494341
+Awater     : 3477189
+Intptlat   : +21.6789433
+Intptlon   : -157.9431567
+
+Statefp    : 15
+Placefp    : 22700
+Placens    : 02414057
+Geoid      : 1522700
+Geoidfq    : 1600000US1522700
+Name       : Kahului
+Namelsad   : Kahului CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : Y
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 37258943
+Awater     : 4259772
+Intptlat   : +20.8684712
+Intptlon   : -156.4656159
+
+Statefp    : 15
+Placefp    : 23000
+Placens    : 02414058
+Geoid      : 1523000
+Geoidfq    : 1600000US1523000
+Name       : Kailua
+Namelsad   : Kailua CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : Y
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 35733827
+Awater     : 13976275
+Intptlat   : +19.6455811
+Intptlon   : -155.9977488
+
+Statefp    : 15
+Placefp    : 23150
+Placens    : 02414059
+Geoid      : 1523150
+Geoidfq    : 1600000US1523150
+Name       : Kailua
+Namelsad   : Kailua CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 20129495
+Awater     : 7307804
+Intptlat   : +21.3967830
+Intptlon   : -157.7357987
+
+Statefp    : 15
+Placefp    : 23675
+Placens    : 02414061
+Geoid      : 1523675
+Geoidfq    : 1600000US1523675
+Name       : Kaiminani
+Namelsad   : Kaiminani CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 96368294
+Awater     : 9695284
+Intptlat   : +19.7566953
+Intptlon   : -156.0010941
+
+Statefp    : 15
+Placefp    : 24850
+Placens    : 02627933
+Geoid      : 1524850
+Geoidfq    : 1600000US1524850
+Name       : Kalaeloa
+Namelsad   : Kalaeloa CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 15790684
+Awater     : 0
+Intptlat   : +21.3135076
+Intptlon   : -158.0650297
+
+Statefp    : 15
+Placefp    : 24950
+Placens    : 02414060
+Geoid      : 1524950
+Geoidfq    : 1600000US1524950
+Name       : Kalaheo
+Namelsad   : Kalaheo CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 9063033
+Awater     : 113202
+Intptlat   : +21.9185591
+Intptlon   : -159.5187329
+
+Statefp    : 15
+Placefp    : 25700
+Placens    : 02806893
+Geoid      : 1525700
+Geoidfq    : 1600000US1525700
+Name       : Kalapana
+Namelsad   : Kalapana CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3930885
+Awater     : 0
+Intptlat   : +19.3565593
+Intptlon   : -154.9751866
+
+Statefp    : 15
+Placefp    : 26750
+Placens    : 02414062
+Geoid      : 1526750
+Geoidfq    : 1600000US1526750
+Name       : Kalihiwai
+Namelsad   : Kalihiwai CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6842153
+Awater     : 320943
+Intptlat   : +22.2176106
+Intptlon   : -159.4491660
+
+Statefp    : 15
+Placefp    : 26867
+Placens    : 02806894
+Geoid      : 1526867
+Geoidfq    : 1600000US1526867
+Name       : Kaloko
+Namelsad   : Kaloko CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 34984274
+Awater     : 3904
+Intptlat   : +19.7283902
+Intptlon   : -155.9537370
+
+Statefp    : 15
+Placefp    : 27350
+Placens    : 02806896
+Geoid      : 1527350
+Geoidfq    : 1600000US1527350
+Name       : Kamaili
+Namelsad   : Kamaili CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 18336172
+Awater     : 0
+Intptlat   : +19.4391132
+Intptlon   : -154.9188475
+
+Statefp    : 15
+Placefp    : 28250
+Placens    : 02414063
+Geoid      : 1528250
+Geoidfq    : 1600000US1528250
+Name       : Kaneohe
+Namelsad   : Kaneohe CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 16945093
+Awater     : 4967943
+Intptlat   : +21.4093319
+Intptlon   : -157.7896476
+
+Statefp    : 15
+Placefp    : 28287
+Placens    : 02414064
+Geoid      : 1528287
+Geoidfq    : 1600000US1528287
+Name       : Kaneohe Base
+Namelsad   : Kaneohe Base CDP
+Lsad       : 57
+Classfp    : M2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 11405739
+Awater     : 3672821
+Intptlat   : +21.4454471
+Intptlon   : -157.7514355
+
+Statefp    : 15
+Placefp    : 28850
+Placens    : 02414065
+Geoid      : 1528850
+Geoidfq    : 1600000US1528850
+Name       : Kapaa
+Namelsad   : Kapaa CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : Y
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 25981975
+Awater     : 861558
+Intptlat   : +22.0882152
+Intptlon   : -159.3519450
+
+Statefp    : 15
+Placefp    : 29000
+Placens    : 02414066
+Geoid      : 1529000
+Geoidfq    : 1600000US1529000
+Name       : Kapaau
+Namelsad   : Kapaau CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 15997231
+Awater     : 24975
+Intptlat   : +20.2345969
+Intptlon   : -155.8016526
+
+Statefp    : 15
+Placefp    : 29725
+Placens    : 02414067
+Geoid      : 1529725
+Geoidfq    : 1600000US1529725
+Name       : Kapalua
+Namelsad   : Kapalua CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 12549065
+Awater     : 2622912
+Intptlat   : +20.9940545
+Intptlon   : -156.6430662
+
+Statefp    : 15
+Placefp    : 30300
+Placens    : 02583418
+Geoid      : 1530300
+Geoidfq    : 1600000US1530300
+Name       : Kapolei
+Namelsad   : Kapolei CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 11316578
+Awater     : 0
+Intptlat   : +21.3399253
+Intptlon   : -158.0678270
+
+Statefp    : 15
+Placefp    : 30650
+Placens    : 02414068
+Geoid      : 1530650
+Geoidfq    : 1600000US1530650
+Name       : Kaumakani
+Namelsad   : Kaumakani CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2457299
+Awater     : 286756
+Intptlat   : +21.9177648
+Intptlon   : -159.6272685
+
+Statefp    : 15
+Placefp    : 31100
+Placens    : 02414069
+Geoid      : 1531100
+Geoidfq    : 1600000US1531100
+Name       : Kaunakakai
+Namelsad   : Kaunakakai CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 33263460
+Awater     : 9332778
+Intptlat   : +21.0941542
+Intptlon   : -157.0009490
+
+Statefp    : 15
+Placefp    : 32700
+Placens    : 02414070
+Geoid      : 1532700
+Geoidfq    : 1600000US1532700
+Name       : Kawela Bay
+Namelsad   : Kawela Bay CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1506017
+Awater     : 3625612
+Intptlat   : +21.6989834
+Intptlon   : -157.9989007
+
+Statefp    : 15
+Placefp    : 32900
+Placens    : 02414071
+Geoid      : 1532900
+Geoidfq    : 1600000US1532900
+Name       : Keaau
+Namelsad   : Keaau CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 16246068
+Awater     : 0
+Intptlat   : +19.6233043
+Intptlon   : -155.0482687
+
+Statefp    : 15
+Placefp    : 33950
+Placens    : 02414072
+Geoid      : 1533950
+Geoidfq    : 1600000US1533950
+Name       : Kealakekua
+Namelsad   : Kealakekua CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 25893848
+Awater     : 0
+Intptlat   : +19.5286652
+Intptlon   : -155.9111076
+
+Statefp    : 15
+Placefp    : 35600
+Placens    : 02414073
+Geoid      : 1535600
+Geoidfq    : 1600000US1535600
+Name       : Kekaha
+Namelsad   : Kekaha CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2483351
+Awater     : 860573
+Intptlat   : +21.9675417
+Intptlon   : -159.7144698
+
+Statefp    : 15
+Placefp    : 36050
+Placens    : 02583419
+Geoid      : 1536050
+Geoidfq    : 1600000US1536050
+Name       : Keokea
+Namelsad   : Keokea CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 47517257
+Awater     : 0
+Intptlat   : +20.7210339
+Intptlon   : -156.3624445
+
+Statefp    : 15
+Placefp    : 36500
+Placens    : 02414074
+Geoid      : 1536500
+Geoidfq    : 1600000US1536500
+Name       : Kihei
+Namelsad   : Kihei CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 24251664
+Awater     : 6172577
+Intptlat   : +20.7660871
+Intptlon   : -156.4352138
+
+Statefp    : 15
+Placefp    : 36650
+Placens    : 02414075
+Geoid      : 1536650
+Geoidfq    : 1600000US1536650
+Name       : Kilauea
+Namelsad   : Kilauea CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 12871159
+Awater     : 776707
+Intptlat   : +22.2120250
+Intptlon   : -159.3986620
+
+Statefp    : 15
+Placefp    : 39200
+Placens    : 02414077
+Geoid      : 1539200
+Geoidfq    : 1600000US1539200
+Name       : Koloa
+Namelsad   : Koloa CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3238661
+Awater     : 0
+Intptlat   : +21.9029710
+Intptlon   : -159.4610670
+
+Statefp    : 15
+Placefp    : 39400
+Placens    : 02583420
+Geoid      : 1539400
+Geoidfq    : 1600000US1539400
+Name       : Ko Olina
+Namelsad   : Ko Olina CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2795491
+Awater     : 0
+Intptlat   : +21.3377727
+Intptlon   : -158.1186183
+
+Statefp    : 15
+Placefp    : 39500
+Placens    : 02414078
+Geoid      : 1539500
+Geoidfq    : 1600000US1539500
+Name       : Kualapuu
+Namelsad   : Kualapuu CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 75880647
+Awater     : 353518
+Intptlat   : +21.1550394
+Intptlon   : -157.0642435
+
+Statefp    : 15
+Placefp    : 41000
+Placens    : 02414079
+Geoid      : 1541000
+Geoidfq    : 1600000US1541000
+Name       : Kukuihaele
+Namelsad   : Kukuihaele CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4436699
+Awater     : 1502338
+Intptlat   : +20.1213260
+Intptlon   : -155.5625178
+
+Statefp    : 15
+Placefp    : 41600
+Placens    : 02583421
+Geoid      : 1541600
+Geoidfq    : 1600000US1541600
+Name       : Kula
+Namelsad   : Kula CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 89458122
+Awater     : 3035
+Intptlat   : +20.7680604
+Intptlon   : -156.3345409
+
+Statefp    : 15
+Placefp    : 42800
+Placens    : 02414080
+Geoid      : 1542800
+Geoidfq    : 1600000US1542800
+Name       : Kurtistown
+Namelsad   : Kurtistown CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 18526308
+Awater     : 0
+Intptlat   : +19.5860131
+Intptlon   : -155.0712781
+
+Statefp    : 15
+Placefp    : 42950
+Placens    : 02414081
+Geoid      : 1542950
+Geoidfq    : 1600000US1542950
+Name       : Lahaina
+Namelsad   : Lahaina CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 20140282
+Awater     : 3930602
+Intptlat   : +20.8860478
+Intptlon   : -156.6661947
+
+Statefp    : 15
+Placefp    : 43250
+Placens    : 02414082
+Geoid      : 1543250
+Geoidfq    : 1600000US1543250
+Name       : Laie
+Namelsad   : Laie CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3467615
+Awater     : 2156370
+Intptlat   : +21.6455445
+Intptlon   : -157.9228554
+
+Statefp    : 15
+Placefp    : 43700
+Placens    : 02414083
+Geoid      : 1543700
+Geoidfq    : 1600000US1543700
+Name       : Lanai City
+Namelsad   : Lanai City CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 17527173
+Awater     : 0
+Intptlat   : +20.8279322
+Intptlon   : -156.9147028
+
+Statefp    : 15
+Placefp    : 44075
+Placens    : 02583422
+Geoid      : 1544075
+Geoidfq    : 1600000US1544075
+Name       : Launiupoko
+Namelsad   : Launiupoko CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 13801897
+Awater     : 16117
+Intptlat   : +20.8543520
+Intptlon   : -156.6424904
+
+Statefp    : 15
+Placefp    : 44150
+Placens    : 02414085
+Geoid      : 1544150
+Geoidfq    : 1600000US1544150
+Name       : Laupahoehoe
+Namelsad   : Laupahoehoe CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 8394239
+Awater     : 656178
+Intptlat   : +19.9699439
+Intptlon   : -155.2361440
+
+Statefp    : 15
+Placefp    : 44450
+Placens    : 02414086
+Geoid      : 1544450
+Geoidfq    : 1600000US1544450
+Name       : Lawai
+Namelsad   : Lawai CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 10509581
+Awater     : 250304
+Intptlat   : +21.9201172
+Intptlon   : -159.5009566
+
+Statefp    : 15
+Placefp    : 44562
+Placens    : 02414087
+Geoid      : 1544562
+Geoidfq    : 1600000US1544562
+Name       : Leilani Estates
+Namelsad   : Leilani Estates CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 10450010
+Awater     : 0
+Intptlat   : +19.4658470
+Intptlon   : -154.9157444
+
+Statefp    : 15
+Placefp    : 45200
+Placens    : 02414088
+Geoid      : 1545200
+Geoidfq    : 1600000US1545200
+Name       : Lihue
+Namelsad   : Lihue CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 19313251
+Awater     : 2016385
+Intptlat   : +21.9725819
+Intptlon   : -159.3558069
+
+Statefp    : 15
+Placefp    : 46400
+Placens    : 02414089
+Geoid      : 1546400
+Geoidfq    : 1600000US1546400
+Name       : Maalaea
+Namelsad   : Maalaea CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 13351346
+Awater     : 6035748
+Intptlat   : +20.8022436
+Intptlon   : -156.4886594
+
+Statefp    : 15
+Placefp    : 47050
+Placens    : 02583423
+Geoid      : 1547050
+Geoidfq    : 1600000US1547050
+Name       : Mahinahina
+Namelsad   : Mahinahina CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 17231286
+Awater     : 14223
+Intptlat   : +20.9546343
+Intptlon   : -156.6572729
+
+Statefp    : 15
+Placefp    : 47300
+Placens    : 02414090
+Geoid      : 1547300
+Geoidfq    : 1600000US1547300
+Name       : Maili
+Namelsad   : Maili CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4426351
+Awater     : 2833890
+Intptlat   : +21.4143905
+Intptlon   : -158.1748325
+
+Statefp    : 15
+Placefp    : 47450
+Placens    : 02414093
+Geoid      : 1547450
+Geoidfq    : 1600000US1547450
+Name       : Makaha
+Namelsad   : Makaha CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6967170
+Awater     : 7419233
+Intptlat   : +21.4676746
+Intptlon   : -158.2163893
+
+Statefp    : 15
+Placefp    : 47560
+Placens    : 02414094
+Geoid      : 1547560
+Geoidfq    : 1600000US1547560
+Name       : Makaha Valley
+Namelsad   : Makaha Valley CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 9684884
+Awater     : 0
+Intptlat   : +21.4843728
+Intptlon   : -158.1842821
+
+Statefp    : 15
+Placefp    : 47600
+Placens    : 02414095
+Geoid      : 1547600
+Geoidfq    : 1600000US1547600
+Name       : Makakilo
+Namelsad   : Makakilo CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 9895311
+Awater     : 0
+Intptlat   : +21.3590173
+Intptlon   : -158.0812102
+
+Statefp    : 15
+Placefp    : 48050
+Placens    : 02414096
+Geoid      : 1548050
+Geoidfq    : 1600000US1548050
+Name       : Makawao
+Namelsad   : Makawao CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 9183943
+Awater     : 0
+Intptlat   : +20.8480451
+Intptlon   : -156.3190285
+
+Statefp    : 15
+Placefp    : 48350
+Placens    : 02583424
+Geoid      : 1548350
+Geoidfq    : 1600000US1548350
+Name       : Makena
+Namelsad   : Makena CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 24527819
+Awater     : 5359581
+Intptlat   : +20.6240416
+Intptlon   : -156.4286218
+
+Statefp    : 15
+Placefp    : 49425
+Placens    : 02583425
+Geoid      : 1549425
+Geoidfq    : 1600000US1549425
+Name       : Manele
+Namelsad   : Manele CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3174641
+Awater     : 0
+Intptlat   : +20.7419747
+Intptlon   : -156.9011691
+
+Statefp    : 15
+Placefp    : 50150
+Placens    : 02414098
+Geoid      : 1550150
+Geoidfq    : 1600000US1550150
+Name       : Maunaloa
+Namelsad   : Maunaloa CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1906766
+Awater     : 0
+Intptlat   : +21.1333828
+Intptlon   : -157.2122167
+
+Statefp    : 15
+Placefp    : 50375
+Placens    : 02806898
+Geoid      : 1550375
+Geoidfq    : 1600000US1550375
+Name       : Mauna Loa Estates
+Namelsad   : Mauna Loa Estates CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4757842
+Awater     : 0
+Intptlat   : +19.4274250
+Intptlon   : -155.2213242
+
+Statefp    : 15
+Placefp    : 50750
+Placens    : 02414099
+Geoid      : 1550750
+Geoidfq    : 1600000US1550750
+Name       : Maunawili
+Namelsad   : Maunawili CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4735163
+Awater     : 0
+Intptlat   : +21.3667428
+Intptlon   : -157.7713146
+
+Statefp    : 15
+Placefp    : 51000
+Placens    : 02583426
+Geoid      : 1551000
+Geoidfq    : 1600000US1551000
+Name       : Mililani Mauka
+Namelsad   : Mililani Mauka CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 10345141
+Awater     : 0
+Intptlat   : +21.4756283
+Intptlon   : -157.9948313
+
+Statefp    : 15
+Placefp    : 51050
+Placens    : 02414101
+Geoid      : 1551050
+Geoidfq    : 1600000US1551050
+Name       : Mililani Town
+Namelsad   : Mililani Town CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 10384095
+Awater     : 0
+Intptlat   : +21.4465061
+Intptlon   : -158.0146437
+
+Statefp    : 15
+Placefp    : 52550
+Placens    : 02414102
+Geoid      : 1552550
+Geoidfq    : 1600000US1552550
+Name       : Mokuleia
+Namelsad   : Mokuleia CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 7011878
+Awater     : 3198912
+Intptlat   : +21.5794443
+Intptlon   : -158.1717649
+
+Statefp    : 15
+Placefp    : 53300
+Placens    : 02414104
+Geoid      : 1553300
+Geoidfq    : 1600000US1553300
+Name       : Mountain View
+Namelsad   : Mountain View CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 142310474
+Awater     : 7555
+Intptlat   : +19.5345139
+Intptlon   : -155.1844313
+
+Statefp    : 15
+Placefp    : 53600
+Placens    : 02414105
+Geoid      : 1553600
+Geoidfq    : 1600000US1553600
+Name       : Naalehu
+Namelsad   : Naalehu CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5615035
+Awater     : 0
+Intptlat   : +19.0698161
+Intptlon   : -155.5751265
+
+Statefp    : 15
+Placefp    : 53900
+Placens    : 02414106
+Geoid      : 1553900
+Geoidfq    : 1600000US1553900
+Name       : Nanakuli
+Namelsad   : Nanakuli CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 7741545
+Awater     : 9264268
+Intptlat   : +21.3898481
+Intptlon   : -158.1549742
+
+Statefp    : 15
+Placefp    : 53975
+Placens    : 02414107
+Geoid      : 1553975
+Geoidfq    : 1600000US1553975
+Name       : Nanawale Estates
+Namelsad   : Nanawale Estates CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6562982
+Awater     : 0
+Intptlat   : +19.5035599
+Intptlon   : -154.9103969
+
+Statefp    : 15
+Placefp    : 54100
+Placens    : 02414108
+Geoid      : 1554100
+Geoidfq    : 1600000US1554100
+Name       : Napili-Honokowai
+Namelsad   : Napili-Honokowai CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6727255
+Awater     : 4250044
+Intptlat   : +20.9732912
+Intptlon   : -156.6650507
+
+Statefp    : 15
+Placefp    : 56685
+Placens    : 02583427
+Geoid      : 1556685
+Geoidfq    : 1600000US1556685
+Name       : Ocean Pointe
+Namelsad   : Ocean Pointe CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5241829
+Awater     : 293209
+Intptlat   : +21.3135342
+Intptlon   : -158.0271637
+
+Statefp    : 15
+Placefp    : 57350
+Placens    : 02583428
+Geoid      : 1557350
+Geoidfq    : 1600000US1557350
+Name       : Olinda
+Namelsad   : Olinda CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 19411648
+Awater     : 3610
+Intptlat   : +20.8278161
+Intptlon   : -156.2916431
+
+Statefp    : 15
+Placefp    : 57650
+Placens    : 02583429
+Geoid      : 1557650
+Geoidfq    : 1600000US1557650
+Name       : Olowalu
+Namelsad   : Olowalu CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 7624334
+Awater     : 7319
+Intptlat   : +20.8276882
+Intptlon   : -156.6194552
+
+Statefp    : 15
+Placefp    : 57800
+Placens    : 02414111
+Geoid      : 1557800
+Geoidfq    : 1600000US1557800
+Name       : Omao
+Namelsad   : Omao CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3282998
+Awater     : 41202
+Intptlat   : +21.9365768
+Intptlon   : -159.4857323
+
+Statefp    : 15
+Placefp    : 58775
+Placens    : 02414112
+Geoid      : 1558775
+Geoidfq    : 1600000US1558775
+Name       : Orchidlands Estates
+Namelsad   : Orchidlands Estates CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 25141215
+Awater     : 0
+Intptlat   : +19.5570015
+Intptlon   : -155.0142383
+
+Statefp    : 15
+Placefp    : 59300
+Placens    : 02414114
+Geoid      : 1559300
+Geoidfq    : 1600000US1559300
+Name       : Paauilo
+Namelsad   : Paauilo CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3109076
+Awater     : 116540
+Intptlat   : +20.0348622
+Intptlon   : -155.3735913
+
+Statefp    : 15
+Placefp    : 59750
+Placens    : 02414115
+Geoid      : 1559750
+Geoidfq    : 1600000US1559750
+Name       : Pahala
+Namelsad   : Pahala CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1663740
+Awater     : 0
+Intptlat   : +19.1991899
+Intptlon   : -155.4772794
+
+Statefp    : 15
+Placefp    : 59900
+Placens    : 02414116
+Geoid      : 1559900
+Geoidfq    : 1600000US1559900
+Name       : Pahoa
+Namelsad   : Pahoa CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5640107
+Awater     : 0
+Intptlat   : +19.4959665
+Intptlon   : -154.9453498
+
+Statefp    : 15
+Placefp    : 60200
+Placens    : 02414117
+Geoid      : 1560200
+Geoidfq    : 1600000US1560200
+Name       : Paia
+Namelsad   : Paia CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 15878391
+Awater     : 3448073
+Intptlat   : +20.9093492
+Intptlon   : -156.3692898
+
+Statefp    : 15
+Placefp    : 60350
+Placens    : 02414118
+Geoid      : 1560350
+Geoidfq    : 1600000US1560350
+Name       : Pakala Village
+Namelsad   : Pakala Village CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6204728
+Awater     : 887008
+Intptlat   : +21.9509918
+Intptlon   : -159.6391360
+
+Statefp    : 15
+Placefp    : 61550
+Placens    : 02414119
+Geoid      : 1561550
+Geoidfq    : 1600000US1561550
+Name       : Papaikou
+Namelsad   : Papaikou CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3765535
+Awater     : 1852402
+Intptlat   : +19.7923350
+Intptlon   : -155.0922379
+
+Statefp    : 15
+Placefp    : 61700
+Placens    : 02414120
+Geoid      : 1561700
+Geoidfq    : 1600000US1561700
+Name       : Paukaa
+Namelsad   : Paukaa CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 852082
+Awater     : 258762
+Intptlat   : +19.7643951
+Intptlon   : -155.0919145
+
+Statefp    : 15
+Placefp    : 62600
+Placens    : 02414121
+Geoid      : 1562600
+Geoidfq    : 1600000US1562600
+Name       : Pearl City
+Namelsad   : Pearl City CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 23620400
+Awater     : 2424936
+Intptlat   : +21.4026091
+Intptlon   : -157.9569068
+
+Statefp    : 15
+Placefp    : 63650
+Placens    : 02414122
+Geoid      : 1563650
+Geoidfq    : 1600000US1563650
+Name       : Pepeekeo
+Namelsad   : Pepeekeo CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2846159
+Awater     : 0
+Intptlat   : +19.8325100
+Intptlon   : -155.1056350
+
+Statefp    : 15
+Placefp    : 64550
+Placens    : 02414124
+Geoid      : 1564550
+Geoidfq    : 1600000US1564550
+Name       : Poipu
+Namelsad   : Poipu CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6711655
+Awater     : 828427
+Intptlat   : +21.8860465
+Intptlon   : -159.4571683
+
+Statefp    : 15
+Placefp    : 65075
+Placens    : 02414125
+Geoid      : 1565075
+Geoidfq    : 1600000US1565075
+Name       : Princeville
+Namelsad   : Princeville CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6737031
+Awater     : 116787
+Intptlat   : +22.2196813
+Intptlon   : -159.4814450
+
+Statefp    : 15
+Placefp    : 65150
+Placens    : 02414126
+Geoid      : 1565150
+Geoidfq    : 1600000US1565150
+Name       : Puako
+Namelsad   : Puako CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 8306028
+Awater     : 5781418
+Intptlat   : +19.9591253
+Intptlon   : -155.8491078
+
+Statefp    : 15
+Placefp    : 65750
+Placens    : 02414127
+Geoid      : 1565750
+Geoidfq    : 1600000US1565750
+Name       : Puhi
+Namelsad   : Puhi CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2302337
+Awater     : 11493
+Intptlat   : +21.9615822
+Intptlon   : -159.3917241
+
+Statefp    : 15
+Placefp    : 65900
+Placens    : 02414128
+Geoid      : 1565900
+Geoidfq    : 1600000US1565900
+Name       : Pukalani
+Namelsad   : Pukalani CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 9772930
+Awater     : 0
+Intptlat   : +20.8329126
+Intptlon   : -156.3415090
+
+Statefp    : 15
+Placefp    : 66500
+Placens    : 02414129
+Geoid      : 1566500
+Geoidfq    : 1600000US1566500
+Name       : Punaluu
+Namelsad   : Punaluu CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4139126
+Awater     : 1213729
+Intptlat   : +21.5818850
+Intptlon   : -157.8895663
+
+Statefp    : 15
+Placefp    : 66800
+Placens    : 02414130
+Geoid      : 1566800
+Geoidfq    : 1600000US1566800
+Name       : Pupukea
+Namelsad   : Pupukea CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 8902681
+Awater     : 6851540
+Intptlat   : +21.6521933
+Intptlon   : -158.0578762
+
+Statefp    : 15
+Placefp    : 68807
+Placens    : 02806900
+Geoid      : 1568807
+Geoidfq    : 1600000US1568807
+Name       : Royal Hawaiian Estates
+Namelsad   : Royal Hawaiian Estates CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 7568482
+Awater     : 0
+Intptlat   : +19.4412235
+Intptlon   : -155.1840281
+
+Statefp    : 15
+Placefp    : 68815
+Placens    : 02414148
+Geoid      : 1568815
+Geoidfq    : 1600000US1568815
+Name       : Royal Kunia
+Namelsad   : Royal Kunia CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 7797829
+Awater     : 0
+Intptlat   : +21.4052796
+Intptlon   : -158.0318108
+
+Statefp    : 15
+Placefp    : 69050
+Placens    : 02414138
+Geoid      : 1569050
+Geoidfq    : 1600000US1569050
+Name       : Schofield Barracks
+Namelsad   : Schofield Barracks CDP
+Lsad       : 57
+Classfp    : M2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 7177614
+Awater     : 4701
+Intptlat   : +21.4927824
+Intptlon   : -158.0622092
+
+Statefp    : 15
+Placefp    : 69238
+Placens    : 02812709
+Geoid      : 1569238
+Geoidfq    : 1600000US1569238
+Name       : Seaview
+Namelsad   : Seaview CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1703214
+Awater     : 0
+Intptlat   : +19.4067182
+Intptlon   : -154.9214480
+
+Statefp    : 15
+Placefp    : 70280
+Placens    : 02806904
+Geoid      : 1570280
+Geoidfq    : 1600000US1570280
+Name       : Tiki Gardens
+Namelsad   : Tiki Gardens CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4453331
+Awater     : 0
+Intptlat   : +19.5286991
+Intptlon   : -155.0030870
+
+Statefp    : 15
+Placefp    : 70700
+Placens    : 02583430
+Geoid      : 1570700
+Geoidfq    : 1600000US1570700
+Name       : Ualapue
+Namelsad   : Ualapue CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 8198307
+Awater     : 1221591
+Intptlat   : +21.0718834
+Intptlon   : -156.8349871
+
+Statefp    : 15
+Placefp    : 71550
+Placens    : 02630783
+Geoid      : 1571550
+Geoidfq    : 1600000US1571550
+Name       : Urban Honolulu
+Namelsad   : Urban Honolulu CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : Y
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 157010077
+Awater     : 20284394
+Intptlat   : +21.3243470
+Intptlon   : -157.8476402
+
+Statefp    : 15
+Placefp    : 72350
+Placens    : 02414149
+Geoid      : 1572350
+Geoidfq    : 1600000US1572350
+Name       : Volcano
+Namelsad   : Volcano CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 69136986
+Awater     : 0
+Intptlat   : +19.4864107
+Intptlon   : -155.2774144
+
+Statefp    : 15
+Placefp    : 72468
+Placens    : 02806905
+Geoid      : 1572468
+Geoidfq    : 1600000US1572468
+Name       : Volcano Golf Course
+Namelsad   : Volcano Golf Course CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2402236
+Awater     : 0
+Intptlat   : +19.4423754
+Intptlon   : -155.2788330
+
+Statefp    : 15
+Placefp    : 72650
+Placens    : 02414150
+Geoid      : 1572650
+Geoidfq    : 1600000US1572650
+Name       : Wahiawa
+Namelsad   : Wahiawa CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5928998
+Awater     : 653145
+Intptlat   : +21.5006645
+Intptlon   : -158.0179641
+
+Statefp    : 15
+Placefp    : 72957
+Placens    : 02414154
+Geoid      : 1572957
+Geoidfq    : 1600000US1572957
+Name       : Waiahole-Waikane
+Namelsad   : Waiahole-Waikane CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 17640224
+Awater     : 969754
+Intptlat   : +21.4897779
+Intptlon   : -157.8659646
+
+Statefp    : 15
+Placefp    : 74000
+Placens    : 02414151
+Geoid      : 1574000
+Geoidfq    : 1600000US1574000
+Name       : Waialua
+Namelsad   : Waialua CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5675152
+Awater     : 513761
+Intptlat   : +21.5674450
+Intptlon   : -158.1205249
+
+Statefp    : 15
+Placefp    : 74450
+Placens    : 02414152
+Geoid      : 1574450
+Geoidfq    : 1600000US1574450
+Name       : Waianae
+Namelsad   : Waianae CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 13970214
+Awater     : 4372543
+Intptlat   : +21.4518158
+Intptlon   : -158.1820434
+
+Statefp    : 15
+Placefp    : 75510
+Placens    : 02414153
+Geoid      : 1575510
+Geoidfq    : 1600000US1575510
+Name       : Waihee-Waiehu
+Namelsad   : Waihee-Waiehu CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 11043768
+Awater     : 2224193
+Intptlat   : +20.9239322
+Intptlon   : -156.5075649
+
+Statefp    : 15
+Placefp    : 75950
+Placens    : 02414155
+Geoid      : 1575950
+Geoidfq    : 1600000US1575950
+Name       : Waikapu
+Namelsad   : Waikapu CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 28540281
+Awater     : 51784
+Intptlat   : +20.8366534
+Intptlon   : -156.5305986
+
+Statefp    : 15
+Placefp    : 76250
+Placens    : 02583431
+Geoid      : 1576250
+Geoidfq    : 1600000US1576250
+Name       : Waikele
+Namelsad   : Waikele CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2849982
+Awater     : 0
+Intptlat   : +21.4025541
+Intptlon   : -158.0058323
+
+Statefp    : 15
+Placefp    : 76584
+Placens    : 02806907
+Geoid      : 1576584
+Geoidfq    : 1600000US1576584
+Name       : Waikoloa Beach Resort
+Namelsad   : Waikoloa Beach Resort CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 18363369
+Awater     : 13206664
+Intptlat   : +19.9305631
+Intptlon   : -155.8779083
+
+Statefp    : 15
+Placefp    : 76600
+Placens    : 02414156
+Geoid      : 1576600
+Geoidfq    : 1600000US1576600
+Name       : Waikoloa Village
+Namelsad   : Waikoloa Village CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 40823410
+Awater     : 0
+Intptlat   : +19.9442485
+Intptlon   : -155.8052710
+
+Statefp    : 15
+Placefp    : 76925
+Placens    : 02583432
+Geoid      : 1576925
+Geoidfq    : 1600000US1576925
+Name       : Wailea
+Namelsad   : Wailea CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 19280582
+Awater     : 8543050
+Intptlat   : +20.6823518
+Intptlon   : -156.4353230
+
+Statefp    : 15
+Placefp    : 77000
+Placens    : 02414158
+Geoid      : 1577000
+Geoidfq    : 1600000US1577000
+Name       : Wailua
+Namelsad   : Wailua CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3977165
+Awater     : 796122
+Intptlat   : +22.0544762
+Intptlon   : -159.3372107
+
+Statefp    : 15
+Placefp    : 77225
+Placens    : 02414159
+Geoid      : 1577225
+Geoidfq    : 1600000US1577225
+Name       : Wailua Homesteads
+Namelsad   : Wailua Homesteads CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 18922819
+Awater     : 264201
+Intptlat   : +22.0691648
+Intptlon   : -159.3814014
+
+Statefp    : 15
+Placefp    : 77450
+Placens    : 02414160
+Geoid      : 1577450
+Geoidfq    : 1600000US1577450
+Name       : Wailuku
+Namelsad   : Wailuku CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : Y
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 13637114
+Awater     : 1057573
+Intptlat   : +20.8854670
+Intptlon   : -156.5036271
+
+Statefp    : 15
+Placefp    : 77750
+Placens    : 02414161
+Geoid      : 1577750
+Geoidfq    : 1600000US1577750
+Name       : Waimalu
+Namelsad   : Waimalu CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4742225
+Awater     : 229843
+Intptlat   : +21.3912165
+Intptlon   : -157.9334006
+
+Statefp    : 15
+Placefp    : 78050
+Placens    : 02414163
+Geoid      : 1578050
+Geoidfq    : 1600000US1578050
+Name       : Waimanalo
+Namelsad   : Waimanalo CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 11287822
+Awater     : 0
+Intptlat   : +21.3420696
+Intptlon   : -157.7302383
+
+Statefp    : 15
+Placefp    : 78200
+Placens    : 02414162
+Geoid      : 1578200
+Geoidfq    : 1600000US1578200
+Name       : Waimanalo Beach
+Namelsad   : Waimanalo Beach CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5115446
+Awater     : 2562737
+Intptlat   : +21.3299340
+Intptlon   : -157.6939743
+
+Statefp    : 15
+Placefp    : 78500
+Placens    : 02414164
+Geoid      : 1578500
+Geoidfq    : 1600000US1578500
+Name       : Waimea
+Namelsad   : Waimea CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 102006288
+Awater     : 99989
+Intptlat   : +20.0103271
+Intptlon   : -155.6254905
+
+Statefp    : 15
+Placefp    : 78800
+Placens    : 02414165
+Geoid      : 1578800
+Geoidfq    : 1600000US1578800
+Name       : Waimea
+Namelsad   : Waimea CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4801193
+Awater     : 849909
+Intptlat   : +21.9664955
+Intptlon   : -159.6693880
+
+Statefp    : 15
+Placefp    : 78950
+Placens    : 02414166
+Geoid      : 1578950
+Geoidfq    : 1600000US1578950
+Name       : Wainaku
+Namelsad   : Wainaku CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3420673
+Awater     : 379616
+Intptlat   : +19.7438055
+Intptlon   : -155.0998114
+
+Statefp    : 15
+Placefp    : 79250
+Placens    : 02583433
+Geoid      : 1579250
+Geoidfq    : 1600000US1579250
+Name       : Wainiha
+Namelsad   : Wainiha CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6383623
+Awater     : 7075
+Intptlat   : +22.1921394
+Intptlon   : -159.5467459
+
+Statefp    : 15
+Placefp    : 79550
+Placens    : 02629945
+Geoid      : 1579550
+Geoidfq    : 1600000US1579550
+Name       : Waiohinu
+Namelsad   : Waiohinu CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3459619
+Awater     : 0
+Intptlat   : +19.0713626
+Intptlon   : -155.6144359
+
+Statefp    : 15
+Placefp    : 79700
+Placens    : 02414167
+Geoid      : 1579700
+Geoidfq    : 1600000US1579700
+Name       : Waipahu
+Namelsad   : Waipahu CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6936010
+Awater     : 313082
+Intptlat   : +21.3849378
+Intptlon   : -158.0109928
+
+Statefp    : 15
+Placefp    : 79860
+Placens    : 02414169
+Geoid      : 1579860
+Geoidfq    : 1600000US1579860
+Name       : Waipio
+Namelsad   : Waipio CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3228710
+Awater     : 0
+Intptlat   : +21.4143928
+Intptlon   : -157.9965828
+
+Statefp    : 15
+Placefp    : 80000
+Placens    : 02414168
+Geoid      : 1580000
+Geoidfq    : 1600000US1580000
+Name       : Waipio Acres
+Namelsad   : Waipio Acres CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2538117
+Awater     : 0
+Intptlat   : +21.4687701
+Intptlon   : -158.0172840
+
+Statefp    : 15
+Placefp    : 80470
+Placens    : 02583434
+Geoid      : 1580470
+Geoidfq    : 1600000US1580470
+Name       : West Loch Estate
+Namelsad   : West Loch Estate CDP
+Lsad       : 57
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1707369
+Awater     : 10342
+Intptlat   : +21.3612640
+Intptlon   : -158.0245275
+
+Statefp    : 15
+Placefp    : 80600
+Placens    : 02414170
+Geoid      : 1580600
+Geoidfq    : 1600000US1580600
+Name       : Wheeler AFB
+Namelsad   : Wheeler AFB CDP
+Lsad       : 57
+Classfp    : M2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6008799
+Awater     : 0
+Intptlat   : +21.4755447
+Intptlon   : -158.0351744
+
+Statefp    : 15
+Placefp    : 80900
+Placens    : 02414171
+Geoid      : 1580900
+Geoidfq    : 1600000US1580900
+Name       : Whitmore Village
+Namelsad   : Whitmore Village CDP
+Lsad       : 57
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2358072
+Awater     : 15567
+Intptlat   : +21.5125727
+Intptlon   : -158.0291274
+

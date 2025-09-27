@@ -1,0 +1,1309 @@
+Statefp    : 60
+Placefp    : 00100
+Placens    : 02414188
+Geoid      : 6000100
+Geoidfq    : 1600000US6000100
+Name       : Aasu
+Namelsad   : Aasu village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 9307060
+Awater     : 2947766
+Intptlat   : -14.3032558
+Intptlon   : -170.7571384
+
+Statefp    : 60
+Placefp    : 02500
+Placens    : 02414189
+Geoid      : 6002500
+Geoidfq    : 1600000US6002500
+Name       : Afao
+Namelsad   : Afao village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1408628
+Awater     : 3275257
+Intptlat   : -14.3318952
+Intptlon   : -170.8030789
+
+Statefp    : 60
+Placefp    : 08100
+Placens    : 02414195
+Geoid      : 6008100
+Geoidfq    : 1600000US6008100
+Name       : Amaluia
+Namelsad   : Amaluia village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2014091
+Awater     : 3028739
+Intptlat   : -14.3356719
+Intptlon   : -170.7903166
+
+Statefp    : 60
+Placefp    : 08900
+Placens    : 02414196
+Geoid      : 6008900
+Geoidfq    : 1600000US6008900
+Name       : Amanave
+Namelsad   : Amanave village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 787324
+Awater     : 19697643
+Intptlat   : -14.3228691
+Intptlon   : -170.8449964
+
+Statefp    : 60
+Placefp    : 07300
+Placens    : 02414194
+Geoid      : 6007300
+Geoidfq    : 1600000US6007300
+Name       : Alofau
+Namelsad   : Alofau village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1296946
+Awater     : 8789800
+Intptlat   : -14.2803770
+Intptlon   : -170.6045583
+
+Statefp    : 60
+Placefp    : 15300
+Placens    : 02414204
+Geoid      : 6015300
+Geoidfq    : 1600000US6015300
+Name       : Aua
+Namelsad   : Aua village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2612476
+Awater     : 1569945
+Intptlat   : -14.2747219
+Intptlon   : -170.6608597
+
+Statefp    : 60
+Placefp    : 13700
+Placens    : 02414202
+Geoid      : 6013700
+Geoidfq    : 1600000US6013700
+Name       : Asili
+Namelsad   : Asili village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1387610
+Awater     : 3480489
+Intptlat   : -14.3332845
+Intptlon   : -170.7947738
+
+Statefp    : 60
+Placefp    : 25700
+Placens    : 02414213
+Geoid      : 6025700
+Geoidfq    : 1600000US6025700
+Name       : Fagamalo
+Namelsad   : Fagamalo village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 3596435
+Awater     : 28297219
+Intptlat   : -14.2983048
+Intptlon   : -170.8100388
+
+Statefp    : 60
+Placefp    : 29700
+Placens    : 02414217
+Geoid      : 6029700
+Geoidfq    : 1600000US6029700
+Name       : Failolo
+Namelsad   : Failolo village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 638527
+Awater     : 5141706
+Intptlat   : -14.3319107
+Intptlon   : -170.8292337
+
+Statefp    : 60
+Placefp    : 32100
+Placens    : 02414219
+Geoid      : 6032100
+Geoidfq    : 1600000US6032100
+Name       : Faleniu
+Namelsad   : Faleniu village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 635024
+Awater     : 0
+Intptlat   : -14.3276157
+Intptlon   : -170.7438779
+
+Statefp    : 60
+Placefp    : 36100
+Placens    : 02414221
+Geoid      : 6036100
+Geoidfq    : 1600000US6036100
+Name       : Futiga
+Namelsad   : Futiga village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 3481339
+Awater     : 15805847
+Intptlat   : -14.3611519
+Intptlon   : -170.7584242
+
+Statefp    : 60
+Placefp    : 36900
+Placens    : 02414222
+Geoid      : 6036900
+Geoidfq    : 1600000US6036900
+Name       : Ili'ili
+Namelsad   : Ili'ili village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 3592014
+Awater     : 9042744
+Intptlat   : -14.3454917
+Intptlon   : -170.7239090
+
+Statefp    : 60
+Placefp    : 10500
+Placens    : 02414198
+Geoid      : 6010500
+Geoidfq    : 1600000US6010500
+Name       : Amouli
+Namelsad   : Amouli village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1705035
+Awater     : 31316720
+Intptlat   : -14.2743429
+Intptlon   : -170.5780634
+
+Statefp    : 60
+Placefp    : 11300
+Placens    : 02414199
+Geoid      : 6011300
+Geoidfq    : 1600000US6011300
+Name       : Anua
+Namelsad   : Anua village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 180622
+Awater     : 130582
+Intptlat   : -14.2710270
+Intptlon   : -170.6873951
+
+Statefp    : 60
+Placefp    : 14500
+Placens    : 02414203
+Geoid      : 6014500
+Geoidfq    : 1600000US6014500
+Name       : Atu'u
+Namelsad   : Atu'u village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 155820
+Awater     : 70946
+Intptlat   : -14.2675693
+Intptlon   : -170.6861806
+
+Statefp    : 60
+Placefp    : 17700
+Placens    : 02414206
+Geoid      : 6017700
+Geoidfq    : 1600000US6017700
+Name       : Aumi
+Namelsad   : Aumi village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1818923
+Awater     : 9969359
+Intptlat   : -14.2879653
+Intptlon   : -170.6454142
+
+Statefp    : 60
+Placefp    : 27300
+Placens    : 02414215
+Geoid      : 6027300
+Geoidfq    : 1600000US6027300
+Name       : Fagasa
+Namelsad   : Fagasa village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 4360989
+Awater     : 22382333
+Intptlat   : -14.2806633
+Intptlon   : -170.7323820
+
+Statefp    : 60
+Placefp    : 84100
+Placens    : 02414258
+Geoid      : 6084100
+Geoidfq    : 1600000US6084100
+Name       : Utumea West
+Namelsad   : Utumea West village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 672965
+Awater     : 58857
+Intptlat   : -14.3237323
+Intptlon   : -170.8171467
+
+Statefp    : 60
+Placefp    : 20100
+Placens    : 02414208
+Geoid      : 6020100
+Geoidfq    : 1600000US6020100
+Name       : Auto
+Namelsad   : Auto village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 859621
+Awater     : 464953
+Intptlat   : -14.2715600
+Intptlon   : -170.6307752
+
+Statefp    : 60
+Placefp    : 50500
+Placens    : 02414232
+Geoid      : 6050500
+Geoidfq    : 1600000US6050500
+Name       : Maloata
+Namelsad   : Maloata village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 3101807
+Awater     : 628705
+Intptlat   : -14.3096120
+Intptlon   : -170.8104197
+
+Statefp    : 60
+Placefp    : 52900
+Placens    : 02414233
+Geoid      : 6052900
+Geoidfq    : 1600000US6052900
+Name       : Mapusagafou
+Namelsad   : Mapusagafou village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2064468
+Awater     : 0
+Intptlat   : -14.3226231
+Intptlon   : -170.7555611
+
+Statefp    : 60
+Placefp    : 75300
+Placens    : 02414253
+Geoid      : 6075300
+Geoidfq    : 1600000US6075300
+Name       : Tafuna
+Namelsad   : Tafuna village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 6417913
+Awater     : 19034568
+Intptlat   : -14.3361272
+Intptlon   : -170.7155859
+
+Statefp    : 60
+Placefp    : 76900
+Placens    : 02414254
+Geoid      : 6076900
+Geoidfq    : 1600000US6076900
+Name       : Taputimu
+Namelsad   : Taputimu village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1581022
+Awater     : 6160214
+Intptlat   : -14.3625529
+Intptlon   : -170.7731472
+
+Statefp    : 60
+Placefp    : 49400
+Placens    : 02414231
+Geoid      : 6049400
+Geoidfq    : 1600000US6049400
+Name       : Malaeloa/Ituau
+Namelsad   : Malaeloa/Ituau village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 608538
+Awater     : 0
+Intptlat   : -14.3423933
+Intptlon   : -170.7659759
+
+Statefp    : 60
+Placefp    : 32900
+Placens    : 02414220
+Geoid      : 6032900
+Geoidfq    : 1600000US6032900
+Name       : Fatumafuti
+Namelsad   : Fatumafuti village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 101073
+Awater     : 439970
+Intptlat   : -14.2966894
+Intptlon   : -170.6775646
+
+Statefp    : 60
+Placefp    : 57700
+Placens    : 02414240
+Geoid      : 6057700
+Geoidfq    : 1600000US6057700
+Name       : Nu'uuli
+Namelsad   : Nu'uuli village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 7619239
+Awater     : 19612349
+Intptlat   : -14.3156279
+Intptlon   : -170.7005422
+
+Statefp    : 60
+Placefp    : 12100
+Placens    : 02414200
+Geoid      : 6012100
+Geoidfq    : 1600000US6012100
+Name       : Aoa
+Namelsad   : Aoa village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1723147
+Awater     : 521515
+Intptlat   : -14.2672682
+Intptlon   : -170.5911157
+
+Statefp    : 60
+Placefp    : 09700
+Placens    : 02414197
+Geoid      : 6009700
+Geoidfq    : 1600000US6009700
+Name       : Amaua
+Namelsad   : Amaua village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 796618
+Awater     : 236330
+Intptlat   : -14.2681144
+Intptlon   : -170.6257058
+
+Statefp    : 60
+Placefp    : 26500
+Placens    : 02414214
+Geoid      : 6026500
+Geoidfq    : 1600000US6026500
+Name       : Faganeanea
+Namelsad   : Faganeanea village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1364619
+Awater     : 543066
+Intptlat   : -14.2994306
+Intptlon   : -170.6968924
+
+Statefp    : 60
+Placefp    : 87300
+Placens    : 02414259
+Geoid      : 6087300
+Geoidfq    : 1600000US6087300
+Name       : Vailoatai
+Namelsad   : Vailoatai village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1041195
+Awater     : 5669115
+Intptlat   : -14.3580144
+Intptlon   : -170.7819765
+
+Statefp    : 60
+Placefp    : 04500
+Placens    : 02414191
+Geoid      : 6004500
+Geoidfq    : 1600000US6004500
+Name       : Agugulu
+Namelsad   : Agugulu village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 398931
+Awater     : 2449432
+Intptlat   : -14.3317867
+Intptlon   : -170.8183098
+
+Statefp    : 60
+Placefp    : 71300
+Placens    : 02414251
+Geoid      : 6071300
+Geoidfq    : 1600000US6071300
+Name       : Si'ufaga
+Namelsad   : Si'ufaga village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 14932463
+Awater     : 56423053
+Intptlat   : -14.2487771
+Intptlon   : -169.4941563
+
+Statefp    : 60
+Placefp    : 03300
+Placens    : 02414190
+Geoid      : 6003300
+Geoidfq    : 1600000US6003300
+Name       : Afono
+Namelsad   : Afono village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2675455
+Awater     : 1530323
+Intptlat   : -14.2573947
+Intptlon   : -170.6454327
+
+Statefp    : 60
+Placefp    : 84900
+Placens    : 02507990
+Geoid      : 6084900
+Geoidfq    : 1600000US6084900
+Name       : Utusia
+Namelsad   : Utusia village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 304545
+Awater     : 208811
+Intptlat   : -14.2687142
+Intptlon   : -170.6203770
+
+Statefp    : 60
+Placefp    : 62230
+Placens    : 02414244
+Geoid      : 6062230
+Geoidfq    : 1600000US6062230
+Name       : Pagai
+Namelsad   : Pagai village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 385404
+Awater     : 227497
+Intptlat   : -14.2681245
+Intptlon   : -170.6040360
+
+Statefp    : 60
+Placefp    : 16900
+Placens    : 02507987
+Geoid      : 6016900
+Geoidfq    : 1600000US6016900
+Name       : Auma
+Namelsad   : Auma village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 331534
+Awater     : 504
+Intptlat   : -14.3323249
+Intptlon   : -170.7860951
+
+Statefp    : 60
+Placefp    : 65300
+Placens    : 02507988
+Geoid      : 6065300
+Geoidfq    : 1600000US6065300
+Name       : Puapua
+Namelsad   : Puapua village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 968325
+Awater     : 0
+Intptlat   : -14.3450711
+Intptlon   : -170.7722502
+
+Statefp    : 60
+Placefp    : 81700
+Placens    : 02414255
+Geoid      : 6081700
+Geoidfq    : 1600000US6081700
+Name       : Tula
+Namelsad   : Tula village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1307106
+Awater     : 42646478
+Intptlat   : -14.2492942
+Intptlon   : -170.5656058
+
+Statefp    : 60
+Placefp    : 23300
+Placens    : 02414211
+Geoid      : 6023300
+Geoidfq    : 1600000US6023300
+Name       : Faga'itua
+Namelsad   : Faga'itua village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1021668
+Awater     : 2755308
+Intptlat   : -14.2699228
+Intptlon   : -170.6165911
+
+Statefp    : 60
+Placefp    : 68100
+Placens    : 02507989
+Geoid      : 6068100
+Geoidfq    : 1600000US6068100
+Name       : Satala
+Namelsad   : Satala village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 400381
+Awater     : 137563
+Intptlat   : -14.2684668
+Intptlon   : -170.6918935
+
+Statefp    : 60
+Placefp    : 55300
+Placens    : 02414236
+Geoid      : 6055300
+Geoidfq    : 1600000US6055300
+Name       : Matu'u
+Namelsad   : Matu'u village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1202736
+Awater     : 8813633
+Intptlat   : -14.2999405
+Intptlon   : -170.6801980
+
+Statefp    : 60
+Placefp    : 06500
+Placens    : 02414193
+Geoid      : 6006500
+Geoidfq    : 1600000US6006500
+Name       : Alega
+Namelsad   : Alega village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1006574
+Awater     : 5228055
+Intptlat   : -14.2810559
+Intptlon   : -170.6343341
+
+Statefp    : 60
+Placefp    : 16100
+Placens    : 02414205
+Geoid      : 6016100
+Geoidfq    : 1600000US6016100
+Name       : Auasi
+Namelsad   : Auasi village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 664202
+Awater     : 287483
+Intptlat   : -14.2678515
+Intptlon   : -170.5778254
+
+Statefp    : 60
+Placefp    : 18500
+Placens    : 02414207
+Geoid      : 6018500
+Geoidfq    : 1600000US6018500
+Name       : Aunu'u
+Namelsad   : Aunu'u village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1507283
+Awater     : 5129981
+Intptlat   : -14.2883213
+Intptlon   : -170.5564138
+
+Statefp    : 60
+Placefp    : 83300
+Placens    : 02414257
+Geoid      : 6083300
+Geoidfq    : 1600000US6083300
+Name       : Utumea East
+Namelsad   : Utumea East village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 491991
+Awater     : 2160516
+Intptlat   : -14.2710778
+Intptlon   : -170.5677580
+
+Statefp    : 60
+Placefp    : 64900
+Placens    : 02414247
+Geoid      : 6064900
+Geoidfq    : 1600000US6064900
+Name       : Poloa
+Namelsad   : Poloa village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 822846
+Awater     : 25848257
+Intptlat   : -14.3206108
+Intptlon   : -170.8465206
+
+Statefp    : 60
+Placefp    : 62500
+Placens    : 02414245
+Geoid      : 6062500
+Geoidfq    : 1600000US6062500
+Name       : Pago Pago
+Namelsad   : Pago Pago village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 8876019
+Awater     : 25123012
+Intptlat   : -14.2524460
+Intptlon   : -170.7010280
+
+Statefp    : 60
+Placefp    : 56100
+Placens    : 02414237
+Geoid      : 6056100
+Geoidfq    : 1600000US6056100
+Name       : Mesepa
+Namelsad   : Mesepa village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 280377
+Awater     : 0
+Intptlat   : -14.3227548
+Intptlon   : -170.7470017
+
+Statefp    : 60
+Placefp    : 24900
+Placens    : 02414212
+Geoid      : 6024900
+Geoidfq    : 1600000US6024900
+Name       : Fagali'i
+Namelsad   : Fagali'i village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1545662
+Awater     : 1611384
+Intptlat   : -14.3037422
+Intptlon   : -170.8233541
+
+Statefp    : 60
+Placefp    : 48920
+Placens    : 02414230
+Geoid      : 6048920
+Geoidfq    : 1600000US6048920
+Name       : Malaeloa/Aitulagi
+Namelsad   : Malaeloa/Aitulagi village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 3590304
+Awater     : 0
+Intptlat   : -14.3317121
+Intptlon   : -170.7675088
+
+Statefp    : 60
+Placefp    : 56900
+Placens    : 02414238
+Geoid      : 6056900
+Geoidfq    : 1600000US6056900
+Name       : Nua
+Namelsad   : Nua village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 956582
+Awater     : 3951757
+Intptlat   : -14.3297824
+Intptlon   : -170.8060478
+
+Statefp    : 60
+Placefp    : 68900
+Placens    : 02414249
+Geoid      : 6068900
+Geoidfq    : 1600000US6068900
+Name       : Se'etaga
+Namelsad   : Se'etaga village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 701184
+Awater     : 6840906
+Intptlat   : -14.3265618
+Intptlon   : -170.8122518
+
+Statefp    : 60
+Placefp    : 66500
+Placens    : 02414248
+Geoid      : 6066500
+Geoidfq    : 1600000US6066500
+Name       : Sa'ilele
+Namelsad   : Sa'ilele village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1371428
+Awater     : 9621057
+Intptlat   : -14.2559549
+Intptlon   : -170.6031160
+
+Statefp    : 60
+Placefp    : 82500
+Placens    : 02414256
+Geoid      : 6082500
+Geoidfq    : 1600000US6082500
+Name       : Utulei
+Namelsad   : Utulei village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 861788
+Awater     : 511817
+Intptlat   : -14.2835047
+Intptlon   : -170.6799569
+
+Statefp    : 60
+Placefp    : 89700
+Placens    : 02414261
+Geoid      : 6089700
+Geoidfq    : 1600000US6089700
+Name       : Vatia
+Namelsad   : Vatia village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 6464464
+Awater     : 62541435
+Intptlat   : -14.2348405
+Intptlon   : -170.6709625
+
+Statefp    : 60
+Placefp    : 69700
+Placens    : 02414250
+Geoid      : 6069700
+Geoidfq    : 1600000US6069700
+Name       : Sili
+Namelsad   : Sili village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2044613
+Awater     : 43372356
+Intptlat   : -14.1654003
+Intptlon   : -169.6159916
+
+Statefp    : 60
+Placefp    : 72900
+Placens    : 02414252
+Geoid      : 6072900
+Geoidfq    : 1600000US6072900
+Name       : Swains
+Namelsad   : Swains village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 2432605
+Awater     : 149170816
+Intptlat   : -11.0544359
+Intptlon   : -171.0690136
+
+Statefp    : 60
+Placefp    : 64100
+Placens    : 02414246
+Geoid      : 6064100
+Geoidfq    : 1600000US6064100
+Name       : Pava'ia'i
+Namelsad   : Pava'ia'i village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1898726
+Awater     : 0
+Intptlat   : -14.3340736
+Intptlon   : -170.7511739
+
+Statefp    : 60
+Placefp    : 48100
+Placens    : 02414229
+Geoid      : 6048100
+Geoidfq    : 1600000US6048100
+Name       : Malaeimi
+Namelsad   : Malaeimi village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 3880762
+Awater     : 0
+Intptlat   : -14.3114589
+Intptlon   : -170.7364941
+
+Statefp    : 60
+Placefp    : 12800
+Placens    : 02414201
+Geoid      : 6012800
+Geoidfq    : 1600000US6012800
+Name       : Aoloau
+Namelsad   : Aoloau village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 5811947
+Awater     : 10668934
+Intptlat   : -14.2882108
+Intptlon   : -170.7811700
+
+Statefp    : 60
+Placefp    : 45700
+Placens    : 02414226
+Geoid      : 6045700
+Geoidfq    : 1600000US6045700
+Name       : Leusoali'i
+Namelsad   : Leusoali'i village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 10965657
+Awater     : 84189945
+Intptlat   : -14.2337041
+Intptlon   : -169.4209576
+
+Statefp    : 60
+Placefp    : 88100
+Placens    : 02414260
+Geoid      : 6088100
+Geoidfq    : 1600000US6088100
+Name       : Vaitogi
+Namelsad   : Vaitogi village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 3551182
+Awater     : 22694317
+Intptlat   : -14.3623365
+Intptlon   : -170.7415265
+
+Statefp    : 60
+Placefp    : 30500
+Placens    : 02414218
+Geoid      : 6030500
+Geoidfq    : 1600000US6030500
+Name       : Faleasao
+Namelsad   : Faleasao village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 6931132
+Awater     : 25969103
+Intptlat   : -14.2198008
+Intptlon   : -169.5076973
+
+Statefp    : 60
+Placefp    : 58500
+Placens    : 02414241
+Geoid      : 6058500
+Geoidfq    : 1600000US6058500
+Name       : Ofu
+Namelsad   : Ofu village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 7310058
+Awater     : 110304547
+Intptlat   : -14.1685218
+Intptlon   : -169.6742023
+
+Statefp    : 60
+Placefp    : 46500
+Placens    : 02414227
+Geoid      : 6046500
+Geoidfq    : 1600000US6046500
+Name       : Luma
+Namelsad   : Luma village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 940481
+Awater     : 47451053
+Intptlat   : -14.2231740
+Intptlon   : -169.5177430
+
+Statefp    : 60
+Placefp    : 47300
+Placens    : 02414228
+Geoid      : 6047300
+Geoidfq    : 1600000US6047300
+Name       : Maia
+Namelsad   : Maia village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 11362506
+Awater     : 51581865
+Intptlat   : -14.2144435
+Intptlon   : -169.4272091
+
+Statefp    : 60
+Placefp    : 04900
+Placens    : 02414192
+Geoid      : 6004900
+Geoidfq    : 1600000US6004900
+Name       : Alao
+Namelsad   : Alao village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1362715
+Awater     : 44929031
+Intptlat   : -14.2682600
+Intptlon   : -170.5652234
+
+Statefp    : 60
+Placefp    : 60100
+Placens    : 02414242
+Geoid      : 6060100
+Geoidfq    : 1600000US6060100
+Name       : Olosega
+Namelsad   : Olosega village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 3134083
+Awater     : 44946122
+Intptlat   : -14.1841513
+Intptlon   : -169.6185244
+
+Statefp    : 60
+Placefp    : 44900
+Placens    : 02414225
+Geoid      : 6044900
+Geoidfq    : 1600000US6044900
+Name       : Leone
+Namelsad   : Leone village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 3863226
+Awater     : 385248
+Intptlat   : -14.3255130
+Intptlon   : -170.7789705
+
+Statefp    : 60
+Placefp    : 20900
+Placens    : 02414209
+Geoid      : 6020900
+Geoidfq    : 1600000US6020900
+Name       : Avaio
+Namelsad   : Avaio village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 721414
+Awater     : 7573571
+Intptlat   : -14.2814787
+Intptlon   : -170.6316567
+
+Statefp    : 60
+Placefp    : 22500
+Placens    : 02414210
+Geoid      : 6022500
+Geoidfq    : 1600000US6022500
+Name       : Faga'alu
+Namelsad   : Faga'alu village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1330168
+Awater     : 1117483
+Intptlat   : -14.2857156
+Intptlon   : -170.6760054
+
+Statefp    : 60
+Placefp    : 28900
+Placens    : 02414216
+Geoid      : 6028900
+Geoidfq    : 1600000US6028900
+Name       : Fagatogo
+Namelsad   : Fagatogo village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1718845
+Awater     : 479468
+Intptlat   : -14.2825830
+Intptlon   : -170.6933415
+
+Statefp    : 60
+Placefp    : 40800
+Placens    : 02414223
+Geoid      : 6040800
+Geoidfq    : 1600000US6040800
+Name       : Lauli'i
+Namelsad   : Lauli'i village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1344715
+Awater     : 12291409
+Intptlat   : -14.2897380
+Intptlon   : -170.6516955
+
+Statefp    : 60
+Placefp    : 44100
+Placens    : 02414224
+Geoid      : 6044100
+Geoidfq    : 1600000US6044100
+Name       : Leloaloa
+Namelsad   : Leloaloa village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 873914
+Awater     : 1364256
+Intptlat   : -14.2682603
+Intptlon   : -170.6756495
+
+Statefp    : 60
+Placefp    : 53700
+Placens    : 02414234
+Geoid      : 6053700
+Geoidfq    : 1600000US6053700
+Name       : Masausi
+Namelsad   : Masausi village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 951537
+Awater     : 2500318
+Intptlat   : -14.2556643
+Intptlon   : -170.6133749
+
+Statefp    : 60
+Placefp    : 54500
+Placens    : 02414235
+Geoid      : 6054500
+Geoidfq    : 1600000US6054500
+Name       : Masefau
+Namelsad   : Masefau village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 4231358
+Awater     : 11281445
+Intptlat   : -14.2498074
+Intptlon   : -170.6232651
+
+Statefp    : 60
+Placefp    : 61700
+Placens    : 02414243
+Geoid      : 6061700
+Geoidfq    : 1600000US6061700
+Name       : Onenoa
+Namelsad   : Onenoa village
+Lsad       : 47
+Classfp    : C1
+Pcicbsa    : N
+Mtfcc      : G4110
+Funcstat   : A
+Aland      : 1014990
+Awater     : 5223471
+Intptlat   : -14.2480071
+Intptlon   : -170.5775087
+

@@ -1,0 +1,4964 @@
+Statefp    : 72
+Placefp    : 00186
+Placens    : 02415286
+Geoid      : 7200186
+Geoidfq    : 1600000US7200186
+Name       : Aceitunas
+Namelsad   : Aceitunas comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 649182
+Awater     : 0
+Intptlat   : +18.4455336
+Intptlon   : -067.0669122
+
+Statefp    : 72
+Placefp    : 00358
+Placens    : 02415287
+Geoid      : 7200358
+Geoidfq    : 1600000US7200358
+Name       : Adjuntas
+Namelsad   : Adjuntas zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1940806
+Awater     : 0
+Intptlat   : +18.1637775
+Intptlon   : -066.7235375
+
+Statefp    : 72
+Placefp    : 00616
+Placens    : 02415288
+Geoid      : 7200616
+Geoidfq    : 1600000US7200616
+Name       : Aguada
+Namelsad   : Aguada zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 955290
+Awater     : 0
+Intptlat   : +18.3803419
+Intptlon   : -067.1883893
+
+Statefp    : 72
+Placefp    : 00745
+Placens    : 02415289
+Geoid      : 7200745
+Geoidfq    : 1600000US7200745
+Name       : Aguadilla
+Namelsad   : Aguadilla zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : Y
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6499138
+Awater     : 1517915
+Intptlat   : +18.4383977
+Intptlon   : -067.1547957
+
+Statefp    : 72
+Placefp    : 05346
+Placens    : 02415303
+Geoid      : 7205346
+Geoidfq    : 1600000US7205346
+Name       : Barceloneta
+Namelsad   : Barceloneta zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2511711
+Awater     : 0
+Intptlat   : +18.4529737
+Intptlon   : -066.5380847
+
+Statefp    : 72
+Placefp    : 08700
+Placens    : 02415312
+Geoid      : 7208700
+Geoidfq    : 1600000US7208700
+Name       : Breñas
+Namelsad   : Breñas comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2553922
+Awater     : 0
+Intptlat   : +18.4732986
+Intptlon   : -066.3346087
+
+Statefp    : 72
+Placefp    : 09250
+Placens    : 02631211
+Geoid      : 7209250
+Geoidfq    : 1600000US7209250
+Name       : Buena Vista
+Namelsad   : Buena Vista comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 619467
+Awater     : 0
+Intptlat   : +18.1153115
+Intptlon   : -065.7990574
+
+Statefp    : 72
+Placefp    : 09603
+Placens    : 02415314
+Geoid      : 7209603
+Geoidfq    : 1600000US7209603
+Name       : Búfalo
+Namelsad   : Búfalo comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 618072
+Awater     : 0
+Intptlat   : +18.4165314
+Intptlon   : -066.5750097
+
+Statefp    : 72
+Placefp    : 09689
+Placens    : 02415315
+Geoid      : 7209689
+Geoidfq    : 1600000US7209689
+Name       : Cabán
+Namelsad   : Cabán comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1173931
+Awater     : 0
+Intptlat   : +18.4450089
+Intptlon   : -067.1362715
+
+Statefp    : 72
+Placefp    : 11597
+Placens    : 02807575
+Geoid      : 7211597
+Geoidfq    : 1600000US7211597
+Name       : Campanillas
+Namelsad   : Campanillas comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 93598
+Awater     : 0
+Intptlat   : +18.4386233
+Intptlon   : -066.2159597
+
+Statefp    : 72
+Placefp    : 18719
+Placens    : 02415338
+Geoid      : 7218719
+Geoidfq    : 1600000US7218719
+Name       : Coamo
+Namelsad   : Coamo zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : Y
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4720990
+Awater     : 311
+Intptlat   : +18.0783016
+Intptlon   : -066.3631610
+
+Statefp    : 72
+Placefp    : 25685
+Placens    : 02415353
+Geoid      : 7225685
+Geoidfq    : 1600000US7225685
+Name       : El Negro
+Namelsad   : El Negro comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 824053
+Awater     : 0
+Intptlat   : +18.0369325
+Intptlon   : -065.8494457
+
+Statefp    : 72
+Placefp    : 32522
+Placens    : 02415369
+Geoid      : 7232522
+Geoidfq    : 1600000US7232522
+Name       : Guaynabo
+Namelsad   : Guaynabo zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : Y
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 31202307
+Awater     : 425807
+Intptlat   : +18.3839897
+Intptlon   : -066.1149417
+
+Statefp    : 72
+Placefp    : 35059
+Placens    : 02415375
+Geoid      : 7235059
+Geoidfq    : 1600000US7235059
+Name       : Hormigueros
+Namelsad   : Hormigueros zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 11448470
+Awater     : 190
+Intptlat   : +18.1435593
+Intptlon   : -067.1205768
+
+Statefp    : 72
+Placefp    : 38370
+Placens    : 02415383
+Geoid      : 7238370
+Geoidfq    : 1600000US7238370
+Name       : Jayuya
+Namelsad   : Jayuya zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1252291
+Awater     : 0
+Intptlat   : +18.2198009
+Intptlon   : -066.5983113
+
+Statefp    : 72
+Placefp    : 42068
+Placens    : 02414851
+Geoid      : 7242068
+Geoidfq    : 1600000US7242068
+Name       : La Playa
+Namelsad   : La Playa comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2754830
+Awater     : 1300733
+Intptlat   : +18.2855822
+Intptlon   : -067.1887913
+
+Statefp    : 72
+Placefp    : 47013
+Placens    : 02414866
+Geoid      : 7247013
+Geoidfq    : 1600000US7247013
+Name       : Los Llanos
+Namelsad   : Los Llanos comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2041859
+Awater     : 0
+Intptlat   : +18.0579626
+Intptlon   : -066.4091353
+
+Statefp    : 72
+Placefp    : 47787
+Placens    : 02414869
+Geoid      : 7247787
+Geoidfq    : 1600000US7247787
+Name       : Luquillo
+Namelsad   : Luquillo zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2750545
+Awater     : 1285079
+Intptlat   : +18.3756682
+Intptlon   : -065.7209201
+
+Statefp    : 72
+Placefp    : 47873
+Placens    : 02414870
+Geoid      : 7247873
+Geoidfq    : 1600000US7247873
+Name       : Luyando
+Namelsad   : Luyando comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4242238
+Awater     : 0
+Intptlat   : +18.3574706
+Intptlon   : -067.1553434
+
+Statefp    : 72
+Placefp    : 48862
+Placens    : 02631216
+Geoid      : 7248862
+Geoidfq    : 1600000US7248862
+Name       : Maguayo
+Namelsad   : Maguayo comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 806352
+Awater     : 0
+Intptlat   : +18.0099881
+Intptlon   : -067.0854391
+
+Statefp    : 72
+Placefp    : 50260
+Placens    : 02414861
+Geoid      : 7250260
+Geoidfq    : 1600000US7250260
+Name       : Mansión del Mar
+Namelsad   : Mansión del Mar comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 7036085
+Awater     : 412928
+Intptlat   : +18.4468568
+Intptlon   : -066.1785958
+
+Statefp    : 72
+Placefp    : 51055
+Placens    : 02414874
+Geoid      : 7251055
+Geoidfq    : 1600000US7251055
+Name       : Mariano Colón
+Namelsad   : Mariano Colón comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3851161
+Awater     : 0
+Intptlat   : +18.0286747
+Intptlon   : -066.3356305
+
+Statefp    : 72
+Placefp    : 55097
+Placens    : 02414885
+Geoid      : 7255097
+Geoidfq    : 1600000US7255097
+Name       : Morovis
+Namelsad   : Morovis zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1454040
+Awater     : 825
+Intptlat   : +18.3268562
+Intptlon   : -066.4060648
+
+Statefp    : 72
+Placefp    : 57978
+Placens    : 02414893
+Geoid      : 7257978
+Geoidfq    : 1600000US7257978
+Name       : Palmarejo
+Namelsad   : Palmarejo comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1528852
+Awater     : 0
+Intptlat   : +18.0681975
+Intptlon   : -066.3266292
+
+Statefp    : 72
+Placefp    : 59422
+Placens    : 02585100
+Geoid      : 7259422
+Geoidfq    : 1600000US7259422
+Name       : Parcelas Mandry
+Namelsad   : Parcelas Mandry comunidad
+Lsad       : 55
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 244054
+Awater     : 0
+Intptlat   : +18.0810233
+Intptlon   : -066.5627113
+
+Statefp    : 72
+Placefp    : 00874
+Placens    : 02415290
+Geoid      : 7200874
+Geoidfq    : 1600000US7200874
+Name       : Aguas Buenas
+Namelsad   : Aguas Buenas zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2541963
+Awater     : 1742
+Intptlat   : +18.2581766
+Intptlon   : -066.1064265
+
+Statefp    : 72
+Placefp    : 01003
+Placens    : 02415291
+Geoid      : 7201003
+Geoidfq    : 1600000US7201003
+Name       : Aguas Claras
+Namelsad   : Aguas Claras comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 7091056
+Awater     : 0
+Intptlat   : +18.2446714
+Intptlon   : -065.6662014
+
+Statefp    : 72
+Placefp    : 15924
+Placens    : 02415333
+Geoid      : 7215924
+Geoidfq    : 1600000US7215924
+Name       : Ceiba
+Namelsad   : Ceiba zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2850211
+Awater     : 0
+Intptlat   : +18.2649714
+Intptlon   : -065.6488157
+
+Statefp    : 72
+Placefp    : 51270
+Placens    : 02414875
+Geoid      : 7251270
+Geoidfq    : 1600000US7251270
+Name       : Maricao
+Namelsad   : Maricao zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 421474
+Awater     : 0
+Intptlat   : +18.1818363
+Intptlon   : -066.9774033
+
+Statefp    : 72
+Placefp    : 01089
+Placens    : 02415292
+Geoid      : 7201089
+Geoidfq    : 1600000US7201089
+Name       : Aguilita
+Namelsad   : Aguilita comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2323917
+Awater     : 19577
+Intptlat   : +18.0285440
+Intptlon   : -066.5340588
+
+Statefp    : 72
+Placefp    : 01218
+Placens    : 02415293
+Geoid      : 7201218
+Geoidfq    : 1600000US7201218
+Name       : Aibonito
+Namelsad   : Aibonito zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3859977
+Awater     : 1382
+Intptlat   : +18.1400513
+Intptlon   : -066.2663546
+
+Statefp    : 72
+Placefp    : 01863
+Placens    : 02631210
+Geoid      : 7201863
+Geoidfq    : 1600000US7201863
+Name       : Alianza
+Namelsad   : Alianza comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2591864
+Awater     : 0
+Intptlat   : +18.4534174
+Intptlon   : -066.8556061
+
+Statefp    : 72
+Placefp    : 26287
+Placens    : 02631213
+Geoid      : 7226287
+Geoidfq    : 1600000US7226287
+Name       : El Tumbao
+Namelsad   : El Tumbao comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2771322
+Awater     : 1608
+Intptlat   : +18.0009253
+Intptlon   : -066.9021472
+
+Statefp    : 72
+Placefp    : 43057
+Placens    : 02631215
+Geoid      : 7243057
+Geoidfq    : 1600000US7243057
+Name       : Las Croabas
+Namelsad   : Las Croabas comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2099267
+Awater     : 1109901
+Intptlat   : +18.3677286
+Intptlon   : -065.6305884
+
+Statefp    : 72
+Placefp    : 02680
+Placens    : 02415294
+Geoid      : 7202680
+Geoidfq    : 1600000US7202680
+Name       : Añasco
+Namelsad   : Añasco zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2105493
+Awater     : 402
+Intptlat   : +18.2855245
+Intptlon   : -067.1401197
+
+Statefp    : 72
+Placefp    : 27263
+Placens    : 02415357
+Geoid      : 7227263
+Geoidfq    : 1600000US7227263
+Name       : Espino
+Namelsad   : Espino comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1793609
+Awater     : 29699
+Intptlat   : +18.2793283
+Intptlon   : -067.1198383
+
+Statefp    : 72
+Placefp    : 03024
+Placens    : 02415295
+Geoid      : 7203024
+Geoidfq    : 1600000US7203024
+Name       : Animas
+Namelsad   : Animas comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 595925
+Awater     : 0
+Intptlat   : +18.4457436
+Intptlon   : -066.6364359
+
+Statefp    : 72
+Placefp    : 03368
+Placens    : 02415297
+Geoid      : 7203368
+Geoidfq    : 1600000US7203368
+Name       : Arecibo
+Namelsad   : Arecibo zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : Y
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 40170090
+Awater     : 6320696
+Intptlat   : +18.4548566
+Intptlon   : -066.7354460
+
+Statefp    : 72
+Placefp    : 04658
+Placens    : 02415300
+Geoid      : 7204658
+Geoidfq    : 1600000US7204658
+Name       : Bajadero
+Namelsad   : Bajadero comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5289957
+Awater     : 419
+Intptlat   : +18.4204125
+Intptlon   : -066.6719793
+
+Statefp    : 72
+Placefp    : 03174
+Placens    : 02585087
+Geoid      : 7203174
+Geoidfq    : 1600000US7203174
+Name       : Anon Raices
+Namelsad   : Anon Raices comunidad
+Lsad       : 55
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 218977
+Awater     : 0
+Intptlat   : +18.1390589
+Intptlon   : -066.5857702
+
+Statefp    : 72
+Placefp    : 12568
+Placens    : 02585090
+Geoid      : 7212568
+Geoidfq    : 1600000US7212568
+Name       : Candelero Abajo
+Namelsad   : Candelero Abajo comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 158056
+Awater     : 0
+Intptlat   : +18.0941674
+Intptlon   : -065.8164561
+
+Statefp    : 72
+Placefp    : 20998
+Placens    : 02585091
+Geoid      : 7220998
+Geoidfq    : 1600000US7220998
+Name       : Corral Viejo
+Namelsad   : Corral Viejo comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 453575
+Awater     : 0
+Intptlat   : +18.0754548
+Intptlon   : -066.6523355
+
+Statefp    : 72
+Placefp    : 03196
+Placens    : 02415296
+Geoid      : 7203196
+Geoidfq    : 1600000US7203196
+Name       : Antón Ruíz
+Namelsad   : Antón Ruíz comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1148974
+Awater     : 0
+Intptlat   : +18.1882693
+Intptlon   : -065.8078813
+
+Statefp    : 72
+Placefp    : 04701
+Placens    : 02415301
+Geoid      : 7204701
+Geoidfq    : 1600000US7204701
+Name       : Bajandas
+Namelsad   : Bajandas comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1675019
+Awater     : 0
+Intptlat   : +18.1601424
+Intptlon   : -065.7831043
+
+Statefp    : 72
+Placefp    : 12613
+Placens    : 02415324
+Geoid      : 7212613
+Geoidfq    : 1600000US7212613
+Name       : Candelero Arriba
+Namelsad   : Candelero Arriba comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 995166
+Awater     : 0
+Intptlat   : +18.1016673
+Intptlon   : -065.8342416
+
+Statefp    : 72
+Placefp    : 35532
+Placens    : 02415376
+Geoid      : 7235532
+Geoidfq    : 1600000US7235532
+Name       : Humacao
+Namelsad   : Humacao zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 12762265
+Awater     : 5903
+Intptlat   : +18.1517680
+Intptlon   : -065.8205990
+
+Statefp    : 72
+Placefp    : 03927
+Placens    : 02415298
+Geoid      : 7203927
+Geoidfq    : 1600000US7203927
+Name       : Arroyo
+Namelsad   : Arroyo zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3605321
+Awater     : 574590
+Intptlat   : +17.9696177
+Intptlon   : -066.0598987
+
+Statefp    : 72
+Placefp    : 04620
+Placens    : 02585088
+Geoid      : 7204620
+Geoidfq    : 1600000US7204620
+Name       : Bairoa La Veinticinco
+Namelsad   : Bairoa La Veinticinco comunidad
+Lsad       : 55
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 223558
+Awater     : 0
+Intptlat   : +18.2635666
+Intptlon   : -066.0214987
+
+Statefp    : 72
+Placefp    : 41274
+Placens    : 02585094
+Geoid      : 7241274
+Geoidfq    : 1600000US7241274
+Name       : La Liga
+Namelsad   : La Liga comunidad
+Lsad       : 55
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 377989
+Awater     : 0
+Intptlat   : +18.2893156
+Intptlon   : -066.0507561
+
+Statefp    : 72
+Placefp    : 59386
+Placens    : 02585099
+Geoid      : 7259386
+Geoidfq    : 1600000US7259386
+Name       : Parcelas de Navarro
+Namelsad   : Parcelas de Navarro comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 348562
+Awater     : 0
+Intptlat   : +18.2301059
+Intptlon   : -066.0041622
+
+Statefp    : 72
+Placefp    : 05217
+Placens    : 02415302
+Geoid      : 7205217
+Geoidfq    : 1600000US7205217
+Name       : Barahona
+Namelsad   : Barahona comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1390425
+Awater     : 0
+Intptlat   : +18.3522024
+Intptlon   : -066.4442802
+
+Statefp    : 72
+Placefp    : 29555
+Placens    : 02415360
+Geoid      : 7229555
+Geoidfq    : 1600000US7229555
+Name       : Fránquez
+Namelsad   : Fránquez comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 927951
+Awater     : 0
+Intptlat   : +18.3400692
+Intptlon   : -066.4276395
+
+Statefp    : 72
+Placefp    : 05690
+Placens    : 02415304
+Geoid      : 7205690
+Geoidfq    : 1600000US7205690
+Name       : Barranquitas
+Namelsad   : Barranquitas zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1983226
+Awater     : 0
+Intptlat   : +18.1847647
+Intptlon   : -066.3101737
+
+Statefp    : 72
+Placefp    : 06421
+Placens    : 02415305
+Geoid      : 7206421
+Geoidfq    : 1600000US7206421
+Name       : Bartolo
+Namelsad   : Bartolo comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 479500
+Awater     : 0
+Intptlat   : +18.3620034
+Intptlon   : -065.8413661
+
+Statefp    : 72
+Placefp    : 06593
+Placens    : 02415307
+Geoid      : 7206593
+Geoidfq    : 1600000US7206593
+Name       : Bayamón
+Namelsad   : Bayamón zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : Y
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 70153371
+Awater     : 164162
+Intptlat   : +18.3800554
+Intptlon   : -066.1632527
+
+Statefp    : 72
+Placefp    : 06679
+Placens    : 02415306
+Geoid      : 7206679
+Geoidfq    : 1600000US7206679
+Name       : Bayamón
+Namelsad   : Bayamón comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1495137
+Awater     : 0
+Intptlat   : +18.1781363
+Intptlon   : -066.1097256
+
+Statefp    : 72
+Placefp    : 18074
+Placens    : 02415337
+Geoid      : 7218074
+Geoidfq    : 1600000US7218074
+Name       : Cidra
+Namelsad   : Cidra zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2891280
+Awater     : 79871
+Intptlat   : +18.1775046
+Intptlon   : -066.1584864
+
+Statefp    : 72
+Placefp    : 59420
+Placens    : 02414900
+Geoid      : 7259420
+Geoidfq    : 1600000US7259420
+Name       : Parcelas La Milagrosa
+Namelsad   : Parcelas La Milagrosa comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 664999
+Awater     : 0
+Intptlat   : +18.1715081
+Intptlon   : -066.1868477
+
+Statefp    : 72
+Placefp    : 07496
+Placens    : 02415308
+Geoid      : 7207496
+Geoidfq    : 1600000US7207496
+Name       : Benítez
+Namelsad   : Benítez comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 940237
+Awater     : 0
+Intptlat   : +18.2725330
+Intptlon   : -065.8788312
+
+Statefp    : 72
+Placefp    : 11710
+Placens    : 02415320
+Geoid      : 7211710
+Geoidfq    : 1600000US7211710
+Name       : Campo Rico
+Namelsad   : Campo Rico comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1080200
+Awater     : 0
+Intptlat   : +18.3390084
+Intptlon   : -065.8943410
+
+Statefp    : 72
+Placefp    : 12828
+Placens    : 02415325
+Geoid      : 7212828
+Geoidfq    : 1600000US7212828
+Name       : Canóvanas
+Namelsad   : Canóvanas zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 7299913
+Awater     : 44698
+Intptlat   : +18.3692090
+Intptlon   : -065.9008937
+
+Statefp    : 72
+Placefp    : 07668
+Placens    : 02415309
+Geoid      : 7207668
+Geoidfq    : 1600000US7207668
+Name       : Betances
+Namelsad   : Betances comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 327735
+Awater     : 0
+Intptlat   : +18.0295685
+Intptlon   : -067.1335461
+
+Statefp    : 72
+Placefp    : 07969
+Placens    : 02415310
+Geoid      : 7207969
+Geoidfq    : 1600000US7207969
+Name       : Boquerón
+Namelsad   : Boquerón comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2672767
+Awater     : 0
+Intptlat   : +18.0340767
+Intptlon   : -067.1714435
+
+Statefp    : 72
+Placefp    : 54366
+Placens    : 02414883
+Geoid      : 7254366
+Geoidfq    : 1600000US7254366
+Name       : Monte Grande
+Namelsad   : Monte Grande comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3700033
+Awater     : 0
+Intptlat   : +18.0894030
+Intptlon   : -067.1200359
+
+Statefp    : 72
+Placefp    : 08099
+Placens    : 02415311
+Geoid      : 7208099
+Geoidfq    : 1600000US7208099
+Name       : Boquerón
+Namelsad   : Boquerón comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3561760
+Awater     : 4990
+Intptlat   : +18.2001453
+Intptlon   : -065.8438790
+
+Statefp    : 72
+Placefp    : 40563
+Placens    : 02415390
+Geoid      : 7240563
+Geoidfq    : 1600000US7240563
+Name       : La Fermina
+Namelsad   : La Fermina comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2520261
+Awater     : 399
+Intptlat   : +18.1733718
+Intptlon   : -065.8519215
+
+Statefp    : 72
+Placefp    : 44390
+Placens    : 02414860
+Geoid      : 7244390
+Geoidfq    : 1600000US7244390
+Name       : Las Piedras
+Namelsad   : Las Piedras zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3424732
+Awater     : 0
+Intptlat   : +18.1786698
+Intptlon   : -065.8710791
+
+Statefp    : 72
+Placefp    : 08722
+Placens    : 02807573
+Geoid      : 7208722
+Geoidfq    : 1600000US7208722
+Name       : Brisas del Campanero
+Namelsad   : Brisas del Campanero comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 503150
+Awater     : 0
+Intptlat   : +18.4315979
+Intptlon   : -066.2260683
+
+Statefp    : 72
+Placefp    : 26362
+Placens    : 02807577
+Geoid      : 7226362
+Geoidfq    : 1600000US7226362
+Name       : El Veintiséis
+Namelsad   : El Veintiséis comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 169341
+Awater     : 0
+Intptlat   : +18.4393474
+Intptlon   : -066.2034391
+
+Statefp    : 72
+Placefp    : 43294
+Placens    : 02807579
+Geoid      : 7243294
+Geoidfq    : 1600000US7243294
+Name       : Las Gaviotas
+Namelsad   : Las Gaviotas comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 96453
+Awater     : 0
+Intptlat   : +18.4368043
+Intptlon   : -066.1907019
+
+Statefp    : 72
+Placefp    : 50270
+Placens    : 02807581
+Geoid      : 7250270
+Geoidfq    : 1600000US7250270
+Name       : Mansión del Sol
+Namelsad   : Mansión del Sol comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 122393
+Awater     : 0
+Intptlat   : +18.4370182
+Intptlon   : -066.1936969
+
+Statefp    : 72
+Placefp    : 57612
+Placens    : 02807583
+Geoid      : 7257612
+Geoidfq    : 1600000US7257612
+Name       : Pabellones
+Namelsad   : Pabellones comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 135098
+Awater     : 0
+Intptlat   : +18.4412121
+Intptlon   : -066.2156076
+
+Statefp    : 72
+Placefp    : 09087
+Placens    : 02415313
+Geoid      : 7209087
+Geoidfq    : 1600000US7209087
+Name       : Buena Vista
+Namelsad   : Buena Vista comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 738869
+Awater     : 0
+Intptlat   : +17.9964685
+Intptlon   : -066.0515495
+
+Statefp    : 72
+Placefp    : 09861
+Placens    : 02415316
+Geoid      : 7209861
+Geoidfq    : 1600000US7209861
+Name       : Cabo Rojo
+Namelsad   : Cabo Rojo zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6102671
+Awater     : 0
+Intptlat   : +18.0867174
+Intptlon   : -067.1482659
+
+Statefp    : 72
+Placefp    : 10048
+Placens    : 02415317
+Geoid      : 7210048
+Geoidfq    : 1600000US7210048
+Name       : Cacao
+Namelsad   : Cacao comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2188436
+Awater     : 5371
+Intptlat   : +18.4520262
+Intptlon   : -066.9563135
+
+Statefp    : 72
+Placefp    : 10334
+Placens    : 02415318
+Geoid      : 7210334
+Geoidfq    : 1600000US7210334
+Name       : Caguas
+Namelsad   : Caguas zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : Y
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 28223625
+Awater     : 239141
+Intptlat   : +18.2321490
+Intptlon   : -066.0390352
+
+Statefp    : 72
+Placefp    : 11151
+Placens    : 02585089
+Geoid      : 7211151
+Geoidfq    : 1600000US7211151
+Name       : Calzada
+Namelsad   : Calzada comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 710492
+Awater     : 0
+Intptlat   : +18.0054649
+Intptlon   : -066.5642528
+
+Statefp    : 72
+Placefp    : 25835
+Placens    : 02585092
+Geoid      : 7225835
+Geoidfq    : 1600000US7225835
+Name       : El Paraiso
+Namelsad   : El Paraiso comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 828208
+Awater     : 0
+Intptlat   : +18.0648412
+Intptlon   : -066.6020920
+
+Statefp    : 72
+Placefp    : 11345
+Placens    : 02807548
+Geoid      : 7211345
+Geoidfq    : 1600000US7211345
+Name       : Cambalache
+Namelsad   : Cambalache comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3806179
+Awater     : 472
+Intptlat   : +18.3582730
+Intptlon   : -065.8866913
+
+Statefp    : 72
+Placefp    : 13065
+Placens    : 02807550
+Geoid      : 7213065
+Geoidfq    : 1600000US7213065
+Name       : Canovanillas
+Namelsad   : Canovanillas comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1756529
+Awater     : 0
+Intptlat   : +18.3345285
+Intptlon   : -065.9039632
+
+Statefp    : 72
+Placefp    : 11581
+Placens    : 02415319
+Geoid      : 7211581
+Geoidfq    : 1600000US7211581
+Name       : Campanilla
+Namelsad   : Campanilla comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1352781
+Awater     : 0
+Intptlat   : +18.4224349
+Intptlon   : -066.2391690
+
+Statefp    : 72
+Placefp    : 12441
+Placens    : 02415323
+Geoid      : 7212441
+Geoidfq    : 1600000US7212441
+Name       : Candelaria
+Namelsad   : Candelaria comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 7776596
+Awater     : 3695
+Intptlat   : +18.4064064
+Intptlon   : -066.2180209
+
+Statefp    : 72
+Placefp    : 12560
+Placens    : 02415322
+Geoid      : 7212560
+Geoidfq    : 1600000US7212560
+Name       : Candelaria Arenas
+Namelsad   : Candelaria Arenas comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2585292
+Awater     : 5814
+Intptlat   : +18.4172507
+Intptlon   : -066.2205270
+
+Statefp    : 72
+Placefp    : 36263
+Placens    : 02415379
+Geoid      : 7236263
+Geoidfq    : 1600000US7236263
+Name       : Ingenio
+Namelsad   : Ingenio comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1405799
+Awater     : 0
+Intptlat   : +18.4452383
+Intptlon   : -066.2238900
+
+Statefp    : 72
+Placefp    : 11925
+Placens    : 02415321
+Geoid      : 7211925
+Geoidfq    : 1600000US7211925
+Name       : Camuy
+Namelsad   : Camuy zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2579706
+Awater     : 467257
+Intptlat   : +18.4825805
+Intptlon   : -066.8473715
+
+Statefp    : 72
+Placefp    : 12806
+Placens    : 02805715
+Geoid      : 7212806
+Geoidfq    : 1600000US7212806
+Name       : Caño Martin Peña
+Namelsad   : Caño Martin Peña comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1782281
+Awater     : 90447
+Intptlat   : +18.4303675
+Intptlon   : -066.0500704
+
+Statefp    : 72
+Placefp    : 13925
+Placens    : 02415326
+Geoid      : 7213925
+Geoidfq    : 1600000US7213925
+Name       : Capitanejo
+Namelsad   : Capitanejo comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2442922
+Awater     : 10530
+Intptlat   : +18.0131220
+Intptlon   : -066.5356407
+
+Statefp    : 72
+Placefp    : 21213
+Placens    : 02415346
+Geoid      : 7221213
+Geoidfq    : 1600000US7221213
+Name       : Coto Laurel
+Namelsad   : Coto Laurel comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 975059
+Awater     : 0
+Intptlat   : +18.0491199
+Intptlon   : -066.5517033
+
+Statefp    : 72
+Placefp    : 51700
+Placens    : 02414877
+Geoid      : 7251700
+Geoidfq    : 1600000US7251700
+Name       : Marueño
+Namelsad   : Marueño comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1291249
+Awater     : 0
+Intptlat   : +18.0584199
+Intptlon   : -066.6568639
+
+Statefp    : 72
+Placefp    : 14290
+Placens    : 02415327
+Geoid      : 7214290
+Geoidfq    : 1600000US7214290
+Name       : Carolina
+Namelsad   : Carolina zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 53643231
+Awater     : 8786043
+Intptlat   : +18.4120758
+Intptlon   : -065.9798062
+
+Statefp    : 72
+Placefp    : 58967
+Placens    : 02414898
+Geoid      : 7258967
+Geoidfq    : 1600000US7258967
+Name       : Palomas
+Namelsad   : Palomas comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2241977
+Awater     : 0
+Intptlat   : +18.2352718
+Intptlon   : -066.2534395
+
+Statefp    : 72
+Placefp    : 14634
+Placens    : 02415328
+Geoid      : 7214634
+Geoidfq    : 1600000US7214634
+Name       : Carrizales
+Namelsad   : Carrizales comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1464629
+Awater     : 0
+Intptlat   : +18.4810880
+Intptlon   : -066.7879102
+
+Statefp    : 72
+Placefp    : 15193
+Placens    : 02415329
+Geoid      : 7215193
+Geoidfq    : 1600000US7215193
+Name       : Cataño
+Namelsad   : Cataño zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 12515854
+Awater     : 5614795
+Intptlat   : +18.4380686
+Intptlon   : -066.1388343
+
+Statefp    : 72
+Placefp    : 15494
+Placens    : 02415330
+Geoid      : 7215494
+Geoidfq    : 1600000US7215494
+Name       : Cayey
+Namelsad   : Cayey zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6575775
+Awater     : 1460
+Intptlat   : +18.1152960
+Intptlon   : -066.1628765
+
+Statefp    : 72
+Placefp    : 30544
+Placens    : 02415362
+Geoid      : 7230544
+Geoidfq    : 1600000US7230544
+Name       : G. L. García
+Namelsad   : G. L. García comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1977680
+Awater     : 0
+Intptlat   : +18.1259020
+Intptlon   : -066.1026079
+
+Statefp    : 72
+Placefp    : 15623
+Placens    : 02415331
+Geoid      : 7215623
+Geoidfq    : 1600000US7215623
+Name       : Cayuco
+Namelsad   : Cayuco comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 777847
+Awater     : 0
+Intptlat   : +18.2922901
+Intptlon   : -066.7348465
+
+Statefp    : 72
+Placefp    : 16139
+Placens    : 02415332
+Geoid      : 7216139
+Geoidfq    : 1600000US7216139
+Name       : Ceiba
+Namelsad   : Ceiba comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2593843
+Awater     : 274
+Intptlat   : +18.4413753
+Intptlon   : -066.3442687
+
+Statefp    : 72
+Placefp    : 21385
+Placens    : 02415347
+Geoid      : 7221385
+Geoidfq    : 1600000US7221385
+Name       : Coto Norte
+Namelsad   : Coto Norte comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 736419
+Awater     : 0
+Intptlat   : +18.4328258
+Intptlon   : -066.4408260
+
+Statefp    : 72
+Placefp    : 16440
+Placens    : 02415334
+Geoid      : 7216440
+Geoidfq    : 1600000US7216440
+Name       : Celada
+Namelsad   : Celada comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1731907
+Awater     : 9249
+Intptlat   : +18.2666888
+Intptlon   : -065.9625411
+
+Statefp    : 72
+Placefp    : 32823
+Placens    : 02415370
+Geoid      : 7232823
+Geoidfq    : 1600000US7232823
+Name       : Gurabo
+Namelsad   : Gurabo zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3116023
+Awater     : 9561
+Intptlat   : +18.2526070
+Intptlon   : -065.9786408
+
+Statefp    : 72
+Placefp    : 57862
+Placens    : 02414892
+Geoid      : 7257862
+Geoidfq    : 1600000US7257862
+Name       : Pajonal
+Namelsad   : Pajonal comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 300200
+Awater     : 0
+Intptlat   : +18.3846565
+Intptlon   : -066.5559823
+
+Statefp    : 72
+Placefp    : 16526
+Placens    : 02415335
+Geoid      : 7216526
+Geoidfq    : 1600000US7216526
+Name       : Central Aguirre
+Namelsad   : Central Aguirre comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1340787
+Awater     : 301215
+Intptlat   : +17.9566968
+Intptlon   : -066.2283182
+
+Statefp    : 72
+Placefp    : 17050
+Placens    : 02611710
+Geoid      : 7217050
+Geoidfq    : 1600000US7217050
+Name       : Cerrillos Hoyos
+Namelsad   : Cerrillos Hoyos comunidad
+Lsad       : 55
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 714003
+Awater     : 8171
+Intptlat   : +18.0654783
+Intptlon   : -066.5688929
+
+Statefp    : 72
+Placefp    : 17773
+Placens    : 02415336
+Geoid      : 7217773
+Geoidfq    : 1600000US7217773
+Name       : Ciales
+Namelsad   : Ciales zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3009846
+Awater     : 36963
+Intptlat   : +18.3340527
+Intptlon   : -066.4718974
+
+Statefp    : 72
+Placefp    : 18891
+Placens    : 02415339
+Geoid      : 7218891
+Geoidfq    : 1600000US7218891
+Name       : Coco
+Namelsad   : Coco comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : Y
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4431498
+Awater     : 13769
+Intptlat   : +18.0012775
+Intptlon   : -066.2607002
+
+Statefp    : 72
+Placefp    : 20310
+Placens    : 02415342
+Geoid      : 7220310
+Geoidfq    : 1600000US7220310
+Name       : Coquí
+Namelsad   : Coquí comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2411719
+Awater     : 0
+Intptlat   : +17.9792862
+Intptlon   : -066.2255506
+
+Statefp    : 72
+Placefp    : 42197
+Placens    : 02414852
+Geoid      : 7242197
+Geoidfq    : 1600000US7242197
+Name       : La Plena
+Namelsad   : La Plena comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 988572
+Awater     : 0
+Intptlat   : +18.0411891
+Intptlon   : -066.2063058
+
+Statefp    : 72
+Placefp    : 19665
+Placens    : 02415340
+Geoid      : 7219665
+Geoidfq    : 1600000US7219665
+Name       : Comerío
+Namelsad   : Comerío zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1165734
+Awater     : 34645
+Intptlat   : +18.2194886
+Intptlon   : -066.2250527
+
+Statefp    : 72
+Placefp    : 19837
+Placens    : 02415341
+Geoid      : 7219837
+Geoidfq    : 1600000US7219837
+Name       : Comunas
+Namelsad   : Comunas comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2945605
+Awater     : 0
+Intptlat   : +18.0845686
+Intptlon   : -065.8435372
+
+Statefp    : 72
+Placefp    : 20353
+Placens    : 02415343
+Geoid      : 7220353
+Geoidfq    : 1600000US7220353
+Name       : Corazón
+Namelsad   : Corazón comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1437556
+Awater     : 0
+Intptlat   : +17.9940080
+Intptlon   : -066.0833551
+
+Statefp    : 72
+Placefp    : 32221
+Placens    : 02415367
+Geoid      : 7232221
+Geoidfq    : 1600000US7232221
+Name       : Guayama
+Namelsad   : Guayama zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : Y
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 9467540
+Awater     : 1093
+Intptlat   : +17.9738187
+Intptlon   : -066.1114983
+
+Statefp    : 72
+Placefp    : 38671
+Placens    : 02415384
+Geoid      : 7238671
+Geoidfq    : 1600000US7238671
+Name       : Jobos
+Namelsad   : Jobos comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1430631
+Awater     : 0
+Intptlat   : +17.9607157
+Intptlon   : -066.1655190
+
+Statefp    : 72
+Placefp    : 20482
+Placens    : 02415344
+Geoid      : 7220482
+Geoidfq    : 1600000US7220482
+Name       : Corcovado
+Namelsad   : Corcovado comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1342248
+Awater     : 0
+Intptlat   : +18.4610216
+Intptlon   : -066.7777610
+
+Statefp    : 72
+Placefp    : 33296
+Placens    : 02415372
+Geoid      : 7233296
+Geoidfq    : 1600000US7233296
+Name       : Hatillo
+Namelsad   : Hatillo zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2800372
+Awater     : 1133002
+Intptlat   : +18.4838170
+Intptlon   : -066.8221570
+
+Statefp    : 72
+Placefp    : 20783
+Placens    : 02415345
+Geoid      : 7220783
+Geoidfq    : 1600000US7220783
+Name       : Corozal
+Namelsad   : Corozal zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5750949
+Awater     : 0
+Intptlat   : +18.3409882
+Intptlon   : -066.3124637
+
+Statefp    : 72
+Placefp    : 22589
+Placens    : 02415348
+Geoid      : 7222589
+Geoidfq    : 1600000US7222589
+Name       : Culebra
+Namelsad   : Culebra zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2113616
+Awater     : 581806
+Intptlat   : +18.3103311
+Intptlon   : -065.3027007
+
+Statefp    : 72
+Placefp    : 23062
+Placens    : 02415349
+Geoid      : 7223062
+Geoidfq    : 1600000US7223062
+Name       : Daguao
+Namelsad   : Daguao comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1469611
+Awater     : 0
+Intptlat   : +18.2216502
+Intptlon   : -065.6797737
+
+Statefp    : 72
+Placefp    : 23341
+Placens    : 02807544
+Geoid      : 7223341
+Geoidfq    : 1600000US7223341
+Name       : Del Carmen
+Namelsad   : Del Carmen comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 901730
+Awater     : 0
+Intptlat   : +18.4677946
+Intptlon   : -066.8489089
+
+Statefp    : 72
+Placefp    : 41810
+Placens    : 02807545
+Geoid      : 7241810
+Geoidfq    : 1600000US7241810
+Name       : La Pica
+Namelsad   : La Pica comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 312430
+Awater     : 0
+Intptlat   : +18.4652217
+Intptlon   : -066.8619468
+
+Statefp    : 72
+Placefp    : 24008
+Placens    : 02415350
+Geoid      : 7224008
+Geoidfq    : 1600000US7224008
+Name       : Dorado
+Namelsad   : Dorado zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 8186081
+Awater     : 1449741
+Intptlat   : +18.4689758
+Intptlon   : -066.2711083
+
+Statefp    : 72
+Placefp    : 24395
+Placens    : 02415351
+Geoid      : 7224395
+Geoidfq    : 1600000US7224395
+Name       : Duque
+Namelsad   : Duque comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 571984
+Awater     : 271
+Intptlat   : +18.2374069
+Intptlon   : -065.7423577
+
+Statefp    : 72
+Placefp    : 24954
+Placens    : 02631212
+Geoid      : 7224954
+Geoidfq    : 1600000US7224954
+Name       : El Combate
+Namelsad   : El Combate comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1487882
+Awater     : 3038
+Intptlat   : +17.9831030
+Intptlon   : -067.2089348
+
+Statefp    : 72
+Placefp    : 25556
+Placens    : 02415352
+Geoid      : 7225556
+Geoidfq    : 1600000US7225556
+Name       : El Mangó
+Namelsad   : El Mangó comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1303387
+Awater     : 0
+Intptlat   : +18.2344603
+Intptlon   : -065.8751116
+
+Statefp    : 72
+Placefp    : 39574
+Placens    : 02415387
+Geoid      : 7239574
+Geoidfq    : 1600000US7239574
+Name       : Juncos
+Namelsad   : Juncos zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3887631
+Awater     : 41107
+Intptlat   : +18.2257980
+Intptlon   : -065.9158764
+
+Statefp    : 72
+Placefp    : 25771
+Placens    : 02415354
+Geoid      : 7225771
+Geoidfq    : 1600000US7225771
+Name       : El Ojo
+Namelsad   : El Ojo comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 413841
+Awater     : 0
+Intptlat   : +18.0038065
+Intptlon   : -066.3918420
+
+Statefp    : 72
+Placefp    : 26502
+Placens    : 02415355
+Geoid      : 7226502
+Geoidfq    : 1600000US7226502
+Name       : Emajagua
+Namelsad   : Emajagua comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2201757
+Awater     : 0
+Intptlat   : +18.0015170
+Intptlon   : -065.8829595
+
+Statefp    : 72
+Placefp    : 27190
+Placens    : 02415356
+Geoid      : 7227190
+Geoidfq    : 1600000US7227190
+Name       : Esperanza
+Namelsad   : Esperanza comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3292459
+Awater     : 0
+Intptlat   : +18.1023168
+Intptlon   : -065.4797352
+
+Statefp    : 72
+Placefp    : 27964
+Placens    : 02415358
+Geoid      : 7227964
+Geoidfq    : 1600000US7227964
+Name       : Fajardo
+Namelsad   : Fajardo zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 21077428
+Awater     : 1628796
+Intptlat   : +18.3333392
+Intptlon   : -065.6576256
+
+Statefp    : 72
+Placefp    : 47701
+Placens    : 02414868
+Geoid      : 7247701
+Geoidfq    : 1600000US7247701
+Name       : Luis M. Cintrón
+Namelsad   : Luis M. Cintrón comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3100137
+Awater     : 0
+Intptlat   : +18.3013841
+Intptlon   : -065.6378332
+
+Statefp    : 72
+Placefp    : 28367
+Placens    : 02804363
+Geoid      : 7228367
+Geoidfq    : 1600000US7228367
+Name       : Ferrer
+Namelsad   : Ferrer comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 828309
+Awater     : 0
+Intptlat   : +18.4053775
+Intptlon   : -067.0671853
+
+Statefp    : 72
+Placefp    : 36779
+Placens    : 02804365
+Geoid      : 7236779
+Geoidfq    : 1600000US7236779
+Name       : Isleta
+Namelsad   : Isleta comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 357456
+Awater     : 29
+Intptlat   : +18.3758180
+Intptlon   : -067.1123225
+
+Statefp    : 72
+Placefp    : 46960
+Placens    : 02804370
+Geoid      : 7246960
+Geoidfq    : 1600000US7246960
+Name       : Los Héroes
+Namelsad   : Los Héroes comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 246047
+Awater     : 0
+Intptlat   : +18.3910738
+Intptlon   : -067.1187318
+
+Statefp    : 72
+Placefp    : 28824
+Placens    : 02415359
+Geoid      : 7228824
+Geoidfq    : 1600000US7228824
+Name       : Florida
+Namelsad   : Florida zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3912344
+Awater     : 7250
+Intptlat   : +18.3645238
+Intptlon   : -066.5612749
+
+Statefp    : 72
+Placefp    : 29682
+Placens    : 02807565
+Geoid      : 7229682
+Geoidfq    : 1600000US7229682
+Name       : Frontón
+Namelsad   : Frontón comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 7153861
+Awater     : 0
+Intptlat   : +18.3096523
+Intptlon   : -066.5602537
+
+Statefp    : 72
+Placefp    : 29727
+Placens    : 02415361
+Geoid      : 7229727
+Geoidfq    : 1600000US7229727
+Name       : Fuig
+Namelsad   : Fuig comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 784018
+Awater     : 20387
+Intptlat   : +17.9862871
+Intptlon   : -066.9171099
+
+Statefp    : 72
+Placefp    : 31189
+Placens    : 02415365
+Geoid      : 7231189
+Geoidfq    : 1600000US7231189
+Name       : Guánica
+Namelsad   : Guánica zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6527867
+Awater     : 15045
+Intptlat   : +17.9683755
+Intptlon   : -066.9291674
+
+Statefp    : 72
+Placefp    : 50754
+Placens    : 02414873
+Geoid      : 7250754
+Geoidfq    : 1600000US7250754
+Name       : María Antonia
+Namelsad   : María Antonia comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 907267
+Awater     : 0
+Intptlat   : +17.9782619
+Intptlon   : -066.8898535
+
+Statefp    : 72
+Placefp    : 29813
+Placens    : 02415363
+Geoid      : 7229813
+Geoidfq    : 1600000US7229813
+Name       : Galateo
+Namelsad   : Galateo comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1664892
+Awater     : 3268
+Intptlat   : +18.3640478
+Intptlon   : -066.2618085
+
+Statefp    : 72
+Placefp    : 30372
+Placens    : 02415364
+Geoid      : 7230372
+Geoidfq    : 1600000US7230372
+Name       : Garrochales
+Namelsad   : Garrochales comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1707689
+Awater     : 0
+Intptlat   : +18.4571993
+Intptlon   : -066.5675515
+
+Statefp    : 72
+Placefp    : 31877
+Placens    : 02415366
+Geoid      : 7231877
+Geoidfq    : 1600000US7231877
+Name       : Guayabal
+Namelsad   : Guayabal comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1257140
+Awater     : 0
+Intptlat   : +18.0760435
+Intptlon   : -066.5016621
+
+Statefp    : 72
+Placefp    : 38972
+Placens    : 02415385
+Geoid      : 7238972
+Geoidfq    : 1600000US7238972
+Name       : Juana Díaz
+Namelsad   : Juana Díaz zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3896653
+Awater     : 43111
+Intptlat   : +18.0532572
+Intptlon   : -066.5043192
+
+Statefp    : 72
+Placefp    : 47615
+Placens    : 02414867
+Geoid      : 7247615
+Geoidfq    : 1600000US7247615
+Name       : Luis Lloréns Torres
+Namelsad   : Luis Lloréns Torres comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1192479
+Awater     : 0
+Intptlat   : +18.0565439
+Intptlon   : -066.5267349
+
+Statefp    : 72
+Placefp    : 32307
+Placens    : 02415368
+Geoid      : 7232307
+Geoidfq    : 1600000US7232307
+Name       : Guayanilla
+Namelsad   : Guayanilla zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1832519
+Awater     : 478
+Intptlat   : +18.0218265
+Intptlon   : -066.7910465
+
+Statefp    : 72
+Placefp    : 36177
+Placens    : 02415378
+Geoid      : 7236177
+Geoidfq    : 1600000US7236177
+Name       : Indios
+Namelsad   : Indios comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2633283
+Awater     : 1937
+Intptlat   : +17.9972542
+Intptlon   : -066.8193700
+
+Statefp    : 72
+Placefp    : 33184
+Placens    : 02585093
+Geoid      : 7233184
+Geoidfq    : 1600000US7233184
+Name       : Hacienda San José
+Namelsad   : Hacienda San José comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1454012
+Awater     : 6260
+Intptlat   : +18.2397488
+Intptlon   : -066.0736998
+
+Statefp    : 72
+Placefp    : 47336
+Placens    : 02585096
+Geoid      : 7247336
+Geoidfq    : 1600000US7247336
+Name       : Los Panes
+Namelsad   : Los Panes comunidad
+Lsad       : 55
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 593750
+Awater     : 0
+Intptlat   : +18.1848690
+Intptlon   : -066.0761267
+
+Statefp    : 72
+Placefp    : 33597
+Placens    : 02415373
+Geoid      : 7233597
+Geoidfq    : 1600000US7233597
+Name       : Hato Arriba
+Namelsad   : Hato Arriba comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2055969
+Awater     : 0
+Intptlat   : +18.3519823
+Intptlon   : -067.0335984
+
+Statefp    : 72
+Placefp    : 33683
+Placens    : 02415374
+Geoid      : 7233683
+Geoidfq    : 1600000US7233683
+Name       : Hato Candal
+Namelsad   : Hato Candal comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1535906
+Awater     : 0
+Intptlat   : +18.3731800
+Intptlon   : -065.7905980
+
+Statefp    : 72
+Placefp    : 40348
+Placens    : 02415389
+Geoid      : 7240348
+Geoidfq    : 1600000US7240348
+Name       : La Dolores
+Namelsad   : La Dolores comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1708226
+Awater     : 0
+Intptlat   : +18.3726111
+Intptlon   : -065.8546817
+
+Statefp    : 72
+Placefp    : 58666
+Placens    : 02414897
+Geoid      : 7258666
+Geoidfq    : 1600000US7258666
+Name       : Palmer
+Namelsad   : Palmer comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 527189
+Awater     : 0
+Intptlat   : +18.3703724
+Intptlon   : -065.7733858
+
+Statefp    : 72
+Placefp    : 34242
+Placens    : 02807566
+Geoid      : 7234242
+Geoidfq    : 1600000US7234242
+Name       : Hato Viejo
+Namelsad   : Hato Viejo comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4992939
+Awater     : 73486
+Intptlat   : +18.3597803
+Intptlon   : -066.4811380
+
+Statefp    : 72
+Placefp    : 37336
+Placens    : 02807568
+Geoid      : 7237336
+Geoidfq    : 1600000US7237336
+Name       : Jaguas
+Namelsad   : Jaguas comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5414519
+Awater     : 0
+Intptlat   : +18.3073739
+Intptlon   : -066.4777026
+
+Statefp    : 72
+Placefp    : 34914
+Placens    : 02807570
+Geoid      : 7234914
+Geoidfq    : 1600000US7234914
+Name       : Honduras
+Namelsad   : Honduras comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 798087
+Awater     : 0
+Intptlat   : +18.1411885
+Intptlon   : -066.2005041
+
+Statefp    : 72
+Placefp    : 35403
+Placens    : 02415371
+Geoid      : 7235403
+Geoidfq    : 1600000US7235403
+Name       : H. Rivera Colón
+Namelsad   : H. Rivera Colón comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1715962
+Awater     : 1965
+Intptlat   : +18.3492497
+Intptlon   : -066.2763266
+
+Statefp    : 72
+Placefp    : 55355
+Placens    : 02414886
+Geoid      : 7255355
+Geoidfq    : 1600000US7255355
+Name       : Mucarabones
+Namelsad   : Mucarabones comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 843013
+Awater     : 0
+Intptlat   : +18.3906529
+Intptlon   : -066.2177299
+
+Statefp    : 72
+Placefp    : 57806
+Placens    : 02414891
+Geoid      : 7257806
+Geoidfq    : 1600000US7257806
+Name       : Pájaros
+Namelsad   : Pájaros comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3971768
+Awater     : 0
+Intptlat   : +18.3609349
+Intptlon   : -066.2184143
+
+Statefp    : 72
+Placefp    : 35962
+Placens    : 02415377
+Geoid      : 7235962
+Geoidfq    : 1600000US7235962
+Name       : Imbéry
+Namelsad   : Imbéry comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1675755
+Awater     : 0
+Intptlat   : +18.4371063
+Intptlon   : -066.5564977
+
+Statefp    : 72
+Placefp    : 36478
+Placens    : 02415380
+Geoid      : 7236478
+Geoidfq    : 1600000US7236478
+Name       : Isabela
+Namelsad   : Isabela zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6781080
+Awater     : 1342480
+Intptlat   : +18.5017486
+Intptlon   : -067.0237216
+
+Statefp    : 72
+Placefp    : 54882
+Placens    : 02414884
+Geoid      : 7254882
+Geoidfq    : 1600000US7254882
+Name       : Mora
+Namelsad   : Mora comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 828928
+Awater     : 756
+Intptlat   : +18.4627088
+Intptlon   : -067.0320965
+
+Statefp    : 72
+Placefp    : 37166
+Placens    : 02415381
+Geoid      : 7237166
+Geoidfq    : 1600000US7237166
+Name       : Jagual
+Namelsad   : Jagual comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 560408
+Awater     : 0
+Intptlat   : +18.1610462
+Intptlon   : -065.9991195
+
+Statefp    : 72
+Placefp    : 38241
+Placens    : 02415382
+Geoid      : 7238241
+Geoidfq    : 1600000US7238241
+Name       : Jauca
+Namelsad   : Jauca comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3324633
+Awater     : 1243115
+Intptlat   : +17.9625698
+Intptlon   : -066.3669840
+
+Statefp    : 72
+Placefp    : 44089
+Placens    : 02414859
+Geoid      : 7244089
+Geoidfq    : 1600000US7244089
+Name       : Las Ollas
+Namelsad   : Las Ollas comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 684095
+Awater     : 3583
+Intptlat   : +18.0146540
+Intptlon   : -066.4211595
+
+Statefp    : 72
+Placefp    : 39470
+Placens    : 02415386
+Geoid      : 7239470
+Geoidfq    : 1600000US7239470
+Name       : Juncal
+Namelsad   : Juncal comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 459708
+Awater     : 0
+Intptlat   : +18.3123855
+Intptlon   : -066.9218339
+
+Statefp    : 72
+Placefp    : 39875
+Placens    : 02415388
+Geoid      : 7239875
+Geoidfq    : 1600000US7239875
+Name       : La Alianza
+Namelsad   : La Alianza comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2943712
+Awater     : 0
+Intptlat   : +18.3950477
+Intptlon   : -066.5974888
+
+Statefp    : 72
+Placefp    : 40950
+Placens    : 02414853
+Geoid      : 7240950
+Geoidfq    : 1600000US7240950
+Name       : Lajas
+Namelsad   : Lajas zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3869943
+Awater     : 555
+Intptlat   : +18.0428758
+Intptlon   : -067.0571264
+
+Statefp    : 72
+Placefp    : 41294
+Placens    : 02414849
+Geoid      : 7241294
+Geoidfq    : 1600000US7241294
+Name       : La Luisa
+Namelsad   : La Luisa comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2548426
+Awater     : 0
+Intptlat   : +18.4488328
+Intptlon   : -066.5078388
+
+Statefp    : 72
+Placefp    : 50152
+Placens    : 02414872
+Geoid      : 7250152
+Geoidfq    : 1600000US7250152
+Name       : Manatí
+Namelsad   : Manatí zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5386021
+Awater     : 649
+Intptlat   : +18.4312950
+Intptlon   : -066.4771453
+
+Statefp    : 72
+Placefp    : 41466
+Placens    : 02414854
+Geoid      : 7241466
+Geoidfq    : 1600000US7241466
+Name       : Lamboglia
+Namelsad   : Lamboglia comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1283121
+Awater     : 0
+Intptlat   : +17.9847601
+Intptlon   : -065.9858281
+
+Statefp    : 72
+Placefp    : 41767
+Placens    : 02414850
+Geoid      : 7241767
+Geoidfq    : 1600000US7241767
+Name       : La Parguera
+Namelsad   : La Parguera comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 737014
+Awater     : 0
+Intptlat   : +17.9748535
+Intptlon   : -067.0459188
+
+Statefp    : 72
+Placefp    : 42498
+Placens    : 02414855
+Geoid      : 7242498
+Geoidfq    : 1600000US7242498
+Name       : Lares
+Namelsad   : Lares zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : Y
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5244360
+Awater     : 1129
+Intptlat   : +18.2967582
+Intptlon   : -066.8833918
+
+Statefp    : 72
+Placefp    : 42842
+Placens    : 02415299
+Geoid      : 7242842
+Geoidfq    : 1600000US7242842
+Name       : Las Carolinas
+Namelsad   : Las Carolinas comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 906887
+Awater     : 3500
+Intptlat   : +18.2537677
+Intptlon   : -066.0643160
+
+Statefp    : 72
+Placefp    : 43702
+Placens    : 02414856
+Geoid      : 7243702
+Geoidfq    : 1600000US7243702
+Name       : Las Marías
+Namelsad   : Las Marías comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 627486
+Awater     : 0
+Intptlat   : +18.2926959
+Intptlon   : -067.1445424
+
+Statefp    : 72
+Placefp    : 43788
+Placens    : 02414857
+Geoid      : 7243788
+Geoidfq    : 1600000US7243788
+Name       : Las Marías
+Namelsad   : Las Marías zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 922401
+Awater     : 0
+Intptlat   : +18.2545931
+Intptlon   : -066.9869450
+
+Statefp    : 72
+Placefp    : 44003
+Placens    : 02414858
+Geoid      : 7244003
+Geoidfq    : 1600000US7244003
+Name       : Las Ochenta
+Namelsad   : Las Ochenta comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1378192
+Awater     : 55
+Intptlat   : +17.9838954
+Intptlon   : -066.3176913
+
+Statefp    : 72
+Placefp    : 44507
+Placens    : 02804366
+Geoid      : 7244507
+Geoidfq    : 1600000US7244507
+Name       : Lassalle
+Namelsad   : Lassalle comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 368234
+Awater     : 0
+Intptlat   : +18.3855987
+Intptlon   : -067.0616212
+
+Statefp    : 72
+Placefp    : 46800
+Placens    : 02804368
+Geoid      : 7246800
+Geoidfq    : 1600000US7246800
+Name       : Lomas Verdes
+Namelsad   : Lomas Verdes comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 787800
+Awater     : 0
+Intptlat   : +18.3822597
+Intptlon   : -067.1200539
+
+Statefp    : 72
+Placefp    : 45170
+Placens    : 02585095
+Geoid      : 7245170
+Geoidfq    : 1600000US7245170
+Name       : La Yuca
+Namelsad   : La Yuca comunidad
+Lsad       : 55
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 244681
+Awater     : 0
+Intptlat   : +18.0727343
+Intptlon   : -066.6077330
+
+Statefp    : 72
+Placefp    : 54688
+Placens    : 02585098
+Geoid      : 7254688
+Geoidfq    : 1600000US7254688
+Name       : Monte Verde
+Namelsad   : Monte Verde comunidad
+Lsad       : 55
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1047173
+Awater     : 3026
+Intptlat   : +18.0982416
+Intptlon   : -066.6199611
+
+Statefp    : 72
+Placefp    : 45379
+Placens    : 02414862
+Geoid      : 7245379
+Geoidfq    : 1600000US7245379
+Name       : Liborio Negrón Torres
+Namelsad   : Liborio Negrón Torres comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 615590
+Awater     : 0
+Intptlat   : +18.0430954
+Intptlon   : -066.9428012
+
+Statefp    : 72
+Placefp    : 46282
+Placens    : 02414863
+Geoid      : 7246282
+Geoidfq    : 1600000US7246282
+Name       : Lluveras
+Namelsad   : Lluveras comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1885865
+Awater     : 0
+Intptlat   : +18.0380083
+Intptlon   : -066.9037603
+
+Statefp    : 72
+Placefp    : 46368
+Placens    : 02414864
+Geoid      : 7246368
+Geoidfq    : 1600000US7246368
+Name       : Loíza
+Namelsad   : Loíza zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1337165
+Awater     : 361609
+Intptlat   : +18.4330562
+Intptlon   : -065.8780114
+
+Statefp    : 72
+Placefp    : 46626
+Placens    : 02414865
+Geoid      : 7246626
+Geoidfq    : 1600000US7246626
+Name       : Lomas
+Namelsad   : Lomas comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 820221
+Awater     : 0
+Intptlat   : +18.2687595
+Intptlon   : -065.9095833
+
+Statefp    : 72
+Placefp    : 47422
+Placens    : 02585097
+Geoid      : 7247422
+Geoidfq    : 1600000US7247422
+Name       : Los Prados
+Namelsad   : Los Prados comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 643904
+Awater     : 0
+Intptlat   : +18.2330099
+Intptlon   : -066.0621383
+
+Statefp    : 72
+Placefp    : 48604
+Placens    : 02414871
+Geoid      : 7248604
+Geoidfq    : 1600000US7248604
+Name       : Magas Arriba
+Namelsad   : Magas Arriba comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1901475
+Awater     : 0
+Intptlat   : +18.0234243
+Intptlon   : -066.7664426
+
+Statefp    : 72
+Placefp    : 51657
+Placens    : 02414876
+Geoid      : 7251657
+Geoidfq    : 1600000US7251657
+Name       : Martorell
+Namelsad   : Martorell comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2373158
+Awater     : 0
+Intptlat   : +18.0730398
+Intptlon   : -065.8976706
+
+Statefp    : 72
+Placefp    : 52345
+Placens    : 02414878
+Geoid      : 7252345
+Geoidfq    : 1600000US7252345
+Name       : Maunabo
+Namelsad   : Maunabo zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1517426
+Awater     : 613
+Intptlat   : +18.0062683
+Intptlon   : -065.9012203
+
+Statefp    : 72
+Placefp    : 52431
+Placens    : 02414879
+Geoid      : 7252431
+Geoidfq    : 1600000US7252431
+Name       : Mayagüez
+Namelsad   : Mayagüez zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : Y
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 54344582
+Awater     : 5621232
+Intptlat   : +18.2012212
+Intptlon   : -067.1417795
+
+Statefp    : 72
+Placefp    : 53678
+Placens    : 02414880
+Geoid      : 7253678
+Geoidfq    : 1600000US7253678
+Name       : Miranda
+Namelsad   : Miranda comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4786254
+Awater     : 4956
+Intptlat   : +18.3870520
+Intptlon   : -066.3726292
+
+Statefp    : 72
+Placefp    : 53979
+Placens    : 02414882
+Geoid      : 7253979
+Geoidfq    : 1600000US7253979
+Name       : Monserrate
+Namelsad   : Monserrate comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1803247
+Awater     : 36657
+Intptlat   : +18.4371104
+Intptlon   : -066.3566378
+
+Statefp    : 72
+Placefp    : 53807
+Placens    : 02414881
+Geoid      : 7253807
+Geoidfq    : 1600000US7253807
+Name       : Moca
+Namelsad   : Moca zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 348025
+Awater     : 0
+Intptlat   : +18.3942477
+Intptlon   : -067.1138206
+
+Statefp    : 72
+Placefp    : 55828
+Placens    : 02414887
+Geoid      : 7255828
+Geoidfq    : 1600000US7255828
+Name       : Naguabo
+Namelsad   : Naguabo zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1625213
+Awater     : 0
+Intptlat   : +18.2116729
+Intptlon   : -065.7370475
+
+Statefp    : 72
+Placefp    : 56129
+Placens    : 02414888
+Geoid      : 7256129
+Geoidfq    : 1600000US7256129
+Name       : Naranjito
+Namelsad   : Naranjito zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1717341
+Awater     : 0
+Intptlat   : +18.3028209
+Intptlon   : -066.2496377
+
+Statefp    : 72
+Placefp    : 57075
+Placens    : 02414889
+Geoid      : 7257075
+Geoidfq    : 1600000US7257075
+Name       : Olimpo
+Namelsad   : Olimpo comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 798790
+Awater     : 2148
+Intptlat   : +18.0032431
+Intptlon   : -066.1100632
+
+Statefp    : 72
+Placefp    : 57290
+Placens    : 02414890
+Geoid      : 7257290
+Geoidfq    : 1600000US7257290
+Name       : Orocovis
+Namelsad   : Orocovis zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1460487
+Awater     : 0
+Intptlat   : +18.2258512
+Intptlon   : -066.3901926
+
+Statefp    : 72
+Placefp    : 58064
+Placens    : 02813120
+Geoid      : 7258064
+Geoidfq    : 1600000US7258064
+Name       : Palmarejo
+Namelsad   : Palmarejo comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2205371
+Awater     : 0
+Intptlat   : +18.3148098
+Intptlon   : -066.2923258
+
+Statefp    : 72
+Placefp    : 58150
+Placens    : 02414894
+Geoid      : 7258150
+Geoidfq    : 1600000US7258150
+Name       : Palmarejo
+Namelsad   : Palmarejo comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 873928
+Awater     : 0
+Intptlat   : +18.0409139
+Intptlon   : -067.0764856
+
+Statefp    : 72
+Placefp    : 58365
+Placens    : 02414895
+Geoid      : 7258365
+Geoidfq    : 1600000US7258365
+Name       : Palmas
+Namelsad   : Palmas comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3385396
+Awater     : 13064
+Intptlat   : +17.9883961
+Intptlon   : -066.0251261
+
+Statefp    : 72
+Placefp    : 58602
+Placens    : 02634430
+Geoid      : 7258602
+Geoidfq    : 1600000US7258602
+Name       : Palmas del Mar
+Namelsad   : Palmas del Mar comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 7781756
+Awater     : 276604
+Intptlat   : +18.0909157
+Intptlon   : -065.8016393
+
+Statefp    : 72
+Placefp    : 58613
+Placens    : 02807552
+Geoid      : 7258613
+Geoidfq    : 1600000US7258613
+Name       : Palma Sola
+Namelsad   : Palma Sola comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2904385
+Awater     : 0
+Intptlat   : +18.3239432
+Intptlon   : -065.8715096
+
+Statefp    : 72
+Placefp    : 59053
+Placens    : 02414899
+Geoid      : 7259053
+Geoidfq    : 1600000US7259053
+Name       : Palomas
+Namelsad   : Palomas comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1296906
+Awater     : 0
+Intptlat   : +18.0134731
+Intptlon   : -066.8687961
+
+Statefp    : 72
+Placefp    : 59139
+Placens    : 02414896
+Geoid      : 7259139
+Geoidfq    : 1600000US7259139
+Name       : Palo Seco
+Namelsad   : Palo Seco comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1176331
+Awater     : 0
+Intptlat   : +18.0092882
+Intptlon   : -065.9369853
+
+Statefp    : 72
+Placefp    : 59425
+Placens    : 02414901
+Geoid      : 7259425
+Geoidfq    : 1600000US7259425
+Name       : Parcelas Nuevas
+Namelsad   : Parcelas Nuevas comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1664265
+Awater     : 0
+Intptlat   : +18.1399849
+Intptlon   : -066.1702358
+
+Statefp    : 72
+Placefp    : 59450
+Placens    : 02585101
+Geoid      : 7259450
+Geoidfq    : 1600000US7259450
+Name       : Parcelas Viejas Borinquen
+Namelsad   : Parcelas Viejas Borinquen comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 125556
+Awater     : 0
+Intptlat   : +18.1738541
+Intptlon   : -066.0406197
+
+Statefp    : 72
+Placefp    : 60257
+Placens    : 02414903
+Geoid      : 7260257
+Geoidfq    : 1600000US7260257
+Name       : Pastos
+Namelsad   : Pastos comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1322994
+Awater     : 0
+Intptlat   : +18.1192917
+Intptlon   : -066.2600900
+
+Statefp    : 72
+Placefp    : 60472
+Placens    : 02414904
+Geoid      : 7260472
+Geoidfq    : 1600000US7260472
+Name       : Patillas
+Namelsad   : Patillas zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2950709
+Awater     : 4783
+Intptlat   : +18.0069136
+Intptlon   : -066.0134535
+
+Statefp    : 72
+Placefp    : 61545
+Placens    : 02631218
+Geoid      : 7261545
+Geoidfq    : 1600000US7261545
+Name       : Piedra Aguza
+Namelsad   : Piedra Aguza comunidad
+Lsad       : 55
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1636701
+Awater     : 7391
+Intptlat   : +18.0350649
+Intptlon   : -066.4945935
+
+Statefp    : 72
+Placefp    : 63525
+Placens    : 02414910
+Geoid      : 7263525
+Geoidfq    : 1600000US7263525
+Name       : Playita
+Namelsad   : Playita comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1795974
+Awater     : 0
+Intptlat   : +18.0404816
+Intptlon   : -065.9071087
+
+Statefp    : 72
+Placefp    : 63697
+Placens    : 02414912
+Geoid      : 7263697
+Geoidfq    : 1600000US7263697
+Name       : Pole Ojea
+Namelsad   : Pole Ojea comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1439163
+Awater     : 2758
+Intptlat   : +17.9723836
+Intptlon   : -067.1819588
+
+Statefp    : 72
+Placefp    : 63820
+Placens    : 02414913
+Geoid      : 7263820
+Geoidfq    : 1600000US7263820
+Name       : Ponce
+Namelsad   : Ponce zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : Y
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 73430366
+Awater     : 23865145
+Intptlat   : +17.9997109
+Intptlon   : -066.6236798
+
+Statefp    : 72
+Placefp    : 64127
+Placens    : 02414914
+Geoid      : 7264127
+Geoidfq    : 1600000US7264127
+Name       : Potala Pastillo
+Namelsad   : Potala Pastillo comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1318209
+Awater     : 0
+Intptlat   : +17.9920347
+Intptlon   : -066.4967184
+
+Statefp    : 72
+Placefp    : 64400
+Placens    : 02631219
+Geoid      : 7264400
+Geoidfq    : 1600000US7264400
+Name       : Pueblito del Carmen
+Namelsad   : Pueblito del Carmen comunidad
+Lsad       : 55
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2358721
+Awater     : 0
+Intptlat   : +18.0315451
+Intptlon   : -066.1655767
+
+Statefp    : 72
+Placefp    : 65589
+Placens    : 02414916
+Geoid      : 7265589
+Geoidfq    : 1600000US7265589
+Name       : Puerto Real
+Namelsad   : Puerto Real comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3095774
+Awater     : 1664311
+Intptlat   : +18.0764330
+Intptlon   : -067.1873305
+
+Statefp    : 72
+Placefp    : 67200
+Placens    : 02585102
+Geoid      : 7267200
+Geoidfq    : 1600000US7267200
+Name       : Quebrada del Agua
+Namelsad   : Quebrada del Agua comunidad
+Lsad       : 55
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1488689
+Awater     : 2558
+Intptlat   : +18.0386294
+Intptlon   : -066.6839285
+
+Statefp    : 72
+Placefp    : 68040
+Placens    : 02414919
+Geoid      : 7268040
+Geoidfq    : 1600000US7268040
+Name       : Quebradillas
+Namelsad   : Quebradillas zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4935099
+Awater     : 1750
+Intptlat   : +18.4713426
+Intptlon   : -066.9349021
+
+Statefp    : 72
+Placefp    : 71136
+Placens    : 02414927
+Geoid      : 7271136
+Geoidfq    : 1600000US7271136
+Name       : Río Grande
+Namelsad   : Río Grande zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3580890
+Awater     : 0
+Intptlat   : +18.3788968
+Intptlon   : -065.8388916
+
+Statefp    : 72
+Placefp    : 72555
+Placens    : 02414930
+Geoid      : 7272555
+Geoidfq    : 1600000US7272555
+Name       : Rosa Sánchez
+Namelsad   : Rosa Sánchez comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1504526
+Awater     : 0
+Intptlat   : +18.0617875
+Intptlon   : -065.9136352
+
+Statefp    : 72
+Placefp    : 73544
+Placens    : 02414933
+Geoid      : 7273544
+Geoidfq    : 1600000US7273544
+Name       : Sabana Grande
+Namelsad   : Sabana Grande zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5566713
+Awater     : 399
+Intptlat   : +18.0826484
+Intptlon   : -066.9640253
+
+Statefp    : 72
+Placefp    : 77027
+Placens    : 02414944
+Geoid      : 7277027
+Geoidfq    : 1600000US7277027
+Name       : San Lorenzo
+Namelsad   : San Lorenzo zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4799549
+Awater     : 57079
+Intptlat   : +18.1870608
+Intptlon   : -065.9673540
+
+Statefp    : 72
+Placefp    : 77500
+Placens    : 02414945
+Geoid      : 7277500
+Geoidfq    : 1600000US7277500
+Name       : San Sebastián
+Namelsad   : San Sebastián zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5298117
+Awater     : 0
+Intptlat   : +18.3354975
+Intptlon   : -066.9947561
+
+Statefp    : 72
+Placefp    : 77826
+Placens    : 02414947
+Geoid      : 7277826
+Geoidfq    : 1600000US7277826
+Name       : Santa Clara
+Namelsad   : Santa Clara comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 802453
+Awater     : 5544
+Intptlat   : +18.2093394
+Intptlon   : -066.1334283
+
+Statefp    : 72
+Placefp    : 78145
+Placens    : 02414948
+Geoid      : 7278145
+Geoidfq    : 1600000US7278145
+Name       : Santa Isabel
+Namelsad   : Santa Isabel zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2650085
+Awater     : 0
+Intptlat   : +17.9691490
+Intptlon   : -066.4050515
+
+Statefp    : 72
+Placefp    : 80639
+Placens    : 02415064
+Geoid      : 7280639
+Geoidfq    : 1600000US7280639
+Name       : Suárez
+Namelsad   : Suárez comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 436155
+Awater     : 133596
+Intptlat   : +18.4317520
+Intptlon   : -065.8523547
+
+Statefp    : 72
+Placefp    : 82055
+Placens    : 02585103
+Geoid      : 7282055
+Geoidfq    : 1600000US7282055
+Name       : Tibes
+Namelsad   : Tibes comunidad
+Lsad       : 55
+Classfp    : U2
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2519910
+Awater     : 0
+Intptlat   : +18.0886493
+Intptlon   : -066.6332695
+
+Statefp    : 72
+Placefp    : 82125
+Placens    : 02415067
+Geoid      : 7282125
+Geoidfq    : 1600000US7282125
+Name       : Tiburones
+Namelsad   : Tiburones comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 429637
+Awater     : 0
+Intptlat   : +18.4380502
+Intptlon   : -066.5807270
+
+Statefp    : 72
+Placefp    : 82692
+Placens    : 02807585
+Geoid      : 7282692
+Geoidfq    : 1600000US7282692
+Name       : Toaville
+Namelsad   : Toaville comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 157148
+Awater     : 0
+Intptlat   : +18.4437304
+Intptlon   : -066.2430825
+
+Statefp    : 72
+Placefp    : 84509
+Placens    : 02415072
+Geoid      : 7284509
+Geoidfq    : 1600000US7284509
+Name       : Utuado
+Namelsad   : Utuado zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : Y
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4723608
+Awater     : 100465
+Intptlat   : +18.2691302
+Intptlon   : -066.7063172
+
+Statefp    : 72
+Placefp    : 84917
+Placens    : 02807556
+Geoid      : 7284917
+Geoidfq    : 1600000US7284917
+Name       : Valle Hill
+Namelsad   : Valle Hill comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 196664
+Awater     : 0
+Intptlat   : +18.3952653
+Intptlon   : -065.8940012
+
+Statefp    : 72
+Placefp    : 85111
+Placens    : 02415073
+Geoid      : 7285111
+Geoidfq    : 1600000US7285111
+Name       : Vázquez
+Namelsad   : Vázquez comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3826366
+Awater     : 0
+Intptlat   : +18.0683629
+Intptlon   : -066.2331605
+
+Statefp    : 72
+Placefp    : 85197
+Placens    : 02415074
+Geoid      : 7285197
+Geoidfq    : 1600000US7285197
+Name       : Vega Alta
+Namelsad   : Vega Alta zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4900345
+Awater     : 0
+Intptlat   : +18.4151756
+Intptlon   : -066.3211581
+
+Statefp    : 72
+Placefp    : 85971
+Placens    : 02415076
+Geoid      : 7285971
+Geoidfq    : 1600000US7285971
+Name       : Vieques
+Namelsad   : Vieques comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 823601
+Awater     : 876963
+Intptlat   : +18.4261491
+Intptlon   : -065.8322868
+
+Statefp    : 72
+Placefp    : 86014
+Placens    : 02415077
+Geoid      : 7286014
+Geoidfq    : 1600000US7286014
+Name       : Vieques
+Namelsad   : Vieques zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1503383
+Awater     : 775203
+Intptlat   : +18.1484912
+Intptlon   : -065.4439512
+
+Statefp    : 72
+Placefp    : 86250
+Placens    : 02807587
+Geoid      : 7286250
+Geoidfq    : 1600000US7286250
+Name       : Villa Calma
+Namelsad   : Villa Calma comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 215276
+Awater     : 0
+Intptlat   : +18.4427749
+Intptlon   : -066.2322013
+
+Statefp    : 72
+Placefp    : 86509
+Placens    : 02807593
+Geoid      : 7286509
+Geoidfq    : 1600000US7286509
+Name       : Villa de Sabana
+Namelsad   : Villa de Sabana comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 26232
+Awater     : 0
+Intptlat   : +18.4345581
+Intptlon   : -066.1900680
+
+Statefp    : 72
+Placefp    : 86584
+Placens    : 02807589
+Geoid      : 7286584
+Geoidfq    : 1600000US7286584
+Name       : Villa Esperanza
+Namelsad   : Villa Esperanza comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 132022
+Awater     : 0
+Intptlat   : +18.4261510
+Intptlon   : -066.2311512
+
+Statefp    : 72
+Placefp    : 86796
+Placens    : 02807560
+Geoid      : 7286796
+Geoidfq    : 1600000US7286796
+Name       : Villa Hugo II
+Namelsad   : Villa Hugo II comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 388245
+Awater     : 0
+Intptlat   : +18.3998624
+Intptlon   : -065.8931572
+
+Statefp    : 72
+Placefp    : 87240
+Placens    : 02807591
+Geoid      : 7287240
+Geoidfq    : 1600000US7287240
+Name       : Villa Quintero
+Namelsad   : Villa Quintero comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 64631
+Awater     : 0
+Intptlat   : +18.4254431
+Intptlon   : -066.2350109
+
+Statefp    : 72
+Placefp    : 87272
+Placens    : 02807595
+Geoid      : 7287272
+Geoidfq    : 1600000US7287272
+Name       : Villas del Sol
+Namelsad   : Villas del Sol comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 194678
+Awater     : 1325
+Intptlat   : +18.4488512
+Intptlon   : -066.2298776
+
+Statefp    : 72
+Placefp    : 87282
+Placens    : 02807562
+Geoid      : 7287282
+Geoidfq    : 1600000US7287282
+Name       : Villa Sin Miedo
+Namelsad   : Villa Sin Miedo comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 843016
+Awater     : 0
+Intptlat   : +18.2564968
+Intptlon   : -065.8728615
+
+Statefp    : 72
+Placefp    : 87638
+Placens    : 02804372
+Geoid      : 7287638
+Geoidfq    : 1600000US7287638
+Name       : Voladoras
+Namelsad   : Voladoras comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 393405
+Awater     : 0
+Intptlat   : +18.3786344
+Intptlon   : -067.0860664
+
+Statefp    : 72
+Placefp    : 87863
+Placens    : 02415079
+Geoid      : 7287863
+Geoidfq    : 1600000US7287863
+Name       : Yabucoa
+Namelsad   : Yabucoa zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3364827
+Awater     : 278
+Intptlat   : +18.0463184
+Intptlon   : -065.8829804
+
+Statefp    : 72
+Placefp    : 88035
+Placens    : 02415080
+Geoid      : 7288035
+Geoidfq    : 1600000US7288035
+Name       : Yauco
+Namelsad   : Yauco zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 7498895
+Awater     : 7096
+Intptlat   : +18.0347926
+Intptlon   : -066.8621299
+
+Statefp    : 72
+Placefp    : 88121
+Placens    : 02415081
+Geoid      : 7288121
+Geoidfq    : 1600000US7288121
+Name       : Yaurel
+Namelsad   : Yaurel comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3076256
+Awater     : 0
+Intptlat   : +18.0300652
+Intptlon   : -066.0560340
+
+Statefp    : 72
+Placefp    : 88293
+Placens    : 02807546
+Geoid      : 7288293
+Geoidfq    : 1600000US7288293
+Name       : Yeguada
+Namelsad   : Yeguada comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1291691
+Awater     : 791696
+Intptlat   : +18.4838816
+Intptlon   : -066.8802450
+
+Statefp    : 72
+Placefp    : 86831
+Placens    : 02415078
+Geoid      : 7286831
+Geoidfq    : 1600000US7286831
+Name       : Villalba
+Namelsad   : Villalba zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3360230
+Awater     : 0
+Intptlat   : +18.1278093
+Intptlon   : -066.4818973
+
+Statefp    : 72
+Placefp    : 59440
+Placens    : 02414902
+Geoid      : 7259440
+Geoidfq    : 1600000US7259440
+Name       : Parcelas Peñuelas
+Namelsad   : Parcelas Peñuelas comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1453271
+Awater     : 3279
+Intptlat   : +18.0090072
+Intptlon   : -066.3534375
+
+Statefp    : 72
+Placefp    : 63568
+Placens    : 02414911
+Geoid      : 7263568
+Geoidfq    : 1600000US7263568
+Name       : Playita Cortada
+Namelsad   : Playita Cortada comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2317087
+Awater     : 2728985
+Intptlat   : +17.9734253
+Intptlon   : -066.4389890
+
+Statefp    : 72
+Placefp    : 60945
+Placens    : 02414905
+Geoid      : 7260945
+Geoidfq    : 1600000US7260945
+Name       : Peña Pobre
+Namelsad   : Peña Pobre comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 258971
+Awater     : 0
+Intptlat   : +18.2174370
+Intptlon   : -065.8221958
+
+Statefp    : 72
+Placefp    : 70448
+Placens    : 02414925
+Geoid      : 7270448
+Geoidfq    : 1600000US7270448
+Name       : Río Blanco
+Namelsad   : Río Blanco comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1989735
+Awater     : 0
+Intptlat   : +18.2123263
+Intptlon   : -065.7929792
+
+Statefp    : 72
+Placefp    : 61074
+Placens    : 02414906
+Geoid      : 7261074
+Geoidfq    : 1600000US7261074
+Name       : Peñuelas
+Namelsad   : Peñuelas zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2496898
+Awater     : 2329
+Intptlat   : +18.0596337
+Intptlon   : -066.7211400
+
+Statefp    : 72
+Placefp    : 79564
+Placens    : 02415062
+Geoid      : 7279564
+Geoidfq    : 1600000US7279564
+Name       : Santo Domingo
+Namelsad   : Santo Domingo comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 5694628
+Awater     : 3594
+Intptlat   : +18.0741590
+Intptlon   : -066.7449010
+
+Statefp    : 72
+Placefp    : 61590
+Placens    : 02414907
+Geoid      : 7261590
+Geoidfq    : 1600000US7261590
+Name       : Piedra Gorda
+Namelsad   : Piedra Gorda comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1765506
+Awater     : 0
+Intptlat   : +18.4341942
+Intptlon   : -066.8860855
+
+Statefp    : 72
+Placefp    : 66660
+Placens    : 02414918
+Geoid      : 7266660
+Geoidfq    : 1600000US7266660
+Name       : Quebrada
+Namelsad   : Quebrada comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 428205
+Awater     : 0
+Intptlat   : +18.3603959
+Intptlon   : -066.8354530
+
+Statefp    : 72
+Placefp    : 61977
+Placens    : 02807571
+Geoid      : 7261977
+Geoidfq    : 1600000US7261977
+Name       : Piñas
+Namelsad   : Piñas comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2730256
+Awater     : 0
+Intptlat   : +18.1901526
+Intptlon   : -066.2331682
+
+Statefp    : 72
+Placefp    : 63310
+Placens    : 02414908
+Geoid      : 7263310
+Geoidfq    : 1600000US7263310
+Name       : Playa Fortuna
+Namelsad   : Playa Fortuna comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1577711
+Awater     : 603637
+Intptlat   : +18.3782237
+Intptlon   : -065.7438365
+
+Statefp    : 72
+Placefp    : 63503
+Placens    : 02414909
+Geoid      : 7263503
+Geoidfq    : 1600000US7263503
+Name       : Playita
+Namelsad   : Playita comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 595178
+Awater     : 0
+Intptlat   : +17.9610863
+Intptlon   : -066.2889823
+
+Statefp    : 72
+Placefp    : 64500
+Placens    : 02414915
+Geoid      : 7264500
+Geoidfq    : 1600000US7264500
+Name       : Pueblito del Río
+Namelsad   : Pueblito del Río comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 669094
+Awater     : 0
+Intptlat   : +18.2279790
+Intptlon   : -065.8615383
+
+Statefp    : 72
+Placefp    : 66492
+Placens    : 02414917
+Geoid      : 7266492
+Geoidfq    : 1600000US7266492
+Name       : Punta Santiago
+Namelsad   : Punta Santiago comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4024655
+Awater     : 6913
+Intptlat   : +18.1609301
+Intptlon   : -065.7587982
+
+Statefp    : 72
+Placefp    : 83606
+Placens    : 02415071
+Geoid      : 7283606
+Geoidfq    : 1600000US7283606
+Name       : Trujillo Alto
+Namelsad   : Trujillo Alto zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 19163609
+Awater     : 330538
+Intptlat   : +18.3596105
+Intptlon   : -066.0126582
+
+Statefp    : 72
+Placefp    : 67675
+Placens    : 02807554
+Geoid      : 7267675
+Geoidfq    : 1600000US7267675
+Name       : Quebrada Prieta
+Namelsad   : Quebrada Prieta comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4899635
+Awater     : 0
+Intptlat   : +18.2942744
+Intptlon   : -065.9037559
+
+Statefp    : 72
+Placefp    : 86788
+Placens    : 02807558
+Geoid      : 7286788
+Geoidfq    : 1600000US7286788
+Name       : Villa Hugo I
+Namelsad   : Villa Hugo I comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 104563
+Awater     : 0
+Intptlat   : +18.3975649
+Intptlon   : -065.8908414
+
+Statefp    : 72
+Placefp    : 68513
+Placens    : 02414920
+Geoid      : 7268513
+Geoidfq    : 1600000US7268513
+Name       : Rafael Capó
+Namelsad   : Rafael Capó comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4020313
+Awater     : 14165
+Intptlat   : +18.3989391
+Intptlon   : -066.7919873
+
+Statefp    : 72
+Placefp    : 68556
+Placens    : 02414921
+Geoid      : 7268556
+Geoidfq    : 1600000US7268556
+Name       : Rafael González
+Namelsad   : Rafael González comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1079365
+Awater     : 386
+Intptlat   : +18.4253787
+Intptlon   : -066.7843603
+
+Statefp    : 72
+Placefp    : 68599
+Placens    : 02414922
+Geoid      : 7268599
+Geoidfq    : 1600000US7268599
+Name       : Rafael Hernández
+Namelsad   : Rafael Hernández comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 733179
+Awater     : 0
+Intptlat   : +18.4718594
+Intptlon   : -067.0785832
+
+Statefp    : 72
+Placefp    : 75608
+Placens    : 02414937
+Geoid      : 7275608
+Geoidfq    : 1600000US7275608
+Name       : San Antonio
+Namelsad   : San Antonio comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1252042
+Awater     : 1016
+Intptlat   : +18.4926931
+Intptlon   : -067.1008508
+
+Statefp    : 72
+Placefp    : 68771
+Placens    : 02414923
+Geoid      : 7268771
+Geoidfq    : 1600000US7268771
+Name       : Ramos
+Namelsad   : Ramos comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2837528
+Awater     : 0
+Intptlat   : +18.3389097
+Intptlon   : -065.7111009
+
+Statefp    : 72
+Placefp    : 69488
+Placens    : 02813119
+Geoid      : 7269488
+Geoidfq    : 1600000US7269488
+Name       : Rincón
+Namelsad   : Rincón comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1469260
+Awater     : 0
+Intptlat   : +18.1499097
+Intptlon   : -066.1568966
+
+Statefp    : 72
+Placefp    : 69588
+Placens    : 02414924
+Geoid      : 7269588
+Geoidfq    : 1600000US7269588
+Name       : Rincón
+Namelsad   : Rincón zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1096226
+Awater     : 0
+Intptlat   : +18.3388145
+Intptlon   : -067.2516341
+
+Statefp    : 72
+Placefp    : 80596
+Placens    : 02415063
+Geoid      : 7280596
+Geoidfq    : 1600000US7280596
+Name       : Stella
+Namelsad   : Stella comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 897181
+Awater     : 0
+Intptlat   : +18.3236310
+Intptlon   : -067.2464485
+
+Statefp    : 72
+Placefp    : 70706
+Placens    : 02414926
+Geoid      : 7270706
+Geoidfq    : 1600000US7270706
+Name       : Río Cañas Abajo
+Namelsad   : Río Cañas Abajo comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 841799
+Awater     : 0
+Intptlat   : +18.0397365
+Intptlon   : -066.4682428
+
+Statefp    : 72
+Placefp    : 71437
+Placens    : 02414928
+Geoid      : 7271437
+Geoidfq    : 1600000US7271437
+Name       : Río Lajas
+Namelsad   : Río Lajas comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3909200
+Awater     : 19327
+Intptlat   : +18.3964516
+Intptlon   : -066.2634646
+
+Statefp    : 72
+Placefp    : 75694
+Placens    : 02414938
+Geoid      : 7275694
+Geoidfq    : 1600000US7275694
+Name       : San Antonio
+Namelsad   : San Antonio comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 4873109
+Awater     : 0
+Intptlat   : +18.4470782
+Intptlon   : -066.2993994
+
+Statefp    : 72
+Placefp    : 71996
+Placens    : 02585530
+Geoid      : 7271996
+Geoidfq    : 1600000US7271996
+Name       : Rodríguez Hevia
+Namelsad   : Rodríguez Hevia comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 996523
+Awater     : 0
+Intptlat   : +18.2020341
+Intptlon   : -066.1822207
+
+Statefp    : 72
+Placefp    : 73200
+Placens    : 02414931
+Geoid      : 7273200
+Geoidfq    : 1600000US7273200
+Name       : Sabana
+Namelsad   : Sabana comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 931232
+Awater     : 0
+Intptlat   : +18.4643113
+Intptlon   : -066.3516706
+
+Statefp    : 72
+Placefp    : 85326
+Placens    : 02415075
+Geoid      : 7285326
+Geoidfq    : 1600000US7285326
+Name       : Vega Baja
+Namelsad   : Vega Baja zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 15787233
+Awater     : 74616
+Intptlat   : +18.4410497
+Intptlon   : -066.3990172
+
+Statefp    : 72
+Placefp    : 73372
+Placens    : 02414932
+Geoid      : 7273372
+Geoidfq    : 1600000US7273372
+Name       : Sabana Eneas
+Namelsad   : Sabana Eneas comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 984614
+Awater     : 0
+Intptlat   : +18.0809736
+Intptlon   : -067.0851963
+
+Statefp    : 72
+Placefp    : 73716
+Placens    : 02414934
+Geoid      : 7273716
+Geoidfq    : 1600000US7273716
+Name       : Sabana Hoyos
+Namelsad   : Sabana Hoyos comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 6743839
+Awater     : 0
+Intptlat   : +18.4213086
+Intptlon   : -066.6083861
+
+Statefp    : 72
+Placefp    : 74189
+Placens    : 02414935
+Geoid      : 7274189
+Geoidfq    : 1600000US7274189
+Name       : Sabana Seca
+Namelsad   : Sabana Seca comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2862374
+Awater     : 0
+Intptlat   : +18.4272870
+Intptlon   : -066.1808879
+
+Statefp    : 72
+Placefp    : 76683
+Placens    : 02414942
+Geoid      : 7276683
+Geoidfq    : 1600000US7276683
+Name       : San José
+Namelsad   : San José comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2962875
+Awater     : 32785
+Intptlat   : +18.4039192
+Intptlon   : -066.2490378
+
+Statefp    : 72
+Placefp    : 74877
+Placens    : 02414936
+Geoid      : 7274877
+Geoidfq    : 1600000US7274877
+Name       : Salinas
+Namelsad   : Salinas zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2024566
+Awater     : 0
+Intptlat   : +17.9778567
+Intptlon   : -066.2961875
+
+Statefp    : 72
+Placefp    : 75780
+Placens    : 02414939
+Geoid      : 7275780
+Geoidfq    : 1600000US7275780
+Name       : San Antonio
+Namelsad   : San Antonio comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 3511614
+Awater     : 713
+Intptlat   : +18.4370417
+Intptlon   : -066.9347188
+
+Statefp    : 72
+Placefp    : 76167
+Placens    : 02414940
+Geoid      : 7276167
+Geoidfq    : 1600000US7276167
+Name       : San Germán
+Namelsad   : San Germán zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 7413895
+Awater     : 4307
+Intptlat   : +18.0829625
+Intptlon   : -067.0459987
+
+Statefp    : 72
+Placefp    : 76339
+Placens    : 02414941
+Geoid      : 7276339
+Geoidfq    : 1600000US7276339
+Name       : San Isidro
+Namelsad   : San Isidro comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1942060
+Awater     : 0
+Intptlat   : +18.3921376
+Intptlon   : -065.8843286
+
+Statefp    : 72
+Placefp    : 77672
+Placens    : 02414946
+Geoid      : 7277672
+Geoidfq    : 1600000US7277672
+Name       : Santa Bárbara
+Namelsad   : Santa Bárbara comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1715071
+Awater     : 26066
+Intptlat   : +18.3954939
+Intptlon   : -065.9175840
+
+Statefp    : 72
+Placefp    : 76770
+Placens    : 02414943
+Geoid      : 7276770
+Geoidfq    : 1600000US7276770
+Name       : San Juan
+Namelsad   : San Juan zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : Y
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 103113161
+Awater     : 17707984
+Intptlat   : +18.4045589
+Intptlon   : -066.0637465
+
+Statefp    : 72
+Placefp    : 78317
+Placens    : 02807563
+Geoid      : 7278317
+Geoidfq    : 1600000US7278317
+Name       : Santa María
+Namelsad   : Santa María comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 947819
+Awater     : 1620
+Intptlat   : +18.2708991
+Intptlon   : -065.6616803
+
+Statefp    : 72
+Placefp    : 81413
+Placens    : 02415066
+Geoid      : 7281413
+Geoidfq    : 1600000US7281413
+Name       : Tallaboa
+Namelsad   : Tallaboa comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2897905
+Awater     : 0
+Intptlat   : +17.9935147
+Intptlon   : -066.7067330
+
+Statefp    : 72
+Placefp    : 81456
+Placens    : 02415065
+Geoid      : 7281456
+Geoidfq    : 1600000US7281456
+Name       : Tallaboa Alta
+Namelsad   : Tallaboa Alta comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 988498
+Awater     : 723
+Intptlat   : +18.0501060
+Intptlon   : -066.7023974
+
+Statefp    : 72
+Placefp    : 82187
+Placens    : 02415068
+Geoid      : 7282187
+Geoidfq    : 1600000US7282187
+Name       : Tierras Nuevas Poniente
+Namelsad   : Tierras Nuevas Poniente comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 2372326
+Awater     : 226396
+Intptlat   : +18.4636322
+Intptlon   : -066.4884945
+
+Statefp    : 72
+Placefp    : 82488
+Placens    : 02415069
+Geoid      : 7282488
+Geoidfq    : 1600000US7282488
+Name       : Toa Alta
+Namelsad   : Toa Alta zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1817751
+Awater     : 39231
+Intptlat   : +18.3881166
+Intptlon   : -066.2512476
+
+Statefp    : 72
+Placefp    : 82617
+Placens    : 02415070
+Geoid      : 7282617
+Geoidfq    : 1600000US7282617
+Name       : Toa Baja
+Namelsad   : Toa Baja zona urbana
+Lsad       : 62
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 1521419
+Awater     : 49709
+Intptlat   : +18.4439338
+Intptlon   : -066.2548539
+
+Statefp    : 72
+Placefp    : 82875
+Placens    : 02807543
+Geoid      : 7282875
+Geoidfq    : 1600000US7282875
+Name       : Tomás de Castro
+Namelsad   : Tomás de Castro comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 813163
+Awater     : 0
+Intptlat   : +18.1840662
+Intptlon   : -066.0185846
+
+Statefp    : 72
+Placefp    : 85025
+Placens    : 02611711
+Geoid      : 7285025
+Geoidfq    : 1600000US7285025
+Name       : Vayas
+Namelsad   : Vayas comunidad
+Lsad       : 55
+Classfp    : U1
+Pcicbsa    : N
+Mtfcc      : G4210
+Funcstat   : S
+Aland      : 277603
+Awater     : 0
+Intptlat   : +18.0540079
+Intptlon   : -066.5857366
+
