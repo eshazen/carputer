@@ -1,0 +1,4420 @@
+Statefp    : 33
+Countyfp   : 013
+Cousubfp   : 19460
+Cousubns   : 00873583
+Geoid      : 3301319460
+Geoidfq    : 0600000US3301319460
+Name       : Dunbarton
+Namelsad   : Dunbarton town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 79934537
+Awater     : 1197090
+Intptlat   : +43.1124730
+Intptlon   : -071.6074786
+
+Statefp    : 33
+Countyfp   : 013
+Cousubfp   : 27380
+Cousubns   : 00873600
+Geoid      : 3301327380
+Geoidfq    : 0600000US3301327380
+Name       : Franklin
+Namelsad   : Franklin city
+Lsad       : 25
+Classfp    : C5
+Mtfcc      : G4040
+Funcstat   : F
+Aland      : 71050024
+Awater     : 4496574
+Intptlat   : +43.4539146
+Intptlon   : -071.6698930
+
+Statefp    : 33
+Countyfp   : 013
+Cousubfp   : 60020
+Cousubns   : 00873696
+Geoid      : 3301360020
+Geoidfq    : 0600000US3301360020
+Name       : Pembroke
+Namelsad   : Pembroke town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 58625320
+Awater     : 451377
+Intptlat   : +43.1677223
+Intptlon   : -071.4385169
+
+Statefp    : 33
+Countyfp   : 013
+Cousubfp   : 35540
+Cousubns   : 00873623
+Geoid      : 3301335540
+Geoidfq    : 0600000US3301335540
+Name       : Henniker
+Namelsad   : Henniker town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 114267231
+Awater     : 1767818
+Intptlat   : +43.1694073
+Intptlon   : -071.8312010
+
+Statefp    : 33
+Countyfp   : 013
+Cousubfp   : 37540
+Cousubns   : 00873630
+Geoid      : 3301337540
+Geoidfq    : 0600000US3301337540
+Name       : Hopkinton
+Namelsad   : Hopkinton town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 112137155
+Awater     : 4634943
+Intptlat   : +43.2021909
+Intptlon   : -071.6967887
+
+Statefp    : 33
+Countyfp   : 011
+Cousubfp   : 45140
+Cousubns   : 00873658
+Geoid      : 3301145140
+Geoidfq    : 0600000US3301145140
+Name       : Manchester
+Namelsad   : Manchester city
+Lsad       : 25
+Classfp    : C5
+Mtfcc      : G4040
+Funcstat   : F
+Aland      : 85561619
+Awater     : 4923655
+Intptlat   : +42.9849406
+Intptlon   : -071.4441315
+
+Statefp    : 33
+Countyfp   : 011
+Cousubfp   : 59940
+Cousubns   : 00873695
+Geoid      : 3301159940
+Geoidfq    : 0600000US3301159940
+Name       : Pelham
+Namelsad   : Pelham town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 68233744
+Awater     : 1394546
+Intptlat   : +42.7309925
+Intptlon   : -071.3370749
+
+Statefp    : 33
+Countyfp   : 011
+Cousubfp   : 76260
+Cousubns   : 00873737
+Geoid      : 3301176260
+Geoidfq    : 0600000US3301176260
+Name       : Temple
+Namelsad   : Temple town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 57631821
+Awater     : 568961
+Intptlat   : +42.8267234
+Intptlon   : -071.8754157
+
+Statefp    : 33
+Countyfp   : 011
+Cousubfp   : 01300
+Cousubns   : 00873531
+Geoid      : 3301101300
+Geoidfq    : 0600000US3301101300
+Name       : Amherst
+Namelsad   : Amherst town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 87819319
+Awater     : 1320337
+Intptlat   : +42.8748242
+Intptlon   : -071.6005331
+
+Statefp    : 33
+Countyfp   : 003
+Cousubfp   : 45060
+Cousubns   : 00873657
+Geoid      : 3300345060
+Geoidfq    : 0600000US3300345060
+Name       : Madison
+Namelsad   : Madison town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 99684107
+Awater     : 6177698
+Intptlat   : +43.9084585
+Intptlon   : -071.1538204
+
+Statefp    : 33
+Countyfp   : 003
+Cousubfp   : 67780
+Cousubns   : 00873717
+Geoid      : 3300367780
+Geoidfq    : 0600000US3300367780
+Name       : Sandwich
+Namelsad   : Sandwich town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 235372557
+Awater     : 8471289
+Intptlat   : +43.8385644
+Intptlon   : -071.4431320
+
+Statefp    : 33
+Countyfp   : 003
+Cousubfp   : 76100
+Cousubns   : 00873736
+Geoid      : 3300376100
+Geoidfq    : 0600000US3300376100
+Name       : Tamworth
+Namelsad   : Tamworth town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 154236630
+Awater     : 2845308
+Intptlat   : +43.8640381
+Intptlon   : -071.2960679
+
+Statefp    : 33
+Countyfp   : 003
+Cousubfp   : 77620
+Cousubns   : 00873741
+Geoid      : 3300377620
+Geoidfq    : 0600000US3300377620
+Name       : Tuftonboro
+Namelsad   : Tuftonboro town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 104925458
+Awater     : 23119073
+Intptlat   : +43.6698767
+Intptlon   : -071.2758915
+
+Statefp    : 33
+Countyfp   : 003
+Cousubfp   : 78180
+Cousubns   : 00873743
+Geoid      : 3300378180
+Geoidfq    : 0600000US3300378180
+Name       : Wakefield
+Namelsad   : Wakefield town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 102640053
+Awater     : 13611167
+Intptlat   : +43.5935820
+Intptlon   : -071.0100616
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 27300
+Cousubns   : 00873599
+Geoid      : 3300927300
+Geoidfq    : 0600000US3300927300
+Name       : Franconia
+Namelsad   : Franconia town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 169679504
+Awater     : 806429
+Intptlat   : +44.1770455
+Intptlon   : -071.6187325
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 30820
+Cousubns   : 00873609
+Geoid      : 3300930820
+Geoidfq    : 0600000US3300930820
+Name       : Grafton
+Namelsad   : Grafton town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 107415164
+Awater     : 2419303
+Intptlat   : +43.5746907
+Intptlon   : -071.9519192
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 32180
+Cousubns   : 00873614
+Geoid      : 3300932180
+Geoidfq    : 0600000US3300932180
+Name       : Groton
+Namelsad   : Groton town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 105401008
+Awater     : 169050
+Intptlat   : +43.7252763
+Intptlon   : -071.8649302
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 35220
+Cousubns   : 00873622
+Geoid      : 3300935220
+Geoidfq    : 0600000US3300935220
+Name       : Hebron
+Namelsad   : Hebron town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 44046337
+Awater     : 5836792
+Intptlat   : +43.6935791
+Intptlon   : -071.7920474
+
+Statefp    : 33
+Countyfp   : 003
+Cousubfp   : 03700
+Cousubns   : 00873539
+Geoid      : 3300303700
+Geoidfq    : 0600000US3300303700
+Name       : Bartlett
+Namelsad   : Bartlett town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 193730331
+Awater     : 1101160
+Intptlat   : +44.0772373
+Intptlon   : -071.2212655
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 62660
+Cousubns   : 00873702
+Geoid      : 3300962660
+Geoidfq    : 0600000US3300962660
+Name       : Plymouth
+Namelsad   : Plymouth town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 72781800
+Awater     : 1441798
+Intptlat   : +43.7439120
+Intptlon   : -071.7267441
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 78740
+Cousubns   : 00873746
+Geoid      : 3300978740
+Geoidfq    : 0600000US3300978740
+Name       : Warren
+Namelsad   : Warren town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 125684808
+Awater     : 1216936
+Intptlat   : +43.9658028
+Intptlon   : -071.8591167
+
+Statefp    : 33
+Countyfp   : 013
+Cousubfp   : 14200
+Cousubns   : 00873569
+Geoid      : 3301314200
+Geoidfq    : 0600000US3301314200
+Name       : Concord
+Namelsad   : Concord city
+Lsad       : 25
+Classfp    : C5
+Mtfcc      : G4040
+Funcstat   : F
+Aland      : 165602774
+Awater     : 8420311
+Intptlat   : +43.2324926
+Intptlon   : -071.5612523
+
+Statefp    : 33
+Countyfp   : 013
+Cousubfp   : 16980
+Cousubns   : 00873574
+Geoid      : 3301316980
+Geoidfq    : 0600000US3301316980
+Name       : Danbury
+Namelsad   : Danbury town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 97725006
+Awater     : 796383
+Intptlat   : +43.5283183
+Intptlon   : -071.8684716
+
+Statefp    : 33
+Countyfp   : 013
+Cousubfp   : 35860
+Cousubns   : 00873624
+Geoid      : 3301335860
+Geoidfq    : 0600000US3301335860
+Name       : Hill
+Namelsad   : Hill town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 68774498
+Awater     : 459853
+Intptlat   : +43.5283063
+Intptlon   : -071.7691921
+
+Statefp    : 33
+Countyfp   : 013
+Cousubfp   : 37300
+Cousubns   : 00873629
+Geoid      : 3301337300
+Geoidfq    : 0600000US3301337300
+Name       : Hooksett
+Namelsad   : Hooksett town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 93328109
+Awater     : 2826379
+Intptlat   : +43.0812421
+Intptlon   : -071.4466159
+
+Statefp    : 33
+Countyfp   : 013
+Cousubfp   : 54260
+Cousubns   : 00873686
+Geoid      : 3301354260
+Geoidfq    : 0600000US3301354260
+Name       : Northfield
+Namelsad   : Northfield town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 73830965
+Awater     : 952217
+Intptlat   : +43.4017881
+Intptlon   : -071.5553905
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 04100
+Cousubns   : 00871459
+Geoid      : 3300704100
+Geoidfq    : 0600000US3300704100
+Name       : Beans
+Namelsad   : Beans grant
+Lsad       : 32
+Classfp    : Z1
+Mtfcc      : G4040
+Funcstat   : N
+Aland      : 25020949
+Awater     : 0
+Intptlat   : +44.2226831
+Intptlon   : -071.3765888
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 13780
+Cousubns   : 00871097
+Geoid      : 3300713780
+Geoidfq    : 0600000US3300713780
+Name       : Colebrook
+Namelsad   : Colebrook town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 104920052
+Awater     : 539388
+Intptlat   : +44.8952030
+Intptlon   : -071.4095268
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 43620
+Cousubns   : 00872225
+Geoid      : 3300743620
+Geoidfq    : 0600000US3300743620
+Name       : Low and Burbanks
+Namelsad   : Low and Burbanks grant
+Lsad       : 32
+Classfp    : Z1
+Mtfcc      : G4040
+Funcstat   : N
+Aland      : 67701472
+Awater     : 1335
+Intptlat   : +44.3295107
+Intptlon   : -071.3480938
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 74180
+Cousubns   : 00873727
+Geoid      : 3300774180
+Geoidfq    : 0600000US3300774180
+Name       : Stratford
+Namelsad   : Stratford town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 205222752
+Awater     : 1362422
+Intptlat   : +44.7150525
+Intptlon   : -071.5275395
+
+Statefp    : 33
+Countyfp   : 013
+Cousubfp   : 78580
+Cousubns   : 00873745
+Geoid      : 3301378580
+Geoidfq    : 0600000US3301378580
+Name       : Warner
+Namelsad   : Warner town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 143044008
+Awater     : 643526
+Intptlat   : +43.2835439
+Intptlon   : -071.8306056
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 19300
+Cousubns   : 00873582
+Geoid      : 3300719300
+Geoidfq    : 0600000US3300719300
+Name       : Dummer
+Namelsad   : Dummer town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 124213095
+Awater     : 3110209
+Intptlat   : +44.6650096
+Intptlon   : -071.2518056
+
+Statefp    : 33
+Countyfp   : 005
+Cousubfp   : 45460
+Cousubns   : 00873659
+Geoid      : 3300545460
+Geoidfq    : 0600000US3300545460
+Name       : Marlborough
+Namelsad   : Marlborough town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 52865391
+Awater     : 605073
+Intptlat   : +42.8862255
+Intptlon   : -072.1776835
+
+Statefp    : 33
+Countyfp   : 017
+Cousubfp   : 19700
+Cousubns   : 00873584
+Geoid      : 3301719700
+Geoidfq    : 0600000US3301719700
+Name       : Durham
+Namelsad   : Durham town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 58048556
+Awater     : 6096742
+Intptlat   : +43.1170615
+Intptlon   : -070.9188067
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 30260
+Cousubns   : 00873607
+Geoid      : 3300730260
+Geoidfq    : 0600000US3300730260
+Name       : Gorham
+Namelsad   : Gorham town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 82435455
+Awater     : 1253252
+Intptlat   : +44.3934847
+Intptlon   : -071.1986349
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 31780
+Cousubns   : 00871974
+Geoid      : 3300731780
+Geoidfq    : 0600000US3300731780
+Name       : Greens
+Namelsad   : Greens grant
+Lsad       : 32
+Classfp    : Z1
+Mtfcc      : G4040
+Funcstat   : N
+Aland      : 9497094
+Awater     : 7256
+Intptlat   : +44.2900172
+Intptlon   : -071.2181526
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 32420
+Cousubns   : 00872009
+Geoid      : 3300732420
+Geoidfq    : 0600000US3300732420
+Name       : Hadleys
+Namelsad   : Hadleys purchase
+Lsad       : 42
+Classfp    : Z1
+Mtfcc      : G4040
+Funcstat   : N
+Aland      : 19185270
+Awater     : 0
+Intptlat   : +44.1260781
+Intptlon   : -071.3324072
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 38820
+Cousubns   : 00873634
+Geoid      : 3300738820
+Geoidfq    : 0600000US3300738820
+Name       : Jefferson
+Namelsad   : Jefferson town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 129488617
+Awater     : 851745
+Intptlat   : +44.3967405
+Intptlon   : -071.4646938
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 39940
+Cousubns   : 00873637
+Geoid      : 3300739940
+Geoidfq    : 0600000US3300739940
+Name       : Kilkenny
+Namelsad   : Kilkenny township
+Lsad       : 44
+Classfp    : Z1
+Mtfcc      : G4040
+Funcstat   : N
+Aland      : 66505970
+Awater     : 50900
+Intptlat   : +44.4795952
+Intptlon   : -071.4054858
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 47860
+Cousubns   : 00873665
+Geoid      : 3300747860
+Geoidfq    : 0600000US3300747860
+Name       : Milan
+Namelsad   : Milan town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 164952129
+Awater     : 1965467
+Intptlat   : +44.5538600
+Intptlon   : -071.2182690
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 48260
+Cousubns   : 00873667
+Geoid      : 3300748260
+Geoidfq    : 0600000US3300748260
+Name       : Millsfield
+Namelsad   : Millsfield township
+Lsad       : 44
+Classfp    : Z1
+Mtfcc      : G4040
+Funcstat   : N
+Aland      : 116067596
+Awater     : 1047129
+Intptlat   : +44.7477159
+Intptlon   : -071.2615739
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 57860
+Cousubns   : 00873691
+Geoid      : 3300757860
+Geoidfq    : 0600000US3300757860
+Name       : Odell
+Namelsad   : Odell township
+Lsad       : 44
+Classfp    : Z1
+Mtfcc      : G4040
+Funcstat   : N
+Aland      : 114798435
+Awater     : 1784118
+Intptlat   : +44.7449409
+Intptlon   : -071.3813307
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 61620
+Cousubns   : 00872509
+Geoid      : 3300761620
+Geoidfq    : 0600000US3300761620
+Name       : Pinkhams
+Namelsad   : Pinkhams grant
+Lsad       : 32
+Classfp    : Z1
+Mtfcc      : G4040
+Funcstat   : N
+Aland      : 9823318
+Awater     : 15902
+Intptlat   : +44.2569550
+Intptlon   : -071.2415794
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 63860
+Cousubns   : 00873704
+Geoid      : 3300763860
+Geoidfq    : 0600000US3300763860
+Name       : Randolph
+Namelsad   : Randolph town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 121837414
+Awater     : 153299
+Intptlat   : +44.3974894
+Intptlon   : -071.3050529
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 11220
+Cousubns   : 00871663
+Geoid      : 3300711220
+Geoidfq    : 0600000US3300711220
+Name       : Chandlers
+Namelsad   : Chandlers purchase
+Lsad       : 42
+Classfp    : Z1
+Mtfcc      : G4040
+Funcstat   : N
+Aland      : 5507151
+Awater     : 0
+Intptlat   : +44.2610580
+Intptlon   : -071.3586538
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 13220
+Cousubns   : 00871098
+Geoid      : 3300713220
+Geoidfq    : 0600000US3300713220
+Name       : Clarksville
+Namelsad   : Clarksville town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 156253198
+Awater     : 5232122
+Intptlat   : +45.0182490
+Intptlon   : -071.3255686
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 13940
+Cousubns   : 00873568
+Geoid      : 3300713940
+Geoidfq    : 0600000US3300713940
+Name       : Columbia
+Namelsad   : Columbia town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 157405024
+Awater     : 864475
+Intptlat   : +44.8161845
+Intptlon   : -071.5124410
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 16820
+Cousubns   : 00873573
+Geoid      : 3300716820
+Geoidfq    : 0600000US3300716820
+Name       : Dalton
+Namelsad   : Dalton town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 71303356
+Awater     : 1435160
+Intptlat   : +44.3947733
+Intptlon   : -071.6889073
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 02020
+Cousubns   : 00873534
+Geoid      : 3300902020
+Geoidfq    : 0600000US3300902020
+Name       : Ashland
+Namelsad   : Ashland town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 29089840
+Awater     : 1400791
+Intptlat   : +43.7259668
+Intptlon   : -071.6425789
+
+Statefp    : 33
+Countyfp   : 017
+Cousubfp   : 73860
+Cousubns   : 00873726
+Geoid      : 3301773860
+Geoidfq    : 0600000US3301773860
+Name       : Strafford
+Namelsad   : Strafford town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 126965586
+Awater     : 5687359
+Intptlat   : +43.2753845
+Intptlon   : -071.1699559
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 57460
+Cousubns   : 00873690
+Geoid      : 3301557460
+Geoidfq    : 0600000US3301557460
+Name       : Nottingham
+Namelsad   : Nottingham town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 120436059
+Awater     : 5009040
+Intptlat   : +43.1298473
+Intptlon   : -071.1318591
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 51620
+Cousubns   : 00873680
+Geoid      : 3301551620
+Geoidfq    : 0600000US3301551620
+Name       : Newington
+Namelsad   : Newington town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 21300206
+Awater     : 10748177
+Intptlat   : +43.0830555
+Intptlon   : -070.8258665
+
+Statefp    : 33
+Countyfp   : 011
+Cousubfp   : 04500
+Cousubns   : 00873541
+Geoid      : 3301104500
+Geoidfq    : 0600000US3301104500
+Name       : Bedford
+Namelsad   : Bedford town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 84898824
+Awater     : 727926
+Intptlat   : +42.9355843
+Intptlon   : -071.5368709
+
+Statefp    : 33
+Countyfp   : 011
+Cousubfp   : 04900
+Cousubns   : 00873543
+Geoid      : 3301104900
+Geoidfq    : 0600000US3301104900
+Name       : Bennington
+Namelsad   : Bennington town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 29428469
+Awater     : 581964
+Intptlat   : +43.0202839
+Intptlon   : -071.9037050
+
+Statefp    : 33
+Countyfp   : 011
+Cousubfp   : 08100
+Cousubns   : 00873554
+Geoid      : 3301108100
+Geoidfq    : 0600000US3301108100
+Name       : Brookline
+Namelsad   : Brookline town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 51373285
+Awater     : 934688
+Intptlat   : +42.7492630
+Intptlon   : -071.6756699
+
+Statefp    : 33
+Countyfp   : 011
+Cousubfp   : 17780
+Cousubns   : 00873577
+Geoid      : 3301117780
+Geoidfq    : 0600000US3301117780
+Name       : Deering
+Namelsad   : Deering town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 79224194
+Awater     : 1658173
+Intptlat   : +43.0831046
+Intptlon   : -071.8606029
+
+Statefp    : 33
+Countyfp   : 011
+Cousubfp   : 27140
+Cousubns   : 00873598
+Geoid      : 3301127140
+Geoidfq    : 0600000US3301127140
+Name       : Francestown
+Namelsad   : Francestown town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 77217363
+Awater     : 1454953
+Intptlat   : +42.9941346
+Intptlon   : -071.8160980
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 46020
+Cousubns   : 00872260
+Geoid      : 3300746020
+Geoidfq    : 0600000US3300746020
+Name       : Martins
+Namelsad   : Martins location
+Lsad       : 36
+Classfp    : Z1
+Mtfcc      : G4040
+Funcstat   : N
+Aland      : 9648484
+Awater     : 77531
+Intptlat   : +44.3304334
+Intptlon   : -071.2024792
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 40420
+Cousubns   : 00873640
+Geoid      : 3300740420
+Geoidfq    : 0600000US3300740420
+Name       : Lancaster
+Namelsad   : Lancaster town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 129417580
+Awater     : 2896056
+Intptlat   : +44.4724092
+Intptlon   : -071.5441582
+
+Statefp    : 33
+Countyfp   : 013
+Cousubfp   : 00660
+Cousubns   : 00873528
+Geoid      : 3301300660
+Geoidfq    : 0600000US3301300660
+Name       : Allenstown
+Namelsad   : Allenstown town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 52998689
+Awater     : 291215
+Intptlat   : +43.1433412
+Intptlon   : -071.3861063
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 74340
+Cousubns   : 00873728
+Geoid      : 3301574340
+Geoidfq    : 0600000US3301574340
+Name       : Stratham
+Namelsad   : Stratham town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 39233123
+Awater     : 921189
+Intptlat   : +43.0149932
+Intptlon   : -070.9026023
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 07220
+Cousubns   : 00873550
+Geoid      : 3301507220
+Geoidfq    : 0600000US3301507220
+Name       : Brentwood
+Namelsad   : Brentwood town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 43554707
+Awater     : 408191
+Intptlat   : +42.9837228
+Intptlon   : -071.0539976
+
+Statefp    : 33
+Countyfp   : 011
+Cousubfp   : 68820
+Cousubns   : 00873719
+Geoid      : 3301168820
+Geoidfq    : 0600000US3301168820
+Name       : Sharon
+Namelsad   : Sharon town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 40561509
+Awater     : 0
+Intptlat   : +42.8162147
+Intptlon   : -071.9344238
+
+Statefp    : 33
+Countyfp   : 011
+Cousubfp   : 79780
+Cousubns   : 00873749
+Geoid      : 3301179780
+Geoidfq    : 0600000US3301179780
+Name       : Weare
+Namelsad   : Weare town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 152983980
+Awater     : 2679876
+Intptlat   : +43.0782866
+Intptlon   : -071.7035079
+
+Statefp    : 33
+Countyfp   : 011
+Cousubfp   : 85220
+Cousubns   : 00873756
+Geoid      : 3301185220
+Geoidfq    : 0600000US3301185220
+Name       : Wilton
+Namelsad   : Wilton town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 66331987
+Awater     : 234112
+Intptlat   : +42.8353016
+Intptlon   : -071.7691548
+
+Statefp    : 33
+Countyfp   : 011
+Cousubfp   : 85940
+Cousubns   : 00873759
+Geoid      : 3301185940
+Geoidfq    : 0600000US3301185940
+Name       : Windsor
+Namelsad   : Windsor town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 21363889
+Awater     : 693974
+Intptlat   : +43.1130444
+Intptlon   : -072.0136387
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 62500
+Cousubns   : 00873701
+Geoid      : 3301562500
+Geoidfq    : 0600000US3301562500
+Name       : Plaistow
+Namelsad   : Plaistow town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 27430608
+Awater     : 15406
+Intptlat   : +42.8456113
+Intptlon   : -071.0932568
+
+Statefp    : 33
+Countyfp   : 003
+Cousubfp   : 07940
+Cousubns   : 00873553
+Geoid      : 3300307940
+Geoidfq    : 0600000US3300307940
+Name       : Brookfield
+Namelsad   : Brookfield town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 59083182
+Awater     : 1095733
+Intptlat   : +43.5612794
+Intptlon   : -071.0933914
+
+Statefp    : 33
+Countyfp   : 005
+Cousubfp   : 39300
+Cousubns   : 00873635
+Geoid      : 3300539300
+Geoidfq    : 0600000US3300539300
+Name       : Keene
+Namelsad   : Keene city
+Lsad       : 25
+Classfp    : C5
+Mtfcc      : G4040
+Funcstat   : F
+Aland      : 96068853
+Awater     : 670813
+Intptlat   : +42.9538419
+Intptlon   : -072.3068747
+
+Statefp    : 33
+Countyfp   : 005
+Cousubfp   : 75700
+Cousubns   : 00873735
+Geoid      : 3300575700
+Geoidfq    : 0600000US3300575700
+Name       : Swanzey
+Namelsad   : Swanzey town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 116483812
+Awater     : 922883
+Intptlat   : +42.8582713
+Intptlon   : -072.2963597
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 68500
+Cousubns   : 00871136
+Geoid      : 3300768500
+Geoidfq    : 0600000US3300768500
+Name       : Second College
+Namelsad   : Second College grant
+Lsad       : 32
+Classfp    : Z1
+Mtfcc      : G4040
+Funcstat   : N
+Aland      : 107051561
+Awater     : 1310241
+Intptlat   : +44.9242696
+Intptlon   : -071.1254873
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 73060
+Cousubns   : 00873724
+Geoid      : 3300773060
+Geoidfq    : 0600000US3300773060
+Name       : Stark
+Namelsad   : Stark town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 152311609
+Awater     : 2369271
+Intptlat   : +44.5951258
+Intptlon   : -071.4032489
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 74500
+Cousubns   : 00873729
+Geoid      : 3300774500
+Geoidfq    : 0600000US3300774500
+Name       : Success
+Namelsad   : Success township
+Lsad       : 44
+Classfp    : Z1
+Mtfcc      : G4040
+Funcstat   : N
+Aland      : 146332093
+Awater     : 1344795
+Intptlat   : +44.5126925
+Intptlon   : -071.0727134
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 80740
+Cousubns   : 00873751
+Geoid      : 3300780740
+Geoidfq    : 0600000US3300780740
+Name       : Wentworth
+Namelsad   : Wentworth location
+Lsad       : 36
+Classfp    : Z1
+Mtfcc      : G4040
+Funcstat   : N
+Aland      : 47491634
+Awater     : 2391221
+Intptlat   : +44.8450263
+Intptlon   : -071.0958740
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 84420
+Cousubns   : 00873754
+Geoid      : 3300784420
+Geoidfq    : 0600000US3300784420
+Name       : Whitefield
+Namelsad   : Whitefield town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 88742958
+Awater     : 1229984
+Intptlat   : +44.3755126
+Intptlon   : -071.5895985
+
+Statefp    : 33
+Countyfp   : 005
+Cousubfp   : 45700
+Cousubns   : 00873660
+Geoid      : 3300545700
+Geoidfq    : 0600000US3300545700
+Name       : Marlow
+Namelsad   : Marlow town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 67265122
+Awater     : 1218420
+Intptlat   : +43.1385439
+Intptlon   : -072.2087693
+
+Statefp    : 33
+Countyfp   : 005
+Cousubfp   : 64420
+Cousubns   : 00873706
+Geoid      : 3300564420
+Geoidfq    : 0600000US3300564420
+Name       : Richmond
+Namelsad   : Richmond town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 97235031
+Awater     : 507318
+Intptlat   : +42.7734838
+Intptlon   : -072.2787451
+
+Statefp    : 33
+Countyfp   : 005
+Cousubfp   : 64580
+Cousubns   : 00873707
+Geoid      : 3300564580
+Geoidfq    : 0600000US3300564580
+Name       : Rindge
+Namelsad   : Rindge town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 96109080
+Awater     : 6958676
+Intptlat   : +42.7566630
+Intptlon   : -072.0132470
+
+Statefp    : 33
+Countyfp   : 005
+Cousubfp   : 65700
+Cousubns   : 00873710
+Geoid      : 3300565700
+Geoidfq    : 0600000US3300565700
+Name       : Roxbury
+Namelsad   : Roxbury town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 30840941
+Awater     : 757075
+Intptlat   : +42.9511048
+Intptlon   : -072.1997417
+
+Statefp    : 33
+Countyfp   : 005
+Cousubfp   : 73700
+Cousubns   : 00873725
+Geoid      : 3300573700
+Geoidfq    : 0600000US3300573700
+Name       : Stoddard
+Namelsad   : Stoddard town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 131932701
+Awater     : 5469312
+Intptlat   : +43.0763141
+Intptlon   : -072.1139519
+
+Statefp    : 33
+Countyfp   : 005
+Cousubfp   : 74900
+Cousubns   : 00873731
+Geoid      : 3300574900
+Geoidfq    : 0600000US3300574900
+Name       : Sullivan
+Namelsad   : Sullivan town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 48010594
+Awater     : 489812
+Intptlat   : +43.0206159
+Intptlon   : -072.2143736
+
+Statefp    : 33
+Countyfp   : 013
+Cousubfp   : 06260
+Cousubns   : 00873547
+Geoid      : 3301306260
+Geoidfq    : 0600000US3301306260
+Name       : Boscawen
+Namelsad   : Boscawen town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 64453479
+Awater     : 1648789
+Intptlat   : +43.3117165
+Intptlon   : -071.6653806
+
+Statefp    : 33
+Countyfp   : 013
+Cousubfp   : 06500
+Cousubns   : 00873548
+Geoid      : 3301306500
+Geoidfq    : 0600000US3301306500
+Name       : Bow
+Namelsad   : Bow town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 72962263
+Awater     : 974137
+Intptlat   : +43.1331765
+Intptlon   : -071.5372422
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 24660
+Cousubns   : 00873591
+Geoid      : 3301524660
+Geoidfq    : 0600000US3301524660
+Name       : Epping
+Namelsad   : Epping town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 67408841
+Awater     : 472698
+Intptlat   : +43.0510273
+Intptlon   : -071.0882538
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 25380
+Cousubns   : 00873595
+Geoid      : 3301525380
+Geoidfq    : 0600000US3301525380
+Name       : Exeter
+Namelsad   : Exeter town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 50773634
+Awater     : 930804
+Intptlat   : +42.9884525
+Intptlon   : -070.9615424
+
+Statefp    : 33
+Countyfp   : 019
+Cousubfp   : 78980
+Cousubns   : 00873747
+Geoid      : 3301978980
+Geoidfq    : 0600000US3301978980
+Name       : Washington
+Namelsad   : Washington town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 118391412
+Awater     : 5134226
+Intptlat   : +43.1900513
+Intptlon   : -072.0938710
+
+Statefp    : 33
+Countyfp   : 019
+Cousubfp   : 11380
+Cousubns   : 00873562
+Geoid      : 3301911380
+Geoidfq    : 0600000US3301911380
+Name       : Charlestown
+Namelsad   : Charlestown town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 92628168
+Awater     : 5894435
+Intptlat   : +43.2466311
+Intptlon   : -072.3838927
+
+Statefp    : 33
+Countyfp   : 019
+Cousubfp   : 31220
+Cousubns   : 00873610
+Geoid      : 3301931220
+Geoidfq    : 0600000US3301931220
+Name       : Grantham
+Namelsad   : Grantham town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 70492623
+Awater     : 2155253
+Intptlat   : +43.5165899
+Intptlon   : -072.1490935
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 76740
+Cousubns   : 00873738
+Geoid      : 3300976740
+Geoidfq    : 0600000US3300976740
+Name       : Thornton
+Namelsad   : Thornton town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 129736257
+Awater     : 1565395
+Intptlat   : +43.9478765
+Intptlon   : -071.6357846
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 79380
+Cousubns   : 00873748
+Geoid      : 3300979380
+Geoidfq    : 0600000US3300979380
+Name       : Waterville Valley
+Namelsad   : Waterville Valley town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 166607347
+Awater     : 331911
+Intptlat   : +43.9428313
+Intptlon   : -071.4480518
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 80500
+Cousubns   : 00873752
+Geoid      : 3300980500
+Geoidfq    : 0600000US3300980500
+Name       : Wentworth
+Namelsad   : Wentworth town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 107651028
+Awater     : 1333405
+Intptlat   : +43.8587205
+Intptlon   : -071.9237177
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 87060
+Cousubns   : 00873761
+Geoid      : 3300987060
+Geoidfq    : 0600000US3300987060
+Name       : Woodstock
+Namelsad   : Woodstock town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 152193638
+Awater     : 1421827
+Intptlat   : +43.9998891
+Intptlon   : -071.7144474
+
+Statefp    : 33
+Countyfp   : 017
+Cousubfp   : 03460
+Cousubns   : 00873538
+Geoid      : 3301703460
+Geoidfq    : 0600000US3301703460
+Name       : Barrington
+Namelsad   : Barrington town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 120848646
+Awater     : 5079560
+Intptlat   : +43.2155657
+Intptlon   : -071.0389797
+
+Statefp    : 33
+Countyfp   : 017
+Cousubfp   : 18820
+Cousubns   : 00873580
+Geoid      : 3301718820
+Geoidfq    : 0600000US3301718820
+Name       : Dover
+Namelsad   : Dover city
+Lsad       : 25
+Classfp    : C5
+Mtfcc      : G4040
+Funcstat   : F
+Aland      : 69236658
+Awater     : 5986202
+Intptlat   : +43.1863602
+Intptlon   : -070.8836226
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 67860
+Cousubns   : 00872626
+Geoid      : 3300767860
+Geoidfq    : 0600000US3300767860
+Name       : Sargents
+Namelsad   : Sargents purchase
+Lsad       : 42
+Classfp    : Z1
+Mtfcc      : G4040
+Funcstat   : N
+Aland      : 67001458
+Awater     : 16690
+Intptlat   : +44.2155471
+Intptlon   : -071.3028985
+
+Statefp    : 33
+Countyfp   : 011
+Cousubfp   : 31540
+Cousubns   : 00873611
+Geoid      : 3301131540
+Geoidfq    : 0600000US3301131540
+Name       : Greenfield
+Namelsad   : Greenfield town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 67887117
+Awater     : 1414365
+Intptlat   : +42.9387402
+Intptlon   : -071.8794244
+
+Statefp    : 33
+Countyfp   : 011
+Cousubfp   : 33700
+Cousubns   : 00873618
+Geoid      : 3301133700
+Geoidfq    : 0600000US3301133700
+Name       : Hancock
+Namelsad   : Hancock town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 77623192
+Awater     : 3326700
+Intptlat   : +42.9773389
+Intptlon   : -071.9978207
+
+Statefp    : 33
+Countyfp   : 011
+Cousubfp   : 36180
+Cousubns   : 00873625
+Geoid      : 3301136180
+Geoidfq    : 0600000US3301136180
+Name       : Hillsborough
+Namelsad   : Hillsborough town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 113224370
+Awater     : 2558484
+Intptlat   : +43.1466849
+Intptlon   : -071.9510251
+
+Statefp    : 33
+Countyfp   : 011
+Cousubfp   : 37140
+Cousubns   : 00873628
+Geoid      : 3301137140
+Geoidfq    : 0600000US3301137140
+Name       : Hollis
+Namelsad   : Hollis town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 82178021
+Awater     : 1468342
+Intptlat   : +42.7496243
+Intptlon   : -071.5854018
+
+Statefp    : 33
+Countyfp   : 011
+Cousubfp   : 37940
+Cousubns   : 00873631
+Geoid      : 3301137940
+Geoidfq    : 0600000US3301137940
+Name       : Hudson
+Namelsad   : Hudson town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 73251053
+Awater     : 2535348
+Intptlat   : +42.7604969
+Intptlon   : -071.4093933
+
+Statefp    : 33
+Countyfp   : 011
+Cousubfp   : 42260
+Cousubns   : 00873648
+Geoid      : 3301142260
+Geoidfq    : 0600000US3301142260
+Name       : Litchfield
+Namelsad   : Litchfield town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 38653612
+Awater     : 990374
+Intptlat   : +42.8460814
+Intptlon   : -071.4682813
+
+Statefp    : 33
+Countyfp   : 011
+Cousubfp   : 46260
+Cousubns   : 00873661
+Geoid      : 3301146260
+Geoidfq    : 0600000US3301146260
+Name       : Mason
+Namelsad   : Mason town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 61990098
+Awater     : 143147
+Intptlat   : +42.7421807
+Intptlon   : -071.7509684
+
+Statefp    : 33
+Countyfp   : 019
+Cousubfp   : 77940
+Cousubns   : 00873742
+Geoid      : 3301977940
+Geoidfq    : 0600000US3301977940
+Name       : Unity
+Namelsad   : Unity town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 95781630
+Awater     : 562587
+Intptlat   : +43.2993048
+Intptlon   : -072.2745675
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 34820
+Cousubns   : 00873621
+Geoid      : 3300934820
+Geoidfq    : 0600000US3300934820
+Name       : Haverhill
+Namelsad   : Haverhill town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 132063077
+Awater     : 3546955
+Intptlat   : +44.0758440
+Intptlon   : -072.0046505
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 41860
+Cousubns   : 00873646
+Geoid      : 3300941860
+Geoidfq    : 0600000US3300941860
+Name       : Lincoln
+Namelsad   : Lincoln town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 337879934
+Awater     : 1449199
+Intptlat   : +44.0946897
+Intptlon   : -071.6313821
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 33460
+Cousubns   : 00873617
+Geoid      : 3301533460
+Geoidfq    : 0600000US3301533460
+Name       : Hampton Falls
+Namelsad   : Hampton Falls town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 31651370
+Awater     : 1112063
+Intptlat   : +42.9248106
+Intptlon   : -070.8862417
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 43220
+Cousubns   : 00873651
+Geoid      : 3301543220
+Geoidfq    : 0600000US3301543220
+Name       : Londonderry
+Namelsad   : Londonderry town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 108770465
+Awater     : 332718
+Intptlat   : +42.8797894
+Intptlon   : -071.3923261
+
+Statefp    : 33
+Countyfp   : 019
+Cousubfp   : 41700
+Cousubns   : 00873645
+Geoid      : 3301941700
+Geoidfq    : 0600000US3301941700
+Name       : Lempster
+Namelsad   : Lempster town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 83790441
+Awater     : 1015690
+Intptlat   : +43.2365642
+Intptlon   : -072.1848691
+
+Statefp    : 33
+Countyfp   : 019
+Cousubfp   : 52580
+Cousubns   : 00873684
+Geoid      : 3301952580
+Geoidfq    : 0600000US3301952580
+Name       : Newport
+Namelsad   : Newport town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 112850575
+Awater     : 185418
+Intptlat   : +43.3713455
+Intptlon   : -072.2027889
+
+Statefp    : 33
+Countyfp   : 019
+Cousubfp   : 62340
+Cousubns   : 00873700
+Geoid      : 3301962340
+Geoidfq    : 0600000US3301962340
+Name       : Plainfield
+Namelsad   : Plainfield town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 135319101
+Awater     : 1925000
+Intptlat   : +43.5438374
+Intptlon   : -072.2955371
+
+Statefp    : 33
+Countyfp   : 019
+Cousubfp   : 72740
+Cousubns   : 00873723
+Geoid      : 3301972740
+Geoidfq    : 0600000US3301972740
+Name       : Springfield
+Namelsad   : Springfield town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 112960363
+Awater     : 2295098
+Intptlat   : +43.4919160
+Intptlon   : -072.0381143
+
+Statefp    : 33
+Countyfp   : 019
+Cousubfp   : 75060
+Cousubns   : 00873732
+Geoid      : 3301975060
+Geoidfq    : 0600000US3301975060
+Name       : Sunapee
+Namelsad   : Sunapee town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 54527182
+Awater     : 10625286
+Intptlat   : +43.3900947
+Intptlon   : -072.0931359
+
+Statefp    : 33
+Countyfp   : 013
+Cousubfp   : 43380
+Cousubns   : 00873652
+Geoid      : 3301343380
+Geoidfq    : 0600000US3301343380
+Name       : Loudon
+Namelsad   : Loudon town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 119538698
+Awater     : 1458998
+Intptlat   : +43.3081345
+Intptlon   : -071.4491300
+
+Statefp    : 33
+Countyfp   : 013
+Cousubfp   : 50900
+Cousubns   : 00873675
+Geoid      : 3301350900
+Geoidfq    : 0600000US3301350900
+Name       : Newbury
+Namelsad   : Newbury town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 92823752
+Awater     : 5860481
+Intptlat   : +43.3140257
+Intptlon   : -072.0245513
+
+Statefp    : 33
+Countyfp   : 013
+Cousubfp   : 52100
+Cousubns   : 00873682
+Geoid      : 3301352100
+Geoidfq    : 0600000US3301352100
+Name       : New London
+Namelsad   : New London town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 57859674
+Awater     : 7978406
+Intptlat   : +43.4177205
+Intptlon   : -071.9906093
+
+Statefp    : 33
+Countyfp   : 013
+Cousubfp   : 61940
+Cousubns   : 00873699
+Geoid      : 3301361940
+Geoidfq    : 0600000US3301361940
+Name       : Pittsfield
+Namelsad   : Pittsfield town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 62222713
+Awater     : 746414
+Intptlat   : +43.2885012
+Intptlon   : -071.3093678
+
+Statefp    : 33
+Countyfp   : 013
+Cousubfp   : 66980
+Cousubns   : 00873714
+Geoid      : 3301366980
+Geoidfq    : 0600000US3301366980
+Name       : Salisbury
+Namelsad   : Salisbury town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 102513083
+Awater     : 581958
+Intptlat   : +43.3860989
+Intptlon   : -071.7729171
+
+Statefp    : 33
+Countyfp   : 013
+Cousubfp   : 75460
+Cousubns   : 00873734
+Geoid      : 3301375460
+Geoidfq    : 0600000US3301375460
+Name       : Sutton
+Namelsad   : Sutton town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 110214586
+Awater     : 2024426
+Intptlat   : +43.3350172
+Intptlon   : -071.9183649
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 18420
+Cousubns   : 00871095
+Geoid      : 3300718420
+Geoidfq    : 0600000US3300718420
+Name       : Dixville
+Namelsad   : Dixville township
+Lsad       : 44
+Classfp    : Z1
+Mtfcc      : G4040
+Funcstat   : N
+Aland      : 126856949
+Awater     : 447470
+Intptlat   : +44.8695924
+Intptlon   : -071.2564772
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 25140
+Cousubns   : 00873593
+Geoid      : 3300725140
+Geoidfq    : 0600000US3300725140
+Name       : Errol
+Namelsad   : Errol town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 156315970
+Awater     : 23539434
+Intptlat   : +44.7582529
+Intptlon   : -071.1088122
+
+Statefp    : 33
+Countyfp   : 005
+Cousubfp   : 00820
+Cousubns   : 00873529
+Geoid      : 3300500820
+Geoidfq    : 0600000US3300500820
+Name       : Alstead
+Namelsad   : Alstead town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 100555268
+Awater     : 1470266
+Intptlat   : +43.0917418
+Intptlon   : -072.3103211
+
+Statefp    : 33
+Countyfp   : 005
+Cousubfp   : 19140
+Cousubns   : 00873581
+Geoid      : 3300519140
+Geoidfq    : 0600000US3300519140
+Name       : Dublin
+Namelsad   : Dublin town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 72247022
+Awater     : 2837369
+Intptlat   : +42.8892794
+Intptlon   : -072.0698494
+
+Statefp    : 33
+Countyfp   : 005
+Cousubfp   : 26500
+Cousubns   : 00873597
+Geoid      : 3300526500
+Geoidfq    : 0600000US3300526500
+Name       : Fitzwilliam
+Namelsad   : Fitzwilliam town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 89719277
+Awater     : 3608164
+Intptlat   : +42.7532048
+Intptlon   : -072.1530279
+
+Statefp    : 33
+Countyfp   : 005
+Cousubfp   : 29220
+Cousubns   : 00873605
+Geoid      : 3300529220
+Geoidfq    : 0600000US3300529220
+Name       : Gilsum
+Namelsad   : Gilsum town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 43173112
+Awater     : 55764
+Intptlat   : +43.0412274
+Intptlon   : -072.2623685
+
+Statefp    : 33
+Countyfp   : 005
+Cousubfp   : 34420
+Cousubns   : 00873620
+Geoid      : 3300534420
+Geoidfq    : 0600000US3300534420
+Name       : Harrisville
+Namelsad   : Harrisville town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 48307690
+Awater     : 4083389
+Intptlat   : +42.9485356
+Intptlon   : -072.0689860
+
+Statefp    : 33
+Countyfp   : 005
+Cousubfp   : 38500
+Cousubns   : 00873633
+Geoid      : 3300538500
+Geoidfq    : 0600000US3300538500
+Name       : Jaffrey
+Namelsad   : Jaffrey town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 99454616
+Awater     : 4600353
+Intptlat   : +42.8292541
+Intptlon   : -072.0599005
+
+Statefp    : 33
+Countyfp   : 001
+Cousubfp   : 01060
+Cousubns   : 00873530
+Geoid      : 3300101060
+Geoidfq    : 0600000US3300101060
+Name       : Alton
+Namelsad   : Alton town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 164973026
+Awater     : 50456196
+Intptlat   : +43.4883225
+Intptlon   : -071.2406169
+
+Statefp    : 33
+Countyfp   : 001
+Cousubfp   : 03220
+Cousubns   : 00873537
+Geoid      : 3300103220
+Geoidfq    : 0600000US3300103220
+Name       : Barnstead
+Namelsad   : Barnstead town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 111576355
+Awater     : 4815131
+Intptlat   : +43.3485880
+Intptlon   : -071.2568961
+
+Statefp    : 33
+Countyfp   : 001
+Cousubfp   : 04740
+Cousubns   : 00873542
+Geoid      : 3300104740
+Geoidfq    : 0600000US3300104740
+Name       : Belmont
+Namelsad   : Belmont town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 77570707
+Awater     : 5005005
+Intptlat   : +43.4744551
+Intptlon   : -071.4822076
+
+Statefp    : 33
+Countyfp   : 001
+Cousubfp   : 28740
+Cousubns   : 00873603
+Geoid      : 3300128740
+Geoidfq    : 0600000US3300128740
+Name       : Gilford
+Namelsad   : Gilford town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 100472935
+Awater     : 38203605
+Intptlat   : +43.5194994
+Intptlon   : -071.3758373
+
+Statefp    : 33
+Countyfp   : 003
+Cousubfp   : 86420
+Cousubns   : 00873760
+Geoid      : 3300386420
+Geoidfq    : 0600000US3300386420
+Name       : Wolfeboro
+Namelsad   : Wolfeboro town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 124223934
+Awater     : 27143099
+Intptlat   : +43.6144485
+Intptlon   : -071.1691559
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 71140
+Cousubns   : 00873722
+Geoid      : 3301571140
+Geoidfq    : 0600000US3301571140
+Name       : South Hampton
+Namelsad   : South Hampton town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 20782056
+Awater     : 64377
+Intptlat   : +42.8898024
+Intptlon   : -070.9595464
+
+Statefp    : 33
+Countyfp   : 013
+Cousubfp   : 01460
+Cousubns   : 00873532
+Geoid      : 3301301460
+Geoidfq    : 0600000US3301301460
+Name       : Andover
+Namelsad   : Andover town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 103983735
+Awater     : 2318298
+Intptlat   : +43.4507243
+Intptlon   : -071.7906003
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 02420
+Cousubns   : 00871100
+Geoid      : 3300702420
+Geoidfq    : 0600000US3300702420
+Name       : Atkinson and Gilmanton Academy
+Namelsad   : Atkinson and Gilmanton Academy grant
+Lsad       : 32
+Classfp    : Z1
+Mtfcc      : G4040
+Funcstat   : N
+Aland      : 49700904
+Awater     : 284422
+Intptlat   : +44.9958914
+Intptlon   : -071.1222809
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 04260
+Cousubns   : 00871460
+Geoid      : 3300704260
+Geoidfq    : 0600000US3300704260
+Name       : Beans
+Namelsad   : Beans purchase
+Lsad       : 42
+Classfp    : Z1
+Mtfcc      : G4040
+Funcstat   : N
+Aland      : 168852085
+Awater     : 271483
+Intptlat   : +44.2897580
+Intptlon   : -071.1521975
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 05140
+Cousubns   : 00873545
+Geoid      : 3300705140
+Geoidfq    : 0600000US3300705140
+Name       : Berlin
+Namelsad   : Berlin city
+Lsad       : 25
+Classfp    : C5
+Mtfcc      : G4040
+Funcstat   : F
+Aland      : 158893879
+Awater     : 2207705
+Intptlat   : +44.4843279
+Intptlon   : -071.2771227
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 08420
+Cousubns   : 00873555
+Geoid      : 3300708420
+Geoidfq    : 0600000US3300708420
+Name       : Cambridge
+Namelsad   : Cambridge township
+Lsad       : 44
+Classfp    : Z1
+Mtfcc      : G4040
+Funcstat   : N
+Aland      : 132063018
+Awater     : 1886316
+Intptlat   : +44.6593009
+Intptlon   : -071.0975221
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 10100
+Cousubns   : 00873560
+Geoid      : 3300710100
+Geoidfq    : 0600000US3300710100
+Name       : Carroll
+Namelsad   : Carroll town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 130202952
+Awater     : 62681
+Intptlat   : +44.3052658
+Intptlon   : -071.4973759
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 16100
+Cousubns   : 00871742
+Geoid      : 3300716100
+Geoidfq    : 0600000US3300716100
+Name       : Crawfords
+Namelsad   : Crawfords purchase
+Lsad       : 42
+Classfp    : Z1
+Mtfcc      : G4040
+Funcstat   : N
+Aland      : 21219410
+Awater     : 0
+Intptlat   : +44.2623350
+Intptlon   : -071.4015104
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 16660
+Cousubns   : 00873196
+Geoid      : 3300716660
+Geoidfq    : 0600000US3300716660
+Name       : Cutts
+Namelsad   : Cutts grant
+Lsad       : 32
+Classfp    : Z1
+Mtfcc      : G4040
+Funcstat   : N
+Aland      : 29213848
+Awater     : 0
+Intptlat   : +44.2049269
+Intptlon   : -071.3358301
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 18340
+Cousubns   : 00871113
+Geoid      : 3300718340
+Geoidfq    : 0600000US3300718340
+Name       : Dixs
+Namelsad   : Dixs grant
+Lsad       : 32
+Classfp    : Z1
+Mtfcc      : G4040
+Funcstat   : N
+Aland      : 51854549
+Awater     : 111388
+Intptlat   : +44.9204230
+Intptlon   : -071.1918009
+
+Statefp    : 33
+Countyfp   : 003
+Cousubfp   : 23380
+Cousubns   : 00873587
+Geoid      : 3300323380
+Geoidfq    : 0600000US3300323380
+Name       : Eaton
+Namelsad   : Eaton town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 62942265
+Awater     : 3361165
+Intptlat   : +43.9069595
+Intptlon   : -071.0475213
+
+Statefp    : 33
+Countyfp   : 003
+Cousubfp   : 23620
+Cousubns   : 00873588
+Geoid      : 3300323620
+Geoidfq    : 0600000US3300323620
+Name       : Effingham
+Namelsad   : Effingham town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 100423901
+Awater     : 2962199
+Intptlat   : +43.7467328
+Intptlon   : -071.0419102
+
+Statefp    : 33
+Countyfp   : 003
+Cousubfp   : 49380
+Cousubns   : 00873671
+Geoid      : 3300349380
+Geoidfq    : 0600000US3300349380
+Name       : Moultonborough
+Namelsad   : Moultonborough town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 154588040
+Awater     : 39866476
+Intptlat   : +43.7205148
+Intptlon   : -071.3685820
+
+Statefp    : 33
+Countyfp   : 003
+Cousubfp   : 58740
+Cousubns   : 00873694
+Geoid      : 3300358740
+Geoidfq    : 0600000US3300358740
+Name       : Ossipee
+Namelsad   : Ossipee town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 182534294
+Awater     : 12437759
+Intptlat   : +43.7372490
+Intptlon   : -071.1503492
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 42020
+Cousubns   : 00873647
+Geoid      : 3300942020
+Geoidfq    : 0600000US3300942020
+Name       : Lisbon
+Namelsad   : Lisbon town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 67956122
+Awater     : 1107346
+Intptlat   : +44.2422574
+Intptlon   : -071.8486165
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 44100
+Cousubns   : 00873653
+Geoid      : 3300944100
+Geoidfq    : 0600000US3300944100
+Name       : Lyman
+Namelsad   : Lyman town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 73525560
+Awater     : 764939
+Intptlat   : +44.2574639
+Intptlon   : -071.9344889
+
+Statefp    : 33
+Countyfp   : 017
+Cousubfp   : 41460
+Cousubns   : 00873644
+Geoid      : 3301741460
+Geoidfq    : 0600000US3301741460
+Name       : Lee
+Namelsad   : Lee town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 51774776
+Awater     : 540235
+Intptlat   : +43.1192018
+Intptlon   : -071.0070824
+
+Statefp    : 33
+Countyfp   : 017
+Cousubfp   : 44820
+Cousubns   : 00873656
+Geoid      : 3301744820
+Geoidfq    : 0600000US3301744820
+Name       : Madbury
+Namelsad   : Madbury town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 30094269
+Awater     : 1467710
+Intptlat   : +43.1746071
+Intptlon   : -070.9414534
+
+Statefp    : 33
+Countyfp   : 017
+Cousubfp   : 47700
+Cousubns   : 00873664
+Geoid      : 3301747700
+Geoidfq    : 0600000US3301747700
+Name       : Middleton
+Namelsad   : Middleton town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 46812600
+Awater     : 1114629
+Intptlat   : +43.4830066
+Intptlon   : -071.0706405
+
+Statefp    : 33
+Countyfp   : 017
+Cousubfp   : 51220
+Cousubns   : 00873677
+Geoid      : 3301751220
+Geoidfq    : 0600000US3301751220
+Name       : New Durham
+Namelsad   : New Durham town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 106729209
+Awater     : 6801869
+Intptlat   : +43.4636705
+Intptlon   : -071.1522070
+
+Statefp    : 33
+Countyfp   : 017
+Cousubfp   : 65140
+Cousubns   : 00873708
+Geoid      : 3301765140
+Geoidfq    : 0600000US3301765140
+Name       : Rochester
+Namelsad   : Rochester city
+Lsad       : 25
+Classfp    : C5
+Mtfcc      : G4040
+Funcstat   : F
+Aland      : 116603498
+Awater     : 1076134
+Intptlat   : +43.2984927
+Intptlon   : -070.9770055
+
+Statefp    : 33
+Countyfp   : 017
+Cousubfp   : 26020
+Cousubns   : 00873596
+Geoid      : 3301726020
+Geoidfq    : 0600000US3301726020
+Name       : Farmington
+Namelsad   : Farmington town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 94785163
+Awater     : 883455
+Intptlat   : +43.3669235
+Intptlon   : -071.0625029
+
+Statefp    : 33
+Countyfp   : 017
+Cousubfp   : 48660
+Cousubns   : 00873668
+Geoid      : 3301748660
+Geoidfq    : 0600000US3301748660
+Name       : Milton
+Namelsad   : Milton town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 85600105
+Awater     : 3170778
+Intptlat   : +43.4522291
+Intptlon   : -071.0146523
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 44260
+Cousubns   : 00873654
+Geoid      : 3300944260
+Geoidfq    : 0600000US3300944260
+Name       : Lyme
+Namelsad   : Lyme town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 139393296
+Awater     : 3120734
+Intptlat   : +43.8166336
+Intptlon   : -072.0942954
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 58340
+Cousubns   : 00873692
+Geoid      : 3300958340
+Geoidfq    : 0600000US3300958340
+Name       : Orange
+Namelsad   : Orange town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 59747513
+Awater     : 151027
+Intptlat   : +43.6793406
+Intptlon   : -071.9218273
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 58500
+Cousubns   : 00873693
+Geoid      : 3300958500
+Geoidfq    : 0600000US3300958500
+Name       : Orford
+Namelsad   : Orford town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 120434695
+Awater     : 3638633
+Intptlat   : +43.8833326
+Intptlon   : -072.0338448
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 65940
+Cousubns   : 00873711
+Geoid      : 3300965940
+Geoidfq    : 0600000US3300965940
+Name       : Rumney
+Namelsad   : Rumney town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 107996875
+Awater     : 2370880
+Intptlat   : +43.8347065
+Intptlon   : -071.7743353
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 62900
+Cousubns   : 00873703
+Geoid      : 3301562900
+Geoidfq    : 0600000US3301562900
+Name       : Portsmouth
+Namelsad   : Portsmouth city
+Lsad       : 25
+Classfp    : C5
+Mtfcc      : G4040
+Funcstat   : F
+Aland      : 40566158
+Awater     : 3007956
+Intptlat   : +43.0605935
+Intptlon   : -070.7803494
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 66180
+Cousubns   : 00873712
+Geoid      : 3301566180
+Geoidfq    : 0600000US3301566180
+Name       : Rye
+Namelsad   : Rye town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 32731908
+Awater     : 62494269
+Intptlat   : +43.0334671
+Intptlon   : -070.7192233
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 66660
+Cousubns   : 00873713
+Geoid      : 3301566660
+Geoidfq    : 0600000US3301566660
+Name       : Salem
+Namelsad   : Salem town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 64368767
+Awater     : 2696598
+Intptlat   : +42.7882669
+Intptlon   : -071.2217245
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 67620
+Cousubns   : 00873716
+Geoid      : 3301567620
+Geoidfq    : 0600000US3301567620
+Name       : Sandown
+Namelsad   : Sandown town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 36108908
+Awater     : 1247052
+Intptlat   : +42.9340178
+Intptlon   : -071.1836046
+
+Statefp    : 33
+Countyfp   : 011
+Cousubfp   : 29860
+Cousubns   : 00873606
+Geoid      : 3301129860
+Geoidfq    : 0600000US3301129860
+Name       : Goffstown
+Namelsad   : Goffstown town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 95876526
+Awater     : 1504669
+Intptlat   : +43.0191982
+Intptlon   : -071.5554450
+
+Statefp    : 33
+Countyfp   : 013
+Cousubfp   : 06980
+Cousubns   : 00873549
+Geoid      : 3301306980
+Geoidfq    : 0600000US3301306980
+Name       : Bradford
+Namelsad   : Bradford town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 91270057
+Awater     : 1789466
+Intptlat   : +43.2241279
+Intptlon   : -071.9661752
+
+Statefp    : 33
+Countyfp   : 013
+Cousubfp   : 09860
+Cousubns   : 00873559
+Geoid      : 3301309860
+Geoidfq    : 0600000US3301309860
+Name       : Canterbury
+Namelsad   : Canterbury town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 113665960
+Awater     : 2139008
+Intptlat   : +43.3525669
+Intptlon   : -071.5337648
+
+Statefp    : 33
+Countyfp   : 013
+Cousubfp   : 12420
+Cousubns   : 00873566
+Geoid      : 3301312420
+Geoidfq    : 0600000US3301312420
+Name       : Chichester
+Namelsad   : Chichester town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 54875050
+Awater     : 274156
+Intptlat   : +43.2652592
+Intptlon   : -071.4088353
+
+Statefp    : 33
+Countyfp   : 013
+Cousubfp   : 24900
+Cousubns   : 00873592
+Geoid      : 3301324900
+Geoidfq    : 0600000US3301324900
+Name       : Epsom
+Namelsad   : Epsom town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 89124654
+Awater     : 528798
+Intptlat   : +43.2048125
+Intptlon   : -071.3485636
+
+Statefp    : 33
+Countyfp   : 011
+Cousubfp   : 01700
+Cousubns   : 00873533
+Geoid      : 3301101700
+Geoidfq    : 0600000US3301101700
+Name       : Antrim
+Namelsad   : Antrim town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 92455919
+Awater     : 2113332
+Intptlat   : +43.0502919
+Intptlon   : -071.9819675
+
+Statefp    : 33
+Countyfp   : 011
+Cousubfp   : 31940
+Cousubns   : 00873613
+Geoid      : 3301131940
+Geoidfq    : 0600000US3301131940
+Name       : Greenville
+Namelsad   : Greenville town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 17814497
+Awater     : 0
+Intptlat   : +42.7579351
+Intptlon   : -071.7994160
+
+Statefp    : 33
+Countyfp   : 011
+Cousubfp   : 44580
+Cousubns   : 00873655
+Geoid      : 3301144580
+Geoidfq    : 0600000US3301144580
+Name       : Lyndeborough
+Namelsad   : Lyndeborough town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 78829084
+Awater     : 300378
+Intptlat   : +42.8964089
+Intptlon   : -071.7683309
+
+Statefp    : 33
+Countyfp   : 011
+Cousubfp   : 51940
+Cousubns   : 00873681
+Geoid      : 3301151940
+Geoidfq    : 0600000US3301151940
+Name       : New Ipswich
+Namelsad   : New Ipswich town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 84763267
+Awater     : 829429
+Intptlat   : +42.7462567
+Intptlon   : -071.8744336
+
+Statefp    : 33
+Countyfp   : 011
+Cousubfp   : 47540
+Cousubns   : 00873663
+Geoid      : 3301147540
+Geoidfq    : 0600000US3301147540
+Name       : Merrimack
+Namelsad   : Merrimack town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 84415814
+Awater     : 2179689
+Intptlat   : +42.8520331
+Intptlon   : -071.5198768
+
+Statefp    : 33
+Countyfp   : 011
+Cousubfp   : 48020
+Cousubns   : 00873666
+Geoid      : 3301148020
+Geoidfq    : 0600000US3301148020
+Name       : Milford
+Namelsad   : Milford town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 65815069
+Awater     : 144810
+Intptlat   : +42.8186453
+Intptlon   : -071.6733537
+
+Statefp    : 33
+Countyfp   : 011
+Cousubfp   : 49140
+Cousubns   : 00873670
+Geoid      : 3301149140
+Geoidfq    : 0600000US3301149140
+Name       : Mont Vernon
+Namelsad   : Mont Vernon town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 43573630
+Awater     : 212964
+Intptlat   : +42.9088845
+Intptlon   : -071.6941990
+
+Statefp    : 33
+Countyfp   : 011
+Cousubfp   : 50260
+Cousubns   : 00873672
+Geoid      : 3301150260
+Geoidfq    : 0600000US3301150260
+Name       : Nashua
+Namelsad   : Nashua city
+Lsad       : 25
+Classfp    : C5
+Mtfcc      : G4040
+Funcstat   : F
+Aland      : 79860094
+Awater     : 2330535
+Intptlat   : +42.7490744
+Intptlon   : -071.4905435
+
+Statefp    : 33
+Countyfp   : 011
+Cousubfp   : 50740
+Cousubns   : 00873674
+Geoid      : 3301150740
+Geoidfq    : 0600000US3301150740
+Name       : New Boston
+Namelsad   : New Boston town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 110889239
+Awater     : 1027645
+Intptlat   : +42.9812095
+Intptlon   : -071.6775203
+
+Statefp    : 33
+Countyfp   : 011
+Cousubfp   : 60580
+Cousubns   : 00873697
+Geoid      : 3301160580
+Geoidfq    : 0600000US3301160580
+Name       : Peterborough
+Namelsad   : Peterborough town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 98471527
+Awater     : 1056679
+Intptlat   : +42.8900784
+Intptlon   : -071.9411568
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 33060
+Cousubns   : 00873616
+Geoid      : 3301533060
+Geoidfq    : 0600000US3301533060
+Name       : Hampton
+Namelsad   : Hampton town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 33438409
+Awater     : 4456335
+Intptlat   : +42.9391304
+Intptlon   : -070.8342732
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 36900
+Cousubns   : 00873627
+Geoid      : 3300936900
+Geoidfq    : 0600000US3300936900
+Name       : Holderness
+Namelsad   : Holderness town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 78613225
+Awater     : 13915940
+Intptlat   : +43.7617614
+Intptlon   : -071.5825286
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 40660
+Cousubns   : 00873641
+Geoid      : 3300940660
+Geoidfq    : 0600000US3300940660
+Name       : Landaff
+Namelsad   : Landaff town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 73400469
+Awater     : 354107
+Intptlat   : +44.1600939
+Intptlon   : -071.8852005
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 42820
+Cousubns   : 00873650
+Geoid      : 3300942820
+Geoidfq    : 0600000US3300942820
+Name       : Livermore
+Namelsad   : Livermore town
+Lsad       : 43
+Classfp    : T9
+Mtfcc      : G4040
+Funcstat   : I
+Aland      : 165199945
+Awater     : 423118
+Intptlat   : +44.0694656
+Intptlon   : -071.4200163
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 48980
+Cousubns   : 00873669
+Geoid      : 3300948980
+Geoidfq    : 0600000US3300948980
+Name       : Monroe
+Namelsad   : Monroe town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 57848058
+Awater     : 3863558
+Intptlat   : +44.2966049
+Intptlon   : -071.9806843
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 07700
+Cousubns   : 00873552
+Geoid      : 3300907700
+Geoidfq    : 0600000US3300907700
+Name       : Bristol
+Namelsad   : Bristol town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 43366517
+Awater     : 13397030
+Intptlat   : +43.6244148
+Intptlon   : -071.7103250
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 74740
+Cousubns   : 00873730
+Geoid      : 3300974740
+Geoidfq    : 0600000US3300974740
+Name       : Sugar Hill
+Namelsad   : Sugar Hill town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 44155239
+Awater     : 472870
+Intptlat   : +44.2184100
+Intptlon   : -071.8002397
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 61060
+Cousubns   : 00873698
+Geoid      : 3300961060
+Geoidfq    : 0600000US3300961060
+Name       : Piermont
+Namelsad   : Piermont town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 99564261
+Awater     : 3600647
+Intptlat   : +43.9618509
+Intptlon   : -072.0012935
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 00580
+Cousubns   : 00873527
+Geoid      : 3300900580
+Geoidfq    : 0600000US3300900580
+Name       : Alexandria
+Namelsad   : Alexandria town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 111753185
+Awater     : 525370
+Intptlat   : +43.6223223
+Intptlon   : -071.8562773
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 07540
+Cousubns   : 00873551
+Geoid      : 3300907540
+Geoidfq    : 0600000US3300907540
+Name       : Bridgewater
+Namelsad   : Bridgewater town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 55669877
+Awater     : 544326
+Intptlat   : +43.6512471
+Intptlon   : -071.6860046
+
+Statefp    : 33
+Countyfp   : 005
+Cousubfp   : 36660
+Cousubns   : 00873626
+Geoid      : 3300536660
+Geoidfq    : 0600000US3300536660
+Name       : Hinsdale
+Namelsad   : Hinsdale town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 53139999
+Awater     : 5525602
+Intptlat   : +42.8092977
+Intptlon   : -072.5048221
+
+Statefp    : 33
+Countyfp   : 005
+Cousubfp   : 75300
+Cousubns   : 00873733
+Geoid      : 3300575300
+Geoidfq    : 0600000US3300575300
+Name       : Surry
+Namelsad   : Surry town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 40626112
+Awater     : 817757
+Intptlat   : +43.0187779
+Intptlon   : -072.3433831
+
+Statefp    : 33
+Countyfp   : 005
+Cousubfp   : 78420
+Cousubns   : 00873744
+Geoid      : 3300578420
+Geoidfq    : 0600000US3300578420
+Name       : Walpole
+Namelsad   : Walpole town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 91233873
+Awater     : 3741826
+Intptlat   : +43.0811020
+Intptlon   : -072.4031267
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 25180
+Cousubns   : 00873594
+Geoid      : 3300725180
+Geoidfq    : 0600000US3300725180
+Name       : Ervings
+Namelsad   : Ervings location
+Lsad       : 36
+Classfp    : Z1
+Mtfcc      : G4040
+Funcstat   : N
+Aland      : 9718314
+Awater     : 0
+Intptlat   : +44.8004236
+Intptlon   : -071.3436588
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 56100
+Cousubns   : 00873688
+Geoid      : 3300756100
+Geoidfq    : 0600000US3300756100
+Name       : Northumberland
+Namelsad   : Northumberland town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 92433161
+Awater     : 2819277
+Intptlat   : +44.5684949
+Intptlon   : -071.5193004
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 61780
+Cousubns   : 00871099
+Geoid      : 3300761780
+Geoidfq    : 0600000US3300761780
+Name       : Pittsburg
+Namelsad   : Pittsburg town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 728614384
+Awater     : 25844417
+Intptlat   : +45.1453260
+Intptlon   : -071.2548765
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 73380
+Cousubns   : 00871096
+Geoid      : 3300773380
+Geoidfq    : 0600000US3300773380
+Name       : Stewartstown
+Namelsad   : Stewartstown town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 119788013
+Awater     : 1573230
+Intptlat   : +44.9606699
+Intptlon   : -071.4069908
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 76580
+Cousubns   : 00872800
+Geoid      : 3300776580
+Geoidfq    : 0600000US3300776580
+Name       : Thompson and Meserves
+Namelsad   : Thompson and Meserves purchase
+Lsad       : 42
+Classfp    : Z1
+Mtfcc      : G4040
+Funcstat   : N
+Aland      : 47950491
+Awater     : 1239
+Intptlat   : +44.2971193
+Intptlon   : -071.2778037
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 05060
+Cousubns   : 00873544
+Geoid      : 3300905060
+Geoidfq    : 0600000US3300905060
+Name       : Benton
+Namelsad   : Benton town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 124846674
+Awater     : 594441
+Intptlat   : +44.0359247
+Intptlon   : -071.8465565
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 05460
+Cousubns   : 00873546
+Geoid      : 3300905460
+Geoidfq    : 0600000US3300905460
+Name       : Bethlehem
+Namelsad   : Bethlehem town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 234654154
+Awater     : 915838
+Intptlat   : +44.2604349
+Intptlon   : -071.6092039
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 08980
+Cousubns   : 00873557
+Geoid      : 3300908980
+Geoidfq    : 0600000US3300908980
+Name       : Canaan
+Namelsad   : Canaan town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 138196132
+Awater     : 4568920
+Intptlat   : +43.6876870
+Intptlon   : -072.0439868
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 18740
+Cousubns   : 00873579
+Geoid      : 3300918740
+Geoidfq    : 0600000US3300918740
+Name       : Dorchester
+Namelsad   : Dorchester town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 115543983
+Awater     : 1567583
+Intptlat   : +43.7481860
+Intptlon   : -071.9881837
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 23860
+Cousubns   : 00873589
+Geoid      : 3300923860
+Geoidfq    : 0600000US3300923860
+Name       : Ellsworth
+Namelsad   : Ellsworth town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 55452764
+Awater     : 320880
+Intptlat   : +43.9117990
+Intptlon   : -071.7689963
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 24340
+Cousubns   : 00873590
+Geoid      : 3300924340
+Geoidfq    : 0600000US3300924340
+Name       : Enfield
+Namelsad   : Enfield town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 104401426
+Awater     : 7362026
+Intptlat   : +43.6033139
+Intptlon   : -072.1185980
+
+Statefp    : 33
+Countyfp   : 003
+Cousubfp   : 00420
+Cousubns   : 00873526
+Geoid      : 3300300420
+Geoidfq    : 0600000US3300300420
+Name       : Albany
+Namelsad   : Albany town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 194630482
+Awater     : 1546751
+Intptlat   : +43.9594503
+Intptlon   : -071.2742511
+
+Statefp    : 33
+Countyfp   : 003
+Cousubfp   : 11780
+Cousubns   : 00873563
+Geoid      : 3300311780
+Geoidfq    : 0600000US3300311780
+Name       : Chatham
+Namelsad   : Chatham town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 146858836
+Awater     : 1419998
+Intptlat   : +44.1274980
+Intptlon   : -071.0606912
+
+Statefp    : 33
+Countyfp   : 003
+Cousubfp   : 27700
+Cousubns   : 00873601
+Geoid      : 3300327700
+Geoidfq    : 0600000US3300327700
+Name       : Freedom
+Namelsad   : Freedom town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 89961660
+Awater     : 8215955
+Intptlat   : +43.8420363
+Intptlon   : -071.0751609
+
+Statefp    : 33
+Countyfp   : 003
+Cousubfp   : 32500
+Cousubns   : 00871993
+Geoid      : 3300332500
+Geoidfq    : 0600000US3300332500
+Name       : Hale's
+Namelsad   : Hale's location
+Lsad       : 36
+Classfp    : Z1
+Mtfcc      : G4040
+Funcstat   : N
+Aland      : 6444508
+Awater     : 0
+Intptlat   : +44.0384029
+Intptlon   : -071.1708879
+
+Statefp    : 33
+Countyfp   : 003
+Cousubfp   : 34500
+Cousubns   : 00872015
+Geoid      : 3300334500
+Geoidfq    : 0600000US3300334500
+Name       : Hart's Location
+Namelsad   : Hart's Location town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 48376878
+Awater     : 271827
+Intptlat   : +44.1408876
+Intptlon   : -071.3755309
+
+Statefp    : 33
+Countyfp   : 003
+Cousubfp   : 38260
+Cousubns   : 00873632
+Geoid      : 3300338260
+Geoidfq    : 0600000US3300338260
+Name       : Jackson
+Namelsad   : Jackson town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 172933615
+Awater     : 101974
+Intptlat   : +44.1876201
+Intptlon   : -071.1557630
+
+Statefp    : 33
+Countyfp   : 001
+Cousubfp   : 28980
+Cousubns   : 00873604
+Geoid      : 3300128980
+Geoidfq    : 0600000US3300128980
+Name       : Gilmanton
+Namelsad   : Gilmanton town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 150009667
+Awater     : 4382579
+Intptlat   : +43.4315902
+Intptlon   : -071.3663220
+
+Statefp    : 33
+Countyfp   : 001
+Cousubfp   : 40180
+Cousubns   : 00873639
+Geoid      : 3300140180
+Geoidfq    : 0600000US3300140180
+Name       : Laconia
+Namelsad   : Laconia city
+Lsad       : 25
+Classfp    : C5
+Mtfcc      : G4040
+Funcstat   : F
+Aland      : 51380585
+Awater     : 16166500
+Intptlat   : +43.5765351
+Intptlon   : -071.4822628
+
+Statefp    : 33
+Countyfp   : 001
+Cousubfp   : 51540
+Cousubns   : 00873679
+Geoid      : 3300151540
+Geoidfq    : 0600000US3300151540
+Name       : New Hampton
+Namelsad   : New Hampton town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 95234363
+Awater     : 4155300
+Intptlat   : +43.6234361
+Intptlon   : -071.6325467
+
+Statefp    : 33
+Countyfp   : 003
+Cousubfp   : 14660
+Cousubns   : 00873570
+Geoid      : 3300314660
+Geoidfq    : 0600000US3300314660
+Name       : Conway
+Namelsad   : Conway town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 179956518
+Awater     : 5839825
+Intptlat   : +44.0057853
+Intptlon   : -071.0651698
+
+Statefp    : 33
+Countyfp   : 019
+Cousubfp   : 30500
+Cousubns   : 00873608
+Geoid      : 3301930500
+Geoidfq    : 0600000US3301930500
+Name       : Goshen
+Namelsad   : Goshen town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 58119030
+Awater     : 238931
+Intptlat   : +43.2720918
+Intptlon   : -072.1010334
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 39780
+Cousubns   : 00873636
+Geoid      : 3301539780
+Geoidfq    : 0600000US3301539780
+Name       : Kensington
+Namelsad   : Kensington town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 30993369
+Awater     : 36676
+Intptlat   : +42.9328701
+Intptlon   : -070.9642731
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 64020
+Cousubns   : 00873705
+Geoid      : 3301564020
+Geoidfq    : 0600000US3301564020
+Name       : Raymond
+Namelsad   : Raymond town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 74654888
+Awater     : 2042758
+Intptlat   : +43.0325830
+Intptlon   : -071.2031436
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 68260
+Cousubns   : 00873718
+Geoid      : 3301568260
+Geoidfq    : 0600000US3301568260
+Name       : Seabrook
+Namelsad   : Seabrook town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 23250911
+Awater     : 1875061
+Intptlat   : +42.8831227
+Intptlon   : -070.8608230
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 85780
+Cousubns   : 00873758
+Geoid      : 3301585780
+Geoidfq    : 0600000US3301585780
+Name       : Windham
+Namelsad   : Windham town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 69277034
+Awater     : 2670586
+Intptlat   : +42.8110921
+Intptlon   : -071.3026878
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 17460
+Cousubns   : 00873576
+Geoid      : 3301517460
+Geoidfq    : 0600000US3301517460
+Name       : Deerfield
+Namelsad   : Deerfield town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 131461497
+Awater     : 3466465
+Intptlat   : +43.1363215
+Intptlon   : -071.2550770
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 27940
+Cousubns   : 00873602
+Geoid      : 3301527940
+Geoidfq    : 0600000US3301527940
+Name       : Fremont
+Namelsad   : Fremont town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 44478180
+Awater     : 587950
+Intptlat   : +43.0003692
+Intptlon   : -071.1191619
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 31700
+Cousubns   : 00873612
+Geoid      : 3301531700
+Geoidfq    : 0600000US3301531700
+Name       : Greenland
+Namelsad   : Greenland town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 27154387
+Awater     : 7345599
+Intptlat   : +43.0396995
+Intptlon   : -070.8456427
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 32900
+Cousubns   : 00873615
+Geoid      : 3301532900
+Geoidfq    : 0600000US3301532900
+Name       : Hampstead
+Namelsad   : Hampstead town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 34825204
+Awater     : 1655072
+Intptlat   : +42.8810608
+Intptlon   : -071.1718827
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 40100
+Cousubns   : 00873638
+Geoid      : 3301540100
+Geoidfq    : 0600000US3301540100
+Name       : Kingston
+Namelsad   : Kingston town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 51309437
+Awater     : 3170975
+Intptlat   : +42.9137308
+Intptlon   : -071.0735952
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 50980
+Cousubns   : 00873676
+Geoid      : 3301550980
+Geoidfq    : 0600000US3301550980
+Name       : New Castle
+Namelsad   : New Castle town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 2094143
+Awater     : 3785538
+Intptlat   : +43.0621474
+Intptlon   : -070.7170709
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 42580
+Cousubns   : 00873649
+Geoid      : 3300942580
+Geoidfq    : 0600000US3300942580
+Name       : Littleton
+Namelsad   : Littleton town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 129391340
+Awater     : 10459174
+Intptlat   : +44.3433515
+Intptlon   : -071.7951184
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 52340
+Cousubns   : 00873683
+Geoid      : 3301552340
+Geoidfq    : 0600000US3301552340
+Name       : Newmarket
+Namelsad   : Newmarket town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 32615809
+Awater     : 4130619
+Intptlat   : +43.0709125
+Intptlon   : -070.9469395
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 52900
+Cousubns   : 00873685
+Geoid      : 3301552900
+Geoidfq    : 0600000US3301552900
+Name       : Newton
+Namelsad   : Newton town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 25414479
+Awater     : 379073
+Intptlat   : +42.8703694
+Intptlon   : -071.0459151
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 54580
+Cousubns   : 00873687
+Geoid      : 3301554580
+Geoidfq    : 0600000US3301554580
+Name       : North Hampton
+Namelsad   : North Hampton town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 35969084
+Awater     : 1288672
+Intptlat   : +42.9799344
+Intptlon   : -070.8294406
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 56820
+Cousubns   : 00873689
+Geoid      : 3301556820
+Geoidfq    : 0600000US3301556820
+Name       : Northwood
+Namelsad   : Northwood town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 72822035
+Awater     : 5523961
+Intptlat   : +43.2118559
+Intptlon   : -071.2233933
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 02340
+Cousubns   : 00873535
+Geoid      : 3301502340
+Geoidfq    : 0600000US3301502340
+Name       : Atkinson
+Namelsad   : Atkinson town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 28893236
+Awater     : 471773
+Intptlat   : +42.8391129
+Intptlon   : -071.1671916
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 02820
+Cousubns   : 00873536
+Geoid      : 3301502820
+Geoidfq    : 0600000US3301502820
+Name       : Auburn
+Namelsad   : Auburn town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 65655941
+Awater     : 8963150
+Intptlat   : +42.9970592
+Intptlon   : -071.3658063
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 09300
+Cousubns   : 00873558
+Geoid      : 3301509300
+Geoidfq    : 0600000US3301509300
+Name       : Candia
+Namelsad   : Candia town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 78587873
+Awater     : 578365
+Intptlat   : +43.0568952
+Intptlon   : -071.3406349
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 12100
+Cousubns   : 00873564
+Geoid      : 3301512100
+Geoidfq    : 0600000US3301512100
+Name       : Chester
+Namelsad   : Chester town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 67365785
+Awater     : 293102
+Intptlat   : +42.9845305
+Intptlon   : -071.2551047
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 17140
+Cousubns   : 00873575
+Geoid      : 3301517140
+Geoidfq    : 0600000US3301517140
+Name       : Danville
+Namelsad   : Danville town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 30169971
+Awater     : 468225
+Intptlat   : +42.9278919
+Intptlon   : -071.1198885
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 17940
+Cousubns   : 00873578
+Geoid      : 3301517940
+Geoidfq    : 0600000US3301517940
+Name       : Derry
+Namelsad   : Derry town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 91877204
+Awater     : 2128066
+Intptlat   : +42.8876137
+Intptlon   : -071.2820474
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 21380
+Cousubns   : 00873585
+Geoid      : 3301521380
+Geoidfq    : 0600000US3301521380
+Name       : East Kingston
+Namelsad   : East Kingston town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 25684812
+Awater     : 145600
+Intptlat   : +42.9258619
+Intptlon   : -071.0026286
+
+Statefp    : 33
+Countyfp   : 017
+Cousubfp   : 65540
+Cousubns   : 00873709
+Geoid      : 3301765540
+Geoidfq    : 0600000US3301765540
+Name       : Rollinsford
+Namelsad   : Rollinsford town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 18875108
+Awater     : 725916
+Intptlat   : +43.2198363
+Intptlon   : -070.8431008
+
+Statefp    : 33
+Countyfp   : 017
+Cousubfp   : 69940
+Cousubns   : 00873721
+Geoid      : 3301769940
+Geoidfq    : 0600000US3301769940
+Name       : Somersworth
+Namelsad   : Somersworth city
+Lsad       : 25
+Classfp    : C5
+Mtfcc      : G4040
+Funcstat   : F
+Aland      : 25392070
+Awater     : 500668
+Intptlat   : +43.2534762
+Intptlon   : -070.8879437
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 51380
+Cousubns   : 00873678
+Geoid      : 3301551380
+Geoidfq    : 0600000US3301551380
+Name       : Newfields
+Namelsad   : Newfields town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 18365704
+Awater     : 434250
+Intptlat   : +43.0385087
+Intptlon   : -070.9679535
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 03940
+Cousubns   : 00873540
+Geoid      : 3300903940
+Geoidfq    : 0600000US3300903940
+Name       : Bath
+Namelsad   : Bath town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 97672446
+Awater     : 2231947
+Intptlat   : +44.1829552
+Intptlon   : -071.9870110
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 08660
+Cousubns   : 00873556
+Geoid      : 3300908660
+Geoidfq    : 0600000US3300908660
+Name       : Campton
+Namelsad   : Campton town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 134254959
+Awater     : 1810588
+Intptlat   : +43.8308568
+Intptlon   : -071.6460865
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 22020
+Cousubns   : 00873586
+Geoid      : 3300922020
+Geoidfq    : 0600000US3300922020
+Name       : Easton
+Namelsad   : Easton town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 80640015
+Awater     : 35782
+Intptlat   : +44.1011774
+Intptlon   : -071.7951151
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 33860
+Cousubns   : 00873619
+Geoid      : 3300933860
+Geoidfq    : 0600000US3300933860
+Name       : Hanover
+Namelsad   : Hanover town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 126982180
+Awater     : 2868355
+Intptlat   : +43.7210227
+Intptlon   : -072.1852072
+
+Statefp    : 33
+Countyfp   : 009
+Cousubfp   : 41300
+Cousubns   : 00873643
+Geoid      : 3300941300
+Geoidfq    : 0600000US3300941300
+Name       : Lebanon
+Namelsad   : Lebanon city
+Lsad       : 25
+Classfp    : C5
+Mtfcc      : G4040
+Funcstat   : F
+Aland      : 104389357
+Awater     : 2507988
+Intptlat   : +43.6354277
+Intptlon   : -072.2538366
+
+Statefp    : 33
+Countyfp   : 005
+Cousubfp   : 12260
+Cousubns   : 00873565
+Geoid      : 3300512260
+Geoidfq    : 0600000US3300512260
+Name       : Chesterfield
+Namelsad   : Chesterfield town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 117998289
+Awater     : 5132996
+Intptlat   : +42.8880017
+Intptlon   : -072.4434717
+
+Statefp    : 33
+Countyfp   : 005
+Cousubfp   : 50580
+Cousubns   : 00873673
+Geoid      : 3300550580
+Geoidfq    : 0600000US3300550580
+Name       : Nelson
+Namelsad   : Nelson town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 56749716
+Awater     : 3546900
+Intptlat   : +42.9994818
+Intptlon   : -072.1217028
+
+Statefp    : 33
+Countyfp   : 005
+Cousubfp   : 82660
+Cousubns   : 00873753
+Geoid      : 3300582660
+Geoidfq    : 0600000US3300582660
+Name       : Westmoreland
+Namelsad   : Westmoreland town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 92736884
+Awater     : 2674948
+Intptlat   : +42.9680753
+Intptlon   : -072.4308561
+
+Statefp    : 33
+Countyfp   : 013
+Cousubfp   : 80020
+Cousubns   : 00873750
+Geoid      : 3301380020
+Geoidfq    : 0600000US3301380020
+Name       : Webster
+Namelsad   : Webster town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 73067466
+Awater     : 1506303
+Intptlat   : +43.3065724
+Intptlon   : -071.7256823
+
+Statefp    : 33
+Countyfp   : 013
+Cousubfp   : 84900
+Cousubns   : 00873755
+Geoid      : 3301384900
+Geoidfq    : 0600000US3301384900
+Name       : Wilmot
+Namelsad   : Wilmot town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 76180094
+Awater     : 534722
+Intptlat   : +43.4432836
+Intptlon   : -071.9224456
+
+Statefp    : 33
+Countyfp   : 001
+Cousubfp   : 10660
+Cousubns   : 00873561
+Geoid      : 3300110660
+Geoidfq    : 0600000US3300110660
+Name       : Center Harbor
+Namelsad   : Center Harbor town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 34356651
+Awater     : 7711888
+Intptlat   : +43.7027754
+Intptlon   : -071.5104427
+
+Statefp    : 33
+Countyfp   : 015
+Cousubfp   : 00000
+Cousubns   : 00000000
+Geoid      : 3301500000
+Geoidfq    : 0600000US3301500000
+Name       : County subdivisions not defined
+Namelsad   : County subdivisions not defined
+Lsad       : 00
+Classfp    : Z9
+Mtfcc      : G4040
+Funcstat   : F
+Aland      : 0
+Awater     : 112847049
+Intptlat   : +42.9568660
+Intptlon   : -070.6348455
+
+Statefp    : 33
+Countyfp   : 007
+Cousubfp   : 68980
+Cousubns   : 00873720
+Geoid      : 3300768980
+Geoidfq    : 0600000US3300768980
+Name       : Shelburne
+Namelsad   : Shelburne town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 124110842
+Awater     : 2182505
+Intptlat   : +44.3671720
+Intptlon   : -071.0871155
+
+Statefp    : 33
+Countyfp   : 005
+Cousubfp   : 77380
+Cousubns   : 00873740
+Geoid      : 3300577380
+Geoidfq    : 0600000US3300577380
+Name       : Troy
+Namelsad   : Troy town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 45216131
+Awater     : 405686
+Intptlat   : +42.8287983
+Intptlon   : -072.1889433
+
+Statefp    : 33
+Countyfp   : 005
+Cousubfp   : 85540
+Cousubns   : 00873757
+Geoid      : 3300585540
+Geoidfq    : 0600000US3300585540
+Name       : Winchester
+Namelsad   : Winchester town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 142438919
+Awater     : 1447471
+Intptlat   : +42.7893136
+Intptlon   : -072.3952385
+
+Statefp    : 33
+Countyfp   : 001
+Cousubfp   : 47140
+Cousubns   : 00873662
+Geoid      : 3300147140
+Geoidfq    : 0600000US3300147140
+Name       : Meredith
+Namelsad   : Meredith town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 103807611
+Awater     : 37524179
+Intptlat   : +43.6312114
+Intptlon   : -071.4985847
+
+Statefp    : 33
+Countyfp   : 001
+Cousubfp   : 67300
+Cousubns   : 00873715
+Geoid      : 3300167300
+Geoidfq    : 0600000US3300167300
+Name       : Sanbornton
+Namelsad   : Sanbornton town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 122698148
+Awater     : 5891749
+Intptlat   : +43.5241863
+Intptlon   : -071.6016068
+
+Statefp    : 33
+Countyfp   : 001
+Cousubfp   : 77060
+Cousubns   : 00873739
+Geoid      : 3300177060
+Geoidfq    : 0600000US3300177060
+Name       : Tilton
+Namelsad   : Tilton town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 28867149
+Awater     : 2061533
+Intptlat   : +43.4712114
+Intptlon   : -071.5764584
+
+Statefp    : 33
+Countyfp   : 019
+Cousubfp   : 00260
+Cousubns   : 00873525
+Geoid      : 3301900260
+Geoidfq    : 0600000US3301900260
+Name       : Acworth
+Namelsad   : Acworth town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 100504005
+Awater     : 660326
+Intptlat   : +43.2139225
+Intptlon   : -072.2870332
+
+Statefp    : 33
+Countyfp   : 019
+Cousubfp   : 12900
+Cousubns   : 00873567
+Geoid      : 3301912900
+Geoidfq    : 0600000US3301912900
+Name       : Claremont
+Namelsad   : Claremont city
+Lsad       : 25
+Classfp    : C5
+Mtfcc      : G4040
+Funcstat   : F
+Aland      : 111766136
+Awater     : 2323426
+Intptlat   : +43.3864700
+Intptlon   : -072.3344957
+
+Statefp    : 33
+Countyfp   : 019
+Cousubfp   : 15060
+Cousubns   : 00873571
+Geoid      : 3301915060
+Geoidfq    : 0600000US3301915060
+Name       : Cornish
+Namelsad   : Cornish town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 108660673
+Awater     : 1697565
+Intptlat   : +43.4729880
+Intptlon   : -072.3117491
+
+Statefp    : 33
+Countyfp   : 019
+Cousubfp   : 16340
+Cousubns   : 00873572
+Geoid      : 3301916340
+Geoidfq    : 0600000US3301916340
+Name       : Croydon
+Namelsad   : Croydon town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 95231172
+Awater     : 2013448
+Intptlat   : +43.4442265
+Intptlon   : -072.1783487
+
+Statefp    : 33
+Countyfp   : 019
+Cousubfp   : 40900
+Cousubns   : 00873642
+Geoid      : 3301940900
+Geoidfq    : 0600000US3301940900
+Name       : Langdon
+Namelsad   : Langdon town
+Lsad       : 43
+Classfp    : T1
+Mtfcc      : G4040
+Funcstat   : A
+Aland      : 42085441
+Awater     : 188752
+Intptlat   : +43.1869753
+Intptlon   : -072.3595871
+
