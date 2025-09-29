@@ -1,14 +1,24 @@
-all: distance index_file_offsets read_from_offset make_working_files
+executables = distance index_file_offsets read_from_offset make_working_files
+
+all: ${executables}
+
+clean: 
+	rm -f *.o ${executables} *~ \#*
 
 try_grid_size: try_grid_size.o places.o parse_csv.o
 	cc -o try_grid_size $^ -lm
 
 try_grid_size.o: try_grid_size.c places.h load_places.h
 
-make_working_files: make_working_files.o places.o parse_csv.o
+make_working_files: make_working_files.o places.o parse_csv.o file_util.o
 	cc -o make_working_files $^ -lm
 
-make_working_files.o: make_working_files.c places.h load_places.h
+file_util.o: file_util.c file_util.h
+
+.c.o:
+	$(CC) -c $(CFLAGS) $(CPPFLAGS) -o $@ $<
+
+make_working_files.o: make_working_files.c places.h load_places.h file_util.h
 
 parse_csv.o: parse_csv.c parse_csv.h
 	cc -c parse_csv.c

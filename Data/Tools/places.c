@@ -1,4 +1,5 @@
 #include <string.h>
+#include <strings.h>
 #include "parse_csv.h"
 #include "places.h"
 
@@ -40,3 +41,11 @@ int place_to_csv( a_place* p, char *buffer, int buffer_size) {
   return 0;
 }
 
+
+int free_place( a_place* p) {
+  if( p != NULL) {
+    free( p->name);
+    free( p->state);
+  }
+  return 0;
+}

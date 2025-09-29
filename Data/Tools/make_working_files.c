@@ -31,14 +31,50 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include <unistd.h>
+#include <stdint.h>
+#include <sys/types.h>
+#include <dirent.h>
 
 #include "load_places.h"
+#include "file_util.h"
+
+// ---- hardwired (ugh) output file names ----
+#define PLACES_FILE "places.csv"
+#define GRID_FILE "grid.csv"
+#define INDEX_FILE "gindex.dat"
+
+// list
+static char* filez[] = { PLACES_FILE, GRID_FILE, INDEX_FILE};
 
 #define NHIST 1000
 static int hist[NHIST];
 static int histover;
 
 static char buff[255];
+
+// big binary table with offsets to start of each grid area
+// or -1 if none.  First subscript is latitude
+static int32_t gridIndex[256][256];
+
+//
+// function to compare lat/lon grid assignments
+// lat_grid, lon_grid for qsort()
+//
+int cmp_places( const void* a, const void* b) {
+  const a_place* pa = (a_place*)a;
+  const a_place* pb = (a_place*)b;
+
+  if( pa->lat_grid != pb->lat_grid)
+    return pa->lat_grid < pb->lat_grid ? -1 : 1;
+
+  if( pa->lon_grid == pb->lon_grid)
+    return 0;
+
+  return pa->lon_grid < pb->lon_grid ? -1 : 1;
+}
+
+//---------- main ----------
 
 int main( int argc, char *argv[]) {
   a_place* places;
@@ -49,10 +85,10 @@ int main( int argc, char *argv[]) {
 
   int do_hist = 0;
   int verb = 0;
-  char *outf = NULL;
+  char *outd = NULL;
 
   if( argc < 4) {
-    printf("usage: ./try_grid_size <places> <d_lat> <d_lon> [-h] [-o file]\n");
+    printf("usage: ./try_grid_size <places> <d_lat> <d_lon> [-h] [-o dir]\n");
     exit(1);
   }
 
@@ -65,9 +101,9 @@ int main( int argc, char *argv[]) {
 	  break;
 	case 'O':
 	  if( i == argc-1) {
-	    printf("Missing output file\n");
+	    printf("Missing output path\n");
 	  } else {
-	    outf = argv[i+1];
+	    outd = argv[i+1];
 	    ++i;
 	  }
 	  break;
@@ -93,6 +129,29 @@ int main( int argc, char *argv[]) {
   }
 
   printf("%d places loaded\n", numPlaces);
+
+  if( outd != NULL) {
+    FILE* ft;
+
+    // see if directory exists
+    DIR* dir = opendir( outd);
+    if( dir) {
+      closedir(dir);
+    } else {
+      fprintf( stderr, "Error: directory %s doesn't exist\n", outd);
+      exit(1);
+    }
+    chdir( outd);
+
+    // check for clobber output files
+    if( check_clobber( filez, 3)) {
+      printf("OK to clobber existing files! (y/n): ");
+      fgets( buff, 10, stdin);
+      if( toupper(*buff) != 'Y')
+	exit(1);
+    }
+
+  }
 
   // find min/max lat/lon
   lat_min = lat_max = places[0].lat;
@@ -129,19 +188,29 @@ int main( int argc, char *argv[]) {
   double lat;
   double lon;
 
-  int calc_nlat = (lat_hi-lat_lo)/lat_div + 1;
-  int calc_nlon = (lon_hi-lon_lo)/lon_div + 1;
+  int numLat = (lat_hi-lat_lo)/lat_div + 1;
+  int numLon = (lon_hi-lon_lo)/lon_div + 1;
 
-  printf("Calculated grid count nlat: %d  nlon: %d\n", calc_nlat, calc_nlon);
+  printf("Calculated grid count nlat: %d  nlon: %d\n", numLat, numLon);
   printf("Range Lat: %g to %g step %g lon: %g to %g step: %g\n",
 	 lat_lo, lat_hi, lat_div, lon_lo, lon_hi, lon_div);
 
+  if( numLat > 255 || numLon > 255) {
+    fprintf( stderr, "Error:  grid count in lat/lon must be < 255\n");
+    exit(1);
+  }
+
+  printf("Clear the grid\n");
+  // set grid index to all -1
+  for( int i=0; i<256; i++)
+    for( int j=0; j<256; j++)
+      gridIndex[i][j] = -1;
+
+  printf("Set up the grid\n");
   // for( double lat=lat_lo; lat <= lat_hi; lat += lat_div) {
-  for( nlat = 0, lat=lat_lo; nlat < calc_nlat; nlat++, lat += lat_div) {
-    if( verb)
-      printf("Lat: %12.7g\n", lat);
+  for( nlat = 0, lat=lat_lo; nlat < numLat; nlat++, lat += lat_div) {
     //    for( double lon=lon_lo; lon <= lon_hi; lon += lon_div) {
-    for( lon=lon_lo, nlon = 0; nlon < calc_nlon; nlon++, lon += lon_div) {
+    for( lon=lon_lo, nlon = 0; nlon < numLon; nlon++, lon += lon_div) {
       int numInSquare=0;
       for( int i=0; i<numPlaces; i++) {
 	if( places[i].lat >= lat && places[i].lat < lat+lat_div &&
@@ -198,28 +267,115 @@ int main( int argc, char *argv[]) {
   }
   printf("Hist range %d to %d max %d (at %d) overflow: %d\n", hist_lo, hist_hi, hist_max, max_bin, histover);
 
-  // write output
-  if( outf != NULL) {
-    FILE *fo = fopen( outf, "wb");
+  // sort places by lat_grid, lon_grid
+  qsort( places, numPlaces, sizeof( a_place), cmp_places );
+
+  // places file
+  if( outd != NULL) {
+
+    FILE *fo = fopen( PLACES_FILE, "wb");
     if( fo == NULL) {
-      fprintf( stderr, "Can't open %s for writing\n", outf);
+      fprintf( stderr, "Can't open %s for writing %s\n", PLACES_FILE, outd);
       exit(1);
     }
+
+    printf("Writing %d places to %s\n", numPlaces, PLACES_FILE);
 
     for( int i=0; i<numPlaces; i++) {
       if( place_to_csv( &places[i], buff, sizeof(buff))) {
 	fprintf( stderr, "Error writing place %d to CSV\n", i);
 	exit(1);
       }
-      fputs( buff, fo);
+      if( verb && i < 10)
+	fputs( buff, stdout);
+      if( fputs( buff, fo) == EOF) {
+	fprintf( stderr, "Error writing to %s\n", PLACES_FILE);
+	exit(1);
+      }
     }
 
-    fclose( fo);
+    long lastp = ftell(fo);
+    printf("places end: %ld\n", lastp);
+
+    if( fclose( fo)) {
+      printf("Error closing %s\n", PLACES_FILE);
+      perror(NULL);
+    }
+
+
 
     // write grid info to stdout
     printf("--- Grid Info (save as grid.csv) ---\n");
     printf("NumLat, LatMin, LatMax, LatStep, NumLon, LonMin, LonMax, LonStep\n");
-    printf("%d, %g, %g, %g, %d, %g, %g, %g\n", calc_nlat, lat_lo, lat_hi, lat_div,
-	   calc_nlon, lon_lo, lon_hi, lon_div);
+    printf("%d, %g, %g, %g, %d, %g, %g, %g\n", numLat, lat_lo, lat_hi, lat_div,
+	   numLon, lon_lo, lon_hi, lon_div);
+
+    // write to file grid.csv
+    fo = fopen( GRID_FILE, "wb");
+    if( fo == NULL) {
+      fprintf( stderr, "Can't open %s for writingin %s\n", GRID_FILE, outd);
+      exit(1);
+    }
+
+    fprintf( fo, "NumLat, LatMin, LatMax, LatStep, NumLon, LonMin, LonMax, LonStep\n");
+    fprintf( fo, "%d, %g, %g, %g, %d, %g, %g, %g\n", numLat, lat_lo, lat_hi, lat_div,
+	   numLon, lon_lo, lon_hi, lon_div);
+    fclose( fo);
+    
+    // create the binary index
+    // best to read the file to be sure the positions are correct
+    long posn = 0L;
+    int npos = 0;
+    a_place tp, tp0;
+    fo = fopen( INDEX_FILE, "wb");
+
+    // We want to keep the previous place in tp0, current one in tp
+    // setup before loop
+    if( csv_to_place( &tp0, buff)) {
+      fprintf( stderr, "Re-read places... Error in line: %s\n", buff);
+      exit(1);
+    }
+
+    while( fgets( buff, sizeof(buff), fo)) {
+
+      csv_to_place( &tp, buff);	/* next place to tp */
+      // check for change in grid posn
+      if( verb && npos < 100)
+	printf("Check (%d,%d) vs (%d,%d)\n", tp.lat_grid, tp.lon_grid,
+	       tp0.lat_grid, tp0.lon_grid);
+      if( tp.lat_grid != tp0.lat_grid || tp.lon_grid != tp0.lon_grid) {
+	// record the new position
+	gridIndex[tp.lat_grid][tp.lon_grid] = posn;
+	if( verb && npos < 50)
+	  printf("Set index[%d][%d] = %ld\n", tp.lat_grid, tp.lon_grid, posn);
+      }
+
+      free_place( &tp0);
+
+      tp0 = tp;
+      posn = ftell( fo);
+      ++npos;
+    }
+    fclose(fo);
+
+    if( (fo = fopen( INDEX_FILE, "wb")) == NULL) {
+      fprintf( stderr, "Error opening %s\n", INDEX_FILE);
+      exit(1);
+    }
+
+    size_t nw = fwrite( gridIndex, sizeof(int32_t), 256*256, fo);
+
+    fclose(fo);
+
+    // dump the gridIndex
+    if( verb) {
+      for( int ilat = 0; ilat < 256; ilat++)
+	for( int ilon = 0; ilon < 256; ilon++)
+	  if( gridIndex[ilat][ilon] > 0) {
+	    printf("(%d,%d) = %d\n", ilat, ilon, gridIndex[ilat][ilon]);
+	  }
+    }
+
   }
+
 }
