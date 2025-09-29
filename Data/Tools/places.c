@@ -59,5 +59,5 @@ int free_place( a_place* p) {
 //
 void dump_place( a_place* p) {
   place_to_csv( p, buffy, sizeof(buffy));
-  printf("Place: %s\n", buffy);
+  printf("Place: %s", buffy);
 }

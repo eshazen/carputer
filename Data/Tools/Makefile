@@ -1,4 +1,5 @@
-executables = distance index_file_offsets read_from_offset make_working_files
+executables = distance index_file_offsets read_from_offset make_working_files \
+simulate_gps
 
 all: ${executables}
 
@@ -17,6 +18,13 @@ file_util.o: file_util.c file_util.h
 
 .c.o:
 	$(CC) -c $(CFLAGS) $(CPPFLAGS) -o $@ $<
+
+distance_miles.o: distance_miles.c distance_miles.h
+
+simulate_gps.o: simulate_gps.c parse_csv.h places.h distance_miles.h
+
+simulate_gps: simulate_gps.o places.o parse_csv.o distance_miles.o
+	cc -o simulate_gps $^ -lm
 
 make_working_files.o: make_working_files.c places.h load_places.h file_util.h
 

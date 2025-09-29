@@ -1,8 +1,12 @@
 //
-// create all the working files for the car computer
+// create all the working files for the car computer:
+//   places.csv    - places annotated with grid coordinates
+//   grid.csv      - one line of grid spacing/range info
+//   gindex.dat    - 256x256 array of 32-bit binary integers
+//                   with offsets to start of each grid cell
 //
 // divide USA into grid of specified size in degrees
-// histogram number of places in each grid square
+// (histogram number of places in each grid square)
 // assign places to grids
 //
 // read places file, with
@@ -355,7 +359,7 @@ int main( int argc, char *argv[]) {
       if( tp.lat_grid != tp0.lat_grid || tp.lon_grid != tp0.lon_grid) {
 	// record the new position
 	gridIndex[tp.lat_grid][tp.lon_grid] = posn;
-	if( verb && npos < 50)
+	if( (verb && npos < 50) || verb > 2)
 	  printf("Set index[%d][%d] = %ld\n", tp.lat_grid, tp.lon_grid, posn);
       }
 
