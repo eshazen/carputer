@@ -16,3 +16,4 @@ typedef struct {
 int place_to_csv( a_place* p, char *buffer, int buffer_size);
 int free_place( a_place* p);
 int csv_to_place( a_place* p, char *csv);
+void dump_place( a_place* p);

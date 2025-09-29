@@ -4,6 +4,7 @@
 #include "places.h"
 
 static char* toks[10];
+static char buffy[256];
 
 //
 // parse CSV, fill in struct, calloc strings
@@ -41,11 +42,22 @@ int place_to_csv( a_place* p, char *buffer, int buffer_size) {
   return 0;
 }
 
-
+//
+// free secondary heap space
+//
 int free_place( a_place* p) {
   if( p != NULL) {
     free( p->name);
     free( p->state);
   }
   return 0;
+}
+
+
+//
+// dump place to stdout in compact format
+//
+void dump_place( a_place* p) {
+  place_to_csv( p, buffy, sizeof(buffy));
+  printf("Place: %s\n", buffy);
 }
