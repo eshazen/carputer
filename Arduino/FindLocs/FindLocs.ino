@@ -11,6 +11,17 @@
 
 // #define DEBUG
 
+#include "distance_miles.h"
+#include "places.h"
+#include "parse_csv.h"
+
+int csv_to_place( a_place* ap, char *csv);
+int place_to_csv( a_place* p, char *buffer, int buffer_size);
+int free_place( a_place* p);
+void dump_place( a_place* p);
+int parse_csv_line(char *line, char *fields[], int max_fields);
+double distance_miles(double lat1, double lon1, double lat2, double lon2);
+
 // ---- hardwired (ugh) input file names ----
 #define PLACES_FILE "places.csv"
 #define GRID_FILE "grid.csv"
@@ -19,19 +30,17 @@
 #include <SPI.h>
 #include <SD.h>
 
-#include "parse_csv.h"
-#include "places.h"
-#include "distance_miles.h"
+const int chipSelect = SDCARD_SS_PIN;
 
 static char buff[80];
-static char prnt[128]'
+static char prnt[128];
 
 static char* tokn[10];
 #define MAXT (sizeof(tokn)/sizeof(tokn[0]))
 
-static FILE *fp;
-static FILE *fg;
-static FILE *fi;
+File fp;
+File fg;
+File fi;
 
 // structure for an in-memory location
 typedef struct {
@@ -99,7 +108,7 @@ int process_grid_at( float lat, float lon, int latGrid, int lonGrid, a_loc* list
 
   uint32_t offset;
 
-  fi.read( &offset, sizeof(offset);
+  fi.read( &offset, sizeof(offset));
 
 #ifdef DEBUG
   printf( "Retrieved offset 0x%04x from position %d\n", offset, posn);
@@ -116,7 +125,7 @@ int process_grid_at( float lat, float lon, int latGrid, int lonGrid, a_loc* list
 
     // read until EOF or grid changes
     
-    while( (n = fg.readBytesUntil( 0xa, buff, sizeof(buff)))) {
+    while( int n = fg.readBytesUntil( 0xa, buff, sizeof(buff))) {
       buff[n] = '\0';
       offset = fp.position();
       if( csv_to_place( &pl, buff)) {
@@ -217,9 +226,9 @@ void setup() {
 
   a_place pl;
 
-  File fp = SD.open( PLACES_FILE);
-  File fg = SD.open( GRID_FILE);
-  File fi = SD.open( INDEX_FILE);
+  fp = SD.open( PLACES_FILE);
+  fg = SD.open( GRID_FILE);
+  fi = SD.open( INDEX_FILE);
   
   if( !fp || !fg || !fi) {
     Serial.println("Failed to open a required file\n");

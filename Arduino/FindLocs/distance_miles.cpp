@@ -1,9 +1,6 @@
+
 #include "distance_miles.h"
 
-// Converts degrees to radians
-static double deg2rad(double deg) {
-    return deg * M_PI / 180.0;
-}
 
 /**
  * Computes the great-circle distance between two points on Earth.

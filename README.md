@@ -21,8 +21,8 @@ for a preliminary version based on ATMega328.
 
 ### Processor
 
-The Arduino MKR Zero seems a good bet, with SAMD21 processor and uSD card on-board.
-Ordered one from Amazon.
+* Arduino MKR Zero.  
+
 
 ### Display
 
