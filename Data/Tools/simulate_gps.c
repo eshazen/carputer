@@ -23,7 +23,7 @@
 #include "places.h"
 #include "distance_miles.h"
 
-static char buff[250];
+static char buff[80];
 static char* tokn[10];
 #define MAXT (sizeof(tokn)/sizeof(tokn[0]))
 
@@ -39,8 +39,8 @@ typedef struct {
 
 // array of up to 100 nearby locations from our grid cell
 // and neighboring ones
-static a_loc locs[100];
-#define MAXLOC (sizeof(locs)/sizeof(uint32_t))
+static a_loc locs[1000];
+#define MAXLOC (sizeof(locs)/sizeof(a_loc))
 static int numLoc;		/* pointer to last occupied in locs */
 
 // sort by location
@@ -96,10 +96,13 @@ int process_grid_at( float lat, float lon, int latGrid, int lonGrid, a_loc* pary
       }
       if( pl.lat_grid == latGrid && pl.lon_grid == lonGrid) {
 	// save this place with it's distance
-	if( nloc < MAXLOC) {
-	  pary[nloc].offset = offset;
+	if( nloc < maxp) {
+	  pary[nloc].offset = offs0;
 	  pary[nloc].distance = distance_miles( lat, lon, pl.lat, pl.lon);
 	  ++nloc;
+	} else {
+	  fprintf( stderr, "Location array overflow, size = %ld\n", MAXLOC);
+	  exit(1);
 	}
 	offs0 = offset;
       } else {
@@ -126,6 +129,8 @@ int main( int argc, char *argv[]) {
     printf("usage: simulate_gps <lat> <long>\n");
     exit(0);
   }
+
+  printf("storage for locations:  %ld (%ld each)\n", sizeof(locs), sizeof(a_loc));
 
   float lat = atof( argv[1]);
   float lon = atof( argv[2]);
