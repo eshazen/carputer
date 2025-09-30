@@ -16,16 +16,16 @@
 #define GRID_FILE "grid.csv"
 #define INDEX_FILE "gindex.dat"
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
-#include <stdint.h>
+#include <SPI.h>
+#include <SD.h>
 
 #include "parse_csv.h"
 #include "places.h"
 #include "distance_miles.h"
 
 static char buff[80];
+static char prnt[128]'
+
 static char* tokn[10];
 #define MAXT (sizeof(tokn)/sizeof(tokn[0]))
 
@@ -68,8 +68,10 @@ void dump_list( a_loc* list, int nlist) {
 #ifdef DEBUG
   printf("dump_list( size=%d)\n", nlist);
   if( nlist)
-    for( int i=0; i<nlist; i++)
-      printf( "  %d 0x%08x, %f\n", i, list[i].offset, list[i].distance);
+    for( int i=0; i<nlist; i++) {
+      snprintf( prnt, sizeof(prnt), "  %d 0x%08x, %f\n", i, list[i].offset, list[i].distance);
+      Serial.print( prnt);
+    }
 #endif  
 }
 
@@ -92,10 +94,13 @@ int process_grid_at( float lat, float lon, int latGrid, int lonGrid, a_loc* list
 #ifdef DEBUG
   printf("posn (0x%02x, 0x%02x) = 0x%04x (%d)\n", latGrid, lonGrid, posn, posn);
 #endif
-  fseek( fi, posn, SEEK_SET);
+
+  fi.seek( posn);
 
   uint32_t offset;
-  fread( &offset, 1, sizeof(offset), fi);
+
+  fi.read( &offset, sizeof(offset);
+
 #ifdef DEBUG
   printf( "Retrieved offset 0x%04x from position %d\n", offset, posn);
 #endif
@@ -104,13 +109,16 @@ int process_grid_at( float lat, float lon, int latGrid, int lonGrid, a_loc* list
 #ifdef DEBUG
     printf("Seeking to offset\n");
 #endif
-    fseek( fp, offset, SEEK_SET);
+
+    fp.seek( offset);
     uint32_t offs0 = offset;
     int insPt;
 
     // read until EOF or grid changes
-    while( fgets( buff, sizeof(buff), fp)) {
-      offset = ftell( fp);
+    
+    while( (n = fg.readBytesUntil( 0xa, buff, sizeof(buff)))) {
+      buff[n] = '\0';
+      offset = fp.position();
       if( csv_to_place( &pl, buff)) {
 	printf("Error parsing %s\n", buff);
 	exit(1);
@@ -185,32 +193,54 @@ int process_grid_at( float lat, float lon, int latGrid, int lonGrid, a_loc* list
   return nlist;
 }
 
-int main( int argc, char *argv[]) {
+
+static int i, j, k, n;
+
+
+void loop() {
+}
+
+void setup() {
+
+  Serial.begin(9600);
+  while (!Serial) {
+    ;
+  }
+
+  Serial.print("Initializing SD card...");
+  // see if the card is present and can be initialized:
+  if (!SD.begin(chipSelect)) {
+    Serial.println("Card failed, or not present");
+    while (1);
+  }
+  Serial.println("card initialized.");
+
   a_place pl;
 
-  fp = fopen( PLACES_FILE, "rb");
-  fg = fopen( GRID_FILE, "rb");
-  fi = fopen( INDEX_FILE, "rb");
+  File fp = SD.open( PLACES_FILE);
+  File fg = SD.open( GRID_FILE);
+  File fi = SD.open( INDEX_FILE);
+  
   if( !fp || !fg || !fi) {
-    fprintf( stderr, "Failed to open a required file\n");
-    exit(1);
+    Serial.println("Failed to open a required file\n");
+    while(1) ;
   }
 
-  if( argc < 3) {
-    printf("usage: simulate_gps <lat> <long>\n");
-    exit(0);
-  }
-
-  float lat = atof( argv[1]);
-  float lon = atof( argv[2]);
+  // <FIXME>
+  float lat = 43.3373;
+  float lon = -71.1434;
 
   // read grid file
-  fgets( buff, sizeof(buff), fg);
-  fgets( buff, sizeof(buff), fg);
+
+  n = fg.readBytesUntil( 0xa, buff, sizeof(buff));
+  n = fg.readBytesUntil( 0xa, buff, sizeof(buff));
+  buff[n] = '\0';
+  
   int ng = parse_csv_line(buff, tokn, MAXT);
   if( ng != 8) {
-    fprintf( stderr, "Error processing grid data: %s\n", buff);
-    exit(1);
+    Serial.print( "Error processing grid data:");
+    Serial.println( buff);
+    while(1) ;
   }
 
   // get grid specifications from file
@@ -235,10 +265,14 @@ int main( int argc, char *argv[]) {
   int latNeighbor = lat_rem > 0.5 ? latGrid+1 : latGrid-1;
   int lonNeighbor = lon_rem > 0.5 ? lonGrid+1 : lonGrid-1;
 
-  printf("Grid: Lat %d %f .. %f step %f \n", numLat, latMin, latMax, latStep);
-  printf("Grid: Lon %d %f .. %f step %f \n", numLon, lonMin, lonMax, lonStep);
-  printf("Grid for lat %f lon %f is (%d, %d)\n", lat, lon, latGrid, lonGrid);
-  printf("Neighbors: %d, %d\n", latNeighbor, lonNeighbor);
+  snprintf( prnt, sizeof(prnt), "Grid: Lat %d %f .. %f step %f \n", numLat, latMin, latMax, latStep);
+  Serial.print(prnt);
+  snprintf( prnt, sizeof(prnt), "Grid: Lon %d %f .. %f step %f \n", numLon, lonMin, lonMax, lonStep);
+  Serial.print(prnt);
+  snprintf( prnt, sizeof(prnt), "Grid for lat %f lon %f is (%d, %d)\n", lat, lon, latGrid, lonGrid);
+  Serial.print(prnt);
+  snprintf( prnt, sizeof(prnt), "Neighbors: %d, %d\n", latNeighbor, lonNeighbor);
+  Serial.print(prnt);
 
   // process 4 neighboring grids
   numLoc = 0;
@@ -248,9 +282,12 @@ int main( int argc, char *argv[]) {
   numLoc = process_grid_at( lat, lon, latNeighbor, lonNeighbor, sortedLocs, numLoc, MAXLOC);
 
   for( int i=0; i<numLoc; i++) {
-    printf("offset = %d  dist = %f : ", sortedLocs[i].offset, sortedLocs[i].distance);
-    fseek( fp, sortedLocs[i].offset, SEEK_SET);
-    fgets( buff, sizeof(buff), fp);
+    snprintf( prnt, sizeof(prnt), "offset = %d  dist = %f : ", sortedLocs[i].offset, sortedLocs[i].distance);
+    Serial.print( prnt);
+    fp.seek( sortedLocs[i].offset);
+    //    fseek( fp, sortedLocs[i].offset, SEEK_SET);
+    n = fp.readBytesUntil( 0xa, buff, sizeof(buff));
+    buff[n] = '\0';
     csv_to_place( &pl, buff);
     dump_place( &pl);
   }
