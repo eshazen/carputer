@@ -1,20 +1,66 @@
 //
-// Simulation code for the embedded device
-// (could eventually be ported over)
+// First version display code
 //
-// take gps lat/long from the command line and find n nearest locations
+// read GPS lat/long
+// display GMT time and nearest places
+//
 // use files:
 //   places.csv    - places annotated with grid coordinates
 //   grid.csv      - one line of grid spacing/range info
 //   gindex.dat    - 256x256 array of 32-bit binary integers
 //                   with offsets to start of each grid cell
 
+// serial output
 // #define DEBUG
+
+#define USE_OLED
+
+#define MAX_LOCS 3
+
+#include <math.h>
+#include <SPI.h>
+#include <SD.h>
+#include <string.h>
+#include "SSD1322_HW_Driver.h"
+#include "SSD1322_API.h"
+#include "SSD1322_GFX.h"
 
 #include "distance_miles.h"
 #include "places.h"
 #include "parse_csv.h"
 
+#include "Fonts/FreeSans9pt7b.h"
+#include "Fonts/vga9x167pt7b.h"
+
+#define LINE_SPC 14
+
+uint8_t oledBuf[OLED_HEIGHT*OLED_WIDTH];
+
+// convert NEMA lat/long to decimal degrees
+// format is:  dddmm.ffff
+//    ddd is integer degrees (1-3 digits)
+//     mm is integer minutes
+//   ffff is fractional minutes
+float conv_ll( char *str) {
+  float minu;
+  float degr;
+  char *dp = strchr( str, '.');  // point to decimal
+  if( dp == NULL)
+    return( 0.0);
+  dp -= 2;              // point to minutes
+  minu = atof(dp);      // convert floating minutes
+  *dp = '\0';           // terminate degrees
+  degr = atof( str);    // convert float degrees
+  degr += minu / 60.0;  // add minutes
+  return degr;          // return result
+}
+
+void flush() {
+  while( Serial1.available())
+    Serial1.read();
+}
+
+char gps[80];
 int csv_to_place( a_place* ap, char *csv);
 int place_to_csv( a_place* p, char *buffer, int buffer_size);
 int free_place( a_place* p);
@@ -26,9 +72,6 @@ double distance_miles(double lat1, double lon1, double lat2, double lon2);
 #define PLACES_FILE "places.csv"
 #define GRID_FILE "grid.csv"
 #define INDEX_FILE "gindex.dat"
-
-#include <SPI.h>
-#include <SD.h>
 
 const int chipSelect = SDCARD_SS_PIN;
 
@@ -48,40 +91,32 @@ typedef struct {
   float distance;		/* distance to our GPS location */
 } a_loc;
 
+a_loc test_loc;
+
 // array of up to nearby locations from our grid cell
 // and neighboring ones
-static a_loc sortedLocs[10];
+a_loc sortedLocs[3];
 #define MAXLOC (sizeof(sortedLocs)/sizeof(a_loc))
 static int numLoc;		/* pointer to last occupied in sortedLocs */
 
-// sort by location
-int cmpf( const void* a, const void* b) {
-  a_loc* pa = (a_loc *)a;
-  a_loc* pb = (a_loc *)b;
-  float v1 = pa->distance;
-  float v2 = pb->distance;
-  int rc;
-  if( v1 == v2)
-    rc = 0;
-  else {
-    if( v1 - v2 < 0)
-      rc = -1;
-    else
-      rc = 1;
-  }
-  return rc;
-}
+//void oled_print( int line, char *str) {
+//  draw_text( oledBuf, str, 1, (line % 4) * LINE_SPC, 15);
+//  send_buffer_to_OLED( oledBuf, 0, 0);
+//}
+
 
 // debug:  dump a a_loc list
-void dump_list( a_loc* list, int nlist) {
+void test_dump_list( a_loc *list, int nlist) {
+  ;
 #ifdef DEBUG
   snprintf( prnt, sizeof(prnt), "dump_list( size=%d)\n", nlist);
   Serial.print(prnt);
-  if( nlist)
+  if( nlist) {
     for( int i=0; i<nlist; i++) {
       snprintf( prnt, sizeof(prnt), "  %d 0x%08x, %f\n", i, list[i].offset, list[i].distance);
       Serial.print( prnt);
     }
+  }
 #endif  
 }
 
@@ -138,9 +173,11 @@ int process_grid_at( float lat, float lon, int latGrid, int lonGrid, a_loc* list
 #endif      
       offset = fp.position();
       if( csv_to_place( &pl, buff)) {
+#ifdef DEBUG
 	snprintf( prnt, sizeof(prnt), "Error parsing %s\n", buff);
 	Serial.print(prnt);
-	exit(1);
+#endif
+	while(1) ;
       }
       if( pl.lat_grid == latGrid && pl.lon_grid == lonGrid) {
 	loc.offset = offs0;
@@ -226,24 +263,43 @@ int process_grid_at( float lat, float lon, int latGrid, int lonGrid, a_loc* list
 static int i, j, k, n;
 
 
-void loop() {
-}
-
 void setup() {
 
+  pinMode( LED_BUILTIN, OUTPUT);
+  SSD1322_HW_Init();
+  SSD1322_API_init();
+  Serial1.begin(9600);
+  Serial.begin(9600);
+  select_font( &FreeSans9pt7b);
+  //  select_font( &vga_9x167pt7b);
+  flush();
+
+#ifdef DEBUG
   Serial.begin(9600);
   while (!Serial) {
     ;
   }
-
   Serial.print("Initializing SD card...");
+#endif
+
   // see if the card is present and can be initialized:
   if (!SD.begin(chipSelect)) {
+
+#ifdef USE_OLED
+    oled_print( 0, "uSD FAIL");
+#endif    
+#ifdef DEBUG
     Serial.println("Card failed, or not present");
+#endif
     while (1);
   }
+#ifdef USE_OLED
+  oled_print( 0, "uSD OK");
+#endif
+#ifdef DEBUG
   Serial.println("card initialized.");
-
+#endif
+  
   a_place pl;
 
   fp = SD.open( PLACES_FILE);
@@ -251,13 +307,14 @@ void setup() {
   fi = SD.open( INDEX_FILE);
   
   if( !fp || !fg || !fi) {
+#ifdef USE_OLED
+    oled_print( 0, "File missing");
+#endif    
+#ifdef DEBUG
     Serial.println("Failed to open a required file\n");
+#endif
     while(1) ;
   }
-
-  // <FIXME>
-  float lat = 42.3423;
-  float lon = -71.1378;
 
   // read grid file
 
@@ -267,8 +324,13 @@ void setup() {
   
   int ng = parse_csv_line(buff, tokn, MAXT);
   if( ng != 8) {
+#ifdef USE_OLED
+    oled_print( 0, "Grid error");
+#endif    
+#ifdef DEBUG
     Serial.print( "Error processing grid data:");
     Serial.println( buff);
+#endif
     while(1) ;
   }
 
@@ -282,42 +344,118 @@ void setup() {
   float lonMax = atof( tokn[6]);
   float lonStep = atof( tokn[7]);
 
-  // calculate our grid location from "GPS"
-  int latGrid = (lat - latMin) / latStep;
-  int lonGrid = (lon - lonMin) / lonStep;
-
-  // calculate remainder (offset within grid cell)
-  float lat_rem = lat - (latMin + (float)latGrid * latStep);
-  float lon_rem = lon - (lonMin + (float)lonGrid * lonStep);
-
-  // calculate which direction to look in neighbor cells
-  int latNeighbor = lat_rem > 0.5 ? latGrid+1 : latGrid-1;
-  int lonNeighbor = lon_rem > 0.5 ? lonGrid+1 : lonGrid-1;
-
-  snprintf( prnt, sizeof(prnt), "Grid: Lat %d %f .. %f step %f \n", numLat, latMin, latMax, latStep);
-  Serial.print(prnt);
-  snprintf( prnt, sizeof(prnt), "Grid: Lon %d %f .. %f step %f \n", numLon, lonMin, lonMax, lonStep);
-  Serial.print(prnt);
-  snprintf( prnt, sizeof(prnt), "Grid for lat %f lon %f is (%d, %d)\n", lat, lon, latGrid, lonGrid);
-  Serial.print(prnt);
-  snprintf( prnt, sizeof(prnt), "Neighbors: %d, %d\n", latNeighbor, lonNeighbor);
-  Serial.print(prnt);
-
-  // process 4 neighboring grids
-  numLoc = 0;
-  numLoc = process_grid_at( lat, lon, latGrid, lonGrid, sortedLocs, numLoc, MAXLOC);
-  numLoc = process_grid_at( lat, lon, latNeighbor, lonGrid, sortedLocs, numLoc, MAXLOC);
-  numLoc = process_grid_at( lat, lon, latGrid, lonNeighbor, sortedLocs, numLoc, MAXLOC);
-  numLoc = process_grid_at( lat, lon, latNeighbor, lonNeighbor, sortedLocs, numLoc, MAXLOC);
-
-  for( int i=0; i<numLoc; i++) {
-    snprintf( prnt, sizeof(prnt), "offset = %d  dist = %f : ", sortedLocs[i].offset, sortedLocs[i].distance);
-    Serial.print( prnt);
-    fp.seek( sortedLocs[i].offset);
-    //    fseek( fp, sortedLocs[i].offset, SEEK_SET);
-    n = fp.readBytesUntil( 0xa, buff, sizeof(buff));
-    buff[n] = '\0';
-    csv_to_place( &pl, buff);
-    dump_place( &pl);
-  }
 }
+
+
+void loop() {
+  float floatLat;
+  float floatLon;
+  char *str;
+  char *p;
+  char *gmt;
+  char *date;
+  char *stat;
+  char *lat;
+  char *ns;
+  char *lon;
+  char *ew;
+
+  if( Serial1.available()) {
+    int nc = Serial1.readBytesUntil( '\n', gps, sizeof(gps)-1);
+    gps[nc] = '\0';
+    if( !strncasecmp( gps, "$GPRMC", 6)) {
+      Serial.println( gps);
+      // parse and display stuff
+      str = gps;
+      p = strsep( &str, ",");	// skip over header   0
+      gmt = strsep( &str, ",");	// get UTC time       1
+      stat = strsep( &str, ","); // get status        2
+      lat = strsep( &str, ","); // get latitude       3
+      ns = strsep( &str, ","); // n/s                 4
+      lon = strsep( &str, ","); // get longitude      5
+      ew = strsep( &str, ","); // e/w                 6
+      p = strsep( &str, ","); // skip                 7
+      p = strsep( &str, ","); // skip                 8
+      date = strsep( &str, ","); // date              9
+
+      int pos = LINE_SPC;
+
+      fill_buffer( buf, 0);
+
+      if( strlen(lat) < 5 || strlen(lon) < 5) {	// waiting for fix?
+
+	snprintf( prnt, sizeof(prnt), "%s %s", stat, gmt);
+#ifdef DEBUG
+	Serial.println( prnt);
+	oled_print( 0, oledBuf);
+	//	draw_text( oledBuf, prnt, 1, pos, 15);
+#endif
+      } else {			// have a fix
+
+	// convert lat/lon
+	floatLat = conv_ll( lat);
+	if( toupper(*ns) == 'S')
+	  floatLat = -floatLat;
+	floatLon = conv_ll( lon);
+	if( toupper(*ew) == 'W')
+	  floatLon = -floatLon;
+
+	// calculate our grid location from "GPS"
+	int latGrid = (lat - latMin) / latStep;
+	int lonGrid = (lon - lonMin) / lonStep;
+
+	// calculate remainder (offset within grid cell)
+	float lat_rem = lat - (latMin + (float)latGrid * latStep);
+	float lon_rem = lon - (lonMin + (float)lonGrid * lonStep);
+
+	// calculate which direction to look in neighbor cells
+	int latNeighbor = lat_rem > 0.5 ? latGrid+1 : latGrid-1;
+	int lonNeighbor = lon_rem > 0.5 ? lonGrid+1 : lonGrid-1;
+
+#ifdef DEBUG
+	snprintf( prnt, sizeof(prnt), "Grid: Lat %d %f .. %f step %f \n", numLat, latMin, latMax, latStep);
+	Serial.print(prnt);
+	snprintf( prnt, sizeof(prnt), "Grid: Lon %d %f .. %f step %f \n", numLon, lonMin, lonMax, lonStep);
+	Serial.print(prnt);
+	snprintf( prnt, sizeof(prnt), "Grid for lat %f lon %f is (%d, %d)\n", lat, lon, latGrid, lonGrid);
+	Serial.print(prnt);
+	snprintf( prnt, sizeof(prnt), "Neighbors: %d, %d\n", latNeighbor, lonNeighbor);
+	Serial.print(prnt);
+#endif
+  
+	// process 4 neighboring grids
+	numLoc = 0;
+	numLoc = process_grid_at( lat, lon, latGrid, lonGrid, sortedLocs, numLoc, MAXLOC);
+	numLoc = process_grid_at( lat, lon, latNeighbor, lonGrid, sortedLocs, numLoc, MAXLOC);
+	numLoc = process_grid_at( lat, lon, latGrid, lonNeighbor, sortedLocs, numLoc, MAXLOC);
+	numLoc = process_grid_at( lat, lon, latNeighbor, lonNeighbor, sortedLocs, numLoc, MAXLOC);
+
+	for( int i=0; i<numLoc; i++) {
+#ifdef DEBUG
+	  snprintf( prnt, sizeof(prnt), "offset = %d  dist = %f : ", sortedLocs[i].offset, sortedLocs[i].distance);
+	  Serial.print( prnt);
+#endif
+	  fp.seek( sortedLocs[i].offset);
+	  //    fseek( fp, sortedLocs[i].offset, SEEK_SET);
+	  n = fp.readBytesUntil( 0xa, buff, sizeof(buff));
+	  buff[n] = '\0';
+	  csv_to_place( &pl, buff);
+#ifdef DEBUG
+	  dump_place( &pl);
+#endif
+#ifdef USE_OLED
+	  place_to_short( &pl, buff, 20);
+#endif    
+	} // loop over nearest places
+
+      }
+
+    } // if(... $GPRMC)
+
+  } // if( Serial2.available..
+
+} // loop()
+
+
+
+
