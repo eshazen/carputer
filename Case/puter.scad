@@ -31,6 +31,8 @@ pcb_hole_dia = 0.098*mm;	/* 4-40 tap drill */
 pcb_standoff_dia = 0.25*mm;
 pcb_standoff_down = 0.25*mm;
 
+panel_hole_dia = 0.15*mm;
+
 pcb_so_supp_wid = 3;
 pcb_so_supp_len = pcb_hole_dia/2+6;
 
@@ -80,15 +82,37 @@ module box() {
     }
 }
 
+module mounting_holes() {
+  translate( [-pcb_hole_dx/2, -pcb_hole_dy/2, 0]) cylinder( h=20, d=panel_hole_dia);
+  translate( [-pcb_hole_dx/2, pcb_hole_dy/2,  0]) cylinder( h=20, d=panel_hole_dia);
+  translate( [pcb_hole_dx/2, -pcb_hole_dy/2,  0]) cylinder( h=20, d=panel_hole_dia);
+  translate( [pcb_hole_dx/2, pcb_hole_dy/2, 0]) cylinder( h=20, d=panel_hole_dia);
+}
+
 
 // front panel, centered
 
-// module panel() {
-//      translate( [-panel_w/2, -panel_h/2, 10])
-// 	  cube( [panel_w, panel_h, body_thk]);
-// }
+module panel() {
+  translate( [-panel_w/2, -panel_h/2, 0]) {
+    cube( [panel_w, panel_h, body_thk]);
+    translate( [body_lip, body_lip, -body_thk+e])
+      cube( [body_w, body_h, body_thk]);
+  }
+     
+}
 
-box();
+translate( [0,0,10]) {
+  difference() {
+    panel();
+    translate( [0, 0, -5]) {
+      oled_holes();
+      mounting_holes();
+    }
+  }
+}
+
+
+// box();
 
 // translate( [0, 0, 5]) {
 //      difference() {

@@ -19,14 +19,16 @@ See (Data/README.md)[Data/README.md] for data details and ideas.
 See [https://github.com/eshazen/town_ident](https://github.com/eshazen/town_ident)
 for a preliminary version based on ATMega328.
 
-### Processor
+## Hardware
 
-* Arduino MKR Zero.  
+* **CPU** - Arduino MKR Zero.  SAMD21 cpu with 256k flash and 32k ram.  32-bit M0 core at 48MHz.
+* **Display** - OLED with 3.12 inch 256x64 display.  Amazon:  [https://a.co/d/5zJTbLo](https://a.co/d/5zJTbLo)
+* **GPS** - NEO-6M module (Amazon: [link](https://a.co/d/gSQQ6ZD).  The NEO-7M is a higher-performance replacement
+* **Antenna** - Bingfu Waterproof "Active" GPS antenna SMA (Amazon: [link](https://a.co/d/aN1YYik).
 
+### Display details
 
-### Display
-
-Ordered this 3.12" OLED with 16-pin connector from Amazon:  [https://a.co/d/5zJTbLo](https://a.co/d/5zJTbLo)
+Ordered this 3.12" OLED with 16-pin connector from 
 Asked ChatGPT for a pinout and it came up with [this](https://chatgpt.com/share/68c1a13d-e6dc-8000-bd67-d93712c7cb28).
 
 Also see [ER-OLEDM028-1_Interfacing.pdf](Docs/ER-OLEDM028-1_Interfacing.pdf).
