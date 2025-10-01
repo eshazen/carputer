@@ -75,7 +75,8 @@ int cmpf( const void* a, const void* b) {
 // debug:  dump a a_loc list
 void dump_list( a_loc* list, int nlist) {
 #ifdef DEBUG
-  printf("dump_list( size=%d)\n", nlist);
+  snprintf( prnt, sizeof(prnt), "dump_list( size=%d)\n", nlist);
+  Serial.print(prnt);
   if( nlist)
     for( int i=0; i<nlist; i++) {
       snprintf( prnt, sizeof(prnt), "  %d 0x%08x, %f\n", i, list[i].offset, list[i].distance);
@@ -90,7 +91,8 @@ void dump_list( a_loc* list, int nlist) {
 int process_grid_at( float lat, float lon, int latGrid, int lonGrid, a_loc* list, int nlist, int maxlist) {
 
 #ifdef DEBUG
-  printf("process_grid_at( nlist = %d)\n", nlist);
+  snprintf( prnt, sizeof(prnt), "process_grid_at( nlist = %d)\n", nlist);
+  Serial.print(prnt);
 #endif
   // check for out of range
   if( latGrid < 0 || lonGrid < 0 || lonGrid > 255 || latGrid > 255)
@@ -101,7 +103,8 @@ int process_grid_at( float lat, float lon, int latGrid, int lonGrid, a_loc* list
 
   uint32_t posn = ((latGrid << 8) | lonGrid) * sizeof( uint32_t);
 #ifdef DEBUG
-  printf("posn (0x%02x, 0x%02x) = 0x%04x (%d)\n", latGrid, lonGrid, posn, posn);
+  snprintf( prnt, sizeof(prnt), "posn (0x%02x, 0x%02x) = 0x%04x (%d)\n", latGrid, lonGrid, posn, posn);
+  Serial.print(prnt);
 #endif
 
   fi.seek( posn);
@@ -111,12 +114,14 @@ int process_grid_at( float lat, float lon, int latGrid, int lonGrid, a_loc* list
   fi.read( &offset, sizeof(offset));
 
 #ifdef DEBUG
-  printf( "Retrieved offset 0x%04x from position %d\n", offset, posn);
+  snprintf( prnt, sizeof(prnt),  "Retrieved offset 0x%04x from position %d\n", offset, posn);
+  Serial.print(prnt);
 #endif
   if( offset != 0xffffff) {
 
 #ifdef DEBUG
-    printf("Seeking to offset\n");
+    snprintf( prnt, sizeof(prnt), "Seeking to offset\n");
+    Serial.print(prnt);
 #endif
 
     fp.seek( offset);
@@ -125,11 +130,16 @@ int process_grid_at( float lat, float lon, int latGrid, int lonGrid, a_loc* list
 
     // read until EOF or grid changes
     
-    while( int n = fg.readBytesUntil( 0xa, buff, sizeof(buff))) {
+    while( int n = fp.readBytesUntil( 0xa, buff, sizeof(buff))) {
       buff[n] = '\0';
+#ifdef DEBUG
+      Serial.print("Read: ");
+      Serial.println( buff);
+#endif      
       offset = fp.position();
       if( csv_to_place( &pl, buff)) {
-	printf("Error parsing %s\n", buff);
+	snprintf( prnt, sizeof(prnt), "Error parsing %s\n", buff);
+	Serial.print(prnt);
 	exit(1);
       }
       if( pl.lat_grid == latGrid && pl.lon_grid == lonGrid) {
@@ -137,7 +147,8 @@ int process_grid_at( float lat, float lon, int latGrid, int lonGrid, a_loc* list
 	loc.distance = distance_miles( lat, lon, pl.lat, pl.lon);
 
 #ifdef DEBUG
-	printf("--> Processing new loc 0x%08x, %f\n", loc.offset, loc.distance);
+	snprintf( prnt, sizeof(prnt), "--> Processing new loc 0x%08x, %f\n", loc.offset, loc.distance);
+	Serial.print(prnt);
 #endif
 
 //	// just insert unsorted for now
@@ -146,24 +157,29 @@ int process_grid_at( float lat, float lon, int latGrid, int lonGrid, a_loc* list
 
 	// insert in list maintaining order
 #ifdef DEBUG
-	printf("Before sort:");  dump_list( list, nlist);
+	snprintf( prnt, sizeof(prnt), "Before sort:");  dump_list( list, nlist);
+	Serial.print(prnt);
 #endif
 	if( nlist == 0) {		/* empty list case */
 #ifdef DEBUG
-	  printf("Empty list, insert here\n");
+	  snprintf( prnt, sizeof(prnt), "Empty list, insert here\n");
+	  Serial.print(prnt);
 #endif
 	  list[nlist++] = loc;
 	} else {
 #ifdef DEBUG
-	  printf("Searching for fit...\n");
+	  snprintf( prnt, sizeof(prnt), "Searching for fit...\n");
+	  Serial.print(prnt);
 #endif
 	  for( insPt=0; insPt<nlist; insPt++) { /* else find where it fits */
 #ifdef DEBUG
-	    printf("Check at %d\n", insPt);
+	    snprintf( prnt, sizeof(prnt), "Check at %d\n", insPt);
+	    Serial.print(prnt);
 #endif
 	    if( loc.distance <= list[insPt].distance) { /* insert here */
 #ifdef DEBUG
-	      printf("Shifting...\n");
+	      snprintf( prnt, sizeof(prnt), "Shifting...\n");
+	      Serial.print(prnt);
 #endif
 	      // shift all including list[i] to right
 	      for( int j=maxlist-2; j>=insPt; j--)
@@ -177,18 +193,21 @@ int process_grid_at( float lat, float lon, int latGrid, int lonGrid, a_loc* list
 	  }
 	  if( insPt == nlist) {
 #ifdef DEBUG
-	    printf("At end of list\n");
+	    snprintf( prnt, sizeof(prnt), "At end of list\n");
+	    Serial.print(prnt);
 #endif
 	    if( nlist < maxlist) {
 #ifdef DEBUG
-	      printf("Insert at loc %d\n", nlist);
+	      snprintf( prnt, sizeof(prnt), "Insert at loc %d\n", nlist);
+	      Serial.print(prnt);
 #endif
 	      list[nlist++] = loc;
 	    }
 	  }
 	}
 #ifdef DEBUG
-	printf("After insert:"); dump_list( list, nlist);
+	snprintf( prnt, sizeof(prnt), "After insert:"); dump_list( list, nlist);
+	Serial.print(prnt);
 #endif
 	offs0 = offset;
       } else {
@@ -197,7 +216,8 @@ int process_grid_at( float lat, float lon, int latGrid, int lonGrid, a_loc* list
     }
   }
 #ifdef DEBUG
-  printf("read %d locations\n", nlist);
+  snprintf( prnt, sizeof(prnt), "read %d locations\n", nlist);
+  Serial.print(prnt);
 #endif
   return nlist;
 }
@@ -236,8 +256,8 @@ void setup() {
   }
 
   // <FIXME>
-  float lat = 43.3373;
-  float lon = -71.1434;
+  float lat = 42.3423;
+  float lon = -71.1378;
 
   // read grid file
 

@@ -4,35 +4,13 @@
 #include "SSD1322_HW_Driver.h"
 #include "SSD1322_API.h"
 #include "SSD1322_GFX.h"
-#include "Fonts/FreeMono12pt7b.h"
-#include "Fonts/FreeSansOblique9pt7b.h"
+
+#include "Fonts/FreeSans9pt7b.h"
+#include "Fonts/vga9x167pt7b.h"
+
+#define LINE_SPC 14
 
 uint8_t buf[OLED_HEIGHT*OLED_WIDTH];
-
-#define NGON_MAX 32
-// static int X[NGON_MAX], Y[NGON_MAX];
-// 
-// #define NGON_WIDTH OLED_WIDTH/2
-// #define NGON_HEIGHT OLED_HEIGHT
-// 
-// #define NGON_X0 (OLED_WIDTH-NGON_WIDTH)
-// 
-// void ngon( int n) {
-//   float a = 0.;
-//   float da = (2.0*PI)/n;
-//   if( n > NGON_MAX)
-//     return;
-//   for( int i=0; i<n; i++) {
-//     X[i] = ((sin(a)+1.0)/2.0) * (float)NGON_WIDTH + NGON_X0;
-//     Y[i] = ((cos(a)+1.0)/2.0) * (float)NGON_HEIGHT;
-//     a += da;
-//   }
-//   fill_buffer( buf, 0);
-//   for( int i=0; i<n-1; i++)
-//     for( int j=i+1; j<n; j++)
-//       draw_line( buf, X[i], Y[i], X[j], Y[j], 15);
-//   send_buffer_to_OLED( buf, 0, 0);  
-// }
 
 void flush() {
   while( Serial1.available())
@@ -45,7 +23,8 @@ void setup() {
   SSD1322_API_init();
   Serial1.begin(9600);
   Serial.begin(9600);
-  select_font( &FreeMono12pt7b);
+  select_font( &FreeSans9pt7b);
+  //  select_font( &vga_9x167pt7b);
   flush();
 }
 
@@ -82,16 +61,20 @@ void loop() {
       p = strsep( &str, ","); // skip                 8
       date = strsep( &str, ","); // date              9
 
+      int pos = LINE_SPC;
+
       fill_buffer( buf, 0);
       snprintf( prnt, sizeof(prnt), "%s %s", stat, gmt);
       Serial.println( prnt);
-      draw_text( buf, prnt, 1, 15, 15);
+      draw_text( buf, prnt, 1, pos, 15);
+      pos += LINE_SPC;
       snprintf( prnt, sizeof(prnt), "LAT %10s %s", lat, ns);
       Serial.println( prnt);
-      draw_text( buf, prnt, 1, 35, 15);
+      draw_text( buf, prnt, 1, pos, 15);
+      pos += LINE_SPC;
       snprintf( prnt, sizeof(prnt), "LON %10s %s", lon, ew);
       Serial.println( prnt);
-      draw_text( buf, prnt, 1, 55, 15);
+      draw_text( buf, prnt, 1, pos, 15);
       send_buffer_to_OLED( buf, 0, 0);
     }
   }

@@ -1,17 +1,17 @@
 /**
- ****************************************************************************************
- *
- * \file SSD1322_GFX.c
- *
- * \brief Simple GFX library to draw some basic shapes on OLED display.
- *
- *
- * Copyright (C) 2020 Wojciech Klimek
- * MIT license:
- * https://github.com/wjklimek1/SSD1322_OLED_library
- *
- ****************************************************************************************
- */
+****************************************************************************************
+*
+* \file SSD1322_GFX.c
+*
+* \brief Simple GFX library to draw some basic shapes on OLED display.
+*
+*
+* Copyright (C) 2020 Wojciech Klimek
+* MIT license:
+* https://github.com/wjklimek1/SSD1322_OLED_library
+*
+****************************************************************************************
+*/
 
 // rotate image right-side up
 #define ROTATE_180
@@ -46,8 +46,8 @@ uint16_t _buffer_width = OLED_WIDTH;      //by default buffer size is equal to O
 
 void set_buffer_size(uint16_t buffer_width, uint16_t buffer_height)
 {
-	_buffer_width = buffer_width;
-	_buffer_height = buffer_height;
+  _buffer_width = buffer_width;
+  _buffer_height = buffer_height;
 }
 
 //====================== fill buffer ========================//
@@ -61,12 +61,12 @@ void set_buffer_size(uint16_t buffer_width, uint16_t buffer_height)
  */
 void fill_buffer(uint8_t *frame_buffer, uint8_t brightness)
 {
-	uint8_t byte_value = (brightness << 4) | brightness;
-	uint32_t buffer_size = _buffer_height * _buffer_width / 2;
-	while (buffer_size--)
-	{
-		*frame_buffer++ = byte_value;
-	}
+  uint8_t byte_value = (brightness << 4) | brightness;
+  uint32_t buffer_size = _buffer_height * _buffer_width / 2;
+  while (buffer_size--)
+    {
+      *frame_buffer++ = byte_value;
+    }
 }
 
 //====================== draw pixel ========================//
@@ -92,17 +92,17 @@ void draw_pixel(uint8_t *frame_buffer, uint16_t x, uint16_t y, uint8_t brightnes
   y = _buffer_height-y;
   x = _buffer_width-x;
 #endif
-	if(x > (_buffer_width-1) || y > (_buffer_height-1))
-		return;
+  if(x > (_buffer_width-1) || y > (_buffer_height-1))
+    return;
 
-	if ((y * _buffer_width + x) % 2 == 1)
-	{
-		frame_buffer[((y * _buffer_width) + x) / 2] = (frame_buffer[((y * _buffer_width) + x) / 2] & 0xF0) | brightness;
-	}
-	else
-	{
-		frame_buffer[((y * _buffer_width) + x) / 2] = (frame_buffer[((y * _buffer_width) + x) / 2] & 0x0F) | (brightness << 4);
-	}
+  if ((y * _buffer_width + x) % 2 == 1)
+    {
+      frame_buffer[((y * _buffer_width) + x) / 2] = (frame_buffer[((y * _buffer_width) + x) / 2] & 0xF0) | brightness;
+    }
+  else
+    {
+      frame_buffer[((y * _buffer_width) + x) / 2] = (frame_buffer[((y * _buffer_width) + x) / 2] & 0x0F) | (brightness << 4);
+    }
 }
 
 //====================== draw vertical line ========================//
@@ -124,20 +124,20 @@ void draw_pixel(uint8_t *frame_buffer, uint16_t x, uint16_t y, uint8_t brightnes
  */
 void draw_vline(uint8_t *frame_buffer, uint16_t x, uint16_t y0, uint16_t y1, uint8_t brightness)
 {
-	if(y0 < y1)
+  if(y0 < y1)
+    {
+      for (uint16_t i = y0; i <= y1; i++)
 	{
-		for (uint16_t i = y0; i <= y1; i++)
-		{
-			draw_pixel(frame_buffer, x, i, brightness);
-		}
+	  draw_pixel(frame_buffer, x, i, brightness);
 	}
-	else
+    }
+  else
+    {
+      for (uint16_t i = y1; i <= y0; i++)
 	{
-		for (uint16_t i = y1; i <= y0; i++)
-		{
-			draw_pixel(frame_buffer, x, i, brightness);
-		}
+	  draw_pixel(frame_buffer, x, i, brightness);
 	}
+    }
 }
 
 //====================== draw horizontal line ========================//
@@ -159,20 +159,20 @@ void draw_vline(uint8_t *frame_buffer, uint16_t x, uint16_t y0, uint16_t y1, uin
  */
 void draw_hline(uint8_t *frame_buffer, uint16_t y, uint16_t x0, uint16_t x1, uint8_t brightness)
 {
-	if(x0 < x1)
+  if(x0 < x1)
+    {
+      for (uint16_t i = x0; i <= x1; i++)
 	{
-		for (uint16_t i = x0; i <= x1; i++)
-		{
-			draw_pixel(frame_buffer, i, y, brightness);
-		}
+	  draw_pixel(frame_buffer, i, y, brightness);
 	}
-	else
+    }
+  else
+    {
+      for (uint16_t i = x1; i <= x0; i++)
 	{
-		for (uint16_t i = x1; i <= x0; i++)
-		{
-			draw_pixel(frame_buffer, i, y, brightness);
-		}
+	  draw_pixel(frame_buffer, i, y, brightness);
 	}
+    }
 }
 
 //====================== draw sloping line ========================//
@@ -193,73 +193,73 @@ void draw_hline(uint8_t *frame_buffer, uint16_t y, uint16_t x0, uint16_t x1, uin
  *             y position of line ending
  * 	@param[in] brightness
  *             brightness value of pixels (range 0-15 dec or 0x00-0x0F hex)
-*/
+ */
 void draw_line(uint8_t *frame_buffer, uint16_t x0, uint16_t y0, uint16_t x1, uint16_t y1, uint8_t brightness)
 {
-	//handle horizontal and vertical lines with appropriate functions
-	if (x0 == x1)
-	{
-		draw_vline(frame_buffer, x0, y0, y1, brightness);
-	}
-	if (y0 == y1)
-	{
-		draw_hline(frame_buffer, y0, x0, x1, brightness);
-	}
+  //handle horizontal and vertical lines with appropriate functions
+  if (x0 == x1)
+    {
+      draw_vline(frame_buffer, x0, y0, y1, brightness);
+    }
+  if (y0 == y1)
+    {
+      draw_hline(frame_buffer, y0, x0, x1, brightness);
+    }
 
-	int16_t steep = abs(y1 - y0) > abs(x1 - x0);
-	if (steep == 1)
-	{
-		uint16_t tmp = y0;
-		y0 = x0;
-		x0 = tmp;
-		tmp = y1;
-		y1 = x1;
-		x1 = tmp;
-	}
+  int16_t steep = abs(y1 - y0) > abs(x1 - x0);
+  if (steep == 1)
+    {
+      uint16_t tmp = y0;
+      y0 = x0;
+      x0 = tmp;
+      tmp = y1;
+      y1 = x1;
+      x1 = tmp;
+    }
 
-	if (x0 > x1)
-	{
-		uint16_t tmp = x0;
-		x0 = x1;
-		x1 = tmp;
-		tmp = y0;
-		y0 = y1;
-		y1 = tmp;
-	}
+  if (x0 > x1)
+    {
+      uint16_t tmp = x0;
+      x0 = x1;
+      x1 = tmp;
+      tmp = y0;
+      y0 = y1;
+      y1 = tmp;
+    }
 
-	int16_t dx, dy;
-	dx = x1 - x0;
-	dy = abs(y1 - y0);
+  int16_t dx, dy;
+  dx = x1 - x0;
+  dy = abs(y1 - y0);
 
-	int16_t err = dx / 2;
-	int16_t ystep;
+  int16_t err = dx / 2;
+  int16_t ystep;
 
-	if (y0 < y1)
-	{
-		ystep = 1;
-	}
-	else
-	{
-		ystep = -1;
-	}
+  if (y0 < y1)
+    {
+      ystep = 1;
+    }
+  else
+    {
+      ystep = -1;
+    }
 
-	for (; x0 <= x1; x0++)
+  for (; x0 <= x1; x0++)
+    {
+      if (steep)
 	{
-		if (steep)
-		{
-			draw_pixel(frame_buffer, y0, x0, brightness);
-		}
-		else
-		{
-			draw_pixel(frame_buffer, x0, y0, brightness);
-		}
-		err -= dy;
-		if (err < 0)
-		{
-			y0 += ystep;
-			err += dx;
-		}
+	  draw_pixel(frame_buffer, y0, x0, brightness);
 	}
+      else
+	{
+	  draw_pixel(frame_buffer, x0, y0, brightness);
+	}
+      err -= dy;
+      if (err < 0)
+	{
+	  y0 += ystep;
+	  err += dx;
+	}
+    }
 }
 
 //====================== draw antialiased sloping line using Xiaolin Wu's aghoritm ========================//
@@ -281,99 +281,99 @@ void draw_line(uint8_t *frame_buffer, uint16_t x0, uint16_t y0, uint16_t x1, uin
  *             y position of line ending
  * 	@param[in] brightness
  *             brightness value of pixels (range 0-15 dec or 0x00-0x0F hex)
-*/
+ */
 void draw_AA_line(uint8_t *frame_buffer, uint16_t x0, uint16_t y0, uint16_t x1, uint16_t y1, uint8_t brightness)
 {
-	//handle horizontal and vertical lines with appropriate functions
-	if (x0 == x1)
-	{
-		draw_vline(frame_buffer, x0, y0, y1, brightness);
-	}
-	if (y0 == y1)
-	{
-		draw_hline(frame_buffer, y0, x0, x1, brightness);
-	}
+  //handle horizontal and vertical lines with appropriate functions
+  if (x0 == x1)
+    {
+      draw_vline(frame_buffer, x0, y0, y1, brightness);
+    }
+  if (y0 == y1)
+    {
+      draw_hline(frame_buffer, y0, x0, x1, brightness);
+    }
 
-	uint8_t steep = abs(y1 - y0) > abs(x1 - x0);
+  uint8_t steep = abs(y1 - y0) > abs(x1 - x0);
 
-	if (steep)
-	{
-		uint16_t tmp = y0;
-		y0 = x0;
-		x0 = tmp;
-		tmp = y1;
-		y1 = x1;
-		x1 = tmp;
-	}
-	if (x0 > x1)
-	{
-		uint16_t tmp = x0;
-		x0 = x1;
-		x1 = tmp;
-		tmp = y0;
-		y0 = y1;
-		y1 = tmp;
-	}
+  if (steep)
+    {
+      uint16_t tmp = y0;
+      y0 = x0;
+      x0 = tmp;
+      tmp = y1;
+      y1 = x1;
+      x1 = tmp;
+    }
+  if (x0 > x1)
+    {
+      uint16_t tmp = x0;
+      x0 = x1;
+      x1 = tmp;
+      tmp = y0;
+      y0 = y1;
+      y1 = tmp;
+    }
 
-	float dx = x1 - x0;
-	float dy = y1 - y0;
-	float gradient = dy / dx;
+  float dx = x1 - x0;
+  float dy = y1 - y0;
+  float gradient = dy / dx;
 
-	// handle first endpoint
-	float xend = round(x0);
-	float yend = y0 + gradient * (xend - x0);
-	float xgap =  1 - ((x0 + 0.5) - floor(x0 + 0.5));
-	float xpxl1 = xend; // this will be used in the main loop
-	float ypxl1 = floor(yend);
-	if (steep)
-	{
-		draw_pixel(frame_buffer, ypxl1, xpxl1, (1-(yend - (floor(yend))) * xgap)*brightness);
-		draw_pixel(frame_buffer, ypxl1 + 1, xpxl1, (yend - (floor(yend)) * xgap)*brightness);
-	}
-	else
-	{
-		draw_pixel(frame_buffer, xpxl1, ypxl1, (1-(yend - (floor(yend))) * xgap)*brightness);
-		draw_pixel(frame_buffer, xpxl1, ypxl1 + 1, (yend - (floor(yend)) * xgap)*brightness);
-	}
+  // handle first endpoint
+  float xend = round(x0);
+  float yend = y0 + gradient * (xend - x0);
+  float xgap =  1 - ((x0 + 0.5) - floor(x0 + 0.5));
+  float xpxl1 = xend; // this will be used in the main loop
+  float ypxl1 = floor(yend);
+  if (steep)
+    {
+      draw_pixel(frame_buffer, ypxl1, xpxl1, (1-(yend - (floor(yend))) * xgap)*brightness);
+      draw_pixel(frame_buffer, ypxl1 + 1, xpxl1, (yend - (floor(yend)) * xgap)*brightness);
+    }
+  else
+    {
+      draw_pixel(frame_buffer, xpxl1, ypxl1, (1-(yend - (floor(yend))) * xgap)*brightness);
+      draw_pixel(frame_buffer, xpxl1, ypxl1 + 1, (yend - (floor(yend)) * xgap)*brightness);
+    }
 
-	float intery = yend + gradient; // first y-intersection for the main loop
+  float intery = yend + gradient; // first y-intersection for the main loop
 
-	// handle second endpoint
-	xend = round(x1);
-	yend = y1 + gradient * (xend - x1);
-	xgap = (x1 + 0.5) - floor(x1 + 0.5);
-	float xpxl2 = xend; //this will be used in the main loop
-	float ypxl2 = floor(yend);
-	if (steep)
-	{
-		draw_pixel(frame_buffer, ypxl2, xpxl2, (1 - (yend - floor(yend)) * xgap)*brightness);
-		draw_pixel(frame_buffer, ypxl2 + 1, xpxl2, ((yend - floor(yend)) * xgap)*brightness);
-	}
-	else
-	{
-		draw_pixel(frame_buffer, xpxl2, ypxl2, (1 - (yend - floor(yend)) * xgap)*brightness);
-		draw_pixel(frame_buffer, xpxl2, ypxl2 + 1, ((yend - floor(yend)) * xgap)*brightness);
-	}
+  // handle second endpoint
+  xend = round(x1);
+  yend = y1 + gradient * (xend - x1);
+  xgap = (x1 + 0.5) - floor(x1 + 0.5);
+  float xpxl2 = xend; //this will be used in the main loop
+  float ypxl2 = floor(yend);
+  if (steep)
+    {
+      draw_pixel(frame_buffer, ypxl2, xpxl2, (1 - (yend - floor(yend)) * xgap)*brightness);
+      draw_pixel(frame_buffer, ypxl2 + 1, xpxl2, ((yend - floor(yend)) * xgap)*brightness);
+    }
+  else
+    {
+      draw_pixel(frame_buffer, xpxl2, ypxl2, (1 - (yend - floor(yend)) * xgap)*brightness);
+      draw_pixel(frame_buffer, xpxl2, ypxl2 + 1, ((yend - floor(yend)) * xgap)*brightness);
+    }
 
-	// main loop
-	if (steep)
+  // main loop
+  if (steep)
+    {
+      for (int x = xpxl1 + 1; x <= xpxl2 - 1; x++)
 	{
-		for (int x = xpxl1 + 1; x <= xpxl2 - 1; x++)
-		{
-			draw_pixel(frame_buffer, floor(intery), x, (1 - (intery - floor(intery)))*brightness);
-			draw_pixel(frame_buffer, floor(intery) + 1, x, (intery - floor(intery))*brightness);
-			intery = intery + gradient;
-		}
+	  draw_pixel(frame_buffer, floor(intery), x, (1 - (intery - floor(intery)))*brightness);
+	  draw_pixel(frame_buffer, floor(intery) + 1, x, (intery - floor(intery))*brightness);
+	  intery = intery + gradient;
 	}
-	else
+    }
+  else
+    {
+      for (int x = xpxl1 + 1; x <= xpxl2 - 1; x++)
 	{
-		for (int x = xpxl1 + 1; x <= xpxl2 - 1; x++)
-		{
-			draw_pixel(frame_buffer, x, floor(intery), (1 - (intery - floor(intery)))*brightness);
-			draw_pixel(frame_buffer, x, floor(intery) + 1, (intery - floor(intery))*brightness);
-			intery = intery + gradient;
-		}
+	  draw_pixel(frame_buffer, x, floor(intery), (1 - (intery - floor(intery)))*brightness);
+	  draw_pixel(frame_buffer, x, floor(intery) + 1, (intery - floor(intery))*brightness);
+	  intery = intery + gradient;
 	}
+    }
 }
 
 
@@ -397,10 +397,10 @@ void draw_AA_line(uint8_t *frame_buffer, uint16_t x0, uint16_t y0, uint16_t x1, 
  */
 void draw_rect(uint8_t *frame_buffer, uint16_t x0, uint16_t y0, uint16_t x1, uint16_t y1, uint8_t brightness)
 {
-	draw_vline(frame_buffer, x0, y0, y1, brightness);
-	draw_vline(frame_buffer, x1, y0, y1, brightness);
-	draw_hline(frame_buffer, y0, x0, x1, brightness);
-	draw_hline(frame_buffer, y1, x0, x1, brightness);
+  draw_vline(frame_buffer, x0, y0, y1, brightness);
+  draw_vline(frame_buffer, x1, y0, y1, brightness);
+  draw_hline(frame_buffer, y0, x0, x1, brightness);
+  draw_hline(frame_buffer, y1, x0, x1, brightness);
 }
 
 //====================== draw filled rectangle ========================//
@@ -422,13 +422,13 @@ void draw_rect(uint8_t *frame_buffer, uint16_t x0, uint16_t y0, uint16_t x1, uin
  */
 void draw_rect_filled(uint8_t *frame_buffer, uint16_t x0, uint16_t y0, uint16_t x1, uint16_t y1, uint8_t brightness)
 {
-	for (uint16_t i = x0; i <= x1; i++)
+  for (uint16_t i = x0; i <= x1; i++)
+    {
+      for (uint16_t j = y0; j <= y1; j++)
 	{
-		for (uint16_t j = y0; j <= y1; j++)
-		{
-			draw_pixel(frame_buffer, i, j, brightness);
-		}
+	  draw_pixel(frame_buffer, i, j, brightness);
 	}
+    }
 }
 
 //====================== draw empty circle ========================//
@@ -460,26 +460,26 @@ void draw_circle(uint8_t *frame_buffer, uint16_t x0, uint16_t y0, uint16_t r, ui
   draw_pixel(frame_buffer, x0 - r, y0, brightness);
 
   while (x < y)
-  {
-    if (f >= 0)
     {
-      y--;
-      ddF_y += 2;
-      f += ddF_y;
-    }
-    x++;
-    ddF_x += 2;
-    f += ddF_x;
+      if (f >= 0)
+	{
+	  y--;
+	  ddF_y += 2;
+	  f += ddF_y;
+	}
+      x++;
+      ddF_x += 2;
+      f += ddF_x;
 
-    draw_pixel(frame_buffer, x0 + x, y0 + y, brightness);
-    draw_pixel(frame_buffer, x0 - x, y0 + y, brightness);
-    draw_pixel(frame_buffer, x0 + x, y0 - y, brightness);
-    draw_pixel(frame_buffer, x0 - x, y0 - y, brightness);
-    draw_pixel(frame_buffer, x0 + y, y0 + x, brightness);
-    draw_pixel(frame_buffer, x0 - y, y0 + x, brightness);
-    draw_pixel(frame_buffer, x0 + y, y0 - x, brightness);
-    draw_pixel(frame_buffer, x0 - y, y0 - x, brightness);
-  }
+      draw_pixel(frame_buffer, x0 + x, y0 + y, brightness);
+      draw_pixel(frame_buffer, x0 - x, y0 + y, brightness);
+      draw_pixel(frame_buffer, x0 + x, y0 - y, brightness);
+      draw_pixel(frame_buffer, x0 - x, y0 - y, brightness);
+      draw_pixel(frame_buffer, x0 + y, y0 + x, brightness);
+      draw_pixel(frame_buffer, x0 - y, y0 + x, brightness);
+      draw_pixel(frame_buffer, x0 + y, y0 - x, brightness);
+      draw_pixel(frame_buffer, x0 - y, y0 - x, brightness);
+    }
 }
 
 //====================== draw bitmap ========================//
@@ -506,16 +506,16 @@ void draw_circle(uint8_t *frame_buffer, uint16_t x0, uint16_t y0, uint16_t r, ui
  */
 void draw_bitmap_8bpp(uint8_t *frame_buffer, const uint8_t *bitmap, uint16_t x0, uint16_t y0, uint16_t x_size, uint16_t y_size)
 {
-	uint16_t bitmap_pos = 0;
+  uint16_t bitmap_pos = 0;
 
-	for (uint16_t i = y0; i < y0 + y_size; i++)
+  for (uint16_t i = y0; i < y0 + y_size; i++)
+    {
+      for (uint16_t j = x0; j < x0 + x_size; j++)
 	{
-		for (uint16_t j = x0; j < x0 + x_size; j++)
-		{
-			draw_pixel(frame_buffer, j, i, bitmap[bitmap_pos] >> 4);
-			bitmap_pos++;
-		}
+	  draw_pixel(frame_buffer, j, i, bitmap[bitmap_pos] >> 4);
+	  bitmap_pos++;
 	}
+    }
 }
 
 //====================== draw 4-bit bitmap ========================//
@@ -541,29 +541,29 @@ void draw_bitmap_8bpp(uint8_t *frame_buffer, const uint8_t *bitmap, uint16_t x0,
  */
 void draw_bitmap_4bpp(uint8_t *frame_buffer, const uint8_t *bitmap, uint16_t x0, uint16_t y0, uint16_t x_size, uint16_t y_size)
 {
-	uint16_t bitmap_pos = 0;       //byte index in bitmap array
-	uint16_t processed_pixels = 0;
-	uint8_t pixel_parity = 0;      //if pixel is even = 0; odd = 1
+  uint16_t bitmap_pos = 0;       //byte index in bitmap array
+  uint16_t processed_pixels = 0;
+  uint8_t pixel_parity = 0;      //if pixel is even = 0; odd = 1
 
-	for (uint16_t i = y0; i < y0 + y_size; i++)
+  for (uint16_t i = y0; i < y0 + y_size; i++)
+    {
+      for (uint16_t j = x0; j < x0 + x_size; j++)
 	{
-		for (uint16_t j = x0; j < x0 + x_size; j++)
-		{
-			pixel_parity = processed_pixels % 2;
+	  pixel_parity = processed_pixels % 2;
 
-			if(pixel_parity == 0)
-			{
-				draw_pixel(frame_buffer, j, i, bitmap[bitmap_pos] >> 4);
-				processed_pixels++;
-			}
-			else
-			{
-				draw_pixel(frame_buffer, j, i, bitmap[bitmap_pos]);
-				processed_pixels++;
-				bitmap_pos++;
-			}
-		}
+	  if(pixel_parity == 0)
+	    {
+	      draw_pixel(frame_buffer, j, i, bitmap[bitmap_pos] >> 4);
+	      processed_pixels++;
+	    }
+	  else
+	    {
+	      draw_pixel(frame_buffer, j, i, bitmap[bitmap_pos]);
+	      processed_pixels++;
+	      bitmap_pos++;
+	    }
 	}
+    }
 }
 
 //====================== select font ========================//
@@ -578,7 +578,7 @@ void draw_bitmap_4bpp(uint8_t *frame_buffer, const uint8_t *bitmap, uint16_t x0,
  */
 void select_font(const GFXfont *new_gfx_font)
 {
-	gfx_font = new_gfx_font;
+  gfx_font = new_gfx_font;
 }
 
 //====================== draw single character ========================//
@@ -600,45 +600,45 @@ void select_font(const GFXfont *new_gfx_font)
  */
 void draw_char(uint8_t *frame_buffer, uint8_t c, uint16_t x, uint16_t y, uint8_t brightness)
 {
-	if(gfx_font == NULL)
-		return;
+  if(gfx_font == NULL)
+    return;
 
-	c -= (uint8_t)gfx_font->first;          //convert input char to corresponding byte from font array
-    GFXglyph *glyph = gfx_font->glyph + c;  //get pointer of glyph corresponding to char
-    uint8_t *bitmap = gfx_font->bitmap;     //get pointer of char bitmap
+  c -= (uint8_t)gfx_font->first;          //convert input char to corresponding byte from font array
+  GFXglyph *glyph = gfx_font->glyph + c;  //get pointer of glyph corresponding to char
+  uint8_t *bitmap = gfx_font->bitmap;     //get pointer of char bitmap
 
-    uint16_t bo = glyph->bitmapOffset;
-    uint8_t width = glyph->width;
-    uint8_t height = glyph->height;
+  uint16_t bo = glyph->bitmapOffset;
+  uint8_t width = glyph->width;
+  uint8_t height = glyph->height;
 
-    int8_t x_offset = glyph->xOffset;
-    int8_t y_offset = glyph->yOffset;
+  int8_t x_offset = glyph->xOffset;
+  int8_t y_offset = glyph->yOffset;
 
-    //decide for background brightness or font brightness
-    uint8_t bit = 0;
-    uint8_t bits = 0;
-    uint8_t y_pos = 0;
-    uint8_t x_pos = 0;
+  //decide for background brightness or font brightness
+  uint8_t bit = 0;
+  uint8_t bits = 0;
+  uint8_t y_pos = 0;
+  uint8_t x_pos = 0;
 
-	for (y_pos = 0; y_pos < height; y_pos++)
+  for (y_pos = 0; y_pos < height; y_pos++)
+    {
+      for (x_pos = 0; x_pos < width; x_pos++)
 	{
-		for (x_pos = 0; x_pos < width; x_pos++)
-		{
-			if (!(bit++ & 7))
-			{
-				bits = (*(const unsigned char *)(&bitmap[bo++]));
-			}
-			if (bits & 0x80)
-			{
-				draw_pixel(frame_buffer, x + x_offset + x_pos, y + y_offset+y_pos, brightness);
-			}
-			else
-			{
+	  if (!(bit++ & 7))
+	    {
+	      bits = (*(const unsigned char *)(&bitmap[bo++]));
+	    }
+	  if (bits & 0x80)
+	    {
+	      draw_pixel(frame_buffer, x + x_offset + x_pos, y + y_offset+y_pos, brightness);
+	    }
+	  else
+	    {
 
-			}
-			bits <<= 1;
-		}
+	    }
+	  bits <<= 1;
 	}
+    }
 }
 
 //====================== draw string ========================//
@@ -662,11 +662,11 @@ void draw_char(uint8_t *frame_buffer, uint8_t c, uint16_t x, uint16_t y, uint8_t
  */
 void draw_text(uint8_t *frame_buffer, const char* text, uint16_t x, uint16_t y, uint8_t brightness)
 {
-    while (*text)
+  while (*text)
     {
-        draw_char(frame_buffer, *text, x, y, brightness);
-        x = x + gfx_font->glyph[*text-32].xAdvance;
-        text++;
+      draw_char(frame_buffer, *text, x, y, brightness);
+      x = x + gfx_font->glyph[*text-32].xAdvance;
+      text++;
     }
 }
 
@@ -690,7 +690,7 @@ void draw_text(uint8_t *frame_buffer, const char* text, uint16_t x, uint16_t y, 
  */
 void send_buffer_to_OLED(uint8_t *frame_buffer, uint16_t start_x, uint16_t start_y)
 {
-	SSD1322_API_set_window(0, 63, 0, 127);
-	//	SSD1322_API_send_buffer(frame_buffer + (start_y * OLED_WIDTH / 2) + start_x, 8192);
-	SSD1322_API_send_buffer(frame_buffer + (start_y * OLED_WIDTH / 2) + start_x, OLED_WIDTH*OLED_HEIGHT);	
+  SSD1322_API_set_window(0, 63, 0, 127);
+  //	SSD1322_API_send_buffer(frame_buffer + (start_y * OLED_WIDTH / 2) + start_x, 8192);
+  SSD1322_API_send_buffer(frame_buffer + (start_y * OLED_WIDTH / 2) + start_x, OLED_WIDTH*OLED_HEIGHT);	
 }
