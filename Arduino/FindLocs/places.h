@@ -5,10 +5,14 @@
 // definition of "places" data and helper function declarations
 //
 
+#define MAX_NAME_LEN 60
+#define MAX_STATE_LEN 2
+
+// only static memory here
 typedef struct {
   int type;
-  char* name;
-  char* state;
+  char name[MAX_NAME_LEN+1];
+  char state[MAX_STATE_LEN+1];
   double lat;
   double lon;
   int lat_grid;
@@ -18,6 +22,6 @@ typedef struct {
 
 int csv_to_place( a_place* ap, char *csv);
 int place_to_csv( a_place* p, char *buffer, int buffer_size);
-int free_place( a_place* p);
+// int free_place( a_place* p);
 void dump_place( a_place* p);
 void place_to_short( a_place* p, char *buffer, int buffer_size, float distance);

@@ -28,8 +28,10 @@
 #include "SSD1322_API.h"
 #include "SSD1322_GFX.h"
 #include "Fonts/FreeMono9pt7b.h"
+#include "Fonts/FreeMono12pt7b.h"
+#include "Fonts/FreeMono18pt7b.h"
 
-#define LINE_SPC 16
+#define LINE_SPC 14
 #define USE_LINES 4
 uint8_t oledBuf[OLED_HEIGHT*OLED_WIDTH];
 #endif
@@ -37,13 +39,6 @@ uint8_t oledBuf[OLED_HEIGHT*OLED_WIDTH];
 #include "distance_miles.h"
 #include "places.h"
 #include "parse_csv.h"
-
-// int csv_to_place( a_place* ap, char *csv);
-// int place_to_csv( a_place* p, char *buffer, int buffer_size);
-// int free_place( a_place* p);
-// void dump_place( a_place* p);
-// int parse_csv_line(char *line, char *fields[], int max_fields);
-// double distance_miles(double lat1, double lon1, double lat2, double lon2);
 
 // ---- hardwired (ugh) input file names ----
 #define PLACES_FILE "places.csv"
@@ -72,6 +67,11 @@ float lonMin;
 float lonMax;
 float lonStep;
 
+char gpsStatus = 'X';			// last GGA message status
+int gpsNumSat = 0;			// last GGA messag number of sats
+
+static a_place tempPlace;
+
 // structure for an in-memory location
 typedef struct {
   uint32_t offset;		/* offset in places file */
@@ -83,7 +83,6 @@ typedef struct {
 a_loc sortedLocs[10];
 #define MAXLOC (sizeof(sortedLocs)/sizeof(a_loc))
 static int numLoc;		/* pointer to last occupied in sortedLocs */
-
 
 #ifdef USE_OLED
 void oled_print( int line, const char *str) {
@@ -126,8 +125,26 @@ char* GPS_fix( float *flat, float *flon) {
     if( Serial1.available()) {
       int nc = Serial1.readBytesUntil( '\n', gps, sizeof(gps)-1);
       gps[nc] = '\0';
-      if( !strncasecmp( gps, "$GPRMC", 6)) {
+
+      if( !strncasecmp( gps, "$GPGGA", 6)) {
+
+	str = gps;
 	Serial.println( gps);
+
+	p = strsep( &str, ",");	// 0 skip msg
+	p = strsep( &str, ",");	// 1 skip time
+	p = strsep( &str, ",");	// 2 skip lat
+	p = strsep( &str, ",");	// 3 skip ns
+	p = strsep( &str, ",");	// 4 skip lon
+	p = strsep( &str, ",");	// 5 skip ew
+	ew = strsep( &str, ",");// 6 position fix status
+	ns = strsep( &str, ",");// 7 num sats
+
+	gpsStatus = ew[0];
+	gpsNumSat = atoi( ns);
+      }
+
+      if( !strncasecmp( gps, "$GPRMC", 6)) {
 	// parse and display stuff
 	str = gps;
 	p = strsep( &str, ",");	// skip over header   0
@@ -140,6 +157,9 @@ char* GPS_fix( float *flat, float *flon) {
 	p = strsep( &str, ","); // skip                 7
 	p = strsep( &str, ","); // skip                 8
 	date = strsep( &str, ","); // date              9
+
+	if( strlen(gps) < 25 || strlen(lat) < 3 )
+	  Serial.println( gps);
 
 	if( strlen(gmt) > 3) {
 	  strncpy( tyme, gmt, sizeof(tyme));
@@ -172,8 +192,8 @@ char* GPS_fix( float *flat, float *flon) {
 //     mm is integer minutes
 //   ffff is fractional minutes
 float conv_ll( char *str) {
-  float minu;
-  float degr;
+  static float minu;
+  static float degr;
   char *dp = strchr( str, '.');  // point to decimal
   if( dp == NULL)
     return( 0.0);
@@ -227,7 +247,6 @@ int process_grid_at( float lat, float lon, int latGrid, int lonGrid, void* vlist
   list = (a_loc *)vlist;
 
   uint32_t offset;
-  a_place tempPlace;
   a_loc loc;
   int numThisGrid = 0;
 
@@ -260,8 +279,6 @@ int process_grid_at( float lat, float lon, int latGrid, int lonGrid, void* vlist
     while( int n = fp.readBytesUntil( 0xa, buff, sizeof(buff))) {
       buff[n] = '\0';
       offset = fp.position();
-      // NOTE NOTE NOTE this allocates memory which must be freed
-      // by calling free_place( &tempPlace)
       if( csv_to_place( &tempPlace, buff)) {
 	oled_print(0,"FAIL ON CSV");
 	while(1) ;
@@ -276,9 +293,6 @@ int process_grid_at( float lat, float lon, int latGrid, int lonGrid, void* vlist
 	++numThisGrid;
 	loc.offset = offs0;
 	loc.distance = distance_miles( lat, lon, tempPlace.lat, tempPlace.lon);
-
-	// we're done with tempPlace
-	free_place( &tempPlace);
 
 #ifdef NO_INSERT
 	// for debug, just fill the list
@@ -310,8 +324,8 @@ int process_grid_at( float lat, float lon, int latGrid, int lonGrid, void* vlist
 	}
 #endif
 	offs0 = offset;
-      } else {
-	break;
+      } else {			// if( same grid)
+	break;			// break loop if not
       }
     }
   }
@@ -428,7 +442,6 @@ void loop() {
 
   float floatLat;
   float floatLon;
-  a_place printPlace;
 
   int update_time = 0;
   const char *gpsTime;
@@ -525,18 +538,23 @@ void loop() {
 	fp.seek( sortedLocs[i].offset);
 	n = fp.readBytesUntil( 0xa, buff, sizeof(buff));
 	buff[n] = '\0';
-	csv_to_place( &printPlace, buff);
+	csv_to_place( &tempPlace, buff);
 #ifdef DEBUGXXX
-	dump_place( &printPlace);
+	dump_place( &tempPlace);
 #endif
 #ifdef USE_OLED
-	place_to_short( &printPlace, buff, 40, sortedLocs[i].distance);
+	place_to_short( &tempPlace, buff, 40, sortedLocs[i].distance);
 	if( i < 3)
 	  oled_print( i, buff);
 #endif    
-	free_place( &printPlace);
       } // loop over nearest places
-      oled_print( USE_LINES-1, gpsTime);
+      // status line at bottom
+      snprintf( buff, sizeof(buff), "%6.6s %c %d", gpsTime, gpsStatus, gpsNumSat);
+      select_font( &FreeMono12pt7b);
+      //    draw_text( oledBuf, str, 1, (line+1) * LINE_SPC, 15);
+      draw_text( oledBuf, buff, 0, 63, 8);
+      send_buffer_to_OLED( oledBuf, 0, 0);
+      select_font( &FreeMono9pt7b);
     }
 
   } // else got a fix

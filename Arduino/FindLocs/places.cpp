@@ -12,7 +12,7 @@ static char* toks[10];
 static char buffy[256];
 
 //
-// parse CSV, fill in struct, calloc strings
+// parse CSV, fill in struct
 //
 int csv_to_place( a_place* ap, char *csv) {
   int nf = parse_csv_line( csv, toks, sizeof(toks)/sizeof(toks[0]));
@@ -23,8 +23,8 @@ int csv_to_place( a_place* ap, char *csv) {
     return 1;
   }
   ap->type = atoi( toks[0]);
-  if( (ap->name = strdup( toks[1])) == NULL) return 1;
-  if( (ap->state = strdup( toks[2])) == NULL) return 1;
+  strncpy( ap->name, toks[1], MAX_NAME_LEN);
+  strncpy( ap->state, toks[2], 2);
   ap->lat = atof( toks[3]);
   ap->lon = atof( toks[4]);
   if( nf > 6) {
@@ -45,17 +45,6 @@ int place_to_csv( a_place* p, char *buffer, int buffer_size) {
   snprintf( buffer, buffer_size,
 	    "%d,\"%s\",%s,%12.8g,%12.8g,%d,%d\n",
 	    p->type, p->name, p->state, p->lat, p->lon, p->lat_grid, p->lon_grid);
-  return 0;
-}
-
-//
-// free secondary heap space
-//
-int free_place( a_place* p) {
-  if( p != NULL) {
-    free( p->name);
-    free( p->state);
-  }
   return 0;
 }
 
