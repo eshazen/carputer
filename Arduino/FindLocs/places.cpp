@@ -72,20 +72,8 @@ void dump_place( a_place* p) {
 
 //
 // format place to buffer
-//
-void place_to_short( a_place* p, char *b, int bs) {
-  memset( b, ' ', bs);		// fill output with spaces
-  b[bs-1] = '\0';		// null-terminate
-  // copy chars from name upto bs-5
-  char* nam = p->name;
-  char *bp = b;
-  for( int i=0; i<bs-5; i++) {
-    if( *nam)
-      *bp++ = *nam++;
-    else
-      break;
-  }
-  // copy state to bs-3
-  b[bs-3] = p->state[0];
-  b[bs-2] = p->state[1];
+// 
+void place_to_short( a_place* p, char *b, int bs, float dist) {
+
+  snprintf( b, bs, "%15.15s %.2s %4.1f", p->name, p->state, dist);
 }

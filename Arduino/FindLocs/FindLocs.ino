@@ -11,11 +11,12 @@
 //                   with offsets to start of each grid cell
 
 
-// #define DEBUG
+//#define DEBUG
 #define USE_OLED
 #define USE_GPS
 
-#define MAX_LOCS 3
+// #define NO_INSERT
+#define DO_INSERT
 
 #include <math.h>
 #include <SPI.h>
@@ -26,9 +27,10 @@
 #include "SSD1322_HW_Driver.h"
 #include "SSD1322_API.h"
 #include "SSD1322_GFX.h"
-#include "Fonts/FreeSans9pt7b.h"
-#include "Fonts/vga9x167pt7b.h"
-#define LINE_SPC 14
+#include "Fonts/FreeMono9pt7b.h"
+
+#define LINE_SPC 16
+#define USE_LINES 4
 uint8_t oledBuf[OLED_HEIGHT*OLED_WIDTH];
 #endif
 
@@ -78,16 +80,27 @@ typedef struct {
 
 // array of up to nearby locations from our grid cell
 // and neighboring ones
-a_loc sortedLocs[3];
+a_loc sortedLocs[10];
 #define MAXLOC (sizeof(sortedLocs)/sizeof(a_loc))
 static int numLoc;		/* pointer to last occupied in sortedLocs */
+
+
+#ifdef USE_OLED
+void oled_print( int line, const char *str) {
+  if( line < USE_LINES) {
+    draw_text( oledBuf, str, 1, (line+1) * LINE_SPC, 15);
+    send_buffer_to_OLED( oledBuf, 0, 0);
+  }
+}
+#endif
 
 
 
 #ifdef USE_GPS
 //
 // try to get a GPS fix
-// return pointer to time on success, NULL on error
+// return pointer to GMT time on success, NULL on error
+// if location not available, set lat = lon = -1
 //
 // blocks until receive a GPS message $GPRMC on Serial1
 //
@@ -105,6 +118,8 @@ char* GPS_fix( float *flat, float *flon) {
   char *ns;
   char *lon;
   char *ew;
+
+  char *ret = NULL;
 
   while( 1) {
 
@@ -126,18 +141,14 @@ char* GPS_fix( float *flat, float *flon) {
 	p = strsep( &str, ","); // skip                 8
 	date = strsep( &str, ","); // date              9
 
-	if( strlen(lat) < 5 || strlen(lon) < 5) {	// waiting for fix?
-	
-	  snprintf( prnt, sizeof(prnt), "%s %s", stat, gmt);
-#ifdef DEBUG
-	  Serial.println( prnt);
-#endif
-#ifdef USE_OLED	
-	  fill_buffer( oledBuf, 0);		// clear screen
-	  oled_print( 0, (char *)oledBuf);
-#endif
-	  return NULL;		// got a message but no fix yet
-	} else {			// got a fix
+	if( strlen(gmt) > 3) {
+	  strncpy( tyme, gmt, sizeof(tyme));
+	  ret = tyme;
+	}
+
+	*flat = *flon = -1.0;	// default return values
+
+	  if( strlen(lat) > 5 && strlen(lon) > 5) {	// got a fix
 
 	  // convert lat/lon
 	  *flat = conv_ll( lat);
@@ -146,12 +157,11 @@ char* GPS_fix( float *flat, float *flon) {
 	  *flon = conv_ll( lon);
 	  if( toupper(*ew) == 'W')
 	    *flon = -*flon;
-
-	  strncpy( tyme, gmt, sizeof(tyme));
-	  return tyme;
-
 	} // if( got a fix)
-      }
+
+	return ret;
+
+      } // if( $GPRMC)
     }
   } // while(1)
 }
@@ -186,14 +196,6 @@ void flush() {
 
 
 
-#ifdef USE_OLED
-void oled_print( int line, const char *str) {
-  draw_text( oledBuf, str, 1, ((line % 5)+1) * LINE_SPC, 15);
-  send_buffer_to_OLED( oledBuf, 0, 0);
-}
-#endif
-
-
 #ifdef DEBUG
 // debug:  dump a a_loc list
 void dump_list( a_loc *list, int nlist) {
@@ -214,126 +216,98 @@ void dump_list( a_loc *list, int nlist) {
 //int process_grid_at( float lat, float lon, int latGrid, int lonGrid, a_loc* list, int nlist, int maxlist) {
 int process_grid_at( float lat, float lon, int latGrid, int lonGrid, void* vlist, int nlist, int maxlist) {
 
-  // why ???
+#ifdef DEBUG
+  snprintf( prnt, sizeof(prnt), "pg() %f %f %d %d 0x%x %d %d\n",
+	    lat, lon, latGrid, lonGrid, (int)vlist, nlist, maxlist);
+  Serial.print( prnt);
+#endif  
+
+  // why ??? GCC / Arduino bug prevents using a_loc* in arg list
   a_loc *list;
   list = (a_loc *)vlist;
 
-#ifdef DEBUG
-  snprintf( prnt, sizeof(prnt), "process_grid_at( nlist = %d)\n", nlist);
-  Serial.print(prnt);
-#endif
+  uint32_t offset;
+  a_place tempPlace;
+  a_loc loc;
+  int numThisGrid = 0;
+
   // check for out of range
   if( latGrid < 0 || lonGrid < 0 || lonGrid > 255 || latGrid > 255)
     return 0;
 
-  a_place pl;
-  a_loc loc;
-
   uint32_t posn = ((latGrid << 8) | lonGrid) * sizeof( uint32_t);
-#ifdef DEBUG
-  snprintf( prnt, sizeof(prnt), "posn (0x%02x, 0x%02x) = 0x%04x (%d)\n", latGrid, lonGrid, posn, posn);
-  Serial.print(prnt);
-#endif
-
   fi.seek( posn);
-
-  uint32_t offset;
-
   fi.read( &offset, sizeof(offset));
 
 #ifdef DEBUG
-  snprintf( prnt, sizeof(prnt),  "Retrieved offset 0x%04x from position %d\n", offset, posn);
-  Serial.print(prnt);
-#endif
-  if( offset != 0xffffff) {
-
-#ifdef DEBUG
-    snprintf( prnt, sizeof(prnt), "Seeking to offset\n");
+    snprintf( prnt, sizeof(prnt), "Seek %ld\n", offset);
     Serial.print(prnt);
 #endif
+
+  if( offset != 0xffffffff) {
 
     fp.seek( offset);
     uint32_t offs0 = offset;
     int insPt;
 
+#ifdef DEBUG
+    snprintf( prnt, sizeof(prnt), "Seeked %ld\n", offset);
+    Serial.print(prnt);
+#endif
+
     // read until EOF or grid changes
     
     while( int n = fp.readBytesUntil( 0xa, buff, sizeof(buff))) {
       buff[n] = '\0';
-#ifdef DEBUG
-      Serial.print("Read: ");
-      Serial.println( buff);
-#endif      
       offset = fp.position();
-      if( csv_to_place( &pl, buff)) {
-#ifdef DEBUG
-	snprintf( prnt, sizeof(prnt), "Error parsing %s\n", buff);
-	Serial.print(prnt);
-#endif
+      // NOTE NOTE NOTE this allocates memory which must be freed
+      // by calling free_place( &tempPlace)
+      if( csv_to_place( &tempPlace, buff)) {
+	oled_print(0,"FAIL ON CSV");
 	while(1) ;
       }
-      if( pl.lat_grid == latGrid && pl.lon_grid == lonGrid) {
+
+#ifdef DEBUG
+      snprintf( prnt, sizeof(prnt), "Grid %d, %d\n", tempPlace.lat_grid, tempPlace.lon_grid);
+      Serial.print( prnt);
+#endif
+
+      if( tempPlace.lat_grid == latGrid && tempPlace.lon_grid == lonGrid) {
+	++numThisGrid;
 	loc.offset = offs0;
-	loc.distance = distance_miles( lat, lon, pl.lat, pl.lon);
+	loc.distance = distance_miles( lat, lon, tempPlace.lat, tempPlace.lon);
 
-#ifdef DEBUG
-	snprintf( prnt, sizeof(prnt), "--> Processing new loc 0x%08x, %f\n", loc.offset, loc.distance);
-	Serial.print(prnt);
-#endif
+	// we're done with tempPlace
+	free_place( &tempPlace);
 
-	// insert in list maintaining order
-#ifdef DEBUG
-	snprintf( prnt, sizeof(prnt), "Before sort:");  dump_list( list, nlist);
-	Serial.print(prnt);
-#endif
-	if( nlist == 0) {		/* empty list case */
-#ifdef DEBUG
-	  snprintf( prnt, sizeof(prnt), "Empty list, insert here\n");
-	  Serial.print(prnt);
-#endif
+#ifdef NO_INSERT
+	// for debug, just fill the list
+	if( nlist < maxlist)
 	  list[nlist++] = loc;
-	} else {
-#ifdef DEBUG
-	  snprintf( prnt, sizeof(prnt), "Searching for fit...\n");
-	  Serial.print(prnt);
 #endif
+
+#ifdef DO_INSERT
+	// insert in list maintaining order
+	if( nlist == 0) {		/* empty list case */
+	  list[nlist++] = loc;
+	} else { // list not empty, occupied from 0..nlist-1
+
 	  for( insPt=0; insPt<nlist; insPt++) { /* else find where it fits */
-#ifdef DEBUG
-	    snprintf( prnt, sizeof(prnt), "Check at %d\n", insPt);
-	    Serial.print(prnt);
-#endif
 	    if( loc.distance <= list[insPt].distance) { /* insert here */
-#ifdef DEBUG
-	      snprintf( prnt, sizeof(prnt), "Shifting...\n");
-	      Serial.print(prnt);
-#endif
-	      // shift all including list[i] to right
-	      for( int j=maxlist-2; j>=insPt; j--)
-		list[j+1] = list[j];
+	      // check for end
+	      if( insPt != maxlist-1) { // only if not at end
+		// shift all including list[insPt] to right
+		for( int j=maxlist-2; j>=insPt; j--)
+		  list[j+1] = list[j];
+	      }
 	      // insert item
 	      list[insPt] = loc;
-	      if( nlist < maxlist)
+	      if( nlist < maxlist-1)
 		++nlist;
 	      break;
 	    }
 	  }
-	  if( insPt == nlist) {
-#ifdef DEBUG
-	    snprintf( prnt, sizeof(prnt), "At end of list\n");
-	    Serial.print(prnt);
-#endif
-	    if( nlist < maxlist) {
-#ifdef DEBUG
-	      snprintf( prnt, sizeof(prnt), "Insert at loc %d\n", nlist);
-	      Serial.print(prnt);
-#endif
-	      list[nlist++] = loc;
-	    }
-	  }
 	}
-#ifdef DEBUG
-	snprintf( prnt, sizeof(prnt), "After insert:"); dump_list( list, nlist);
-	Serial.print(prnt);
 #endif
 	offs0 = offset;
       } else {
@@ -342,6 +316,8 @@ int process_grid_at( float lat, float lon, int latGrid, int lonGrid, void* vlist
     }
   }
 #ifdef DEBUG
+  snprintf( prnt, sizeof(prnt), "numThisGrid=%d\n", numThisGrid);
+  Serial.print(prnt);
   snprintf( prnt, sizeof(prnt), "read %d locations\n", nlist);
   Serial.print(prnt);
 #endif
@@ -356,7 +332,7 @@ void setup() {
 #ifdef USE_OLED
   SSD1322_HW_Init();
   SSD1322_API_init();
-  select_font( &FreeSans9pt7b);
+  select_font( &FreeMono9pt7b);
 #endif
 #ifdef DEBUG
   Serial.begin(9600);
@@ -378,8 +354,6 @@ void setup() {
   delay(1000);
 #endif
 
-
-
   // see if the card is present and can be initialized:
   if (!SD.begin(chipSelect)) {
 
@@ -400,8 +374,6 @@ void setup() {
   Serial.println("card initialized.");
 #endif
   
-  a_place pl;
-
   fp = SD.open( PLACES_FILE);
   fg = SD.open( GRID_FILE);
   fi = SD.open( INDEX_FILE);
@@ -445,25 +417,35 @@ void setup() {
    lonMin = atof( tokn[5]);
    lonMax = atof( tokn[6]);
    lonStep = atof( tokn[7]);
-
 }
 
+int fake_time = 0;
+#ifndef USE_GPS
+char gpsFake[32];
+#endif
 
 void loop() {
+
   float floatLat;
   float floatLon;
-  a_place pl;
+  a_place printPlace;
 
   int update_time = 0;
-  char *gpsTime;
+  const char *gpsTime;
 
 #ifdef USE_GPS
   gpsTime = GPS_fix( &floatLat, &floatLon);
 #else
-  gpsTime = "123456";
+  floatLat = 42.0 + (float)random(100)/100;
+  floatLon = -71.8 + (float)random(100)/100;
+  fake_time++;
+  snprintf( gpsFake, sizeof(gpsFake), "T%d %5.1f %5.1f", fake_time, floatLat, floatLon);
+  gpsTime = gpsFake;
+  delay(1000);
 #endif  
 
-  if( gpsTime == NULL) { 		// no fix
+  // check GPS status
+  if( gpsTime == NULL) { 		// no GPS at all
 #ifdef DEBUG
     fill_buffer( oledBuf, 0);		// clear screen
     Serial.println("NO GPS");
@@ -472,13 +454,22 @@ void loop() {
   fill_buffer( oledBuf, 0);		// clear screen
   oled_print( 0, "NO GPS");
 #endif    
-
-  } else {			// got a fix!
-
-#ifndef USE_GPS
-    floatLat = 42.1111;
-    floatLon = -72.3333;
+  } else if( floatLat < 0) {	// no location
+#ifdef DEBUG
+    fill_buffer( oledBuf, 0);		// clear screen
+    Serial.println("NO LOC");
+#endif
+#ifdef USE_OLED
+  fill_buffer( oledBuf, 0);		// clear screen
+  oled_print( 0, "NO LOC");
+  oled_print( USE_LINES-1, gpsTime);
 #endif    
+  } else {
+
+//#ifndef USE_GPS
+//    floatLat = 42.1111;
+//    floatLon = -72.3333;
+//#endif    
 
     // calculate our grid location from "GPS"
     int latGrid = (floatLat - latMin) / latStep;
@@ -508,6 +499,11 @@ void loop() {
     // process 4 neighboring grids
     numLoc = 0;
     numLoc = process_grid_at( floatLat, floatLon, latGrid, lonGrid, sortedLocs, numLoc, MAXLOC);
+#ifdef DEBUG
+    snprintf( prnt, sizeof(prnt), "process.. returned %d\n", numLoc);
+    Serial.print(prnt);
+#endif    
+
     numLoc = process_grid_at( floatLat, floatLon, latNeighbor, lonGrid, sortedLocs, numLoc, MAXLOC);
     numLoc = process_grid_at( floatLat, floatLon, latGrid, lonNeighbor, sortedLocs, numLoc, MAXLOC);
     numLoc = process_grid_at( floatLat, floatLon, latNeighbor, lonNeighbor, sortedLocs, numLoc, MAXLOC);
@@ -521,27 +517,26 @@ void loop() {
       
       fill_buffer( oledBuf, 0);		// clear screen
 
-      oled_print( 4, gpsTime);
-
       for( int i=0; i<numLoc; i++) {
-#ifdef DEBUG
+#ifdef DEBUGXXX
 	snprintf( prnt, sizeof(prnt), "offset = %d  dist = %f : ", sortedLocs[i].offset, sortedLocs[i].distance);
 	Serial.print( prnt);
 #endif
 	fp.seek( sortedLocs[i].offset);
-	//    fseek( fp, sortedLocs[i].offset, SEEK_SET);
 	n = fp.readBytesUntil( 0xa, buff, sizeof(buff));
 	buff[n] = '\0';
-	csv_to_place( &pl, buff);
-#ifdef DEBUG
-	dump_place( &pl);
+	csv_to_place( &printPlace, buff);
+#ifdef DEBUGXXX
+	dump_place( &printPlace);
 #endif
 #ifdef USE_OLED
-	place_to_short( &pl, buff, 20);
-	oled_print( i, buff);
+	place_to_short( &printPlace, buff, 40, sortedLocs[i].distance);
+	if( i < 3)
+	  oled_print( i, buff);
 #endif    
+	free_place( &printPlace);
       } // loop over nearest places
-
+      oled_print( USE_LINES-1, gpsTime);
     }
 
   } // else got a fix
