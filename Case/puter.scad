@@ -24,6 +24,9 @@ body_lip = 2.0;
 panel_w = body_w + 2*body_lip;
 panel_h = body_h + 2*body_lip;
 
+panel_w_in = body_w-2*body_thk;
+panel_h_in = body_h-2*body_thk;
+
 // PCB mounting holes
 pcb_hole_dx = 6.25*mm;
 pcb_hole_dy = 1.5*mm;
@@ -57,9 +60,6 @@ module box() {
      translate( [-body_w/2, -body_h/2, -body_d])
      difference() {
 	  union() {
-//	       // lip
-//	       translate( [-body_lip, -body_lip, body_d-body_thk])
-//		    cube( [body_w+2*body_lip, body_h+2*body_lip, body_thk]);
 	       // box body
 	       cube( [body_w, body_h, body_d]);
 	  }
@@ -95,8 +95,8 @@ module mounting_holes() {
 module panel() {
   translate( [-panel_w/2, -panel_h/2, 0]) {
     cube( [panel_w, panel_h, body_thk]);
-    translate( [body_lip, body_lip, -body_thk+e])
-      cube( [body_w, body_h, body_thk]);
+    translate( [body_lip+body_thk, body_lip+body_thk, -body_thk+e])
+      cube( [panel_w_in, panel_h_in, body_thk]);
   }
      
 }
