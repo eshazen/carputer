@@ -512,7 +512,7 @@
       "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "car-control.stl",
+      "step": "car-control.step",
       "svg": "",
       "vrml": ""
     },

@@ -101,12 +101,32 @@ module panel() {
      
 }
 
-translate( [0,0,10]) {
+// holes for switches, knob, LEDs, USB
+module button_holes() {
+  // LEDs
+  translate( [-115, 35, 0])  
+    cylinder( d=3.5, h=20);
+  translate( [-108, 35, 0])  
+    cylinder( d=3.5, h=20);
+  // knob
+  translate( [-114, 18.5, 0])
+    cylinder( d=17, h=20);
+  // left 2 switches
+  cube( [18, 37, 20]);
+  // USB
+  translate( [12.7, -6.5, 0])
+    cube( [12, 5, 20]);
+}
+
+translate( [0,0,16]) {
   difference() {
     panel();
     translate( [0, 0, -5]) {
-      oled_holes();
+      translate( [-10,2,0]) oled_holes();
       mounting_holes();
+      translate( [42.7, -16, 0])
+      button_holes();
+      translate( [panel_w/2-14, 0, 0]) cylinder( h=20, d=15);
     }
   }
 }
@@ -123,6 +143,7 @@ translate( [0,0,10]) {
 // }
 // 
 // 
+
 // translate( [-body_w+0.62*mm, 71.8, 10]) {
 //       color("green") import("car-control.stl");
 //       translate( [147.5, -69.9, 3]) oled();
