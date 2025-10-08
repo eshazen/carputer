@@ -11,12 +11,18 @@ include <oled.scad>
 //
 // case body
 //
-body_spc = 0.05*mm;
+// body_spc = 0.05*mm;
+body_spc = 0.075*mm;
 
 body_w = 6.875*mm-body_spc;
 body_h = 2.125*mm-body_spc;
-body_d = 2.5*mm;
-// body_d = 10;     /* fast print */
+
+//--- normal
+//body_d = 2.5*mm;
+//pcb_standoff_down = 0.25*mm + 0.7*mm;
+//--- fast print
+body_d = 10;     /* fast print */
+pcb_standoff_down = 2;
 
 body_thk = 1.6;
 body_lip = 2.0;
@@ -30,14 +36,15 @@ panel_h_in = body_h-2*body_thk;
 // PCB mounting holes
 pcb_hole_dx = 6.25*mm;
 pcb_hole_dy = 1.5*mm;
-pcb_hole_dia = 0.098*mm;	/* 4-40 tap drill */
+// pcb_hole_dia = 0.098*mm;	/* 4-40 tap drill */
+pcb_hole_dia = 0.140*mm;	/* 6-32 test fit */
 pcb_standoff_dia = 0.25*mm;
-pcb_standoff_down = 0.25*mm;
+
 
 panel_hole_dia = 0.15*mm;
 
 pcb_so_supp_wid = 3;
-pcb_so_supp_len = pcb_hole_dia/2+6;
+pcb_so_supp_len = pcb_hole_dia/2+6-body_spc/2;
 
 module standoff_at( x, y, dia, hole, hgt, rot) {
     translate( [x, y, 0]) {
@@ -62,6 +69,9 @@ module box() {
 	  union() {
 	       // box body
 	       cube( [body_w, body_h, body_d]);
+	       // lip
+	       translate( [-body_lip, -body_lip, body_d-body_thk])
+		    cube( [body_w+2*body_lip, body_h+2*body_lip, body_thk]);
 	  }
 	  // cavity
 	  translate( [body_thk, body_thk, body_thk])
@@ -69,11 +79,10 @@ module box() {
 	  // wiring hole
 	  translate( [4*body_w/5, body_h/2, -e])
 	       cylinder( d=0.375*mm, h=10);
-
-
 	  echo("Cavity (mm)", body_w-2*body_thk, body_h-2*body_thk, body_d);
 	  echo("Cavity (in)", (body_w-2*body_thk)/mm, (body_h-2*body_thk)/mm, body_d/mm);
      }
+
      translate( [0, 0, -body_d+body_thk-e]) {
        standoff_at( -pcb_hole_dx/2, -pcb_hole_dy/2, pcb_standoff_dia, pcb_hole_dia, body_d-pcb_standoff_down, 270); 
        standoff_at( -pcb_hole_dx/2, pcb_hole_dy/2, pcb_standoff_dia, pcb_hole_dia, body_d-pcb_standoff_down, 270);
@@ -112,27 +121,27 @@ module button_holes() {
   translate( [-114, 18.5, 0])
     cylinder( d=17, h=20);
   // left 2 switches
-  cube( [18, 37, 20]);
+  cube( [18, 38, 20]);
   // USB
   translate( [12.7, -6.5, 0])
     cube( [12, 5, 20]);
 }
 
-translate( [0,0,16]) {
-  difference() {
-    panel();
-    translate( [0, 0, -5]) {
-      translate( [-10,2,0]) oled_holes();
-      mounting_holes();
-      translate( [42.7, -16, 0])
-      button_holes();
-      translate( [panel_w/2-14, 0, 0]) cylinder( h=20, d=15);
-    }
-  }
-}
+// translate( [0,0,16]) {
+//   difference() {
+//     panel();
+//     translate( [0, 0, -5]) {
+//       translate( [-9,2,0]) oled_holes();
+//       mounting_holes();
+//       translate( [42.7, -16, 0])
+//       button_holes();
+//       translate( [panel_w/2-14, 0, 0]) cylinder( h=20, d=0.26*mm);
+//     }
+//   }
+// }
 
 
-// box();
+box();
 
 // translate( [0, 0, 5]) {
 //      difference() {
