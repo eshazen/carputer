@@ -1,12 +1,27 @@
 //
 // car computer enclosure
 //
+// TODO:  move GPS antenna hole to match PCB hole
+//        add contrasting text on front panel?
+//        re-print front panel
+//
+//        Consider re-printing box with standoff change
+//
 
 mm = 25.4;
 $fn = 32;
 e = 0.1;
 
 include <oled.scad>
+
+module tri_prism( width, height, length) {
+     polyhedron(
+	  points = [ [0,0,0], [0,height,0], [width,0,0], 
+		     [0,0,length], [width, 0, length], [0,height,length]],
+	  faces = [ [0, 1, 2], [3, 4, 5], [0, 2, 4, 3],
+		    [0, 3, 5, 1], [1, 5, 4, 2]],
+	  convexity = 10);
+}
 
 //
 // case body
@@ -18,11 +33,16 @@ body_w = 6.875*mm-body_spc;
 body_h = 2.125*mm-body_spc;
 
 //--- normal
-//body_d = 2.5*mm;
-//pcb_standoff_down = 0.25*mm + 0.7*mm;
+// body_d = 2.5*mm;
+body_d = 3.25*mm;  // add room for USB connector
+
+
+// pcb_standoff_down = 0.25*mm + 0.7*mm;   // as last printed
+pcb_standoff_down = 0.7*mm;	// proposed update remove standoffs
+
 //--- fast print
-body_d = 10;     /* fast print */
-pcb_standoff_down = 2;
+//body_d = 10;     /* fast print */
+//pcb_standoff_down = 2;
 
 body_thk = 1.6;
 body_lip = 2.0;
@@ -62,16 +82,35 @@ module standoff_at( x, y, dia, hole, hgt, rot) {
   }
 }
 
+// draw a lip, angled for no support
+module lip() {
+     translate( [body_w, body_h-e, body_d])
+	  rotate( [90, 180, 270])
+	  tri_prism( body_lip, body_lip, body_w);
+     translate( [0, e, body_d])
+	  rotate( [90, 180, 90])
+	  tri_prism( body_lip, body_lip, body_w);
+     translate( [body_w-e, 0, body_d])
+	  rotate( [90, 180, 180])
+	  tri_prism( body_lip, body_lip, body_h);
+     translate( [e, body_h, body_d])
+	  rotate( [90, 180, 0])
+	  tri_prism( body_lip, body_lip, body_h);
+     
+}
+
 // draw box with lip, centered
 module box() {
      translate( [-body_w/2, -body_h/2, -body_d])
      difference() {
 	  union() {
 	       // box body
+	       echo("Box ", body_w, ", ", body_h);
 	       cube( [body_w, body_h, body_d]);
-	       // lip
-	       translate( [-body_lip, -body_lip, body_d-body_thk])
-		    cube( [body_w+2*body_lip, body_h+2*body_lip, body_thk]);
+	       color("red") lip();
+//	       // lip
+//	       translate( [-body_lip, -body_lip, body_d-body_thk])
+//		    cube( [body_w+2*body_lip, body_h+2*body_lip, body_thk]);
 	  }
 	  // cavity
 	  translate( [body_thk, body_thk, body_thk])
@@ -124,24 +163,24 @@ module button_holes() {
   cube( [18, 38, 20]);
   // USB
   translate( [12.7, -6.5, 0])
-    cube( [12, 5, 20]);
+    cube( [12, 0.26*mm, 20]);
 }
 
-// translate( [0,0,16]) {
-//   difference() {
-//     panel();
-//     translate( [0, 0, -5]) {
-//       translate( [-9,2,0]) oled_holes();
-//       mounting_holes();
-//       translate( [42.7, -16, 0])
-//       button_holes();
-//       translate( [panel_w/2-14, 0, 0]) cylinder( h=20, d=0.26*mm);
-//     }
-//   }
-// }
+translate( [0,0,16]) {
+  difference() {
+    panel();
+    translate( [0, 0, -5]) {
+      translate( [-9,2,0]) oled_holes();
+      mounting_holes();
+      translate( [42.7, -16, 0])
+      button_holes();
+      translate( [panel_w/2-14, 0, 0]) cylinder( h=20, d=0.26*mm);
+    }
+  }
+}
 
 
-box();
+// box();
 
 // translate( [0, 0, 5]) {
 //      difference() {
