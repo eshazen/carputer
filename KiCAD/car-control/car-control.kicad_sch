@@ -6909,7 +6909,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62bb2283-39a6-4b8d-9eea-31a4eac85571")
@@ -8873,7 +8873,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ec69a8bd-c334-42cc-bdde-b1684c82b8aa")
 		(property "Reference" "SW2"
