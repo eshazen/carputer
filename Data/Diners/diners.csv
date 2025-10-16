@@ -1,0 +1,76 @@
+@id,type,name,amenity,cuisine,addr:street,addr:housenumber,addr:city,@lat,@lon
+472268410,,Arlington Diner,restaurant,,,,,42.4039790,-71.1402833
+962173561,,Kelly's Diner,restaurant,,Broadway,674,Somerville,42.3995488,-71.1115911
+966212178,,My Diner,restaurant,diner,Main Street,399,Melrose,42.4529761,-71.0663744
+1020805873,,Rosco's Diner,restaurant,,Central Square,11,Chelmsford,42.5965735,-71.3520264
+1396577229,,Victor's 50s Diner,restaurant,american,,,,42.3910581,-71.5701949
+1399785022,,Holyoke St @ Gardiner St,,,,,,42.4684550,-70.9774861
+1399785038,,Holyoke St opp Gardiner St,,,,,,42.4685289,-70.9775742
+1399791129,,My Diner,restaurant,diner,East First Street,455,South Boston,42.3379214,-71.0422832
+1401234744,,Lou's Diner,restaurant,american,,,,42.4133417,-71.6823054
+1536140681,,Country View Diner,restaurant,american,,,,42.6708705,-71.4197903
+2215075676,,The Galley Diner,restaurant,diner,P Street,11,,42.3377800,-71.0274312
+2480598882,,Leo‘s Place Diner,restaurant,,Main Street,625,Waltham,42.3764129,-71.2365157
+2782344640,,Pauls Diner,restaurant,diner,,,,42.5657663,-71.4226364
+3148289172,,J&M Diner,restaurant,diner,Worcester Road,50,,42.2978554,-71.3949157
+4045929121,,Forest Hills Diner,cafe,,Washington Street,3696,,42.3006707,-71.1127463
+4414684908,,Early Harvest Diner,restaurant,,Broadway,25,Wakefield,42.4979759,-71.0714185
+4418927191,,Ugly Mug Diner,restaurant,breakfast;diner,,,,42.5210011,-70.8957534
+4777547001,,Rick's Diner,restaurant,,,,,42.6249335,-71.3593724
+5264688250,,Theo's Diner,cafe,breakfast;sandwich,,,,42.7252166,-70.9914959
+5433245678,,Fari's Diner,restaurant,,,,,42.6852475,-71.1363734
+5454801721,,Iron Town Diner,restaurant,diner,Main Street,325,Saugus,42.4731328,-71.0355151
+5495026164,,Chuck Wagon Diner,restaurant,,,,,42.5080967,-71.0623102
+5517738894,,North Avenue Diner,restaurant,diner,North Avenue,247,Wakefield,42.5025734,-71.0755362
+5922338707,,Cameo Diner,restaurant,,,,,42.6565217,-71.3126843
+6093606128,,Andy's Diner,restaurant,american;breakfast;lunch,Massachusetts Avenue,2030,Cambridge,42.3906604,-71.1220775
+6124523718,,Mass Ave Diner,restaurant,diner,Massachusetts Avenue,906,Cambridge,42.3681918,-71.1086529
+6219817746,,Howard Street Diner,restaurant,,,,,42.1093988,-71.0231124
+7142721759,,Minuteman Diner,restaurant,american,,,,42.4841077,-71.2603927
+7918549120,,Little Big Diner,restaurant,ramen,Centre Street,1247,Newton,42.3305831,-71.1949463
+9846601201,,Wagon Wheel Diner,restaurant,,South Main Street,384,,42.1075649,-71.1988307
+10067517644,,The Peabody Diner,cafe,,Margin Street,10,Peabody,42.5326775,-70.9138754
+10290142365,,Town Square Diner,restaurant,,Nahatan Street,164,,42.1940553,-71.1994678
+11075344462,,Istanbul Diner & Cafe,restaurant,turkish,Veterans of Foreign Wars Pkwy,120,Revere,42.4112933,-70.9980513
+11151908336,,The New Yorker Diner,restaurant,,Mount Auburn Street,39,,42.3659443,-71.1825591
+12085323045,,50's Diner,restaurant,,,,,42.2337838,-71.1782634
+12276821917,,Capitol Diner,restaurant,diner,Union Street,431,Lynn,42.4632033,-70.9443377
+12537314471,,Mimi's Chūka Diner,restaurant,chinese;japanese;diner,Tyler Street,14,Somerville,42.3817660,-71.1059222
+12726878776,,Swanton Street Diner,restaurant,pasta; seafood; burger; american,Swanton Street,72,,42.4596361,-71.1324329
+13149453622,,Owl Diner,restaurant,,,,,42.6393936,-71.3134059
+8912263,,Gardiner Street,,,,,,42.4646884,-70.9772335
+9505886,,Gardiner Road,,,,,,42.2504350,-71.0421894
+9517258,,Gardiner Street,,,,,,41.9294175,-71.0581242
+9626174,,Gardiner Road,,,,,,42.2348963,-70.7821642
+29610288,,Victoria's Diner,cafe,diner,Massachusetts Avenue,1024,Boston,42.3270283,-71.0667873
+29814233,,Deluxe Town Diner,restaurant,diner,Mount Auburn Street,627,Watertown,42.3709560,-71.1580053
+29953688,,The Lunch Box Diner,restaurant,,Eastern Avenue,906,,42.4301269,-71.0443455
+97468131,,Dominics Diner,restaurant,,Sutton St,492,North Andover,42.7144377,-71.1213026
+136381998,,Dream Diner,restaurant,american,Middlesex Road,384,Tyngsboro,42.6910119,-71.4342358
+152937785,,Alicia's Diner,restaurant,american,Bridge Street,116,Pelham,42.7201703,-71.3191384
+193819021,,Comets Diner,restaurant,american,Westford Road,22,Tyngsborough,42.6691026,-71.4204751
+201944286,,Lanna Thai Diner,restaurant,thai,Main Street,901C,Woburn,42.5085283,-71.1604143
+203020490,,South Street Diner,restaurant,,Kneeland Street,178,,42.3498661,-71.0577492
+212124894,,Liberty Diner,restaurant,,,,,42.3280685,-71.0682980
+212664120,,Locals Diner,restaurant,,Lakeview Avenue,1420,,42.6725087,-71.3320916
+213264332,,Lloyd's Diner,restaurant,,Fountain Street,184,,42.2753509,-71.4331203
+213688834,,Michael's Bridge Diner,restaurant,,South Main Street,56,,42.4375721,-71.6870146
+214080553,,Uncle Charlie's Finer Diner,restaurant,breakfast,Main Street,1496,South Weymouth,42.1530782,-70.9548506
+214614907,,Casey's Diner,restaurant,,South Avenue,36,Natick,42.2857498,-71.3444386
+214982792,,The Little Depot Diner,restaurant,breakfast,Railroad Avenue,1,Peabody,42.5270345,-70.9275672
+215880169,,Agawam Diner,restaurant,,,,,42.7047841,-70.9095578
+216416386,,Red Wing Diner,restaurant,pizza,Boston Providence Highway,2235,Walpole,42.1077083,-71.2500225
+216430658,,Wilson's Diner,restaurant,Diner,Main Street,507,Waltham,42.3771850,-71.2309405
+257207724,,Chelmsford Diner,restaurant,american,Summer Street,7,Chelmsford,42.5939972,-71.3476780
+304112843,,Salem Diner,,,Loring Avenue,70 1/2,Salem,42.5014913,-70.8955471
+407834028,,Mike's City Diner,restaurant,diner,Washington Street,1714,Boston,42.3369138,-71.0760096
+516472484,,Gardiner Road,,,,,,42.2506380,-71.0417552
+516472485,,Gardiner Road,,,,,,42.2521537,-71.0431129
+641346674,,Olympian Diner,restaurant,,Hancock Street,17,,42.2019915,-71.0053303
+652509278,,Gardiner Street,,,,,,42.4663994,-70.9774569
+809968510,,Stoughton Diner,restaurant,,,,,42.1253394,-71.1019712
+955049820,,Patriots Diner,restaurant,,Founders Drive,65,Woonsocket,41.9913122,-71.4849234
+1010448590,,Gardiner Street,,,,,,41.9326425,-71.0522770
+1010448591,,Gardiner Street,,,,,,41.9326315,-71.0533427
+1077285054,,Gardiner Street,,,,,,42.4676763,-70.9775666
+1219845902,,Airport Diner Domicilios La Suegra,restaurant,colombian;diner,Furlong Drive,10,Revere,42.4017654,-71.0041340

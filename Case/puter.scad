@@ -1,11 +1,8 @@
 //
 // car computer enclosure
 //
-// TODO:  move GPS antenna hole to match PCB hole
-//        add contrasting text on front panel?
-//        re-print front panel
-//
-//        Consider re-printing box with standoff change
+// TODO:
+// re-print with rear access door
 //
 
 mm = 25.4;
@@ -36,9 +33,17 @@ body_h = 2.125*mm-body_spc;
 // body_d = 2.5*mm;
 body_d = 3.25*mm;  // add room for USB connector
 
+// rear access panel
+door_w_frac = 10;
+door_h_frac = 8;
+
+door_w = body_w*((door_w_frac-2)/door_w_frac);
+door_h = body_h*((door_h_frac-2)/door_h_frac);
+door_x = door_w/door_w_frac;
+door_y = door_h/door_h_frac;
 
 // pcb_standoff_down = 0.25*mm + 0.7*mm;   // as last printed
-pcb_standoff_down = 0.7*mm;	// proposed update remove standoffs
+ pcb_standoff_down = 0.7*mm;	// proposed update remove standoffs
 
 //--- fast print
 //body_d = 10;     /* fast print */
@@ -57,7 +62,8 @@ panel_h_in = body_h-2*body_thk;
 pcb_hole_dx = 6.25*mm;
 pcb_hole_dy = 1.5*mm;
 // pcb_hole_dia = 0.098*mm;	/* 4-40 tap drill */
-pcb_hole_dia = 0.140*mm;	/* 6-32 test fit */
+//pcb_hole_dia = 0.140*mm;	/* 6-32 test fit */
+pcb_hole_dia = 0.137*mm;	/* 6-32 test fit */
 pcb_standoff_dia = 0.25*mm;
 
 
@@ -116,8 +122,10 @@ module box() {
 	  translate( [body_thk, body_thk, body_thk])
 	       cube( [body_w-2*body_thk, body_h-2*body_thk, body_d]);
 	  // wiring hole
-	  translate( [4*body_w/5, body_h/2, -e])
-	       cylinder( d=0.375*mm, h=10);
+	  translate( [4*body_w/5, body_h/2, -e]) cylinder( d=0.375*mm, h=10);
+	  // rear access
+	  translate( [door_x, door_y, -e])
+	       cube( [door_w, door_h, 10]);
 	  echo("Cavity (mm)", body_w-2*body_thk, body_h-2*body_thk, body_d);
 	  echo("Cavity (in)", (body_w-2*body_thk)/mm, (body_h-2*body_thk)/mm, body_d/mm);
      }

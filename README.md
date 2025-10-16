@@ -14,6 +14,22 @@ using Arduino boot loader.
 
 See (Data/README.md)[Data/README.md] for data details and ideas.
 
+## User Interface
+
+First version displays 3 lines of nearest towns, with a status
+line below with GMT time, GPS status and number of satellites.
+Controls not implemented yet.
+
+### Enhancements:
+
+* Categories of POI, selected by knob
+  <br>with timeout to return to town display?
+* Clock time in local time zone (how to determine time zone?)
+* Analog clock display
+* Scrolling of long place names?
+
+Need to build up a 2nd board for development.
+
 ## Resources
 
 See [https://github.com/eshazen/town_ident](https://github.com/eshazen/town_ident)
@@ -55,17 +71,8 @@ See https://www.hicenda.com/product/312-inch-oled-module-01.html
 Finally, referring to a datasheet: https://docs.rs-online.com/6267/0900766b8162af09.pdf
 for the display itself with 30 pin flex, we can wring out the pinout with a meter.
 
-
 Library candidates:
 
 * [SSD1322_for_Adafruit_GFX](https://github.com/venice1200/SSD1322_for_Adafruit_GFX)
 * [SSD1322_OLED_library](https://github.com/wjklimek1/SSD1322_OLED_library)
-
-### Enclosure
-
-Slot available is single DIN (after removing whatever is in there).
-See for example: [this](https://www.thingiverse.com/thing:2090567) single-DIN project.
-
-
-
 
