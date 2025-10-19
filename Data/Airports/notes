@@ -1,0 +1,3 @@
+SELECT LocationID,City,State ,DistanceFromCBD FROM airport WHERE Type =  'AIRPORT'  and DistanceFromCBD  < 10
+and (State = 'MA' or State = 'ME' or State = 'NH' or State = 'VT' 
+) order by DistanceFromCBD

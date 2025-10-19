@@ -40,12 +40,12 @@ a_place* load_places( char *file, int* nplaces) {
   
   int n = 0;
   while( fgets( buffer, sizeof(buffer), fp)) {
-
+    printf("Read buffer: %s\n", buffer);
     if( csv_to_place( &ap[n], buffer)) {
       fprintf( stderr, "Error in line: %s\n", buffer);
-      return NULL;
+    } else {
+      ++n;
     }
-    ++n;
   }
   *nplaces = n;
   return ap;

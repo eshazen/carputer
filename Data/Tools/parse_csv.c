@@ -21,6 +21,8 @@
  *
  * Note: The function modifies the input line (adds '\0' terminators).
  *
+ * Check for odd case of leading ' in quoted field and skip over
+ *
  */
 int parse_csv_line(char *line, char *fields[], int max_fields) {
     int count = 0;
@@ -33,6 +35,9 @@ int parse_csv_line(char *line, char *fields[], int max_fields) {
         if (*p == '"') {
             // Quoted field
             p++; // skip opening quote
+	    // skip leading '
+	    if( *p == '\'')
+	      ++p;
             fields[count++] = p;
 
             // Parse until closing quote

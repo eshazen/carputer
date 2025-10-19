@@ -13,7 +13,7 @@
 
 //#define DEBUG
 #define USE_OLED
-#define USE_GPS
+// #define USE_GPS
 
 // #define NO_INSERT
 #define DO_INSERT

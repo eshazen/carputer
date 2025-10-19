@@ -1,8 +1,10 @@
 //
-// create all the working files for the car computer:
-//   places.csv    - places annotated with grid coordinates
-//   grid.csv      - one line of grid spacing/range info
-//   gindex.dat    - 256x256 array of 32-bit binary integers
+// create a set of working files for the car computer for one
+// group of places, based on a group name from the command line
+//
+//   GRID.CSV      - one line of grid spacing/range info
+//   GROUP.CSV     - places annotated with grid coordinates
+//   GROUP.IDX     - 256x256 array of 32-bit binary integers
 //                   with offsets to start of each grid cell
 //
 // divide USA into grid of specified size in degrees
@@ -37,6 +39,7 @@
 #include <math.h>
 #include <unistd.h>
 #include <stdint.h>
+#include <string.h>
 #include <sys/types.h>
 #include <dirent.h>
 
@@ -44,9 +47,11 @@
 #include "file_util.h"
 
 // ---- hardwired (ugh) output file names ----
-#define PLACES_FILE "places.csv"
-#define GRID_FILE "grid.csv"
-#define INDEX_FILE "gindex.dat"
+char PLACES_FILE[20];
+char INDEX_FILE[20];
+#define GRID_FILE "GRID.CSV"
+char *group = NULL;			/* group name */
+int group_num = -1;			/* group number */
 
 // list
 static char* filez[] = { PLACES_FILE, GRID_FILE, INDEX_FILE};
@@ -60,6 +65,13 @@ static char buff[255];
 // big binary table with offsets to start of each grid area
 // or -1 if none.  First subscript is latitude
 static int32_t gridIndex[256][256];
+
+char *strupr( char *s) {
+  char *r = s;
+  while( *r)
+    *r++ = toupper( *r);
+  return s;
+}
 
 //
 // function to compare lat/lon grid assignments
@@ -92,7 +104,7 @@ int main( int argc, char *argv[]) {
   char *outd = NULL;
 
   if( argc < 4) {
-    printf("usage: ./try_grid_size <places> <d_lat> <d_lon> [-h] [-o dir]\n");
+    printf("usage: ./try_grid_size <places> <d_lat> <d_lon> [-h] [-o dir] [-g group] [-n group_num]\n");
     exit(1);
   }
 
@@ -102,6 +114,22 @@ int main( int argc, char *argv[]) {
 	switch( toupper( argv[i][1])) {
 	case 'H':
 	  do_hist = 1;
+	  break;
+	case 'N':
+	  if( i == argc-1) {
+	    printf("Missing group number\n");
+	  } else {
+	    group_num = atoi(argv[i+1]);
+	    ++i;
+	  }
+	  break;
+	case 'G':
+	  if( i == argc-1) {
+	    printf("Missing group name\n");
+	  } else {
+	    group = argv[i+1];
+	    ++i;
+	  }
 	  break;
 	case 'O':
 	  if( i == argc-1) {
@@ -132,7 +160,24 @@ int main( int argc, char *argv[]) {
     exit(1);
   }
 
+  // overwrite type field
+  for( int i=0; i<numPlaces; i++)
+    places[i].type = group_num;
+
   printf("%d places loaded\n", numPlaces);
+
+  if( group == NULL) {
+    printf("Missing group name\n");
+    exit(1);
+  }
+
+  if( group_num < 0) {
+    printf("Missing group number\n");
+    exit(1);
+  }
+  
+  snprintf( PLACES_FILE, sizeof(PLACES_FILE), "%s.CSV", strupr( group));
+  snprintf( INDEX_FILE, sizeof(INDEX_FILE), "%s.IDX", strupr( group));
 
   if( outd != NULL) {
     FILE* ft;
