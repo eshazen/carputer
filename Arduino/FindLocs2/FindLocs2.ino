@@ -595,8 +595,10 @@ void loop() {
 #ifdef USE_GPS
   gpsTime = GPS_fix( &floatLat, &floatLon);
 #else
-  floatLat = 42.0 + (float)random(100)/100;
-  floatLon = -71.8 + (float)random(100)/100;
+  //floatLat = 42.0 + (float)random(100)/100;
+  //  floatLon = -71.8 + (float)random(100)/100;
+  floatLon = -85.0 + (float)random(10) + (float)random(100)/100.0;
+  floatLat = 35 + (float)random(5)  + (float)random(100)/100.0;
   fake_time++;
   snprintf( gpsFake, sizeof(gpsFake), "T%d %d", fake_time, newPos);
   gpsTime = gpsFake;

@@ -15,5 +15,4 @@ Shaft encoder working using timer interrupt poll at 250Hz.
 
 Reads multiple file sets, shaft encoder selects.
 
-AIRPORT group doesn't seem to work, maybe need a bigger
-grid size?
+FIXME: Needs a unique grid for each group.
