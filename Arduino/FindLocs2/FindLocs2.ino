@@ -24,6 +24,7 @@
 //#define DEBUG
 #define USE_OLED
 //#define USE_GPS
+#define USE_TIMER
 
 // #define NO_INSERT
 #define DO_INSERT
@@ -32,6 +33,11 @@
 // #include <SPI.h>
 #include <SD.h>
 #include <string.h>
+
+#ifdef USE_TIMER
+#include <Arduino.h>
+#include "Adafruit_ZeroTimer.h"
+#endif
 
 #ifdef USE_OLED
 #include "oled.h"
@@ -45,11 +51,26 @@
 
 #include "encoder.h"
 
+#ifdef USE_TIMER
+Adafruit_ZeroTimer zerotimer = Adafruit_ZeroTimer(3);
+
+void TC3_Handler() {
+  Adafruit_ZeroTimer::timerHandler(3);
+}
+
+// the timer callback
+volatile bool togglepin = false;
+void TimerCallback0(void)
+{
+  encoder->tick();
+}
+
+#endif
+
+
 // ---- hardwired (ugh) input file names ----
 #define CONFIG_FILE "CONFIG.CSV"
 #define GRID_FILE "GRID.CSV"
-// #define PLACES_FILE "places.csv"
-// #define INDEX_FILE "gindex.dat"
 
 // maximum number of groups we can handle
 #define MAX_GROUPS 5
@@ -369,13 +390,39 @@ void setup() {
     ;
   }
 
+  encoder_setup();
+
+#ifdef USE_TIMER
+  Serial.println("Setting up timer");
+  delay(1000);
+
+  // Set up the flexible divider/compare
+  uint16_t divider  = 1;
+  uint16_t compare = 0;
+  tc_clock_prescaler prescaler = TC_CLOCK_PRESCALER_DIV1;
+
+  // preset for 250Hz
+  divider = 4;
+  prescaler = TC_CLOCK_PRESCALER_DIV4;
+  compare = (48000000/4)/250.0;
+  
+  zerotimer.enable(false);
+  zerotimer.configure(prescaler,       // prescaler
+          TC_COUNTER_SIZE_16BIT,       // bit width of timer/counter
+          TC_WAVE_GENERATION_MATCH_PWM // frequency or PWM mode
+          );
+
+  zerotimer.setCompare(0, compare);
+  zerotimer.setCallback(true, TC_CALLBACK_CC_CHANNEL0, TimerCallback0);
+  zerotimer.enable(true);
+  Serial.println("timer setup complete");
+#endif  
+
 #ifdef USE_OLED
   SSD1322_HW_Init();
   SSD1322_API_init();
   select_font( &FreeMono9pt7b);
 #endif
-
-  encoder_setup();
 
 #ifdef DEBUG
   Serial.print("Initializing SD card...");
@@ -455,7 +502,7 @@ void setup() {
 
   delay(500);
 
-  // eventually loop over groups, for now just use first one
+  // FIXME:  eventually loop over groups, for now just use first one
   int grp = 0;
   // open CSV and IDX files
   snprintf( buff, sizeof(buff), "%s.CSV", groups[grp].file);
@@ -465,7 +512,7 @@ void setup() {
   
   if( !fp || !fg || !fi) {
 #ifdef USE_OLED
-  fill_buffer( oledBuf, 0);		// clear screen
+    fill_buffer( oledBuf, 0);		// clear screen
   oled_print( 0, buff);
 #endif    
 #ifdef DEBUG
@@ -538,7 +585,7 @@ void loop() {
   floatLat = 42.0 + (float)random(100)/100;
   floatLon = -71.8 + (float)random(100)/100;
   fake_time++;
-  snprintf( gpsFake, sizeof(gpsFake), "T%d %5.1f %5.1f %d", fake_time, floatLat, floatLon, iCount);
+  snprintf( gpsFake, sizeof(gpsFake), "T%d %d", fake_time, newPos);
   gpsTime = gpsFake;
   delay(1000);
 #endif  
@@ -636,7 +683,7 @@ void loop() {
       } // loop over nearest places
       // status line at bottom
 #ifdef USE_OLED
-      snprintf( buff, sizeof(buff), "%6.6s %c %d", gpsTime, gpsStatus, gpsNumSat);
+      snprintf( buff, sizeof(buff), "%6.6s %c %d %d", gpsTime, gpsStatus, gpsNumSat, newPos);
       select_font( &FreeMono12pt7b);
       //    draw_text( oledBuf, str, 1, (line+1) * LINE_SPC, 15);
       draw_text( oledBuf, buff, 0, 63, 8);
