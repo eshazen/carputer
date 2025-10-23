@@ -21,7 +21,8 @@
 // so will expect to find files:  TOWN.CSV, TOWN.IDX, AIRPORT.CSV, AIRPORT.IDX etc
 //
 
-//#define DEBUG
+#define DEBUG
+#define DEBUGXX 
 #define USE_OLED
 //#define USE_GPS
 #define USE_TIMER
@@ -87,6 +88,9 @@ typedef struct {
 a_group groups[MAX_GROUPS];
 static int ngroups;
 
+int grp = 0;			// current group
+
+
 const int chipSelect = SDCARD_SS_PIN;
 
 static char buff[80];
@@ -95,10 +99,11 @@ static char prnt[128];
 static char* tokn[10];
 #define MAXT (sizeof(tokn)/sizeof(tokn[0]))
 
-File fc;
-File fp;
-File fg;
-File fi;
+File fc;			// config file pointer
+File fg;			// grid file pointer
+
+File fp[MAX_GROUPS];		// places file pointers
+File fpi[MAX_GROUPS];		// index file pointers
 
 // grid specifications from file
 int numLat;
@@ -255,7 +260,7 @@ void flush() {
 
 
 
-#ifdef DEBUG
+#ifdef DEBUGXX
 // debug:  dump a a_loc list
 void dump_list( a_loc *list, int nlist) {
   snprintf( prnt, sizeof(prnt), "dump_list( size=%d)\n", nlist);
@@ -275,7 +280,7 @@ void dump_list( a_loc *list, int nlist) {
 //int process_grid_at( float lat, float lon, int latGrid, int lonGrid, a_loc* list, int nlist, int maxlist) {
 int process_grid_at( float lat, float lon, int latGrid, int lonGrid, void* vlist, int nlist, int maxlist) {
 
-#ifdef DEBUG
+#ifdef DEBUGXX
   snprintf( prnt, sizeof(prnt), "pg() %f %f %d %d 0x%x %d %d\n",
 	    lat, lon, latGrid, lonGrid, (int)vlist, nlist, maxlist);
   Serial.print( prnt);
@@ -294,30 +299,30 @@ int process_grid_at( float lat, float lon, int latGrid, int lonGrid, void* vlist
     return 0;
 
   uint32_t posn = ((latGrid << 8) | lonGrid) * sizeof( uint32_t);
-  fi.seek( posn);
-  fi.read( &offset, sizeof(offset));
+  fpi[grp].seek( posn);
+  fpi[grp].read( &offset, sizeof(offset));
 
-#ifdef DEBUG
+#ifdef DEBUGXX
     snprintf( prnt, sizeof(prnt), "Seek %ld\n", offset);
     Serial.print(prnt);
 #endif
 
   if( offset != 0xffffffff) {
 
-    fp.seek( offset);
+    fp[grp].seek( offset);
     uint32_t offs0 = offset;
     int insPt;
 
-#ifdef DEBUG
+#ifdef DEBUGXX
     snprintf( prnt, sizeof(prnt), "Seeked %ld\n", offset);
     Serial.print(prnt);
 #endif
 
     // read until EOF or grid changes
     
-    while( int n = fp.readBytesUntil( 0xa, buff, sizeof(buff))) {
+    while( int n = fp[grp].readBytesUntil( 0xa, buff, sizeof(buff))) {
       buff[n] = '\0';
-      offset = fp.position();
+      offset = fp[grp].position();
       if( csv_to_place( &tempPlace, buff)) {
 #ifdef USE_OLED
 	oled_print(0,"FAIL ON CSV");
@@ -325,7 +330,7 @@ int process_grid_at( float lat, float lon, int latGrid, int lonGrid, void* vlist
 	while(1) ;
       }
 
-#ifdef DEBUG
+#ifdef DEBUGXX
       snprintf( prnt, sizeof(prnt), "Grid %d, %d\n", tempPlace.lat_grid, tempPlace.lon_grid);
       Serial.print( prnt);
 #endif
@@ -370,7 +375,7 @@ int process_grid_at( float lat, float lon, int latGrid, int lonGrid, void* vlist
       }
     }
   }
-#ifdef DEBUG
+#ifdef DEBUGXX
   snprintf( prnt, sizeof(prnt), "numThisGrid=%d\n", numThisGrid);
   Serial.print(prnt);
   snprintf( prnt, sizeof(prnt), "read %d locations\n", nlist);
@@ -461,6 +466,11 @@ void setup() {
 #ifdef DEBUG
   Serial.println("card initialized.");
 #endif
+
+#ifdef DEBUG
+  File root = SD.open("/");
+  printDirectory(root, 0);
+#endif
   
   // read the config, find number of groups
   fc = SD.open( CONFIG_FILE);
@@ -498,30 +508,14 @@ void setup() {
     }
   }
 
+  // read grid file (2 lines, with grid specs)
   fg = SD.open( GRID_FILE);
-
-  delay(500);
-
-  // FIXME:  eventually loop over groups, for now just use first one
-  int grp = 0;
-  // open CSV and IDX files
-  snprintf( buff, sizeof(buff), "%s.CSV", groups[grp].file);
-  fp = SD.open( buff);
-  snprintf( buff, sizeof(buff), "%s.IDX", groups[grp].file);
-  fi = SD.open( buff);
-  
-  if( !fp || !fg || !fi) {
-#ifdef USE_OLED
+  if( !fg) {
     fill_buffer( oledBuf, 0);		// clear screen
-  oled_print( 0, buff);
-#endif    
-#ifdef DEBUG
-    Serial.println("Failed to open a required file\n");
-#endif
+    oled_print( 1, "Grid file error");
     while(1) ;
   }
-
-  // read grid file (2 lines, with grid specs)
+    
   n = fg.readBytesUntil( 0xa, buff, sizeof(buff));
   n = fg.readBytesUntil( 0xa, buff, sizeof(buff));
   buff[n] = '\0';
@@ -530,7 +524,7 @@ void setup() {
   if( ng != 8) {
 #ifdef USE_OLED
     fill_buffer( oledBuf, 0);		// clear screen
-    oled_print( 1, "Grid error");
+    oled_print( 1, "Grid data error");
 #endif    
 #ifdef DEBUG
     Serial.print( "Error processing grid data:");
@@ -540,14 +534,41 @@ void setup() {
   }
 
   // get grid specifications from file
-   numLat = atoi( tokn[0]);
-   latMin = atof( tokn[1]);
-   latMax = atof( tokn[2]);
-   latStep = atof( tokn[3]);
-   numLon = atoi( tokn[4]);
-   lonMin = atof( tokn[5]);
-   lonMax = atof( tokn[6]);
-   lonStep = atof( tokn[7]);
+  numLat = atoi( tokn[0]);
+  latMin = atof( tokn[1]);
+  latMax = atof( tokn[2]);
+  latStep = atof( tokn[3]);
+  numLon = atoi( tokn[4]);
+  lonMin = atof( tokn[5]);
+  lonMax = atof( tokn[6]);
+  lonStep = atof( tokn[7]);
+
+  delay(500);
+
+#ifdef DEBUG
+  Serial.print("ngroups = ");
+  Serial.println( ngroups);
+#endif
+
+  // open CSV and IDX files
+  for( i=0; i<ngroups; i++) {
+    snprintf( buff, sizeof(buff), "%s.CSV", groups[i].file);
+    fp[i] = SD.open( buff);
+    snprintf( buff, sizeof(buff), "%s.IDX", groups[i].file);
+    fpi[i] = SD.open( buff);
+  
+    if( !fp[i] || !fpi[i]) {
+      snprintf( prnt, sizeof(prnt), "Missing %s file", groups[i].file);
+#ifdef USE_OLED
+      fill_buffer( oledBuf, 0);		// clear screen
+      oled_print( 0, prnt);
+#endif    
+#ifdef DEBUG
+      Serial.println( prnt);
+#endif
+      while(1) ;
+    }
+  }
 
 } // setup()
 
@@ -566,18 +587,10 @@ void loop() {
 
   static int pos = 0;
   int newPos = encoder->getPosition();
-  Serial.print("Check Enc: ");
-  Serial.println( newPos);
-  if (pos != newPos) {
+  if (pos != newPos)
     pos = newPos;
-  }
 
-//  // manually read encoder to test
-//   byte a = digitalRead( ENC_A);
-//   byte b = digitalRead( ENC_B);
-//   digitalWrite( ENC_RED, a);
-//   digitalWrite( ENC_GRN, b);
-
+  grp = newPos % ngroups;
 
 #ifdef USE_GPS
   gpsTime = GPS_fix( &floatLat, &floatLon);
@@ -668,8 +681,8 @@ void loop() {
 	snprintf( prnt, sizeof(prnt), "offset = %d  dist = %f : ", sortedLocs[i].offset, sortedLocs[i].distance);
 	Serial.print( prnt);
 #endif
-	fp.seek( sortedLocs[i].offset);
-	n = fp.readBytesUntil( 0xa, buff, sizeof(buff));
+	fp[grp].seek( sortedLocs[i].offset);
+	n = fp[grp].readBytesUntil( 0xa, buff, sizeof(buff));
 	buff[n] = '\0';
 	csv_to_place( &tempPlace, buff);
 #ifdef DEBUGXXX
@@ -698,4 +711,32 @@ void loop() {
 
 
 
+
+
+
+
+
+void printDirectory(File dir, int numTabs) {
+
+  while (true) {
+    File entry =  dir.openNextFile();
+    if (! entry) {
+      // no more files
+      break;
+    }
+    for (uint8_t i = 0; i < numTabs; i++) {
+      Serial.print('\t');
+    }
+    Serial.print(entry.name());
+    if (entry.isDirectory()) {
+      Serial.println("/");
+      printDirectory(entry, numTabs + 1);
+    } else {
+      // files have sizes, directories do not
+      Serial.print("\t\t");
+      Serial.println(entry.size(), DEC);
+    }
+    entry.close();
+  }
+}
 

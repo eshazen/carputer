@@ -13,5 +13,7 @@ a list of the n nearest and display.
 
 Shaft encoder working using timer interrupt poll at 250Hz.
 
-Reads config file and builds `groups[]`.  For now, hard-wired
-to use first group only.
+Reads multiple file sets, shaft encoder selects.
+
+AIRPORT group doesn't seem to work, maybe need a bigger
+grid size?
