@@ -634,7 +634,8 @@ void draw_char(uint8_t *frame_buffer, uint8_t c, uint16_t x, uint16_t y, uint8_t
 	    }
 	  else
 	    {
-
+	      // ESH - added line below to draw background
+	      draw_pixel(frame_buffer, x + x_offset + x_pos, y + y_offset+y_pos, 0);
 	    }
 	  bits <<= 1;
 	}

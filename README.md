@@ -14,6 +14,20 @@ using Arduino boot loader.
 
 See (Data/README.md)[Data/README.md] for data details and ideas.
 
+## Implementation notes
+
+On the MKR Zero board, there are only a few pins which can be used for
+interrupts.  See
+[docs](https://docs.arduino.cc/language-reference/en/functions/external-interrupts/attachInterrupt/).
+These pins are: 0, 1, 4, 5, 6, 7, 8, 9, A1, A2.
+
+Unfortunately the encoder is connected to 11 and 12.  Pin 7 is unused,
+but one interrupt doesn't do the trick.
+
+So far no luck getting timer interrupts to work on the MKR zero.
+Best bet seems to be the `Adafruit_ZeroTimer` but even though the
+example works it seems to crash when trying to run e.g. SPI after setup.
+
 ## User Interface
 
 First version displays 3 lines of nearest towns, with a status

@@ -27,8 +27,6 @@
 // define our pins
 //
 const int OLED_DC_PIN = 5;	/* data/control */
-//const int OLED_nRST_PIN = 6;	/* reset */
-//const int OLED_nCS_PIN = 4;	/* chip select */
 const int OLED_nRST_PIN = 4;	/* reset */
 const int OLED_nCS_PIN = 6;	/* chip select */
 

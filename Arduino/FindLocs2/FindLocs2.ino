@@ -29,22 +29,27 @@
 #define DO_INSERT
 
 #include <math.h>
-#include <SPI.h>
+// #include <SPI.h>
 #include <SD.h>
 #include <string.h>
 
+#ifdef USE_OLED
 #include "oled.h"
+#else
+#define USE_LINES 4
+#endif
 
 #include "distance_miles.h"
 #include "places.h"
 #include "parse_csv.h"
+
+#include "encoder.h"
 
 // ---- hardwired (ugh) input file names ----
 #define CONFIG_FILE "CONFIG.CSV"
 #define GRID_FILE "GRID.CSV"
 // #define PLACES_FILE "places.csv"
 // #define INDEX_FILE "gindex.dat"
-
 
 // maximum number of groups we can handle
 #define MAX_GROUPS 5
@@ -132,6 +137,8 @@ char* GPS_fix( float *flat, float *flon) {
   char *ret = NULL;
 
   while( 1) {
+
+    
 
     if( Serial1.available()) {
       int nc = Serial1.readBytesUntil( '\n', gps, sizeof(gps)-1);
@@ -291,7 +298,9 @@ int process_grid_at( float lat, float lon, int latGrid, int lonGrid, void* vlist
       buff[n] = '\0';
       offset = fp.position();
       if( csv_to_place( &tempPlace, buff)) {
+#ifdef USE_OLED
 	oled_print(0,"FAIL ON CSV");
+#endif
 	while(1) ;
       }
 
@@ -354,16 +363,21 @@ static int i, j, k, n;
 static int ng;
 
 void setup() {
+
+  Serial.begin(9600);
+  while (!Serial) {
+    ;
+  }
+
 #ifdef USE_OLED
   SSD1322_HW_Init();
   SSD1322_API_init();
   select_font( &FreeMono9pt7b);
 #endif
+
+  encoder_setup();
+
 #ifdef DEBUG
-  Serial.begin(9600);
-  while (!Serial) {
-    ;
-  }
   Serial.print("Initializing SD card...");
 #endif
 
@@ -378,6 +392,8 @@ void setup() {
   oled_print( 0, "FindLocs 2.0");
   delay(1000);
 #endif
+
+  interrupts();
 
   // see if the card is present and can be initialized:
   if (!SD.begin(chipSelect)) {
@@ -402,7 +418,9 @@ void setup() {
   // read the config, find number of groups
   fc = SD.open( CONFIG_FILE);
   if( !fc) {
+#ifdef USE_OLED
     oled_print( 0, "No config");
+#endif
     while(1);
   }
 
@@ -412,7 +430,9 @@ void setup() {
     
   // read and skip header
   fc.readBytesUntil( 0xa, buff, sizeof(buff));
+#ifdef USE_OLED
   fill_buffer( oledBuf, 0);		// clear screen
+#endif
   ngroups = 0;
   while( fc.readBytesUntil( 0xa, buff, sizeof(buff)) && ngroups < MAX_GROUPS) {
 #ifdef DEBUG
@@ -424,8 +444,10 @@ void setup() {
     strncpy( groups[ngroups].name, tokn[2], sizeof(groups[0].name));
     if( ngroups < USE_LINES) {
       snprintf( prnt, sizeof(prnt), "%d %s %s", ngroups, groups[ngroups].file, groups[ngroups].name);
+#ifdef USE_OLED
       oled_print( ngroups, prnt);
-    ++ngroups;
+#endif
+      ++ngroups;
     }
   }
 
@@ -479,7 +501,8 @@ void setup() {
    lonMin = atof( tokn[5]);
    lonMax = atof( tokn[6]);
    lonStep = atof( tokn[7]);
-}
+
+} // setup()
 
 int fake_time = 0;
 #ifndef USE_GPS
@@ -494,13 +517,28 @@ void loop() {
   int update_time = 0;
   const char *gpsTime;
 
+  static int pos = 0;
+  int newPos = encoder->getPosition();
+  Serial.print("Check Enc: ");
+  Serial.println( newPos);
+  if (pos != newPos) {
+    pos = newPos;
+  }
+
+//  // manually read encoder to test
+//   byte a = digitalRead( ENC_A);
+//   byte b = digitalRead( ENC_B);
+//   digitalWrite( ENC_RED, a);
+//   digitalWrite( ENC_GRN, b);
+
+
 #ifdef USE_GPS
   gpsTime = GPS_fix( &floatLat, &floatLon);
 #else
   floatLat = 42.0 + (float)random(100)/100;
   floatLon = -71.8 + (float)random(100)/100;
   fake_time++;
-  snprintf( gpsFake, sizeof(gpsFake), "T%d %5.1f %5.1f", fake_time, floatLat, floatLon);
+  snprintf( gpsFake, sizeof(gpsFake), "T%d %5.1f %5.1f %d", fake_time, floatLat, floatLon, iCount);
   gpsTime = gpsFake;
   delay(1000);
 #endif  
@@ -508,7 +546,6 @@ void loop() {
   // check GPS status
   if( gpsTime == NULL) { 		// no GPS at all
 #ifdef DEBUG
-    fill_buffer( oledBuf, 0);		// clear screen
     Serial.println("NO GPS");
 #endif
 #ifdef USE_OLED
@@ -517,7 +554,6 @@ void loop() {
 #endif    
   } else if( floatLat < 0) {	// no location
 #ifdef DEBUG
-    fill_buffer( oledBuf, 0);		// clear screen
     Serial.println("NO LOC");
 #endif
 #ifdef USE_OLED
@@ -576,7 +612,9 @@ void loop() {
       oldLatGrid = latGrid;
       oldLonGrid = lonGrid;
       
+#ifdef USE_OLED
       fill_buffer( oledBuf, 0);		// clear screen
+#endif
 
       for( int i=0; i<numLoc; i++) {
 #ifdef DEBUGXXX
@@ -597,12 +635,14 @@ void loop() {
 #endif    
       } // loop over nearest places
       // status line at bottom
+#ifdef USE_OLED
       snprintf( buff, sizeof(buff), "%6.6s %c %d", gpsTime, gpsStatus, gpsNumSat);
       select_font( &FreeMono12pt7b);
       //    draw_text( oledBuf, str, 1, (line+1) * LINE_SPC, 15);
       draw_text( oledBuf, buff, 0, 63, 8);
       send_buffer_to_OLED( oledBuf, 0, 0);
       select_font( &FreeMono9pt7b);
+#endif
     }
 
   } // else got a fix
