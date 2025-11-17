@@ -9,8 +9,8 @@
 // skip the ray-intersect algorithm
 // #define RANGE_ONLY
 
-// define the type to use for lat/lon coordinates
-typedef float coord_t;
+#include "shape.h"
+
 
 int point_in_polygon( const coord_t *xvert, const coord_t *yvert, int n, coord_t x, coord_t y);
 
@@ -23,45 +23,74 @@ int point_in_polygon( const coord_t *xvert, const coord_t *yvert, int n, coord_t
 // starting grid step size
 //#define LON_STEP 0.002
 //#define LAT_STEP 0.002
-#define LON_STEP 0.1
-#define LAT_STEP 0.1
+#define LON_STEP 0.5
+#define LAT_STEP 0.5
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <ctype.h>
 
 #include "shapefil.h"
-
-
-typedef struct {
-  int nvert;
-  char *name;
-  coord_t *lat;
-  coord_t *lon;
-  coord_t minLat;
-  coord_t minLon;
-  coord_t maxLat;
-  coord_t maxLon;
-} a_shape;
 
 char buff[80];
 
 int main(int argc, char **argv) {
 
-  if (argc != 2)
-    {
-      fprintf( stderr, "Usage: %s input_shapefile_without_extension\n", argv[0]);
-      return 1;
-    }
+  FILE *fo = NULL;
+  FILE *fv = NULL;
 
-  SHPHandle hSHP = SHPOpen(argv[1], "rb");
+  int fna = -1;
+
+  if (argc < 2) {
+    fprintf( stderr, "Usage: %s input_shapefile_without_extension [-o output]\n", argv[0]);
+    return 1;
+  }
+
+  for( int i=1; i<argc; i++) {
+    printf("Looking at %s\n", argv[i]);
+    if( *argv[i] == '-') {
+      switch( toupper( argv[i][1])) {
+      case 'O':
+	if( i == argc-1) {
+	  fprintf( stderr, "Missing filename after -O\n");
+	  return 1;
+	}
+	++i;
+	snprintf( buff, sizeof( buff), "%s.DAT", argv[i]);
+	if( (fo = fopen( buff, "wb")) == NULL) {
+	  fprintf( stderr, "Error opening output file %s\n", buff);
+	  return 1;
+	}
+	snprintf( buff, sizeof( buff), "%s.VRT", argv[i]);
+	if( (fv = fopen( buff, "wb")) == NULL) {
+	  fprintf( stderr, "Error opening output file %s\n", buff);
+	  return 1;
+	}
+	break;
+      default:
+	fprintf( stderr, "Unknown option: %s\n", argv[i]);
+	return 1;
+      }
+    } else {
+      fna = i;
+    }
+    
+  }
+
+  if( fna < 0) {
+    fprintf( stderr, "Missing input file name\n");
+    return 1;
+  }
+
+  SHPHandle hSHP = SHPOpen(argv[fna], "rb");
   if (!hSHP)
     {
       fprintf( stderr, "Error: Could not open SHP file.\n");
       return 1;
     }
 
-  DBFHandle hDBF = DBFOpen(argv[1], "rb");
+  DBFHandle hDBF = DBFOpen(argv[fna], "rb");
   if (!hDBF)
     {
       fprintf( stderr, "Error: Could not open DBF file.\n");
@@ -77,7 +106,7 @@ int main(int argc, char **argv) {
 
 #ifdef VERBOSE
   printf("===== SHAPEFILE HEADER INFORMATION =====\n");
-  printf("Shapefile Base Name: %s\n", argv[1]);
+  printf("Shapefile Base Name: %s\n", argv[fna]);
   printf("Shape Type (numeric): %d\n", shapeType);
   printf("Number of Shapes: %d\n", nEntities);
   printf("Bounding Box:\n");
@@ -128,6 +157,8 @@ int main(int argc, char **argv) {
 #ifdef VERBOSE
       printf("  %s: %s\n", fieldName, value);
 #endif
+      if( !strcasecmp( fieldName, "NAME"))
+	strcpy( buff, value);
       if( !strcasecmp( fieldName, "NAMELSAD"))
 	strcpy( buff, value);
     }
@@ -159,7 +190,7 @@ int main(int argc, char **argv) {
     shapes[i].maxLon = xMax;
     shapes[i].minLat = yMin;
     shapes[i].maxLat = yMax;
-    shapes[i].name = strdup( buff);
+    strncpy( shapes[i].name, buff, MAX_NAME);
 
     // allocate and copy the coords
     shapes[i].lat = calloc( obj->nVertices, sizeof(coord_t));
@@ -223,6 +254,11 @@ int main(int argc, char **argv) {
 
   printf("Tested %d grids against %d shapes\n", grids, nEntities);
   printf("%d total tests, %d in range, %d inside\n", tests, inrange, inside);
+
+  if( fo) {
+    //    fwrite( shapes, sizeof( shapes[0]), nEntities, fo);
+    write_shapes( shapes, nEntities, fo, fv);
+  }
 
   return 0;
 }

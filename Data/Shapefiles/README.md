@@ -4,6 +4,57 @@
 * [Shapelib](http://shapelib.maptools.org/) library
 * [Cartographic Boundary Files](https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html)
 
+## Work log
+
+### 2025-11-16
+
+Modified `grid_eval.c` to read a shape fileset and write the data in two
+output files:
+
+    NAME.DAT - list of fixed-size records, 1 per shape
+	NAME.VRT - vertex list for the shapes
+	
+The `.DAT` file starts with an `int32` record count, followed by
+an array of the following:
+
+``` C
+typedef struct {
+  int nvert;
+  char name[MAX_NAME];
+  uint32_t lat_off;
+  uint32_t lon_off;
+  coord_t minLat;
+  coord_t minLon;
+  coord_t maxLat;
+  coord_t maxLon;
+} f_shape;
+```
+
+(N.B. MAX_NAME currently 80 and `coord_t` is `float`).
+
+The `.VRT` file has two arrays of `float` (for lat and lon)
+of `nvert` size for each record.  `lat_off` and `lon_off` provide
+the offset into the `.VRT` file.
+	
+A quick test in `SD_Dump_Places.ino` generates random lat/lon
+and searches the entire list from the `places` shape fileset
+(32k places).  This takes ~15s per search to compare with min/max
+lat/lon.
+
+_Optimisation ideas_:
+
+Sort the places by lat and/or lon so we can do a binary search
+(though this is tricky since they vary in size).
+
+Try using `int32` scaled lat/lon to see if it is faster.
+
+_Other thoughts_:
+
+Much of the country is not covered by the `places` dataset.
+It would be good to fall back on the old `Find_Places` algorithm
+and dataset for anything which doesn't match.
+
+
 ## Code / algorithm ideas
 
 Goal:  evaluate current lat/lon vs in realtime multiple shapfile datasets and display
