@@ -6,6 +6,23 @@
 
 ## Work log
 
+### 2025-11-19
+
+Thinking about a unified data set for point-like and shape-based locations
+The R-Tree [wikipedia](https://en.wikipedia.org/wiki/R-tree) seems like
+a good data structure to use.
+
+See for example `tidwall/rtree.c` on github.  The challenge here is that
+the tree is built dynamically with memory allocated in small chunks
+from the heap.  We need to figure out how to store the tree in a file
+and access it from there.
+
+Since a custom allocator is provided one could probably make clever
+use of this to arrange for data to be stored sequentially when the
+tree is built and then written to a file.
+
+The search would have to be modified to reference the file.
+
 ### 2025-11-16
 
 Modified `grid_eval.c` to read a shape fileset and write the data in two
@@ -46,13 +63,20 @@ _Optimisation ideas_:
 Sort the places by lat and/or lon so we can do a binary search
 (though this is tricky since they vary in size).
 
+Divide country into grid squares.  Create a fixed-size index
+file as with Find_Places which points to a list of places for
+each grid square.  Places can participate in multiple grids
+based on lat/lon min/max.
+
 Try using `int32` scaled lat/lon to see if it is faster.
+_Nope, exactly same speed._
 
 _Other thoughts_:
 
 Much of the country is not covered by the `places` dataset.
 It would be good to fall back on the old `Find_Places` algorithm
-and dataset for anything which doesn't match.
+and dataset for anything which doesn't match.  Or, to fall-back
+on the counties and/or states datasets.
 
 
 ## Code / algorithm ideas

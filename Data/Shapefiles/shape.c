@@ -21,31 +21,31 @@ void print_shape( a_shape* s) {
 
 void print_fshape( f_shape* s) {
   printf("%s (%d) ", s->name, s->nvert);
+#ifdef INT_COORD
+  printf("Lat (%d..%d) Lon: (%d..%d)\n",
+	 s->minLat, s->maxLat, s->minLon, s->maxLon);
+#else  
   printf("Lat (%f..%f) Lon: (%f..%f)\n",
 	 s->minLat, s->maxLat, s->minLon, s->maxLon);
+#endif
 }
-
-
-
-
 
 void shape_to_f( f_shape* fs, a_shape* ms) {
   fs->nvert = ms->nvert;
   strncpy( fs->name, ms->name, MAX_NAME);
-  fs->minLat = ms->minLat;
-  fs->minLon = ms->minLon;
-  fs->maxLat = ms->maxLat;
-  fs->maxLon = ms->maxLon;
+  fs->minLat = COORD_I_SCALE * ms->minLat;
+  fs->minLon = COORD_I_SCALE * ms->minLon;
+  fs->maxLat = COORD_I_SCALE * ms->maxLat;
+  fs->maxLon = COORD_I_SCALE * ms->maxLon;
   fs->lat_off = 0;
   fs->lon_off = 0;
 }
-
 
 // write shape data to two files
 // DAT file has the following format:
 //   int ns
 //   f_shape shapes[ns]
-// VRT file has all the virtex arrays in order
+// VRT file has all the virtex arrays in order for the shapes
 
 int32_t write_shapes( a_shape* shapes, int32_t nshape, FILE *fp, FILE *fv) {
   int32_t shapsiz = sizeof( a_shape) * nshape + sizeof(int);
@@ -62,6 +62,8 @@ int32_t write_shapes( a_shape* shapes, int32_t nshape, FILE *fp, FILE *fv) {
 
 #ifdef DEBUG
     printf("SHAPE: num:%d %s nvert = %d\n", i, shapes[i].name, shapes[i].nvert);
+    print_shape( &shapes[i]);
+    print_fshape( &fshapes[i]);
 #endif    
     int32_t llsiz = sizeof( coord_t) * shapes[i].nvert; // lat/lon list sizes
 #ifdef DEBUG

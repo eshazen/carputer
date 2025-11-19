@@ -35,8 +35,6 @@ Controls not implemented yet.
 <br>FAT32 file size 4GB.  Assume an int32 needed to identify region.
 <br>So 15 bits each for lat/lon, less than 0.1 mile grid OK.
 
-
-
 ## Resources
 
 See [https://github.com/eshazen/town_ident](https://github.com/eshazen/town_ident)

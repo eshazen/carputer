@@ -89,11 +89,11 @@ void loop() {
 
   float floatLat, floatLon;
 
-  const float latMin = 42.0;
-  const float latMax = 42.1;
+  const float latMin = 42.25;
+  const float latMax = 42.52;
 
-  const float lonMin = -71.9;
-  const float lonMax = -71.1;
+  const float lonMin = -71.2;
+  const float lonMax = -71.0;
 
   const float latRange = (latMax-latMin);
   const float lonRange = (lonMax-lonMin);
@@ -101,10 +101,15 @@ void loop() {
   long start = millis();
 
   // Lat 25..50
-  floatLat = latMin +   (float)(random(latRange*10000.0)/10000.0);
+  floatLat = latMin + (float)(random(latRange*10000.0)/10000.0);
   // Lon -124..-66
   floatLon = lonMin + (float)(random(lonRange*10000.0)/10000.0);
   
+#ifdef INT_COORD
+  int32_t intLat = floatLat * COORD_I_SCALE;
+  int32_t intLon = floatLon * COORD_I_SCALE;
+#endif  
+
   dtostrf( floatLat, 9, 4, prnt);
   Serial.print( prnt);
   Serial.print(" ");
@@ -117,8 +122,13 @@ void loop() {
     if( (i % 5000) == 0)
       Serial.println( i);
     fp.read( &shape, sizeof(shape));
+#ifdef INT_COORD
+    if( intLat >= shape.minLat && intLat <= shape.maxLat &&
+	intLon >= shape.minLon && intLon <= shape.maxLon) {
+#else    
     if( floatLat >= shape.minLat && floatLat <= shape.maxLat &&
 	floatLon >= shape.minLon && floatLon <= shape.maxLon) {
+#endif
       snprintf( prnt, sizeof(prnt),"Found shape %s\n", shape.name);
       Serial.println( prnt);
     }
