@@ -8,10 +8,121 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
+#define DATATYPE void *
+#define DIMS 2
+#define NUMTYPE double
+//#define MAXITEMS 64
+#define MAXITEMS 16
+
+// used for splits
+#define MINITEMS_PERCENTAGE 10
+#define MINITEMS ((MAXITEMS) * (MINITEMS_PERCENTAGE) / 100 + 1)
+
+#ifndef RTREE_NOPATHHINT
+#define USE_PATHHINT
+#endif
+
+#ifdef RTREE_MAXITEMS
+#undef MAXITEMS
+#define MAXITEMS RTREE_MAXITEMS
+#endif
+
+
+#ifdef RTREE_NOATOMICS
+typedef int rc_t;
+static int rc_load(rc_t *ptr, bool relaxed) {
+    (void)relaxed; // nothing to do
+    return *ptr;
+}
+static int rc_fetch_sub(rc_t *ptr, int val) {
+    int rc = *ptr;
+    *ptr -= val;
+    return rc;
+}
+static int rc_fetch_add(rc_t *ptr, int val) {
+    int rc = *ptr;
+    *ptr += val;
+    return rc;
+}
+#else 
+#include <stdatomic.h>
+typedef atomic_int rc_t;
+static int rc_load(rc_t *ptr, bool relaxed) {
+    if (relaxed) {
+        return atomic_load_explicit(ptr, memory_order_relaxed);
+    } else {
+        return atomic_load(ptr);
+    }
+}
+static int rc_fetch_sub(rc_t *ptr, int delta) {
+    return atomic_fetch_sub(ptr, delta);
+}
+static int rc_fetch_add(rc_t *ptr, int delta) {
+    return atomic_fetch_add(ptr, delta);
+}
+#endif
+
+
+enum kind {
+    LEAF = 1,
+    BRANCH = 2,
+};
+
+struct rect {
+    NUMTYPE min[DIMS];
+    NUMTYPE max[DIMS];
+};
+
+struct item {
+    const DATATYPE data;
+};
+
+struct node {
+    rc_t rc;            // reference counter for copy-on-write
+    enum kind kind;     // LEAF or BRANCH
+    int count;          // number of rects
+    struct rect rects[MAXITEMS];
+    union {
+        struct node *nodes[MAXITEMS];
+        struct item datas[MAXITEMS];
+    };
+};
+
+struct rtree {
+    struct rect rect;
+    struct node *root;
+    size_t count;
+    size_t height;
+#ifdef USE_PATHHINT
+    int path_hint[16];
+#endif
+    bool relaxed;
+    void *(*malloc)(size_t);
+    void (*free)(void *);
+    void *udata;
+    bool (*item_clone)(const DATATYPE item, DATATYPE *into, void *udata);
+    void (*item_free)(const DATATYPE item, void *udata);
+};
+
+
 // rtree_new returns a new rtree
 //
 // Returns NULL if the system is out of memory.
 struct rtree *rtree_new(void);
+
+static inline NUMTYPE min0(NUMTYPE x, NUMTYPE y) {
+    return x < y ? x : y;
+}
+
+static inline NUMTYPE max0(NUMTYPE x, NUMTYPE y) {
+    return x > y ? x : y;
+}
+
+static bool feq(NUMTYPE a, NUMTYPE b) {
+    return !(a < b || a > b);
+}
+
+
 
 // <ESH> add dump
 void rtree_dump( struct rtree *tr);
@@ -103,5 +214,6 @@ bool rtree_delete_with_comparator(struct rtree *tr, const double *min,
 // loads. This may increase performance for single-threaded programs.
 // Optionally, define RTREE_NOATOMICS to disbale all atomics.
 void rtree_opt_relaxed_atomics(struct rtree *tr);
+
 
 #endif // RTREE_H

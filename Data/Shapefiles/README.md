@@ -12,16 +12,12 @@ Thinking about a unified data set for point-like and shape-based locations
 The R-Tree [wikipedia](https://en.wikipedia.org/wiki/R-tree) seems like
 a good data structure to use.
 
-See for example `tidwall/rtree.c` on github.  The challenge here is that
-the tree is built dynamically with memory allocated in small chunks
-from the heap.  We need to figure out how to store the tree in a file
-and access it from there.
+See for example `tidwall/rtree.c` on github.   Wrote `rtree_test`
+which uses an enhanced `rtree.c` to build a tree from multiple shapefile
+datasets.  Tree is dumped in text to the console.
 
-Since a custom allocator is provided one could probably make clever
-use of this to arrange for data to be stored sequentially when the
-tree is built and then written to a file.
+Starting on `filetree.h` with definitions for a file-based tree.
 
-The search would have to be modified to reference the file.
 
 ### 2025-11-16
 

@@ -11,115 +11,6 @@
 
 ////////////////////////////////
 
-#define DATATYPE void *
-#define DIMS 2
-#define NUMTYPE double
-//#define MAXITEMS 64
-#define MAXITEMS 16
-
-////////////////////////////////
-
-// used for splits
-#define MINITEMS_PERCENTAGE 10
-#define MINITEMS ((MAXITEMS) * (MINITEMS_PERCENTAGE) / 100 + 1)
-
-#ifndef RTREE_NOPATHHINT
-#define USE_PATHHINT
-#endif
-
-#ifdef RTREE_MAXITEMS
-#undef MAXITEMS
-#define MAXITEMS RTREE_MAXITEMS
-#endif
-
-#ifdef RTREE_NOATOMICS
-typedef int rc_t;
-static int rc_load(rc_t *ptr, bool relaxed) {
-    (void)relaxed; // nothing to do
-    return *ptr;
-}
-static int rc_fetch_sub(rc_t *ptr, int val) {
-    int rc = *ptr;
-    *ptr -= val;
-    return rc;
-}
-static int rc_fetch_add(rc_t *ptr, int val) {
-    int rc = *ptr;
-    *ptr += val;
-    return rc;
-}
-#else 
-#include <stdatomic.h>
-typedef atomic_int rc_t;
-static int rc_load(rc_t *ptr, bool relaxed) {
-    if (relaxed) {
-        return atomic_load_explicit(ptr, memory_order_relaxed);
-    } else {
-        return atomic_load(ptr);
-    }
-}
-static int rc_fetch_sub(rc_t *ptr, int delta) {
-    return atomic_fetch_sub(ptr, delta);
-}
-static int rc_fetch_add(rc_t *ptr, int delta) {
-    return atomic_fetch_add(ptr, delta);
-}
-#endif
-
-enum kind {
-    LEAF = 1,
-    BRANCH = 2,
-};
-
-struct rect {
-    NUMTYPE min[DIMS];
-    NUMTYPE max[DIMS];
-};
-
-struct item {
-    const DATATYPE data;
-};
-
-struct node {
-    rc_t rc;            // reference counter for copy-on-write
-    enum kind kind;     // LEAF or BRANCH
-    int count;          // number of rects
-    struct rect rects[MAXITEMS];
-    union {
-        struct node *nodes[MAXITEMS];
-        struct item datas[MAXITEMS];
-    };
-};
-
-struct rtree {
-    struct rect rect;
-    struct node *root;
-    size_t count;
-    size_t height;
-#ifdef USE_PATHHINT
-    int path_hint[16];
-#endif
-    bool relaxed;
-    void *(*malloc)(size_t);
-    void (*free)(void *);
-    void *udata;
-    bool (*item_clone)(const DATATYPE item, DATATYPE *into, void *udata);
-    void (*item_free)(const DATATYPE item, void *udata);
-};
-
-static inline NUMTYPE min0(NUMTYPE x, NUMTYPE y) {
-    return x < y ? x : y;
-}
-
-static inline NUMTYPE max0(NUMTYPE x, NUMTYPE y) {
-    return x > y ? x : y;
-}
-
-static bool feq(NUMTYPE a, NUMTYPE b) {
-    return !(a < b || a > b);
-}
-
-
 void rtree_set_udata(struct rtree *tr, void *udata) {
     tr->udata = udata;
 }
@@ -842,11 +733,23 @@ void rtree_opt_relaxed_atomics(struct rtree *tr) {
 #include "tests/priv_funcs.h"
 #endif
 
+//
+// dump an rtree recursively
+//
 void rtree_dump_node( struct node *n, int dep) {
   for( int k=0; k<dep; k++)	fputs( "   ", stdout);
   printf("NODE %d:  %s count=%d\n", dep,
 	 ((n->kind == LEAF) ? "LEAF" : "BRANCH"),
 	 n->count);
+  // print rects first
+  for( int i=0; i<n->count; i++) {
+    for( int k=0; k<dep; k++)	fputs( "   ", stdout);
+    printf("RECT %d (%f..%f) (%f..%f)\n",
+	     i, n->rects[i].min[0], n->rects[i].max[0],
+	     n->rects[i].min[1], n->rects[i].max[1]
+	   );
+  }
+  
   for( int i=0; i<n->count; i++)
     if( n->kind == LEAF) {	/* LEAF */
       for( int k=0; k<dep; k++)	fputs( "   ", stdout);
@@ -856,11 +759,9 @@ void rtree_dump_node( struct node *n, int dep) {
 	     ((a_shape *)(n->datas[i].data))->name);
     } else {			/* BRANCH */
       for( int k=0; k<dep; k++)	fputs( "   ", stdout);
-      printf("RECT %d (%f..%f) (%f..%f)\n",
+      printf("DOWN %d (%f..%f) (%f..%f)\n",
 	     i, n->rects[i].min[0], n->rects[i].max[0],
 	     n->rects[i].min[1], n->rects[i].max[1]);
-      for( int k=0; k<dep; k++)	fputs( "   ", stdout);
-      printf( "DOWN\n");
       rtree_dump_node( n->nodes[i], dep+1);
     }
 }
