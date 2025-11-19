@@ -1,7 +1,6 @@
 //
 // read a shapefile
-// iterate over a grid of lat/long, evaluate if point is inside
-// any shapes
+// build an r-tree
 //
 
 // #define VERBOSE
@@ -9,8 +8,9 @@
 // skip the ray-intersect algorithm
 // #define RANGE_ONLY
 
+#include "rtree.h"
 #include "shape.h"
-
+#include "shapefil.h"
 
 int point_in_polygon( const coord_t *xvert, const coord_t *yvert, int n, coord_t x, coord_t y);
 
@@ -30,8 +30,6 @@ int point_in_polygon( const coord_t *xvert, const coord_t *yvert, int n, coord_t
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
-
-// #include "shapefil.h"
 
 char buff[80];
 
@@ -259,6 +257,20 @@ int main(int argc, char **argv) {
     //    fwrite( shapes, sizeof( shapes[0]), nEntities, fo);
     write_shapes( shapes, nEntities, fo, fv);
   }
+
+  printf("Creating R-Tree\n");
+  struct rtree *tr = rtree_new();
+
+  for (int i = 0; i < nEntities; i++) {
+    printf("Insert %d (%f..%f) (%f..%f)\n", i, shapes[i].minLat,shapes[i].maxLat,
+	   shapes[i].minLon, shapes[i].maxLon);
+
+    rtree_insert( tr, (double[2]){shapes[i].minLat,shapes[i].minLon},
+		  (double[2]){shapes[i].maxLat,shapes[i].maxLon}, &shapes[i]);
+  }
+
+  printf("Dumping R-Tree\n");
+  rtree_dump( tr);
 
   return 0;
 }
