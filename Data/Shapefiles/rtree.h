@@ -7,6 +7,7 @@
 
 #include <stdlib.h>
 #include <stdbool.h>
+#include <stdint.h>
 
 #define DATATYPE void *
 #define DIMS 2
@@ -31,77 +32,78 @@
 #ifdef RTREE_NOATOMICS
 typedef int rc_t;
 static int rc_load(rc_t *ptr, bool relaxed) {
-    (void)relaxed; // nothing to do
-    return *ptr;
+  (void)relaxed; // nothing to do
+  return *ptr;
 }
 static int rc_fetch_sub(rc_t *ptr, int val) {
-    int rc = *ptr;
-    *ptr -= val;
-    return rc;
+  int rc = *ptr;
+  *ptr -= val;
+  return rc;
 }
 static int rc_fetch_add(rc_t *ptr, int val) {
-    int rc = *ptr;
-    *ptr += val;
-    return rc;
+  int rc = *ptr;
+  *ptr += val;
+  return rc;
 }
 #else 
 #include <stdatomic.h>
 typedef atomic_int rc_t;
 static int rc_load(rc_t *ptr, bool relaxed) {
-    if (relaxed) {
-        return atomic_load_explicit(ptr, memory_order_relaxed);
-    } else {
-        return atomic_load(ptr);
-    }
+  if (relaxed) {
+    return atomic_load_explicit(ptr, memory_order_relaxed);
+  } else {
+    return atomic_load(ptr);
+  }
 }
 static int rc_fetch_sub(rc_t *ptr, int delta) {
-    return atomic_fetch_sub(ptr, delta);
+  return atomic_fetch_sub(ptr, delta);
 }
 static int rc_fetch_add(rc_t *ptr, int delta) {
-    return atomic_fetch_add(ptr, delta);
+  return atomic_fetch_add(ptr, delta);
 }
 #endif
 
 
 enum kind {
-    LEAF = 1,
-    BRANCH = 2,
+  LEAF = 1,
+  BRANCH = 2,
 };
 
 struct rect {
-    NUMTYPE min[DIMS];
-    NUMTYPE max[DIMS];
+  NUMTYPE min[DIMS];
+  NUMTYPE max[DIMS];
 };
 
 struct item {
-    const DATATYPE data;
+  const DATATYPE data;
 };
 
 struct node {
-    rc_t rc;            // reference counter for copy-on-write
-    enum kind kind;     // LEAF or BRANCH
-    int count;          // number of rects
-    struct rect rects[MAXITEMS];
-    union {
-        struct node *nodes[MAXITEMS];
-        struct item datas[MAXITEMS];
-    };
+  uint32_t id;
+  rc_t rc;            // reference counter for copy-on-write
+  enum kind kind;     // LEAF or BRANCH
+  int16_t count;      // number of rects
+  struct rect rects[MAXITEMS];
+  union {
+    struct node *nodes[MAXITEMS];
+    struct item datas[MAXITEMS];
+  };
 };
 
 struct rtree {
-    struct rect rect;
-    struct node *root;
-    size_t count;
-    size_t height;
+  struct rect rect;
+  struct node *root;
+  size_t count;
+  size_t height;
 #ifdef USE_PATHHINT
-    int path_hint[16];
+  int path_hint[16];
 #endif
-    bool relaxed;
-    void *(*malloc)(size_t);
-    void (*free)(void *);
-    void *udata;
-    bool (*item_clone)(const DATATYPE item, DATATYPE *into, void *udata);
-    void (*item_free)(const DATATYPE item, void *udata);
+  bool relaxed;
+  void *(*malloc)(size_t);
+  void (*free)(void *);
+  void *udata;
+  bool (*item_clone)(const DATATYPE item, DATATYPE *into, void *udata);
+  void (*item_free)(const DATATYPE item, void *udata);
 };
 
 
@@ -111,15 +113,15 @@ struct rtree {
 struct rtree *rtree_new(void);
 
 static inline NUMTYPE min0(NUMTYPE x, NUMTYPE y) {
-    return x < y ? x : y;
+  return x < y ? x : y;
 }
 
 static inline NUMTYPE max0(NUMTYPE x, NUMTYPE y) {
-    return x > y ? x : y;
+  return x > y ? x : y;
 }
 
 static bool feq(NUMTYPE a, NUMTYPE b) {
-    return !(a < b || a > b);
+  return !(a < b || a > b);
 }
 
 
@@ -149,8 +151,8 @@ struct rtree *rtree_clone(struct rtree *tr);
 // The clone function should return true if the clone succeeded or false if the
 // system is out of memory.
 void rtree_set_item_callbacks(struct rtree *tr,
-    bool (*clone)(const void *item, void **into, void *udata), 
-    void (*free)(const void *item, void *udata));
+			      bool (*clone)(const void *item, void **into, void *udata), 
+			      void (*free)(const void *item, void *udata));
 
 // rtree_set_udata sets the user-defined data. 
 //
@@ -177,15 +179,15 @@ bool rtree_insert(struct rtree *tr, const double *min, const double *max, const 
 //
 // Returning false from the iter will stop the search.
 void rtree_search(const struct rtree *tr, const double *min, const double *max,
-    bool (*iter)(const double *min, const double *max, const void *data, void *udata), 
-    void *udata);
+		  bool (*iter)(const double *min, const double *max, const void *data, void *udata), 
+		  void *udata);
 
 // rtree_scan iterates over every item in the rtree.
 //
 // Returning false from the iter will stop the scan.
 void rtree_scan(const struct rtree *tr,
-    bool (*iter)(const double *min, const double *max, const void *data, void *udata), 
-    void *udata);
+		bool (*iter)(const double *min, const double *max, const void *data, void *udata), 
+		void *udata);
 
 // rtree_count returns the number of items in the rtree.
 size_t rtree_count(const struct rtree *tr);
@@ -206,9 +208,9 @@ bool rtree_delete(struct rtree *tr, const double *min, const double *max, const 
 //
 // Returns false if the system is out of memory.
 bool rtree_delete_with_comparator(struct rtree *tr, const double *min, 
-    const double *max, const void *data,
-    int (*compare)(const void *a, const void *b, void *udata),
-    void *udata);
+				  const double *max, const void *data,
+				  int (*compare)(const void *a, const void *b, void *udata),
+				  void *udata);
 
 // rtree_opt_relaxed_atomics activates memory_order_relaxed for all atomic
 // loads. This may increase performance for single-threaded programs.

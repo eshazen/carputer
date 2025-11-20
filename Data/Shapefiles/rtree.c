@@ -8,6 +8,7 @@
 #include <stdbool.h>
 #include "rtree.h"
 #include "shape.h"
+#include "filetree.h"
 
 ////////////////////////////////
 
@@ -733,12 +734,40 @@ void rtree_opt_relaxed_atomics(struct rtree *tr) {
 #include "tests/priv_funcs.h"
 #endif
 
+static int node_count = 0;
+static int place_count = 0;
+static int uid = 0;
+
+const int debug=1;
+
+void rtree_assign_ids( struct node *n, int dep) {
+  for( int k=0; k<dep; k++)	fputs( "   ", stdout);
+  if(debug)  printf("ASSIGN IDs dep=%d count=%d\n", dep, n->count);
+  for( int i=0; i<n->count; i++) {
+    if(debug)    for( int k=0; k<dep; k++)	fputs( "   ", stdout);
+    if(debug)    printf("  item %d kind=%d\n", i, n->kind);
+    n->id = uid;
+    ++uid;
+    if( n->kind == LEAF) {	/* LEAF */
+      if(debug)      for( int k=0; k<dep; k++)	fputs( "   ", stdout);
+      if(debug)      printf("LEAF\n");
+    } else {			/* BRANCH */
+      if(debug)      for( int k=0; k<dep; k++)	fputs( "   ", stdout);
+      if(debug)      printf("BRANCH\n");
+      ++dep;
+      rtree_assign_ids( n->nodes[i], dep);
+    }
+  }  
+}
+
 //
 // dump an rtree recursively
 //
 void rtree_dump_node( struct node *n, int dep) {
+  node_count += n->count;
+
   for( int k=0; k<dep; k++)	fputs( "   ", stdout);
-  printf("NODE %d:  %s count=%d\n", dep,
+  printf("NODE %d:  %s count=%d\n", n->id,
 	 ((n->kind == LEAF) ? "LEAF" : "BRANCH"),
 	 n->count);
   // print rects first
@@ -757,6 +786,7 @@ void rtree_dump_node( struct node *n, int dep) {
 	     i, n->rects[i].min[0], n->rects[i].max[0],
 	     n->rects[i].min[1], n->rects[i].max[1],
 	     ((a_shape *)(n->datas[i].data))->name);
+      ++place_count;
     } else {			/* BRANCH */
       for( int k=0; k<dep; k++)	fputs( "   ", stdout);
       printf("DOWN %d (%f..%f) (%f..%f)\n",
@@ -768,8 +798,11 @@ void rtree_dump_node( struct node *n, int dep) {
 
 void rtree_dump( struct rtree *tr) {
   // dump the tree structure
+  rtree_assign_ids( tr->root, 0);
   printf("TREE:  (%f..%f) (%f..%f) count=%ld height=%ld\n",
 	 tr->rect.min[0], tr->rect.max[0], tr->rect.min[1], tr->rect.max[1],
 	 tr->count, tr->height);
   rtree_dump_node( tr->root, 0);
+  printf("Total nodes: %d (%ld bytes)\n", node_count, node_count * sizeof( struct f_node));
+  printf("Places: %d\n", place_count);
 }
