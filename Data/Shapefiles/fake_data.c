@@ -83,7 +83,6 @@ int main(int argc, char **argv) {
 
   printf("--- write shapes ---\n");
   if( fo) {
-    //    fwrite( shapes, sizeof( shapes[0]), nEntities, fo);
     write_shapes( shapes, nEntities, fo, fv);
   }
 

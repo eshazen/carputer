@@ -40,9 +40,10 @@ int main(int argc, char **argv) {
   FILE *fv = NULL;
 
   int fna = -1;
+  int maxs = 99999;
 
   if (argc < 2) {
-    fprintf( stderr, "Usage: %s input_shapefile_without_extension [-o output]\n", argv[0]);
+    fprintf( stderr, "Usage: %s input_shapefile_without_extension [-o output] [-n max]\n", argv[0]);
     return 1;
   }
 
@@ -66,6 +67,14 @@ int main(int argc, char **argv) {
 	  fprintf( stderr, "Error opening output file %s\n", buff);
 	  return 1;
 	}
+	break;
+      case 'N':
+	if( i == argc-1) {
+	  fprintf( stderr, "Missing count after -N\n");
+	  return 1;
+	}
+	++i;
+	maxs = atoi( argv[i]);
 	break;
       default:
 	fprintf( stderr, "Unknown option: %s\n", argv[i]);
@@ -99,6 +108,11 @@ int main(int argc, char **argv) {
   int nEntities, shapeType;
   double minBound[4], maxBound[4];
   SHPGetInfo(hSHP, &nEntities, &shapeType, minBound, maxBound);
+
+  if( nEntities > maxs) {
+    fprintf( stderr, "Limiting output to first %d shapes\n", maxs);
+    nEntities = maxs;
+  }
 
   // allocate an array for the shapes
   a_shape shapes[nEntities];
