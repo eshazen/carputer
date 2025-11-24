@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <stdint.h>
 
-#define INT_COORD
+// #define INT_COORD
 
 // define the type to use for lat/lon coordinates
 typedef float coord_t;

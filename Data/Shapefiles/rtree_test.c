@@ -4,16 +4,12 @@
 // build an r-tree
 //
 
-// #define VERBOSE
-
 // skip the ray-intersect algorithm
 // #define RANGE_ONLY
 
 #include "rtree.h"
 #include "shape.h"
 #include "shapefil.h"
-
-int point_in_polygon( const coord_t *xvert, const coord_t *yvert, int n, coord_t x, coord_t y);
 
 // approximate limits of lower 48
 #define LON_MIN -124.0
@@ -42,6 +38,10 @@ int main(int argc, char **argv) {
   int totalEntities = 0;
   int storedEntities = 0;
 
+  int debugLevel = 0;
+
+  int outfn = 0;
+
   printf("Creating R-Tree\n");
   struct rtree *tr = rtree_new();
 
@@ -54,13 +54,17 @@ int main(int argc, char **argv) {
     printf("Looking at %s\n", argv[i]);
     if( *argv[i] == '-') {
       switch( toupper( argv[i][1])) {
+      case 'D':
+	++debugLevel;
+	break;
       case 'O':
 	if( i == argc-1) {
 	  fprintf( stderr, "Missing filename after -O\n");
 	  return 1;
 	}
 	++i;
-	printf("NOTE: Unused output file %s\n", argv[i]);
+	printf("Output fileset %s\n", argv[i]);
+	outfn = i;
 	break;
       default:
 	fprintf( stderr, "Unknown option: %s\n", argv[i]);
@@ -193,15 +197,14 @@ int main(int argc, char **argv) {
 	if( obj->padfY[j] < yMin)
 	  yMin = obj->padfY[j];
 	
-#ifdef DEBUG
-	printf("  Vertex %d: (%.6f, %.6f)\n",
-	       j, obj->padfX[j], obj->padfY[j]);
-#endif
+	if( debugLevel > 2)
+	  printf("  Vertex %d: (%.6f, %.6f)\n",
+		 j, obj->padfX[j], obj->padfY[j]);
       }
 
-#ifdef DEBUG
-      printf("nVertices: %d \"%s\" X(%f..%f) Y(%f..%f)\n", obj->nVertices, buff, xMin, xMax, yMin, yMax);
-#endif
+      if( debugLevel > 1)
+	printf("nVertices: %d \"%s\" X(%f..%f) Y(%f..%f)\n", obj->nVertices, buff, xMin, xMax, yMin, yMax);
+
       shapes[i].minLon = xMin;
       shapes[i].maxLon = xMax;
       shapes[i].minLat = yMin;
@@ -226,8 +229,9 @@ int main(int argc, char **argv) {
     if (hDBF) DBFClose(hDBF);
 
     for (int i = 0; i < nEntities; i++) {
-      printf("Insert %d (%f..%f) (%f..%f)\n", i, shapes[i].minLat,shapes[i].maxLat,
-	     shapes[i].minLon, shapes[i].maxLon);
+      if( debugLevel > 1)
+	printf("Insert %d (%f..%f) (%f..%f)\n", i, shapes[i].minLat,shapes[i].maxLat,
+	       shapes[i].minLon, shapes[i].maxLon);
 
       rtree_insert( tr, (double[2]){shapes[i].minLat,shapes[i].minLon},
 		    (double[2]){shapes[i].maxLat,shapes[i].maxLon}, &shapes[i]);
@@ -235,7 +239,23 @@ int main(int argc, char **argv) {
   }
 
   printf("Dumping R-Tree\n");
-  rtree_dump( tr);
+  rtree_dump( tr, debugLevel);
+
+  if( outfn) {
+    // write tree and data to files
+    snprintf( buff, sizeof(buff), "%s.RTR", argv[outfn]);
+    FILE *ft = fopen( buff, "wb");
+    snprintf( buff, sizeof(buff), "%s.PLC", argv[outfn]);
+    FILE *fp = fopen( buff, "wb");
+    if( !ft || !fp) {
+      fprintf( stderr, "Error opening output files\n");
+      return 1;
+    }
+
+    // traverse the tree, fill in pointers to places and write
+    // (ignore vertex lists for now)
+    rtree_dump_file( tr, ft, fp);
+  }
 
   return 0;
 }

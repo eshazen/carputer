@@ -1,29 +1,43 @@
-all: dump_shape read_shapefile2 rtree_test
-# all: grid_eval dump_shape read_shapefile2 rtree_test
+execs = grid_eval dump_shape read_shapefile2 rtree_test \
+build_tree dump_rtree_file find_by_tree \
+fake_data
+
+all: $(execs)
+
+CC = gcc
 
 clean: 
-	rm -f *.o grid_eval
+	rm -f *.o $(execs)
 
-rtree.o: rtree.c rtree.h
+headers = shape.h filetree.h rtree.h
 
-read_shapefile2: read_shapefile2.c
-	$(CC) -o read_shapefile2 read_shapefile2.c -lshp
+objects = rtree.o grid_eval.o rtree_test.o shape.o read_shapefile2.o \
+dump_shape.o inside.o build_tree.o dump_rtree_file.o find_by_tree.o \
+test_file_reader.o fake_data.o
 
-grid_eval.o: grid_eval.c shape.h
+$(objects): %.o: %.c $(headers)
+	$(CC) -c $(CFLAGS) $<
 
-rtree_test.o: grid_eval.c shape.h
+fake_data: fake_data.o shape.o test_file_reader.o
+	$(CC) -o $@ $?
 
-shape.o: shape.c shape.h
+dump_rtree_file: dump_rtree_file.o shape.o
+	$(CC) -o $@ $?
 
-dump_shape.o: dump_shape.c shape.h
+find_by_tree: find_by_tree.o shape.o
+	$(CC) -o $@ $?
+
+build_tree: build_tree.o rtree.o shape.o
+	$(CC) -o $@ $? -lshp
+
+read_shapefile2: read_shapefile2.o
+	$(CC) -o $@ $? -lshp
 
 dump_shape: dump_shape.o shape.o
-	$(CC) -o dump_shape dump_shape.o shape.o
-
-inside.o: inside.c
+	$(CC) -o $@ $? -lshp
 
 grid_eval: grid_eval.o inside.o shape.o
-	$(CC) -o grid_eval grid_eval.o inside.o shape.o -lshp
+	$(CC) -o $@ $? -lshp
 
 rtree_test: rtree_test.o inside.o shape.o rtree.o
-	$(CC) -o rtree_test rtree_test.o inside.o shape.o rtree.o -lshp
+	$(CC) -o $@ $? -lshp

@@ -6,6 +6,59 @@
 
 ## Work log
 
+### 2025-11-24
+
+Code built but buggy.  Summary of tools:
+
+    grid_eval          read a shape file dataset, write .DAT and .VRT files
+    dump_shape         read and display .DAT and .VRT files
+    read_shapefile2    (obsolete: read and display shape dataset)
+    rtree_test         (read a shapefile, build R-tree and display only)
+    build_tree         read .DAT and .VRT files, write .REE file with R-tree
+    dump_rtree_file    read .REE and .DAT and display
+    find_by_tree       read .REE, .DAT, .VRT search for lat/lon
+    fake_data          read a .FAKE text file with fake data, write .DAT, .VRT
+
+Trivial tests show search working but state data fails.
+Maybe need a graphics program to display data.
+
+### 2025-11-22
+
+File-based R-Tree:
+
+**Shape** doesn't require a bounding box because that is kept in the
+LEAF type node for each item.
+
+``` C
+// SHAPE definition
+typedef struct {
+  int nvert;
+  char name[MAX_NAME];
+  uint32_t lat_off;    // offset to list of latitudes
+  uint32_t lon_off;    // offset to list of longitudes
+} f_shape;
+```
+
+**Node** type has list of bounding boxes, and list of offsets
+to either more nodes or shapes.
+
+``` C
+// NODE definition
+struct f_node {
+  enum kind kind;     // LEAF or BRANCH
+  int count;          // number of rects
+  struct rect rects[MAXITEMS];   /* coord_t min[2], max[2] */
+  union {
+    long node_offsets[MAXITEMS]; /* offset to another node for BRANCH */
+    long item_offsets[MAXITEMS]; /* offset to item for LEAF */
+  };
+};
+```
+
+Use existing `.DAT` and `.VRT` files.
+Need a new program which reads them and produces the R-Tree file `.REE`.
+Base on `dump_shape.c`, call it `build_tree.c`.
+
 ### 2025-11-19
 
 Thinking about a unified data set for point-like and shape-based locations

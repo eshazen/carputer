@@ -11,7 +11,6 @@
 
 #include "shape.h"
 
-
 int point_in_polygon( const coord_t *xvert, const coord_t *yvert, int n, coord_t x, coord_t y);
 
 // approximate limits of lower 48
@@ -31,7 +30,7 @@ int point_in_polygon( const coord_t *xvert, const coord_t *yvert, int n, coord_t
 #include <string.h>
 #include <ctype.h>
 
-// #include "shapefil.h"
+#include "shapefil.h"
 
 char buff[80];
 

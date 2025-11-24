@@ -12,6 +12,8 @@
 
 ////////////////////////////////
 
+static int debug=0;
+
 void rtree_set_udata(struct rtree *tr, void *udata) {
     tr->udata = udata;
 }
@@ -738,27 +740,31 @@ static int node_count = 0;
 static int place_count = 0;
 static int uid = 0;
 
-const int debug=1;
+int rtree_assign_ids( struct node *n, int dep) {
+  if( debug > 1) {
+    for( int k=0; k<dep; k++)	fputs( "   ", stdout);
+    printf("ASSIGN IDs dep=%d count=%d ID=%d\n", dep, n->count, uid);
+  }
+  n->id = uid;
+  ++uid;
 
-void rtree_assign_ids( struct node *n, int dep) {
-  for( int k=0; k<dep; k++)	fputs( "   ", stdout);
-  if(debug)  printf("ASSIGN IDs dep=%d count=%d\n", dep, n->count);
   for( int i=0; i<n->count; i++) {
-    if(debug)    for( int k=0; k<dep; k++)	fputs( "   ", stdout);
-    if(debug)    printf("  item %d kind=%d\n", i, n->kind);
-    n->id = uid;
-    ++uid;
+    if(debug>1)    for( int k=0; k<dep; k++)	fputs( "   ", stdout);
+    if(debug>1)    printf("  item %d kind=%d\n", i, n->kind);
     if( n->kind == LEAF) {	/* LEAF */
-      if(debug)      for( int k=0; k<dep; k++)	fputs( "   ", stdout);
-      if(debug)      printf("LEAF\n");
+      if(debug>1)      for( int k=0; k<dep; k++)	fputs( "   ", stdout);
+      if(debug>1)      printf("LEAF\n");
     } else {			/* BRANCH */
-      if(debug)      for( int k=0; k<dep; k++)	fputs( "   ", stdout);
-      if(debug)      printf("BRANCH\n");
+      if(debug>1)      for( int k=0; k<dep; k++)	fputs( "   ", stdout);
+      if(debug>1)      printf("BRANCH\n");
       ++dep;
       rtree_assign_ids( n->nodes[i], dep);
     }
-  }  
+  }
+  return uid;
 }
+
+
 
 //
 // dump an rtree recursively
@@ -766,37 +772,45 @@ void rtree_assign_ids( struct node *n, int dep) {
 void rtree_dump_node( struct node *n, int dep) {
   node_count += n->count;
 
-  for( int k=0; k<dep; k++)	fputs( "   ", stdout);
-  printf("NODE %d:  %s count=%d\n", n->id,
+  if( debug) {
+    for( int k=0; k<dep; k++)	fputs( "   ", stdout);
+    printf("NODE UID=%d:  %s count=%d\n", n->id,
 	 ((n->kind == LEAF) ? "LEAF" : "BRANCH"),
 	 n->count);
+  }
   // print rects first
   for( int i=0; i<n->count; i++) {
-    for( int k=0; k<dep; k++)	fputs( "   ", stdout);
-    printf("RECT %d (%f..%f) (%f..%f)\n",
+    if( debug) {
+      for( int k=0; k<dep; k++)	fputs( "   ", stdout);
+      printf("RECT %d (%f..%f) (%f..%f)\n",
 	     i, n->rects[i].min[0], n->rects[i].max[0],
 	     n->rects[i].min[1], n->rects[i].max[1]
-	   );
+	     );
+    }
   }
   
   for( int i=0; i<n->count; i++)
     if( n->kind == LEAF) {	/* LEAF */
-      for( int k=0; k<dep; k++)	fputs( "   ", stdout);
-      printf("ITEM %d (%f..%f) (%f..%f) %s\n",
-	     i, n->rects[i].min[0], n->rects[i].max[0],
+      if( debug) {
+	for( int k=0; k<dep; k++)	fputs( "   ", stdout);
+	printf("ITEM %d (%f..%f) (%f..%f) %s\n",
+	       i, n->rects[i].min[0], n->rects[i].max[0],
 	     n->rects[i].min[1], n->rects[i].max[1],
 	     ((a_shape *)(n->datas[i].data))->name);
+      }
       ++place_count;
     } else {			/* BRANCH */
-      for( int k=0; k<dep; k++)	fputs( "   ", stdout);
-      printf("DOWN %d (%f..%f) (%f..%f)\n",
-	     i, n->rects[i].min[0], n->rects[i].max[0],
-	     n->rects[i].min[1], n->rects[i].max[1]);
+      if( debug) { for( int k=0; k<dep; k++)	fputs( "   ", stdout);
+	printf("DOWN %d (%f..%f) (%f..%f)\n",
+	       i, n->rects[i].min[0], n->rects[i].max[0],
+	       n->rects[i].min[1], n->rects[i].max[1]);
+      }
       rtree_dump_node( n->nodes[i], dep+1);
     }
 }
 
-void rtree_dump( struct rtree *tr) {
+void rtree_dump( struct rtree *tr, int debug_level) {
+  debug = debug_level;
   // dump the tree structure
   rtree_assign_ids( tr->root, 0);
   printf("TREE:  (%f..%f) (%f..%f) count=%ld height=%ld\n",
@@ -804,5 +818,10 @@ void rtree_dump( struct rtree *tr) {
 	 tr->count, tr->height);
   rtree_dump_node( tr->root, 0);
   printf("Total nodes: %d (%ld bytes)\n", node_count, node_count * sizeof( struct f_node));
-  printf("Places: %d\n", place_count);
+  printf("Places: %d  UIDs: %d\n", place_count, uid);
+}
+
+
+void rtree_dump_file( struct rtree *tr, FILE *ft, FILE *fp) {
+
 }

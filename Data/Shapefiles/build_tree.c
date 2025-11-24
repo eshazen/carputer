@@ -1,0 +1,203 @@
+//
+// read shape files .DAT and .VRT written by grid_eval.c
+// write a .REE file with an r-tree as:
+//
+//  struct f_node {
+//    enum kind kind;     // LEAF or BRANCH
+//    int count;          // number of rects
+//    struct rect rects[MAXITEMS];   /* coord_t min[2], max[2] */
+//    union {
+//      long node_offsets[MAXITEMS]; /* offset to another node for BRANCH */
+//      long item_offsets[MAXITEMS]; /* offset to item for LEAF */
+//    };
+//  };
+
+
+#include <string.h>
+#include <stdio.h>
+#include "rtree.h"
+#include "shape.h"
+#include "filetree.h"
+
+char buff[80];
+
+void my_rtree_dump_node( struct node *n, int dep, FILE* fp);
+int my_rtree_dump( struct rtree *tr, int debug_level, FILE *fp);
+void my_rtree_write_file( struct node *n, FILE *ft, int dep);
+
+int debug = 0;
+
+int main( int argc, char *argv[]) {
+
+  coord_t coord;
+  int num = 0;
+  int count;
+
+  FILE *fp;
+  FILE *fv;
+  FILE *ft;
+
+  f_shape shape;
+  long shape_offset;
+
+  printf("Creating R-Tree\n");
+  struct rtree *tr = rtree_new();
+
+  snprintf( buff, sizeof(buff), "%s.DAT", argv[1]);
+  if( (fp = fopen( buff, "rb")) == NULL) {
+    fprintf( stderr, "Can't open %s for input\n", buff);
+    return 1;
+  }
+  snprintf( buff, sizeof(buff), "%s.VRT", argv[1]);
+  if( (fv = fopen( buff, "rb")) == NULL) {
+    fprintf( stderr, "Can't open %s for input\n", buff);
+    return 1;
+  }
+  snprintf( buff, sizeof(buff), "%s.REE", argv[1]);
+  if( (ft = fopen( buff, "wb")) == NULL) {
+    fprintf( stderr, "Can't open %s for output\n", buff);
+    return 1;
+  }
+
+  fread( &count, sizeof(int), 1, fp);
+
+  for( num=0; num<count; num++) {
+    shape_offset = ftell( fp);
+    fread( &shape, sizeof(shape), 1, fp);
+
+    if( debug) {
+      printf("SHAPE %d: ", num);
+      print_fshape( &shape);
+
+    // insert shape in tree
+      printf("Insert (%f..%f) (%f..%f)\n", shape.minLat,shape.maxLat,
+	     shape.minLon, shape.maxLon);
+    }
+
+    rtree_insert( tr, (double[2]){shape.minLat,shape.minLon},
+		  (double[2]){shape.maxLat,shape.maxLon}, (void *)shape_offset);
+
+    if( debug) printf("  lat: ");
+    for( int i=0; i<shape.nvert; i++) {
+      fread( &coord, sizeof(coord_t), 1, fv);
+      if( i < 5 && debug)
+	printf(" %f", coord);
+    }
+    if( debug) printf("\n");
+
+    if( debug) printf("  lon: ");
+    for( int i=0; i<shape.nvert; i++) {
+      fread( &coord, sizeof(coord_t), 1, fv);
+      if( i < 5 && debug)
+	printf(" %f", coord);
+    }
+    if( debug) printf("\n");
+  }
+
+  // dump the tree to console
+  int nodes = my_rtree_dump( tr, 0, fp);
+  my_rtree_write_file( tr->root, ft, 0);
+
+  printf("Wrote %d nodes (size=%ld) to file (%ld bytes)\n", nodes, 
+	 sizeof(struct f_node), ftell(ft));
+  
+  fclose( ft);
+  return 0;
+}
+
+
+
+
+//
+// dump an rtree recursively
+//
+void my_rtree_dump_node( struct node *n, int dep, FILE* fp) {
+  f_shape shape;
+
+  if( debug) {
+    for( int k=0; k<dep; k++)	fputs( "   ", stdout);
+    printf("NODE UID=%d:  %s count=%d\n", n->id,
+	 ((n->kind == LEAF) ? "LEAF" : "BRANCH"),
+	 n->count);
+    
+  }
+  // print rects first
+  for( int i=0; i<n->count; i++) {
+    if( debug) {
+      for( int k=0; k<dep; k++)	fputs( "   ", stdout);
+      printf("RECT %d (%f..%f) (%f..%f)\n",
+	     i, n->rects[i].min[0], n->rects[i].max[0],
+	     n->rects[i].min[1], n->rects[i].max[1]
+	     );
+    }
+  }
+  
+  for( int i=0; i<n->count; i++)
+    if( n->kind == LEAF) {	/* LEAF */
+      if( debug) {
+	for( int k=0; k<dep; k++)	fputs( "   ", stdout);
+	long locn = (long)n->datas[i].data;
+	printf("SEEK TO %ld\n", locn);
+	fseek( fp, locn, SEEK_SET);
+
+	fread( &shape, sizeof(shape), 1, fp);
+	for( int k=0; k<dep; k++)	fputs( "   ", stdout);
+	print_fshape( &shape);
+      }
+    } else {			/* BRANCH */
+      if( debug) { for( int k=0; k<dep; k++)	fputs( "   ", stdout);
+	printf("DOWN %d (%f..%f) (%f..%f)\n",
+	       i, n->rects[i].min[0], n->rects[i].max[0],
+	       n->rects[i].min[1], n->rects[i].max[1]);
+      }
+      my_rtree_dump_node( n->nodes[i], dep+1, fp);
+    }
+  
+}
+
+int my_rtree_dump( struct rtree *tr, int debug_level, FILE *fp) {
+  debug = debug_level;
+  int maxuid = rtree_assign_ids( tr->root, 0);
+  printf( "MAX UID = %d\n", maxuid);
+  // dump the tree structure
+  printf("TREE:  (%f..%f) (%f..%f) count=%ld height=%ld\n",
+	 tr->rect.min[0], tr->rect.max[0], tr->rect.min[1], tr->rect.max[1],
+	 tr->count, tr->height);
+  my_rtree_dump_node( tr->root, 0, fp);
+  return maxuid;
+}
+
+
+void my_rtree_write_file( struct node *n, FILE *ft, int dep) {
+
+  struct f_node fnode;
+
+  // copy the first 3 items
+  fnode.kind = n->kind;
+  fnode.count = n->count;
+  memcpy( fnode.rects, n->rects, sizeof(struct rect) * MAXITEMS);
+
+  if( debug) {
+    for( int k=0; k<dep; k++)	fputs( "   ", stdout);
+    printf("NODE UID=%d:  %s count=%d\n", n->id,
+	 ((n->kind == LEAF) ? "LEAF" : "BRANCH"),
+	 n->count);
+    
+  }
+
+  // first just fill in offsets
+  for( int i=0; i<n->count; i++)
+    if( n->kind == LEAF) {	/* LEAF */
+      fnode.item_offsets[i] = (long)n->datas[i].data;
+    } else {			/* BRANCH */
+      fnode.node_offsets[i] = n->nodes[i]->id;
+    }
+
+  fwrite( &fnode, sizeof( struct f_node), 1, ft);
+
+  // now recurse
+  for( int i=0; i<n->count; i++)
+    if( n->kind == BRANCH) {	/* BRANCH */
+      my_rtree_write_file( n->nodes[i], ft, dep+1);
+    }
+}

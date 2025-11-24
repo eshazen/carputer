@@ -8,6 +8,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <stdint.h>
+#include <stdio.h>
 
 #define DATATYPE void *
 #define DIMS 2
@@ -127,7 +128,10 @@ static bool feq(NUMTYPE a, NUMTYPE b) {
 
 
 // <ESH> add dump
-void rtree_dump( struct rtree *tr);
+void rtree_dump( struct rtree *tr, int debug);
+void rtree_dump_file( struct rtree *tr, FILE *ft, FILE *fp);
+void rtree_dump_file_node( struct node *n, FILE *ft, FILE *fp);
+int rtree_assign_ids( struct node *n, int dep);
 
 // rtree_new returns a new rtree using a custom allocator
 //

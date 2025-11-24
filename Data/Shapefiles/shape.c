@@ -16,6 +16,11 @@ void print_shape( a_shape* s) {
   printf("%s (%d) ", s->name, s->nvert);
   printf("Lat (%f..%f) Lon: (%f..%f)\n",
 	 s->minLat, s->maxLat, s->minLon, s->maxLon);
+#ifdef DEBUG
+  for( int i=0; i<s->nvert; i++) {
+    printf("  vert %d: (%f, %f)\n", i, s->lat[i], s->lon[i]);
+  }
+#endif
 }
 
 
@@ -33,10 +38,17 @@ void print_fshape( f_shape* s) {
 void shape_to_f( f_shape* fs, a_shape* ms) {
   fs->nvert = ms->nvert;
   strncpy( fs->name, ms->name, MAX_NAME);
+#ifdef INT_COORD
   fs->minLat = COORD_I_SCALE * ms->minLat;
   fs->minLon = COORD_I_SCALE * ms->minLon;
   fs->maxLat = COORD_I_SCALE * ms->maxLat;
   fs->maxLon = COORD_I_SCALE * ms->maxLon;
+#else
+  fs->minLat = ms->minLat;
+  fs->minLon = ms->minLon;
+  fs->maxLat = ms->maxLat;
+  fs->maxLon = ms->maxLon;
+#endif  
   fs->lat_off = 0;
   fs->lon_off = 0;
 }
@@ -68,6 +80,8 @@ int32_t write_shapes( a_shape* shapes, int32_t nshape, FILE *fp, FILE *fv) {
     int32_t llsiz = sizeof( coord_t) * shapes[i].nvert; // lat/lon list sizes
 #ifdef DEBUG
     printf(" LATLON: llsiz=%" PRId32 " cpos=%" PRId32 "\n", llsiz, cpos);
+    for( int k=0; k<shapes[i].nvert; k++)
+      printf( "  write virtex: %f %f\n", shapes[i].lat[k], shapes[i].lon[k]);
 #endif    
     fwrite( shapes[i].lat, sizeof( coord_t), shapes[i].nvert, fv);
     fshapes[i].lat_off = cpos;
