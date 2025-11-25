@@ -39,12 +39,12 @@ char buff[80];
 
 int find_match( char *name, char* matches[], int nmatch) {
   for( int i=0; i<nmatch; i++) {
-    //    printf("Compare %s with %s...\n", name, matches[i]);
+    //        printf("Compare %s with %s...\n", name, matches[i]);
     if( strcasestr( name, matches[i])) {
-      //      printf("Match!\n");
-      return i;
+      //            printf("Match!\n");
+      return i+1;
     }
-      //      printf("\n");
+    //            printf("\n");
   }
   return 0;
 }
@@ -213,6 +213,10 @@ int main(int argc, char **argv) {
       if( !strcasecmp( fieldName, "NAMELSAD"))
 	strcpy( buff, value);
     }
+
+    printf("%d parts\n", obj->nParts);
+    for( int j=0; j<obj->nParts; j++)
+      printf("part %d start %d\n", j,obj->panPartStart[j]);
 
     coord_t xMin = 999;
     coord_t xMax = -999;

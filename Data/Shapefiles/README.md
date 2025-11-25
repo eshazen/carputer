@@ -22,6 +22,9 @@ Code built but buggy.  Summary of tools:
 Trivial tests show search working but state data fails.
 Maybe need a graphics program to display data.
 
+_Note:_ Figured out that some states (e.g. MA) are in many disjoint areas.
+See `nParts`, `panPartStart` and `panPartType`.  Need to deal with this.
+
 ### 2025-11-22
 
 File-based R-Tree:

@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include "shapefil.h"
 
+#define VERBOSE
+
 int main(int argc, char **argv)
 {
     if (argc != 2)
@@ -87,6 +89,10 @@ int main(int argc, char **argv)
         printf("\n");
 
 #ifdef VERBOSE
+	printf("%d parts\n", obj->nParts);
+	for( int j=0; j<obj->nParts; j++)
+	  printf("part %d start %d\n", i,obj->panPartStart[j]);
+
         for (int j = 0; j < obj->nVertices; j++)
         {
             printf("  Vertex %d: (%.6f, %.6f)\n",
