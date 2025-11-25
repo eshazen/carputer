@@ -32,7 +32,23 @@ int point_in_polygon( const coord_t *xvert, const coord_t *yvert, int n, coord_t
 
 #include "shapefil.h"
 
+#define MAXMATCH 10
+
 char buff[80];
+
+
+int find_match( char *name, char* matches[], int nmatch) {
+  for( int i=0; i<nmatch; i++) {
+    //    printf("Compare %s with %s...\n", name, matches[i]);
+    if( strcasestr( name, matches[i])) {
+      //      printf("Match!\n");
+      return i;
+    }
+      //      printf("\n");
+  }
+  return 0;
+}
+
 
 int main(int argc, char **argv) {
 
@@ -42,8 +58,11 @@ int main(int argc, char **argv) {
   int fna = -1;
   int maxs = 99999;
 
+  char *matches[MAXMATCH];
+  int nmatch = 0;
+
   if (argc < 2) {
-    fprintf( stderr, "Usage: %s input_shapefile_without_extension [-o output] [-n max]\n", argv[0]);
+    fprintf( stderr, "Usage: %s input_shapefile_without_extension [-o output] [-n max] [-m match]\n", argv[0]);
     return 1;
   }
 
@@ -76,6 +95,24 @@ int main(int argc, char **argv) {
 	++i;
 	maxs = atoi( argv[i]);
 	break;
+      case 'M':
+	if( i == argc-1) {
+	  fprintf( stderr, "Missing match string after -M\n");
+	  return 1;
+	}
+	++i;
+
+	// split argv[i] on "|" into match strings
+	matches[nmatch] = strtok( argv[i], "|");
+	++nmatch;
+	while( (matches[nmatch] = strtok( NULL, "|")) && nmatch < MAXMATCH)
+	  ++nmatch;
+
+	printf("Searching for:\n");
+	for( int i=0; i<nmatch; i++)
+	  printf("%d: %s\n", i, matches[i]);
+
+	break;
       default:
 	fprintf( stderr, "Unknown option: %s\n", argv[i]);
 	return 1;
@@ -105,14 +142,13 @@ int main(int argc, char **argv) {
       return 1;
     }
 
-  int nEntities, shapeType;
+  int nEntities;
+  int savedEntities;
+
+  int shapeType;
   double minBound[4], maxBound[4];
   SHPGetInfo(hSHP, &nEntities, &shapeType, minBound, maxBound);
-
-  if( nEntities > maxs) {
-    fprintf( stderr, "Limiting output to first %d shapes\n", maxs);
-    nEntities = maxs;
-  }
+  savedEntities = 0;
 
   // allocate an array for the shapes
   a_shape shapes[nEntities];
@@ -150,6 +186,8 @@ int main(int argc, char **argv) {
 
   printf("===== SHAPE RECORDS =====\n\n");
 #endif
+
+  savedEntities = 0;
 
   for (int i = 0; i < nEntities; i++) {
     SHPObject *obj = SHPReadObject(hSHP, i);
@@ -199,19 +237,27 @@ int main(int argc, char **argv) {
 #ifdef DEBUG
     printf("nVertices: %d \"%s\" X(%f..%f) Y(%f..%f)\n", obj->nVertices, buff, xMin, xMax, yMin, yMax);
 #endif
-    shapes[i].minLon = xMin;
-    shapes[i].maxLon = xMax;
-    shapes[i].minLat = yMin;
-    shapes[i].maxLat = yMax;
-    strncpy( shapes[i].name, buff, MAX_NAME);
 
-    // allocate and copy the coords
-    shapes[i].lat = calloc( obj->nVertices, sizeof(coord_t));
-    shapes[i].lon = calloc( obj->nVertices, sizeof(coord_t));
-    shapes[i].nvert = obj->nVertices;
-    for (int j = 0; j < obj->nVertices; j++) {
-      shapes[i].lon[j] = obj->padfX[j];
-      shapes[i].lat[j] = obj->padfY[j];
+    if( (nmatch == 0) || find_match( buff, matches, nmatch)) {
+
+      printf("MATCH %s\n", buff);
+
+      shapes[savedEntities].minLon = xMin;
+      shapes[savedEntities].maxLon = xMax;
+      shapes[savedEntities].minLat = yMin;
+      shapes[savedEntities].maxLat = yMax;
+      strncpy( shapes[savedEntities].name, buff, MAX_NAME);
+
+      // allocate and copy the coords
+      shapes[savedEntities].lat = calloc( obj->nVertices, sizeof(coord_t));
+      shapes[savedEntities].lon = calloc( obj->nVertices, sizeof(coord_t));
+      shapes[savedEntities].nvert = obj->nVertices;
+      for (int j = 0; j < obj->nVertices; j++) {
+	shapes[savedEntities].lon[j] = obj->padfX[j];
+	shapes[savedEntities].lat[j] = obj->padfY[j];
+      }
+
+      ++savedEntities;
     }
 
     SHPDestroyObject(obj);
@@ -226,12 +272,12 @@ int main(int argc, char **argv) {
 
   int tgrids = ((LAT_MAX-LAT_MIN)/LAT_STEP) * ((LON_MAX-LON_MIN)/LON_STEP);
 
-  printf("Testing %d grids for %d entities...\n", tgrids, nEntities);
+  printf("Testing %d grids for %d entities...\n", tgrids, savedEntities);
 
   // calculate size of shapes
   int shapsiz = 0;
-  shapsiz += sizeof(shapes[0])*nEntities;
-  for (int i = 0; i < nEntities; i++)
+  shapsiz += sizeof(shapes[0])*savedEntities;
+  for (int i = 0; i < savedEntities; i++)
     shapsiz += 2*sizeof(coord_t)*shapes[i].nvert + strlen(shapes[i].name) + 1;
 
   printf("Shape data size %d bytes\n", shapsiz);
@@ -240,7 +286,7 @@ int main(int argc, char **argv) {
   for( coord_t lat = LAT_MIN; lat < LAT_MAX; lat += LAT_STEP) {
     for( coord_t lon = LON_MIN; lon < LON_MAX; lon += LON_STEP) {
       ++grids;
-      for (int i = 0; i < nEntities; i++) {
+      for (int i = 0; i < savedEntities; i++) {
 	++tests;
 	if( lat >= shapes[i].minLat && lat <= shapes[i].maxLat &&
 	    lon >= shapes[i].minLon && lon <= shapes[i].maxLon) {
@@ -265,12 +311,17 @@ int main(int argc, char **argv) {
     }
   }
 
-  printf("Tested %d grids against %d shapes\n", grids, nEntities);
+  printf("Tested %d grids against %d shapes\n", grids, savedEntities);
   printf("%d total tests, %d in range, %d inside\n", tests, inrange, inside);
 
+  if( savedEntities > maxs) {
+    fprintf( stderr, "Limiting output to first %d shapes\n", maxs);
+    savedEntities = maxs;
+  }
+
   if( fo) {
-    //    fwrite( shapes, sizeof( shapes[0]), nEntities, fo);
-    write_shapes( shapes, nEntities, fo, fv);
+    //    fwrite( shapes, sizeof( shapes[0]), savedEntities, fo);
+    write_shapes( shapes, savedEntities, fo, fv);
   }
 
   return 0;
