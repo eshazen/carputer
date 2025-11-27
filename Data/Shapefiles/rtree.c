@@ -7,7 +7,6 @@
 #include <math.h>
 #include <stdbool.h>
 #include "rtree.h"
-#include "shape.h"
 #include "filetree.h"
 
 ////////////////////////////////

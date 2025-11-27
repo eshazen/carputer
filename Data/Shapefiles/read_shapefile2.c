@@ -95,8 +95,8 @@ int main(int argc, char **argv)
 
         for (int j = 0; j < obj->nVertices; j++)
         {
-            printf("  Vertex %d: (%.6f, %.6f)\n",
-                   j, obj->padfX[j], obj->padfY[j]);
+	  //            printf("  Vertex %d: (%.6f, %.6f)\n",
+	  //                   j, obj->padfX[j], obj->padfY[j]);
         }
         printf("\n");
 #endif

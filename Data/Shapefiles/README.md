@@ -6,11 +6,40 @@
 
 ## Work log
 
+### 2025-11-27
+
+
+
+### 2025-11-26
+
+Pondering the multi-part problem.  There are some big ones... in the
+`places` dataset there are up to 164 parts and the state of AK has
+549!  Clearly this needs to be a variable-size extension to the shapes
+structure. 
+
+_Idea:_  Write/modify a tool to read the shapefile dataset and
+re-write as a text file in an easy-to-parse intermediate format.
+Either modify an existing tool or create a new one to write the
+shapfile data to the intermediate format.
+
+
+
+Modify the `.VRT` format to something like the following:
+
+	int32_t nvert;          // number of vertexes
+    int32_t nparts;         // number of polygons
+	int32_t parts[nparts];  // list of offsets to parts
+	coord_t lat[nvert];     // list of latitude
+	coord_t lon[nvert];     // list of longitude
+	  
+
+
 ### 2025-11-24
 
 Code built but buggy.  Summary of tools:
 
     grid_eval          read a shape file dataset, write .DAT and .VRT files
+                       can also write text file for plotting
     dump_shape         read and display .DAT and .VRT files
     read_shapefile2    (obsolete: read and display shape dataset)
     rtree_test         (read a shapefile, build R-tree and display only)
@@ -24,6 +53,8 @@ Maybe need a graphics program to display data.
 
 _Note:_ Figured out that some states (e.g. MA) are in many disjoint areas.
 See `nParts`, `panPartStart` and `panPartType`.  Need to deal with this.
+Modify `grid_eval` to parse parts list and output a text plot file
+for rendering using `draw_poly.py` (ChatGPT).
 
 ### 2025-11-22
 

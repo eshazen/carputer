@@ -1,7 +1,8 @@
 //
 // read a shapefile
-// iterate over a grid of lat/long, evaluate if point is inside
-// any shapes
+//
+// write binary DAT and VRT files with the shape database and virtex list for each
+// (original purpose was to traverse a grid and count locations in grid)
 //
 
 // #define VERBOSE
@@ -39,12 +40,9 @@ char buff[80];
 
 int find_match( char *name, char* matches[], int nmatch) {
   for( int i=0; i<nmatch; i++) {
-    //        printf("Compare %s with %s...\n", name, matches[i]);
     if( strcasestr( name, matches[i])) {
-      //            printf("Match!\n");
       return i+1;
     }
-    //            printf("\n");
   }
   return 0;
 }
@@ -61,13 +59,14 @@ int main(int argc, char **argv) {
   char *matches[MAXMATCH];
   int nmatch = 0;
 
+  int plot = 0;
+
   if (argc < 2) {
-    fprintf( stderr, "Usage: %s input_shapefile_without_extension [-o output] [-n max] [-m match]\n", argv[0]);
+    fprintf( stderr, "Usage: %s input_shapefile_without_extension [-p] [-o output] [-n max] [-m match]\n", argv[0]);
     return 1;
   }
 
   for( int i=1; i<argc; i++) {
-    printf("Looking at %s\n", argv[i]);
     if( *argv[i] == '-') {
       switch( toupper( argv[i][1])) {
       case 'O':
@@ -108,10 +107,9 @@ int main(int argc, char **argv) {
 	while( (matches[nmatch] = strtok( NULL, "|")) && nmatch < MAXMATCH)
 	  ++nmatch;
 
-	printf("Searching for:\n");
-	for( int i=0; i<nmatch; i++)
-	  printf("%d: %s\n", i, matches[i]);
-
+	break;
+      case 'P':
+	plot = 1;
 	break;
       default:
 	fprintf( stderr, "Unknown option: %s\n", argv[i]);
@@ -214,10 +212,6 @@ int main(int argc, char **argv) {
 	strcpy( buff, value);
     }
 
-    printf("%d parts\n", obj->nParts);
-    for( int j=0; j<obj->nParts; j++)
-      printf("part %d start %d\n", j,obj->panPartStart[j]);
-
     coord_t xMin = 999;
     coord_t xMax = -999;
     coord_t yMin = 999;
@@ -244,7 +238,7 @@ int main(int argc, char **argv) {
 
     if( (nmatch == 0) || find_match( buff, matches, nmatch)) {
 
-      printf("MATCH %s\n", buff);
+      if( !plot) fprintf( stderr, "MATCH %s\n", buff);
 
       shapes[savedEntities].minLon = xMin;
       shapes[savedEntities].maxLon = xMax;
@@ -259,6 +253,24 @@ int main(int argc, char **argv) {
       for (int j = 0; j < obj->nVertices; j++) {
 	shapes[savedEntities].lon[j] = obj->padfX[j];
 	shapes[savedEntities].lat[j] = obj->padfY[j];
+      }
+
+
+      int p_start, p_end;
+
+      if( plot) {
+	fprintf( stderr, "%d parts\n", obj->nParts);
+	for( int j=0; j<obj->nParts; j++) {
+	  p_start = obj->panPartStart[j];
+	  if( j == obj->nParts-1)
+	    p_end = obj->nVertices;
+	  else
+	    p_end = obj->panPartStart[j+1];
+	  printf("%d\n", p_end-p_start);
+	  for( int k=p_start; k<p_end; k++) {
+	    printf("%f %f\n", obj->padfX[k], obj->padfY[k]);
+	  }
+	}
       }
 
       ++savedEntities;
@@ -276,7 +288,7 @@ int main(int argc, char **argv) {
 
   int tgrids = ((LAT_MAX-LAT_MIN)/LAT_STEP) * ((LON_MAX-LON_MIN)/LON_STEP);
 
-  printf("Testing %d grids for %d entities...\n", tgrids, savedEntities);
+  fprintf( stderr, "Testing %d grids for %d entities...\n", tgrids, savedEntities);
 
   // calculate size of shapes
   int shapsiz = 0;
@@ -284,7 +296,7 @@ int main(int argc, char **argv) {
   for (int i = 0; i < savedEntities; i++)
     shapsiz += 2*sizeof(coord_t)*shapes[i].nvert + strlen(shapes[i].name) + 1;
 
-  printf("Shape data size %d bytes\n", shapsiz);
+  fprintf( stderr, "Shape data size %d bytes\n", shapsiz);
 
   // run the grid and see what is inside
   for( coord_t lat = LAT_MIN; lat < LAT_MAX; lat += LAT_STEP) {
@@ -315,17 +327,19 @@ int main(int argc, char **argv) {
     }
   }
 
-  printf("Tested %d grids against %d shapes\n", grids, savedEntities);
-  printf("%d total tests, %d in range, %d inside\n", tests, inrange, inside);
+  if( !plot) {
+    fprintf( stderr, "Tested %d grids against %d shapes\n", grids, savedEntities);
+    fprintf( stderr, "%d total tests, %d in range, %d inside\n", tests, inrange, inside);
 
-  if( savedEntities > maxs) {
-    fprintf( stderr, "Limiting output to first %d shapes\n", maxs);
-    savedEntities = maxs;
-  }
+    if( savedEntities > maxs) {
+      fprintf( stderr, "Limiting output to first %d shapes\n", maxs);
+      savedEntities = maxs;
+    }
 
-  if( fo) {
-    //    fwrite( shapes, sizeof( shapes[0]), savedEntities, fo);
-    write_shapes( shapes, savedEntities, fo, fv);
+    if( fo) {
+      //    fwrite( shapes, sizeof( shapes[0]), savedEntities, fo);
+      write_shapes( shapes, savedEntities, fo, fv);
+    }
   }
 
   return 0;
