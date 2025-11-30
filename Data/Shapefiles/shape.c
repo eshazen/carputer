@@ -6,6 +6,20 @@
 
 #define DEBUG
 
+// #define VERBOSE
+
+// use new polygon format for VRT file
+//
+//    <nvert>
+//      <lat> <lat>...
+//      <lon> <lon>...
+//        ...
+//    <nvert>
+//        ...
+//    0	
+
+#define NEW_POLY
+
 #include "shape.h"
 
 //
@@ -13,26 +27,27 @@
 // (ignore coordinate list)
 //
 void print_shape( a_shape* s) {
-  printf("%s (%d) ", s->name, s->nvert);
-  printf("Lat (%f..%f) Lon: (%f..%f)\n",
+  fprintf( stderr, "SHAPE: %s (%d) ", s->name, s->nvert);
+  fprintf( stderr, "Lat (%f..%f) Lon: (%f..%f)\n",
 	 s->minLat, s->maxLat, s->minLon, s->maxLon);
-#ifdef DEBUG
+#ifdef VERBOSE
   for( int i=0; i<s->nvert; i++) {
-    printf("  vert %d: (%f, %f)\n", i, s->lat[i], s->lon[i]);
+    fprintf( stderr, "  vert %d: (%f, %f)\n", i, s->lat[i], s->lon[i]);
   }
 #endif
 }
 
 
 void print_fshape( f_shape* s) {
-  printf("%s (%d) ", s->name, s->nvert);
+  fprintf( stderr, "FSHAPE: %s (%d) ", s->name, s->nvert);
 #ifdef INT_COORD
-  printf("Lat (%d..%d) Lon: (%d..%d)\n",
+  fprintf( stderr, "Lat (%d..%d) Lon: (%d..%d)\n",
 	 s->minLat, s->maxLat, s->minLon, s->maxLon);
 #else  
-  printf("Lat (%f..%f) Lon: (%f..%f)\n",
+  fprintf( stderr, "Lat (%f..%f) Lon: (%f..%f)\n",
 	 s->minLat, s->maxLat, s->minLon, s->maxLon);
 #endif
+  fprintf( stderr, "  %d parts offset %d\n", s->nparts, s->part_off);
 }
 
 void shape_to_f( f_shape* fs, a_shape* ms) {
@@ -51,37 +66,51 @@ void shape_to_f( f_shape* fs, a_shape* ms) {
 #endif  
   fs->lat_off = 0;
   fs->lon_off = 0;
+  fs->nparts = ms->nparts;
 }
 
-// write shape data to two files
+// write shape data to three files
 // DAT file has the following format:
 //   int ns
 //   f_shape shapes[ns]
 // VRT file has all the virtex arrays in order for the shapes
 
-int32_t write_shapes( a_shape* shapes, int32_t nshape, FILE *fp, FILE *fv) {
-  int32_t shapsiz = sizeof( a_shape) * nshape + sizeof(int);
+int32_t write_shapes( a_shape* shapes, int32_t nshape, FILE *fp, FILE *fv, FILE *fa) {
   int32_t cpos = 0;		// offset in virtex file
+  int32_t ppos = 0;		/* offset in parts file */
 
   f_shape fshapes[nshape];	/* allocate an array for the file format shapes */
-
-#ifdef DEBUG
-  printf("SHAPSIZ = %" PRId32 " (each: %ld)\n", shapsiz, sizeof( a_shape));
-#endif  
 
   for( int i=0; i<nshape; i++) {
     shape_to_f( &fshapes[i], &shapes[i]); /* copy the array */
 
+    // write parts
+    fshapes[i].part_off = ftell( fa);
 #ifdef DEBUG
-    printf("SHAPE: num:%d %s nvert = %d\n", i, shapes[i].name, shapes[i].nvert);
+    fprintf( stderr, "parts at %d:\n", fshapes[i].part_off);
+#endif
+    for( int k=0; k<shapes[i].nparts; k++) {
+#ifdef DEBUG
+      fprintf( stderr, "  %d %d\n", k, shapes[i].parts[k]);
+#endif
+      fwrite( &shapes[i].parts[k], sizeof(uint32_t), 1, fa);
+    }
+
+#ifdef DEBUG
+    fprintf( stderr, "num:%d %s nvert = %d\n", i, shapes[i].name, shapes[i].nvert);
     print_shape( &shapes[i]);
     print_fshape( &fshapes[i]);
 #endif    
+
     int32_t llsiz = sizeof( coord_t) * shapes[i].nvert; // lat/lon list sizes
 #ifdef DEBUG
-    printf(" LATLON: llsiz=%" PRId32 " cpos=%" PRId32 "\n", llsiz, cpos);
-    for( int k=0; k<shapes[i].nvert; k++)
-      printf( "  write virtex: %f %f\n", shapes[i].lat[k], shapes[i].lon[k]);
+    fprintf( stderr, " LATLON: llsiz=%" PRId32 " cpos=%" PRId32 "\n", llsiz, cpos);
+    for( int k=0; k<shapes[i].nvert; k++) {
+#ifdef VERBOSE
+      fprintf( stderr,  "  write virtex: %f %f\n", shapes[i].lat[k], shapes[i].lon[k]);
+#endif
+      ;
+    }
 #endif    
     fwrite( shapes[i].lat, sizeof( coord_t), shapes[i].nvert, fv);
     fshapes[i].lat_off = cpos;
@@ -90,7 +119,7 @@ int32_t write_shapes( a_shape* shapes, int32_t nshape, FILE *fp, FILE *fv) {
     fshapes[i].lon_off = cpos;
     cpos += llsiz;
 #ifdef DEBUG    
-    printf(" LLEND: cpos = %" PRId32 "\n", cpos);
+    fprintf( stderr, " LLEND: cpos = %" PRId32 "\n", cpos);
 #endif
   }
   

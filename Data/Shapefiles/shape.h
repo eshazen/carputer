@@ -20,7 +20,7 @@ typedef float coord_i;
 
 // in-memory shape with pointers
 typedef struct {
-  int nvert;
+  int32_t nvert;
   char name[MAX_NAME];
   coord_t *lat;
   coord_t *lon;
@@ -28,6 +28,8 @@ typedef struct {
   coord_t minLon;
   coord_t maxLat;
   coord_t maxLon;
+  int32_t nparts;
+  uint32_t* parts;
 } a_shape;
 
 // file shape with offsets
@@ -40,10 +42,12 @@ typedef struct {
   coord_i minLon;
   coord_i maxLat;
   coord_i maxLon;
+  int32_t nparts;
+  uint32_t part_off;
 } f_shape;
 
 void print_shape( a_shape* shape);
 void print_fshape( f_shape* shape);
-int32_t write_shapes( a_shape* shapes, int32_t nshape, FILE *fp, FILE *fv);
+int32_t write_shapes( a_shape* shapes, int32_t nshape, FILE *fp, FILE *fv, FILE *fa);
 
 #endif

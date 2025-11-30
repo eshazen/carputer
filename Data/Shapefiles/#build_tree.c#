@@ -26,12 +26,14 @@ int my_rtree_dump( struct rtree *tr, int debug_level, FILE *fp);
 void my_rtree_write_file( struct node *n, FILE *ft, int dep);
 
 int debug = 0;
+int verbose = 0;
 
 int main( int argc, char *argv[]) {
 
   coord_t coord;
   int num = 0;
   int count;
+  int is = 1;
 
   FILE *fp;
   FILE *fv;
@@ -43,17 +45,17 @@ int main( int argc, char *argv[]) {
   printf("Creating R-Tree\n");
   struct rtree *tr = rtree_new();
 
-  snprintf( buff, sizeof(buff), "%s.DAT", argv[1]);
+  snprintf( buff, sizeof(buff), "%s.DAT", argv[is]);
   if( (fp = fopen( buff, "rb")) == NULL) {
     fprintf( stderr, "Can't open %s for input\n", buff);
     return 1;
   }
-  snprintf( buff, sizeof(buff), "%s.VRT", argv[1]);
+  snprintf( buff, sizeof(buff), "%s.VRT", argv[is]);
   if( (fv = fopen( buff, "rb")) == NULL) {
     fprintf( stderr, "Can't open %s for input\n", buff);
     return 1;
   }
-  snprintf( buff, sizeof(buff), "%s.REE", argv[1]);
+  snprintf( buff, sizeof(buff), "%s.REE", argv[is]);
   if( (ft = fopen( buff, "wb")) == NULL) {
     fprintf( stderr, "Can't open %s for output\n", buff);
     return 1;

@@ -6,9 +6,37 @@
 
 ## Work log
 
-### 2025-11-27
+### 2025-11-30
 
+The `.DAT`, `.VRT`, `.PRT` and `.REE` files seem ok.
 
+_Idea:_ Write an Arduino-compatible library to open the above 4 files
+and search for matches.  Modify `find_by_tree` to use the new libary.
+
+Another problem... largest polygon has 5000+ vertexes.  That means the
+vertex list won't fit in RAM, so we have to modify `point_in_polygon`
+to operate on vertexes in file.  Given the way the code is structured
+this shouldn't be too difficult.  Complexity is O(N) where N=#vertexes.
+
+Should change the way lat/lon arrays are stored to store ordered (lat,lon)
+pairs.  To update:
+
+    build_tree.c
+    inside.c
+    grid_eval.c
+    rtree_test.c
+    test_file_reader.c
+    dump_shape.c
+    fake_data.c
+    #build_tree.c#
+    shape.c:
+    test_file_reader.h
+    filetree.h
+
+### 2025-11-29
+
+Output a new `.PRT` file with number of parts and list of part start
+offsets in the virtex list for each shape. (done)
 
 ### 2025-11-26
 
@@ -20,19 +48,8 @@ structure.
 _Idea:_  Write/modify a tool to read the shapefile dataset and
 re-write as a text file in an easy-to-parse intermediate format.
 Either modify an existing tool or create a new one to write the
-shapfile data to the intermediate format.
-
-
-
-Modify the `.VRT` format to something like the following:
-
-	int32_t nvert;          // number of vertexes
-    int32_t nparts;         // number of polygons
-	int32_t parts[nparts];  // list of offsets to parts
-	coord_t lat[nvert];     // list of latitude
-	coord_t lon[nvert];     // list of longitude
-	  
-
+shapfile data to the intermediate format.  Probably now worth the
+effort.
 
 ### 2025-11-24
 

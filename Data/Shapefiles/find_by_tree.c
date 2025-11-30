@@ -9,13 +9,16 @@
 
 static char buff[80];
 
-void search_tree( coord_t lat, coord_t lon, long offset, FILE *ft, FILE *fd, FILE *fv);
+int verbose = 0;
+
+void search_tree( coord_t lat, coord_t lon, long offset, FILE *ft, FILE *fd, FILE *fv, FILE *fa);
 
 int main( int argc, char *argv[]) {
 
   FILE *ft;
   FILE *fd;
   FILE *fv;
+  FILE *fa;
   coord_t lat, lon;
 
   if( argc < 4) {
@@ -35,16 +38,19 @@ int main( int argc, char *argv[]) {
   snprintf( buff, sizeof(buff), "%s.VRT", argv[1]);
   fv = fopen( buff, "rb");
 
-  if( !fv || !ft || !fd) {
-    fprintf( stderr, "Couldn't open %s.REE, .DAT or .VRT\n", argv[1]);
+  snprintf( buff, sizeof(buff), "%s.PRT", argv[1]);
+  fa = fopen( buff, "rb");
+
+  if( !fv || !ft || !fd || !fa) {
+    fprintf( stderr, "Couldn't open %s.REE, .DAT, .VRT or .PRT\n", argv[1]);
     return 1;
   }
 
-  search_tree( lat, lon, 0L, ft, fd, fv);		/* start at root */
+  search_tree( lat, lon, 0L, ft, fd, fv, fa);		/* start at root */
 }
 
 
-void search_tree( coord_t lat, coord_t lon, long offset, FILE *ft, FILE *fd, FILE *fv) {
+void search_tree( coord_t lat, coord_t lon, long offset, FILE *ft, FILE *fd, FILE *fv, FILE *fa) {
 
   struct f_node fnode;
   int rc;
@@ -77,24 +83,52 @@ void search_tree( coord_t lat, coord_t lon, long offset, FILE *ft, FILE *fd, FIL
 	  coord_t* lon_ptr = calloc( fshape.nvert, sizeof(coord_t));
 	  fread( lat_ptr, sizeof(coord_t), fshape.nvert, fv);
 	  fread( lon_ptr, sizeof(coord_t), fshape.nvert, fv);
-	  for( int k=0; k<fshape.nvert; k++) {
-	    printf("(%f,%f) ", lat_ptr[k], lon_ptr[k]);
-	    if( (k % 10) == 0)
-	      printf("\n");
+	  if( verbose) {
+	    for( int k=0; k<fshape.nvert; k++) {
+	      printf("(%f,%f) ", lat_ptr[k], lon_ptr[k]);
+	      if( (k % 10) == 0)
+		printf("\n");
+	    }
+	    printf("\n");
 	  }
-	  printf("\n");
-	  if( point_in_polygon( lat_ptr, lon_ptr, fshape.nvert, lat, lon))
-	    printf("is INSIDE!\n");
-	  else
-	    printf("outside\n");
-	  printf("      ");
+
+	  printf("LEAF SHAPE:\n");
 	  print_fshape( &fshape);
+
+	  // loop over parts
+	  if( fseek( fa, fshape.part_off, SEEK_SET)) {
+	    fprintf( stderr, "Error seeking to offset %d in PRT file\n", fshape.part_off);
+	  }
+
+	  uint32_t p_start, p_end;
+	  for( int j=0; j<fshape.nparts; j++) {
+	    fread( &p_start, sizeof(p_start), 1, fa); /* read offset for start */
+	    if( j == fshape.nparts-1) /* end of list? */
+	      p_end = fshape.nvert;
+	    else {
+	      // read ahead one
+	      long pos = ftell( fa);
+	      fread( &p_end, sizeof(p_end), 1, fa); /* read offset for end */
+	      fseek( fa, pos, SEEK_SET);
+	    }
+	    fprintf( stderr, "Part %d from %d to %d\n", j, p_start, p_end);
+	    for( unsigned k=p_start; k<p_end; k++) {
+	      
+	    }
+	  }
+
+//	  if( point_in_polygon( lat_ptr, lon_ptr, fshape.nvert, lat, lon))
+//	    printf("is INSIDE!\n");
+//	  else
+//	    printf("outside\n");
+
+
 	  free( lon_ptr);
 	  free( lat_ptr);
 	} else {		  /* BRANCH */
 	  printf("BRANCH: go down to node %ld offset %ld\n", fnode.node_offsets[i],
 		 fnode.node_offsets[i]*sizeof(fnode) );
-	  search_tree( lat, lon, fnode.node_offsets[i]*sizeof(fnode), ft, fd, fv);
+	  search_tree( lat, lon, fnode.node_offsets[i]*sizeof(fnode), ft, fd, fv, fa);
 	}
       }
     }

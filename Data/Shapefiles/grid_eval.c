@@ -12,20 +12,6 @@
 
 #include "shape.h"
 
-int point_in_polygon( const coord_t *xvert, const coord_t *yvert, int n, coord_t x, coord_t y);
-
-// approximate limits of lower 48
-#define LON_MIN -124.0
-#define LON_MAX -66.0
-#define LAT_MIN 25.0
-#define LAT_MAX 50.0
-
-// starting grid step size
-//#define LON_STEP 0.002
-//#define LAT_STEP 0.002
-#define LON_STEP 0.5
-#define LAT_STEP 0.5
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -38,6 +24,9 @@ int point_in_polygon( const coord_t *xvert, const coord_t *yvert, int n, coord_t
 char buff[80];
 
 
+// search in string name, look for occurrences of strings in match[0..nmatch-1]
+// return index of first string which matches + 1, or 0 if no match
+//
 int find_match( char *name, char* matches[], int nmatch) {
   for( int i=0; i<nmatch; i++) {
     if( strcasestr( name, matches[i])) {
@@ -52,6 +41,7 @@ int main(int argc, char **argv) {
 
   FILE *fo = NULL;
   FILE *fv = NULL;
+  FILE *fa = NULL;
 
   int fna = -1;
   int maxs = 99999;
@@ -60,6 +50,8 @@ int main(int argc, char **argv) {
   int nmatch = 0;
 
   int plot = 0;
+
+  int maxVert = 0;			/* max number of vertexes in a part  */
 
   if (argc < 2) {
     fprintf( stderr, "Usage: %s input_shapefile_without_extension [-p] [-o output] [-n max] [-m match]\n", argv[0]);
@@ -85,6 +77,11 @@ int main(int argc, char **argv) {
 	  fprintf( stderr, "Error opening output file %s\n", buff);
 	  return 1;
 	}
+	snprintf( buff, sizeof( buff), "%s.PRT", argv[i]);
+	if( (fa = fopen( buff, "wb")) == NULL) {
+	  fprintf( stderr, "Error opening output file %s\n", buff);
+	  return 1;
+	}
 	break;
       case 'N':
 	if( i == argc-1) {
@@ -106,7 +103,6 @@ int main(int argc, char **argv) {
 	++nmatch;
 	while( (matches[nmatch] = strtok( NULL, "|")) && nmatch < MAXMATCH)
 	  ++nmatch;
-
 	break;
       case 'P':
 	plot = 1;
@@ -140,8 +136,8 @@ int main(int argc, char **argv) {
       return 1;
     }
 
-  int nEntities;
-  int savedEntities;
+  int nEntities;		/* number of entities in file */
+  int savedEntities;		/* number of entities which match */
 
   int shapeType;
   double minBound[4], maxBound[4];
@@ -255,21 +251,28 @@ int main(int argc, char **argv) {
 	shapes[savedEntities].lat[j] = obj->padfY[j];
       }
 
+      fprintf( stderr, "%d parts\n", obj->nParts);
+
+      // copy the list of parts
+      shapes[savedEntities].parts = calloc( obj->nParts, sizeof(uint32_t));
+      shapes[savedEntities].nparts = obj->nParts;
+      for( int j=0; j<obj->nParts; j++)
+	shapes[savedEntities].parts[j] = obj->panPartStart[j];
 
       int p_start, p_end;
-
-      if( plot) {
-	fprintf( stderr, "%d parts\n", obj->nParts);
-	for( int j=0; j<obj->nParts; j++) {
-	  p_start = obj->panPartStart[j];
-	  if( j == obj->nParts-1)
-	    p_end = obj->nVertices;
-	  else
-	    p_end = obj->panPartStart[j+1];
-	  printf("%d\n", p_end-p_start);
-	  for( int k=p_start; k<p_end; k++) {
-	    printf("%f %f\n", obj->padfX[k], obj->padfY[k]);
-	  }
+      // output parts (distinct polygons) for plotting
+      for( int j=0; j<obj->nParts; j++) {
+	p_start = obj->panPartStart[j];
+	if( j == obj->nParts-1)
+	  p_end = obj->nVertices;
+	else
+	  p_end = obj->panPartStart[j+1];
+	if( plot) printf("%d\n", p_end-p_start);
+	for( int k=p_start; k<p_end; k++) {
+	  if( plot) printf("%f %f\n", obj->padfX[k], obj->padfY[k]);
+	  ;
+	  if( (p_end-p_start)+1 > maxVert)
+	    maxVert = (p_end-p_start)+1;
 	}
       }
 
@@ -281,55 +284,7 @@ int main(int argc, char **argv) {
   SHPClose(hSHP);
   if (hDBF) DBFClose(hDBF);
 
-  int inrange = 0;
-  int inside = 0;
-  int grids = 0;
-  int tests = 0;
-
-  int tgrids = ((LAT_MAX-LAT_MIN)/LAT_STEP) * ((LON_MAX-LON_MIN)/LON_STEP);
-
-  fprintf( stderr, "Testing %d grids for %d entities...\n", tgrids, savedEntities);
-
-  // calculate size of shapes
-  int shapsiz = 0;
-  shapsiz += sizeof(shapes[0])*savedEntities;
-  for (int i = 0; i < savedEntities; i++)
-    shapsiz += 2*sizeof(coord_t)*shapes[i].nvert + strlen(shapes[i].name) + 1;
-
-  fprintf( stderr, "Shape data size %d bytes\n", shapsiz);
-
-  // run the grid and see what is inside
-  for( coord_t lat = LAT_MIN; lat < LAT_MAX; lat += LAT_STEP) {
-    for( coord_t lon = LON_MIN; lon < LON_MAX; lon += LON_STEP) {
-      ++grids;
-      for (int i = 0; i < savedEntities; i++) {
-	++tests;
-	if( lat >= shapes[i].minLat && lat <= shapes[i].maxLat &&
-	    lon >= shapes[i].minLon && lon <= shapes[i].maxLon) {
-#ifdef DEBUG
-	  printf("Lat %f Lon %f in range for shape %s... ", lat, lon, shapes[i].name);
-#endif
-	  ++inrange;
-#ifndef RANGE_ONLY
-	  if( point_in_polygon( shapes[i].lon, shapes[i].lat, shapes[i].nvert, lon, lat)) {
-#ifdef DEBUG
-	    printf("Inside\n");
-#endif
-	    ++inside;
-	  } else {
-#ifdef DEBUG
-	    printf("\n");
-#endif
-	  }
-#endif	  
-	}
-      }
-    }
-  }
-
   if( !plot) {
-    fprintf( stderr, "Tested %d grids against %d shapes\n", grids, savedEntities);
-    fprintf( stderr, "%d total tests, %d in range, %d inside\n", tests, inrange, inside);
 
     if( savedEntities > maxs) {
       fprintf( stderr, "Limiting output to first %d shapes\n", maxs);
@@ -338,9 +293,11 @@ int main(int argc, char **argv) {
 
     if( fo) {
       //    fwrite( shapes, sizeof( shapes[0]), savedEntities, fo);
-      write_shapes( shapes, savedEntities, fo, fv);
+      write_shapes( shapes, savedEntities, fo, fv, fa);
     }
   }
+
+  fprintf( stderr, "Largest shape has %d vertexes\n", maxVert);
 
   return 0;
 }

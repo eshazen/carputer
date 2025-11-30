@@ -24,6 +24,7 @@ int main(int argc, char **argv) {
   FILE *fo = NULL;
   FILE *fv = NULL;
   FILE *ft = NULL;
+  FILE *fa = NULL;
 
   int fna = -1;
   a_shape *shapes;
@@ -83,7 +84,7 @@ int main(int argc, char **argv) {
 
   printf("--- write shapes ---\n");
   if( fo) {
-    write_shapes( shapes, nEntities, fo, fv);
+    write_shapes( shapes, nEntities, fo, fv, fa);
   }
 
   return 0;
