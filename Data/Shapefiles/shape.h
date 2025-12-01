@@ -18,12 +18,16 @@ typedef float coord_i;
 
 #define MAX_NAME 80
 
+typedef struct {
+  coord_t lat;
+  coord_t lon;
+} a_point;
+
 // in-memory shape with pointers
 typedef struct {
   int32_t nvert;
   char name[MAX_NAME];
-  coord_t *lat;
-  coord_t *lon;
+  a_point* points;
   coord_t minLat;
   coord_t minLon;
   coord_t maxLat;
@@ -36,8 +40,7 @@ typedef struct {
 typedef struct {
   int32_t nvert;
   char name[MAX_NAME];
-  uint32_t lat_off;
-  uint32_t lon_off;
+  uint32_t points_off;
   coord_i minLat;
   coord_i minLon;
   coord_i maxLat;

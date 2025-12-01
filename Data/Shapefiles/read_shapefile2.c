@@ -91,7 +91,7 @@ int main(int argc, char **argv)
 #ifdef VERBOSE
 	printf("%d parts\n", obj->nParts);
 	for( int j=0; j<obj->nParts; j++)
-	  printf("part %d start %d\n", i,obj->panPartStart[j]);
+	  printf("part %d start %d\n", j, obj->panPartStart[j]);
 
         for (int j = 0; j < obj->nVertices; j++)
         {

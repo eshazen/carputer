@@ -8,6 +8,8 @@
 
 ### 2025-11-30
 
+End of the day:  a few bugs maybe in writing the new files.
+
 The `.DAT`, `.VRT`, `.PRT` and `.REE` files seem ok.
 
 _Idea:_ Write an Arduino-compatible library to open the above 4 files
@@ -23,15 +25,17 @@ pairs.  To update:
 
     build_tree.c
     inside.c
-    grid_eval.c
+    grid_eval.c             done
     rtree_test.c
     test_file_reader.c
     dump_shape.c
     fake_data.c
-    #build_tree.c#
-    shape.c:
+    shape.c:                done
     test_file_reader.h
     filetree.h
+
+GEOID to ignore to filter for lower 48: 
+<br>All >= 60, plus 02 (AK) and 15 (HI)
 
 ### 2025-11-29
 

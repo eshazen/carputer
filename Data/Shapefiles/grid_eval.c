@@ -24,6 +24,18 @@
 char buff[80];
 
 
+//
+// is GEOID in lower 48?
+// return 1 if true, 0 if false
+//
+int filter_id( int geoID) {
+  if( geoID < 60 && geoID != 2 && geoID != 15)
+    return 1;
+  else
+    return 0;
+}
+
+
 // search in string name, look for occurrences of strings in match[0..nmatch-1]
 // return index of first string which matches + 1, or 0 if no match
 //
@@ -53,8 +65,11 @@ int main(int argc, char **argv) {
 
   int maxVert = 0;			/* max number of vertexes in a part  */
 
+  int filterLower48 = 0;	/* filter the lower 48 GEOID */
+
   if (argc < 2) {
-    fprintf( stderr, "Usage: %s input_shapefile_without_extension [-p] [-o output] [-n max] [-m match]\n", argv[0]);
+    fprintf( stderr, 
+	     "Usage: %s input_shapefile_without_extension [-f] [-p] [-o output] [-n max] [-m match]\n", argv[0]);
     return 1;
   }
 
@@ -107,6 +122,9 @@ int main(int argc, char **argv) {
       case 'P':
 	plot = 1;
 	break;
+      case 'F':
+	filterLower48 = 1;
+	break;
       default:
 	fprintf( stderr, "Unknown option: %s\n", argv[i]);
 	return 1;
@@ -139,6 +157,7 @@ int main(int argc, char **argv) {
   int nEntities;		/* number of entities in file */
   int savedEntities;		/* number of entities which match */
 
+  int geoID;
   int shapeType;
   double minBound[4], maxBound[4];
   SHPGetInfo(hSHP, &nEntities, &shapeType, minBound, maxBound);
@@ -206,6 +225,10 @@ int main(int argc, char **argv) {
 	strcpy( buff, value);
       if( !strcasecmp( fieldName, "NAMELSAD"))
 	strcpy( buff, value);
+      if( !strcasecmp( fieldName, "GEOID")) {
+	geoID = atoi( value);
+      }
+	
     }
 
     coord_t xMin = 999;
@@ -232,7 +255,8 @@ int main(int argc, char **argv) {
     printf("nVertices: %d \"%s\" X(%f..%f) Y(%f..%f)\n", obj->nVertices, buff, xMin, xMax, yMin, yMax);
 #endif
 
-    if( (nmatch == 0) || find_match( buff, matches, nmatch)) {
+    if( ((nmatch == 0) || find_match( buff, matches, nmatch)) 
+	&& ((filterLower48 == 0) || filter_id( geoID))) {
 
       if( !plot) fprintf( stderr, "MATCH %s\n", buff);
 
@@ -243,12 +267,11 @@ int main(int argc, char **argv) {
       strncpy( shapes[savedEntities].name, buff, MAX_NAME);
 
       // allocate and copy the coords
-      shapes[savedEntities].lat = calloc( obj->nVertices, sizeof(coord_t));
-      shapes[savedEntities].lon = calloc( obj->nVertices, sizeof(coord_t));
+      shapes[savedEntities].points = calloc( obj->nVertices, 2*sizeof(coord_t));
       shapes[savedEntities].nvert = obj->nVertices;
       for (int j = 0; j < obj->nVertices; j++) {
-	shapes[savedEntities].lon[j] = obj->padfX[j];
-	shapes[savedEntities].lat[j] = obj->padfY[j];
+	shapes[savedEntities].points[j].lon = obj->padfX[j];
+	shapes[savedEntities].points[j].lat = obj->padfY[j];
       }
 
       fprintf( stderr, "%d parts\n", obj->nParts);
@@ -292,7 +315,6 @@ int main(int argc, char **argv) {
     }
 
     if( fo) {
-      //    fwrite( shapes, sizeof( shapes[0]), savedEntities, fo);
       write_shapes( shapes, savedEntities, fo, fv, fa);
     }
   }

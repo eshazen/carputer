@@ -1,0 +1,2256 @@
+===== SHAPEFILE HEADER INFORMATION =====
+Shapefile Base Name: cb_2024_us_state_500k
+Shape Type (numeric): 5
+Number of Shapes: 56
+Bounding Box:
+  Xmin: -179.146711
+  Ymin: -14.548699
+  Xmax: 179.77847
+  Ymax: 71.387815
+  Zmin: 0
+  Zmax: 0
+  Mmin: 0
+  Mmax: 0
+
+===== DBF ATTRIBUTE TABLE HEADER =====
+Number of Attribute Records: 56
+Number of Fields: 9
+
+Fields:
+  STATEFP      Type=0  Width=2  Decimals=0
+  STATENS      Type=0  Width=8  Decimals=0
+  GEOIDFQ      Type=0  Width=11  Decimals=0
+  GEOID        Type=0  Width=2  Decimals=0
+  STUSPS       Type=0  Width=2  Decimals=0
+  NAME         Type=0  Width=100  Decimals=0
+  LSAD         Type=0  Width=2  Decimals=0
+  ALAND        Type=2  Width=14  Decimals=0
+  AWATER       Type=2  Width=14  Decimals=0
+
+===== SHAPE RECORDS =====
+
+Record 0:
+  STATEFP: 35
+  STATENS: 00897535
+  GEOIDFQ: 0400000US35
+  GEOID: 35
+  STUSPS: NM
+  NAME: New Mexico
+  LSAD: 00
+  ALAND: 314198519809
+  AWATER: 726531289
+
+1 parts
+part 0 start 0
+
+Record 1:
+  STATEFP: 46
+  STATENS: 01785534
+  GEOIDFQ: 0400000US46
+  GEOID: 46
+  STUSPS: SD
+  NAME: South Dakota
+  LSAD: 00
+  ALAND: 196341670967
+  AWATER: 3387563375
+
+1 parts
+part 0 start 0
+
+Record 2:
+  STATEFP: 06
+  STATENS: 01779778
+  GEOIDFQ: 0400000US06
+  GEOID: 06
+  STUSPS: CA
+  NAME: California
+  LSAD: 00
+  ALAND: 403673433805
+  AWATER: 20291632828
+
+15 parts
+part 0 start 0
+part 1 start 141
+part 2 start 233
+part 3 start 248
+part 4 start 258
+part 5 start 282
+part 6 start 366
+part 7 start 494
+part 8 start 593
+part 9 start 640
+part 10 start 655
+part 11 start 662
+part 12 start 702
+part 13 start 713
+part 14 start 729
+
+Record 3:
+  STATEFP: 21
+  STATENS: 01779786
+  GEOIDFQ: 0400000US21
+  GEOID: 21
+  STUSPS: KY
+  NAME: Kentucky
+  LSAD: 00
+  ALAND: 102266755818
+  AWATER: 2384136185
+
+2 parts
+part 0 start 0
+part 1 start 3082
+
+Record 4:
+  STATEFP: 01
+  STATENS: 01779775
+  GEOIDFQ: 0400000US01
+  GEOID: 01
+  STUSPS: AL
+  NAME: Alabama
+  LSAD: 00
+  ALAND: 131185561946
+  AWATER: 4581813708
+
+5 parts
+part 0 start 0
+part 1 start 15
+part 2 start 22
+part 3 start 54
+part 4 start 98
+
+Record 5:
+  STATEFP: 13
+  STATENS: 01705317
+  GEOIDFQ: 0400000US13
+  GEOID: 13
+  STUSPS: GA
+  NAME: Georgia
+  LSAD: 00
+  ALAND: 149485762701
+  AWATER: 4419221858
+
+2 parts
+part 0 start 0
+part 1 start 8
+
+Record 6:
+  STATEFP: 05
+  STATENS: 00068085
+  GEOIDFQ: 0400000US05
+  GEOID: 05
+  STUSPS: AR
+  NAME: Arkansas
+  LSAD: 00
+  ALAND: 134658517854
+  AWATER: 3122715710
+
+1 parts
+part 0 start 0
+
+Record 7:
+  STATEFP: 42
+  STATENS: 01779798
+  GEOIDFQ: 0400000US42
+  GEOID: 42
+  STUSPS: PA
+  NAME: Pennsylvania
+  LSAD: 00
+  ALAND: 115881476238
+  AWATER: 3397613881
+
+1 parts
+part 0 start 0
+
+Record 8:
+  STATEFP: 29
+  STATENS: 01779791
+  GEOIDFQ: 0400000US29
+  GEOID: 29
+  STUSPS: MO
+  NAME: Missouri
+  LSAD: 00
+  ALAND: 178052403953
+  AWATER: 2487375487
+
+1 parts
+part 0 start 0
+
+Record 9:
+  STATEFP: 08
+  STATENS: 01779779
+  GEOIDFQ: 0400000US08
+  GEOID: 08
+  STUSPS: CO
+  NAME: Colorado
+  LSAD: 00
+  ALAND: 268418973518
+  AWATER: 1185541418
+
+1 parts
+part 0 start 0
+
+Record 10:
+  STATEFP: 49
+  STATENS: 01455989
+  GEOIDFQ: 0400000US49
+  GEOID: 49
+  STUSPS: UT
+  NAME: Utah
+  LSAD: 00
+  ALAND: 213921882299
+  AWATER: 5963163952
+
+1 parts
+part 0 start 0
+
+Record 11:
+  STATEFP: 40
+  STATENS: 01102857
+  GEOIDFQ: 0400000US40
+  GEOID: 40
+  STUSPS: OK
+  NAME: Oklahoma
+  LSAD: 00
+  ALAND: 177664629521
+  AWATER: 3373250292
+
+1 parts
+part 0 start 0
+
+Record 12:
+  STATEFP: 47
+  STATENS: 01325873
+  GEOIDFQ: 0400000US47
+  GEOID: 47
+  STUSPS: TN
+  NAME: Tennessee
+  LSAD: 00
+  ALAND: 106770544103
+  AWATER: 2345359962
+
+1 parts
+part 0 start 0
+
+Record 13:
+  STATEFP: 56
+  STATENS: 01779807
+  GEOIDFQ: 0400000US56
+  GEOID: 56
+  STUSPS: WY
+  NAME: Wyoming
+  LSAD: 00
+  ALAND: 251458190512
+  AWATER: 1868025485
+
+1 parts
+part 0 start 0
+
+Record 14:
+  STATEFP: 18
+  STATENS: 00448508
+  GEOIDFQ: 0400000US18
+  GEOID: 18
+  STUSPS: IN
+  NAME: Indiana
+  LSAD: 00
+  ALAND: 92786694938
+  AWATER: 1543916881
+
+1 parts
+part 0 start 0
+
+Record 15:
+  STATEFP: 25
+  STATENS: 00606926
+  GEOIDFQ: 0400000US25
+  GEOID: 25
+  STUSPS: MA
+  NAME: Massachusetts
+  LSAD: 00
+  ALAND: 20204400635
+  AWATER: 7130649971
+
+34 parts
+part 0 start 0
+part 1 start 73
+part 2 start 102
+part 3 start 115
+part 4 start 122
+part 5 start 128
+part 6 start 137
+part 7 start 151
+part 8 start 158
+part 9 start 179
+part 10 start 193
+part 11 start 273
+part 12 start 286
+part 13 start 316
+part 14 start 331
+part 15 start 352
+part 16 start 490
+part 17 start 508
+part 18 start 528
+part 19 start 538
+part 20 start 547
+part 21 start 556
+part 22 start 570
+part 23 start 597
+part 24 start 607
+part 25 start 615
+part 26 start 638
+part 27 start 646
+part 28 start 669
+part 29 start 683
+part 30 start 693
+part 31 start 709
+part 32 start 718
+part 33 start 730
+
+Record 16:
+  STATEFP: 16
+  STATENS: 01779783
+  GEOIDFQ: 0400000US16
+  GEOID: 16
+  STUSPS: ID
+  NAME: Idaho
+  LSAD: 00
+  ALAND: 214050504522
+  AWATER: 2390996667
+
+1 parts
+part 0 start 0
+
+Record 17:
+  STATEFP: 02
+  STATENS: 01785533
+  GEOIDFQ: 0400000US02
+  GEOID: 02
+  STUSPS: AK
+  NAME: Alaska
+  LSAD: 00
+  ALAND: 1479508971743
+  AWATER: 244710526650
+
+549 parts
+part 0 start 0
+part 1 start 17
+part 2 start 28
+part 3 start 38
+part 4 start 45
+part 5 start 52
+part 6 start 61
+part 7 start 139
+part 8 start 180
+part 9 start 211
+part 10 start 252
+part 11 start 262
+part 12 start 269
+part 13 start 283
+part 14 start 290
+part 15 start 730
+part 16 start 737
+part 17 start 754
+part 18 start 763
+part 19 start 773
+part 20 start 782
+part 21 start 805
+part 22 start 839
+part 23 start 933
+part 24 start 946
+part 25 start 954
+part 26 start 1022
+part 27 start 1081
+part 28 start 1191
+part 29 start 1243
+part 30 start 1259
+part 31 start 1266
+part 32 start 1806
+part 33 start 1819
+part 34 start 1945
+part 35 start 1971
+part 36 start 1979
+part 37 start 1990
+part 38 start 2050
+part 39 start 2067
+part 40 start 2075
+part 41 start 2086
+part 42 start 2098
+part 43 start 2106
+part 44 start 2115
+part 45 start 2161
+part 46 start 2170
+part 47 start 2178
+part 48 start 2190
+part 49 start 2201
+part 50 start 2321
+part 51 start 2337
+part 52 start 2346
+part 53 start 2371
+part 54 start 2408
+part 55 start 2415
+part 56 start 2498
+part 57 start 2510
+part 58 start 2521
+part 59 start 2592
+part 60 start 2704
+part 61 start 2719
+part 62 start 2730
+part 63 start 2748
+part 64 start 2769
+part 65 start 2779
+part 66 start 2802
+part 67 start 2810
+part 68 start 2823
+part 69 start 3038
+part 70 start 3055
+part 71 start 3069
+part 72 start 3077
+part 73 start 3092
+part 74 start 3104
+part 75 start 3113
+part 76 start 8724
+part 77 start 8864
+part 78 start 8894
+part 79 start 8936
+part 80 start 8944
+part 81 start 8984
+part 82 start 9056
+part 83 start 9075
+part 84 start 9084
+part 85 start 9104
+part 86 start 9116
+part 87 start 9128
+part 88 start 9137
+part 89 start 9144
+part 90 start 9168
+part 91 start 9201
+part 92 start 9280
+part 93 start 9298
+part 94 start 9358
+part 95 start 9481
+part 96 start 11892
+part 97 start 11913
+part 98 start 11926
+part 99 start 11954
+part 100 start 11964
+part 101 start 11974
+part 102 start 12026
+part 103 start 12059
+part 104 start 14115
+part 105 start 14128
+part 106 start 14171
+part 107 start 14183
+part 108 start 14214
+part 109 start 14223
+part 110 start 14240
+part 111 start 14269
+part 112 start 14278
+part 113 start 14289
+part 114 start 14298
+part 115 start 14304
+part 116 start 14311
+part 117 start 14386
+part 118 start 14408
+part 119 start 14417
+part 120 start 14425
+part 121 start 14437
+part 122 start 14445
+part 123 start 14452
+part 124 start 14462
+part 125 start 14478
+part 126 start 14485
+part 127 start 14497
+part 128 start 14510
+part 129 start 14534
+part 130 start 14542
+part 131 start 14550
+part 132 start 14558
+part 133 start 14577
+part 134 start 14590
+part 135 start 14610
+part 136 start 14686
+part 137 start 14758
+part 138 start 17009
+part 139 start 17021
+part 140 start 17082
+part 141 start 17695
+part 142 start 17729
+part 143 start 17738
+part 144 start 17766
+part 145 start 17783
+part 146 start 17791
+part 147 start 17802
+part 148 start 17841
+part 149 start 17902
+part 150 start 17911
+part 151 start 17922
+part 152 start 17959
+part 153 start 18053
+part 154 start 18061
+part 155 start 18159
+part 156 start 18195
+part 157 start 18231
+part 158 start 18257
+part 159 start 18271
+part 160 start 21799
+part 161 start 21815
+part 162 start 21825
+part 163 start 21869
+part 164 start 21880
+part 165 start 21899
+part 166 start 21950
+part 167 start 21970
+part 168 start 21983
+part 169 start 22003
+part 170 start 22039
+part 171 start 22179
+part 172 start 22221
+part 173 start 22258
+part 174 start 22383
+part 175 start 22415
+part 176 start 22429
+part 177 start 22439
+part 178 start 22462
+part 179 start 22469
+part 180 start 22491
+part 181 start 22498
+part 182 start 22525
+part 183 start 22583
+part 184 start 22596
+part 185 start 22868
+part 186 start 22879
+part 187 start 23301
+part 188 start 23308
+part 189 start 23359
+part 190 start 23534
+part 191 start 23560
+part 192 start 23586
+part 193 start 23592
+part 194 start 23639
+part 195 start 23647
+part 196 start 23817
+part 197 start 23855
+part 198 start 23870
+part 199 start 23907
+part 200 start 23920
+part 201 start 23938
+part 202 start 23947
+part 203 start 23954
+part 204 start 23963
+part 205 start 23971
+part 206 start 24019
+part 207 start 24198
+part 208 start 24273
+part 209 start 24324
+part 210 start 24332
+part 211 start 24339
+part 212 start 24346
+part 213 start 24421
+part 214 start 24431
+part 215 start 24439
+part 216 start 24466
+part 217 start 24498
+part 218 start 24513
+part 219 start 24524
+part 220 start 25202
+part 221 start 25214
+part 222 start 25601
+part 223 start 25611
+part 224 start 25759
+part 225 start 25808
+part 226 start 25900
+part 227 start 25908
+part 228 start 26000
+part 229 start 26259
+part 230 start 26271
+part 231 start 26278
+part 232 start 26404
+part 233 start 26414
+part 234 start 26423
+part 235 start 26433
+part 236 start 26528
+part 237 start 26551
+part 238 start 26591
+part 239 start 26627
+part 240 start 26648
+part 241 start 26665
+part 242 start 26673
+part 243 start 26740
+part 244 start 26752
+part 245 start 26761
+part 246 start 26776
+part 247 start 26869
+part 248 start 26902
+part 249 start 27026
+part 250 start 27035
+part 251 start 27181
+part 252 start 27190
+part 253 start 27199
+part 254 start 27220
+part 255 start 27308
+part 256 start 27324
+part 257 start 27403
+part 258 start 27416
+part 259 start 27475
+part 260 start 27485
+part 261 start 27579
+part 262 start 27611
+part 263 start 27637
+part 264 start 27692
+part 265 start 27709
+part 266 start 27805
+part 267 start 27927
+part 268 start 27941
+part 269 start 27963
+part 270 start 28023
+part 271 start 28054
+part 272 start 28090
+part 273 start 28277
+part 274 start 28331
+part 275 start 28339
+part 276 start 28348
+part 277 start 28357
+part 278 start 28468
+part 279 start 28482
+part 280 start 28548
+part 281 start 28555
+part 282 start 28563
+part 283 start 28601
+part 284 start 28673
+part 285 start 28692
+part 286 start 30405
+part 287 start 30416
+part 288 start 30423
+part 289 start 30430
+part 290 start 30464
+part 291 start 30581
+part 292 start 30611
+part 293 start 30625
+part 294 start 30642
+part 295 start 30652
+part 296 start 30661
+part 297 start 30672
+part 298 start 30680
+part 299 start 30707
+part 300 start 30772
+part 301 start 30780
+part 302 start 30791
+part 303 start 30954
+part 304 start 30961
+part 305 start 30970
+part 306 start 30994
+part 307 start 31069
+part 308 start 34275
+part 309 start 34391
+part 310 start 34410
+part 311 start 34429
+part 312 start 34453
+part 313 start 34492
+part 314 start 34516
+part 315 start 34529
+part 316 start 34539
+part 317 start 34561
+part 318 start 34587
+part 319 start 34615
+part 320 start 34715
+part 321 start 34722
+part 322 start 34731
+part 323 start 34738
+part 324 start 34816
+part 325 start 34982
+part 326 start 35016
+part 327 start 35053
+part 328 start 35115
+part 329 start 35148
+part 330 start 35156
+part 331 start 35167
+part 332 start 35320
+part 333 start 35341
+part 334 start 35352
+part 335 start 35369
+part 336 start 35447
+part 337 start 35466
+part 338 start 35602
+part 339 start 35694
+part 340 start 35724
+part 341 start 35782
+part 342 start 35794
+part 343 start 36016
+part 344 start 36032
+part 345 start 36052
+part 346 start 36151
+part 347 start 36519
+part 348 start 36533
+part 349 start 36579
+part 350 start 36650
+part 351 start 36697
+part 352 start 36737
+part 353 start 36759
+part 354 start 36789
+part 355 start 36809
+part 356 start 36819
+part 357 start 36842
+part 358 start 36887
+part 359 start 38189
+part 360 start 38262
+part 361 start 38270
+part 362 start 38353
+part 363 start 38398
+part 364 start 38440
+part 365 start 38447
+part 366 start 38669
+part 367 start 38676
+part 368 start 38686
+part 369 start 39235
+part 370 start 39273
+part 371 start 39295
+part 372 start 39308
+part 373 start 39519
+part 374 start 39528
+part 375 start 39563
+part 376 start 39598
+part 377 start 39637
+part 378 start 39665
+part 379 start 39674
+part 380 start 39706
+part 381 start 39796
+part 382 start 39823
+part 383 start 39850
+part 384 start 39865
+part 385 start 40141
+part 386 start 40168
+part 387 start 40208
+part 388 start 40254
+part 389 start 40283
+part 390 start 40303
+part 391 start 40311
+part 392 start 40330
+part 393 start 40348
+part 394 start 40500
+part 395 start 40558
+part 396 start 40581
+part 397 start 41012
+part 398 start 41020
+part 399 start 41027
+part 400 start 41047
+part 401 start 41255
+part 402 start 41282
+part 403 start 41298
+part 404 start 41316
+part 405 start 41344
+part 406 start 41393
+part 407 start 41415
+part 408 start 41461
+part 409 start 41498
+part 410 start 41529
+part 411 start 41542
+part 412 start 41649
+part 413 start 41662
+part 414 start 41672
+part 415 start 41682
+part 416 start 41754
+part 417 start 43325
+part 418 start 43341
+part 419 start 43369
+part 420 start 43395
+part 421 start 43404
+part 422 start 43595
+part 423 start 43734
+part 424 start 43792
+part 425 start 44079
+part 426 start 44086
+part 427 start 44102
+part 428 start 44411
+part 429 start 44432
+part 430 start 44496
+part 431 start 44521
+part 432 start 44866
+part 433 start 44888
+part 434 start 44896
+part 435 start 44913
+part 436 start 46698
+part 437 start 50957
+part 438 start 50967
+part 439 start 50989
+part 440 start 98055
+part 441 start 98067
+part 442 start 98082
+part 443 start 98112
+part 444 start 98139
+part 445 start 99529
+part 446 start 99596
+part 447 start 99724
+part 448 start 99913
+part 449 start 99969
+part 450 start 100175
+part 451 start 100234
+part 452 start 100333
+part 453 start 100677
+part 454 start 100835
+part 455 start 100864
+part 456 start 100946
+part 457 start 102162
+part 458 start 102437
+part 459 start 102444
+part 460 start 102753
+part 461 start 102812
+part 462 start 103391
+part 463 start 103416
+part 464 start 103433
+part 465 start 103448
+part 466 start 104944
+part 467 start 104966
+part 468 start 104990
+part 469 start 105052
+part 470 start 105138
+part 471 start 105231
+part 472 start 105255
+part 473 start 105291
+part 474 start 105309
+part 475 start 105464
+part 476 start 105501
+part 477 start 105521
+part 478 start 105761
+part 479 start 106000
+part 480 start 107196
+part 481 start 107215
+part 482 start 107515
+part 483 start 107997
+part 484 start 108020
+part 485 start 108080
+part 486 start 108149
+part 487 start 108267
+part 488 start 108338
+part 489 start 108368
+part 490 start 108443
+part 491 start 108469
+part 492 start 108525
+part 493 start 108540
+part 494 start 108557
+part 495 start 108570
+part 496 start 108578
+part 497 start 108586
+part 498 start 108644
+part 499 start 108654
+part 500 start 108668
+part 501 start 108677
+part 502 start 108689
+part 503 start 108736
+part 504 start 108789
+part 505 start 108843
+part 506 start 108871
+part 507 start 108878
+part 508 start 108941
+part 509 start 108958
+part 510 start 108992
+part 511 start 109001
+part 512 start 109010
+part 513 start 109068
+part 514 start 109261
+part 515 start 109269
+part 516 start 109305
+part 517 start 109343
+part 518 start 109650
+part 519 start 109700
+part 520 start 109709
+part 521 start 109751
+part 522 start 109759
+part 523 start 109781
+part 524 start 109792
+part 525 start 109800
+part 526 start 109807
+part 527 start 109836
+part 528 start 109915
+part 529 start 109933
+part 530 start 109943
+part 531 start 109951
+part 532 start 109958
+part 533 start 109994
+part 534 start 110004
+part 535 start 110014
+part 536 start 110030
+part 537 start 110039
+part 538 start 110077
+part 539 start 110084
+part 540 start 110092
+part 541 start 110099
+part 542 start 110125
+part 543 start 110135
+part 544 start 110151
+part 545 start 110193
+part 546 start 110251
+part 547 start 110259
+part 548 start 110267
+
+Record 18:
+  STATEFP: 32
+  STATENS: 01779793
+  GEOIDFQ: 0400000US32
+  GEOID: 32
+  STUSPS: NV
+  NAME: Nevada
+  LSAD: 00
+  ALAND: 284537045743
+  AWATER: 1839880833
+
+1 parts
+part 0 start 0
+
+Record 19:
+  STATEFP: 17
+  STATENS: 01779784
+  GEOIDFQ: 0400000US17
+  GEOID: 17
+  STUSPS: IL
+  NAME: Illinois
+  LSAD: 00
+  ALAND: 143778206717
+  AWATER: 6216848695
+
+1 parts
+part 0 start 0
+
+Record 20:
+  STATEFP: 50
+  STATENS: 01779802
+  GEOIDFQ: 0400000US50
+  GEOID: 50
+  STUSPS: VT
+  NAME: Vermont
+  LSAD: 00
+  ALAND: 23872594714
+  AWATER: 1030642813
+
+1 parts
+part 0 start 0
+
+Record 21:
+  STATEFP: 27
+  STATENS: 00662849
+  GEOIDFQ: 0400000US27
+  GEOID: 27
+  STUSPS: MN
+  NAME: Minnesota
+  LSAD: 00
+  ALAND: 206244791203
+  AWATER: 18937236061
+
+4 parts
+part 0 start 0
+part 1 start 47
+part 2 start 61
+part 3 start 78
+
+Record 22:
+  STATEFP: 38
+  STATENS: 01779797
+  GEOIDFQ: 0400000US38
+  GEOID: 38
+  STUSPS: ND
+  NAME: North Dakota
+  LSAD: 00
+  ALAND: 178694319927
+  AWATER: 4414770689
+
+1 parts
+part 0 start 0
+
+Record 23:
+  STATEFP: 19
+  STATENS: 01779785
+  GEOIDFQ: 0400000US19
+  GEOID: 19
+  STUSPS: IA
+  NAME: Iowa
+  LSAD: 00
+  ALAND: 144660344616
+  AWATER: 1085343719
+
+1 parts
+part 0 start 0
+
+Record 24:
+  STATEFP: 33
+  STATENS: 01779794
+  GEOIDFQ: 0400000US33
+  GEOID: 33
+  STUSPS: NH
+  NAME: New Hampshire
+  LSAD: 00
+  ALAND: 23190211616
+  AWATER: 1025871482
+
+4 parts
+part 0 start 0
+part 1 start 15
+part 2 start 32
+part 3 start 49
+
+Record 25:
+  STATEFP: 10
+  STATENS: 01779781
+  GEOIDFQ: 0400000US10
+  GEOID: 10
+  STUSPS: DE
+  NAME: Delaware
+  LSAD: 00
+  ALAND: 5046692239
+  AWATER: 1399219008
+
+4 parts
+part 0 start 0
+part 1 start 9
+part 2 start 25
+part 3 start 40
+
+Record 26:
+  STATEFP: 11
+  STATENS: 01702382
+  GEOIDFQ: 0400000US11
+  GEOID: 11
+  STUSPS: DC
+  NAME: District of Columbia
+  LSAD: 00
+  ALAND: 158316181
+  AWATER: 18709785
+
+1 parts
+part 0 start 0
+
+Record 27:
+  STATEFP: 66
+  STATENS: 01802705
+  GEOIDFQ: 0400000US66
+  GEOID: 66
+  STUSPS: GU
+  NAME: Guam
+  LSAD: 00
+  ALAND: 543555846
+  AWATER: 934337453
+
+2 parts
+part 0 start 0
+part 1 start 11
+
+Record 28:
+  STATEFP: 60
+  STATENS: 01802701
+  GEOIDFQ: 0400000US60
+  GEOID: 60
+  STUSPS: AS
+  NAME: American Samoa
+  LSAD: 00
+  ALAND: 197759067
+  AWATER: 1307243751
+
+9 parts
+part 0 start 0
+part 1 start 22
+part 2 start 42
+part 3 start 180
+part 4 start 236
+part 5 start 297
+part 6 start 312
+part 7 start 338
+part 8 start 992
+
+Record 29:
+  STATEFP: 09
+  STATENS: 01779780
+  GEOIDFQ: 0400000US09
+  GEOID: 09
+  STUSPS: CT
+  NAME: Connecticut
+  LSAD: 00
+  ALAND: 12541999507
+  AWATER: 1816115183
+
+11 parts
+part 0 start 0
+part 1 start 6
+part 2 start 24
+part 3 start 32
+part 4 start 39
+part 5 start 52
+part 6 start 69
+part 7 start 79
+part 8 start 88
+part 9 start 102
+part 10 start 118
+
+Record 30:
+  STATEFP: 30
+  STATENS: 00767982
+  GEOIDFQ: 0400000US30
+  GEOID: 30
+  STUSPS: MT
+  NAME: Montana
+  LSAD: 00
+  ALAND: 376973404582
+  AWATER: 3866958878
+
+1 parts
+part 0 start 0
+
+Record 31:
+  STATEFP: 04
+  STATENS: 01779777
+  GEOIDFQ: 0400000US04
+  GEOID: 04
+  STUSPS: AZ
+  NAME: Arizona
+  LSAD: 00
+  ALAND: 294366118294
+  AWATER: 853991999
+
+1 parts
+part 0 start 0
+
+Record 32:
+  STATEFP: 31
+  STATENS: 01779792
+  GEOIDFQ: 0400000US31
+  GEOID: 31
+  STUSPS: NE
+  NAME: Nebraska
+  LSAD: 00
+  ALAND: 198949953125
+  AWATER: 1378956981
+
+1 parts
+part 0 start 0
+
+Record 33:
+  STATEFP: 53
+  STATENS: 01779804
+  GEOIDFQ: 0400000US53
+  GEOID: 53
+  STUSPS: WA
+  NAME: Washington
+  LSAD: 00
+  ALAND: 172118798160
+  AWATER: 12549101417
+
+60 parts
+part 0 start 0
+part 1 start 16
+part 2 start 30
+part 3 start 145
+part 4 start 157
+part 5 start 167
+part 6 start 176
+part 7 start 184
+part 8 start 200
+part 9 start 208
+part 10 start 329
+part 11 start 340
+part 12 start 355
+part 13 start 363
+part 14 start 380
+part 15 start 402
+part 16 start 442
+part 17 start 477
+part 18 start 504
+part 19 start 521
+part 20 start 543
+part 21 start 606
+part 22 start 638
+part 23 start 712
+part 24 start 747
+part 25 start 765
+part 26 start 1158
+part 27 start 1170
+part 28 start 1182
+part 29 start 1217
+part 30 start 1234
+part 31 start 1249
+part 32 start 1261
+part 33 start 1289
+part 34 start 1301
+part 35 start 1530
+part 36 start 1543
+part 37 start 1630
+part 38 start 1643
+part 39 start 1662
+part 40 start 1883
+part 41 start 1892
+part 42 start 1911
+part 43 start 1930
+part 44 start 1959
+part 45 start 1969
+part 46 start 2013
+part 47 start 2023
+part 48 start 2029
+part 49 start 2048
+part 50 start 2225
+part 51 start 2258
+part 52 start 2272
+part 53 start 2281
+part 54 start 2299
+part 55 start 2313
+part 56 start 2321
+part 57 start 6859
+part 58 start 6868
+part 59 start 6887
+
+Record 34:
+  STATEFP: 72
+  STATENS: 01779808
+  GEOIDFQ: 0400000US72
+  GEOID: 72
+  STUSPS: PR
+  NAME: Puerto Rico
+  LSAD: 00
+  ALAND: 8869519701
+  AWATER: 4921758891
+
+16 parts
+part 0 start 0
+part 1 start 25
+part 2 start 42
+part 3 start 71
+part 4 start 196
+part 5 start 204
+part 6 start 212
+part 7 start 449
+part 8 start 456
+part 9 start 470
+part 10 start 490
+part 11 start 504
+part 12 start 512
+part 13 start 535
+part 14 start 2256
+part 15 start 2267
+
+Record 35:
+  STATEFP: 48
+  STATENS: 01779801
+  GEOIDFQ: 0400000US48
+  GEOID: 48
+  STUSPS: TX
+  NAME: Texas
+  LSAD: 00
+  ALAND: 676656702022
+  AWATER: 19011620342
+
+32 parts
+part 0 start 0
+part 1 start 10
+part 2 start 44
+part 3 start 55
+part 4 start 63
+part 5 start 77
+part 6 start 86
+part 7 start 143
+part 8 start 168
+part 9 start 350
+part 10 start 365
+part 11 start 374
+part 12 start 447
+part 13 start 461
+part 14 start 471
+part 15 start 479
+part 16 start 493
+part 17 start 512
+part 18 start 533
+part 19 start 546
+part 20 start 562
+part 21 start 572
+part 22 start 588
+part 23 start 600
+part 24 start 620
+part 25 start 634
+part 26 start 652
+part 27 start 799
+part 28 start 1101
+part 29 start 1115
+part 30 start 1126
+part 31 start 1140
+
+Record 36:
+  STATEFP: 39
+  STATENS: 01085497
+  GEOIDFQ: 0400000US39
+  GEOID: 39
+  STUSPS: OH
+  NAME: Ohio
+  LSAD: 00
+  ALAND: 105824130554
+  AWATER: 10274225585
+
+16 parts
+part 0 start 0
+part 1 start 53
+part 2 start 68
+part 3 start 77
+part 4 start 92
+part 5 start 101
+part 6 start 126
+part 7 start 140
+part 8 start 149
+part 9 start 169
+part 10 start 216
+part 11 start 235
+part 12 start 242
+part 13 start 254
+part 14 start 263
+part 15 start 270
+
+Record 37:
+  STATEFP: 55
+  STATENS: 01779806
+  GEOIDFQ: 0400000US55
+  GEOID: 55
+  STUSPS: WI
+  NAME: Wisconsin
+  LSAD: 00
+  ALAND: 140294555214
+  AWATER: 29341156602
+
+31 parts
+part 0 start 0
+part 1 start 15
+part 2 start 123
+part 3 start 137
+part 4 start 144
+part 5 start 151
+part 6 start 186
+part 7 start 201
+part 8 start 215
+part 9 start 226
+part 10 start 262
+part 11 start 283
+part 12 start 308
+part 13 start 321
+part 14 start 338
+part 15 start 351
+part 16 start 408
+part 17 start 431
+part 18 start 460
+part 19 start 479
+part 20 start 498
+part 21 start 511
+part 22 start 531
+part 23 start 567
+part 24 start 591
+part 25 start 674
+part 26 start 691
+part 27 start 710
+part 28 start 735
+part 29 start 779
+part 30 start 788
+
+Record 38:
+  STATEFP: 41
+  STATENS: 01155107
+  GEOIDFQ: 0400000US41
+  GEOID: 41
+  STUSPS: OR
+  NAME: Oregon
+  LSAD: 00
+  ALAND: 248630421366
+  AWATER: 6168761370
+
+6 parts
+part 0 start 0
+part 1 start 15
+part 2 start 33
+part 3 start 49
+part 4 start 62
+part 5 start 77
+
+Record 39:
+  STATEFP: 28
+  STATENS: 01779790
+  GEOIDFQ: 0400000US28
+  GEOID: 28
+  STUSPS: MS
+  NAME: Mississippi
+  LSAD: 00
+  ALAND: 121534116434
+  AWATER: 3914302814
+
+8 parts
+part 0 start 0
+part 1 start 16
+part 2 start 35
+part 3 start 59
+part 4 start 75
+part 5 start 86
+part 6 start 97
+part 7 start 119
+
+Record 40:
+  STATEFP: 37
+  STATENS: 01027616
+  GEOIDFQ: 0400000US37
+  GEOID: 37
+  STUSPS: NC
+  NAME: North Carolina
+  LSAD: 00
+  ALAND: 125935965771
+  AWATER: 13453455061
+
+13 parts
+part 0 start 0
+part 1 start 51
+part 2 start 276
+part 3 start 378
+part 4 start 403
+part 5 start 561
+part 6 start 578
+part 7 start 720
+part 8 start 751
+part 9 start 815
+part 10 start 1028
+part 11 start 1061
+part 12 start 1085
+
+Record 41:
+  STATEFP: 51
+  STATENS: 01779803
+  GEOIDFQ: 0400000US51
+  GEOID: 51
+  STUSPS: VA
+  NAME: Virginia
+  LSAD: 00
+  ALAND: 102256342555
+  AWATER: 8529908321
+
+14 parts
+part 0 start 0
+part 1 start 12
+part 2 start 21
+part 3 start 36
+part 4 start 43
+part 5 start 50
+part 6 start 63
+part 7 start 96
+part 8 start 108
+part 9 start 818
+part 10 start 860
+part 11 start 867
+part 12 start 875
+part 13 start 883
+
+Record 42:
+  STATEFP: 54
+  STATENS: 01779805
+  GEOIDFQ: 0400000US54
+  GEOID: 54
+  STUSPS: WV
+  NAME: West Virginia
+  LSAD: 00
+  ALAND: 62266513826
+  AWATER: 488918898
+
+1 parts
+part 0 start 0
+
+Record 43:
+  STATEFP: 22
+  STATENS: 01629543
+  GEOIDFQ: 0400000US22
+  GEOID: 22
+  STUSPS: LA
+  NAME: Louisiana
+  LSAD: 00
+  ALAND: 111920866908
+  AWATER: 23730773357
+
+42 parts
+part 0 start 0
+part 1 start 15
+part 2 start 24
+part 3 start 57
+part 4 start 69
+part 5 start 76
+part 6 start 84
+part 7 start 93
+part 8 start 100
+part 9 start 108
+part 10 start 176
+part 11 start 185
+part 12 start 196
+part 13 start 222
+part 14 start 238
+part 15 start 249
+part 16 start 257
+part 17 start 288
+part 18 start 295
+part 19 start 305
+part 20 start 315
+part 21 start 335
+part 22 start 350
+part 23 start 362
+part 24 start 377
+part 25 start 405
+part 26 start 424
+part 27 start 437
+part 28 start 483
+part 29 start 490
+part 30 start 502
+part 31 start 512
+part 32 start 529
+part 33 start 539
+part 34 start 550
+part 35 start 559
+part 36 start 567
+part 37 start 594
+part 38 start 636
+part 39 start 648
+part 40 start 658
+part 41 start 808
+
+Record 44:
+  STATEFP: 36
+  STATENS: 01779796
+  GEOIDFQ: 0400000US36
+  GEOID: 36
+  STUSPS: NY
+  NAME: New York
+  LSAD: 00
+  ALAND: 122049155860
+  AWATER: 19256755462
+
+23 parts
+part 0 start 0
+part 1 start 84
+part 2 start 114
+part 3 start 132
+part 4 start 151
+part 5 start 160
+part 6 start 167
+part 7 start 192
+part 8 start 204
+part 9 start 209
+part 10 start 217
+part 11 start 225
+part 12 start 422
+part 13 start 430
+part 14 start 440
+part 15 start 449
+part 16 start 458
+part 17 start 475
+part 18 start 500
+part 19 start 508
+part 20 start 523
+part 21 start 531
+part 22 start 549
+
+Record 45:
+  STATEFP: 26
+  STATENS: 01779789
+  GEOIDFQ: 0400000US26
+  GEOID: 26
+  STUSPS: MI
+  NAME: Michigan
+  LSAD: 00
+  ALAND: 146621709684
+  AWATER: 103864424446
+
+111 parts
+part 0 start 0
+part 1 start 6
+part 2 start 18
+part 3 start 27
+part 4 start 34
+part 5 start 52
+part 6 start 64
+part 7 start 78
+part 8 start 98
+part 9 start 121
+part 10 start 137
+part 11 start 154
+part 12 start 182
+part 13 start 213
+part 14 start 224
+part 15 start 241
+part 16 start 252
+part 17 start 265
+part 18 start 281
+part 19 start 297
+part 20 start 307
+part 21 start 314
+part 22 start 322
+part 23 start 331
+part 24 start 374
+part 25 start 385
+part 26 start 396
+part 27 start 403
+part 28 start 413
+part 29 start 420
+part 30 start 430
+part 31 start 440
+part 32 start 447
+part 33 start 455
+part 34 start 540
+part 35 start 547
+part 36 start 585
+part 37 start 593
+part 38 start 616
+part 39 start 629
+part 40 start 639
+part 41 start 667
+part 42 start 675
+part 43 start 1198
+part 44 start 1212
+part 45 start 1219
+part 46 start 1226
+part 47 start 1235
+part 48 start 1276
+part 49 start 1283
+part 50 start 1291
+part 51 start 1300
+part 52 start 1313
+part 53 start 1320
+part 54 start 1336
+part 55 start 1354
+part 56 start 1505
+part 57 start 1522
+part 58 start 1553
+part 59 start 1593
+part 60 start 1631
+part 61 start 1661
+part 62 start 1675
+part 63 start 1690
+part 64 start 1707
+part 65 start 1714
+part 66 start 1721
+part 67 start 1761
+part 68 start 1817
+part 69 start 1836
+part 70 start 1849
+part 71 start 1862
+part 72 start 1871
+part 73 start 1997
+part 74 start 2007
+part 75 start 2074
+part 76 start 2092
+part 77 start 2110
+part 78 start 2125
+part 79 start 2181
+part 80 start 2221
+part 81 start 2230
+part 82 start 2278
+part 83 start 2290
+part 84 start 2317
+part 85 start 2462
+part 86 start 2475
+part 87 start 2481
+part 88 start 2490
+part 89 start 2498
+part 90 start 2505
+part 91 start 2521
+part 92 start 2535
+part 93 start 2545
+part 94 start 2576
+part 95 start 7244
+part 96 start 7259
+part 97 start 7275
+part 98 start 7317
+part 99 start 7336
+part 100 start 7357
+part 101 start 7391
+part 102 start 7401
+part 103 start 7418
+part 104 start 7435
+part 105 start 7453
+part 106 start 7470
+part 107 start 7496
+part 108 start 7523
+part 109 start 7541
+part 110 start 7864
+
+Record 46:
+  STATEFP: 20
+  STATENS: 00481813
+  GEOIDFQ: 0400000US20
+  GEOID: 20
+  STUSPS: KS
+  NAME: Kansas
+  LSAD: 00
+  ALAND: 211753821560
+  AWATER: 1345663763
+
+1 parts
+part 0 start 0
+
+Record 47:
+  STATEFP: 12
+  STATENS: 00294478
+  GEOIDFQ: 0400000US12
+  GEOID: 12
+  STUSPS: FL
+  NAME: Florida
+  LSAD: 00
+  ALAND: 138965379385
+  AWATER: 45968913048
+
+121 parts
+part 0 start 0
+part 1 start 8
+part 2 start 150
+part 3 start 157
+part 4 start 170
+part 5 start 179
+part 6 start 194
+part 7 start 203
+part 8 start 232
+part 9 start 250
+part 10 start 260
+part 11 start 274
+part 12 start 284
+part 13 start 292
+part 14 start 315
+part 15 start 323
+part 16 start 339
+part 17 start 351
+part 18 start 369
+part 19 start 388
+part 20 start 403
+part 21 start 415
+part 22 start 444
+part 23 start 470
+part 24 start 482
+part 25 start 504
+part 26 start 511
+part 27 start 519
+part 28 start 529
+part 29 start 540
+part 30 start 548
+part 31 start 563
+part 32 start 638
+part 33 start 656
+part 34 start 666
+part 35 start 678
+part 36 start 688
+part 37 start 704
+part 38 start 713
+part 39 start 736
+part 40 start 744
+part 41 start 756
+part 42 start 768
+part 43 start 780
+part 44 start 794
+part 45 start 818
+part 46 start 826
+part 47 start 834
+part 48 start 844
+part 49 start 868
+part 50 start 876
+part 51 start 933
+part 52 start 948
+part 53 start 955
+part 54 start 965
+part 55 start 974
+part 56 start 987
+part 57 start 998
+part 58 start 1005
+part 59 start 1017
+part 60 start 1029
+part 61 start 1067
+part 62 start 1075
+part 63 start 1085
+part 64 start 1102
+part 65 start 1111
+part 66 start 1119
+part 67 start 1126
+part 68 start 1140
+part 69 start 1165
+part 70 start 1182
+part 71 start 1191
+part 72 start 1201
+part 73 start 1397
+part 74 start 1405
+part 75 start 1432
+part 76 start 1444
+part 77 start 1459
+part 78 start 1470
+part 79 start 1500
+part 80 start 1519
+part 81 start 1532
+part 82 start 1540
+part 83 start 1556
+part 84 start 1563
+part 85 start 1760
+part 86 start 1768
+part 87 start 1779
+part 88 start 1792
+part 89 start 1807
+part 90 start 1820
+part 91 start 1827
+part 92 start 1834
+part 93 start 1849
+part 94 start 1910
+part 95 start 1918
+part 96 start 1943
+part 97 start 2025
+part 98 start 2060
+part 99 start 2071
+part 100 start 2080
+part 101 start 2087
+part 102 start 2096
+part 103 start 2104
+part 104 start 2119
+part 105 start 2142
+part 106 start 2149
+part 107 start 2156
+part 108 start 2164
+part 109 start 2176
+part 110 start 2200
+part 111 start 2213
+part 112 start 2225
+part 113 start 2233
+part 114 start 2240
+part 115 start 2249
+part 116 start 2260
+part 117 start 2266
+part 118 start 2306
+part 119 start 2430
+part 120 start 2471
+
+Record 48:
+  STATEFP: 78
+  STATENS: 01802710
+  GEOIDFQ: 0400000US78
+  GEOID: 78
+  STUSPS: VI
+  NAME: United States Virgin Islands
+  LSAD: 00
+  ALAND: 348021909
+  AWATER: 1550236187
+
+44 parts
+part 0 start 0
+part 1 start 23
+part 2 start 32
+part 3 start 41
+part 4 start 49
+part 5 start 58
+part 6 start 68
+part 7 start 78
+part 8 start 92
+part 9 start 99
+part 10 start 108
+part 11 start 115
+part 12 start 122
+part 13 start 539
+part 14 start 550
+part 15 start 560
+part 16 start 591
+part 17 start 601
+part 18 start 611
+part 19 start 628
+part 20 start 650
+part 21 start 667
+part 22 start 674
+part 23 start 683
+part 24 start 697
+part 25 start 722
+part 26 start 734
+part 27 start 752
+part 28 start 1327
+part 29 start 1334
+part 30 start 1344
+part 31 start 1361
+part 32 start 1405
+part 33 start 1433
+part 34 start 1499
+part 35 start 1519
+part 36 start 1544
+part 37 start 1557
+part 38 start 1572
+part 39 start 2124
+part 40 start 2140
+part 41 start 2154
+part 42 start 2164
+part 43 start 2179
+
+Record 49:
+  STATEFP: 34
+  STATENS: 01779795
+  GEOIDFQ: 0400000US34
+  GEOID: 34
+  STUSPS: NJ
+  NAME: New Jersey
+  LSAD: 00
+  ALAND: 19049229866
+  AWATER: 3533374440
+
+2 parts
+part 0 start 0
+part 1 start 5
+
+Record 50:
+  STATEFP: 24
+  STATENS: 01714934
+  GEOIDFQ: 0400000US24
+  GEOID: 24
+  STUSPS: MD
+  NAME: Maryland
+  LSAD: 00
+  ALAND: 25151223822
+  AWATER: 6979843236
+
+18 parts
+part 0 start 0
+part 1 start 70
+part 2 start 168
+part 3 start 176
+part 4 start 313
+part 5 start 326
+part 6 start 338
+part 7 start 354
+part 8 start 364
+part 9 start 389
+part 10 start 405
+part 11 start 417
+part 12 start 429
+part 13 start 445
+part 14 start 453
+part 15 start 461
+part 16 start 469
+part 17 start 476
+
+Record 51:
+  STATEFP: 45
+  STATENS: 01779799
+  GEOIDFQ: 0400000US45
+  GEOID: 45
+  STUSPS: SC
+  NAME: South Carolina
+  LSAD: 00
+  ALAND: 77865663223
+  AWATER: 5074780894
+
+4 parts
+part 0 start 0
+part 1 start 20
+part 2 start 30
+part 3 start 38
+
+Record 52:
+  STATEFP: 23
+  STATENS: 01779787
+  GEOIDFQ: 0400000US23
+  GEOID: 23
+  STUSPS: ME
+  NAME: Maine
+  LSAD: 00
+  ALAND: 79888396620
+  AWATER: 11745065493
+
+212 parts
+part 0 start 0
+part 1 start 53
+part 2 start 59
+part 3 start 66
+part 4 start 73
+part 5 start 82
+part 6 start 92
+part 7 start 98
+part 8 start 112
+part 9 start 120
+part 10 start 130
+part 11 start 135
+part 12 start 141
+part 13 start 148
+part 14 start 154
+part 15 start 162
+part 16 start 169
+part 17 start 175
+part 18 start 183
+part 19 start 190
+part 20 start 198
+part 21 start 205
+part 22 start 244
+part 23 start 271
+part 24 start 277
+part 25 start 287
+part 26 start 354
+part 27 start 361
+part 28 start 372
+part 29 start 390
+part 30 start 396
+part 31 start 405
+part 32 start 412
+part 33 start 420
+part 34 start 427
+part 35 start 439
+part 36 start 446
+part 37 start 451
+part 38 start 458
+part 39 start 464
+part 40 start 477
+part 41 start 484
+part 42 start 490
+part 43 start 498
+part 44 start 504
+part 45 start 525
+part 46 start 532
+part 47 start 547
+part 48 start 560
+part 49 start 573
+part 50 start 583
+part 51 start 591
+part 52 start 598
+part 53 start 622
+part 54 start 632
+part 55 start 642
+part 56 start 652
+part 57 start 667
+part 58 start 681
+part 59 start 689
+part 60 start 699
+part 61 start 706
+part 62 start 713
+part 63 start 724
+part 64 start 730
+part 65 start 739
+part 66 start 745
+part 67 start 752
+part 68 start 758
+part 69 start 778
+part 70 start 786
+part 71 start 800
+part 72 start 810
+part 73 start 816
+part 74 start 834
+part 75 start 844
+part 76 start 865
+part 77 start 876
+part 78 start 889
+part 79 start 896
+part 80 start 903
+part 81 start 940
+part 82 start 955
+part 83 start 962
+part 84 start 970
+part 85 start 978
+part 86 start 986
+part 87 start 999
+part 88 start 1043
+part 89 start 1049
+part 90 start 1055
+part 91 start 1064
+part 92 start 1071
+part 93 start 1084
+part 94 start 1097
+part 95 start 1109
+part 96 start 1114
+part 97 start 1198
+part 98 start 1221
+part 99 start 1247
+part 100 start 1262
+part 101 start 1269
+part 102 start 1278
+part 103 start 1286
+part 104 start 1297
+part 105 start 1308
+part 106 start 1317
+part 107 start 1323
+part 108 start 1329
+part 109 start 1340
+part 110 start 1350
+part 111 start 1356
+part 112 start 1373
+part 113 start 1380
+part 114 start 1388
+part 115 start 1395
+part 116 start 1403
+part 117 start 1410
+part 118 start 1417
+part 119 start 1425
+part 120 start 1443
+part 121 start 1517
+part 122 start 1524
+part 123 start 1532
+part 124 start 1680
+part 125 start 1733
+part 126 start 1741
+part 127 start 1766
+part 128 start 1789
+part 129 start 1802
+part 130 start 1820
+part 131 start 1831
+part 132 start 1842
+part 133 start 1856
+part 134 start 1867
+part 135 start 1876
+part 136 start 1883
+part 137 start 1901
+part 138 start 1913
+part 139 start 1924
+part 140 start 1932
+part 141 start 1947
+part 142 start 1956
+part 143 start 1964
+part 144 start 1975
+part 145 start 1989
+part 146 start 2013
+part 147 start 2029
+part 148 start 2137
+part 149 start 2148
+part 150 start 2254
+part 151 start 2374
+part 152 start 2391
+part 153 start 2406
+part 154 start 2440
+part 155 start 2447
+part 156 start 2457
+part 157 start 2464
+part 158 start 2473
+part 159 start 2484
+part 160 start 2500
+part 161 start 2510
+part 162 start 2517
+part 163 start 2523
+part 164 start 2539
+part 165 start 2562
+part 166 start 2576
+part 167 start 2591
+part 168 start 2602
+part 169 start 2612
+part 170 start 2625
+part 171 start 2638
+part 172 start 2651
+part 173 start 2658
+part 174 start 2670
+part 175 start 2680
+part 176 start 2689
+part 177 start 2709
+part 178 start 2717
+part 179 start 2728
+part 180 start 2746
+part 181 start 2761
+part 182 start 2768
+part 183 start 2776
+part 184 start 2786
+part 185 start 2803
+part 186 start 2816
+part 187 start 2832
+part 188 start 2839
+part 189 start 2850
+part 190 start 2861
+part 191 start 2869
+part 192 start 2879
+part 193 start 2885
+part 194 start 2892
+part 195 start 2903
+part 196 start 2911
+part 197 start 2921
+part 198 start 2937
+part 199 start 2947
+part 200 start 2955
+part 201 start 2999
+part 202 start 3010
+part 203 start 3044
+part 204 start 3066
+part 205 start 3077
+part 206 start 3086
+part 207 start 3106
+part 208 start 3137
+part 209 start 3156
+part 210 start 3166
+part 211 start 3175
+
+Record 53:
+  STATEFP: 15
+  STATENS: 01779782
+  GEOIDFQ: 0400000US15
+  GEOID: 15
+  STUSPS: HI
+  NAME: Hawaii
+  LSAD: 00
+  ALAND: 16634423918
+  AWATER: 11777375352
+
+27 parts
+part 0 start 0
+part 1 start 723
+part 2 start 1159
+part 3 start 1263
+part 4 start 1370
+part 5 start 1642
+part 6 start 1650
+part 7 start 1659
+part 8 start 2141
+part 9 start 2463
+part 10 start 2503
+part 11 start 2607
+part 12 start 2642
+part 13 start 2650
+part 14 start 2657
+part 15 start 2664
+part 16 start 2671
+part 17 start 2677
+part 18 start 2684
+part 19 start 2691
+part 20 start 2699
+part 21 start 2715
+part 22 start 2725
+part 23 start 2732
+part 24 start 2740
+part 25 start 2747
+part 26 start 2753
+
+Record 54:
+  STATEFP: 69
+  STATENS: 01779809
+  GEOIDFQ: 0400000US69
+  GEOID: 69
+  STUSPS: MP
+  NAME: Commonwealth of the Northern Mariana Islands
+  LSAD: 00
+  ALAND: 472292520
+  AWATER: 4644252458
+
+19 parts
+part 0 start 0
+part 1 start 95
+part 2 start 279
+part 3 start 332
+part 4 start 350
+part 5 start 371
+part 6 start 390
+part 7 start 415
+part 8 start 688
+part 9 start 710
+part 10 start 738
+part 11 start 768
+part 12 start 802
+part 13 start 810
+part 14 start 819
+part 15 start 862
+part 16 start 869
+part 17 start 968
+part 18 start 1262
+
+Record 55:
+  STATEFP: 44
+  STATENS: 01219835
+  GEOIDFQ: 0400000US44
+  GEOID: 44
+  STUSPS: RI
+  NAME: Rhode Island
+  LSAD: 00
+  ALAND: 2677768885
+  AWATER: 1323681453
+
+14 parts
+part 0 start 0
+part 1 start 15
+part 2 start 24
+part 3 start 31
+part 4 start 39
+part 5 start 46
+part 6 start 55
+part 7 start 135
+part 8 start 483
+part 9 start 499
+part 10 start 512
+part 11 start 616
+part 12 start 628
+part 13 start 694
+

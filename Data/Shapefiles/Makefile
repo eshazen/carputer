@@ -19,25 +19,25 @@ $(objects): %.o: %.c $(headers)
 	$(CC) -c $(CFLAGS) $<
 
 fake_data: fake_data.o shape.o test_file_reader.o
-	$(CC) -o $@ $?
+	$(CC) -o $@ $^
 
 dump_rtree_file: dump_rtree_file.o shape.o
-	$(CC) -o $@ $?
+	$(CC) -o $@ $^
 
 find_by_tree: find_by_tree.o shape.o
-	$(CC) -o $@ $?
+	$(CC) -o $@ $^
 
 build_tree: build_tree.o rtree.o shape.o
-	$(CC) -o $@ $? -lshp
+	$(CC) -o $@ $^ -lshp
 
 read_shapefile2: read_shapefile2.o
-	$(CC) -o $@ $? -lshp
+	$(CC) -o $@ $^ -lshp
 
 dump_shape: dump_shape.o shape.o
-	$(CC) -o $@ $? -lshp
+	$(CC) -o $@ $^ -lshp
 
 grid_eval: grid_eval.o inside.o shape.o
-	$(CC) -o $@ $? -lshp
+	$(CC) -o $@ $^ -lshp
 
 rtree_test: rtree_test.o inside.o shape.o rtree.o
-	$(CC) -o $@ $? -lshp
+	$(CC) -o $@ $^ -lshp

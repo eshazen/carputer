@@ -19,7 +19,6 @@
 //    0	
 
 #define NEW_POLY
-
 #include "shape.h"
 
 //
@@ -32,7 +31,7 @@ void print_shape( a_shape* s) {
 	 s->minLat, s->maxLat, s->minLon, s->maxLon);
 #ifdef VERBOSE
   for( int i=0; i<s->nvert; i++) {
-    fprintf( stderr, "  vert %d: (%f, %f)\n", i, s->lat[i], s->lon[i]);
+    fprintf( stderr, "  vert %d: (%f, %f)\n", i, s->points[i].lat, s->points[i].lon);
   }
 #endif
 }
@@ -40,6 +39,7 @@ void print_shape( a_shape* s) {
 
 void print_fshape( f_shape* s) {
   fprintf( stderr, "FSHAPE: %s (%d) ", s->name, s->nvert);
+  fprintf( stderr, "Points off: %d\n", s->points_off);
 #ifdef INT_COORD
   fprintf( stderr, "Lat (%d..%d) Lon: (%d..%d)\n",
 	 s->minLat, s->maxLat, s->minLon, s->maxLon);
@@ -64,8 +64,7 @@ void shape_to_f( f_shape* fs, a_shape* ms) {
   fs->maxLat = ms->maxLat;
   fs->maxLon = ms->maxLon;
 #endif  
-  fs->lat_off = 0;
-  fs->lon_off = 0;
+  fs->points_off = 0;
   fs->nparts = ms->nparts;
 }
 
@@ -112,12 +111,9 @@ int32_t write_shapes( a_shape* shapes, int32_t nshape, FILE *fp, FILE *fv, FILE 
       ;
     }
 #endif    
-    fwrite( shapes[i].lat, sizeof( coord_t), shapes[i].nvert, fv);
-    fshapes[i].lat_off = cpos;
-    cpos += llsiz;
-    fwrite( shapes[i].lon, sizeof( coord_t), shapes[i].nvert, fv);
-    fshapes[i].lon_off = cpos;
-    cpos += llsiz;
+    fwrite( shapes[i].points, sizeof( coord_t), shapes[i].nvert*2, fv);
+    fshapes[i].points_off = cpos;
+    cpos += llsiz * 2;
 #ifdef DEBUG    
     fprintf( stderr, " LLEND: cpos = %" PRId32 "\n", cpos);
 #endif

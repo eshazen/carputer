@@ -66,53 +66,72 @@ int main( int argc, char *argv[]) {
   
   fread( &count, sizeof(int), 1, fp);
 
+  fprintf( stderr, "Count: %d\n", count);
+
+  a_point pt;
+
   for( num=0; num<count; num++) {
     fread( &fshape, sizeof(fshape), 1, fp);
 
     if( !plot_mode) {
-      fprintf( stderr, "FSHAPE %d: ", num);
+      fprintf( stderr, "\nFSHAPE %d:\n", num);
       print_fshape( &fshape);
-    }
 
-    printf("  %d parts\n", fshape.nparts);
-    fseek( fa, fshape.part_off, SEEK_SET);
-    for( int k=0; k<fshape.nparts; k++) {
-      fread( &poff, sizeof(poff), 1, fa);
-      printf("  %d %d\n", k, poff);
-    }
-    
-
-    if( plot_mode) {
-      printf("%d\n", fshape.nvert);
-      coord_t* lats = calloc( sizeof(coord_t), fshape.nvert);
-      coord_t* lons = calloc( sizeof(coord_t), fshape.nvert);
-      for( int i=0; i<fshape.nvert; i++)
-	fread( &lats[i], sizeof(coord_t), 1, fv);
-      for( int i=0; i<fshape.nvert; i++)
-	fread( &lons[i], sizeof(coord_t), 1, fv);
-      for( int i=0; i<fshape.nvert; i++)
-	printf("%f %f\n", lats[i], lons[i]);
-      free( lats);
-      free( lons);
-    } else {
-      printf("  lat: ");
+      printf("nvert: %d  nparts: %d  (%f..%f) (%f..%f)\n",
+	     fshape.nvert, fshape.nparts,
+	     fshape.minLat, fshape.maxLat, fshape.minLon, fshape.maxLon);
+      printf("points_off: %d  parts_off: %d\n", fshape.points_off, fshape.part_off);
+      fseek( fv, fshape.points_off, SEEK_SET);
       for( int i=0; i<fshape.nvert; i++) {
-	fread( &coord, sizeof(coord_t), 1, fv);
+	fread( &pt, sizeof(pt), 1, fv);
 	if( i < 5)
-	  printf(" %f", coord);
+	  printf(" (%f,%f)", pt.lat, pt.lon);
       }
-      printf("...\n");
-      printf("  lon: ");
-      for( int i=0; i<fshape.nvert; i++) {
-	fread( &coord, sizeof(coord_t), 1, fv);
-	if( i < 5)
-	  printf(" %f", coord);
+      printf("\nPARTS:\n");
+      fseek( fa, fshape.part_off, SEEK_SET);
+      for( int i=0; i<fshape.nparts; i++) {
+	fread( &poff, sizeof(poff), 1, fp);
+	printf( " %d", poff);
       }
-      printf("...\n");
+      printf("\n");
 
-      
+    if( num > 3) exit(1);
+
+//    printf("  %d parts\n", fshape.nparts);
+//    fseek( fa, fshape.part_off, SEEK_SET);
+//    for( int k=0; k<fshape.nparts; k++) {
+//      fread( &poff, sizeof(poff), 1, fa);
+//      printf("  %d %d\n", k, poff);
+//    }
+//    
+//    a_point* points = calloc( sizeof(a_point), fshape.nvert);
+//    for( int i=0; i<fshape.nvert; i++) {
+//      fread( &points[i].lat, sizeof(coord_t), 1, fv);
+//      fread( &points[i].lon, sizeof(coord_t), 1, fv);
+//    }
+//
+//    if( plot_mode) {
+//      printf("%d\n", fshape.nvert);
+//      for( int i=0; i<fshape.nvert; i++)
+//	printf("%f %f\n", points[i].lat, points[i].lon);
+//    } else {
+//      printf("  lat: ");
+//      for( int i=0; i<fshape.nvert; i++) {
+//	if( i < 5)
+//	  printf(" %f", points[i].lat);
+//      }
+//      printf("...\n");
+//      printf("  lon: ");
+//      for( int i=0; i<fshape.nvert; i++) {
+//	if( i < 5)
+//	  printf(" %f", points[i].lon);
+//      }
+//      printf("...\n");
+
     } // if( plot_mode) else
 
+//    free( points);
+    
   } // for( num...)
 
   return 0;
