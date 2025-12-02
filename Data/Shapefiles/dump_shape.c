@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <stdlib.h>
+#include <string.h>
 
 #include "shape.h"
 
@@ -14,6 +15,21 @@
 #define min(a,b) ((a)<(b)?(a):(b))
 
 char buff[80];
+
+#define MAXMATCH 10
+
+// search in string name, look for occurrences of strings in match[0..nmatch-1]
+// return index of first string which matches + 1, or 0 if no match
+//
+int find_match( char *name, char* matches[], int nmatch) {
+  for( int i=0; i<nmatch; i++) {
+    if( strcasestr( name, matches[i])) {
+      return i+1;
+    }
+  }
+  return 0;
+}
+
 
 int main( int argc, char *argv[]) {
 
@@ -30,6 +46,9 @@ int main( int argc, char *argv[]) {
 
   int plot_mode = 0;
 
+  char *matches[MAXMATCH];
+  int nmatch = 0;
+
   if( argc < 2) {
     fprintf( stderr, "usage: %s [-p] shapeset\n", argv[0]);
     return 1;
@@ -40,6 +59,19 @@ int main( int argc, char *argv[]) {
       switch( toupper( argv[i][1])) {
       case 'P':
 	plot_mode = 1;
+	break;
+      case 'M':
+	if( i == argc-1) {
+	  fprintf( stderr, "Missing match string after -M\n");
+	  return 1;
+	}
+	++i;
+
+	// split argv[i] on "|" into match strings
+	matches[nmatch] = strtok( argv[i], "|");
+	++nmatch;
+	while( (matches[nmatch] = strtok( NULL, "|")) && nmatch < MAXMATCH)
+	  ++nmatch;
 	break;
       default:
 	fprintf( stderr, "unknown option %s\n", argv[i]);
@@ -73,65 +105,42 @@ int main( int argc, char *argv[]) {
   for( num=0; num<count; num++) {
     fread( &fshape, sizeof(fshape), 1, fp);
 
-    if( !plot_mode) {
-      fprintf( stderr, "\nFSHAPE %d:\n", num);
-      print_fshape( &fshape);
+    if( !find_match( fshape.name, matches, nmatch))
+      continue;
 
-      printf("nvert: %d  nparts: %d  (%f..%f) (%f..%f)\n",
-	     fshape.nvert, fshape.nparts,
-	     fshape.minLat, fshape.maxLat, fshape.minLon, fshape.maxLon);
-      printf("points_off: %d  parts_off: %d\n", fshape.points_off, fshape.part_off);
-      fseek( fv, fshape.points_off, SEEK_SET);
-      for( int i=0; i<fshape.nvert; i++) {
-	fread( &pt, sizeof(pt), 1, fv);
-	if( i < 5)
-	  printf(" (%f,%f)", pt.lat, pt.lon);
-      }
-      printf("\nPARTS:\n");
-      fseek( fa, fshape.part_off, SEEK_SET);
-      for( int i=0; i<fshape.nparts; i++) {
-	fread( &poff, sizeof(poff), 1, fp);
-	printf( " %d", poff);
-      }
-      printf("\n");
+    fprintf( stderr, "\nFSHAPE %d:\n", num);
+    fprintf( stderr, "nvert: %d  nparts: %d  (%f..%f) (%f..%f)\n",
+	   fshape.nvert, fshape.nparts,
+	   fshape.minLat, fshape.maxLat, fshape.minLon, fshape.maxLon);
+    fprintf( stderr, "points_off: %d  parts_off: %d\n", fshape.points_off, fshape.part_off);
 
-    if( num > 3) exit(1);
+    if( fshape.nvert > 100000 || fshape.nparts > 1000) {
+      fprintf( stderr, "Values seem unreasonable!\n");
+      exit(1);
+    }
 
-//    printf("  %d parts\n", fshape.nparts);
-//    fseek( fa, fshape.part_off, SEEK_SET);
-//    for( int k=0; k<fshape.nparts; k++) {
-//      fread( &poff, sizeof(poff), 1, fa);
-//      printf("  %d %d\n", k, poff);
-//    }
-//    
-//    a_point* points = calloc( sizeof(a_point), fshape.nvert);
-//    for( int i=0; i<fshape.nvert; i++) {
-//      fread( &points[i].lat, sizeof(coord_t), 1, fv);
-//      fread( &points[i].lon, sizeof(coord_t), 1, fv);
-//    }
-//
-//    if( plot_mode) {
-//      printf("%d\n", fshape.nvert);
-//      for( int i=0; i<fshape.nvert; i++)
-//	printf("%f %f\n", points[i].lat, points[i].lon);
-//    } else {
-//      printf("  lat: ");
-//      for( int i=0; i<fshape.nvert; i++) {
-//	if( i < 5)
-//	  printf(" %f", points[i].lat);
-//      }
-//      printf("...\n");
-//      printf("  lon: ");
-//      for( int i=0; i<fshape.nvert; i++) {
-//	if( i < 5)
-//	  printf(" %f", points[i].lon);
-//      }
-//      printf("...\n");
+    print_fshape( &fshape);
 
-    } // if( plot_mode) else
+    fseek( fv, fshape.points_off, SEEK_SET);
+    for( int i=0; i<fshape.nvert; i++) {
+      fread( &pt, sizeof(pt), 1, fv);
+      if( i < 5)
+	fprintf( stderr, " (%f,%f)", pt.lat, pt.lon);
+    }
+    fprintf( stderr, "\n");
+       
+    fprintf( stderr, "\nPARTS:\n");
+    if( fseek( fa, fshape.part_off, SEEK_SET)) {
+      fprintf( stderr, "Seek error to %d on parts file\n", fshape.part_off);
+      exit(1);
+    }
 
-//    free( points);
-    
+    for( int i=0; i<fshape.nparts; i++) {
+      fread( &poff, sizeof(poff), 1, fa);
+      fprintf( stderr,  " %d", poff);
+    }
+    fprintf( stderr, "\n");
+
   } // for( num...)
 
   return 0;

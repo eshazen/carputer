@@ -6,6 +6,11 @@
 
 ## Work log
 
+### 2025-12-01
+
+Fixed a few things.  Need to update `dump_shape` to dump
+selected parts in plot format for confirmations.
+
 ### 2025-11-30
 
 End of the day:  a few bugs maybe in writing the new files.
