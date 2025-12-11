@@ -5,12 +5,10 @@
 // (original purpose was to traverse a grid and count locations in grid)
 //
 
-// #define DEBUG
-
-// #define VERBOSE
-
 // skip the ray-intersect algorithm
 // #define RANGE_ONLY
+
+// #define DEBUG
 
 #include "shape.h"
 
@@ -24,6 +22,7 @@
 #define MAXMATCH 10
 
 char buff[80];
+char usename[80];
 
 int verbose = 0;
 
@@ -38,6 +37,20 @@ int filter_id( int geoID) {
     return 0;
 }
 
+static char *lower48[] = {   "AL","AZ","AR","CA","CO","CT","DE","FL","GA","ID","IL","IN",
+			     "IA","KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","MT",
+			     "NE","NV","NH","NJ","NM","NY","NC","ND","OH","OK","OR","PA",
+			     "RI","SC","SD","TN","TX","UT","VT","VA","WA","WV","WI","WY"};
+//
+// is 2-letter state in lower 48?
+//
+int filter_state( char *st) {
+  for( int i=0; i<48; i++) {
+    if( !strcasecmp( lower48[i], st))
+      return i+1;
+  }
+  return 0;
+}
 
 // search in string name, look for occurrences of strings in match[0..nmatch-1]
 // return index of first string which matches + 1, or 0 if no match
@@ -164,6 +177,7 @@ int main(int argc, char **argv) {
   int savedEntities;		/* number of entities which match */
 
   int geoID;
+  char state[10];
   int shapeType;
   double minBound[4], maxBound[4];
   SHPGetInfo(hSHP, &nEntities, &shapeType, minBound, maxBound);
@@ -172,39 +186,39 @@ int main(int argc, char **argv) {
   // allocate an array for the shapes
   a_shape shapes[nEntities];
 
-#ifdef VERBOSE
-  printf("===== SHAPEFILE HEADER INFORMATION =====\n");
-  printf("Shapefile Base Name: %s\n", argv[fna]);
-  printf("Shape Type (numeric): %d\n", shapeType);
-  printf("Number of Shapes: %d\n", nEntities);
-  printf("Bounding Box:\n");
-  printf("  Xmin: %.10g\n  Ymin: %.10g\n  Xmax: %.10g\n  Ymax: %.10g\n",
-	 minBound[0], minBound[1], maxBound[0], maxBound[1]);
-  printf("  Zmin: %.10g\n  Zmax: %.10g\n", minBound[2], maxBound[2]);
-  printf("  Mmin: %.10g\n  Mmax: %.10g\n\n", minBound[3], maxBound[3]);
+  if( verbose) {
+    printf("===== SHAPEFILE HEADER INFORMATION =====\n");
+    printf("Shapefile Base Name: %s\n", argv[fna]);
+    printf("Shape Type (numeric): %d\n", shapeType);
+    printf("Number of Shapes: %d\n", nEntities);
+    printf("Bounding Box:\n");
+    printf("  Xmin: %.10g\n  Ymin: %.10g\n  Xmax: %.10g\n  Ymax: %.10g\n",
+	   minBound[0], minBound[1], maxBound[0], maxBound[1]);
+    printf("  Zmin: %.10g\n  Zmax: %.10g\n", minBound[2], maxBound[2]);
+    printf("  Mmin: %.10g\n  Mmax: %.10g\n\n", minBound[3], maxBound[3]);
 
-  int numRecords = DBFGetRecordCount(hDBF);
-  int numFields  = DBFGetFieldCount(hDBF);
+    int numRecords = DBFGetRecordCount(hDBF);
+    int numFields  = DBFGetFieldCount(hDBF);
 
-  printf("===== DBF ATTRIBUTE TABLE HEADER =====\n");
-  printf("Number of Attribute Records: %d\n", numRecords);
-  printf("Number of Fields: %d\n\n", numFields);
+    printf("===== DBF ATTRIBUTE TABLE HEADER =====\n");
+    printf("Number of Attribute Records: %d\n", numRecords);
+    printf("Number of Fields: %d\n\n", numFields);
 
-  printf("Fields:\n");
-  for (int f = 0; f < numFields; f++)
-    {
-      char fieldName[12];
-      int fieldWidth, fieldDecimals;
-      DBFFieldType ftype = DBFGetFieldInfo(hDBF, f, fieldName,
-					   &fieldWidth, &fieldDecimals);
+    printf("Fields:\n");
+    for (int f = 0; f < numFields; f++)
+      {
+	char fieldName[12];
+	int fieldWidth, fieldDecimals;
+	DBFFieldType ftype = DBFGetFieldInfo(hDBF, f, fieldName,
+					     &fieldWidth, &fieldDecimals);
 
-      printf("  %-11s  Type=%d  Width=%d  Decimals=%d\n",
-	     fieldName, ftype, fieldWidth, fieldDecimals);
-    }
-  printf("\n");
+	printf("  %-11s  Type=%d  Width=%d  Decimals=%d\n",
+	       fieldName, ftype, fieldWidth, fieldDecimals);
+      }
+    printf("\n");
 
-  printf("===== SHAPE RECORDS =====\n\n");
-#endif
+    printf("===== SHAPE RECORDS =====\n\n");
+  }
 
   savedEntities = 0;
 
@@ -212,9 +226,8 @@ int main(int argc, char **argv) {
     SHPObject *obj = SHPReadObject(hSHP, i);
     if (!obj) continue;
 
-#ifdef VERBOSE      
-    printf("Record %d:\n", i);
-#endif
+    if( verbose)
+      printf("Record %d:\n", i);
 
     int numFields = DBFGetFieldCount(hDBF);
     for (int f = 0; f < numFields; f++) {
@@ -224,17 +237,17 @@ int main(int argc, char **argv) {
 
       const char *value = DBFReadStringAttribute(hDBF, i, f);
       if (!value) value = "(null)";
-#ifdef VERBOSE
-      printf("  %s: %s\n", fieldName, value);
-#endif
+      if( verbose)
+	printf("  %s: %s\n", fieldName, value);
+
       if( !strcasecmp( fieldName, "NAME"))
-	strcpy( buff, value);
+	strcpy( usename, value);
       if( !strcasecmp( fieldName, "NAMELSAD"))
-	strcpy( buff, value);
-      if( !strcasecmp( fieldName, "GEOID")) {
+	strcpy( usename, value);
+      if( !strcasecmp( fieldName, "GEOID"))
 	geoID = atoi( value);
-      }
-	
+      if( !strcasecmp( fieldName, "STUSPS"))
+	strncpy( state, value, sizeof(state));
     }
 
     coord_t xMin = 999;
@@ -257,12 +270,26 @@ int main(int argc, char **argv) {
     }
 
     if( verbose) 
-      fprintf( stderr, "nVertexes: %d \"%s\" X(%f..%f) Y(%f..%f)\n", obj->nVertices, buff, xMin, xMax, yMin, yMax);
+      fprintf( stderr, "nVertexes: %d \"%s\" X(%f..%f) Y(%f..%f)\n", obj->nVertices, usename, xMin, xMax, yMin, yMax);
 
-    if( ((nmatch == 0) || find_match( buff, matches, nmatch)) 
-	&& ((filterLower48 == 0) || filter_id( geoID))) {
+    int save_it = 1;
+    // all conditions have to match
 
-      if( !plot) fprintf( stderr, "MATCH %s\n", buff);
+    // check for string name match
+    if( nmatch && !find_match( usename, matches, nmatch))
+      save_it = 0;
+
+    // check for outside lower 48
+    if( filterLower48 && geoID < 100 && !filter_id( geoID))
+      save_it = 0;
+
+    // check for lower 48 state name
+    if( filterLower48 && geoID > 100 && !filter_state( state))
+      save_it = 0;
+
+    if( save_it) {
+
+      if( !plot && verbose ) fprintf( stderr, "MATCH %s\n", buff);
 
       shapes[savedEntities].minLon = xMin;
       shapes[savedEntities].maxLon = xMax;
@@ -278,7 +305,8 @@ int main(int argc, char **argv) {
 	shapes[savedEntities].points[j].lat = obj->padfY[j];
       }
 
-      fprintf( stderr, "%d parts\n", obj->nParts);
+      if( verbose)
+	fprintf( stderr, "%d parts\n", obj->nParts);
 
       // copy the list of parts
       shapes[savedEntities].parts = calloc( obj->nParts, sizeof(uint32_t));
@@ -295,7 +323,7 @@ int main(int argc, char **argv) {
 	else
 	  p_end = obj->panPartStart[j+1];
 	if( plot) printf("%d\n", p_end-p_start);
-	if( verbose) fprintf( stderr, "Part %d from %d to %d (%d)\n", j, p_start, p_end, p_end-p_start);
+	if( verbose > 1) fprintf( stderr, "Part %d from %d to %d (%d)\n", j, p_start, p_end, p_end-p_start);
 	for( int k=p_start; k<p_end; k++) {
 	  if( plot) printf("%f %f\n", obj->padfX[k], obj->padfY[k]);
 	  ;
@@ -328,6 +356,7 @@ int main(int argc, char **argv) {
   }
 
   fprintf( stderr, "Largest shape has %d vertexes\n", maxVert);
+  fprintf( stderr, "%d save entities\n", savedEntities);
 
   return 0;
 }

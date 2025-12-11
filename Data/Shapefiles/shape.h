@@ -47,6 +47,7 @@ typedef struct {
   coord_i maxLon;
   int32_t nparts;
   uint32_t part_off;
+  uint8_t prio;
 } f_shape;
 
 void print_shape( a_shape* shape);

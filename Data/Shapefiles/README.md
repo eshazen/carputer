@@ -11,6 +11,13 @@
 Fixed a bug in `dump_shape`.  Now at least the plots
 come out correctly from the dumped data for states, at least.
 
+Next step is to combine multiple datasets.  Added a `prio` field
+to `f_shape` for allow for a priority display when multiple matches
+are found.
+
+Propose to create a `merge_data` utility which can read multiple
+sets of `.DAT`, `.VRT`, `.PRT` files into a single set.
+
 ### 2025-12-01
 
 Fixed a few things.  Need to update `dump_shape` to dump
