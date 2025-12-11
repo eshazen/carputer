@@ -9,8 +9,6 @@
 
 #include "shape.h"
 
-#define DEBUG
-
 #define max(a,b) ((a)>(b)?(a):(b))
 #define min(a,b) ((a)<(b)?(a):(b))
 
@@ -38,6 +36,8 @@ int main( int argc, char *argv[]) {
   int num = 0;
   int count;
 
+  int verbose = 0;
+
   FILE *fp;
   FILE *fv;
   FILE *fa;
@@ -49,16 +49,34 @@ int main( int argc, char *argv[]) {
   char *matches[MAXMATCH];
   int nmatch = 0;
 
+  int part_first = 0;
+  int part_last = 99999;
+
+  a_point pt;
+
   if( argc < 2) {
-    fprintf( stderr, "usage: %s [-p] shapeset\n", argv[0]);
+    fprintf( stderr, "usage: %s shapeset [-m match_string][-p] [-a n m]\n", argv[0]);
     return 1;
   }
 
   for( int i=1; i<argc; i++) {
     if( *argv[i] == '-') {
       switch( toupper( argv[i][1])) {
+      case 'V':
+	verbose++;
+	break;
       case 'P':
 	plot_mode = 1;
+	break;
+      case 'A':
+	if( i == argc-2) {
+	  fprintf( stderr, "Missing part range after -a\n");
+	  return 1;
+	}
+	++i;
+	part_first = atoi( argv[i]);
+	++i;
+	part_last = atoi( argv[i]);
 	break;
       case 'M':
 	if( i == argc-1) {
@@ -66,7 +84,6 @@ int main( int argc, char *argv[]) {
 	  return 1;
 	}
 	++i;
-
 	// split argv[i] on "|" into match strings
 	matches[nmatch] = strtok( argv[i], "|");
 	++nmatch;
@@ -96,16 +113,29 @@ int main( int argc, char *argv[]) {
     }
   }
   
-  fread( &count, sizeof(int), 1, fp);
 
+  // pass 1:
+  if( verbose) {
+    fprintf( stderr, "--- PASS 1 ---\n");
+    fread( &count, sizeof(int), 1, fp);
+    fprintf( stderr, "** Count: %d\n", count);
+    for( num=0; num<count; num++) {
+      fread( &fshape, sizeof(fshape), 1, fp);
+      fprintf( stderr, "SHAPE: %d\n", num);
+      print_fshape( &fshape);
+    }
+    rewind( fp);
+    fprintf( stderr, "--- PASS 2 ---\n");
+  }
+    
+  fread( &count, sizeof(int), 1, fp);
   fprintf( stderr, "Count: %d\n", count);
 
-  a_point pt;
 
   for( num=0; num<count; num++) {
     fread( &fshape, sizeof(fshape), 1, fp);
 
-    if( !find_match( fshape.name, matches, nmatch))
+    if( nmatch && !find_match( fshape.name, matches, nmatch))
       continue;
 
     fprintf( stderr, "\nFSHAPE %d:\n", num);
@@ -114,7 +144,7 @@ int main( int argc, char *argv[]) {
 	   fshape.minLat, fshape.maxLat, fshape.minLon, fshape.maxLon);
     fprintf( stderr, "points_off: %d  parts_off: %d\n", fshape.points_off, fshape.part_off);
 
-    if( fshape.nvert > 100000 || fshape.nparts > 1000) {
+    if( fshape.nvert > 500000 || fshape.nparts > 5000) {
       fprintf( stderr, "Values seem unreasonable!\n");
       exit(1);
     }
@@ -124,20 +154,74 @@ int main( int argc, char *argv[]) {
     fseek( fv, fshape.points_off, SEEK_SET);
     for( int i=0; i<fshape.nvert; i++) {
       fread( &pt, sizeof(pt), 1, fv);
-      if( i < 5)
-	fprintf( stderr, " (%f,%f)", pt.lat, pt.lon);
+      if( verbose > 1) {
+	fprintf( stderr, "  %d @ %d: (%f,%f)\n", i, fshape.points_off+i, pt.lat, pt.lon);
+      } else {
+	if( i < 5)
+	  fprintf( stderr, " (%f,%f)", pt.lat, pt.lon);
+      }
     }
     fprintf( stderr, "\n");
+
+    int p_start, p_end;
        
-    fprintf( stderr, "\nPARTS:\n");
+    // two passes through parts, first to display
+    fprintf( stderr, "\nPARTS (%d):\n", fshape.nparts);
     if( fseek( fa, fshape.part_off, SEEK_SET)) {
       fprintf( stderr, "Seek error to %d on parts file\n", fshape.part_off);
       exit(1);
     }
-
     for( int i=0; i<fshape.nparts; i++) {
       fread( &poff, sizeof(poff), 1, fa);
+      p_start = poff;
       fprintf( stderr,  " %d", poff);
+      if( i == fshape.nparts-1)
+	p_end = fshape.nvert;
+      else {
+	// silly dance to read ahead one and put it back
+	uint32_t toff;
+	long tpos = ftell( fa);
+	fread( &toff, sizeof(toff), 1, fa);
+	p_end = toff;
+	fseek( fa, tpos, SEEK_SET);
+      }
+      fprintf( stderr, " %d [%d-%d] (%d)\n", i, p_start, p_end, p_end-p_start);
+    }
+
+    // back to start of list
+    fseek( fa, fshape.part_off, SEEK_SET);
+    for( int i=0; i<fshape.nparts; i++) {
+      fread( &poff, sizeof(poff), 1, fa);
+      p_start = poff;
+      fprintf( stderr,  " %d", poff);
+      if( i == fshape.nparts-1)
+	p_end = fshape.nvert;
+      else {
+	// silly dance to read ahead one and put it back
+	uint32_t toff;
+	long tpos = ftell( fa);
+	fread( &toff, sizeof(toff), 1, fa);
+	p_end = toff;
+	fseek( fa, tpos, SEEK_SET);
+      }
+      if( i >= part_first && i <= part_last) {
+	fprintf( stderr, "*");
+	// now we have the virtex range in p_start, p_end
+	fseek( fv, p_start*sizeof(a_point)+fshape.points_off, SEEK_SET);
+	if( verbose > 1)
+	  fprintf( stderr, "\n part len = %d (%d to %d)\n", p_end-p_start, p_start, p_end);
+	if( plot_mode || verbose > 1) {
+	  if( plot_mode)
+	    printf("%d\n", (p_end-p_start));
+	  for( int v=p_start; v<p_end; v++) {
+	    fread( &pt, sizeof(pt), 1, fv);
+	    if( plot_mode)
+	      printf("%f %f\n", pt.lon, pt.lat);
+	    else
+	      fprintf( stderr, "  %d: (%f, %f)\n", v, pt.lat, pt.lon);
+	  }
+	}
+      } 
     }
     fprintf( stderr, "\n");
 

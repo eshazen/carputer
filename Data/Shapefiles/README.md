@@ -6,6 +6,11 @@
 
 ## Work log
 
+### 2025-12-11
+
+Fixed a bug in `dump_shape`.  Now at least the plots
+come out correctly from the dumped data for states, at least.
+
 ### 2025-12-01
 
 Fixed a few things.  Need to update `dump_shape` to dump

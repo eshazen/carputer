@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#define DEBUG
+// #define DEBUG
 
 // #define VERBOSE
 
@@ -104,14 +104,14 @@ int32_t write_shapes( a_shape* shapes, int32_t nshape, FILE *fp, FILE *fv, FILE 
     int32_t llsiz = sizeof( coord_t) * shapes[i].nvert; // lat/lon list sizes
 #ifdef DEBUG
     fprintf( stderr, " LATLON: llsiz=%" PRId32 " cpos=%" PRId32 "\n", llsiz, cpos);
+    fprintf( stderr, "Writing %d points\n", shapes[i].nvert);
     for( int k=0; k<shapes[i].nvert; k++) {
-#ifdef VERBOSE
-      fprintf( stderr,  "  write virtex: %f %f\n", shapes[i].lat[k], shapes[i].lon[k]);
-#endif
+      if( k < 5)
+	fprintf( stderr,  "  write virtex: %f %f\n", shapes[i].points[k].lat, shapes[i].points[i].lon);
       ;
     }
 #endif    
-    fwrite( shapes[i].points, sizeof( coord_t), shapes[i].nvert*2, fv);
+    fwrite( shapes[i].points, sizeof( a_point), shapes[i].nvert, fv);
     fshapes[i].points_off = cpos;
     cpos += llsiz * 2;
 #ifdef DEBUG    

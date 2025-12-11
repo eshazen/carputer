@@ -78,14 +78,16 @@ void search_tree( coord_t lat, coord_t lon, long offset, FILE *ft, FILE *fd, FIL
 	  fread( &fshape, sizeof(fshape), 1, fd);
 	  // now point to the virtex list
 	  //	  printf("Reading %d verteces\n", fshape.nvert);
-	  fseek( fv, fshape.lat_off, SEEK_SET);
-	  coord_t* lat_ptr = calloc( fshape.nvert, sizeof(coord_t));
-	  coord_t* lon_ptr = calloc( fshape.nvert, sizeof(coord_t));
-	  fread( lat_ptr, sizeof(coord_t), fshape.nvert, fv);
-	  fread( lon_ptr, sizeof(coord_t), fshape.nvert, fv);
+	  fseek( fv, fshape.part_off, SEEK_SET);
+	  a_point* point_ptr = calloc( fshape.nvert, sizeof(coord_t));
+	  //	  coord_t* lat_ptr = calloc( fshape.nvert, sizeof(coord_t));
+	  //	  coord_t* lon_ptr = calloc( fshape.nvert, sizeof(coord_t));
+	  fread( point_ptr, sizeof(a_point), fshape.nvert, fv);
+	  //	  fread( lat_ptr, sizeof(coord_t), fshape.nvert, fv);
+	  //	  fread( lon_ptr, sizeof(coord_t), fshape.nvert, fv);
 	  if( verbose) {
 	    for( int k=0; k<fshape.nvert; k++) {
-	      printf("(%f,%f) ", lat_ptr[k], lon_ptr[k]);
+	      printf("(%f,%f) ", point_ptr[k].lat, point_ptr[k].lon);
 	      if( (k % 10) == 0)
 		printf("\n");
 	    }
@@ -123,8 +125,7 @@ void search_tree( coord_t lat, coord_t lon, long offset, FILE *ft, FILE *fd, FIL
 //	    printf("outside\n");
 
 
-	  free( lon_ptr);
-	  free( lat_ptr);
+	  free( point_ptr);
 	} else {		  /* BRANCH */
 	  printf("BRANCH: go down to node %ld offset %ld\n", fnode.node_offsets[i],
 		 fnode.node_offsets[i]*sizeof(fnode) );

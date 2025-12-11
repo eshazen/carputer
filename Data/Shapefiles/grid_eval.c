@@ -5,6 +5,8 @@
 // (original purpose was to traverse a grid and count locations in grid)
 //
 
+// #define DEBUG
+
 // #define VERBOSE
 
 // skip the ray-intersect algorithm
@@ -23,6 +25,7 @@
 
 char buff[80];
 
+int verbose = 0;
 
 //
 // is GEOID in lower 48?
@@ -124,6 +127,9 @@ int main(int argc, char **argv) {
 	break;
       case 'F':
 	filterLower48 = 1;
+	break;
+      case 'V':
+	++verbose;
 	break;
       default:
 	fprintf( stderr, "Unknown option: %s\n", argv[i]);
@@ -245,15 +251,13 @@ int main(int argc, char **argv) {
       if( obj->padfY[j] < yMin)
 	yMin = obj->padfY[j];
 	
-#ifdef DEBUG
-      printf("  Vertex %d: (%.6f, %.6f)\n",
-	     j, obj->padfX[j], obj->padfY[j]);
-#endif
+      if( verbose > 1)
+	fprintf( stderr, "  Virtex %d: (%.6f, %.6f)\n",
+	       j, obj->padfX[j], obj->padfY[j]);
     }
 
-#ifdef DEBUG
-    printf("nVertices: %d \"%s\" X(%f..%f) Y(%f..%f)\n", obj->nVertices, buff, xMin, xMax, yMin, yMax);
-#endif
+    if( verbose) 
+      fprintf( stderr, "nVertexes: %d \"%s\" X(%f..%f) Y(%f..%f)\n", obj->nVertices, buff, xMin, xMax, yMin, yMax);
 
     if( ((nmatch == 0) || find_match( buff, matches, nmatch)) 
 	&& ((filterLower48 == 0) || filter_id( geoID))) {
@@ -291,6 +295,7 @@ int main(int argc, char **argv) {
 	else
 	  p_end = obj->panPartStart[j+1];
 	if( plot) printf("%d\n", p_end-p_start);
+	if( verbose) fprintf( stderr, "Part %d from %d to %d (%d)\n", j, p_start, p_end, p_end-p_start);
 	for( int k=p_start; k<p_end; k++) {
 	  if( plot) printf("%f %f\n", obj->padfX[k], obj->padfY[k]);
 	  ;
@@ -315,6 +320,9 @@ int main(int argc, char **argv) {
     }
 
     if( fo) {
+#ifdef DEBUG
+      printf("write_shapes() %d shapes\n", savedEntities);
+#endif      
       write_shapes( shapes, savedEntities, fo, fv, fa);
     }
   }

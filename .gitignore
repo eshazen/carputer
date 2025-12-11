@@ -13,6 +13,10 @@
 *-bak*
 *~
 ~*
+
+*.o
+*.plt
+
 _autosave-*
 \#auto_saved_files\#
 *.tmp
