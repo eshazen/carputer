@@ -7,12 +7,15 @@
 #include <stdlib.h>
 #include <string.h>
 
+// #define DEBUG
+
 #include "shape.h"
 
 #define max(a,b) ((a)>(b)?(a):(b))
 #define min(a,b) ((a)<(b)?(a):(b))
 
 char buff[80];
+int verbose = 0;
 
 #define MAXMATCH 10
 
@@ -32,11 +35,8 @@ int find_match( char *name, char* matches[], int nmatch) {
 int main( int argc, char *argv[]) {
 
   f_shape fshape;
-  coord_t coord;
   int num = 0;
-  int count;
-
-  int verbose = 0;
+  int32_t count;
 
   FILE *fp;
   FILE *fv;
@@ -45,6 +45,7 @@ int main( int argc, char *argv[]) {
   uint32_t poff;
 
   int plot_mode = 0;
+  FILE *fplot;
 
   char *matches[MAXMATCH];
   int nmatch = 0;
@@ -66,7 +67,13 @@ int main( int argc, char *argv[]) {
 	verbose++;
 	break;
       case 'P':
+	if( i == argc-1) {
+	  fprintf( stderr, "Missing plot file after -P\n");
+	  return 1;
+	}
+	++i;
 	plot_mode = 1;
+	fplot = fopen( argv[i], "w");
 	break;
       case 'A':
 	if( i == argc-2) {
@@ -116,57 +123,63 @@ int main( int argc, char *argv[]) {
 
   // pass 1:
   if( verbose) {
-    fprintf( stderr, "--- PASS 1 ---\n");
-    fread( &count, sizeof(int), 1, fp);
-    fprintf( stderr, "** Count: %d\n", count);
+    printf( "--- PASS 1 ---\n");
+    fread( &count, sizeof(count), 1, fp);
+    printf( "** Count: %d\n", count);
     for( num=0; num<count; num++) {
       fread( &fshape, sizeof(fshape), 1, fp);
-      fprintf( stderr, "SHAPE: %d\n", num);
+      printf( "SHAPE: %d\n", num);
       print_fshape( &fshape);
     }
-    rewind( fp);
-    fprintf( stderr, "--- PASS 2 ---\n");
+    printf( "--- PASS 2 ---\n");
   }
     
-  fread( &count, sizeof(int), 1, fp);
-  fprintf( stderr, "Count: %d\n", count);
+  rewind( fp);
 
+  fread( &count, sizeof(count), 1, fp);
+  printf( "Count: %d\n", count);
 
   for( num=0; num<count; num++) {
     fread( &fshape, sizeof(fshape), 1, fp);
 
-    if( nmatch && !find_match( fshape.name, matches, nmatch))
-      continue;
+//    if( nmatch && !find_match( fshape.name, matches, nmatch))
+//      continue;
 
-    fprintf( stderr, "\nFSHAPE %d:\n", num);
-    fprintf( stderr, "nvert: %d  nparts: %d  (%f..%f) (%f..%f)\n",
-	   fshape.nvert, fshape.nparts,
-	   fshape.minLat, fshape.maxLat, fshape.minLon, fshape.maxLon);
-    fprintf( stderr, "points_off: %d  parts_off: %d\n", fshape.points_off, fshape.part_off);
+    if( verbose) {
+      printf( "\nFSHAPE_NO %d:\n", num);
+      printf( "nvert: %d  nparts: %d  (%f..%f) (%f..%f)\n",
+	       fshape.nvert, fshape.nparts,
+	       fshape.minLat, fshape.maxLat, fshape.minLon, fshape.maxLon);
+      printf( "points_off: %d  parts_off: %d\n", fshape.points_off, fshape.part_off);
+    }
 
-    if( fshape.nvert > 500000 || fshape.nparts > 5000) {
+    if( verbose)
+      print_fshape( &fshape);
+
+    if( fshape.nvert > 500000 || fshape.nparts > 5000 || fshape.nvert < 1) {
       fprintf( stderr, "Values seem unreasonable!\n");
       exit(1);
     }
 
-    print_fshape( &fshape);
 
     fseek( fv, fshape.points_off, SEEK_SET);
     for( int i=0; i<fshape.nvert; i++) {
       fread( &pt, sizeof(pt), 1, fv);
       if( verbose > 1) {
-	fprintf( stderr, "  %d @ %d: (%f,%f)\n", i, fshape.points_off+i, pt.lat, pt.lon);
+	printf( "  %d @ %d: (%f,%f)\n", i, fshape.points_off+i, pt.lat, pt.lon);
       } else {
-	if( i < 5)
-	  fprintf( stderr, " (%f,%f)", pt.lat, pt.lon);
+	if( i < 5 && verbose)
+	  printf( " (%f,%f)", pt.lat, pt.lon);
       }
     }
-    fprintf( stderr, "\n");
+    if( verbose)
+      printf( "\n");
 
     int p_start, p_end;
        
     // two passes through parts, first to display
-    fprintf( stderr, "\nPARTS (%d):\n", fshape.nparts);
+    if( verbose)
+      printf( "\nPARTS (%d):\n", fshape.nparts);
     if( fseek( fa, fshape.part_off, SEEK_SET)) {
       fprintf( stderr, "Seek error to %d on parts file\n", fshape.part_off);
       exit(1);
@@ -174,9 +187,17 @@ int main( int argc, char *argv[]) {
     for( int i=0; i<fshape.nparts; i++) {
       fread( &poff, sizeof(poff), 1, fa);
       p_start = poff;
-      fprintf( stderr,  " %d", poff);
-      if( i == fshape.nparts-1)
+      if( verbose)
+	printf(  " %d", poff);
+#ifdef DEBUG
+      fprintf( stderr, "CHECK i=%d nparts=%d nvert=%d\n", i, fshape.nparts, fshape.nvert);
+#endif
+      if( i == fshape.nparts-1) {
 	p_end = fshape.nvert;
+#ifdef DEBUG
+	fprintf( stderr, "SET START = %d END = %d\n", p_start, p_end);
+#endif
+      }
       else {
 	// silly dance to read ahead one and put it back
 	uint32_t toff;
@@ -185,7 +206,8 @@ int main( int argc, char *argv[]) {
 	p_end = toff;
 	fseek( fa, tpos, SEEK_SET);
       }
-      fprintf( stderr, " %d [%d-%d] (%d)\n", i, p_start, p_end, p_end-p_start);
+      if( verbose)
+	printf( " %d [%d-%d] (%d)\n", i, p_start, p_end, p_end-p_start);
     }
 
     // back to start of list
@@ -193,7 +215,8 @@ int main( int argc, char *argv[]) {
     for( int i=0; i<fshape.nparts; i++) {
       fread( &poff, sizeof(poff), 1, fa);
       p_start = poff;
-      fprintf( stderr,  " %d", poff);
+      if( verbose)
+	printf(  " %d", poff);
       if( i == fshape.nparts-1)
 	p_end = fshape.nvert;
       else {
@@ -205,25 +228,31 @@ int main( int argc, char *argv[]) {
 	fseek( fa, tpos, SEEK_SET);
       }
       if( i >= part_first && i <= part_last) {
-	fprintf( stderr, "*");
+	if( verbose)
+	  printf( "*");
 	// now we have the virtex range in p_start, p_end
 	fseek( fv, p_start*sizeof(a_point)+fshape.points_off, SEEK_SET);
 	if( verbose > 1)
-	  fprintf( stderr, "\n part len = %d (%d to %d)\n", p_end-p_start, p_start, p_end);
-	if( plot_mode || verbose > 1) {
+	  printf( "\n part len = %d (%d to %d)\n", p_end-p_start, p_start, p_end);
+	if( p_end == p_start) {
+	  fprintf( stderr, "ERROR:  p_end == p_start = %d\n", p_end);
+	  fprintf( stderr, "part %d with part_off %d\n", i, fshape.part_off);
+	  exit(1);
+	}
+	if( plot_mode)
+	  fprintf( fplot, "%d\n", (p_end-p_start));
+	for( int v=p_start; v<p_end; v++) {
+	  fread( &pt, sizeof(pt), 1, fv);
 	  if( plot_mode)
-	    printf("%d\n", (p_end-p_start));
-	  for( int v=p_start; v<p_end; v++) {
-	    fread( &pt, sizeof(pt), 1, fv);
-	    if( plot_mode)
-	      printf("%f %f\n", pt.lon, pt.lat);
-	    else
-	      fprintf( stderr, "  %d: (%f, %f)\n", v, pt.lat, pt.lon);
-	  }
+	    fprintf( fplot, "%f %f\n", pt.lon, pt.lat);
+	  else
+	    if( verbose > 1)
+	      printf( "  %d: (%f, %f)\n", v, pt.lat, pt.lon);
 	}
       } 
     }
-    fprintf( stderr, "\n");
+    if( verbose)
+      printf( "\n");
 
   } // for( num...)
 

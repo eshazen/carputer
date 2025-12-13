@@ -289,13 +289,13 @@ int main(int argc, char **argv) {
 
     if( save_it) {
 
-      if( !plot && verbose ) fprintf( stderr, "MATCH %s\n", buff);
+      if( !plot && verbose ) fprintf( stderr, "MATCH %s\n", usename);
 
       shapes[savedEntities].minLon = xMin;
       shapes[savedEntities].maxLon = xMax;
       shapes[savedEntities].minLat = yMin;
       shapes[savedEntities].maxLat = yMax;
-      strncpy( shapes[savedEntities].name, buff, MAX_NAME);
+      strncpy( shapes[savedEntities].name, usename, MAX_NAME);
 
       // allocate and copy the coords
       shapes[savedEntities].points = calloc( obj->nVertices, 2*sizeof(coord_t));

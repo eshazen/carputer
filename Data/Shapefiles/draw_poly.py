@@ -9,6 +9,7 @@ def read_polygons(filename):
     i = 0
     while i < len(lines):
         n = int(lines[i])
+#        print( "Len =", n, "\n");
         i += 1
         pts = []
         for _ in range(n):
@@ -27,12 +28,16 @@ def draw_polygons(polygons):
     min_x, max_x = min(all_x), max(all_x)
     min_y, max_y = min(all_y), max(all_y)
 
+    print( "X: ", min_x, "-", max_x, " Y: ", min_y, "-", max_y, "\n")
+
     width, height = 800, 600
     margin = 20
 
     scale_x = (width - 2 * margin) / (max_x - min_x) if max_x > min_x else 1
     scale_y = (height - 2 * margin) / (max_y - min_y) if max_y > min_y else 1
     scale = min(scale_x, scale_y)
+
+#    print( "Scale X: ", scale_x, " Y: ", scale_y, " over: ", scale, "\n");
 
     # Tkinter window
     root = tk.Tk()
@@ -49,6 +54,9 @@ def draw_polygons(polygons):
             sx = margin + (x - min_x) * scale
             sy = height - (margin + (y - min_y) * scale)  # invert Y
             coords.extend([sx, sy])
+#            print("(", x, ",", y, ") scale (", sx, ",", sy, ")\n");
+
+#        print("size: ", len(coords), "\n");
 
         canvas.create_polygon(coords, outline="black", fill="", width=2)
 

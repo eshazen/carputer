@@ -38,16 +38,16 @@ void print_shape( a_shape* s) {
 
 
 void print_fshape( f_shape* s) {
-  fprintf( stderr, "FSHAPE: %s (%d) ", s->name, s->nvert);
-  fprintf( stderr, "Points off: %d\n", s->points_off);
+  printf("FSHAPE: %s prio=%d\n", s->name, s->prio);
+  printf("  Points off: %d  count: %d\n", s->points_off, s->nvert);
+  printf("  Parts off:  %d  count: %d\n", s->part_off, s->nparts);
 #ifdef INT_COORD
-  fprintf( stderr, "Lat (%d..%d) Lon: (%d..%d)\n",
+  printf("  Lat (%d..%d) Lon: (%d..%d)\n",
 	 s->minLat, s->maxLat, s->minLon, s->maxLon);
 #else  
-  fprintf( stderr, "Lat (%f..%f) Lon: (%f..%f)\n",
+  printf("  Lat (%f..%f) Lon: (%f..%f)\n",
 	 s->minLat, s->maxLat, s->minLon, s->maxLon);
 #endif
-  fprintf( stderr, "  %d parts offset %d\n", s->nparts, s->part_off);
 }
 
 void shape_to_f( f_shape* fs, a_shape* ms) {
@@ -86,28 +86,28 @@ int32_t write_shapes( a_shape* shapes, int32_t nshape, FILE *fp, FILE *fv, FILE 
     // write parts
     fshapes[i].part_off = ftell( fa);
 #ifdef DEBUG
-    fprintf( stderr, "parts at %d:\n", fshapes[i].part_off);
+    printf("parts at %d:\n", fshapes[i].part_off);
 #endif
     for( int k=0; k<shapes[i].nparts; k++) {
 #ifdef DEBUG
-      fprintf( stderr, "  %d %d\n", k, shapes[i].parts[k]);
+      printf("  %d %d\n", k, shapes[i].parts[k]);
 #endif
       fwrite( &shapes[i].parts[k], sizeof(uint32_t), 1, fa);
     }
 
 #ifdef DEBUG
-    fprintf( stderr, "num:%d %s nvert = %d\n", i, shapes[i].name, shapes[i].nvert);
+    printf("num:%d %s nvert = %d\n", i, shapes[i].name, shapes[i].nvert);
     print_shape( &shapes[i]);
     print_fshape( &fshapes[i]);
 #endif    
 
     int32_t llsiz = sizeof( coord_t) * shapes[i].nvert; // lat/lon list sizes
 #ifdef DEBUG
-    fprintf( stderr, " LATLON: llsiz=%" PRId32 " cpos=%" PRId32 "\n", llsiz, cpos);
-    fprintf( stderr, "Writing %d points\n", shapes[i].nvert);
+    printf(" LATLON: llsiz=%" PRId32 " cpos=%" PRId32 "\n", llsiz, cpos);
+    printf("Writing %d points\n", shapes[i].nvert);
     for( int k=0; k<shapes[i].nvert; k++) {
       if( k < 5)
-	fprintf( stderr,  "  write virtex: %f %f\n", shapes[i].points[k].lat, shapes[i].points[i].lon);
+	printf( "  write virtex: %f %f\n", shapes[i].points[k].lat, shapes[i].points[i].lon);
       ;
     }
 #endif    
@@ -115,7 +115,7 @@ int32_t write_shapes( a_shape* shapes, int32_t nshape, FILE *fp, FILE *fv, FILE 
     fshapes[i].points_off = cpos;
     cpos += llsiz * 2;
 #ifdef DEBUG    
-    fprintf( stderr, " LLEND: cpos = %" PRId32 "\n", cpos);
+    printf(" LLEND: cpos = %" PRId32 "\n", cpos);
 #endif
   }
   
