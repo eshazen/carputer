@@ -9,7 +9,6 @@ def read_polygons(filename):
     i = 0
     while i < len(lines):
         n = int(lines[i])
-#        print( "Len =", n, "\n");
         i += 1
         pts = []
         for _ in range(n):
@@ -28,7 +27,7 @@ def draw_polygons(polygons):
     min_x, max_x = min(all_x), max(all_x)
     min_y, max_y = min(all_y), max(all_y)
 
-    print( "X: ", min_x, "-", max_x, " Y: ", min_y, "-", max_y, "\n")
+#    print( "X: ", min_x, "-", max_x, " Y: ", min_y, "-", max_y, "\n")
 
     width, height = 800, 600
     margin = 20

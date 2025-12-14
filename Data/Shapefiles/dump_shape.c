@@ -184,6 +184,27 @@ int main( int argc, char *argv[]) {
       fprintf( stderr, "Seek error to %d on parts file\n", fshape.part_off);
       exit(1);
     }
+#ifdef NEW_PART
+
+    // Process the new-style parts list
+    a_part* parts = calloc( sizeof(a_part), fshape.nparts);
+    fread( parts, sizeof(a_part), fshape.nparts, fa);
+
+    for( int i=0; i<fshape.nparts; i++) {
+      if( plot_mode) {
+	fprintf( fplot, "%d\n", parts[i].count);
+	fseek( fv, parts[i].offset*sizeof(a_point)+fshape.points_off, SEEK_SET);
+	for( int k=0; k<parts[i].count; k++) {
+	  fread( &pt, sizeof(pt), 1, fv);
+	  fprintf( fplot, "%f %f\n", pt.lon, pt.lat);
+	}
+      }
+    }
+    
+    free( parts);
+#else    
+
+
     for( int i=0; i<fshape.nparts; i++) {
       fread( &poff, sizeof(poff), 1, fa);
       p_start = poff;
@@ -251,6 +272,9 @@ int main( int argc, char *argv[]) {
 	}
       } 
     }
+
+#endif    
+
     if( verbose)
       printf( "\n");
 

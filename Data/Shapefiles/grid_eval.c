@@ -19,6 +19,8 @@
 
 #include "shapefil.h"
 
+#include "fileset.h"
+
 #define MAXMATCH 10
 
 char buff[80];
@@ -67,9 +69,9 @@ int find_match( char *name, char* matches[], int nmatch) {
 
 int main(int argc, char **argv) {
 
-  FILE *fo = NULL;
-  FILE *fv = NULL;
-  FILE *fa = NULL;
+  a_fileset fso;
+
+  int output = 0;
 
   int fna = -1;
   int maxs = 99999;
@@ -98,21 +100,11 @@ int main(int argc, char **argv) {
 	  return 1;
 	}
 	++i;
-	snprintf( buff, sizeof( buff), "%s.DAT", argv[i]);
-	if( (fo = fopen( buff, "wb")) == NULL) {
-	  fprintf( stderr, "Error opening output file %s\n", buff);
+	if( open_set( argv[i], &fso, "wb")) {
+	  fprintf( stderr, "Error opening output files %s\n", argv[i]);
 	  return 1;
 	}
-	snprintf( buff, sizeof( buff), "%s.VRT", argv[i]);
-	if( (fv = fopen( buff, "wb")) == NULL) {
-	  fprintf( stderr, "Error opening output file %s\n", buff);
-	  return 1;
-	}
-	snprintf( buff, sizeof( buff), "%s.PRT", argv[i]);
-	if( (fa = fopen( buff, "wb")) == NULL) {
-	  fprintf( stderr, "Error opening output file %s\n", buff);
-	  return 1;
-	}
+	output = 1;
 	break;
       case 'N':
 	if( i == argc-1) {
@@ -306,7 +298,7 @@ int main(int argc, char **argv) {
       }
 
       if( verbose)
-	fprintf( stderr, "%d parts\n", obj->nParts);
+	fprintf( stderr, "PART: %d parts\n", obj->nParts);
 
       // copy the list of parts
       shapes[savedEntities].parts = calloc( obj->nParts, sizeof(uint32_t));
@@ -323,7 +315,7 @@ int main(int argc, char **argv) {
 	else
 	  p_end = obj->panPartStart[j+1];
 	if( plot) printf("%d\n", p_end-p_start);
-	if( verbose > 1) fprintf( stderr, "Part %d from %d to %d (%d)\n", j, p_start, p_end, p_end-p_start);
+	if( verbose) fprintf( stderr, "PART: %d from %d to %d (%d)\n", j, p_start, p_end, p_end-p_start);
 	for( int k=p_start; k<p_end; k++) {
 	  if( plot) printf("%f %f\n", obj->padfX[k], obj->padfY[k]);
 	  ;
@@ -347,11 +339,11 @@ int main(int argc, char **argv) {
       savedEntities = maxs;
     }
 
-    if( fo) {
+    if( output) {
 #ifdef DEBUG
       printf("write_shapes() %d shapes\n", savedEntities);
 #endif      
-      write_shapes( shapes, savedEntities, fo, fv, fa);
+      write_shape_fileset( shapes, savedEntities, fso);
     }
   }
 

@@ -6,7 +6,6 @@ static char buff[80];
 
 int open_set( char *name, a_fileset *fs, char *mode) {
   strncpy( fs->fname, name, sizeof( fs->fname));
-  printf( "OPEN %s\n", name);
 
   snprintf( buff, sizeof(buff), "%s.DAT", name);
   if( (fs->dat = fopen( buff, mode)) == NULL) {
@@ -23,11 +22,12 @@ int open_set( char *name, a_fileset *fs, char *mode) {
     fprintf( stderr, "Can't open %s\n", buff);
     return 1;
   }
+  snprintf( buff, sizeof(buff), "%s.REE", name);
+  fs->ree = fopen( buff, mode);
   return 0;
 }
 
 void close_set( a_fileset *fs) {
-  printf( "CLOSE %s\n", fs->fname);
   fclose( fs->dat);
   fclose( fs->vrt);
   fclose( fs->prt);

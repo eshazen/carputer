@@ -129,13 +129,23 @@ int cat_set( a_fileset *fout, a_fileset *fin, int prio) {
       exit(1);
     }
     fshape.prio = prio;
+
+#ifdef NEW_PART
+    // copy parts
+    fshape.part_off = ftell( fout->prt);
+    a_part prt;
+    for( int k=0; k<fshape.nparts; k++) {
+      fread( &prt, sizeof(prt), 1, fin->prt);
+      fwrite( &prt, sizeof(prt), 1, fout->prt);
+    }
+#else    
     // copy parts
     fshape.part_off = ftell( fout->prt);
     for( int k=0; k<fshape.nparts; k++) {
       fread( &part, sizeof(part), 1, fin->prt);
       fwrite( &part, sizeof(part), 1, fout->prt);
     }
-
+#endif
     // copy points
     fshape.points_off = ftell( fout->vrt);
     for( int k=0; k<fshape.nvert; k++) {

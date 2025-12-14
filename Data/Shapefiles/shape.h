@@ -4,6 +4,8 @@
 #include <stdio.h>
 #include <stdint.h>
 
+#include "fileset.h"
+
 // #define INT_COORD
 
 // define the type to use for lat/lon coordinates
@@ -17,6 +19,11 @@ typedef float coord_i;
 #define COORD_I_SCALE 1000.0
 
 #define MAX_NAME 80
+
+typedef struct {
+  uint32_t count;
+  uint32_t offset;
+} a_part;
 
 typedef struct {
   coord_t lat;
@@ -53,5 +60,7 @@ typedef struct {
 void print_shape( a_shape* shape);
 void print_fshape( f_shape* shape);
 int32_t write_shapes( a_shape* shapes, int32_t nshape, FILE *fp, FILE *fv, FILE *fa);
+int32_t write_shape_fileset( a_shape* shapes, int32_t nshape, a_fileset fs);
+a_part* make_part_list( int nparts, uint32_t *parts, uint32_t nvert);
 
 #endif
