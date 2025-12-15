@@ -74,8 +74,8 @@ int main( int argc, char *argv[]) {
 	     shape.minLon, shape.maxLon);
     }
 
-    rtree_insert( tr, (double[2]){shape.minLat,shape.minLon},
-		  (double[2]){shape.maxLat,shape.maxLon}, (void *)shape_offset);
+    rtree_insert( tr, (NUMTYPE[2]){shape.minLat,shape.minLon},
+		  (NUMTYPE[2]){shape.maxLat,shape.maxLon}, (void *)shape_offset);
 
     if( debug) printf("  lat: ");
     for( int i=0; i<shape.nvert; i++) {

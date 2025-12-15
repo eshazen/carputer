@@ -6,23 +6,25 @@
 #include "shape.h"
 #include "rtree.h"
 
-
+#define LEAF 1
+#define BRANCH 2
 
 struct f_node {
-  enum kind kind;     // LEAF or BRANCH
-  int count;          // number of rects
+  //  enum kind kind;     // LEAF or BRANCH
+  uint32_t kind;
+  uint32_t count;          // number of rects
   struct rect rects[MAXITEMS];
   union {
-    long node_offsets[MAXITEMS]; /* offset to another node for BRANCH */
-    long item_offsets[MAXITEMS]; /* offset to item for LEAF */
+    uint32_t node_offsets[MAXITEMS]; /* offset to another node for BRANCH */
+    uint32_t item_offsets[MAXITEMS]; /* offset to item for LEAF */
   };
 };
 
 
-struct f_rtree {
-  struct rect rect;		/* overall tree rectangle */
-  long root_offset;		/* offset to root node */
-  size_t count;			/* number of LEAF items total */
-  size_t height;		/* depth of tree */
-};
+// struct f_rtree {
+//   struct rect rect;		/* overall tree rectangle */
+//   uint32_t root_offset;		/* offset to root node */
+//   uint16_t count;		/* number of LEAF items total */
+//   uint16_t height;		/* depth of tree */
+// };
 

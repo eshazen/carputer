@@ -109,7 +109,7 @@ void search_tree( coord_t lat, coord_t lon, long offset, FILE *ft, FILE *fd, FIL
 	  printf("MATCH at index %d... ", i);
 	if( fnode.kind == LEAF) { /* LEAF */
 	  if( verbose)
-	    printf("LEAF: %ld...", fnode.item_offsets[i]);
+	    printf("LEAF: %d...", fnode.item_offsets[i]);
 	  fseek( fd, fnode.item_offsets[i], SEEK_SET);
 	  fread( &fshape, sizeof(fshape), 1, fd);
 	  // now point to the virtex list
@@ -236,7 +236,7 @@ void search_tree( coord_t lat, coord_t lon, long offset, FILE *ft, FILE *fd, FIL
 #endif	  
 	} else {		  /* BRANCH */
 	  if( verbose)
-	    printf("BRANCH: go down to node %ld offset %ld\n", fnode.node_offsets[i],
+	    printf("BRANCH: go down to node %d offset %ld\n", fnode.node_offsets[i],
 		 fnode.node_offsets[i]*sizeof(fnode) );
 	  search_tree( lat, lon, fnode.node_offsets[i]*sizeof(fnode), ft, fd, fv, fa);
 	}

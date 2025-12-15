@@ -37,7 +37,7 @@ int main( int argc, char *argv[]) {
   while( fread( &fnode, sizeof(fnode), 1, ft) == 1) {
     printf("NODE: %d type=%d count=%d\n", nnum, fnode.kind, fnode.count);
     for( int i=0; i<fnode.count; i++) {
-      printf("  %d: %ld\n", i, fnode.node_offsets[i]);
+      printf("  %d: %d\n", i, fnode.node_offsets[i]);
       if( fnode.kind == LEAF) {
 	fseek( fd, fnode.item_offsets[i], SEEK_SET);
 	fread( &fshape, sizeof(fshape), 1, fd);
