@@ -6,6 +6,17 @@
 
 ## Work log
 
+### 2025-12-15
+
+`Shape_Based_Find.ino` seems to work now!  Time for complete search
+(state, county, city DB) is 2-6 seconds.  Not bad.
+Occasional duplicate hits are slightly worrisome.  Possibly there
+are overlapping parts due to floating point round-off?
+
+Some final tweaks:
+
+* Display line selected by priority
+
 ### 2025-12-14
 
 Change `PRT` file format to include length and offset for each part.

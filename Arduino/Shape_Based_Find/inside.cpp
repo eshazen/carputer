@@ -16,6 +16,23 @@ int point_in_part_file( File fv, int n, coord_t x, coord_t y)
 
   pos = fv.position();
 
+#ifdef DUMP_POINTS
+  // dump the points
+  Serial.print("point: ");
+  Serial.print(x);
+  Serial.print(",");
+  Serial.println(y);
+
+  for( i=0; i<n; i++) {
+    fv.seek( pos+i*sizeof(a_point));
+    // fread( &pt_i, sizeof(pt_i), 1, fv);
+    fv.read( &pt_i, sizeof(pt_i));
+    Serial.print(pt_i.lon);
+    Serial.print(",");
+    Serial.println(pt_i.lat);
+  }
+#endif
+  
   for (i = 0, j = n - 1; i < n; j = i++) {
 
     // seek the file to offset i

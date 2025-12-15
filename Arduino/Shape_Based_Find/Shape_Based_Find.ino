@@ -8,6 +8,8 @@
 #include "shape.h"
 #include "filetree.h"
 
+#define RAND_POS
+
 int point_in_part_file( File fv, int n, coord_t x, coord_t y);
 
 const int chipSelect = SDCARD_SS_PIN;
@@ -37,7 +39,7 @@ void setup() {
 
   ft = SD.open("STUFF.REE");
   fd = SD.open("STUFF.DAT");
-  fv = SD.open("STUFF.VIR");
+  fv = SD.open("STUFF.VRT");
   fa = SD.open("STUFF.PRT");
 }
 
@@ -47,20 +49,19 @@ void loop() {
 
   float floatLat, floatLon;
 
-  const float latMin = 42.25;
-  const float latMax = 42.52;
+#ifdef RAND_POS
+  const float latMin = 32.0;
+  const float latMax = 42.0;
 
-  const float lonMin = -71.2;
-  const float lonMax = -71.0;
+  const float lonMin = -122.0;
+  const float lonMax = -75.0;
 
   const float latRange = (latMax-latMin);
   const float lonRange = (lonMax-lonMin);
 
-  long start = millis();
+  long start;
 
-  // Lat 25..50
   floatLat = latMin + (float)(random(latRange*10000.0)/10000.0);
-  // Lon -124..-66
   floatLon = lonMin + (float)(random(lonRange*10000.0)/10000.0);
   
   dtostrf( floatLat, 9, 4, prnt);
@@ -68,12 +69,21 @@ void loop() {
   Serial.print(" ");
   dtostrf( floatLon, 9, 4, prnt);
   Serial.println( prnt);
-
-
+#else
+  // fixed point near home
+  floatLat = 42.3425;
+  floatLon = -71.1388;
+#endif  
+  
   Serial.println("Search tree");
+  start = millis();
   search_tree( floatLat, floatLon, 0L, ft, fd, fv, fa);
 
-  delay(5000);
+  long elapsed = millis() - start;
+  Serial.print("ms: ");
+  Serial.println( elapsed);
+
+  delay(2000);
 }
 
 #define MSIZ 0.05
@@ -83,12 +93,13 @@ void search_tree( coord_t lat, coord_t lon, long offset, File ft, File fd, File 
   struct f_node fnode;
   int rc;
   f_shape fshape;
+  a_point pt;
 
   ft.seek( offset);
   ft.read( &fnode, sizeof(fnode));
   //  rc = fread( &fnode, sizeof(fnode), 1, ft);
-  Serial.print("Count ");
-  Serial.println( fnode.count);
+  //  Serial.print("Count ");
+  //  Serial.println( fnode.count);
 
   // check against rects
   for( int i=0; i<fnode.count; i++) {
@@ -100,34 +111,29 @@ void search_tree( coord_t lat, coord_t lon, long offset, File ft, File fd, File 
 	fd.seek( fnode.item_offsets[i]);
 	// fread( &fshape, sizeof(fshape), 1, fd);
 	fd.read( &fshape, sizeof(fshape));
-	Serial.print("LEAF ");
-	Serial.println( fshape.name);
+//	Serial.print("LEAF ");
+//	Serial.println( fshape.name);
 	// now point to the virtex list
 	// fseek( fv, fshape.points_off, SEEK_SET);
 	fv.seek( fshape.points_off);
-	// loop over parts
-	//	if( fseek( fa, fshape.part_off, SEEK_SET)) {
+	// point to parts
 	fa.seek( fshape.part_off);
-	  
+
 	for( int j=0; j<fshape.nparts; j++) {
 	  a_part prt;
 	  // fread( &prt, sizeof(prt), 1, fa);
 	  fa.read( &prt, sizeof(prt));
-
 	  long so = prt.offset*sizeof(a_point)+fshape.points_off;
 	  fv.seek( so);
 
 	  if( point_in_part_file( fv, prt.count, lon, lat )) {
-	    snprintf( prnt, sizeof(prnt), "POINT %f %f is INSIDE %s prio %d", lat, lon, fshape.name, fshape.prio);
+	    snprintf( prnt, sizeof(prnt), "%d %s", fshape.prio, fshape.name);
 	    Serial.println( prnt);
 	  }
 	}
       } else {		  /* BRANCH */
-	//	Serial.println( "Branch");
 	search_tree( lat, lon, fnode.node_offsets[i]*sizeof(fnode), ft, fd, fv, fa);
       }
-    } else {
-      //      Serial.println("NO match");
     }
   }
 }
