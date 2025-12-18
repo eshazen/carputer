@@ -4,6 +4,8 @@
 // currently uses random simulated GPS
 //
 
+// #define USE_SERIAL
+
 #include <math.h>
 #include <SD.h>
 #include <string.h>
@@ -41,15 +43,19 @@ int print_line = 0;
 
 void setup() {
 
+#ifdef USE_SERIAL
   Serial.begin(9600);
   while (!Serial) {
     ;
   }
-
+  
   Serial.print("Initializing SD card...");
+#endif
   // see if the card is present and can be initialized:
   if (!SD.begin(chipSelect)) {
+#ifdef USE_SERIAL
     Serial.println("Card failed, or not present");
+#endif
     while (1);
   }
   Serial.println("card initialized.");
@@ -67,17 +73,14 @@ void setup() {
 
   fill_buffer( oledBuf, 0);		// clear screen
   oled_print( 0, "Display Test 1.0");
-  Serial.println("Test 1.0");
   delay(1000);
 
   fill_buffer( oledBuf, 0);		// clear screen
   oled_print( 0, "Display Test 1.1");
-  Serial.println("Test 1.0");
   delay(1000);
 
   fill_buffer( oledBuf, 0);		// clear screen
   oled_print( 0, "Display Test 1.2");
-  Serial.println("Test 1.0");
   delay(1000);
 
 } // setup()
@@ -109,11 +112,11 @@ void loop() {
   floatLat = latMin + (float)(random(latRange*10000.0)/10000.0);
   floatLon = lonMin + (float)(random(lonRange*10000.0)/10000.0);
   
-  dtostrf( floatLat, 9, 4, prnt);
-  Serial.print( prnt);
-  Serial.print(" ");
-  dtostrf( floatLon, 9, 4, prnt);
-  Serial.println( prnt);
+//  dtostrf( floatLat, 9, 4, prnt);
+//  Serial.print( prnt);
+//  Serial.print(" ");
+//  dtostrf( floatLon, 9, 4, prnt);
+//  Serial.println( prnt);
 #else
   // fixed point near home
   floatLat = 42.3425;
@@ -130,15 +133,17 @@ void loop() {
   prnt[20] = '\0';
   oled_print( 3, prnt); 
 
+#ifdef USE_SERIAL
   Serial.println("Search tree");
   start = millis();
-
+#endif
   search_tree( floatLat, floatLon, 0L, ft, fd, fv, fa);
 
   long elapsed = millis() - start;
+#ifdef USE_SERIAL
   Serial.print("ms: ");
   Serial.println( elapsed);
-
+#endif
   delay(2000);
 
 } // loop()
@@ -189,7 +194,9 @@ void search_tree( coord_t lat, coord_t lon, long offset, File ft, File fd, File 
 
 	  if( point_in_part_file( fv, prt.count, lon, lat )) {
 	    snprintf( prnt, sizeof(prnt), "%s", fshape.name);
+#ifdef USE_SERIAL
 	    Serial.println( prnt);
+#endif
 	    oled_print( 2-fshape.prio, prnt);
 	    ++print_line;
 	  }
