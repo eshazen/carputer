@@ -21,11 +21,11 @@
 // so will expect to find files:  TOWN.CSV, TOWN.IDX, AIRPORT.CSV, AIRPORT.IDX etc
 //
 
-#define DEBUG
-#define DEBUGXX 
+// #define DEBUG
+// #define DEBUGXX 
 #define USE_OLED
 //#define USE_GPS
-#define USE_TIMER
+// #define USE_TIMER
 
 // #define NO_INSERT
 #define DO_INSERT
