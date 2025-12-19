@@ -1,7 +1,8 @@
 //
-// Location lookup of R-Tree data and display
-//
-// currently uses random simulated GPS
+// Working display code
+// Look for GPS messages
+// Looup Lat/Lon using hardwired file names STUFF.DAT .VRT .PRT .REE
+// Display 3 priorities (norm. City, County, State) on display
 //
 
 // #define USE_SERIAL
@@ -36,14 +37,13 @@ void oled_print( int line, const char *str) {
 const int chipSelect = SDCARD_SS_PIN;
 
 char prnt[100];
-char dtos[12];
+char slat[12];
+char slon[12];
 
 File ft;
 File fd;
 File fv;
 File fa;
-
-int print_line = 0;
 
 char gpsStatus = 'X';			// last GGA message status
 int gpsNumSat = 0;			// last GGA messag number of sats
@@ -217,15 +217,15 @@ void setup() {
   pinMode( LED_BUILTIN, OUTPUT);
 
   fill_buffer( oledBuf, 0);		// clear screen
-  oled_print( 0, "Display Test 1.0");
+  oled_print( 0, "ShapeDisplay 1.0");
   delay(1000);
 
   fill_buffer( oledBuf, 0);		// clear screen
-  oled_print( 0, "Display Test 1.1");
+  oled_print( 0, "Initializing...");
   delay(1000);
 
   fill_buffer( oledBuf, 0);		// clear screen
-  oled_print( 0, "Display Test 1.2");
+  oled_print( 0, "Ready...");
   delay(1000);
 
 } // setup()
@@ -233,7 +233,7 @@ void setup() {
 void loop() {
 
   coord_t lat, lon;
-  const char *gpsTime;
+  char *gpsTime;
   float floatLat, floatLon;
 
 
@@ -258,6 +258,8 @@ void loop() {
   floatLon = lonMin + (float)(random(lonRange*10000.0)/10000.0);
 #endif  
 
+  fill_buffer( oledBuf, 0);		// clear screen
+
   // check GPS status
   if( gpsTime == NULL) { 		// no GPS at all
 #ifdef DEBUG
@@ -267,39 +269,48 @@ void loop() {
   fill_buffer( oledBuf, 0);		// clear screen
   oled_print( 0, "NO GPS");
 #endif    
-  } else if( floatLat < 0) {	// no location
-#ifdef DEBUG
-    Serial.println("NO LOC");
-#endif
-#ifdef USE_OLED
-  fill_buffer( oledBuf, 0);		// clear screen
-  oled_print( 0, "NO LOC");
-  oled_print( USE_LINES-1, gpsTime);
-#endif    
-  }
+  } else {			// have at least time
+
+    if( floatLat < 0) {
+      // use a fake location to test the SW
+      floatLat = 24.555;
+      floatLon = -81.7840;
+    }
+
+// #ifdef DEBUG
+//     Serial.println("NO LOC");
+// #endif
+// #ifdef USE_OLED
+//   oled_print( 0, "NO LOC");
+//   oled_print( USE_LINES-1, gpsTime);
+// #endif    
+//   } else {
   
-  print_line = 1;
-  fill_buffer( oledBuf, 0);		// clear screen
-  memset( prnt, ' ', sizeof(prnt));
-  dtostrf( floatLat, 8, 2, prnt);
-  dtostrf( floatLon, 8, 2, dtos);
-  strcat( prnt, " ");
-  strcat( prnt, dtos);
-  prnt[20] = '\0';
-  oled_print( 3, prnt); 
+    // display lat/lon on display
+    memset( prnt, ' ', sizeof(prnt));
+    dtostrf( floatLat, 7, 2, slat);
+    dtostrf( floatLon, 7, 2, slon);
+    gpsTime[4] = '\0';
+    //    gpsTime[6] = '\0';
+    // snprintf( prnt, 23, "%s %s %s %d", slat, slon, gpsTime, gpsNumSat);
+    snprintf( prnt, 23, "%s %s %s %d", slat, slon, gpsTime, gpsNumSat);    
+    //    snprintf( prnt, 23, "*%s*", gpsTime);
+    oled_print( 3, prnt); 
 
 #ifdef USE_SERIAL
-  Serial.println("Search tree");
-  start = millis();
+    Serial.println("Search tree");
+    start = millis();
 #endif
-  search_tree( floatLat, floatLon, 0L, ft, fd, fv, fa);
+    // search_tree will print on first 3 lines of display using database prio
+    search_tree( floatLat, floatLon, 0L, ft, fd, fv, fa);
 
-  long elapsed = millis() - start;
+    long elapsed = millis() - start;
 #ifdef USE_SERIAL
-  Serial.print("ms: ");
-  Serial.println( elapsed);
+    Serial.print("ms: ");
+    Serial.println( elapsed);
 #endif
-  delay(2000);
+  }
+  delay(5000);
 
 } // loop()
 
@@ -353,7 +364,6 @@ void search_tree( coord_t lat, coord_t lon, long offset, File ft, File fd, File 
 	    Serial.println( prnt);
 #endif
 	    oled_print( 2-fshape.prio, prnt);
-	    ++print_line;
 	  }
 	}
       } else {		  /* BRANCH */
@@ -362,4 +372,6 @@ void search_tree( coord_t lat, coord_t lon, long offset, File ft, File fd, File 
     }
   }
 }
+
+
 
