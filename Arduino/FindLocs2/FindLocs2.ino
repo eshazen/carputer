@@ -23,9 +23,11 @@
 
 // #define DEBUG
 // #define DEBUGXX 
+// #define UART_DEBUG
+
 #define USE_OLED
-//#define USE_GPS
-// #define USE_TIMER
+#define USE_GPS
+#define USE_TIMER
 
 // #define NO_INSERT
 #define DO_INSERT
@@ -173,8 +175,9 @@ char* GPS_fix( float *flat, float *flon) {
       if( !strncasecmp( gps, "$GPGGA", 6)) {
 
 	str = gps;
+#ifdef UART_DEBUG
 	Serial.println( gps);
-
+#endif
 	p = strsep( &str, ",");	// 0 skip msg
 	p = strsep( &str, ",");	// 1 skip time
 	p = strsep( &str, ",");	// 2 skip lat
@@ -202,8 +205,10 @@ char* GPS_fix( float *flat, float *flon) {
 	p = strsep( &str, ","); // skip                 8
 	date = strsep( &str, ","); // date              9
 
+#ifdef UART_DEBUG	
 	if( strlen(gps) < 25 || strlen(lat) < 3 )
 	  Serial.println( gps);
+#endif
 
 	if( strlen(gmt) > 3) {
 	  strncpy( tyme, gmt, sizeof(tyme));
@@ -390,15 +395,19 @@ static int ng;
 
 void setup() {
 
+#ifdef UART_DEBUG
   Serial.begin(9600);
   while (!Serial) {
     ;
   }
+#endif
 
   encoder_setup();
 
 #ifdef USE_TIMER
+#ifdef UART_DEBUG
   Serial.println("Setting up timer");
+#endif
   delay(1000);
 
   // Set up the flexible divider/compare
@@ -420,7 +429,9 @@ void setup() {
   zerotimer.setCompare(0, compare);
   zerotimer.setCallback(true, TC_CALLBACK_CC_CHANNEL0, TimerCallback0);
   zerotimer.enable(true);
+#ifdef UART_DEBUG
   Serial.println("timer setup complete");
+#endif
 #endif  
 
 #ifdef USE_OLED
