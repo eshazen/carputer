@@ -42,7 +42,12 @@ Controls not implemented yet.
 * Analog clock display
 * Scrolling of long place names?
 
-Need to build up a 2nd board for development.
+* Outline of towns.  Possibly pre-processed to some sort of grid.
+<br>https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html
+* Lower 48 Lon -124..-66 (58 deg, 2700mi)
+<br>Lat 25..50 (25 deg, 1700mi)
+<br>FAT32 file size 4GB.  Assume an int32 needed to identify region.
+<br>So 15 bits each for lat/lon, less than 0.1 mile grid OK.
 
 ## Resources
 
