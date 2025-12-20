@@ -1,18 +1,21 @@
-# FindLocs.ino
+# ShapeDisplay.ino
 
 Initial version of operating sketch.
+Expects database in these files on SD card:
 
-Read GPS, find grid.
-Find all locations in grid plus neighbors.
+    STUFF.DAT   shapes data per shape.h
+    STUFF.VRT   virtex list for outlines
+    STUFF.PRT   list of outlines
+    STUFF.REE   R-Tree
 
-Loop over all locations, calculate distance
-to GPS location.  Insertion sort to make
-a list of the n nearest and display.
+The database should have 3 datasets differentiated by
+the `prio` item in the shapes data (Town, County, State).
+Each is displayed on it's own line.
 
-## Work in Progress
+Expects a GPS connected to Serial1.
+If there are no messages coming in, waits forever.
 
-Shaft encoder working using timer interrupt poll at 250Hz.
+If there is a time message but no location, displays
+a fake location along with the time.
 
-Reads multiple file sets, shaft encoder selects.
-
-FIXME: Needs a unique grid for each group.
+If there is a location, lookup in database and display.

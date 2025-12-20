@@ -217,7 +217,7 @@ void setup() {
   pinMode( LED_BUILTIN, OUTPUT);
 
   fill_buffer( oledBuf, 0);		// clear screen
-  oled_print( 0, "ShapeDisplay 1.0");
+  oled_print( 0, "TownFinder(TM) 1.0");
   delay(1000);
 
   fill_buffer( oledBuf, 0);		// clear screen
