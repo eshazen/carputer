@@ -236,6 +236,9 @@ int main(int argc, char **argv) {
 	strcpy( usename, value);
       if( !strcasecmp( fieldName, "NAMELSAD"))
 	strcpy( usename, value);
+      if( !strcasecmp( fieldName, "ZONE"))
+	strcpy( usename, value);
+
       if( !strcasecmp( fieldName, "GEOID"))
 	geoID = atoi( value);
       if( !strcasecmp( fieldName, "STUSPS"))

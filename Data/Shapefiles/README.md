@@ -6,6 +6,17 @@
 
 ## Work log
 
+### 2025-12-19
+
+`ShapeDisplay` now working and installed in vehicle!
+
+Possible updates:
+* Notice when crossing a boundary and only update then
+* Add audio notifications (ordered a mezzanine PCB with audio out)
+* Add timezones.  Downloaded shapefile `Time_Zones` which has them.
+* Simple UI to set brightness, volume
+* Maybe a course/speed display option
+
 ### 2025-12-15
 
 `Shape_Based_Find.ino` seems to work now!  Time for complete search
