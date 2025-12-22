@@ -1,5 +1,14 @@
 # ShapeDisplay.ino
 
+### Rev 1.2
+
+Display:
+* 3 lines in large font with location info.
+* Time (corrected for time zone) at right end of top line.
+* Lat/long, date, time, sats on bottom line in smaller font
+
+### Rev 1.0
+
 Initial version of operating sketch.
 Expects database in these files on SD card:
 
@@ -8,7 +17,12 @@ Expects database in these files on SD card:
     STUFF.PRT   list of outlines
     STUFF.REE   R-Tree
 
-The database should have 3 datasets differentiated by
+    ZONE.DAT    time zone database
+	ZONE.VRT
+	ZONE.PRT
+	ZONE.REE
+
+The `STUFF` database should have 3 datasets differentiated by
 the `prio` item in the shapes data (Town, County, State).
 Each is displayed on it's own line.
 

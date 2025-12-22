@@ -5,21 +5,10 @@
 #include <string.h>
 #include <stdlib.h>
 
-// new part format with <count>, <offset> pairs
+// NOTE NOTE NOTE:  NEW_PART defined in Makefile!
 // #define NEW_PART
-
 // #define DEBUG
 // #define VERBOSE
-
-// use new polygon format for VRT file
-//
-//    <nvert>
-//      <lat> <lat>...
-//      <lon> <lon>...
-//        ...
-//    <nvert>
-//        ...
-//    0	
 
 #include "shape.h"
 #include "fileset.h"
@@ -86,6 +75,7 @@ int32_t write_shape_fileset( a_shape* shapes, int32_t nshape, a_fileset fs) {
     printf("parts at %d:\n", fshapes[i].part_off);
 #endif
 
+// NOTE NOTE NOTE:  NEW_PART defined in Makefile!
 #ifdef NEW_PART
     a_part* part_list = make_part_list( shapes[i].nparts, shapes[i].parts, shapes[i].nvert);
     fwrite( part_list, sizeof(a_part), shapes[i].nparts, fs.prt);

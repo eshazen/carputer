@@ -6,6 +6,51 @@
 
 ## Work log
 
+### 2025-12-22
+
+Review of file formats prior to attempt to simplify polygons:
+
+`grid_eval.c` reads a shapefile dataset using library.
+Calls `write_shape_fileset()` to write 3 files:
+
+* `.DAT` is an array of `f_shape` fixed-size records defined in `shape.h`
+  <br>(uint32 header has record count)
+* `.VRT` is an array of `a_point` records defined in `shape.h`
+  <br>members: `float lat, lon;`
+* `.PRT` is an array of `a_part` records defined in `shape.h`
+  <br>members: `uint32 count, offset;`
+  
+`build_tree.c` reads the above `.DAT` and `.VRT` files and writes
+a `.REE` file with a r-tree as:
+
+``` C
+    struct f_node {
+      enum kind kind;     // LEAF or BRANCH
+      int count;          // number of rects
+      struct rect rects[MAXITEMS];   /* coord_t min[2], max[2] */
+      union {
+        long node_offsets[MAXITEMS]; /* offset to another node for BRANCH */
+        long item_offsets[MAXITEMS]; /* offset to item for LEAF */
+      };
+    };
+```
+
+Thoughts:  The R-tree should be based on parts, not entire shapes.
+This would likely speed up the search.  Need to add some metrics to
+`find_by_tree` to evaluate this.
+
+### 2025-12-21
+
+Working on time zones.  Added them to the processing chain, and
+implemented in current version of `ShapeDisplay` with a 
+`#define USE_ZONE`.  The time zone shapes have a huge number of
+vertexes, resulting in ~10s time to process on the Arduino.
+
+Asked ChatGPT to write a C program (`simplify_polygons.c`) to simplify the
+polygons using the _Douglas-Peucker algorithm_ found online.  
+Distance is computed as great circle distance.  A value of 10 for epsilon
+reduces the number of points by about a factor 10.
+
 ### 2025-12-19
 
 `ShapeDisplay` now working and installed in vehicle!

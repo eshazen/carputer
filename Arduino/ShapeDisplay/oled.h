@@ -1,13 +1,22 @@
 #ifndef OLED_H_INCLUDED
 #define OLED_H_INCLUDED
 
-#include "SSD1322_HW_Driver.h"
-#include "SSD1322_API.h"
-#include "SSD1322_GFX.h"
-#include "Fonts/FreeMono9pt7b.h"
-
-#define LINE_SPC 14
+// maximum number of lines
 #define USE_LINES 4
-uint8_t oledBuf[OLED_HEIGHT*OLED_WIDTH];
+
+// large font lines
+#define LARGE_LINES 3
+
+#define OLED_LINE0_WIDTH 22
+#define OLED_LINE_WIDTH 41
+
+void oled_init();
+void oled_print( int line, const char *str);
+void oled_clear();
+void oled_text_clear();
+void oled_text_line( int n, char *s);
+void oled_text_update();
+void oled_text_fill_up();
+char *oled_get_text_line( int n);
 
 #endif

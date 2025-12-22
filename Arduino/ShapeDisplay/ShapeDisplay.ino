@@ -5,12 +5,11 @@
 // Display 3 priorities (norm. City, County, State) on display
 //
 
-// #define USE_SERIAL
-
 #include <math.h>
 #include <SD.h>
 #include <string.h>
 #include <avr/dtostrf.h>
+#include <stdint.h>
 
 #include "oled.h"
 #include "shape.h"
@@ -19,31 +18,35 @@
 #define USE_GPS
 // #define RAND_POS
 
+// lookup timezone (slow!)
+#define USE_ZONE
+
 #define USE_OLED
 
 // #define DEBUG
 // #define USE_SERIAL
 
 int point_in_part_file( File fv, int n, coord_t x, coord_t y);
-void search_tree( coord_t lat, coord_t lon, long offset, File ft, File fd, File fv, File fa);
-
-void oled_print( int line, const char *str) {
-  if( line < USE_LINES) {
-    draw_text( oledBuf, str, 1, (line+1) * LINE_SPC, 15);
-    send_buffer_to_OLED( oledBuf, 0, 0);
-  }
-}
+void search_tree( coord_t lat, coord_t lon, long offset, File ft, File fd, File fv, File fa, int flag);
 
 const int chipSelect = SDCARD_SS_PIN;
 
 char prnt[100];
 char slat[12];
 char slon[12];
+char tzon = '?';		// set to E, C, M, P
+const char* zonz = "ECMP";
 
 File ft;
 File fd;
 File fv;
 File fa;
+
+File zt;
+File zd;
+File zv;
+File za;
+
 
 char gpsStatus = 'X';			// last GGA message status
 int gpsNumSat = 0;			// last GGA messag number of sats
@@ -55,29 +58,30 @@ long start;
 // try to get a GPS fix
 // return pointer to GMT time on success, NULL on error
 // if location not available, set lat = lon = -1
+// if GPS times out, return NULL
+// 
+// wait 5s to receive a GPS message $GPRMC on Serial1
 //
-// blocks until receive a GPS message $GPRMC on Serial1
-//
+
+// global to keep track
+static char tyme[40];
+char gps[80];
+char *gps_str;
+char *gps_p;
+char *gmt;
+char *date;
+char *stat;
+char *lat;
+char *ns;
+char *lon;
+char *ew;
+char *ret;
+
 char* GPS_fix( float *flat, float *flon) {
-
-  static char tyme[40];
-
-  char gps[80];
-  char *str;
-  char *p;
-  char *gmt;
-  char *date;
-  char *stat;
-  char *lat;
-  char *ns;
-  char *lon;
-  char *ew;
-
-  char *ret = NULL;
-
-  while( 1) {
-
-    
+  ret = NULL;
+  start = millis();
+  
+  while( (millis() - start) < 5000) {
 
     if( Serial1.available()) {
       int nc = Serial1.readBytesUntil( '\n', gps, sizeof(gps)-1);
@@ -85,18 +89,18 @@ char* GPS_fix( float *flat, float *flon) {
 
       if( !strncasecmp( gps, "$GPGGA", 6)) {
 
-	str = gps;
+	gps_str = gps;
 #ifdef USE_SERIAL
 	Serial.println( gps);
 #endif
-	p = strsep( &str, ",");	// 0 skip msg
-	p = strsep( &str, ",");	// 1 skip time
-	p = strsep( &str, ",");	// 2 skip lat
-	p = strsep( &str, ",");	// 3 skip ns
-	p = strsep( &str, ",");	// 4 skip lon
-	p = strsep( &str, ",");	// 5 skip ew
-	ew = strsep( &str, ",");// 6 position fix status
-	ns = strsep( &str, ",");// 7 num sats
+	gps_p = strsep( &gps_str, ",");	// 0 skip msg
+	gps_p = strsep( &gps_str, ",");	// 1 skip time
+	gps_p = strsep( &gps_str, ",");	// 2 skip lat
+	gps_p = strsep( &gps_str, ",");	// 3 skip ns
+	gps_p = strsep( &gps_str, ",");	// 4 skip lon
+	gps_p = strsep( &gps_str, ",");	// 5 skip ew
+	ew = strsep( &gps_str, ",");// 6 position fix status
+	ns = strsep( &gps_str, ",");// 7 num sats
 
 	gpsStatus = ew[0];
 	gpsNumSat = atoi( ns);
@@ -104,17 +108,17 @@ char* GPS_fix( float *flat, float *flon) {
 
       if( !strncasecmp( gps, "$GPRMC", 6)) {
 	// parse and display stuff
-	str = gps;
-	p = strsep( &str, ",");	// skip over header   0
-	gmt = strsep( &str, ",");	// get UTC time       1
-	stat = strsep( &str, ","); // get status        2
-	lat = strsep( &str, ","); // get latitude       3
-	ns = strsep( &str, ","); // n/s                 4
-	lon = strsep( &str, ","); // get longitude      5
-	ew = strsep( &str, ","); // e/w                 6
-	p = strsep( &str, ","); // skip                 7
-	p = strsep( &str, ","); // skip                 8
-	date = strsep( &str, ","); // date              9
+	gps_str = gps;
+	gps_p = strsep( &gps_str, ",");	// skip over header   0
+	gmt = strsep( &gps_str, ",");	// get UTC time       1
+	stat = strsep( &gps_str, ","); // get status        2
+	lat = strsep( &gps_str, ","); // get latitude       3
+	ns = strsep( &gps_str, ","); // n/s                 4
+	lon = strsep( &gps_str, ","); // get longitude      5
+	ew = strsep( &gps_str, ","); // e/w                 6
+	gps_p = strsep( &gps_str, ","); // skip                 7
+	gps_p = strsep( &gps_str, ","); // skip                 8
+	date = strsep( &gps_str, ","); // date              9 format ddmmyy
 
 #ifdef USE_SERIAL
 	if( strlen(gps) < 25 || strlen(lat) < 3 )
@@ -123,6 +127,9 @@ char* GPS_fix( float *flat, float *flon) {
 
 	if( strlen(gmt) > 3) {
 	  strncpy( tyme, gmt, sizeof(tyme));
+	  ret = tyme;
+	} else {
+	  strcpy( tyme, "NONE");
 	  ret = tyme;
 	}
 
@@ -144,6 +151,7 @@ char* GPS_fix( float *flat, float *flon) {
       } // if( $GPRMC)
     }
   } // while(1)
+  return ret;
 }
 
 // convert NEMA lat/long to decimal degrees
@@ -191,6 +199,18 @@ void setup() {
   flush();
 #endif
 
+  pinMode( LED_BUILTIN, OUTPUT);
+
+  oled_init();
+
+  oled_clear();		// clear screen
+  oled_print( 0, "TownFinder(TM) 1.2");
+  delay(1000);
+
+  oled_clear();		// clear screen
+  oled_print( 0, "Initializing...");
+  delay(1000);
+
 #ifdef USE_SERIAL
   Serial.print("Initializing SD card...");
 #endif
@@ -199,43 +219,55 @@ void setup() {
 #ifdef USE_SERIAL
     Serial.println("Card failed, or not present");
 #endif
-    while (1);
-  }
+    oled_clear();		// clear screen
+    oled_print( 0, "SD Fail");
+    while (1)
+      ;
+  } else {
 #ifdef USE_SERIAL
-  Serial.println("card initialized.");
+    Serial.println("card initialized.");
 #endif
+  }
 
-  ft = SD.open("STUFF.REE");
-  fd = SD.open("STUFF.DAT");
-  fv = SD.open("STUFF.VRT");
-  fa = SD.open("STUFF.PRT");
+  if( !SD.exists("STUFF.REE") ||  !SD.exists("STUFF.DAT") ||
+      !SD.exists("STUFF.VRT") ||  !SD.exists("STUFF.PRT")
+#ifdef USE_ZONE
+      || !SD.exists("ZONE.REE") ||  !SD.exists("ZONE.DAT") ||
+      !SD.exists("ZONE.VRT") ||  !SD.exists("ZONE.PRT")
+#endif
+      ) {
+    oled_clear();		// clear screen
+    oled_print( 0, "Missing File!");
 
-  SSD1322_HW_Init();
-  SSD1322_API_init();
-  select_font( &FreeMono9pt7b);
+    while(1)
+      ;
+    
+  } else {
+    ft = SD.open("STUFF.REE");
+    fd = SD.open("STUFF.DAT");
+    fv = SD.open("STUFF.VRT");
+    fa = SD.open("STUFF.PRT");
+#ifdef USE_ZONE
+    zt = SD.open("ZONE.REE");
+    zd = SD.open("ZONE.DAT");
+    zv = SD.open("ZONE.VRT");
+    za = SD.open("ZONE.PRT");
+#endif
+  }
 
-  pinMode( LED_BUILTIN, OUTPUT);
 
-  fill_buffer( oledBuf, 0);		// clear screen
-  oled_print( 0, "TownFinder(TM) 1.0");
-  delay(1000);
-
-  fill_buffer( oledBuf, 0);		// clear screen
-  oled_print( 0, "Initializing...");
-  delay(1000);
-
-  fill_buffer( oledBuf, 0);		// clear screen
+  oled_clear();		// clear screen
   oled_print( 0, "Ready...");
   delay(1000);
 
 } // setup()
 
+int loop_count = 0;
+char *gpsTime;
+float floatLat, floatLon;
+
 void loop() {
-
-  coord_t lat, lon;
-  char *gpsTime;
-  float floatLat, floatLon;
-
+  ++loop_count;
 
 #ifdef USE_GPS
   gpsTime = GPS_fix( &floatLat, &floatLon);
@@ -258,7 +290,7 @@ void loop() {
   floatLon = lonMin + (float)(random(lonRange*10000.0)/10000.0);
 #endif  
 
-  fill_buffer( oledBuf, 0);		// clear screen
+  oled_clear();		// clear screen
 
   // check GPS status
   if( gpsTime == NULL) { 		// no GPS at all
@@ -266,61 +298,106 @@ void loop() {
     Serial.println("NO GPS");
 #endif
 #ifdef USE_OLED
-  fill_buffer( oledBuf, 0);		// clear screen
+  oled_clear();		// clear screen
   oled_print( 0, "NO GPS");
 #endif    
   } else {			// have at least time
 
     if( floatLat < 0) {
+      if( loop_count % 2) {
       // use a fake location to test the SW
-      floatLat = 24.555;
-      floatLon = -81.7840;
+	floatLat = 24.555;
+	floatLon = -81.7840;
+      } else {
+	floatLat = 47.9086;
+	floatLon = -124.6373;
+      }
     }
 
-// #ifdef DEBUG
-//     Serial.println("NO LOC");
-// #endif
-// #ifdef USE_OLED
-//   oled_print( 0, "NO LOC");
-//   oled_print( USE_LINES-1, gpsTime);
-// #endif    
-//   } else {
-  
+#ifdef USE_ZONE
+    // lookup timezone first
+    start = millis();
+    search_tree( floatLat, floatLon, 0L, zt, zd, zv, za, 1);
+#ifdef DEBUG
+    Serial.print("Zone ms: ");
+    Serial.println( millis() - start);
+#endif    
+#endif
+    
     // display lat/lon on display
     memset( prnt, ' ', sizeof(prnt));
     dtostrf( floatLat, 7, 2, slat);
     dtostrf( floatLon, 7, 2, slon);
     gpsTime[4] = '\0';
-    //    gpsTime[6] = '\0';
-    // snprintf( prnt, 23, "%s %s %s %d", slat, slon, gpsTime, gpsNumSat);
-    snprintf( prnt, 23, "%s %s %s %d", slat, slon, gpsTime, gpsNumSat);    
-    //    snprintf( prnt, 23, "*%s*", gpsTime);
-    oled_print( 3, prnt); 
+#ifdef USE_ZONE
+    // adjust hour for timezone
+    char *tzp;
+    if( (tzp = strchr( zonz, tzon)) != NULL) {
+      int itim = atoi( gpsTime); // time as 4-digit value
+      int iadj = (tzp-zonz+5) * 100;
+#ifdef DEBUG
+      Serial.println("Time");
+      Serial.println( itim);
+      Serial.println( iadj);
+#endif
+      itim -= iadj;
+      if( itim < 0)
+	itim += 2400;
+#ifdef DEBUG
+      Serial.println( itim);
+#endif
+      sprintf( gpsTime, "%04d", itim);
+#ifdef DEBUG
+      Serial.println( gpsTime);
+#endif
+    }
+#endif
+    oled_text_clear();
+
+
+    snprintf( prnt, OLED_LINE_WIDTH, "%s %s %.2s/%.2s/%.2s %.2s:%.2s %d", slat, slon, 
+	      &date[2], &date[0], &date[4], &gpsTime[0], &gpsTime[2], gpsNumSat);    
+    oled_text_line( USE_LINES-1, prnt);
+    
 
 #ifdef USE_SERIAL
     Serial.println("Search tree");
     start = millis();
 #endif
     // search_tree will print on first 3 lines of display using database prio
-    search_tree( floatLat, floatLon, 0L, ft, fd, fv, fa);
+    search_tree( floatLat, floatLon, 0L, ft, fd, fv, fa, 0);
+    oled_text_fill_up();
+    // some funny business here
+    // copy the corrected time to the end of the first large line
+    char *lp = oled_get_text_line( 0);
+    snprintf( prnt, OLED_LINE0_WIDTH, "%-15.15s %.2s:%.2s", lp, &gpsTime[0], &gpsTime[2]);
+    oled_text_line( 0, prnt);
 
-    long elapsed = millis() - start;
+    oled_text_update();
+
 #ifdef USE_SERIAL
     Serial.print("ms: ");
-    Serial.println( elapsed);
+    Serial.println( millis() - start);
 #endif
   }
+
+#ifdef USE_ZONE  
+  delay(100);
+#else
   delay(5000);
+#endif  
 
 } // loop()
 
 
 
-
-
-#define MSIZ 0.05
-
-void search_tree( coord_t lat, coord_t lon, long offset, File ft, File fd, File fv, File fa) {
+//
+// search for lat/lon in location database specified by 4 files
+// action when found depends on flag:
+//   flag=0  store name in dpy_line[] up to OLED_LINE_WIDTH characters
+//   flag=1  set the timezone
+//
+void search_tree( coord_t lat, coord_t lon, long offset, File ft, File fd, File fv, File fa, int flag) {
 
   struct f_node fnode;
   int rc;
@@ -329,45 +406,38 @@ void search_tree( coord_t lat, coord_t lon, long offset, File ft, File fd, File 
 
   ft.seek( offset);
   ft.read( &fnode, sizeof(fnode));
-  //  rc = fread( &fnode, sizeof(fnode), 1, ft);
-  //  Serial.print("Count ");
-  //  Serial.println( fnode.count);
 
   // check against rects
   for( int i=0; i<fnode.count; i++) {
-    //    Serial.print("Node ");
-    //    Serial.println( i);
     if( lat >= fnode.rects[i].min[0] && lat <= fnode.rects[i].max[0] &&
 	lon >= fnode.rects[i].min[1] && lon <= fnode.rects[i].max[1]) {
       if( fnode.kind == LEAF) { /* LEAF */
 	fd.seek( fnode.item_offsets[i]);
-	// fread( &fshape, sizeof(fshape), 1, fd);
 	fd.read( &fshape, sizeof(fshape));
-//	Serial.print("LEAF ");
-//	Serial.println( fshape.name);
-	// now point to the virtex list
-	// fseek( fv, fshape.points_off, SEEK_SET);
 	fv.seek( fshape.points_off);
-	// point to parts
 	fa.seek( fshape.part_off);
 
 	for( int j=0; j<fshape.nparts; j++) {
 	  a_part prt;
-	  // fread( &prt, sizeof(prt), 1, fa);
 	  fa.read( &prt, sizeof(prt));
 	  long so = prt.offset*sizeof(a_point)+fshape.points_off;
 	  fv.seek( so);
 
 	  if( point_in_part_file( fv, prt.count, lon, lat )) {
-	    snprintf( prnt, sizeof(prnt), "%s", fshape.name);
 #ifdef USE_SERIAL
-	    Serial.println( prnt);
+	    Serial.println( fshape.name);
 #endif
-	    oled_print( 2-fshape.prio, prnt);
+	    if( fshape.prio < 4 && flag == 0) {
+	      oled_text_line( fshape.prio, fshape.name);
+	      //	      oled_print( fshape.prio, prnt);
+	    } else if( flag == 1) {
+	      // timezone
+	      tzon = fshape.name[0];
+	    }
 	  }
 	}
       } else {		  /* BRANCH */
-	search_tree( lat, lon, fnode.node_offsets[i]*sizeof(fnode), ft, fd, fv, fa);
+	search_tree( lat, lon, fnode.node_offsets[i]*sizeof(fnode), ft, fd, fv, fa, flag);
       }
     }
   }
