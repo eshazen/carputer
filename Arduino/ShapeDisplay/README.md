@@ -1,5 +1,10 @@
 # ShapeDisplay.ino
 
+### Rev 1.3
+
+* Handle up to 8 priorities, lowest 3 displayed
+* Add Boston neighborhoods to the database
+
 ### Rev 1.2
 
 Display:

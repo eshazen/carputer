@@ -22,7 +22,7 @@ static int cpos;
 static uint8_t oledBuf[OLED_HEIGHT*OLED_WIDTH];
 
 // display buffers for up to 5 lines
-static char dpy_line[USE_LINES][41];
+static char dpy_line[USE_LINES][OLED_LINE_WIDTH];
 
 // return pointer to text line
 char *oled_get_text_line( int n) {

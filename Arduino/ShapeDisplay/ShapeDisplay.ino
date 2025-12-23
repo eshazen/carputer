@@ -2,7 +2,7 @@
 // Working display code
 // Look for GPS messages
 // Looup Lat/Lon using hardwired file names STUFF.DAT .VRT .PRT .REE
-// Display 3 priorities (norm. City, County, State) on display
+// Display highest 3 priorities (norm. Neighborhood, City, County, State) on display
 //
 
 #include <math.h>
@@ -25,6 +25,10 @@
 
 // #define DEBUG
 // #define USE_SERIAL
+
+// maximum priority data we can handle
+#define MAX_PRIO 8
+uint32_t prio_item[MAX_PRIO];	// offsets in datafile for current search priority items
 
 int point_in_part_file( File fv, int n, coord_t x, coord_t y);
 void search_tree( coord_t lat, coord_t lon, long offset, File ft, File fd, File fv, File fa, int flag);
@@ -204,7 +208,7 @@ void setup() {
   oled_init();
 
   oled_clear();		// clear screen
-  oled_print( 0, "TownFinder(TM) 1.2");
+  oled_print( 0, "TownFinder(TM) 1.3");
   delay(1000);
 
   oled_clear();		// clear screen
@@ -306,8 +310,8 @@ void loop() {
     if( floatLat < 0) {
       if( loop_count % 2) {
       // use a fake location to test the SW
-	floatLat = 24.555;
-	floatLon = -81.7840;
+	floatLat = 42.3135;
+	floatLon = -71.0720;
       } else {
 	floatLat = 47.9086;
 	floatLon = -124.6373;
@@ -354,18 +358,31 @@ void loop() {
 #endif
     oled_text_clear();
 
-
     snprintf( prnt, OLED_LINE_WIDTH, "%s %s %.2s/%.2s/%.2s %.2s:%.2s %d", slat, slon, 
 	      &date[2], &date[0], &date[4], &gpsTime[0], &gpsTime[2], gpsNumSat);    
     oled_text_line( USE_LINES-1, prnt);
-    
 
 #ifdef USE_SERIAL
     Serial.println("Search tree");
     start = millis();
 #endif
-    // search_tree will print on first 3 lines of display using database prio
+    // search_tree will save item offsets in prio_item[]
+    memset( prio_item, 0, sizeof( prio_item));
     search_tree( floatLat, floatLon, 0L, ft, fd, fv, fa, 0);
+    // now we have a sparsely-filled array of prio_item
+    int text_line = 0;
+    for( int i=0; i<MAX_PRIO; i++) {
+      if( prio_item[i]) { 
+	f_shape fshape;
+	fd.seek( prio_item[i]);
+	fd.read( &fshape, sizeof(fshape));
+	if( text_line < LARGE_LINES) {
+	  oled_text_line( text_line, fshape.name);
+	  ++text_line;
+	}
+      }
+    }
+
     oled_text_fill_up();
     // some funny business here
     // copy the corrected time to the end of the first large line
@@ -427,8 +444,13 @@ void search_tree( coord_t lat, coord_t lon, long offset, File ft, File fd, File 
 #ifdef USE_SERIAL
 	    Serial.println( fshape.name);
 #endif
+	    // save this item's offset in the priority array
+	    if( fshape.prio < MAX_PRIO && flag == 0)
+	      prio_item[fshape.prio] = fnode.item_offsets[i];
+
 	    if( fshape.prio < 4 && flag == 0) {
-	      oled_text_line( fshape.prio, fshape.name);
+	      ;
+	      //	      oled_text_line( fshape.prio, fshape.name);
 	      //	      oled_print( fshape.prio, prnt);
 	    } else if( flag == 1) {
 	      // timezone
