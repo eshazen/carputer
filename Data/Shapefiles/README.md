@@ -8,6 +8,13 @@
 
 ### 2025-12-22
 
+Released V1.3 which can handle up to 8 priorities, displaying
+the top 3.  Use this to add Boston Neighborhoods to the display.
+
+Looking at NY Boroughs.  Found a shapefile but it is in a
+strange coordinate systeml. [This doc](https://s-media.nyc.gov/agencies/dcp/assets/files/pdf/data-tools/bytes/nybb_metadata.pdf) gives limits in both coord systems,
+so a translation should be possible.
+
 Review of file formats prior to attempt to simplify polygons:
 
 `grid_eval.c` reads a shapefile dataset using library.
