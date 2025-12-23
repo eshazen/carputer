@@ -238,6 +238,8 @@ int main(int argc, char **argv) {
 	strcpy( usename, value);
       if( !strcasecmp( fieldName, "ZONE"))
 	strcpy( usename, value);
+      if( !strcasecmp( fieldName, "BoroName"))
+	strcpy( usename, value);
 
       if( !strcasecmp( fieldName, "GEOID"))
 	geoID = atoi( value);
