@@ -411,15 +411,10 @@ void setup() {
   delay(1000);
 
   // Set up the flexible divider/compare
-  uint16_t divider  = 1;
-  uint16_t compare = 0;
-  tc_clock_prescaler prescaler = TC_CLOCK_PRESCALER_DIV1;
+  uint16_t divider  = 4;
+  uint16_t compare = (48000000/4)/250.0;
+  tc_clock_prescaler prescaler = TC_CLOCK_PRESCALER_DIV4;
 
-  // preset for 250Hz
-  divider = 4;
-  prescaler = TC_CLOCK_PRESCALER_DIV4;
-  compare = (48000000/4)/250.0;
-  
   zerotimer.enable(false);
   zerotimer.configure(prescaler,       // prescaler
           TC_COUNTER_SIZE_16BIT,       // bit width of timer/counter
@@ -429,9 +424,6 @@ void setup() {
   zerotimer.setCompare(0, compare);
   zerotimer.setCallback(true, TC_CALLBACK_CC_CHANNEL0, TimerCallback0);
   zerotimer.enable(true);
-#ifdef UART_DEBUG
-  Serial.println("timer setup complete");
-#endif
 #endif  
 
 #ifdef USE_OLED

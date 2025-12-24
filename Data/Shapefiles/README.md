@@ -6,6 +6,17 @@
 
 ## Work log
 
+### 2025-12-24
+
+Pending work:
+
+* simplify TZ and install changes
+* add NY boroughs
+* get the UI working
+
+The timer library I was using (`Adafruit_ZeroTimer`) is fickle.  Works in
+`FindLocs2` but not in other simple cases.  Trying another: `SAMD_TimerInterrupt`.
+
 ### 2025-12-22
 
 Released V1.3 which can handle up to 8 priorities, displaying
