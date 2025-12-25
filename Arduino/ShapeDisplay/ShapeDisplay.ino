@@ -10,6 +10,7 @@
 #include <string.h>
 #include <avr/dtostrf.h>
 #include <stdint.h>
+#include <stddef.h>
 
 #include "oled.h"
 #include "shape.h"
@@ -23,15 +24,17 @@
 
 #define USE_OLED
 
-// #define DEBUG
-// #define USE_SERIAL
+#define DEBUG
+#define USE_SERIAL
 
 // maximum priority data we can handle
 #define MAX_PRIO 8
 uint32_t prio_item[MAX_PRIO];	// offsets in datafile for current search priority items
+uint32_t prio_hash, prio_new_hash;		// hash of last set
 
 int point_in_part_file( File fv, int n, coord_t x, coord_t y);
 void search_tree( coord_t lat, coord_t lon, long offset, File ft, File fd, File fv, File fa, int flag);
+uint32_t hash_u32_list(const uint32_t *values, size_t count);
 
 const int chipSelect = SDCARD_SS_PIN;
 
@@ -111,6 +114,11 @@ char* GPS_fix( float *flat, float *flon) {
       }
 
       if( !strncasecmp( gps, "$GPRMC", 6)) {
+#ifdef USE_SERIAL
+	if( strlen(gps) < 25 || strlen(lat) < 3 )
+	  Serial.println( gps);
+#endif
+
 	// parse and display stuff
 	gps_str = gps;
 	gps_p = strsep( &gps_str, ",");	// skip over header   0
@@ -123,11 +131,6 @@ char* GPS_fix( float *flat, float *flon) {
 	gps_p = strsep( &gps_str, ","); // skip                 7
 	gps_p = strsep( &gps_str, ","); // skip                 8
 	date = strsep( &gps_str, ","); // date              9 format ddmmyy
-
-#ifdef USE_SERIAL
-	if( strlen(gps) < 25 || strlen(lat) < 3 )
-	  Serial.println( gps);
-#endif
 
 	if( strlen(gmt) > 3) {
 	  strncpy( tyme, gmt, sizeof(tyme));
@@ -356,29 +359,39 @@ void loop() {
 #endif
     }
 #endif
-    oled_text_clear();
-
-    snprintf( prnt, OLED_LINE_WIDTH, "%s %s %.2s/%.2s/%.2s %.2s:%.2s %d", slat, slon, 
-	      &date[2], &date[0], &date[4], &gpsTime[0], &gpsTime[2], gpsNumSat);    
-    oled_text_line( USE_LINES-1, prnt);
-
 #ifdef USE_SERIAL
     Serial.println("Search tree");
     start = millis();
 #endif
+
+    // FIXME:
+    // Need to update clock once a minute, but other stuff
+    // only when the data changes
+
     // search_tree will save item offsets in prio_item[]
     memset( prio_item, 0, sizeof( prio_item));
     search_tree( floatLat, floatLon, 0L, ft, fd, fv, fa, 0);
     // now we have a sparsely-filled array of prio_item
-    int text_line = 0;
-    for( int i=0; i<MAX_PRIO; i++) {
-      if( prio_item[i]) { 
-	f_shape fshape;
-	fd.seek( prio_item[i]);
-	fd.read( &fshape, sizeof(fshape));
-	if( text_line < LARGE_LINES) {
-	  oled_text_line( text_line, fshape.name);
-	  ++text_line;
+    // display if there was a change
+    prio_new_hash = hash_u32_list( prio_item, MAX_PRIO);
+    if( prio_new_hash != prio_hash) {
+      prio_hash = prio_new_hash;
+
+      oled_text_clear();
+      snprintf( prnt, OLED_LINE_WIDTH, "%s %s %.2s/%.2s/%.2s %.2s:%.2s %d", slat, slon, 
+	      &date[2], &date[0], &date[4], &gpsTime[0], &gpsTime[2], gpsNumSat);    
+      oled_text_line( USE_LINES-1, prnt);
+
+      int text_line = 0;
+      for( int i=0; i<MAX_PRIO; i++) {
+	if( prio_item[i]) { 
+	  f_shape fshape;
+	  fd.seek( prio_item[i]);
+	  fd.read( &fshape, sizeof(fshape));
+	  if( text_line < LARGE_LINES) {
+	    oled_text_line( text_line, fshape.name);
+	    ++text_line;
+	  }
 	}
       }
     }
@@ -466,4 +479,16 @@ void search_tree( coord_t lat, coord_t lon, long offset, File ft, File fd, File 
 }
 
 
+// FNV-1a–style hash for uint32_t arrays (by ChatGPT)
+uint32_t hash_u32_list(const uint32_t *values, size_t count)
+{
+    uint32_t hash = 2166136261u;   /* FNV offset basis */
+
+    for (size_t i = 0; i < count; i++) {
+        hash ^= values[i];
+        hash *= 16777619u;         /* FNV prime */
+    }
+
+    return hash;
+}
 

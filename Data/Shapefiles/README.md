@@ -10,9 +10,10 @@
 
 Pending work:
 
+* Update display only on change
 * simplify TZ and install changes
 * add NY boroughs
-* get the UI working
+* get the UI working (eventually volume, brightness)
 
 The timer library I was using (`Adafruit_ZeroTimer`) is fickle.  Works in
 `FindLocs2` but not in other simple cases.  Trying another: `SAMD_TimerInterrupt`.
