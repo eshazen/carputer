@@ -1,6 +1,6 @@
 execs = grid_eval dump_shape read_shapefile2 \
 build_tree dump_rtree_file find_by_tree find_tree_simple \
-merge_shape
+merge_shape brute_force_search
 
 CFLAGS = -DNEW_PART
 
@@ -15,7 +15,7 @@ headers = shape.h filetree.h rtree.h fileset.h
 
 objects = rtree.o grid_eval.o shape.o read_shapefile2.o \
 dump_shape.o inside.o build_tree.o dump_rtree_file.o find_by_tree.o \
-fake_data.o merge_shape.o fileset.o find_tree_simple.o
+fake_data.o merge_shape.o fileset.o find_tree_simple.o brute_force_search.o
 
 $(objects): %.o: %.c $(headers)
 	$(CC) -c $(CFLAGS) $<
@@ -39,7 +39,10 @@ read_shapefile2: read_shapefile2.o
 	$(CC) -o $@ $^ -lshp
 
 dump_shape: dump_shape.o shape.o
-	$(CC) -o $@ $^ -lshp
+	$(CC) -o $@ $^
+
+brute_force_search: brute_force_search.o shape.o
+	$(CC) -o $@ $^
 
 merge_shape: merge_shape.o shape.o fileset.o
 	$(CC) -o $@ $^ -lshp
