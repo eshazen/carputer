@@ -10,8 +10,6 @@
 
 static char buff[80];
 
-#define NO_HEAP
-
 void search_tree( coord_t lat, coord_t lon, long offset, FILE *ft, FILE *fd, FILE *fv, FILE *fa);
 
 int main( int argc, char *argv[]) {
@@ -20,7 +18,7 @@ int main( int argc, char *argv[]) {
   coord_t lat, lon;
 
   if( argc < 4) {
-    fprintf( stderr, "usage: %s fileset lat lon\n", argv[0]);
+    fprintf( stderr, "usage: %s fileset -L lat lon\n", argv[0]);
     return 1;
   }
 
@@ -52,7 +50,7 @@ int main( int argc, char *argv[]) {
   search_tree( lat, lon, 0L, fs.ree, fs.dat, fs.vrt, fs.prt);		/* start at root */
 }
 
-#define MSIZ 0.05
+// #define MSIZ 0.05
 
 void search_tree( coord_t lat, coord_t lon, long offset, FILE *ft, FILE *fd, FILE *fv, FILE *fa) {
 
@@ -92,29 +90,9 @@ void search_tree( coord_t lat, coord_t lon, long offset, FILE *ft, FILE *fd, FIL
 	    exit(1);
 	  }
 
-#ifdef NO_HEAP
 	  // version with no heap
 	  if( point_in_part_file( fv, prt.count, lon, lat ))
 	    printf("POINT %f %f is INSIDE %s prio %d\n", lat, lon, fshape.name, fshape.prio);
-#else
-	  a_point* pointz = calloc( prt.count, sizeof( a_point));
-	  if( !pointz) {
-	    fprintf( stderr, "malloc failed for %ld bytes\n", prt.count * sizeof(a_point));
-	    exit(1);
-	  }
-
-	  int rc = fread( pointz, sizeof(a_point), prt.count, fv);
-	  if( rc != prt.count) {
-	    fprintf( stderr, "Error reading %d points got %d\n", prt.count, rc);
-	    exit(1);
-	  }
-
-	  if( point_in_part( pointz, prt.count, lon, lat))
-	    printf("POINT %f %f is INSIDE %s prio %d\n", lat, lon, fshape.name, fshape.prio);
-	  free( pointz);
-
-#endif	  
-
 	}
 	  
       } else {		  /* BRANCH */
