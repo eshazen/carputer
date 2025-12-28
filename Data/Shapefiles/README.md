@@ -6,6 +6,10 @@
 
 ## Work log
 
+### 2025-12-25
+
+* Need to rework the display code, implement selective erase
+
 ### 2025-12-24
 
 Pending work:
