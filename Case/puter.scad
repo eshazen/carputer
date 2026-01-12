@@ -128,6 +128,8 @@ module box() {
 	       cube( [door_w, door_h, 10]);
 	  echo("Cavity (mm)", body_w-2*body_thk, body_h-2*body_thk, body_d);
 	  echo("Cavity (in)", (body_w-2*body_thk)/mm, (body_h-2*body_thk)/mm, body_d/mm);
+	  echo("Door (mm)", door_w, door_h);
+	  echo("Door (in)", door_w/mm, door_h/mm);
      }
 
      translate( [0, 0, -body_d+body_thk-e]) {

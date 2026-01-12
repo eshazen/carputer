@@ -17,7 +17,7 @@
 #include "filetree.h"
 
 #define USE_GPS
-// #define RAND_POS
+#define RAND_POS
 
 // lookup timezone (slow!)
 #define USE_ZONE
@@ -60,7 +60,6 @@ int gpsNumSat = 0;			// last GGA messag number of sats
 
 long start;
 
-#ifdef USE_GPS
 //
 // try to get a GPS fix
 // return pointer to GMT time on success, NULL on error
@@ -83,6 +82,8 @@ char *ns;
 char *lon;
 char *ew;
 char *ret;
+
+#ifdef USE_GPS
 
 char* GPS_fix( float *flat, float *flon) {
   ret = NULL;
@@ -193,6 +194,9 @@ void flush() {
 
 
 void setup() {
+
+  pinMode( A0, OUTPUT);
+  digitalWrite( A0, LOW);
 
 #ifdef USE_SERIAL
   Serial.begin(9600);
