@@ -6,9 +6,9 @@
 
 ## Work log
 
-### 2026-01-22
+### 2026-01-18
 
-
+Create `ShapeDisplay2` with sound.  Plays "test.wav" from SD card when entering new location.
 
 ### 2025-12-25
 

@@ -79,6 +79,7 @@ void setup() {
 
 int fake_time = 0;
 char gpsFake[32];
+char buff[32];
 
 void loop() {
 
@@ -98,6 +99,9 @@ void loop() {
   Serial.println(newPos);
   digitalWrite( ENC_RED, newPos & 1);
   digitalWrite( ENC_GRN, newPos & 2);
+
+  snprintf( buff, sizeof(buff), "Enc [%d]", newPos);
+  oled_print( 2, buff);
 #endif
 
   delay(1000);
