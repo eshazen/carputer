@@ -33,14 +33,11 @@ body_h = 2.125*mm-body_spc;
 // body_d = 2.5*mm;
 body_d = 3.25*mm;  // add room for USB connector
 
-// rear access panel
-door_w_frac = 10;
-door_h_frac = 8;
-
-door_w = body_w*((door_w_frac-2)/door_w_frac);
-door_h = body_h*((door_h_frac-2)/door_h_frac);
-door_x = door_w/door_w_frac;
-door_y = door_h/door_h_frac;
+// easier if these are just hard-wired now
+door_w = 148;
+door_h = 46;
+door_x = 12;
+door_y = 3;
 
 // pcb_standoff_down = 0.25*mm + 0.7*mm;   // as last printed
  pcb_standoff_down = 0.7*mm;	// proposed update remove standoffs
@@ -176,23 +173,23 @@ module button_holes() {
     cube( [12, 0.26*mm, 20]);
 }
 
-// // front panel with holes
-// translate( [0,0,16]) {
-//   difference() {
-//     panel();
-//     translate( [0, 0, -5]) {
-//       translate( [-9,2,0]) oled_holes();
-//       mounting_holes();
-//       translate( [42.7, -16, 0])
-//       button_holes();
-//     }
-//     // Antenna hole
-//     translate( [pcb_hole_dx/2-0.325*mm, -pcb_hole_dy/2+0.475*mm, -5]) cylinder( h=20, d=0.26*mm);
-//   }
-// }
+// front panel with holes
+translate( [0,0,16]) {
+  difference() {
+    panel();
+    translate( [0, 0, -5]) {
+      translate( [-9,2,0]) oled_holes();
+      mounting_holes();
+      translate( [42.7, -16, 0])
+      button_holes();
+    }
+    // Antenna hole
+    translate( [pcb_hole_dx/2-0.325*mm, -pcb_hole_dy/2+0.475*mm, -5]) cylinder( h=20, d=0.26*mm);
+  }
+}
 
 
-box();
+// box();
 
 // translate( [0, 0, 5]) {
 //      difference() {

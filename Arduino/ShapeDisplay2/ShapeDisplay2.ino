@@ -22,15 +22,15 @@
 #include "replac.c"
 
 #define USE_GPS
-#define RAND_POS
+// #define RAND_POS
 
 // lookup timezone (slow!)
 #define USE_ZONE
 
 #define USE_OLED
 
-#define DEBUG
-#define USE_SERIAL
+// #define DEBUG
+// #define USE_SERIAL
 
 // maximum priority data we can handle
 #define MAX_PRIO 8
@@ -320,14 +320,14 @@ void loop() {
   } else {			// have at least time
 
     if( floatLat < 0) {
-      if( loop_count % 2) {
+//       if( loop_count % 2) {
       // use a fake location to test the SW
-	floatLat = 42.3135;
-	floatLon = -71.0720;
-      } else {
+//	floatLat = 42.3135;
+//	floatLon = -71.0720;
+//      } else {
 	floatLat = 47.9086;
 	floatLon = -124.6373;
-      }
+//      }
     }
 
 #ifdef USE_ZONE
