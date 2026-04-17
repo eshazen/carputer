@@ -6,6 +6,35 @@
 
 ## Work log
 
+### 2026-04-17
+
+Trying to recover build tools after a gap and some OS upgrades.  We need shapelib.
+Clone the repo https://github.com/OSGeo/shapelib.git.  Now need to figure out how to
+build with CMake.  Try:
+
+    cd ~/work/shapelib/
+    mkdir build
+	cmake --build build/
+	sudo cmake --build build/ -- install
+	
+This seems to have installed to `/usr/local/share/shapelib`
+<br>Now I can make in `...Data/Shapefiles`.
+
+Script `build_with_zones.sh` runs but have to set `LD_LIBRARY_PATH=/usr/local/lib.
+<br>Fix by adding `local.conf` with `/usr/local/lib` to `/etc/ld.so.conf.d` and
+running `sudo ldconfig`.
+
+The `build_with` script creates STUFFZ files which presumably can be copied
+to the SD card.
+
+Need to investigate why most of the MA towns are missing.  Installing `qgis` to visualize
+the shapefiles and have a look.  Turns out most of MA (and other states) outside major
+towns and cities are blank in the `cb_2024_us_place_500k` data.
+
+Found a [link](https://gis.data.mass.gov/datasets/massgis::massachusetts-municipal-boundaries-lines/explore?location=42.069662%2C-71.707764%2C7) for MA data.  View on qgis looks on but no filled polygons appear.
+
+Downloaded the MA data but `grid_eval` fails with "ERROR:  zero parts".
+
 ### 2026-01-18
 
 Create `ShapeDisplay2` with sound.  Plays "test.wav" from SD card when entering new location.
