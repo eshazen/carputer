@@ -8,8 +8,6 @@
 // skip the ray-intersect algorithm
 // #define RANGE_ONLY
 
-// #define DEBUG
-
 #include "shape.h"
 
 #include <stdio.h>
@@ -215,6 +213,8 @@ int main(int argc, char **argv) {
   savedEntities = 0;
 
   for (int i = 0; i < nEntities; i++) {
+    int skip = 0;		/* skip this record */
+
     SHPObject *obj = SHPReadObject(hSHP, i);
     if (!obj) continue;
 
@@ -232,6 +232,19 @@ int main(int argc, char **argv) {
       if( verbose)
 	printf("  %s: %s\n", fieldName, value);
 
+
+      if( !strcasecmp( fieldName, "FINISHED")) {
+	if( verbose)
+	  printf("Saw FINISHED = %s\n", value);
+	if( strcasecmp( value, "YES")) {
+	  skip = 1;
+	  if( verbose)
+	    printf("SKIP!\n");
+	}
+      }
+
+      if( !strcasecmp( fieldName, "TOWN"))
+	strcpy( usename, value);
       if( !strcasecmp( fieldName, "NAME"))
 	strcpy( usename, value);
       if( !strcasecmp( fieldName, "NAMELSAD"))
@@ -261,15 +274,23 @@ int main(int argc, char **argv) {
       if( obj->padfY[j] < yMin)
 	yMin = obj->padfY[j];
 	
-      if( verbose > 1)
-	fprintf( stderr, "  Virtex %d: (%.6f, %.6f)\n",
-	       j, obj->padfX[j], obj->padfY[j]);
+      if( verbose > 2)
+	printf(  "  Virtex %d: (%.6f, %.6f)\n",
+		 j, obj->padfX[j], obj->padfY[j]);
     }
 
     if( verbose) 
-      fprintf( stderr, "nVertexes: %d \"%s\" X(%f..%f) Y(%f..%f)\n", obj->nVertices, usename, xMin, xMax, yMin, yMax);
+      printf(  "nVertexes: %d \"%s\" X(%f..%f) Y(%f..%f)\n", obj->nVertices, usename, xMin, xMax, yMin, yMax);
 
     int save_it = 1;
+    if( skip)
+      save_it = 0;
+    if( verbose) {
+      if( save_it)
+	printf("SAVE!\n");
+      else
+	printf("SKIP!\n");
+    }
     // all conditions have to match
 
     // check for string name match
@@ -286,7 +307,7 @@ int main(int argc, char **argv) {
 
     if( save_it) {
 
-      if( !plot && verbose ) fprintf( stderr, "MATCH %s\n", usename);
+      if( !plot && verbose ) printf(  "MATCH %s\n", usename);
 
       shapes[savedEntities].minLon = xMin;
       shapes[savedEntities].maxLon = xMax;
@@ -303,7 +324,7 @@ int main(int argc, char **argv) {
       }
 
       if( verbose)
-	fprintf( stderr, "PART: %d parts\n", obj->nParts);
+	printf(  "PART: %d parts\n", obj->nParts);
 
       // copy the list of parts
       shapes[savedEntities].parts = calloc( obj->nParts, sizeof(uint32_t));
@@ -320,7 +341,7 @@ int main(int argc, char **argv) {
 	else
 	  p_end = obj->panPartStart[j+1];
 	if( plot) printf("%d\n", p_end-p_start);
-	if( verbose) fprintf( stderr, "PART: %d from %d to %d (%d)\n", j, p_start, p_end, p_end-p_start);
+	if( verbose) printf(  "PART: %d from %d to %d (%d)\n", j, p_start, p_end, p_end-p_start);
 	for( int k=p_start; k<p_end; k++) {
 	  if( plot) printf("%f %f\n", obj->padfX[k], obj->padfY[k]);
 	  ;
@@ -340,20 +361,19 @@ int main(int argc, char **argv) {
   if( !plot) {
 
     if( savedEntities > maxs) {
-      fprintf( stderr, "Limiting output to first %d shapes\n", maxs);
+      printf(  "Limiting output to first %d shapes\n", maxs);
       savedEntities = maxs;
     }
 
     if( output) {
-#ifdef DEBUG
-      printf("write_shapes() %d shapes\n", savedEntities);
-#endif      
+      if( verbose)
+	printf("write_shapes() %d shapes\n", savedEntities);
       write_shape_fileset( shapes, savedEntities, fso);
     }
   }
 
-  fprintf( stderr, "Largest shape has %d vertexes\n", maxVert);
-  fprintf( stderr, "%d save entities\n", savedEntities);
+  printf(  "Largest shape has %d vertexes\n", maxVert);
+  printf(  "%d save entities\n", savedEntities);
 
   return 0;
 }

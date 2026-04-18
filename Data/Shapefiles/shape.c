@@ -18,12 +18,12 @@
 // (ignore coordinate list)
 //
 void print_shape( a_shape* s) {
-  fprintf( stderr, "SHAPE: %s (%d) ", s->name, s->nvert);
-  fprintf( stderr, "Lat (%f..%f) Lon: (%f..%f)\n",
+  printf(  "SHAPE: %s (%d) ", s->name, s->nvert);
+  printf(  "Lat (%f..%f) Lon: (%f..%f)\n",
 	 s->minLat, s->maxLat, s->minLon, s->maxLon);
 #ifdef VERBOSE
   for( int i=0; i<s->nvert; i++) {
-    fprintf( stderr, "  vert %d: (%f, %f)\n", i, s->points[i].lat, s->points[i].lon);
+    printf(  "  vert %d: (%f, %f)\n", i, s->points[i].lat, s->points[i].lon);
   }
 #endif
 }
@@ -78,8 +78,10 @@ int32_t write_shape_fileset( a_shape* shapes, int32_t nshape, a_fileset fs) {
 // NOTE NOTE NOTE:  NEW_PART defined in Makefile!
 #ifdef NEW_PART
     a_part* part_list = make_part_list( shapes[i].nparts, shapes[i].parts, shapes[i].nvert);
-    fwrite( part_list, sizeof(a_part), shapes[i].nparts, fs.prt);
-    free( part_list);
+    if( part_list != NULL) {
+      fwrite( part_list, sizeof(a_part), shapes[i].nparts, fs.prt);
+      free( part_list);
+    }
 #else
 
     for( int k=0; k<shapes[i].nparts; k++) {
@@ -187,8 +189,9 @@ a_part* make_part_list( int nparts, uint32_t *parts, uint32_t nvert) {
   a_part* p;
 
   if( nparts <1 ) {
-    fprintf( stderr, "ERROR:  zero parts\n");
-    exit(1);
+    printf(  "ERROR:  zero parts\n");
+    // try just returning NULL
+    return NULL;
   }
 
   p = calloc( nparts, sizeof(a_part));

@@ -1,5 +1,5 @@
 #!/bin/bash
-./grid_eval 'Massachusetts_Municipal_Boundaries_(Lines)' -o MASS
+./grid_eval Ma-town-poly -o MASS
 ./grid_eval cb_2024_us_place_500k -o PLACE
 ./grid_eval cb_2024_us_county_500k -o COUNTY
 ./grid_eval cb_2024_us_state_500k -o STATES

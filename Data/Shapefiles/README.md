@@ -6,6 +6,34 @@
 
 ## Work log
 
+### 2026-04-18
+
+Managed to conver the Mass data to lat/lon (EPSG4326 - WGS84) using:
+
+QGIS (Recommended for Visuals):
+
+*  Add the Layer (EPSG:26986).
+*  Right-click the layer, select Export > Save Features As.
+*  Select ESRI Shapefile or GeoJSON.
+*  Set the CRS to EPSG:4326 - WGS 84 and click OK
+
+However `grid_eval` still crashes at end of file, and if we limit the output using:
+
+    ./grid_eval Mass-towns -o MASS -n 1350
+	
+then the data is still a mess, polygons not closed.	
+
+There seems to be a field "FINISHED" in the Mass data with value "YES" or "NO".
+Add to `grid_eval` a check to save only those with "FINISHED=YES".
+Doesn't help the EOF crash.
+
+Seems like the wrong data set.  Downloaded the "shapefile" (zip)
+from [here](https://www.mass.gov/info-details/massgis-data-municipalities).
+Unzipped and read the TOWNSSURVEY_POLY into Qgis.  Then exported as `Ma-town-poly`
+using EPSG:4326.  Looks good now and seems to work!
+
+Added to `build_with_zones.sh`.
+
 ### 2026-04-17
 
 Trying to recover build tools after a gap and some OS upgrades.  We need shapelib.

@@ -1,0 +1,81 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.34.4-Prizren">
+  <identifier>TOWNSSURVEY_POLY</identifier>
+  <parentidentifier></parentidentifier>
+  <language>ENG</language>
+  <type>dataset</type>
+  <title>Massachusetts Municipalities</title>
+  <abstract>The political boundary datalayer is a polygon representation of city and town boundaries created from arcs developed from survey coordinates extracted from the 68-volume Harbor and Lands Commission Town Boundary Atlas for the 351 communities (cities and towns) in Massachusetts. The Atlas was published in the early 1900's and is maintained by the Survey Section of Massachusetts Highway Department. For communities with a coastal boundary, MassGIS has collaborated with Massachusetts Water Resources Authority and the Department of Environmental Protection to complete a 1:12000 scale coastline. The boundary for the coastline was defined as being the upland side of tidal flats and rocky inter-tidal zones. Note that the 351 communities are the official municipal names, not including "villages" or other sections of towns. This layer contains single-part polygons, in which islands or sections of municipalities separated by water are each represented by its own feature.
+
+This datalayer was created for the purposes of providing an up-to-date polygon version of the city and town boundaries for the 351 municipalities of the Commonwealth of Massachusetts. Mapping was based on surveyed coordinates as recorded in the Harbor and Lands Commission Town Boundary Atlas, maintained by the survey section of MassDOT - Highway Division. This layer contains single-part polygons, in which islands or sections of municipalities separated by water are each represented by its own feature.</abstract>
+  <keywords vocabulary="Search keys">
+    <keyword>Commonwealth of Massachusetts</keyword>
+    <keyword>Massachusetts</keyword>
+    <keyword>City Boundaries</keyword>
+    <keyword>Town Boundaries</keyword>
+    <keyword>Survey Points</keyword>
+    <keyword>Harbor and Lands Commission</keyword>
+    <keyword>Municipal</keyword>
+  </keywords>
+  <keywords vocabulary="gmd:topicCategory">
+    <keyword>City Boundaries</keyword>
+    <keyword>Town Boundaries</keyword>
+    <keyword>Survey Points</keyword>
+    <keyword>Harbor and Lands Commission</keyword>
+    <keyword>Municipal</keyword>
+  </keywords>
+  <contact>
+    <contactAddress>
+      <type>both</type>
+      <address>One Ashburton Place, Room 819</address>
+      <city>Boston</city>
+      <administrativearea>MA</administrativearea>
+      <postalcode>02108</postalcode>
+      <country>US</country>
+    </contactAddress>
+    <name>Michael Trust</name>
+    <organization>MassGIS</organization>
+    <position>Sr. GIS Database Administrator</position>
+    <voice>617-626-4400</voice>
+    <fax></fax>
+    <email></email>
+    <role>Point of contact</role>
+  </contact>
+  <links/>
+  <dates>
+    <date value="2017-03-22T00:00:00" type="Published"/>
+    <date value="2023-11-08T00:00:00" type="Revised"/>
+  </dates>
+  <fees></fees>
+  <constraints type="Limitations of use">This data set, like all other cartographic products may contain inherent aberrations in geography or thematical errors. The boundaries included in this data set were developed using accepted GIS methodology. Cartographic products can never truly represent real-world conditions due to several factors. These factors can include, but are not limited to: human error upon digitizing, computational tolerance of the computer, or the distortion of map symbology. Because of these factors MassGIS cannot be held legally responsible for personal or property damages resulting from any type of use of the data set. These boundaries are suitable for map display and planning purposes. They cannot be used as a substitute for the work of a professional land surveyor.</constraints>
+  <rights>MassGIS, MassDOT - Highway Division, MassDEP, MWRA</rights>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt>PROJCRS["NAD83 / Massachusetts Mainland",BASEGEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4269]],CONVERSION["SPCS83 Massachusetts Mainland zone (meter)",METHOD["Lambert Conic Conformal (2SP)",ID["EPSG",9802]],PARAMETER["Latitude of false origin",41,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8821]],PARAMETER["Longitude of false origin",-71.5,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8822]],PARAMETER["Latitude of 1st standard parallel",42.6833333333333,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8823]],PARAMETER["Latitude of 2nd standard parallel",41.7166666666667,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8824]],PARAMETER["Easting at false origin",200000,LENGTHUNIT["metre",1],ID["EPSG",8826]],PARAMETER["Northing at false origin",750000,LENGTHUNIT["metre",1],ID["EPSG",8827]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["United States (USA) - Massachusetts onshore - counties of Barnstable; Berkshire; Bristol; Essex; Franklin; Hampden; Hampshire; Middlesex; Norfolk; Plymouth; Suffolk; Worcester."],BBOX[41.46,-73.5,42.89,-69.86]],ID["EPSG",26986]]</wkt>
+      <proj4>+proj=lcc +lat_0=41 +lon_0=-71.5 +lat_1=42.6833333333333 +lat_2=41.7166666666667 +x_0=200000 +y_0=750000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+      <srsid>2357</srsid>
+      <srid>26986</srid>
+      <authid>EPSG:26986</authid>
+      <description>NAD83 / Massachusetts Mainland</description>
+      <projectionacronym>lcc</projectionacronym>
+      <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial miny="41.23116999999999877" maxy="42.8883119999999991" dimensions="2" maxz="0" minx="-73.53331799999999419" minz="0" maxx="-69.89858999999999867" crs="EPSG:26986"/>
+    <temporal>
+      <period>
+        <start>2017-03-22T04:00:00Z</start>
+        <end></end>
+      </period>
+    </temporal>
+    <temporal>
+      <period>
+        <start></start>
+        <end></end>
+      </period>
+    </temporal>
+  </extent>
+</qgis>
