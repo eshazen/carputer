@@ -36,18 +36,18 @@ Controls not implemented yet.
 
 ### Enhancements:
 
+**V3.x**
+
+* Hierarchy of search (state first, then state-specific towns?)
+* Simple UI (button/knob to enable/disable debug mode)
+
+**Other**
+
 * Categories of POI, selected by knob
   <br>with timeout to return to town display?
 * Clock time in local time zone (how to determine time zone?)
 * Analog clock display
 * Scrolling of long place names?
-
-* Outline of towns.  Possibly pre-processed to some sort of grid.
-<br>https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html
-* Lower 48 Lon -124..-66 (58 deg, 2700mi)
-<br>Lat 25..50 (25 deg, 1700mi)
-<br>FAT32 file size 4GB.  Assume an int32 needed to identify region.
-<br>So 15 bits each for lat/lon, less than 0.1 mile grid OK.
 
 ## Resources
 

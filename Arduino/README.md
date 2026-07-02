@@ -12,4 +12,6 @@
 | Shape_Based_Find |                                                           |
 | ShapeDisplay     | Gen 2 place display using R-tree boundaries (v1.3)        |
 | ShapeDisplay2    | Gen 2 place display with sound (v2.0)                     |
+| ShapeDisplay3    | Gen 3 place display with controls, heirarchial search     |
+|                  | (work in progress)                                        |
 | WhyNoDisplay     | Encoder, timer, OLED test with SAMDTimerInterrupt library |
