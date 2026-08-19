@@ -173,21 +173,25 @@ module button_holes() {
     cube( [12, 0.26*mm, 20]);
 }
 
-// front panel with holes
-translate( [0,0,16]) {
-  difference() {
-    panel();
-    translate( [0, 0, -5]) {
-      translate( [-9,2,0]) oled_holes();
-      mounting_holes();
-      translate( [42.7, -16, 0])
-      button_holes();
+module panel_with_holes() {
+
+  // front panel with holes
+  translate( [0,0,16]) {
+    difference() {
+      panel();
+      translate( [0, 0, -5]) {
+	translate( [-9,2,0]) oled_holes();
+	mounting_holes();
+	translate( [42.7, -16, 0])
+	  button_holes();
+      }
+      // Antenna hole
+      translate( [pcb_hole_dx/2-0.325*mm, -pcb_hole_dy/2+0.475*mm, -5]) cylinder( h=20, d=0.26*mm);
     }
-    // Antenna hole
-    translate( [pcb_hole_dx/2-0.325*mm, -pcb_hole_dy/2+0.475*mm, -5]) cylinder( h=20, d=0.26*mm);
   }
 }
 
+projection() panel_with_holes();
 
 // box();
 
