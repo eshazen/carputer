@@ -1,5 +1,29 @@
 # carputer
 
+## V2.0 Hardware
+
+Looking to design a "low profile" version with bare-metal software and comfortable RAM.
+
+Here is A ChatGPT list... " shortlist of 5–10 currently available MCUs
+meeting all of your requirements, including 32/48/64-pin package,
+pitch, Flash/RAM, price in small quantities, GCC toolchain, and
+exactly how each can be programmed using inexpensive non-proprietary
+hardware."
+
+| Rank  | MCU                    | Flash / RAM   | CPU                 | Package         | I/O | Current status | My assessment               |
+| ----- | ---------------------- | ------------- | ------------------- | --------------- | --: | -------------- | --------------------------- |
+| **1** | **PIC32CK2051GC01064** | 2 MB / 512 KB | Cortex-M33 120 MHz  | 64-TQFP, 0.5 mm |  50 | Active         | ⭐ **Best overall**          |
+| **2** | **ATSAME51J20A**       | 1 MB / 256 KB | Cortex-M4F 120 MHz  | 64-TQFP, 0.5 mm |  51 | Active         | ⭐ **Simplest choice**       |
+| **3** | **PIC32CZ2051CA70064** | 2 MB / 512 KB | Cortex-M7 300 MHz   | 64-TQFP, 0.5 mm |  44 | Active         | ⭐ **Best performance**      |
+| **4** | **PIC32CK2051SG01064** | 2 MB / 512 KB | Cortex-M33F 120 MHz | 64-TQFP, 0.5 mm |  47 | Active         | Best if security matters    |
+| **5** | **ATSAMD51J20A**       | 1 MB / 256 KB | Cortex-M4F 120 MHz  | 64-TQFP, 0.5 mm | ~51 | In production  | Excellent, mature ecosystem |
+| **6** | **STM32H563RGT6**      | 1 MB / 640 KB | Cortex-M33 250 MHz  | 64-LQFP, 0.5 mm | ~51 | Active         | Excellent ST alternative    |
+| **7** | **MSPM33C321A-Q1**     | 1 MB / 256 KB | Cortex-M33 160 MHz  | 64-LQFP, 0.5 mm |  57 | Active/preview | Interesting, but I'd wait   |
+
+I'm leaning towards number 2 or 5.
+
+## V1.0 Hardware
+
 Car computer with display and GPS in DIN enclosure
 
 Proposed functions:
