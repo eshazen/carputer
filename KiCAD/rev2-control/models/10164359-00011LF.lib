@@ -1,0 +1,36 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 10164359-00011LF
+#
+DEF 10164359-00011LF J 0 40 Y Y 1 L N
+F0 "J" -500 330 50 H V L BNN
+F1 "10164359-00011LF" -500 -700 50 H V L BNN
+F2 "AMPHENOL_10164359-00011LF" 0 0 50 H I L BNN
+F3 "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_usb_type_c_connector_cable.pdf" 0 0 50 H I L BNN
+F4 "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_usb_type_c_connector_cable.pdf" 0 0 50 H I L BNN "DATASHEET_URL"
+F5 "USB Type C Receptacle SMT Single Row 6Pin" 0 0 50 H I L BNN "DESCRIPTION"
+F6 "Amphenol FCI" 0 0 50 H I L BNN "MANUFACTURER"
+F7 "3.26 mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F8 "10164359-00011LF" 0 0 50 H I L BNN "MPN"
+F9 "A" 0 0 50 H I L BNN "PARTREV"
+F10 "https://www.snapeda.com/parts/10164359-00011LF/Amphenol/view-part/" 0 0 50 H I L BNN "SOURCE_URL"
+F11 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
+DRAW
+S -500 -600 500 300 0 0 10 f
+X GND_A A12 -700 0 200 R 40 40 0 0 W 
+X VBUS_A A9 -700 200 200 R 40 40 0 0 W 
+X CC1 A5 -700 100 200 R 40 40 0 0 B 
+X SHIELD SH1 -700 -200 200 R 40 40 0 0 P 
+X GND_B B12 700 0 200 L 40 40 0 0 W 
+X VBUS_B B9 700 200 200 L 40 40 0 0 W 
+X CC2 B5 700 100 200 L 40 40 0 0 B 
+X SHIELD__1 SH2 -700 -300 200 R 40 40 0 0 P 
+X SHIELD__2 SH3 -700 -400 200 R 40 40 0 0 P 
+X SHIELD__3 SH4 -700 -500 200 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
