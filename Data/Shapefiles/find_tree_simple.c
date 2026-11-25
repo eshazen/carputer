@@ -10,6 +10,8 @@
 
 static char buff[80];
 
+
+
 void search_tree( coord_t lat, coord_t lon, long offset, FILE *ft, FILE *fd, FILE *fv, FILE *fa);
 
 int main( int argc, char *argv[]) {
