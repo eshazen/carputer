@@ -1,0 +1,100 @@
+(footprint "Yamaichi_PJS008U-3000-0_MicroSD_Vertical"
+  (version 20240108)
+  (generator "pcbnew")
+  (layer "F.Cu")
+  (descr "Yamaichi PJS008U-3000-0 vertical-mount microSD socket; mounting-pin drill is estimated")
+  (tags "microSD socket vertical Yamaichi PJS008U-3000-0")
+  (attr through_hole)
+
+  (property "Reference" "REF**"
+    (at 3.85 -5.30 0)
+    (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Value" "PJS008U-3000-0"
+    (at 3.85 5.00 0)
+    (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  ; Signal contacts: 0.70 mm drill per recommended PCB layout.
+  ; Pin 1 is at the origin; numbering advances in +X.
+  (pad "1" thru_hole rect
+    (at 0.00 0.00)
+    (size 1.50 1.50)
+    (drill 0.70)
+    (layers "*.Cu" "*.Mask")
+  )
+  (pad "2" thru_hole circle
+    (at 1.10 -1.10)
+    (size 1.50 1.50)
+    (drill 0.70)
+    (layers "*.Cu" "*.Mask")
+  )
+  (pad "3" thru_hole circle
+    (at 2.20 0.00)
+    (size 1.50 1.50)
+    (drill 0.70)
+    (layers "*.Cu" "*.Mask")
+  )
+  (pad "4" thru_hole circle
+    (at 3.30 -1.10)
+    (size 1.50 1.50)
+    (drill 0.70)
+    (layers "*.Cu" "*.Mask")
+  )
+  (pad "5" thru_hole circle
+    (at 4.40 0.00)
+    (size 1.50 1.50)
+    (drill 0.70)
+    (layers "*.Cu" "*.Mask")
+  )
+  (pad "6" thru_hole circle
+    (at 5.50 -1.10)
+    (size 1.50 1.50)
+    (drill 0.70)
+    (layers "*.Cu" "*.Mask")
+  )
+  (pad "7" thru_hole circle
+    (at 6.60 0.00)
+    (size 1.50 1.50)
+    (drill 0.70)
+    (layers "*.Cu" "*.Mask")
+  )
+  (pad "8" thru_hole circle
+    (at 7.70 -1.10)
+    (size 1.50 1.50)
+    (drill 0.70)
+    (layers "*.Cu" "*.Mask")
+  )
+
+  ; Unnumbered mounting pins: 8.60 mm center-to-center,
+  ; centered on the signal-pin pattern, 3.17 mm from the pin-1 row.
+  (pad "MP1" thru_hole circle
+    (at -0.45 3.17)
+    (size 1.80 1.80)
+    (drill 1.00)
+    (layers "*.Cu" "*.Mask")
+  )
+  (pad "MP2" thru_hole circle
+    (at 8.15 3.17)
+    (size 1.80 1.80)
+    (drill 1.00)
+    (layers "*.Cu" "*.Mask")
+  )
+
+  ; Conservative courtyard around the pin pattern and socket body.
+  (fp_rect
+    (start -3.00 -5.00)
+    (end 10.70 4.20)
+    (stroke (width 0.05) (type solid))
+    (fill none)
+    (layer "F.CrtYd")
+  )
+
+  (fp_text user "PIN 1"
+    (at -1.10 0.00 0)
+    (layer "F.Fab")
+    (effects (font (size 0.70 0.70) (thickness 0.10)))
+  )
+)

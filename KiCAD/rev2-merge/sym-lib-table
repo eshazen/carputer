@@ -3,4 +3,5 @@
 	(lib (name "my_oled") (type "KiCad") (uri "${KIPRJMOD}/my_oled.kicad_sym") (options "") (descr ""))
 	(lib (name "arduino-library") (type "KiCad") (uri "/home/hazen/work/arduino-kicad-library/symbols/arduino-library.kicad_sym") (options "") (descr ""))
 	(lib (name "my_connectors") (type "KiCad") (uri "${KIPRJMOD}/my_connectors.kicad_suym") (options "") (descr ""))
+	(lib (name "usd") (type "KiCad") (uri "${KIPRJMOD}/usd.kicad_sym") (options "") (descr ""))
 )
